@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SPARQLクエリ例 | ナレッジグラフ推論チャレンジ</title>
+    <link rel="stylesheet" href="css/codemirror.css">
+    <script src="js/codemirror.js"></script>
+    <script src="js/sparql.js"></script>
+    <style>
+      .CodeMirror {
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1>SPARQLクエリ例</h1>
+      <h2>SPARQLエンドポイント用クエリ</h2>
+      <p><a href="http://lod.hozo.jp/repositories/kgc#query/d/PREFIX%20rdfs:%20%3Chttp://www.w3.org/2000/01/rdf-schema%23%3E%0APREFIX%20kgc:%20%3Chttp://kgc.knowledge-graph.jp/ontology/kgc.owl#%3E%0APREFIX%20kd:%20%3Chttp://kgc.knowledge-graph.jp/data/SpeckledBand/%3E%0ASELECT%20?id%20?s%0AWHERE%20%7B%0A%20%20?id%20kgc:hasPredicate%20kd:die%20;%0A%20%20kgc:subject%20?s%20.%0A%7D" target="_blank">死んだ人が出てくるシーン一覧</a>(クリックで実行)</p>
+      <textarea class="sparql" name="sparql">
+	#死んだ人が出てくるシーン一覧
+	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+	PREFIX kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#>
+	PREFIX kd: <http://kgc.knowledge-graph.jp/data/SpeckledBand/>
+	SELECT ?id ?s
+	WHERE {
+	  ?id kgc:hasPredicate kd:die ;
+	  kgc:subject ?s .
+	}
+      </textarea>
+
+      <p><a href="http://lod.hozo.jp/repositories/kgc#query/d/PREFIX%20rdfs:%20%3Chttp://www.w3.org/2000/01/rdf-schema%23%3E%0APREFIX%20kgc:%20%3Chttp://kgc.knowledge-graph.jp/ontology/kgc.owl#%3E%0APREFIX%20kd:%20%3Chttp://kgc.knowledge-graph.jp/data/SpeckledBand/%3E%0ASELECT%20?id%20?s%20?o%0AWHERE%20%7B%0A%20%20?id%20kgc:hasPredicate%20kd:have%20;%0A%20%20%20%20kgc:subject%20?s%20;%0A%20%20%20%20kgc:what%20?o%20.%0A%7D" target="_blank">述語「have」に関する主語と目的語</a>(クリックで実行)</p>
+      <textarea class="sparql" name="sparql">
+	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+	PREFIX kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#>
+	PREFIX kd: <http://kgc.knowledge-graph.jp/data/SpeckledBand/>
+	SELECT ?id ?s ?o
+	WHERE {
+	  ?id kgc:hasPredicate kd:have ;
+	    kgc:subject ?s ;
+	    kgc:what ?o .
+	}
+      </textarea>
+
+      <h2>可視化アプリ用クエリ</h2>
+      <textarea class="sparql" name="sparql">
+	#可視化アプリ用
+	#死んだ人
+	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+	PREFIX kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#>
+	PREFIX kd: <http://kgc.knowledge-graph.jp/data/SpeckledBand/>
+	SELECT ?s ?p ?o
+	WHERE {
+	?id ko:hasPredicate kd:die ;
+	   kgc:subject ?s .  
+	   ?s ?p ?o .
+	   }
+	}
+      </textarea>
+      <textarea class="sparql" name="sparql">
+	#可視化アプリ用
+	#ジュリアが死んだ日に関わっている人
+	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+	PREFIX kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#>
+	PREFIX kd: <http://kgc.knowledge-graph.jp/data/SpeckledBand/>
+	SELECT ?s ?p ?o
+	WHERE {
+	  ?id kgc:when kd:death_day_of_Julia ;
+	  kgc:subject ?s .
+	  ?s ?p ?o .
+	  filter(?o != kgc:Situation)
+	}
+      </textarea>
+      <textarea class="sparql" name="sparql">
+	#可視化アプリ用
+	#ロイロット博士に対するイベント
+	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+	PREFIX kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#>
+	PREFIX kd: <http://kgc.knowledge-graph.jp/data/SpeckledBand/>
+	SELECT ?s ?p ?o
+	WHERE {
+	  ?s kgc:whom kd:Roylott .
+	  ?s ?p ?o .
+	  filter(?o != kgc:Situation)
+	}
+      </textarea>
+    </div>
+    <script>
+      var areas = document.getElementsByClassName("sparql");
+      for(var i = 0; i < areas.length; i++) {
+	CodeMirror.fromTextArea(areas.item(i), {
+          lineNumbers: true,
+          mode: "application/sparql-query"
+        });
+      }
+    </script>
+  </body>
+</html>
+
