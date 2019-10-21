@@ -21,6 +21,9 @@ SPARQLエンドポイント　http://lod.hozo.jp/repositories/kgc2019
 ## ライセンス
 本データは人工知能学会セマンティックウェブとオントロジー研究会（SIG-SWO, JSAI）が，[クリエイティブ・コモンズ・ライセンス（表示4.0国際)](https://creativecommons.org/licenses/by/4.0/)のもとで提供しています．
 
+## SPARQLクエリのサンプル
+https://github.com/KnowledgeGraphJapan/KGRC-RDF/blob/master/2019/SPARQLsample.md
+
 ## 可視化ツール
 http://knowledge-graph.jp/visualization/
 
