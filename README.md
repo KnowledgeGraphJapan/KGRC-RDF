@@ -7,5 +7,5 @@
 https://github.com/KnowledgeGraphJapan/Challenge/tree/master/rdf/SpeckledBand
 
 ## 第2回ナレッジグラフ推論チャレンジ2019用  
-https://github.com/KnowledgeGraphJapan/Challenge/tree/master/rdf/2019
+https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/master/2019
  
