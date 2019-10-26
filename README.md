@@ -4,7 +4,7 @@
 　今後は，こちらのレポジトリで公開します（2019/10/18）．
 
 ## 第1回ナレッジグラフ推論チャレンジ2018用
-https://github.com/KnowledgeGraphJapan/Challenge/tree/master/rdf/SpeckledBand
+https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/master/SpeckledBand
 
 ## 第2回ナレッジグラフ推論チャレンジ2019用  
 https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/master/2019
