@@ -202,6 +202,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/visit> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/23_45> ;
     kgc:time  "1887-07-08T23:45:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-08T23:45:00> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/Watson> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/CrookedMan/002> .
@@ -231,7 +232,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:from   <http://kgc.knowledge-graph.jp/data/CrookedMan/Waterloo> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/CrookedMan/Aldershot> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/On_Thursday_at_11_10> ;
-    kgc:time  "1887-07-09T11:10:00"^^xsd:dateTime .
+    kgc:time  "1887-07-09T11:10:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-09T11:10:00> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/005>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは以下を調べている"@ja ;
@@ -260,7 +262,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/happen> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/incident> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/Monday> ;
-    kgc:time  "1887-07-06T00:00:00"^^xsd:dateTime .
+    kgc:time  "1887-07-06T00:00:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-06> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/009>
     rdf:type    kgc:Situation ;
     kgc:source  "ロイヤル・マロウズはアイルランド連隊の一つである"@ja ;
@@ -276,7 +279,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/Royal_Mallows> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/Monday_evening> ;
-    kgc:time  "1887-07-06T20:00:00"^^xsd:dateTime .
+    kgc:time  "1887-07-06T20:00:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-06T20> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/011>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリは歴戦の勇者だった"@ja ;
@@ -292,6 +296,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/first> ;
     kgc:time  "1856-07-06T00:00:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1856-07-06> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/CrookedMan/013> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/013>
     rdf:type    kgc:Situation ;
@@ -303,7 +308,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/CrookedMan/senior_rank> ;
     kgc:why   <http://kgc.knowledge-graph.jp/data/CrookedMan/Indian_Rebellion> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/Indian_Rebellion> ;
-    kgc:time  "1860-07-06T00:00:00"^^xsd:dateTime .
+    kgc:time  "1860-07-06T00:00:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1860-07-06> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/014>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリとナンシィは結婚した"@ja ;
@@ -319,7 +325,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/sergeant> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/at_that_time> ;
-    kgc:time  "1859-07-06T00:00:00"^^xsd:dateTime .
+    kgc:time  "1859-07-06T00:00:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1859-07-06> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/016>
     rdf:type    kgc:Situation ;
     kgc:source  "ナンシィはロイヤル・マロウズの元軍旗軍曹の娘である"@ja ;
@@ -354,7 +361,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/beautiful> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/over_30_years> ;
-    kgc:time  "1856-07-06T00:00:00"^^xsd:dateTime .
+    kgc:time  "1856-07-06T00:00:00"^^xsd:dateTime ;
+    kgc:begin   <http://kgc.knowledge-graph.jp/data/CrookedMan/1856-07-06> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/021>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリは幸福であった"@ja ;
@@ -369,6 +377,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Murphy> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Holmes> ;
     kgc:time  "1887-07-08T00:00:00"^^xsd:dateTime ;
+    kgc:time   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-08> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/023> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/024> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/025> ;
@@ -556,7 +565,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/incident> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/CrookedMan/Rasheen> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/22_o_clock_from_Monday_21_o_clock> ;
-    kgc:time  "1887-07-06T21:00:00"^^xsd:dateTime .
+    kgc:time  "1887-07-06T21:00:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-06T21:00:00> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/049>
     rdf:type    kgc:Situation ;
     kgc:source  "ナンシィは聖ジョージ組合の設立に関わっていた"@ja ;
@@ -616,7 +626,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/start> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/meeting_of_the_St._George_union> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/20_am_on_Monday> ;
-    kgc:time  "1887-07-06T20:00:00"^^xsd:dateTime .
+    kgc:time  "1887-07-06T20:00:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-06T20:00:00> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/057>
     rdf:type    kgc:Situation ;
     kgc:source  "聖ジョージ組合の会合は月曜日の20時40分に終了した"@ja ;
@@ -624,7 +635,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/end> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/meeting_of_the_St._George_union> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/20_40_on_Monday> ;
-    kgc:time  "1887-07-06T20:40:00"^^xsd:dateTime .
+    kgc:time  "1887-07-06T20:40:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-06T20:40:00> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/058>
     rdf:type    kgc:Situation ;
     kgc:source  "ナンシィは月曜日の21時15分にラシーンに帰った"@ja ;
@@ -633,7 +645,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/CrookedMan/Rasheen> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/21_15_on_Monday> ;
-    kgc:time  "1887-07-06T21:15:00"^^xsd:dateTime .
+    kgc:time  "1887-07-06T21:15:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-06T21:15:00> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/059>
     rdf:type    kgc:Situation ;
     kgc:source  "モリソンは月曜日の21時15分にラシーンの前にいた"@ja ;
@@ -642,7 +655,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Morrison> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/CrookedMan/in_front_of_Rasheen> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/21_15_on_Monday> ;
-    kgc:time  "1887-07-06T21:15:00"^^xsd:dateTime .
+    kgc:time  "1887-07-06T21:15:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-06T21:15:00> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/060>
     rdf:type    kgc:Situation ;
     kgc:source  "ラシーンは居間の部屋を一つもつ"@ja ;
@@ -707,8 +721,9 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Nancy was in the living room of the room in 15 minutes at 21."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/21_15> ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/21:15> ;
     kgc:time  "1887-07-06T21:15:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-06T21:15:00> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/CrookedMan/living_room> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/070>
     rdf:type    kgc:Situation ;
@@ -725,8 +740,9 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notHave> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/sunshade> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/living_room> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/21_15> ;
-    kgc:time  "1887-07-06T21:15:00"^^xsd:dateTime .
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/21:15> ;
+    kgc:time  "1887-07-06T21:15:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-06T21:15:00> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/072>
     rdf:type    kgc:Situation ;
     kgc:source  "ナンシィは居間の部屋のランプをつけた"@ja ;
@@ -783,8 +799,9 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Jane took tea in the living room of the room in 25 minutes at 21."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/take> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Jane> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/21_25> ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/21:25> ;
     kgc:time  "1887-07-06T21:25:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-06T21:25:00> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/CrookedMan/living_room> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/tea> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/080>
@@ -1093,7 +1110,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/bad_mood> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/21_15_on_Monday> ;
-    kgc:time  "1887-07-06T21:15:00"^^xsd:dateTime .
+    kgc:time  "1887-07-06T21:15:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-06T21:15:00> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/125>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは以下を思った"@ja ;
@@ -1316,7 +1334,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/not_bad_mood> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/19_30_on_Monday> ;
-    kgc:time  "1887-07-06T19:30:00"^^xsd:dateTime .
+    kgc:time  "1887-07-06T19:30:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-06T19:30:00> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/159>
     rdf:type    kgc:Situation ;
     kgc:source  "月曜日19時30分に、ナンシィとバークリは仲良かった"@ja ;
@@ -1332,7 +1351,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/21_15_on_Monday> ;
-    kgc:time  "1887-07-06T21:15:00"^^xsd:dateTime .
+    kgc:time  "1887-07-06T21:15:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-06T21:15:00> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/161>
     rdf:type    kgc:Situation ;
     kgc:source  "月曜日19時30分から21時の間に、ナンシィはバークリを嫌いになった"@ja ;
@@ -1342,7 +1362,9 @@ kgc:Thought rdf:type owl:Class ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/From_19_30_to_21_00_on_Monday> ;
     kgc:time  "1887-07-06T19:30:00"^^xsd:dateTime ;
-    kgc:time  "1887-07-06T21:00:00"^^xsd:dateTime .
+    kgc:begin   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-06T19:30:00> ;
+    kgc:time  "1887-07-06T21:00:00"^^xsd:dateTime ;
+    kgc:end   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-06T21:00:00> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/162>
     rdf:type    kgc:Situation ;
     kgc:source  "月曜日19時30分から21時の間に、モリソンとナンシィは一緒にいた"@ja ;
@@ -1352,7 +1374,9 @@ kgc:Thought rdf:type owl:Class ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/CrookedMan/together> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/From_19_30_to_21_00_on_Monday> ;
     kgc:time  "1887-07-06T19:30:00"^^xsd:dateTime ;
-    kgc:time  "1887-07-06T21:00:00"^^xsd:dateTime .
+    kgc:begin   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-06T19:30:00> ;
+    kgc:time  "1887-07-06T21:00:00"^^xsd:dateTime ;
+    kgc:end   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-06T21:00:00> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/163>
     rdf:type    kgc:Situation ;
     kgc:source  "モリソンはナンシィの不機嫌の原因を知っている"@ja ;
@@ -1470,7 +1494,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Morrison> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/arrive> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Morrison_AND_Nancy> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/20_45> ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/20:45> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/CrookedMan/Rasheen> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/175>
     rdf:type    kgc:Statement ;
@@ -1772,7 +1796,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/house_of_Henry> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/Wednesday_night> ;
-    kgc:time  "1887-07-08T21:00:00"^^xsd:dateTime .
+    kgc:time  "1887-07-08T21:00:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-08T21:00:00> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/213>
     rdf:type    kgc:Situation ;
     kgc:source  "ヘンリは金曜日からハドソン街の下宿に住んでいる"@ja ;
@@ -1872,8 +1897,10 @@ kgc:Thought rdf:type owl:Class ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/CrookedMan/bedroom> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/Monday_night_AND_Tuesday_night> ;
     kgc:time  "1887-07-06T21:00:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-06T21:00:00> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/Monday_night_AND_Tuesday_night> ;
-    kgc:time  "1887-07-07T21:00:00"^^xsd:dateTime .
+    kgc:time  "1887-07-07T21:00:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-07T21:00:00> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/226>
     rdf:type    kgc:Situation ;
     kgc:source  "ヘンリは大家の女にインドのルピーを渡した"@ja ;
@@ -1973,7 +2000,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Simpson> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/CrookedMan/Hudson_street> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/Thursday> ;
-    kgc:time  "1887-07-09T00:00:00"^^xsd:dateTime .
+    kgc:time  "1887-07-09T00:00:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-09> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/239>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズとワトソンは木曜日にハドソン街についた"@ja ;
@@ -1982,7 +2010,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Holmes_AND_Watson> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/CrookedMan/Hudson_street> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/Thursday> ;
-    kgc:time  "1887-07-09T00:00:00"^^xsd:dateTime .
+    kgc:time  "1887-07-09T00:00:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-09> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/240>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズとワトソンはヘンリに会った"@ja ;
@@ -2183,7 +2212,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/CrookedMan/first_battalion_of_Royal_Mallows> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/30_years_ago> ;
-    kgc:time  "1857-07-09T00:00:00"^^xsd:dateTime .
+    kgc:time  "1857-07-09T00:00:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1857-07-09> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/263>
     rdf:type    kgc:Statement ;
     kgc:source  "ロイヤル・マロウズの第一大隊は30年前にインドのブーテーにいた"@ja ;
@@ -2194,7 +2224,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/CrookedMan/barrack_of_India> ;
     kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/CrookedMan/264> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/30_years_ago> ;
-    kgc:time  "1857-07-09T00:00:00"^^xsd:dateTime .
+    kgc:time  "1857-07-09T00:00:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1857-07-09> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/264>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリとヘンリはロイヤル・マロウズの第一大隊の中隊で軍曹だった"@ja ;
@@ -2230,7 +2261,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley_AND_Henry> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
     kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/CrookedMan/268> ;
-    kgc:time  "1857-07-09T00:00:00"^^xsd:dateTime .
+    kgc:time  "1857-07-09T00:00:00"^^xsd:dateTime ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/CrookedMan/1857-07-09> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/268>
     rdf:type    kgc:Statement ;
     kgc:source  "ナンシィはヘンリを愛していた"@ja ;
@@ -2240,7 +2272,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
     kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/CrookedMan/269> ;
-    kgc:time  "1857-07-09T00:00:00"^^xsd:dateTime .
+    kgc:time  "1857-07-09T00:00:00"^^xsd:dateTime ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/CrookedMan/1857-07-09> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/269>
     rdf:type    kgc:Statement ;
     kgc:source  "ナンシィとバークリは結婚を決められていた"@ja ;
@@ -2251,7 +2284,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/marriage> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/father_of_Nancy> ;
     kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/CrookedMan/270> ;
-    kgc:time  "1857-07-09T00:00:00"^^xsd:dateTime .
+    kgc:time  "1857-07-09T00:00:00"^^xsd:dateTime ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/CrookedMan/1857-07-09> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/270>
     rdf:type    kgc:Statement ;
     kgc:source  "ヘンリは無鉄砲だった"@ja ;
@@ -2260,7 +2294,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/reckless> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
     kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/CrookedMan/271> ;
-    kgc:time  "1857-07-09T00:00:00"^^xsd:dateTime .
+    kgc:time  "1857-07-09T00:00:00"^^xsd:dateTime ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/CrookedMan/1857-07-09> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/271>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリは教養を持っていた"@ja ;
@@ -2269,7 +2304,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/wellEducated> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
     kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/CrookedMan/272> ;
-    kgc:time  "1857-07-09T00:00:00"^^xsd:dateTime .
+    kgc:time  "1857-07-09T00:00:00"^^xsd:dateTime ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/CrookedMan/1857-07-09> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/272>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリは出世できた"@ja ;
@@ -2287,6 +2323,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/Indian_Rebellion> ;
     kgc:time  "1857-06-09T00:00:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1857-06-09> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/274> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/274>
     rdf:type    kgc:Thought ;
@@ -2306,6 +2343,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/civilian> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/CrookedMan/barrack> ;
     kgc:time  "1857-07-09T00:00:00"^^xsd:dateTime ;
+    kgc:time   <http://kgc.knowledge-graph.jp/data/CrookedMan/1857-07-09> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/CrookedMan/276> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/276>
     rdf:type    kgc:Statement ;
@@ -2677,7 +2715,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/rebels> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1857-07-09> ;
-    kgc:time  "1857-07-09T00:00:00"^^xsd:dateTime .
+    kgc:time  "1857-07-09T00:00:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1857-07-09> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/318>
     rdf:type    kgc:Statement ;
     kgc:source  "ヘンリはナンシィとバークリの言い争いを止めようとした"@ja ;
@@ -3417,9 +3456,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/company>
     rdfs:label     "company"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/21_25>
-    rdf:type    kgc:AbstractTime;
-    rdfs:label     "21:25"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notWantToRevenge>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
@@ -3458,9 +3494,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/low>
     rdf:type    kgc:Property;
     rdfs:label     "low"@en.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/21_15>
-    rdf:type    kgc:AbstractTime;
-    rdfs:label     "21:15"@en.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/rebels>
     rdf:type    kgc:Person;
     rdfs:label     "rebels"@en.
@@ -3473,9 +3506,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/blame>
     rdf:type    kgc:Action;
     rdfs:label     "blame"@en.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/20_45>
-    rdf:type    kgc:AbstractTime;
-    rdfs:label     "20:45"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/glaringly>
     rdf:type    kgc:Property;
     rdfs:label     "glaringly"@en.
