@@ -8,6 +8,8 @@
 修正リクエストはGitHubの他、<a href="https://drive.google.com/open?id=1IqiOrPTSvHVBnbAkBJDo3mcWZ3AOHigXS0lWgL94ubQ">こちらのフォーム</a>からも受け付けております。  
 
 SPARQLエンドポイント　http://lod.hozo.jp/repositories/kgc2019  
+★サーバー設置場所の停電対応のため，2019/11/16から一時的に停止しています．
+　→2019/11/19の10:30ごろに再稼働予定です．
 ※2019/08/26バージョンのSPARQLエンドポイントは， http://lod.hozo.jp/repositories/kgc2019_0826 に残してあります．  
   
 |小説|グラフIRI|
