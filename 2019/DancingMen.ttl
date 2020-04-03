@@ -199,7 +199,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "踊る人形が紙に書かれていた"@ja ;
     kgc:source  "Dancing dolls A are drawn on paper"@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/drawn> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beDrawn> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Dancing_dolls_A> ;
     kgc:on   <http://kgc.knowledge-graph.jp/data/DancingMen/paper> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/002>
@@ -225,7 +225,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "人形が紙の上で踊っている"@ja ;
     kgc:source  "Dolls are dancing on paper"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beDancing> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/dancing> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/dolls> ;
     kgc:on   <http://kgc.knowledge-graph.jp/data/DancingMen/paper> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/006>
@@ -246,14 +246,14 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "踊る人形aが鉛筆で描かれていた"@ja ;
     kgc:source  "Dancing dolls A are drawn with a pencil"@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/drawn> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beDrawn> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Dancing_dolls_A> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/DancingMen/pencil> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/009>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットは昨年，結婚した"@ja ;
     kgc:source  "Qubit get married last year"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/getMarried> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/marry> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/DancingMen/Elsie> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/last_year> ;
@@ -436,7 +436,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "踊る人形は夜に描かれた"@ja ;
     kgc:source  "Dancing dolls are drawn at night"@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/drawn> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beDrawn> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Dancing_dolls> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/night> ;
     kgc:time  "1903-07-23T02:00:00"^^xsd:dateTime ;
@@ -482,7 +482,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットは踊る人形をホームズに送った"@ja ;
     kgc:source  "Qubit sends a dancing doll to Holmes"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sent> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/send> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Dancing_dolls> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/DancingMen/Holmes> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> .
@@ -566,7 +566,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "踊る人形Bは物置の扉の上にチョークで描かれていた"@ja ;
     kgc:source  "Dancing dolls B are drawn with chalk on the door of the storeroom"@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/drawn> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beDrawn> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Dancing_dolls_B> ;
     kgc:on   <http://kgc.knowledge-graph.jp/data/DancingMen/Storage_door> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/DancingMen/Chalk> ;
@@ -575,7 +575,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "2日後の朝、踊る人形cが描かれていた"@ja ;
     kgc:source  "Two days later, Dancing dolls C are drawn in the morning"@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/drawn> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beDrawn> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Dancing_dolls_C> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/morning_after_2_days> ;
     kgc:time  "1903-08-01T08:00:00"^^xsd:dateTime ;
@@ -585,7 +585,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "3日後、紙の上に踊る人形Cが描かれていた"@ja ;
     kgc:source  "Three days later, Dancing dolls C are drawn on paper"@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/drawn> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beDrawn> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Dancing_dolls_C> ;
     kgc:on   <http://kgc.knowledge-graph.jp/data/DancingMen/paper> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/3_days_later> ;
@@ -667,7 +667,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "翌朝、物置の扉の上に踊る人形Dが描かれていた"@ja ;
     kgc:source  "The next morning, Dancing dolls D are drawn on the door of the storeroom"@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/drawn> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beDrawn> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Dancing_dolls_D> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/the_next_morning> ;
     kgc:time  "1903-08-03T08:00:00"^^xsd:dateTime ;
@@ -677,14 +677,14 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "踊る人形Dは板2に描かれていた"@ja ;
     kgc:source  "Dancing dolls D are drawn on the Board 2"@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/drawn> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beDrawn> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/DancingMen/Board_2> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Dancing_dolls_D> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/62a>
     rdf:type    kgc:Situation ;
     kgc:source  "踊る人形Cは板1に描かれていた"@ja ;
     kgc:source  "Dancing dolls C are drawn on the Board 1"@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/drawn> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beDrawn> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/DancingMen/Board_1> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Dancing_dolls_C> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/62b>
@@ -776,7 +776,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "2日目の朝、日時計の上に踊る人形eが描かれていた"@ja ;
     kgc:source  "In the morning of the second day, Dancing doll E are drawn on the sundial"@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/drawn> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beDrawn> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Dancing_dolls_E> ;
     kgc:on   <http://kgc.knowledge-graph.jp/data/DancingMen/Sundial> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/the_second_morning> ;
@@ -1096,7 +1096,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "書斎は動かされていなかった"@ja ;
     kgc:source  "The study room is not moved"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notMoved> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notBeMoved> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Study_room> ;
     kgc:time  "1903-08-06T04:02:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/1903-08-06T04:02> .
@@ -1172,7 +1172,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットの着衣は乱れていた"@ja ;
     kgc:source  "The qubit's clothes were disordered"@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/moved> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beMoved> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/nightwear_of_Qubit> ;
     kgc:time  "1903-08-06T14:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/1903-08-06T14> .
@@ -1829,7 +1829,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "エルシィとエイブ・スレイニは婚約していた"@ja ;
     kgc:source  "Elsie and Abe_Slaney are engaged"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Abe_Slaney> ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/engaged> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/engage> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Abe_Slaney> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Elsie> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/207>
@@ -2017,9 +2017,9 @@ kgc:Thought rdf:type owl:Class ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Dancing_dolls_J> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Elsie> .
 #Objectとして参照されているリソースの定義
-<http://kgc.knowledge-graph.jp/data/predicate/getMarried>
+<http://kgc.knowledge-graph.jp/data/predicate/marry>
     rdf:type    kgc:Action;
-    rdfs:label     "getMarried"@en.
+    rdfs:label     "marry"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/say>
     rdf:type    kgc:Action;
     rdfs:label     "say"@en.
@@ -2035,9 +2035,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/tube>
     rdfs:label     "tube"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/predicate/drawn>
-    rdf:type    kgc:Property;
-    rdfs:label     "drawn"@en.
+<http://kgc.knowledge-graph.jp/data/predicate/beDrawn>
+    rdf:type    kgc:Action;
+    rdfs:label     "be drawn"@en.
 <http://kgc.knowledge-graph.jp/data/Elridge>
     rdf:type    kgc:Place;
     rdfs:label     "Elridge"@en.
@@ -2336,9 +2336,15 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/beClosed>
     rdf:type    kgc:Action;
     rdfs:label     "beClosed"@en.
-<http://kgc.knowledge-graph.jp/data/predicate/moved>
-    rdf:type    kgc:Property;
-    rdfs:label     "moved"@en.
+<http://kgc.knowledge-graph.jp/data/predicate/beMoved>
+    rdf:type    kgc:Action;
+    rdfs:label     "be moved"@en.
+
+<http://kgc.knowledge-graph.jp/data/predicate/notBeMoved>
+    rdf:type    kgc:NotAction;
+    kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/beMoved>;
+    rdfs:label     "not be moved"@en.
+
 <http://kgc.knowledge-graph.jp/data/DancingMen/_L_>
     rdf:type    kgc:PhysicalObject.
 <http://kgc.knowledge-graph.jp/data/predicate/notKnow>
@@ -2514,9 +2520,9 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/DancingMen/face>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/DancingMen/Elsie>.
-<http://kgc.knowledge-graph.jp/data/predicate/beDancing>
+<http://kgc.knowledge-graph.jp/data/predicate/dancing>
     rdf:type    kgc:Action;
-    rdfs:label     "beDancing"@en.
+    rdfs:label     "dancing"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/old_family>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "old family"@en.
@@ -2653,9 +2659,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/walk>
     rdf:type    kgc:Action;
     rdfs:label     "walk"@en.
-<http://kgc.knowledge-graph.jp/data/predicate/engaged>
-    rdf:type    kgc:Property;
-    rdfs:label     "engaged"@en.
+<http://kgc.knowledge-graph.jp/data/predicate/engage>
+    rdf:type    kgc:Action;
+    rdfs:label     "engage"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/exist>
     rdf:type    kgc:Action;
     rdfs:label     "exist"@en.
@@ -2734,9 +2740,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/split>
     rdf:type    kgc:Action;
     rdfs:label     "split"@en.
-<http://kgc.knowledge-graph.jp/data/predicate/sent>
-    rdf:type    kgc:Action;
-    rdfs:label     "sent"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/wellUnderstood>
     rdf:type    kgc:Property;
     rdfs:label     "wellUnderstood"@en.
@@ -3044,11 +3047,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/garden>
     rdf:type    kgc:Place;
     rdfs:label     "garden"@en.
-<http://kgc.knowledge-graph.jp/data/predicate/notMoved>
-    rdf:type    kgc:Action;
-    rdf:type    kgc:NotAction;
-    kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/moved>;
-    rdfs:label     "notMoved"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/_A_>
     rdf:type    kgc:PhysicalObject.
 <http://kgc.knowledge-graph.jp/data/Past>
