@@ -210,7 +210,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズはワトソンに以下を頼んだ"@ja ;
     kgc:source  "Holmes asked Watson."@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/visit> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/ask> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Holmes> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Watson> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/003> .
@@ -292,8 +292,9 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "バークリは初めは一兵卒だった"@ja ;
     kgc:source  "Berkeley was a soldier at first."@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/soldier> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/soldier> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/first> ;
     kgc:time  "1856-07-06T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1856-07-06> ;
@@ -414,7 +415,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ナンシィとバークリはロイヤル・マロウズの中で中年夫婦の理想像であった"@ja ;
     kgc:source  "Nancy and Berkeley was the ideal image of a middle-aged couple in the Royal Mallows."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/22> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/ideal_image_of_middle-aged_couple> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/ideal_image_of_middle-aged_couple> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley_AND_Nancy> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/CrookedMan/Royal_Mallows> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/027>
@@ -553,9 +555,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "バークリは滅多に客を泊まらせない"@ja ;
     kgc:source  "Berkeley is rarely not stay overnight guests."@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/rarelyHave> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
-    kgc:how   <http://kgc.knowledge-graph.jp/data/CrookedMan/rarely> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/guest> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/048>
     rdf:type    kgc:Situation ;
@@ -601,7 +602,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "モリソンは若い女性である"@ja ;
     kgc:source  "Morrison is a young woman."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/young_woman> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
+    kgc:what  <http://kgc.knowledge-graph.jp/data/CrookedMan/young_woman> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Morrison> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/054>
     rdf:type    kgc:Situation ;
@@ -1239,7 +1241,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "獣は鳥を捕まえようとした"@ja ;
     kgc:source  "Beast tried to catch the bird."@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/try_to_catch> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/tryToCatch> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/beast> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/bird> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/145>
@@ -1717,7 +1719,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ナンシィとヘンリは昔なじみである"@ja ;
     kgc:source  "Nancy and Henry are old friends."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/old_friend> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/old_friend> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy_AND_Henry> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/204>
     rdf:type    kgc:Statement ;
@@ -1826,7 +1829,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ヘンリは手品師と芸人をしている"@ja ;
     kgc:source  "Henry is a magician and entertainer."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/owner_of_lodge_of_Hudson_street> ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/magician_AND_entertainer> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/magician_AND_entertainer> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/216>
     rdf:type    kgc:Statement ;
@@ -1980,8 +1984,9 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "シンプソンはベイカー街少年団の一人である"@ja ;
     kgc:source  "Simpson is one of the Baker Street Boy Scouts."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/boy_scout> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Simpson> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/boy_scout> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/CrookedMan/Baker_Street> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/237>
     rdf:type    kgc:Situation ;
@@ -2279,7 +2284,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ナンシィとバークリは結婚を決められていた"@ja ;
     kgc:source  "Nancy and Berkeley had been decided to get married."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/decided> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beDecided> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy_AND_Berkeley> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/marriage> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/father_of_Nancy> ;
@@ -3220,6 +3225,11 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Nancy_AND_old_friends>
     rdfs:label     "Nancy AND old friends"@en;
     rdf:type    kgc:Object.
+
+<http://kgc.knowledge-graph.jp/data/CrookedMan/old_friend>
+    rdfs:label     "old friends"@en;
+    rdf:type    kgc:Object.
+
 <http://kgc.knowledge-graph.jp/data/Berkeley>
     rdf:type    kgc:Person;
     rdfs:label     "Berkeley"@en.
@@ -3243,9 +3253,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/beast>
     rdf:type    kgc:Animal;
     rdfs:label     "beast"@en.
-<http://kgc.knowledge-graph.jp/data/predicate/try_to_catch>
+<http://kgc.knowledge-graph.jp/data/predicate/tryToCatch>
     rdf:type    kgc:Action;
-    rdfs:label     "try_to_catch"@en.
+    rdfs:label     "try to catch"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/wander>
     rdf:type    kgc:Action;
     rdfs:label     "wander"@en.
@@ -3394,9 +3404,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/hit>
     rdf:type    kgc:Action;
     rdfs:label     "hit"@en.
-<http://kgc.knowledge-graph.jp/data/predicate/ideal_image>
-    rdfs:label     "ideal image"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/scare>
     rdf:type    kgc:Action;
     rdfs:label     "scare"@en.
@@ -3461,15 +3468,19 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/wanttorevenge>;
     rdfs:label     "notWantToRevenge"@en.
+
+<http://kgc.knowledge-graph.jp/data/predicate/rarelyHave>
+    rdf:type    kgc:Action;
+    rdf:type    kgc:RarelyAction;
+    kgc:Rarely    <http://kgc.knowledge-graph.jp/data/predicate/have>;
+    rdfs:label     "rarelyHave"@en.
+
 <http://kgc.knowledge-graph.jp/data/CrookedMan/bedroom>
     rdf:type    kgc:Place;
     rdfs:label     "bedroom"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/turnOn>
     rdf:type    kgc:Action;
     rdfs:label     "turnOn"@en.
-<http://kgc.knowledge-graph.jp/data/predicate/boy_scout>
-    rdf:type    kgc:Property;
-    rdfs:label     "boy scout"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/bent>
     rdf:type    kgc:Property;
     rdfs:label     "bent"@en.
@@ -3687,9 +3698,6 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/meet>;
     rdfs:label     "notMeet"@en.
-<http://kgc.knowledge-graph.jp/data/predicate/soldier>
-    rdf:type    kgc:Action;
-    rdfs:label     "soldier"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/catch>
     rdf:type    kgc:Action;
     rdfs:label     "catch"@en.
@@ -3820,6 +3828,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/keep>
     rdf:type    kgc:Action;
     rdfs:label     "keep"@en.
+
 <http://kgc.knowledge-graph.jp/data/predicate/overlook>
     rdf:type    kgc:Action;
     rdfs:label     "overlook"@en.
@@ -3870,6 +3879,11 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Henry_AND_witness>
     rdfs:label     "Henry AND witness"@en;
     rdf:type    kgc:Object.
+
+<http://kgc.knowledge-graph.jp/data/CrookedMan/boy_scout>
+    rdfs:label     "boy scout"@en;
+    rdf:type    kgc:Object.
+
 <http://kgc.knowledge-graph.jp/data/CrookedMan/3_inches>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "3 inches"@en.
@@ -4402,9 +4416,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/not_bad_mood>
     rdf:type    kgc:Property;
     rdfs:label     "not bad mood"@en.
-<http://kgc.knowledge-graph.jp/data/predicate/old_friend>
-    rdf:type    kgc:Property;
-    rdfs:label     "old friend"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/wellEducated>
     rdf:type    kgc:Property;
     rdfs:label     "wellEducated"@en.
@@ -4496,8 +4507,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/stoop>
     rdf:type    kgc:Property;
     rdfs:label     "stoop"@en.
-<http://kgc.knowledge-graph.jp/data/predicate/magician_AND_entertainer>
-    rdf:type    kgc:Property;
+<http://kgc.knowledge-graph.jp/data/CrookedMan/magician_AND_entertainer>
+    rdf:type    kgc:Object;
     rdfs:label     "magician AND entertainer"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/suppress>
     rdf:type    kgc:Action;
@@ -4602,13 +4613,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/slender>
     rdf:type    kgc:Property;
     rdfs:label     "slender"@en.
-<http://kgc.knowledge-graph.jp/data/predicate/ideal_image_of_middle-aged_couple>
-    rdf:type    kgc:Action;
-    rdfs:label     "ideal image of middle-aged couple"@en;
-    rdf:type    kgc:OFobj;
-    rdf:type    kgc:PhysicalObject;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/predicate/ideal_image>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/predicate/middle-aged_couple>.
 <http://kgc.knowledge-graph.jp/data/predicate/arrive>
     rdf:type    kgc:Action;
     rdfs:label     "arrive"@en.
