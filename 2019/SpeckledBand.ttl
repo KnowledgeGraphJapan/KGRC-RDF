@@ -757,7 +757,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "事件当夜，ジュリアが鍵を開けた"@ja ;
     kgc:source  "Julia opened the key on death day of Julia"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/not_Lock> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/unlock> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia> ;
     kgc:time  "1881-12-02T00:00:00"^^xsd:DateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/death_day_of_Julia> ;
@@ -786,7 +786,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "事件当夜，ジュリアはふらふらしていた"@ja ;
     kgc:source  "Julia was fluffy on death day of Julia"@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/beDizzy> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/dizzy> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia> ;
     kgc:time  "1881-12-02T00:00:00"^^xsd:DateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/death_day_of_Julia> ;
@@ -986,7 +986,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "ヘレンはジュリアの部屋のドアの内側から鍵がかかっていたことを証言した。"@ja ;
     kgc:source  "Helen testified that the lock was locked from inside the door of bedroom of Julia."@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/testified> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/testify> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/SpeckledBand/coroner> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/93>.
@@ -1247,7 +1247,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "クラウン・インは旅館。"@ja ;
     kgc:source  "Crown Inn is a ryokan."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/hotel> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/equalTo> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/hotel>;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Crown_Inn>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/126>
     rdf:type    kgc:Situation;
@@ -1891,7 +1892,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "ジュリアの部屋の床は虫の食った褐色の樫材。"@ja ;
     kgc:source  "The floor of bedroom of Julia is a brown oak material that insect bites."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/brown_oak_of_insect_holes> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/madeByBrownOakWithInsectHoles> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/floor_of_bedroom_of_Julia>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/206>
     rdf:type    kgc:Situation;
@@ -1992,7 +1993,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "「実に妙だ！」と、ホームズは言った"@ja ;
     kgc:source  "It is really strange!, Holmes said."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/beStrange> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/strange> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/rope_of_bell> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/219>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/219>
@@ -2065,7 +2066,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "そのほかにも少し直したところがいくつもある"@ja ;
     kgc:source  "In addition there are several places I fixed a little."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/modified> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/beModified> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/bedroom_of_Julia>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/227>
     rdf:type    kgc:Situation;
@@ -2087,7 +2088,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "飾りだけの引き綱"@ja ;
     kgc:source  "Only a decorative rope."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/decorated> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/beDecorated> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/rope_of_bell>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/231>
     rdf:type    kgc:Situation;
@@ -2511,7 +2512,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "穴は小さいはず"@ja ;
     kgc:source  "The hole should be small."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/beSmall> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/small> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/hole> ;
     kgc:otherwise   <http://kgc.knowledge-graph.jp/data/SpeckledBand/278>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/278>
@@ -2568,7 +2569,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "寝台は床に金具で固定してあった"@ja ;
     kgc:source  "The bed was fixed to the floor with metal fittings."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/fixed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/beFixed> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/bed> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/bedroom_of_Julia> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/floor_of_bedroom_of_Julia> ;
@@ -2577,7 +2578,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "普通の寝台は床に固定されない"@ja ;
     kgc:source  "A bed in the other room is not fixed to the floor."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/notFixed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/notBeFixed> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/bed> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/bedroom_of_Helen> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/floor_of_bedroom_of_Helen>.
@@ -2660,7 +2661,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "なぜなら，ワトソンの命に関わるから"@ja ;
     kgc:source  "Because it affect Watson's life."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/beDanger> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/danger> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Watson>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/297>
     rdf:type    kgc:Situation;
@@ -2724,7 +2725,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "部屋は真っ暗。"@ja ;
     kgc:source  "The bedroom gets dark."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/getDark> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/dark> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/bedroom_of_Julia> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/305>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/305>
@@ -2786,7 +2787,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "油が燃え、金属が熱せられるきつい匂い"@ja ;
     kgc:source  "Oil burns, a strong smell that the metal is heated."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/burned> ;
+    kgc:hasPreidcate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/burn> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/smell> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/metal> ;
     kgc:why   <http://kgc.knowledge-graph.jp/data/SpeckledBand/312>.
@@ -2851,13 +2852,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "かすかな音は，ごく柔らかな"@ja ;
     kgc:source  "The faint sound is very soft."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/beSoftly> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/softly> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/sound>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/319>
     rdf:type    kgc:Situation;
     kgc:source  "かすかな音は，穏やかな"@ja ;
     kgc:source  "Faint sound is calm."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/beFaint> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/faint> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/sound>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/320>
     rdf:type    kgc:Situation;
@@ -2997,7 +2998,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "悲鳴が消える"@ja ;
     kgc:source  "Scream disappears."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/disappeared> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/disappear> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/scream>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/338>
     rdf:type    kgc:Statement;
@@ -3068,7 +3069,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "金庫の戸が開いていた"@ja ;
     kgc:source  "The safe door was open."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/opened> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/open> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/door_of_safe>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/347>
     rdf:type    kgc:Situation;
@@ -3103,7 +3104,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "鞭は短い柄に長いひものついたもの"@ja ;
     kgc:source  "Whip has a short handle with a long string."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/strapped> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/strap> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/dog_whip>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/352>
     rdf:type    kgc:Situation;
@@ -3286,7 +3287,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "綱は飾りだった"@ja ;
     kgc:source  "The rope was a fake."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/beFake> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/fake> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/rope_of_bell> ;
     kgc:time  "1883-04-01T15:00:00"^^xsd:DateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/death_day_of_Roylott>.
@@ -3294,7 +3295,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "寝台は固定されていた"@ja ;
     kgc:source  "The bed was fixed."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/beFixed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/beFixed> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/bed> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/floor> ;
     kgc:time  "1883-04-01T15:00:00"^^xsd:DateTime ;
@@ -3353,14 +3354,14 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "蛇の毒には即効性がある"@ja ;
     kgc:source  "Snake poison has immediate effect."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/effected> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/effect> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/poison_of_snake> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/SpeckledBand/immediately>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/381>
     rdf:type    kgc:Situation;
     kgc:source  "蛇の毒牙は目立たない"@ja ;
     kgc:source  "Some of snake poisons are not noticeable."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/beUnobservable> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/unobservable> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/poison_of_snake>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/382>
     rdf:type    kgc:Situation;
@@ -3496,7 +3497,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "蛇は怒っていた"@ja ;
     kgc:source  "The snake was angry."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/getAngry> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/angry> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/snake> ;
     kgc:time  "1883-04-01T23:00:00"^^xsd:DateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/death_day_of_Roylott> ;
@@ -3541,9 +3542,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Have>
     rdfs:label     "Have"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/beDanger>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/danger>
     rdf:type    kgc:Property;
-    rdfs:label     "beDanger"@en.
+    rdfs:label     "danger"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/left_building>
     rdfs:label     "left building"@en;
     rdf:type    kgc:Object.
@@ -3581,9 +3582,9 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:CanNotAction;
     kgc:canNot    <http://kgc.knowledge-graph.jp/data/SpeckledBand/move>;
     rdfs:label     "cannotMove"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/notFixed>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/notBeFixed>
     rdf:type    kgc:Property;
-    rdfs:label     "notFixed"@en.
+    rdfs:label     "notBeFixed"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/reward>
     rdfs:label     "reward"@en;
     rdf:type    kgc:Object.
@@ -3881,9 +3882,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Lock>
     rdfs:label     "Lock"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/beUnobservable>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/unobservable>
     rdf:type    kgc:Property;
-    rdfs:label     "beUnobservable"@en.
+    rdfs:label     "unobservable"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/query>
     rdf:type    kgc:Action;
     rdfs:label     "query"@en.
@@ -3938,9 +3939,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/storm>
     rdf:type    kgc:Object;
     rdfs:label     "storm"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/getAngry>
-    rdf:type    kgc:Action;
-    rdfs:label     "getAngry"@en;
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/angry>
+    rdf:type    kgc:Property;
+    rdfs:label     "angry"@en;
     rdf:type    kgc:Property.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/suffering>
     rdfs:label     "suffering"@en;
@@ -3961,9 +3962,9 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/right_building>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/mansion>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott>.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/modified>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/beModified>
     rdf:type    kgc:Property;
-    rdfs:label     "modified"@en.
+    rdfs:label     "be modified"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/roof_of_masion>
     rdf:type    kgc:Object;
     rdfs:label     "roof of masion"@en;
@@ -4025,9 +4026,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/bridge>
     rdf:type    kgc:Action;
     rdfs:label     "bridge"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/effected>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/effect>
     rdf:type    kgc:Property;
-    rdfs:label     "effected"@en.
+    rdfs:label     "effect"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/bedroom_of_Julia>
     rdf:type    kgc:Place;
     rdfs:label     "bedroom of Julia"@en;
@@ -4083,9 +4084,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/obtain>
     rdf:type    kgc:Action;
     rdfs:label     "obtain"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/strapped>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/strap>
     rdf:type    kgc:Property;
-    rdfs:label     "strapped"@en.
+    rdfs:label     "strap"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/ventilator>
     rdf:type    kgc:Object;
     rdfs:label     "ventilator"@en.
@@ -4151,12 +4152,12 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/voice>
     rdfs:label     "voice"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/beSmall>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/small>
     rdf:type    kgc:Property;
-    rdfs:label     "beSmall"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/decorated>
+    rdfs:label     "small"@en.
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/beDecorated>
     rdf:type    kgc:Property;
-    rdfs:label     "decorated"@en.
+    rdfs:label     "beDecorated"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/talk>
     rdf:type    kgc:Action;
     rdfs:label     "talk"@en.
@@ -4335,9 +4336,9 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/SpeckledBand/sleep>;
     rdfs:label     "notSleep"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/getDark>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/dark>
     rdf:type    kgc:Property;
-    rdfs:label     "getDark"@en.
+    rdfs:label     "dark"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/neck>
     rdfs:label     "neck"@en;
     rdf:type    kgc:Object.
@@ -4347,9 +4348,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/lightly>
     rdfs:label     "lightly"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/opened>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/open>
     rdf:type    kgc:Property;
-    rdfs:label     "opened"@en.
+    rdfs:label     "open"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/meet>
     rdf:type    kgc:Action;
     rdfs:label     "meet"@en.
@@ -4393,7 +4394,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/1100_GBP>
     rdf:type    kgc:Property;
     rdfs:label     "1100 GBP"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/not_Lock>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/unlock>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/SpeckledBand/lock>;
@@ -4407,9 +4408,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/notKnown>
     rdf:type    kgc:Property;
     rdfs:label     "notKnown"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/beFaint>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/faint>
     rdf:type    kgc:Property;
-    rdfs:label     "beFaint"@en.
+    rdfs:label     "faint"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/result>
     rdfs:label     "result"@en;
     rdf:type    kgc:Object.
@@ -4481,9 +4482,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/change>
     rdf:type    kgc:Action;
     rdfs:label     "change"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/beStrange>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/strange>
     rdf:type    kgc:Property;
-    rdfs:label     "beStrange"@en.
+    rdfs:label     "strange"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/masion_of_Roylott>
     rdfs:label     "masion of Roylott"@en;
     rdf:type    kgc:OFobj;
@@ -4509,9 +4510,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/exist>
     rdf:type    kgc:Action;
     rdfs:label     "exist"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/burned>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/burn>
     rdf:type    kgc:Property;
-    rdfs:label     "burned"@en.
+    rdfs:label     "burn"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/right_building_of_mansion_of_Roylott>
     rdfs:label     "right building of mansion of Roylott"@en;
     rdf:type    kgc:OFobj;
@@ -4656,9 +4657,9 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/friend>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott>.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/testified>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/testify>
     rdf:type    kgc:Action;
-    rdfs:label     "testified"@en.
+    rdfs:label     "testify"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Percy_Armitage>
     rdf:type    kgc:Person;
     rdfs:label     "Percy Armitage"@en.
@@ -4689,9 +4690,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/hit>
     rdf:type    kgc:Action;
     rdfs:label     "hit"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/fixed>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/beFixed>
     rdf:type    kgc:Property;
-    rdfs:label     "fixed"@en.
+    rdfs:label     "beFixed"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/work>
     rdf:type    kgc:Action;
     rdfs:label     "work"@en.
@@ -4709,9 +4710,9 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:CanNotAction;
     kgc:canNot    <http://kgc.knowledge-graph.jp/data/SpeckledBand/open>;
     rdfs:label     "cannotOpen"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/beFake>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/fake>
     rdf:type    kgc:Property;
-    rdfs:label     "beFake"@en.
+    rdfs:label     "fake"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/30_years_old>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "30 years old"@en.
@@ -4752,10 +4753,14 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/madeByBrownOakWithInsectHoles>
     rdf:type    kgc:Property;
-    rdfs:label     "madeByBrownOakWithInsectHoles"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/beSoftly>
+    rdfs:label     "madeByBrownOakWithInsectHoles"@en;
+    rdf:type    kgc:OFobj;
+    rdf:type    kgc:Object;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/brownOak>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/insectHoles>.
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/softly>
     rdf:type    kgc:Property;
-    rdfs:label     "beSoftly"@en.
+    rdfs:label     "softly"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/come>
     rdf:type    kgc:Action;
     rdfs:label     "come"@en.
@@ -4902,7 +4907,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Go>
     rdfs:label     "Go"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/insect_holes>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/insectHoles>
     rdfs:label     "insect holes"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/burned_match>
@@ -4989,9 +4994,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/quietly>
     rdfs:label     "quietly"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/beDizzy>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/dizzy>
     rdf:type    kgc:Property;
-    rdfs:label     "beDizzy"@en.
+    rdfs:label     "dizzy"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/friend>
     rdfs:label     "friend"@en;
     rdf:type    kgc:Object.
@@ -5063,7 +5068,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/door>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/safe>.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/brown_oak>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/brownOak>
     rdfs:label     "brown oak"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Leopard>
@@ -5072,13 +5077,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/scream>
     rdf:type    kgc:Object;
     rdfs:label     "scream"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/brown_oak_of_insect_holes>
-    rdf:type    kgc:Property;
-    rdfs:label     "brown oak of insect holes"@en;
-    rdf:type    kgc:OFobj;
-    rdf:type    kgc:Object;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/brown_oak>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/insect_holes>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/engagement_of_Julia>
     rdf:type    kgc:Object;
     rdfs:label     "engagement of Julia"@en;
@@ -5312,9 +5310,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/two_years_ago>
     rdfs:label     "two years ago"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/disappeared>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/disappear>
     rdf:type    kgc:Property;
-    rdfs:label     "disappeared"@en.
+    rdfs:label     "disappear"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/bedroom_of_housekeeper>
     rdf:type    kgc:Place;
     rdfs:label     "bedroom of housekeeper"@en;
