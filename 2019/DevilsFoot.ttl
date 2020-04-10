@@ -228,14 +228,14 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ラウンドヘイは民間伝承の知識を持つ"@ja ;
     kgc:source  "Roundhay has the knowledge of folklore"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Have> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Knowledge_of_folklore> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/006>
     rdf:type    kgc:Situation ;
     kgc:source  "モーティマーは財産を持っていた"@ja ;
     kgc:source  "Mortimer had possessions"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Have> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/property> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/007>
@@ -259,7 +259,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "3月16日朝食直後に、ラウンドヘイとモーティマーがポルデュー湾のコテージに来た"@ja ;
     kgc:source  "Roundhay and Mortimer came to the Pordeux Bay cottages just after breakfast on March 16"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Came> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/come> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/DevilsFoot/In_a_cottage_in_the_Pordeux_Bay> ;
@@ -286,7 +286,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "昨日の夜に、事件が起きた"@ja ;
     kgc:source  "An incident happened yesterday night"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/woke_up> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/happen> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Incident> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Yesterday_night> ;
     kgc:time  "1897-03-15T20:00:00"^^xsd:dateTime ;
@@ -303,7 +303,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "事件は悲劇的だ"@ja ;
     kgc:source  "The incident is tragic"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/It_is_tragic> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/tragic> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Incident> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/015>
     rdf:type    kgc:Situation ;
@@ -316,7 +316,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "モーティマーはラウンドヘイに以下を尋ねた"@ja ;
     kgc:source  "Mortimer asked Roundhey:"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Asked> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/ask> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/017> .
@@ -346,14 +346,14 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ラウンドヘイに話を勧めた"@ja ;
     kgc:source  "I recommended talk to Roundhay"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Recommended> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/recommend> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Talk> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/021>
     rdf:type    kgc:Situation ;
     kgc:source  "ラウンドヘイは以下を言った"@ja ;
     kgc:source  "Roundhay said the following"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Said> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/022> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/023> ;
@@ -412,7 +412,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "10時過ぎで、モーティマーはトリジェニス家から帰った"@ja ;
     kgc:source  "After 10 o'clock, Mortimer came home from Trigenis."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Went_back> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/return> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Past_10_o_clock> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:from   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Trigenis_House> .
@@ -432,7 +432,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "10時過ぎで、オーウェンとジョージとブレンダは元気だった"@ja ;
     kgc:source  "After 10 o'clock Owen, George and Brenda were fine"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/How_have_you_been> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/fine> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/George> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Brenda> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Owen> ;
@@ -472,7 +472,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "モーティマーはドクター・リチャードに会った"@ja ;
     kgc:source  "Mortimer met Dr. Richard"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/met> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/meet> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Doctor_Richard> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/031>
@@ -480,7 +480,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ドクター・リチャードは緊急連絡を受けた"@ja ;
     kgc:source  "Doctor Richard got an emergency call"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Received> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/receive> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Doctor_Richard> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Emergency_call> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/032>
@@ -497,7 +497,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "モーティマーとドクター・リチャードはトリダニック・ワーサに到着した"@ja ;
     kgc:source  "Mortimer and Dr. Richard arrived at Toridanic Wortha"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Arrived> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/arrive> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/With_Mortimer> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/033>
     rdf:type    kgc:Situation ;
@@ -515,7 +515,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "オーウェンとジョージとブレンダはテーブルに座っていた"@ja ;
     kgc:source  "Owen and George and Brenda sat at a table"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Sat> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sit> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/George> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Brenda> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Owen> ;
@@ -548,7 +548,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ブレンダは死んでいた"@ja ;
     kgc:source  "Brenda was dead"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/It_was_dead> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/dead> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Brenda> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/040>
     rdf:type    kgc:Statement ;
@@ -562,7 +562,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "オーウェンとジョージはブレンダの両脇に座っていた"@ja ;
     kgc:source  "Owen and George sat on both sides of Brenda"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Sat> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sit> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Owen> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/George> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Brenda_s_both_sides> .
@@ -587,7 +587,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "オーウェンとジョージは歌っていた"@ja ;
     kgc:source  "Owen and George were singing"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/I_was_singing> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/singing> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Owen> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/George> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/045>
@@ -636,7 +636,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ポーターは以下を言った"@ja ;
     kgc:source  "The porter said"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Said> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Porter> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/051> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/052> .
@@ -662,7 +662,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "オーウェンとジョージとブレンダは何も盗まれなかった"@ja ;
     kgc:source  "Owen, George, and Brenda didn't steal anything"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/I_was_not_stolen> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notBeStolen> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/George> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Brenda> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Owen> ;
@@ -672,14 +672,14 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "トリジェニス家は荒らされなかった"@ja ;
     kgc:source  "The Trigenis family was not ruined"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/It_was_not_ruined> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notBeRuined> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Trigenis_House> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/055>
     rdf:type    kgc:Statement ;
     kgc:source  "ラウンドヘイはブレンダの死の理由を分からない"@ja ;
     kgc:source  "Roundhay does not know the reason for Brenda's death"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/I_do_not_understand> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notKnow> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/The_reason_for_Brenda_s_death> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/056>
@@ -687,14 +687,14 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ラウンドヘイはオーウェンとジョージの狂気の理由をわからない"@ja ;
     kgc:source  "Roundhay does not know the reason for Owen and George's madness"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/do_not_know> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notKnow> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Owen_and_George_s_reason_for_the_madness> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/057>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは以下を思った"@ja ;
     kgc:source  "Holmes thought the following"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/thought> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/think> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/058> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/058>
@@ -702,14 +702,14 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "事件は異常な性質を持つ"@ja ;
     kgc:source  "Incidents have an unusual nature"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_thoughts> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Have> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Incident> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Unusual_nature> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/059>
     rdf:type    kgc:Situation ;
     kgc:source  "ラウンドヘイは以下を言った"@ja ;
     kgc:source  "Roundhay said the following"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Said> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/060> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/061> ;
@@ -722,7 +722,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ラウンドヘイはトリジェニス家にいかなかった"@ja ;
     kgc:source  "Roundhaye did not go to Trigenis"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/I_did_not_go> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notGo> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Trigenis_House> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/061>
@@ -730,7 +730,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "モーティマーは牧師館へ説明のために来た"@ja ;
     kgc:source  "Mortimer came to the pastor to explain"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Came> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/come> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/DevilsFoot/To_the_pastoral_hall> ;
     kgc:why   <http://kgc.knowledge-graph.jp/data/DevilsFoot/For_explanation> .
@@ -739,7 +739,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ラウンドヘイはホームズに相談するために来た"@ja ;
     kgc:source  "Roundhaye came to consult Holmes"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Came> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/come> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:why   <http://kgc.knowledge-graph.jp/data/DevilsFoot/To_consult> .
@@ -778,7 +778,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ワトソンは以下を思った"@ja ;
     kgc:source  "Watson thought the following"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/thought> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/think> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Watson> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/069> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/070> .
@@ -794,14 +794,14 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "モーティマーはラウンドヘイより興奮していた"@ja ;
     kgc:source  "Mortimer was more excited than Roundhay"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Watson_s_guess> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/I_was_excited> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/excited> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/DevilsFoot/From_Roundhay> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/071>
     rdf:type    kgc:Situation ;
     kgc:source  "モーティマーは以下を言った"@ja ;
     kgc:source  "Mortimer said the following"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Said> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/072> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/073> ;
@@ -842,7 +842,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "モーティマーはトリジェニス家で食事をとった"@ja ;
     kgc:source  "Mortimer had a meal at Trigenis"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Ate> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/eat> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Trigenis_House> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/073>
@@ -850,7 +850,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ジョージが以下を言った"@ja ;
     kgc:source  "George said the following"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Said> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/George> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/074> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/074>
@@ -866,7 +866,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "9時頃に、モーティマーとオーウェンとジョージとブレンダは座った"@ja ;
     kgc:source  "Around 9 o'clock, Mortimer, Owen, George and Brenda sat down"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Sat_down> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sit> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/George> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Brenda> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
@@ -923,7 +923,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "モーティマーはドアを後ろ手で閉めた"@ja ;
     kgc:source  "Mortimer closed the door behind"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Closed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/close> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/door> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Behind_you> .
@@ -941,7 +941,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "窓は閉まっていた"@ja ;
     kgc:source  "The window was closed"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/It_was_closed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beClosed> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/window> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/084>
     rdf:type    kgc:Statement ;
@@ -955,7 +955,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "今朝、窓は閉まっていた"@ja ;
     kgc:source  "The window was closed this morning"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/It_was_closed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beClosed> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/window> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DevilsFoot/this_morning> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/086>
@@ -978,7 +978,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "オーウェンとジョージは座っていた"@ja ;
     kgc:source  "Owen and George sat"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Sat> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sit> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Owen> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/George> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/090>
@@ -1004,7 +1004,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ブレンダは死んでいた"@ja ;
     kgc:source  "Brenda was dead"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/It_was_dead> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/dead> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Brenda> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/093>
     rdf:type    kgc:Statement ;
@@ -1018,7 +1018,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "犯人は部屋に入りこんだ"@ja ;
     kgc:source  "The criminal entered the room"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Entered> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/enter> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Criminal> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/DevilsFoot/room> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/095>
@@ -1026,7 +1026,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "犯人はオーウェンとジョージとブレンダの理性を打ち砕いた"@ja ;
     kgc:source  "The perpetrator shattered Owen and George and Brenda's reason"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Crushed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/crush> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Criminal> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Owen_s_Reason> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/George_s_reason> ;
@@ -1047,7 +1047,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "モーティマーとオーウェンとジョージとブレンダは錫鉱夫の家に生まれた"@ja ;
     kgc:source  "Mortimer, Owen, George, and Brenda were born to Tin Miners"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/was_born> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beBorn> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/George> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Brenda> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
@@ -1081,7 +1081,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "錫鉱夫は引退した"@ja ;
     kgc:source  "Tin miner retired"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Retired> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/retire> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Tin_miner> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/102>
     rdf:type    kgc:Statement ;
@@ -1096,7 +1096,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "モーティマーは、オーウェンとジョージとブレンダと問題を持った"@ja ;
     kgc:source  "Mortimer had problems with Owen and George and Brenda"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Had> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Owen> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/DevilsFoot/George> ;
@@ -1107,14 +1107,14 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "問題は忘れられた"@ja ;
     kgc:source  "The problem was forgotten"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Forgotten> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beForgotten> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/problem> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/105>
     rdf:type    kgc:Statement ;
     kgc:source  "現在、モーティマーはオーウェンとジョージとブレンダと友情を持った"@ja ;
     kgc:source  "Currently, Mortimer has made friendship with Owen, George, and Brenda"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Had> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Owen> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/DevilsFoot/George> ;
@@ -1126,14 +1126,14 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "モーティマーはしばらく考えた"@ja ;
     kgc:source  "Mortimer thought for a while"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Thought> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/think> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/for_a_while> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/107>
     rdf:type    kgc:Situation ;
     kgc:source  "モーティマーは以下を言った"@ja ;
     kgc:source  "Mortimer said the following"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Said> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/108> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/109> ;
@@ -1174,7 +1174,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "モーティマーはある事実を思い出した"@ja ;
     kgc:source  "Mortimer remembered a fact"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/I_remembered> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/remember> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/A_fact> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/109>
@@ -1191,7 +1191,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "モーティマーはジョージと向かい合わせに座っていた"@ja ;
     kgc:source  "Mortimer sat opposite George"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Sat> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sit> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/George> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Face_to_face> .
@@ -1200,7 +1200,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "一度、ジョージは窓に険しい視線を送った"@ja ;
     kgc:source  "Once, George sent a sharp glance at the window"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sent> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/send> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/George> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/DevilsFoot/window> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Steep_eyes> ;
@@ -1217,7 +1217,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "窓は締まっていた"@ja ;
     kgc:source  "The window was closed"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/I_was_locked_up> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beLocked> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/window> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/114>
     rdf:type    kgc:Statement ;
@@ -1231,7 +1231,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "モーティマーは芝生の茂みを見た"@ja ;
     kgc:source  "Mortimer saw a bush of grass"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/saw> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/see> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Bushes_of_grass> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/116>
@@ -1239,7 +1239,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "モーティマーは以下を感じた"@ja ;
     kgc:source  "Mortimer felt the following"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Felt> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/feel> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/117> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/117>
@@ -1255,7 +1255,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ジョージは以下を思った"@ja ;
     kgc:source  "George thought that"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/thought> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/think> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/George> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/119> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/119>
@@ -1279,7 +1279,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "モーティマーは以下を思った"@ja ;
     kgc:source  "Mortimer thought that"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/thought> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/think> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/122> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/122>
@@ -1320,7 +1320,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ドクター・リチャードは以下を言った"@ja ;
     kgc:source  "Dr. Richard said"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Said> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Doctor_Richard> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/127> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/127>
@@ -1328,7 +1328,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ポーターはモーティマーに緊急メッセージを伝えた"@ja ;
     kgc:source  "Porter sent an emergency message to Mortimer"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Doctor_Richard_s_remark> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/I_told_you> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/tell> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Porter> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Emergency_message> .
@@ -1337,7 +1337,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "モーティマーはトリジェニス家に行った"@ja ;
     kgc:source  "Mortimer went to Trigenis"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/went> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/go> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Trigenis_House> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/129>
@@ -1345,7 +1345,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "モーティマーとドクター・リチャードは部屋を調べた"@ja ;
     kgc:source  "Mortimer and Doctor Richard examined the room"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Examined> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/examine> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Doctor_Richard> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/room> .
@@ -1363,7 +1363,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "夜明けまで、オーウェンとジョージは座っていた"@ja ;
     kgc:source  "Owen and George sat until dawn"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Sat> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sit> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/With_Owen> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/131>
     rdf:type    kgc:Situation ;
@@ -1374,7 +1374,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ドクター・リチャードは以下を言った"@ja ;
     kgc:source  "Dr. Richard said"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Said> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Doctor_Richard> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Less_than> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/133>
@@ -1397,7 +1397,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ブレンダは恐怖の表情を持っていた"@ja ;
     kgc:source  "Brenda had a look of fear"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/had> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Brenda> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Expression_of_fear> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/136>
@@ -1405,7 +1405,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ジョージとオーウェンは歌を歌っていた"@ja ;
     kgc:source  "George and Owen were singing a song"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/I_was_singing> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/singing> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/George> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Owen> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/song> .
@@ -1446,14 +1446,14 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ドクター・リチャードは椅子に座った"@ja ;
     kgc:source  "Dr. Richard sat in a chair"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Sat_down> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sit> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Doctor_Richard> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/In_the_chair> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/142>
     rdf:type    kgc:Situation ;
     kgc:source  "1日目の朝、ホームズとワトソンとモーティマーは四輪馬車の走行音を聞いた"@ja ;
     kgc:source  "On the morning of the first day, Holmes, Watson and Mortimer heard the running noise of a four-wheeled carriage"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/heard> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hear> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Watson> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
@@ -1472,7 +1472,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズとワトソンとモーティマーは馬車の通過を待った"@ja ;
     kgc:source  "Holmes, Watson and Mortimer waited for the carriage to pass"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/waited> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/wait> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Watson> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
@@ -1490,7 +1490,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ワトソンは窓から視線を感じた"@ja ;
     kgc:source  "Watson felt the sight from the window"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Felt> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/feel> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Watson> ;
     kgc:from   <http://kgc.knowledge-graph.jp/data/DevilsFoot/From_the_window> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Gaze> .
@@ -1505,14 +1505,14 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "顔は薄ら笑いを持っていた"@ja ;
     kgc:source  "The face had a faint smile"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/had> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/face> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Thin_smile> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/149>
     rdf:type    kgc:Situation ;
     kgc:source  "モーティマーは以下を言った"@ja ;
     kgc:source  "Mortimer said the following"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Said> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/150> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/150>
@@ -1528,7 +1528,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "トリジェニス家は広い"@ja ;
     kgc:source  "The Turgenis family is large"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/wide> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/wide> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Trigenis_House> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/152>
     rdf:type    kgc:Situation ;
@@ -1540,7 +1540,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "トリジェニス家は相当な庭を持つ"@ja ;
     kgc:source  "The Trigenis have a large garden"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Have> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Trigenis_House> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Considerable_garden> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/154>
@@ -1561,7 +1561,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "モーティマーは以下を言った"@ja ;
     kgc:source  "Mortimer said the following"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Said> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/157> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/157>
@@ -1576,7 +1576,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ポーターは以下を言った"@ja ;
     kgc:source  "The porter said"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Said> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Porter> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/159> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/160> ;
@@ -1609,7 +1609,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "オーウェンとジョージとブレンダは良い精神状態を持っていた"@ja ;
     kgc:source  "Owen and George and Brenda had a good mental state"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Porter_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/had> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/George> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Brenda> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Owen> ;
@@ -1619,7 +1619,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "オーウェンとジョージとブレンダは良い機嫌を持っていた"@ja ;
     kgc:source  "Owen and George and Brenda had a good mood"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Porter_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/had> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/George> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Brenda> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Owen> ;
@@ -1629,7 +1629,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "今朝、ポーターは部屋に入った"@ja ;
     kgc:source  "Porter entered the room this morning"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Porter_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Has_entered> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/enter> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Porter> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/DevilsFoot/room> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DevilsFoot/this_morning> ;
@@ -1639,7 +1639,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ポーターは無惨な光景を見た"@ja ;
     kgc:source  "Porter saw a disastrous sight"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Porter_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/saw> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/see> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Porter> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Miserable_sight> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/DevilsFoot/164> .
@@ -1648,14 +1648,14 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ポーターは倒れた"@ja ;
     kgc:source  "The porter fell"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Porter_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/collapsed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/fall> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Porter> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/165>
     rdf:type    kgc:Statement ;
     kgc:source  "ポーターは意識を取り戻した"@ja ;
     kgc:source  "Porter regained consciousness"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Porter_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Recovered> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/recover> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Porter> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Consciousness> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/DevilsFoot/166> .
@@ -1664,7 +1664,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ポーターは窓を開けた"@ja ;
     kgc:source  "Porter opened the window"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Porter_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Opened> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/open> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Porter> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/window> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/DevilsFoot/167> .
@@ -1682,7 +1682,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ポーターはドクター・リチャードへ農家の少年を送った"@ja ;
     kgc:source  "Porter sent a farmer boy to Dr. Richard"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Porter_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sent> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/send> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Porter> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Doctor_Richard> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Farmer_boy> .
@@ -1727,7 +1727,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ポーターはセント・アイヴスに帰る"@ja ;
     kgc:source  "Porter returns to St Ives"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Porter_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Go_back> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/return> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Porter> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/DevilsFoot/St_Ives> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/175>
@@ -1743,7 +1743,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズとワトソンとモーティマーは死体を見た"@ja ;
     kgc:source  "Holmes, Watson and Mortimer saw the dead"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/saw> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/see> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Watson> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
@@ -1752,14 +1752,14 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ブレンダは恐怖の表情を持っていた"@ja ;
     kgc:source  "Brenda had a look of fear"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/had> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Brenda> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Expression_of_fear> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/178>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズとワトソンとモーティマーは居間に行った"@ja ;
     kgc:source  "Holmes, Watson and Mortimer went to the living room"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/went> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/go> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Watson> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
@@ -1796,7 +1796,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "モーティマーは以下を言った"@ja ;
     kgc:source  "Mortimer said the following"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Said> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/184> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/185> ;
@@ -1823,13 +1823,13 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "あとに、モーティマーが到着した"@ja ;
     kgc:source  "Later, Mortimer arrived"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Arrived> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/arrive> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/188>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズはポルドュー湾のコテージに帰った"@ja ;
     kgc:source  "Holmes returned to a cottage in the Gulf of Pordew"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Went_back> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/return> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Cottage_in_the_Bay_of_Pordeux> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/189>
@@ -1842,7 +1842,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは以下を推測する"@ja ;
     kgc:source  "Holmes guesses"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Infer> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/guess> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/191> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/192> ;
@@ -1879,7 +1879,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは以下を推測した"@ja ;
     kgc:source  "Holmes guessed the following"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Guessed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/guess> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/195> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/196> ;
@@ -1906,7 +1906,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "数分以内で、事件が起きた"@ja ;
     kgc:source  "Within a few minutes, an incident occurred"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_guess> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/woke_up> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/happen> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Incident> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Within_a_few_minutes> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/198>
@@ -1947,21 +1947,21 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは以下を推測した"@ja ;
     kgc:source  "Holmes guessed the following"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Guessed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/guess> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/203> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/203>
     rdf:type    kgc:Situation ;
     kgc:source  "昨夜11時以前に、事件が起きた"@ja ;
     kgc:source  "The incident happened before 11:00 last night"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/woke_up> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/happen> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Incident> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Before_11_00_last_night> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/204>
     rdf:type    kgc:Situation ;
     kgc:source  "モーティマーは牧師館に歩いてきた"@ja ;
     kgc:source  "Mortimer has walked to the pastor"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Walked> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/walk> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Pastor_s_Hall> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/205>
@@ -1996,7 +1996,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "午後に、ホームズとワトソンはポルデュー湾のコテージに戻った"@ja ;
     kgc:source  "In the afternoon, Holmes and Watson returned to the Pordeux Bay cottage"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Returned> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/return> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Watson> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DevilsFoot/afternoon> ;
@@ -2040,7 +2040,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "スタンデールがホームズに進展を聞いた"@ja ;
     kgc:source  "Standale heard Holmes progress"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/heard> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hear> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Progress> .
@@ -2048,7 +2048,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "スタンデールは以下を言った"@ja ;
     kgc:source  "Standale said"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Said> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/217> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/218> ;
@@ -2073,7 +2073,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "スタンデールはトリジェニス家に何度も滞在した"@ja ;
     kgc:source  "Standale stayed many times in the Trigemnis family"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale_s_remarks> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/stayed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/stay> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Many_times> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Trigenis_House> .
@@ -2090,7 +2090,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "スタンデールはショックを受けた"@ja ;
     kgc:source  "Standale was shocked"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale_s_remarks> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Received> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/receive> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/shock> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/221>
@@ -2098,7 +2098,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "スタンデールはオーウェンとジョージとブレンダの運命を聞いた"@ja ;
     kgc:source  "Standale heard the fate of Owen and George and Brenda"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale_s_remarks> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/heard> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hear> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Owen_s_fate> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/George_s_fate> ;
@@ -2116,7 +2116,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "スタンデールはプリマスまで着いた"@ja ;
     kgc:source  "Standale has arrived to Plymouth"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale_s_remarks> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/arrived> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/arrive> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Plymouth> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/224>
@@ -2124,7 +2124,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "今朝、スタンデールはニュースを聞いた"@ja ;
     kgc:source  "This morning, Standale heard the news"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale_s_remarks> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/heard> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hear> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/news> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DevilsFoot/this_morning> .
@@ -2140,15 +2140,15 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ラウンドヘイがスタンデールに電報を送った"@ja ;
     kgc:source  "Roundhay telegraphed Standale"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale_s_remarks> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sent> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/send> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
-    kgc:whoｍ   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
+    kgc:whom   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/telegram> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/227>
     rdf:type    kgc:Situation ;
     kgc:source  "スタンデールはホームズに容疑者を聞いた"@ja ;
     kgc:source  "Standale heard Holmes suspect"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/heard> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hear> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Suspect> .
@@ -2156,7 +2156,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズはスタンデールに答えなかった"@ja ;
     kgc:source  "Holmes did not answer Standale"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Did_not_answer> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notAnswer> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/229>
@@ -2179,7 +2179,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ワトソンは以下を思った"@ja ;
     kgc:source  "Watson thought the following"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/thought> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/think> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Watson> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/232> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/232>
@@ -2193,7 +2193,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは電報を見た"@ja ;
     kgc:source  "Holmes saw a telegram"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/saw> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/see> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/telegram> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/234>
@@ -2208,14 +2208,14 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "電報がプリマスのホテルから届いた"@ja ;
     kgc:source  "A telegram arrived from a hotel in Plymouth"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Arrived> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/arrive> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/telegram> ;
     kgc:from   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Plymouth_Hotels> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/236>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは以下を言った"@ja ;
     kgc:source  "Holmes said the following"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Said> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/237> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/238> ;
@@ -2236,7 +2236,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ラウンドヘイから名前を聞きだした"@ja ;
     kgc:source  "I heard my name from Roundhay"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/I_heard_it> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hear> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:from   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/name> .
@@ -2245,7 +2245,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ラウンドヘイに以下を聞いた"@ja ;
     kgc:source  "I heard the following from Roundhay"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/heard> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hear> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Less_than> .
@@ -2270,7 +2270,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "午後に、スタンデールは荷物をアフリカに送った"@ja ;
     kgc:source  "In the afternoon, Standale sent luggage to Africa"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay_s_Telegram> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sent> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/send> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DevilsFoot/afternoon> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Baggage> ;
@@ -2280,7 +2280,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "その朝、ラウンドヘイが庭の小道を駆けてきた"@ja ;
     kgc:source  "That morning, Roundhay ran down the garden path"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Came> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/come> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
     kgc:from   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Garden_path> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DevilsFoot/That_morning> .
@@ -2288,7 +2288,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ラウンドヘイは以下を言った"@ja ;
     kgc:source  "Roundhay said the following"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Said> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Less_than> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/245>
@@ -2312,7 +2312,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "モーティマーは、牧師館の２部屋を借りていた"@ja ;
     kgc:source  "Mortimer had rented two rooms in the pastoral building"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/I_borrowed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/rent> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Two_rooms_in_the_pastoral_hall> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/248>
@@ -2331,7 +2331,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "居間と寝室は窓から芝生を見ることができる"@ja ;
     kgc:source  "Living room and bedroom can see the lawn from the window"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Can_see> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/canSee> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Living_room> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Bedroom> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/DevilsFoot/From_the_window> .
@@ -2350,7 +2350,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "事件後、使用人が窓を開けた"@ja ;
     kgc:source  "After the incident, a servant opened a window"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Opened> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/open> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DevilsFoot/After_the_incident> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Servant> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/window> .
@@ -2358,7 +2358,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ワトソンは以下を思った"@ja ;
     kgc:source  "Watson thought the following"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/thought> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/think> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Watson> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Less_than> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/255>
@@ -2404,7 +2404,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "モーティマーはランプの近くに座っていた"@ja ;
     kgc:source  "Mortimer sat near the ramp"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Sat> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sit> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:near   <http://kgc.knowledge-graph.jp/data/DevilsFoot/lamp> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/261>
@@ -2440,7 +2440,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "モーティマーは恐怖の表情を持っていた"@ja ;
     kgc:source  "Mortimer had a look of fear"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/had> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Expression_of_fear> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/266>
@@ -2459,28 +2459,28 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ワトソンは以下を推測した"@ja ;
     kgc:source  "Watson inferred that"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Guessed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/guess> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Watson> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/269> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/269>
     rdf:type    kgc:Situation ;
     kgc:source  "モーティマーは恐怖の発作で死んだ"@ja ;
     kgc:source  "Mortimer died of a bout of fear"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Died> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/die> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:why   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Attack_of_fear> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/270>
     rdf:type    kgc:Situation ;
     kgc:source  "モーティマーはきちんとしたした服を着ていた"@ja ;
     kgc:source  "Mortimer was wearing proper clothes"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/I_wore> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/wear> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Neat_clothes> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/272>
     rdf:type    kgc:Situation ;
     kgc:source  "モーティマーは急いで服を着た"@ja ;
     kgc:source  "Mortimer got dressed quickly"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/worn> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/wear> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Quickly> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/clothes> .
@@ -2488,7 +2488,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "モーティマーのベッドは人の形跡を持っていた"@ja ;
     kgc:source  "Mortimer's bed had a sign of people"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/had> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_Bed> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Traces_of_people> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/274>
@@ -2510,7 +2510,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは窓から居間に入った"@ja ;
     kgc:source  "Holmes entered the living room through the window"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Has_entered> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/enter> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:from   <http://kgc.knowledge-graph.jp/data/DevilsFoot/window> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Living_room> ;
@@ -2527,7 +2527,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは寝室に行った"@ja ;
     kgc:source  "Holmes went to the bedroom"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/went> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/go> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Bedroom> ;
     kgc:then_   <http://kgc.knowledge-graph.jp/data/DevilsFoot/279> .
@@ -2543,7 +2543,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "最後に、ホームズは窓を開けた"@ja ;
     kgc:source  "Finally, Holmes opened the window"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Opened> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/open> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/window> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DevilsFoot/last> .
@@ -2551,7 +2551,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ワトソンは以下を思った"@ja ;
     kgc:source  "Watson thought the following"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/thought> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/think> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Watson> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/282> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/282>
@@ -2559,7 +2559,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ホームズは新しい刺激を見つけた"@ja ;
     kgc:source  "Holmes found a new stimulus"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Watson_s_guess> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/I_found_it> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/find> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/New_stimulus> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/283>
@@ -2591,7 +2591,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは顔を芝生にこすりつけた"@ja ;
     kgc:source  "Holmes rubbed her face on the grass"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Rubbed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/rub> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/face> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/DevilsFoot/lawn> ;
@@ -2600,7 +2600,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは居間に入った"@ja ;
     kgc:source  "Holmes entered the living room"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Has_entered> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/enter> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Living_room> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/DevilsFoot/288> .
@@ -2621,14 +2621,14 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズはオイルの容量を確認した"@ja ;
     kgc:source  "Holmes confirmed the volume of oil"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/confirmed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/confirm> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Oil_capacity> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/291>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは虫眼鏡で排煙部の外装を調べた"@ja ;
     kgc:source  "Holmes examined the exterior of the flue with a magnifying glass"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Examined> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/examine> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/DevilsFoot/With_a_magnifying_glass> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Exhaust_part_exterior> .
@@ -2636,21 +2636,21 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは外装面の灰を落とした"@ja ;
     kgc:source  "Holmes dropped the ash on the exterior surface"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Dropped> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/drop> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Exterior_ash> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/293>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは封筒に納めた"@ja ;
     kgc:source  "Holmes put in an envelope"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Paid> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/put> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/DevilsFoot/envelope> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/294>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは以下を頼んだ"@ja ;
     kgc:source  "Holmes asked for"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Begged> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/ask> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/295> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/296> ;
@@ -2660,7 +2660,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ラウンドヘイが以下を刑事に言った"@ja ;
     kgc:source  "Roundhay said the following to the detective"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes__request> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Said> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/296> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/297> ;
@@ -2687,7 +2687,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは、ランプの複製品を買ってきた"@ja ;
     kgc:source  "Holmes has bought a duplicate of the lamp"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/I_bought_it> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/buy> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Reproduction_of_lamp> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/299>
@@ -2701,14 +2701,14 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは燃焼時間を計った"@ja ;
     kgc:source  "Holmes measured the burn time"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/I_measured> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/measure> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Burning_time> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/301>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは以下を言った"@ja ;
     kgc:source  "Holmes said the following"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Said> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/302> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/303> ;
@@ -2728,7 +2728,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "事件1と事件2の部屋は同じ空気を持つ"@ja ;
     kgc:source  "Cases 1 and 2 have the same air"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Have> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Case_1_and_Case_2_room> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Same_air> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/303>
@@ -2736,7 +2736,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "モーティマーは以下を言った"@ja ;
     kgc:source  "Mortimer said the following"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Said> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/304> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/305> .
@@ -2745,7 +2745,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ドクター・リチャードが倒れた"@ja ;
     kgc:source  "Dr. Richard fell"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/collapsed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/fall> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Doctor_Richard> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DevilsFoot/305> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/305>
@@ -2753,7 +2753,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ドクター・リチャードが部屋に入った"@ja ;
     kgc:source  "Doctor Richard entered the room"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Has_entered> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/enter> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Doctor_Richard> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/DevilsFoot/room> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/306>
@@ -2761,7 +2761,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ポーターは倒れた"@ja ;
     kgc:source  "The porter fell"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/collapsed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/fall> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Porter> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DevilsFoot/307> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/307>
@@ -2769,7 +2769,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ポーターが部屋に入った"@ja ;
     kgc:source  "Porter entered the room"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Has_entered> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/enter> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Porter> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/DevilsFoot/room> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/308>
@@ -2777,7 +2777,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ポーターは窓を開けた"@ja ;
     kgc:source  "Porter opened the window"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Opened> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/open> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Porter> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/window> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/309>
@@ -2794,7 +2794,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ホームズとワトソンが到着した"@ja ;
     kgc:source  "Holmes and Watson have arrived"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Arrived> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/arrive> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Watson> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/311>
@@ -2831,7 +2831,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは以下を推測した"@ja ;
     kgc:source  "Holmes guessed the following"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Guessed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/guess> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/317> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/317>
@@ -2848,7 +2848,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは以下のように言った"@ja ;
     kgc:source  "Holmes said:"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Thought> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/think> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/319> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/320> ;
@@ -2887,7 +2887,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "窓は締まっていた"@ja ;
     kgc:source  "The window was closed"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/I_was_locked_up> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beLocked> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/window> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/322>
     rdf:type    kgc:Statement ;
@@ -2910,7 +2910,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "事件1において、事件2より毒性の空気は薄い"@ja ;
     kgc:source  "In Case 1, the air of toxicity is thinner than Case 2"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/thin> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/thin> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Toxic_air> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Than_the_air_of_Toxicity_of_Incident_2> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Case_1> .
@@ -2919,14 +2919,14 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "事件1において、ブレンダが殺された"@ja ;
     kgc:source  "Brenda was killed in Case 1"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/killed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beKilled> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Brenda> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Case_1> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/326>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは以下を推測した"@ja ;
     kgc:source  "Holmes guessed the following"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Guessed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/guess> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/327> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/327>
@@ -2934,7 +2934,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ブレンダは過敏な体質を持っていた"@ja ;
     kgc:source  "Brenda had a sensitive constitution"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_guess> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/had> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Brenda> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Irritated_constitution> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/328>
@@ -2964,7 +2964,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは以下を推測した"@ja ;
     kgc:source  "Holmes guessed the following"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Guessed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/guess> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/332> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/332>
@@ -2989,7 +2989,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ホームズはランプの防煙部と滑石製の外装を見た"@ja ;
     kgc:source  "Holmes looked at the lamp's smoke protection and the talc exterior"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/saw> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/see> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Smoke_protection_of_the_lamp> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Talc_sheath> .
@@ -3014,7 +3014,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "薬物をランプの上に置いた"@ja ;
     kgc:source  "I put the drug on the lamp"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/placed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/put> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Drug> ;
     kgc:on   <http://kgc.knowledge-graph.jp/data/DevilsFoot/lamp> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/DevilsFoot/339> .
@@ -3029,14 +3029,14 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ワトソンは吐き気を感じた"@ja ;
     kgc:source  "Watson felt nausea"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Felt> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/feel> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Watson> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/nausea> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/341>
     rdf:type    kgc:Situation ;
     kgc:source  "ワトソンは脳の自由と想像力を失った"@ja ;
     kgc:source  "Watson lost his freedom and imagination"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/lost> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/lose> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Watson> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Brain_freedom> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Imagination> .
@@ -3044,27 +3044,27 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ワトソンは恐怖を感じた"@ja ;
     kgc:source  "Watson felt fear"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Felt> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/feel> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Watson> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Fear> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/343>
     rdf:type    kgc:Situation ;
     kgc:source  "ワトソンは混乱した"@ja ;
     kgc:source  "Watson was confused"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Confused> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beConfused> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Watson> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/344>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズの顔は恐怖の表情を持った"@ja ;
     kgc:source  "Holmes' face had a look of fear"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Had> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_face> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Expression_of_fear> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/345>
     rdf:type    kgc:Situation ;
     kgc:source  "ワトソンは椅子から立った"@ja ;
     kgc:source  "Watson stood out of the chair"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/stood> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/stand> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Watson> ;
     kgc:from   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Chair> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/346>
@@ -3087,7 +3087,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは以下を言った"@ja ;
     kgc:source  "Holmes said the following"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Said> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/349> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/350> ;
@@ -3147,7 +3147,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "モーティマーは以下を言った"@ja ;
     kgc:source  "Mortimer said the following"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Said> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/356> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/356>
@@ -3155,14 +3155,14 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "何かが庭で動いていた"@ja ;
     kgc:source  "Something was moving in the garden"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/It_was_moving> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/moving> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/something> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/DevilsFoot/garden> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/357>
     rdf:type    kgc:Situation ;
     kgc:source  "モーティマーは以下を望んだ"@ja ;
     kgc:source  "Mortimer wanted to"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Wanted> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/wish> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/358> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/358>
@@ -3188,7 +3188,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "事件1は彼の退出後に起こった"@ja ;
     kgc:source  "Case 1 happened after his exit"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Happened> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/happen> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Case_1> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DevilsFoot/After_his_exit> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/361>
@@ -3215,7 +3215,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "コーンワルで、夜10時以降に訪問客は来ない"@ja ;
     kgc:source  "No visitors at 10 o'clock in Cornwall"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/do_not_come> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notCome> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Visitor> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DevilsFoot/After_10_o_clock> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Cornwall> .
@@ -3231,7 +3231,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ワトソンは以下を言った"@ja ;
     kgc:source  "Watson said the following"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Said> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Watson> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/366> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/366>
@@ -3245,7 +3245,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは以下を言った"@ja ;
     kgc:source  "Holmes said the following"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Said> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/368> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/369> ;
@@ -3275,7 +3275,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "モーティマーは肉親を破滅させた"@ja ;
     kgc:source  "Mortimer ruined his immediate family"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Ruined> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/ruin> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Immediate_family> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/371>
@@ -3292,7 +3292,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "しかし、反対の根拠が存在する"@ja ;
     kgc:source  "But the opposite ground exists"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Exist> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Opposite_grounds> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/373>
     rdf:type    kgc:Statement ;
@@ -3307,14 +3307,14 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "今日の午後、スタンデールを呼んだ"@ja ;
     kgc:source  "I called Standale this afternoon"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/called> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/call> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DevilsFoot/This_afternoon> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/375>
     rdf:type    kgc:Situation ;
     kgc:source  "1時間前に、スタンデールはホームズのメモを受け取った"@ja ;
     kgc:source  "An hour ago, Standale received Holmes' notes"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/received> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/receive> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DevilsFoot/1_hour_ago> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_note> .
@@ -3322,7 +3322,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは以下を言った"@ja ;
     kgc:source  "Holmes said the following"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Said> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/377> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/378> ;
@@ -3364,7 +3364,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "スタンデールは所持品をアフリカに送った"@ja ;
     kgc:source  "Standale sent his belongings to Africa"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sent> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/send> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Possession> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Africa> ;
@@ -3389,7 +3389,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "スタンデールはポルデュー湾のコテージに来た"@ja ;
     kgc:source  "Standale came to a cottage in the Pordeux Bay"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Came> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/come> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Poldew_Bay_Cottage> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/DevilsFoot/381> .
@@ -3398,7 +3398,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "スタンデールはホームズに容疑者を尋ねた"@ja ;
     kgc:source  "Standale asked Holmes for the suspect"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Asked> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/ask> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Suspect> ;
@@ -3408,7 +3408,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ホームズは容疑者を答えなかった"@ja ;
     kgc:source  "Holmes did not answer the suspect"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Did_not_answer> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notAnswer> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Suspect> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/DevilsFoot/383> .
@@ -3417,7 +3417,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "そして、スタンデールは牧師館に行った"@ja ;
     kgc:source  "And Standale went to the pastor"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/went> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/go> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Pastor_s_Hall> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/DevilsFoot/384> .
@@ -3426,7 +3426,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "スタンデールは外で待った"@ja ;
     kgc:source  "Standale waited outside"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/waited> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/wait> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Outside> ;
     kgc:then_   <http://kgc.knowledge-graph.jp/data/DevilsFoot/385> .
@@ -3435,7 +3435,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "スタンデールはコテージに戻った"@ja ;
     kgc:source  "Standale returned to the cottage"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Returned> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/return> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Cottage> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/386>
@@ -3511,7 +3511,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "スタンデールはモーティマーの窓の下に行った"@ja ;
     kgc:source  "Standale went under the window of Mortimer"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/went> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/go> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Under_the_window_of_Mortimer> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/396>
@@ -3543,7 +3543,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "モーティマーがやってきた"@ja ;
     kgc:source  "Mortimer came"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/came> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/come> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/400>
     rdf:type    kgc:Statement ;
@@ -3565,7 +3565,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "モーティマーは急いで服を着た"@ja ;
     kgc:source  "Mortimer got dressed quickly"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/worn> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/wear> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Quickly> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/clothes> .
@@ -3582,7 +3582,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "スタンデールは窓から入った"@ja ;
     kgc:source  "Standale came in through the window"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Has_entered> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/enter> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:from   <http://kgc.knowledge-graph.jp/data/DevilsFoot/window> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/DevilsFoot/405> .
@@ -3608,7 +3608,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "スタンデールは窓を閉めた"@ja ;
     kgc:source  "Standale closed the window"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Closed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/close> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/window> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/408>
@@ -3640,14 +3640,14 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "モーティマーが死んだ"@ja ;
     kgc:source  "Mortimer died"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes_s_statement> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Died> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/die> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:after   <http://kgc.knowledge-graph.jp/data/DevilsFoot/410> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/412>
     rdf:type    kgc:Situation ;
     kgc:source  "スタンデールは以下を言った"@ja ;
     kgc:source  "Standale said"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Said> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/413> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/414> ;
@@ -3705,7 +3705,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "スタンデールは前妻を持っていた"@ja ;
     kgc:source  "Standale had a former wife"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale_s_remarks> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/had> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Former_wife> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/418>
@@ -3729,7 +3729,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ブレンダは何年も結婚を待った"@ja ;
     kgc:source  "Brenda has been waiting for marriage for years"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale_s_remarks> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/waited> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/wait> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Brenda> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/marriage> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DevilsFoot/What_year> .
@@ -3738,7 +3738,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "スタンデールも何年も結婚を待った"@ja ;
     kgc:source  "Standale also waited for marriage for years"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale_s_remarks> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/waited> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/wait> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/marriage> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DevilsFoot/What_year> .
@@ -3772,7 +3772,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ラウンドヘイは以下を言った"@ja ;
     kgc:source  "Roundhay said the following"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale_s_remarks> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Said> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Less_than> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/425>
@@ -3787,7 +3787,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "それで、ラウンドヘイはスタンデールに電報を送った"@ja ;
     kgc:source  "So, Roundhay sent a call to Standale"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale_s_remarks> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sent> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/send> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/telegram> .
@@ -3809,7 +3809,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "スタンデールは紙包みをテーブルの上に置いた"@ja ;
     kgc:source  "Standale put a paper packet on the table"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/placed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/put> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Paper_package> ;
     kgc:on   <http://kgc.knowledge-graph.jp/data/DevilsFoot/table> .
@@ -3880,7 +3880,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "その後、スタンデールはオーウェンとジョージとモーティマーと会っていた"@ja ;
     kgc:source  "Standale then met with Owen, George and Mortimer"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale_s_remarks> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Met> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/meet> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Owen> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/DevilsFoot/George> ;
@@ -3890,7 +3890,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "2週間前、モーティマーがスタンデールのコテージにやってきた"@ja ;
     kgc:source  "Two weeks ago, Mortimer came to a cottage in Standale"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale_s_remarks> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/came> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/come> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/DevilsFoot/In_a_cottage_in_Standale> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DevilsFoot/2_weeks_ago> .
@@ -3963,7 +3963,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "スタンデールは以下を推測した"@ja ;
     kgc:source  "Standale guessed that"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Guessed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/guess> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/448> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/448>
@@ -3971,7 +3971,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "モーティマーは以下を思った"@ja ;
     kgc:source  "Mortimer thought that"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale_s_guess> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/thought> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/think> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/449> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/450> ;
@@ -4006,7 +4006,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "スタンデールは以下を思った"@ja ;
     kgc:source  "Standale thought that"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/thought> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/think> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/453> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/453>
@@ -4021,7 +4021,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "スタンデールはポルデュー湾のコテージにきた"@ja ;
     kgc:source  "Standale came to a cottage in the Pordeux Bay"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale_s_remarks> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Came> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/come> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/DevilsFoot/In_a_cottage_in_the_Pordeux_Bay> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/455>
@@ -4029,7 +4029,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "スタンデールはホームズと会った"@ja ;
     kgc:source  "Standale met Holmes"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale_s_remarks> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/met> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/meet> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/456>
@@ -4053,7 +4053,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "スタンデールは以下を推測した"@ja ;
     kgc:source  "Standale guessed that"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale_s_remarks> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Guessed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/guess> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/459> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/460> .
@@ -4062,7 +4062,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "お金のため、モーティマーが殺した"@ja ;
     kgc:source  "Mortimer killed for money"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale_s_guess> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Killed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Kill> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:why   <http://kgc.knowledge-graph.jp/data/DevilsFoot/For_money> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/460>
@@ -4070,7 +4070,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "モーティマーは以下を思った"@ja ;
     kgc:source  "Mortimer thought that"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale_s_guess> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/thought> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/think> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/461> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/462> .
@@ -4105,7 +4105,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "モーティマーはブレンダを殺した"@ja ;
     kgc:source  "Mortimer killed Brenda"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale_s_remarks> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Killed> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Kill> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Brenda> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/465>
@@ -4176,7 +4176,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "スタンデールは以下を言った"@ja ;
     kgc:source  "Standale said"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Said> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/474> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/475> ;
@@ -4210,7 +4210,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "モーティマーはリボルバーを見た"@ja ;
     kgc:source  "Mortimer saw a revolver"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale_s_remarks> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/saw> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/see> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/revolver> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/477>
@@ -4275,7 +4275,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "スタンデールは窓の外に立った"@ja ;
     kgc:source  "Standale stood out of the window"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale_s_remarks> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/stood> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/stand> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Out_of_the_window> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/485>
@@ -4292,7 +4292,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "5分後、モーティマーは死んだ"@ja ;
     kgc:source  "Five minutes later, Mortimer died"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale_s_remarks> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Died> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/die> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Five_minutes_later,_Mortimer_died> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/487>
@@ -4313,20 +4313,17 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "スタンデールのコテージの庭で、ホームズは砂利を見つけた"@ja ;
     kgc:source  "In the yard of the cottage in Standale, Holmes found gravel"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/I_found_it> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/find> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/gravel> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Cottage_garden_in_Standale> .
 #Objectとして参照されているリソースの定義
-<http://kgc.knowledge-graph.jp/data/It_is_tragic>
-    rdf:type    kgc:Action;
-    rdfs:label     "It is tragic"@en.
+<http://kgc.knowledge-graph.jp/data/predicate/tragic>
+    rdf:type    kgc:Property;
+    rdfs:label     "tragic"@en.
 <http://kgc.knowledge-graph.jp/data/the_drug>
     rdfs:label     "the drug"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Have>
-    rdf:type    kgc:Action;
-    rdfs:label     "Have"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/say>
     rdf:type    kgc:Action;
     rdfs:label     "say"@en.
@@ -4336,9 +4333,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/come_down>
     rdf:type    kgc:Action;
     rdfs:label     "come down"@en.
-<http://kgc.knowledge-graph.jp/data/predicate/saw>
+<http://kgc.knowledge-graph.jp/data/predicate/see>
     rdf:type    kgc:Action;
-    rdfs:label     "saw"@en.
+    rdfs:label     "see"@en.
 <http://kgc.knowledge-graph.jp/data/Standale>
     rdfs:label     "Standale"@en;
     rdf:type    kgc:Object.
@@ -4405,9 +4402,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Wander>
     rdf:type    kgc:Action;
     rdfs:label     "Wander"@en.
-<http://kgc.knowledge-graph.jp/data/Wanted>
+<http://kgc.knowledge-graph.jp/data/predicate/wish>
     rdf:type    kgc:Action;
-    rdfs:label     "Wanted"@en.
+    rdfs:label     "wish"@en.
 <http://kgc.knowledge-graph.jp/data/Many_hours_ago>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "Many hours ago"@en.
@@ -4449,9 +4446,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/It_was_not>
     rdf:type    kgc:Action;
     rdfs:label     "It was not"@en.
-<http://kgc.knowledge-graph.jp/data/I_measured>
+<http://kgc.knowledge-graph.jp/data/predicate/measure>
     rdf:type    kgc:Action;
-    rdfs:label     "I measured"@en.
+    rdfs:label     "measure"@en.
 <http://kgc.knowledge-graph.jp/data/Did_not_come_out>
     rdf:type    kgc:Action;
     rdfs:label     "Did not come out"@en.
@@ -4496,9 +4493,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/To_the_mentally_ill>
     rdfs:label     "To the mentally ill"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/It_was_closed>
+<http://kgc.knowledge-graph.jp/data/predicate/beClosed>
     rdf:type    kgc:Action;
-    rdfs:label     "It was closed"@en.
+    rdfs:label     "be closed"@en.
 <http://kgc.knowledge-graph.jp/data/Lying_down>
     rdf:type    kgc:Action;
     rdfs:label     "Lying down"@en.
@@ -4538,21 +4535,21 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/looked_for>
     rdf:type    kgc:Action;
     rdfs:label     "looked for"@en.
-<http://kgc.knowledge-graph.jp/data/predicate/stayed>
+<http://kgc.knowledge-graph.jp/data/predicate/stay>
     rdf:type    kgc:Action;
-    rdfs:label     "stayed"@en.
+    rdfs:label     "stay"@en.
 <http://kgc.knowledge-graph.jp/data/Exhaust_part_exterior>
     rdfs:label     "Exhaust part exterior"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/Africa's_curiosities>
     rdfs:label     "Africa's curiosities"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/I_found_it>
+<http://kgc.knowledge-graph.jp/data/predicate/find>
     rdf:type    kgc:Action;
-    rdfs:label     "I found it"@en.
-<http://kgc.knowledge-graph.jp/data/Can_see>
+    rdfs:label     "find"@en.
+<http://kgc.knowledge-graph.jp/data/predicate/canSee>
     rdf:type    kgc:Action;
-    rdfs:label     "Can see"@en.
+    rdfs:label     "can see"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/showed>
     rdf:type    kgc:Action;
     rdfs:label     "showed"@en.
@@ -4622,12 +4619,12 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/In_the_bush>
     rdfs:label     "In the bush"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/predicate/do_not_come>
+<http://kgc.knowledge-graph.jp/data/predicate/notCome>
     rdf:type    kgc:Action;
-    rdfs:label     "do not come"@en.
-<http://kgc.knowledge-graph.jp/data/Closed>
+    rdfs:label     "not come"@en.
+<http://kgc.knowledge-graph.jp/data/predicate/close>
     rdf:type    kgc:Action;
-    rdfs:label     "Closed"@en.
+    rdfs:label     "close"@en.
 <http://kgc.knowledge-graph.jp/data/Sociable>
     rdf:type    kgc:Property;
     rdfs:label     "Sociable"@en.
@@ -4640,9 +4637,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Description>
     rdfs:label     "Description"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Go_back>
+<http://kgc.knowledge-graph.jp/data/return>
     rdf:type    kgc:Action;
-    rdfs:label     "Go back"@en.
+    rdfs:label     "return"@en.
 <http://kgc.knowledge-graph.jp/data/Brenda>
     rdfs:label     "Brenda"@en;
     rdf:type    kgc:Object.
@@ -4665,9 +4662,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Tennis_shoes>
     rdfs:label     "Tennis shoes"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Confused>
+<http://kgc.knowledge-graph.jp/data/predicate/beConfused>
     rdf:type    kgc:Action;
-    rdfs:label     "Confused"@en.
+    rdfs:label     "be confused"@en.
 <http://kgc.knowledge-graph.jp/data/Mortimer_s_cause_of_death>
     rdfs:label     "Mortimer's cause of death"@en;
     rdf:type    kgc:OFobj;
@@ -4702,9 +4699,9 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Cottage_in_the_Bay>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Pordeux>.
-<http://kgc.knowledge-graph.jp/data/Recovered>
+<http://kgc.knowledge-graph.jp/data/predicate/recover>
     rdf:type    kgc:Action;
-    rdfs:label     "Recovered"@en.
+    rdfs:label     "recover"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/garden>
     rdfs:label     "garden"@en;
     rdf:type    kgc:Object.
@@ -4735,9 +4732,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Cottage_in_the_Bay>
     rdfs:label     "Cottage in the Bay"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/I_remembered>
+<http://kgc.knowledge-graph.jp/data/predicate/remember>
     rdf:type    kgc:Action;
-    rdfs:label     "I remembered"@en.
+    rdfs:label     "remember"@en.
 <http://kgc.knowledge-graph.jp/data/For_money>
     rdfs:label     "For money"@en;
     rdf:type    kgc:Object.
@@ -4753,9 +4750,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Bushes>
     rdfs:label     "Bushes"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/predicate/was_born>
+<http://kgc.knowledge-graph.jp/data/predicate/beBorn>
     rdf:type    kgc:Action;
-    rdfs:label     "was born"@en.
+    rdfs:label     "be born"@en.
 <http://kgc.knowledge-graph.jp/data/Got_off>
     rdf:type    kgc:Action;
     rdfs:label     "Got off"@en.
@@ -4765,15 +4762,15 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Early_spring>
     rdfs:label     "Early spring"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/I_bought_it>
+<http://kgc.knowledge-graph.jp/data/buy>
     rdf:type    kgc:Action;
-    rdfs:label     "I bought it"@en.
+    rdfs:label     "buy"@en.
 <http://kgc.knowledge-graph.jp/data/The_reason_for_Brenda_s_death>
     rdfs:label     "The reason for Brenda's death"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/I_was_locked_up>
+<http://kgc.knowledge-graph.jp/data/predicate/beLocked>
     rdf:type    kgc:Action;
-    rdfs:label     "I was locked up"@en.
+    rdfs:label     "be locked"@en.
 <http://kgc.knowledge-graph.jp/data/Fear>
     rdfs:label     "Fear"@en;
     rdf:type    kgc:Object.
@@ -4783,9 +4780,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/a_four-wheeled_carriage>
     rdfs:label     "a four-wheeled carriage"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Infer>
-    rdf:type    kgc:Action;
-    rdfs:label     "Infer"@en.
 <http://kgc.knowledge-graph.jp/data/Mortimer_s_finger>
     rdfs:label     "Mortimer's finger"@en;
     rdf:type    kgc:Object.
@@ -4795,9 +4789,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/It_s_true>
     rdfs:label     "It's true"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/predicate/went>
+<http://kgc.knowledge-graph.jp/data/predicate/go>
     rdf:type    kgc:Action;
-    rdfs:label     "went"@en.
+    rdfs:label     "go"@en.
 <http://kgc.knowledge-graph.jp/data/fear>
     rdfs:label     "fear"@en;
     rdf:type    kgc:Object.
@@ -4833,9 +4827,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/something>
     rdfs:label     "something"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/I_was_not_stolen>
+<http://kgc.knowledge-graph.jp/data/predicate/notBeStolen>
     rdf:type    kgc:Action;
-    rdfs:label     "I was not stolen"@en.
+    rdfs:label     "not be stolen"@en.
 <http://kgc.knowledge-graph.jp/data/Face_of_fear>
     rdfs:label     "Face of fear"@en;
     rdf:type    kgc:OFobj;
@@ -4895,15 +4889,12 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Threatened>
     rdf:type    kgc:Action;
     rdfs:label     "Threatened"@en.
-<http://kgc.knowledge-graph.jp/data/predicate/called>
+<http://kgc.knowledge-graph.jp/data/predicate/call>
     rdf:type    kgc:Action;
-    rdfs:label     "called"@en.
+    rdfs:label     "call"@en.
 <http://kgc.knowledge-graph.jp/data/I_am_a_housekeeper>
     rdf:type    kgc:Property;
     rdfs:label     "I am a housekeeper"@en.
-<http://kgc.knowledge-graph.jp/data/predicate/placed>
-    rdf:type    kgc:Action;
-    rdfs:label     "placed"@en.
 <http://kgc.knowledge-graph.jp/data/Suspected>
     rdf:type    kgc:Action;
     rdfs:label     "Suspected"@en.
@@ -4932,9 +4923,9 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Attack>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/fear>.
-<http://kgc.knowledge-graph.jp/data/Did_not_answer>
+<http://kgc.knowledge-graph.jp/data/notAnswer>
     rdf:type    kgc:Action;
-    rdfs:label     "Did not answer"@en.
+    rdfs:label     "not answer"@en.
 <http://kgc.knowledge-graph.jp/data/It_was_necessary>
     rdf:type    kgc:Action;
     rdfs:label     "It was necessary"@en.
@@ -4956,9 +4947,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Act>
     rdf:type    kgc:Action;
     rdfs:label     "Act"@en.
-<http://kgc.knowledge-graph.jp/data/I_was_singing>
+<http://kgc.knowledge-graph.jp/data/predicate/singing>
     rdf:type    kgc:Action;
-    rdfs:label     "I was singing"@en.
+    rdfs:label     "singing"@en.
 <http://kgc.knowledge-graph.jp/data/Poldew_Bay_Cottage>
     rdfs:label     "Poldew Bay Cottage"@en;
     rdf:type    kgc:Object.
@@ -5044,12 +5035,9 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/It_is_an_element>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_case>.
-<http://kgc.knowledge-graph.jp/data/Sat_down>
+<http://kgc.knowledge-graph.jp/data/predicate/confirm>
     rdf:type    kgc:Action;
-    rdfs:label     "Sat down"@en.
-<http://kgc.knowledge-graph.jp/data/predicate/confirmed>
-    rdf:type    kgc:Action;
-    rdfs:label     "confirmed"@en.
+    rdfs:label     "confirm"@en.
 <http://kgc.knowledge-graph.jp/data/I_turned_around>
     rdf:type    kgc:Action;
     rdfs:label     "I turned around"@en.
@@ -5074,9 +5062,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Nerve>
     rdfs:label     "Nerve"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Retired>
+<http://kgc.knowledge-graph.jp/data/predicate/retire>
     rdf:type    kgc:Action;
-    rdfs:label     "Retired"@en.
+    rdfs:label     "retire"@en.
 <http://kgc.knowledge-graph.jp/Toxicity_of_Incident_2>
     rdfs:label     "Toxicity of Incident 2"@en;
     rdf:type    kgc:OFobj;
@@ -5085,15 +5073,15 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Past_10_o_clock>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "Past 10 o'clock"@en.
-<http://kgc.knowledge-graph.jp/data/predicate/sent>
+<http://kgc.knowledge-graph.jp/data/predicate/send>
     rdf:type    kgc:Action;
-    rdfs:label     "sent"@en.
+    rdfs:label     "send"@en.
 <http://kgc.knowledge-graph.jp/data/I_am_jealous>
     rdf:type    kgc:Property;
     rdfs:label     "I am jealous"@en.
-<http://kgc.knowledge-graph.jp/data/predicate/had>
+<http://kgc.knowledge-graph.jp/data/predicate/have>
     rdf:type    kgc:Action;
-    rdfs:label     "had"@en.
+    rdfs:label     "have"@en.
 <http://kgc.knowledge-graph.jp/data/Owen>
     rdfs:label     "Owen"@en;
     rdf:type    kgc:Object.
@@ -5118,9 +5106,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Dr._Richard_s_remark>
     rdfs:label     "Dr. Richard's remark"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Went_back>
-    rdf:type    kgc:Action;
-    rdfs:label     "Went back"@en.
 <http://kgc.knowledge-graph.jp/data/Sea>
     rdfs:label     "Sea"@en;
     rdf:type    kgc:Object.
@@ -5157,15 +5142,15 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Case_2>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "Case 2"@en.
-<http://kgc.knowledge-graph.jp/data/predicate/arrived>
+<http://kgc.knowledge-graph.jp/data/predicate/arrive>
     rdf:type    kgc:Action;
-    rdfs:label     "arrived"@en.
+    rdfs:label     "arrive"@en.
 <http://kgc.knowledge-graph.jp/data/Note>
     rdfs:label     "Note"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Died>
+<http://kgc.knowledge-graph.jp/data/predicate/die>
     rdf:type    kgc:Action;
-    rdfs:label     "Died"@en.
+    rdfs:label     "die"@en.
 <http://kgc.knowledge-graph.jp/data/In_the_flower_bed_under_the_window>
     rdfs:label     "In the flower bed under the window"@en;
     rdf:type    kgc:Object.
@@ -5205,9 +5190,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Charred_ash>
     rdfs:label     "Charred ash"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Said>
-    rdf:type    kgc:Action;
-    rdfs:label     "Said"@en.
 <http://kgc.knowledge-graph.jp/data/Considerable_garden>
     rdfs:label     "Considerable garden"@en;
     rdf:type    kgc:Object.
@@ -5235,9 +5217,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/a_rarity_in_Africa>
     rdfs:label     "a rarity in Africa"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Begged>
-    rdf:type    kgc:Action;
-    rdfs:label     "Begged"@en.
 <http://kgc.knowledge-graph.jp/data/Inland_from_the_cottages>
     rdfs:label     "Inland from the cottages"@en;
     rdf:type    kgc:Object.
@@ -5250,9 +5229,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/I_was_silent>
     rdf:type    kgc:Action;
     rdfs:label     "I was silent"@en.
-<http://kgc.knowledge-graph.jp/data/I_wore>
-    rdf:type    kgc:Action;
-    rdfs:label     "I wore"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/poison>
     rdfs:label     "poison"@en;
     rdf:type    kgc:Object.
@@ -5268,7 +5244,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/In_the_middle>
     rdfs:label     "In the middle"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Recommended>
+<http://kgc.knowledge-graph.jp/data/recommend>
     rdf:type    kgc:Action;
     rdfs:label     "Recommended"@en.
 <http://kgc.knowledge-graph.jp/data/Unusual_nature>
@@ -5292,9 +5268,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/good_atmosphere>
     rdfs:label     "good atmosphere"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Sat>
+<http://kgc.knowledge-graph.jp/data/predicate/sit>
     rdf:type    kgc:Action;
-    rdfs:label     "Sat"@en.
+    rdfs:label     "sit"@en.
 <http://kgc.knowledge-graph.jp/data/I_was_reclining>
     rdf:type    kgc:Action;
     rdfs:label     "I was reclining"@en.
@@ -5328,9 +5304,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Path>
     rdfs:label     "Path"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/I_heard_it>
-    rdf:type    kgc:Action;
-    rdfs:label     "I heard it"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/there_were>
     rdf:type    kgc:Action;
     rdfs:label     "there were"@en.
@@ -5342,9 +5315,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Sense>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/guilt>.
-<http://kgc.knowledge-graph.jp/data/Arrived>
-    rdf:type    kgc:Action;
-    rdfs:label     "Arrived"@en.
+
 <http://kgc.knowledge-graph.jp/data/Immediate_family>
     rdfs:label     "Immediate family"@en;
     rdf:type    kgc:Object.
@@ -5378,15 +5349,12 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/is_seperated>
     rdf:type    kgc:Action;
     rdfs:label     "is seperated"@en.
-<http://kgc.knowledge-graph.jp/data/predicate/killed>
+<http://kgc.knowledge-graph.jp/data/predicate/kill>
     rdf:type    kgc:Action;
-    rdfs:label     "killed"@en.
+    rdfs:label     "kill"@en.
 <http://kgc.knowledge-graph.jp/data/Be_troubled>
     rdf:type    kgc:Action;
     rdfs:label     "Be troubled"@en.
-<http://kgc.knowledge-graph.jp/data/Received>
-    rdf:type    kgc:Action;
-    rdfs:label     "Received"@en.
 <http://kgc.knowledge-graph.jp/data/Mortimer_s_Story>
     rdfs:label     "Mortimer's Story"@en;
     rdf:type    kgc:Object.
@@ -5413,7 +5381,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/moving>
     rdf:type    kgc:Action;
     rdfs:label     "moving"@en.
-<http://kgc.knowledge-graph.jp/data/predicate/met>
+<http://kgc.knowledge-graph.jp/data/predicate/meet>
     rdf:type    kgc:Action;
     rdfs:label     "met"@en.
 <http://kgc.knowledge-graph.jp/data/Trigenis_House>
@@ -5440,9 +5408,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/a_carriage>
     rdfs:label     "a carriage"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/I_told_you>
+<http://kgc.knowledge-graph.jp/data/predicate/tell>
     rdf:type    kgc:Action;
-    rdfs:label     "I told you"@en.
+    rdfs:label     "tell"@en.
 <http://kgc.knowledge-graph.jp/data/Progress>
     rdfs:label     "Progress"@en;
     rdf:type    kgc:Object.
@@ -5495,9 +5463,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/do_not_have>
     rdf:type    kgc:Action;
     rdfs:label     "do not have"@en.
-<http://kgc.knowledge-graph.jp/data/Dropped>
+<http://kgc.knowledge-graph.jp/data/predicate/drop>
     rdf:type    kgc:Action;
-    rdfs:label     "Dropped"@en.
+    rdfs:label     "drop"@en.
 <http://kgc.knowledge-graph.jp/data/I_know>
     rdf:type    kgc:Action;
     rdfs:label     "I know"@en.
@@ -5523,7 +5491,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "could not"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/wide>
-    rdf:type    kgc:Action;
+    rdf:type    kgc:Property;
     rdfs:label     "wide"@en.
 <http://kgc.knowledge-graph.jp/data/Four_men>
     rdfs:label     "Four men"@en;
@@ -5567,9 +5535,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/song>
     rdfs:label     "song"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/predicate/waited>
+<http://kgc.knowledge-graph.jp/data/predicate/wait>
     rdf:type    kgc:Action;
-    rdfs:label     "waited"@en.
+    rdfs:label     "wait"@en.
 <http://kgc.knowledge-graph.jp/data/After_the_incident>
     rdfs:label     "After the incident"@en;
     rdf:type    kgc:Object.
@@ -5648,7 +5616,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:AbstractTime;
     rdfs:label     "10:15 past"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/thin>
-    rdf:type    kgc:Action;
+    rdf:type    kgc:Property;
     rdfs:label     "thin"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/business>
     rdfs:label     "business"@en;
@@ -5665,9 +5633,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/I_was_paralyzed>
     rdf:type    kgc:Action;
     rdfs:label     "I was paralyzed"@en.
-<http://kgc.knowledge-graph.jp/data/predicate/collapsed>
+<http://kgc.knowledge-graph.jp/data/predicate/fall>
     rdf:type    kgc:Action;
-    rdfs:label     "collapsed"@en.
+    rdfs:label     "fall"@en.
 <http://kgc.knowledge-graph.jp/data/Family>
     rdfs:label     "Family"@en;
     rdf:type    kgc:Object.
@@ -5715,12 +5683,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Stairs>
     rdfs:label     "Stairs"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/It_was_moving>
+<http://kgc.knowledge-graph.jp/data/predicate/beKilled>
     rdf:type    kgc:Action;
-    rdfs:label     "It was moving"@en.
-<http://kgc.knowledge-graph.jp/data/Killed>
-    rdf:type    kgc:Action;
-    rdfs:label     "Killed"@en.
+    rdfs:label     "beKilled"@en.
 <http://kgc.knowledge-graph.jp/data/Description_of_Standale>
     rdfs:label     "Description of Standale"@en;
     rdf:type    kgc:OFobj;
@@ -5747,9 +5712,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Passed_away>
     rdf:type    kgc:Action;
     rdfs:label     "Passed away"@en.
-<http://kgc.knowledge-graph.jp/data/predicate/received>
-    rdf:type    kgc:Action;
-    rdfs:label     "received"@en.
 <http://kgc.knowledge-graph.jp/data/Emergency_call>
     rdfs:label     "Emergency call"@en;
     rdf:type    kgc:Object.
@@ -5798,9 +5760,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/George_s_statement>
     rdfs:label     "George's statement"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Paid>
+<http://kgc.knowledge-graph.jp/data/predicate/put>
     rdf:type    kgc:Action;
-    rdfs:label     "Paid"@en.
+    rdfs:label     "put"@en.
 <http://kgc.knowledge-graph.jp/data/Be_the_perpetrator_of_Case_1>
     rdf:type    kgc:Action;
     rdfs:label     "Be the perpetrator of Case 1"@en;
@@ -5819,9 +5781,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Porter>
     rdfs:label     "Porter"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Walked>
+<http://kgc.knowledge-graph.jp/data/predicate/walk>
     rdf:type    kgc:Action;
-    rdfs:label     "Walked"@en.
+    rdfs:label     "walk"@en.
 <http://kgc.knowledge-graph.jp/data/Watson_s_remarks>
     rdfs:label     "Watson's remarks"@en;
     rdf:type    kgc:Object.
@@ -5837,9 +5799,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Misplaced>
     rdf:type    kgc:Action;
     rdfs:label     "Misplaced"@en.
-<http://kgc.knowledge-graph.jp/data/How_have_you_been>
-    rdf:type    kgc:Action;
-    rdfs:label     "How have you been"@en.
+<http://kgc.knowledge-graph.jp/data/predicate/fine>
+    rdf:type    kgc:Property;
+    rdfs:label     "fine"@en.
 <http://kgc.knowledge-graph.jp/data/Emotion>
     rdfs:label     "Emotion"@en;
     rdf:type    kgc:Object.
@@ -5855,9 +5817,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Motive>
     rdfs:label     "Motive"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Rubbed>
+<http://kgc.knowledge-graph.jp/data/predicate/rub>
     rdf:type    kgc:Action;
-    rdfs:label     "Rubbed"@en.
+    rdfs:label     "rub"@en.
 <http://kgc.knowledge-graph.jp/data/Caught_up>
     rdf:type    kgc:Action;
     rdfs:label     "Caught up"@en.
@@ -5867,9 +5829,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Put_on>
     rdf:type    kgc:Action;
     rdfs:label     "Put on"@en.
-<http://kgc.knowledge-graph.jp/data/It_was_dead>
-    rdf:type    kgc:Action;
-    rdfs:label     "It was dead"@en.
+<http://kgc.knowledge-graph.jp/data/predicate/dead>
+    rdf:type    kgc:Property;
+    rdfs:label     "dead"@en.
 <http://kgc.knowledge-graph.jp/data/Mortimer_s_statement>
     rdfs:label     "Mortimer's statement"@en;
     rdf:type    kgc:Object.
@@ -5888,9 +5850,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/rent>
     rdf:type    kgc:Action;
     rdfs:label     "rent"@en.
-<http://kgc.knowledge-graph.jp/data/Forgotten>
+<http://kgc.knowledge-graph.jp/data/predicate/beForgotten>
     rdf:type    kgc:Action;
-    rdfs:label     "Forgotten"@en.
+    rdfs:label     "be forgotten"@en.
 <http://kgc.knowledge-graph.jp/data/It_was_getting_worse>
     rdf:type    kgc:Action;
     rdfs:label     "It was getting worse"@en.
@@ -5934,9 +5896,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/A_fact>
     rdfs:label     "A fact"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/predicate/lost>
+<http://kgc.knowledge-graph.jp/data/predicate/lose>
     rdf:type    kgc:Action;
-    rdfs:label     "lost"@en.
+    rdfs:label     "lose"@en.
 <http://kgc.knowledge-graph.jp/data/I_was_fainting>
     rdf:type    kgc:Action;
     rdfs:label     "I was fainting"@en.
@@ -5963,9 +5925,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Long_time_ago>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "Long time ago"@en.
-<http://kgc.knowledge-graph.jp/data/It_was_not_ruined>
+<http://kgc.knowledge-graph.jp/data/notBeRuined>
     rdf:type    kgc:Action;
-    rdfs:label     "It was not ruined"@en.
+    rdfs:label     "not be ruined"@en.
 <http://kgc.knowledge-graph.jp/data/I_will_not_admit_it>
     rdf:type    kgc:Action;
     rdfs:label     "I will not admit it"@en.
@@ -5978,9 +5940,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/It_was_gravel>
     rdf:type    kgc:Property;
     rdfs:label     "It was gravel"@en.
-<http://kgc.knowledge-graph.jp/data/Ruined>
+<http://kgc.knowledge-graph.jp/data/predicate/ruin>
     rdf:type    kgc:Action;
-    rdfs:label     "Ruined"@en.
+    rdfs:label     "ruin"@en.
 <http://kgc.knowledge-graph.jp/data/Stuffed>
     rdf:type    kgc:Action;
     rdfs:label     "Stuffed"@en.
@@ -6002,9 +5964,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/In_the_chair>
     rdfs:label     "In the chair"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/predicate/worn>
+<http://kgc.knowledge-graph.jp/data/predicate/wear>
     rdf:type    kgc:Action;
-    rdfs:label     "worn"@en.
+    rdfs:label     "wear"@en.
 <http://kgc.knowledge-graph.jp/data/What_year>
     rdfs:label     "What year"@en;
     rdf:type    kgc:AbstractTime.
@@ -6014,9 +5976,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/I_was_asking_a_question>
     rdf:type    kgc:Action;
     rdfs:label     "I was asking a question"@en.
-<http://kgc.knowledge-graph.jp/data/Examined>
+<http://kgc.knowledge-graph.jp/data/predicate/examine>
     rdf:type    kgc:Action;
-    rdfs:label     "Examined"@en.
+    rdfs:label     "examine"@en.
 <http://kgc.knowledge-graph.jp/data/All_the_evidence>
     rdfs:label     "All the evidence"@en;
     rdf:type    kgc:Object.
@@ -6041,18 +6003,18 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Research>
     rdfs:label     "Research"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/predicate/stood>
+<http://kgc.knowledge-graph.jp/data/predicate/stand>
     rdf:type    kgc:Action;
-    rdfs:label     "stood"@en.
+    rdfs:label     "stand"@en.
 <http://kgc.knowledge-graph.jp/data/In_a_cottage_in_Standale>
     rdfs:label     "In a cottage in Standale"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/Standale_s_remarks>
     rdfs:label     "Standale's remarks"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Asked>
+<http://kgc.knowledge-graph.jp/data/ask>
     rdf:type    kgc:Action;
-    rdfs:label     "Asked"@en.
+    rdfs:label     "ask"@en.
 <http://kgc.knowledge-graph.jp/data/I_was_good_friends>
     rdf:type    kgc:Action;
     rdfs:label     "I was good friends"@en.
@@ -6071,9 +6033,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/To_the_pastoral_hall>
     rdfs:label     "To the pastoral hall"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/predicate/do_not_know>
+<http://kgc.knowledge-graph.jp/data/predicate/notKnow>
     rdf:type    kgc:Action;
-    rdfs:label     "do not know"@en.
+    rdfs:label     "not know"@en.
 <http://kgc.knowledge-graph.jp/data/Same_air>
     rdfs:label     "Same air"@en;
     rdf:type    kgc:Object.
@@ -6104,15 +6066,12 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/face>
     rdfs:label     "face"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Exist>
+<http://kgc.knowledge-graph.jp/data/exist>
     rdf:type    kgc:Action;
-    rdfs:label     "Exist"@en.
+    rdfs:label     "exist"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/gone_crazy>
     rdf:type    kgc:Action;
     rdfs:label     "gone crazy"@en.
-<http://kgc.knowledge-graph.jp/data/I_do_not_understand>
-    rdf:type    kgc:Action;
-    rdfs:label     "I do not understand"@en.
 <http://kgc.knowledge-graph.jp/data/House>
     rdfs:label     "House"@en;
     rdf:type    kgc:Object.
@@ -6122,7 +6081,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Burnt_powder>
     rdfs:label     "Burnt powder"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Came>
+<http://kgc.knowledge-graph.jp/data/come>
     rdf:type    kgc:Action;
     rdfs:label     "Came"@en.
 <http://kgc.knowledge-graph.jp/data/Mortimer_s_wish>
@@ -6137,9 +6096,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Turned_back>
     rdf:type    kgc:Action;
     rdfs:label     "Turned back"@en.
-<http://kgc.knowledge-graph.jp/data/I_borrowed>
-    rdf:type    kgc:Action;
-    rdfs:label     "I borrowed"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/early_morning>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "early morning"@en.
@@ -6158,18 +6114,15 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/May_have_held>
     rdf:type    kgc:Action;
     rdfs:label     "May have held"@en.
-<http://kgc.knowledge-graph.jp/data/Had>
-    rdf:type    kgc:Action;
-    rdfs:label     "Had"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/revolver>
     rdfs:label     "revolver"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/Become>
     rdf:type    kgc:Action;
     rdfs:label     "Become"@en.
-<http://kgc.knowledge-graph.jp/data/Ate>
+<http://kgc.knowledge-graph.jp/data/predicate/eat>
     rdf:type    kgc:Action;
-    rdfs:label     "Ate"@en.
+    rdfs:label     "eat"@en.
 <http://kgc.knowledge-graph.jp/data/After_Brenda_s_death>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "After Brenda's death"@en.
@@ -6227,10 +6180,10 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Inland_from_the_cottages>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Pordeux_Bay>.
-<http://kgc.knowledge-graph.jp/data/Opened>
+<http://kgc.knowledge-graph.jp/data/predicate/open>
     rdf:type    kgc:Action;
-    rdfs:label     "Opened"@en.
-<http://kgc.knowledge-graph.jp/data/Before_11_00_last_night>
+    rdfs:label     "open"@en.
+<http://kgc.knowledge-graph.jp/data/Before_11_00_last_night>e
     rdf:type    kgc:AbstractTime;
     rdfs:label     "Before 11:00 last night"@en.
 <http://kgc.knowledge-graph.jp/data/Burned_out>
@@ -6254,9 +6207,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/money>
     rdfs:label     "money"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/I_did_not_go>
+<http://kgc.knowledge-graph.jp/data/notGo>
     rdf:type    kgc:Action;
-    rdfs:label     "I did not go"@en.
+    rdfs:label     "not go"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/others>
     rdfs:label     "others"@en;
     rdf:type    kgc:Object.
@@ -6296,9 +6249,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Melancholy>
     rdfs:label     "Melancholy"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Felt>
+<http://kgc.knowledge-graph.jp/data/predicate/feel>
     rdf:type    kgc:Action;
-    rdfs:label     "Felt"@en.
+    rdfs:label     "feel"@en.
 <http://kgc.knowledge-graph.jp/data/Reproduction_of_lamp>
     rdfs:label     "Reproduction of lamp"@en;
     rdf:type    kgc:OFobj;
@@ -6354,9 +6307,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/New_stimulus>
     rdfs:label     "New stimulus"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Thought>
-    rdf:type    kgc:Action;
-    rdfs:label     "Thought"@en.
 <http://kgc.knowledge-graph.jp/data/That_morning>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "That morning"@en.
@@ -6377,7 +6327,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Before_breakfast>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "Before breakfast"@en.
-<http://kgc.knowledge-graph.jp/data/predicate/came>
+<http://kgc.knowledge-graph.jp/data/predicate/come>
     rdf:type    kgc:Action;
     rdfs:label     "came"@en.
 <http://kgc.knowledge-graph.jp/data/Mortimer_s_question>
@@ -6428,21 +6378,15 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Starting_point>
     rdfs:label     "Starting point"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Has_entered>
+<http://kgc.knowledge-graph.jp/data/predicate/enter>
     rdf:type    kgc:Action;
-    rdfs:label     "Has entered"@en.
-<http://kgc.knowledge-graph.jp/data/Entered>
+    rdfs:label     "enter"@en.
+<http://kgc.knowledge-graph.jp/data/predicate/crush>
     rdf:type    kgc:Action;
-    rdfs:label     "Entered"@en.
-<http://kgc.knowledge-graph.jp/data/Crushed>
-    rdf:type    kgc:Action;
-    rdfs:label     "Crushed"@en.
+    rdfs:label     "crush"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/stay>
     rdf:type    kgc:Action;
     rdfs:label     "stay"@en.
-<http://kgc.knowledge-graph.jp/data/predicate/stand>
-    rdf:type    kgc:Action;
-    rdfs:label     "stand"@en.
 <http://kgc.knowledge-graph.jp/data/Holmes_face>
     rdfs:label     "Holmes face"@en;
     rdf:type    kgc:Object.
@@ -6481,8 +6425,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/It_was_up>
     rdf:type    kgc:Action;
     rdfs:label     "It was up"@en.
-<http://kgc.knowledge-graph.jp/data/I_was_excited>
-    rdf:type    kgc:Action;
+<http://kgc.knowledge-graph.jp/data/predicate/excited>
+    rdf:type    kgc:Property;
     rdfs:label     "I was excited"@en.
 <http://kgc.knowledge-graph.jp/data/In_the_middle_of_the_card>
     rdf:type    kgc:AbstractTime;
@@ -6501,9 +6445,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/flame>
     rdfs:label     "flame"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Happened>
+<http://kgc.knowledge-graph.jp/data/predicate/happen>
     rdf:type    kgc:Action;
-    rdfs:label     "Happened"@en.
+    rdfs:label     "happen"@en.
 <http://kgc.knowledge-graph.jp/data/the_first_day>
     rdfs:label     "the first day"@en;
     rdf:type    kgc:Object.
@@ -6525,9 +6469,9 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/I_am_the_victim>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Case_2>.
-<http://kgc.knowledge-graph.jp/data/predicate/thought>
+<http://kgc.knowledge-graph.jp/data/predicate/think>
     rdf:type    kgc:Action;
-    rdfs:label     "thought"@en.
+    rdfs:label     "think"@en.
 <http://kgc.knowledge-graph.jp/data/Morning_of_the_first_day>
     rdfs:label     "Morning of the first day"@en;
     rdf:type    kgc:OFobj;
@@ -6545,9 +6489,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/Outsider>
     rdfs:label     "Outsider"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Returned>
+<http://kgc.knowledge-graph.jp/data/predicate/return>
     rdf:type    kgc:Action;
-    rdfs:label     "Returned"@en.
+    rdfs:label     "return"@en.
 <http://kgc.knowledge-graph.jp/data/With_a_magnifying_glass>
     rdfs:label     "With a magnifying glass"@en;
     rdf:type    kgc:Object.
@@ -6577,9 +6521,9 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Nature>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/powder_medicine>.
-<http://kgc.knowledge-graph.jp/data/predicate/heard>
+<http://kgc.knowledge-graph.jp/data/predicate/hear>
     rdf:type    kgc:Action;
-    rdfs:label     "heard"@en.
+    rdfs:label     "hear"@en.
 <http://kgc.knowledge-graph.jp/data/Baggage>
     rdfs:label     "Baggage"@en;
     rdf:type    kgc:Object.
@@ -6592,9 +6536,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/I_was_crawling>
     rdf:type    kgc:Action;
     rdfs:label     "I was crawling"@en.
-<http://kgc.knowledge-graph.jp/data/Guessed>
+<http://kgc.knowledge-graph.jp/data/predicate/guess>
     rdf:type    kgc:Action;
-    rdfs:label     "Guessed"@en.
+    rdfs:label     "guesse"@en.
 <http://kgc.knowledge-graph.jp/data/grass>
     rdfs:label     "grass"@en;
     rdf:type    kgc:Object.
@@ -6615,9 +6559,9 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/A_sample>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_magic_foot>.
-<http://kgc.knowledge-graph.jp/data/predicate/woke_up>
+<http://kgc.knowledge-graph.jp/data/predicate/happen>
     rdf:type    kgc:Action;
-    rdfs:label     "woke up"@en.
+    rdfs:label     "happen"@en.
 <http://kgc.knowledge-graph.jp/data/Owen_s_fate>
     rdfs:label     "Owen's fate"@en;
     rdf:type    kgc:Object.
@@ -6629,9 +6573,9 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Some>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Africa's_curiosities>.
-<http://kgc.knowledge-graph.jp/data/Met>
+<http://kgc.knowledge-graph.jp/data/meet>
     rdf:type    kgc:Action;
-    rdfs:label     "Met"@en.
+    rdfs:label     "meet"@en.
 <http://kgc.knowledge-graph.jp/data/Living_room>
     rdfs:label     "Living room"@en;
     rdf:type    kgc:Object.
