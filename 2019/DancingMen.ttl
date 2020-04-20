@@ -1122,12 +1122,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "女中は火薬のにおいを嗅いだ"@ja ;
     kgc:source  "The maid feels the smell of gunpowder"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/feel> .
-<http://kgc.knowledge-graph.jp/data/DancingMen/115>
-    rdf:type    kgc:Situation ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Maid> .
-<http://kgc.knowledge-graph.jp/data/DancingMen/116>
-    rdf:type    kgc:Situation ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/feel> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Maid> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Smell_of_gunfire> ;
     kgc:time  "1903-08-06T04:02:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/1903-08-06T04:02> ;
