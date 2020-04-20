@@ -515,6 +515,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "バークリの家の名前はラシーンである"@ja ;
     kgc:source  "The name of the house of Berkeley is a Rasheen."@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/name_of_house_of_Berkeley> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/Rasheen> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/042>
     rdf:type    kgc:Situation ;
@@ -1249,6 +1250,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "獣は鼬や貂の種類の獣である"@ja ;
     kgc:source  "Beast is a kind of beast of weasel and marten."@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/beast> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/weasel_OR_marten> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/146>
     rdf:type    kgc:Situation ;
