@@ -1154,7 +1154,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "ヘレンの寝室の壁に穴が空いた。"@ja ;
     kgc:source  "There was a hole in the wall of bedroom of Helen."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/beBroken> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/beBroken> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/wall_of_bedroom_of_Helen> ;
     kgc:why   <http://kgc.knowledge-graph.jp/data/SpeckledBand/114>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/116>
@@ -1408,7 +1408,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "関係する投下資本の現在価格は、ヘレンの母が死んだ当時、年収で1100ポンド弱あった。"@ja ;
     kgc:source  "The current price of the invested capital involved was less than 1100 pounds in annual income at the time Helen's mother died."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1100_GBP> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1100_GBP> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/price_of_asset_of_mother_of_Helen> ;
     kgc:time  "1875-04-01T10:00:00"^^xsd:DateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/death_day_of_mother_of_Helen> ;
@@ -1417,7 +1418,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "関係する投下資本の現在価格は、今は農産物の価格下落のせいで、せいぜい750ポンドである。"@ja ;
     kgc:source  "The current price of the invested capital involved is now at most 750 pounds, due to the price drop of agricultural products now."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/750_GBP> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/750_GBP> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/price_of_asset_of_mother_of_Helen> ;
     kgc:time  "1883-04-01T13:00:00"^^xsd:DateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/now> ;
@@ -1542,13 +1544,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "左側の棟の窓の破れたところに板が打ち付けてある。"@ja ;
     kgc:source  "A plate is struck at a place where the window of the left building is torn."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/beBroken> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/broken> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_left_building_of_mansion_of_Roylott>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/161>
     rdf:type    kgc:Situation;
     kgc:source  "左側の棟の屋根がへこんでいる。"@ja ;
     kgc:source  "The roof of the left ridge is recessed."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/beBroken> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/broken> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/roof_of_masion>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/162>
     rdf:type    kgc:Situation;
@@ -1560,7 +1562,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "屋敷の中央部は手入れ不足。"@ja ;
     kgc:source  "The central part of the mansion is broken."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/beBroken> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/broken> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/central_part_of_mansion_of_Roylott>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/164>
     rdf:type    kgc:Situation;
@@ -1588,7 +1590,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "右側の棟の石の壁が崩れている。"@ja ;
     kgc:source  "The wall of the stone on the right side is collapsed."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/beBroken> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/broken> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/wall_of_right_building_of_mansion_of_Roylott>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/168>
     rdf:type    kgc:Situation;
@@ -1609,7 +1611,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "芝地は手入れが行き届いていない。"@ja ;
     kgc:source  "The turf is not well kept."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/beBroken> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/broken> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/garden_of_Roylott>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/171>
     rdf:type    kgc:Situation;
@@ -1644,7 +1646,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "ヘレンは今は真ん中の部屋で寝ている。"@ja ;
     kgc:source  "Helen is now sleeping in the middle bedroom."@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/exist> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/sleep> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/bedroom_of_Julia> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/these_days> ;
@@ -1653,7 +1655,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "ヘレンの部屋の壁は改修中である"@ja ;
     kgc:source  "bedroom of Helen wall is under renovation"@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/beBroken> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/broken> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/wall_of_right_building_of_mansion_of_Roylott>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/177>
     rdf:type    kgc:Situation;
@@ -2531,6 +2533,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "よって，穴は通風口"@ja ;
     kgc:source  "Therefore, the hole has a vent hole."@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/hole> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/ventilator>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/280>
     rdf:type    kgc:Situation;
@@ -2789,6 +2792,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Oil burns, a strong smell that the metal is heated."@en ;
     kgc:hasPreidcate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/burn> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/smell> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/metal> ;
     kgc:why   <http://kgc.knowledge-graph.jp/data/SpeckledBand/312>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/312>
@@ -2961,7 +2965,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/333>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/333>
     rdf:type    kgc:Situation;
-    kgc:source  "そのとき、ホームズとワトソンンは（この世のものと思えぬ）悲鳴を聞く"@ja ;
+    kgc:source  "そのとき、ホームズとワトソンは（この世のものと思えぬ）悲鳴を聞く"@ja ;
     kgc:source  "At that time, Holmes and Watson listen to the unearthly scream."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/hear> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
@@ -2981,6 +2985,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "その悲鳴は、しゃがれ声，苦しみ，恐れ，怒り，断末魔の叫びとなる"@ja ;
     kgc:source  "That scream will be a crouching voice, suffering, fear, anger, cry of a fierce devil."@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/scream> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/become> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/crooked_voice> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/suffering> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/fear> ;
@@ -3015,7 +3020,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ホームズは「この結末が最善なのかもしれない」と言う"@ja ;
     kgc:source  "Holmes says 'This ending may be the best'."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/equalTo> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/result> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/best_result> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/340>.
@@ -3198,7 +3203,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "その蛇はインドでもっとも恐ろしい蛇だった"@ja ;
     kgc:source  "This snake was the most terrible one in India."@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/equalTo> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/sname> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/SpeckledBand/poisonous_snake> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/the_most_terrible_snake_of_India>.
@@ -3535,7 +3540,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "ロマは楽団である"@ja ;
     kgc:source  "Some Roma are bands."@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/equalTo> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roma> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/band>.
 #Objectとして参照されているリソースの定義
@@ -3637,13 +3642,16 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/reason>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/whistle>.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/equalTo>
+<http://kgc.knowledge-graph.jp/data/predicate/equalTo>
     rdf:type    kgc:Action;
     rdfs:label     "equalTo"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/have>
     rdf:type    kgc:Action;
     rdfs:label     "have"@en;
     rdf:type    kgc:Property.
+<http://kgc.knowledge-graph.jp/data/predicate/become>
+    rdf:type    kgc:Action;
+    rdfs:label     "become"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/hinges_of_shutter>
     rdf:type    kgc:Object;
     rdfs:label     "hinges of shutter"@en;
@@ -3914,8 +3922,11 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/soon>
     rdfs:label     "soon"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/beBroken>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/broken>
     rdf:type    kgc:Property;
+    rdfs:label     "broken"@en.
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/beBroken>
+    rdf:type    kgc:Action;
     rdfs:label     "beBroken"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/fear>
     rdfs:label     "fear"@en;
@@ -4716,9 +4727,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/30_years_old>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "30 years old"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/Come>
-    rdfs:label     "Come"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/notFind>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
