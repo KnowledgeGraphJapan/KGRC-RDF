@@ -253,7 +253,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "ロイロットは義理の父である"@ja ;
     kgc:source  "Roylott is my father-in-law"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/equalTo> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/SpeckledBand/father-in-law>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/10>
@@ -283,7 +283,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "お金は１年１０００ポンドである"@ja ;
     kgc:source  "Money is 1000 pounds a year"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/equalTo> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/money> ;
     kgc:time  "1873-04-01T10:00:00"^^xsd:DateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/every_year> ;
@@ -358,7 +358,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "ロイロットは怒りやすい"@ja ;
     kgc:source  "Roylott is easy to get angry"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/getAngry> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/angry> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/occasionally>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/23>
@@ -379,7 +379,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "ロイロットはロマと付き合う"@ja ;
     kgc:source  "Roylott goes out with Roma"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/equalTo> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roma> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/SpeckledBand/friend_of_Roylott> ;
     kgc:therefore   <http://kgc.knowledge-graph.jp/data/SpeckledBand/26>.
@@ -962,7 +962,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "ロイロット博士の日頃の行いが悪い。"@ja ;
     kgc:source  " Roylott's daily work is bad."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/have> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/have> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/bad_act>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/92>
@@ -1247,7 +1247,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "クラウン・インは旅館。"@ja ;
     kgc:source  "Crown Inn is a ryokan."@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/equalTo> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/hotel>;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Crown_Inn>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/126>
@@ -3544,9 +3544,6 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roma> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/band>.
 #Objectとして参照されているリソースの定義
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/Have>
-    rdfs:label     "Have"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/danger>
     rdf:type    kgc:Property;
     rdfs:label     "danger"@en.
@@ -3589,6 +3586,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "cannotMove"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/notBeFixed>
     rdf:type    kgc:Property;
+    rdf:type    kgc:NotAction;
+    kgc:Not    <http://kgc.knowledge-graph.jp/data/SpeckledBand/beFixed>;
     rdfs:label     "notBeFixed"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/reward>
     rdfs:label     "reward"@en;
@@ -3694,9 +3693,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/central_part>
     rdfs:label     "central part"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/Exist>
-    rdfs:label     "Exist"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Crown_Inn>
     rdf:type    kgc:Place;
     rdfs:label     "Crown Inn"@en.
@@ -3711,9 +3707,9 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/door>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/bedroom>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia>.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/Answer>
-    rdfs:label     "Answer"@en;
-    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/answer>
+    rdfs:label     "answer"@en;
+    rdf:type    kgc:Action.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/near_rope_of_bell>
     rdfs:label     "near rope of bell"@en;
     rdf:type    kgc:OFobj;
@@ -3722,9 +3718,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/wall>
     rdf:type    kgc:Object;
     rdfs:label     "wall"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/Find>
-    rdfs:label     "Find"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/death_day>
     rdfs:label     "death day"@en;
     rdf:type    kgc:Object.
@@ -3887,9 +3880,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/bite>
     rdf:type    kgc:Action;
     rdfs:label     "bite"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/Lock>
-    rdfs:label     "Lock"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/unobservable>
     rdf:type    kgc:Property;
     rdfs:label     "unobservable"@en.
@@ -4077,9 +4067,6 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/walll>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/bedroom>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia>.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/Talk>
-    rdfs:label     "Talk"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/goDown>
     rdf:type    kgc:Action;
     rdfs:label     "goDown"@en.
@@ -4195,6 +4182,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "beUpset"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/canSee>
     rdf:type    kgc:Action;
+    rdf:type    kgc:CanAction;
+    kgc:can    <http://kgc.knowledge-graph.jp/data/SpeckledBand/see>;
     rdfs:label     "canSee"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/asset_of_mother_of_Helen>
     rdfs:label     "asset of mother of Helen"@en;
@@ -4272,9 +4261,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/stop>
     rdf:type    kgc:Action;
     rdfs:label     "stop"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/Move>
-    rdfs:label     "Move"@en;
-    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/move>
+    rdfs:label     "move"@en;
+    rdf:type    kgc:Action.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/listen>
     rdf:type    kgc:Action;
     rdfs:label     "listen"@en.
@@ -4418,6 +4407,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/notKnown>
     rdf:type    kgc:Property;
+    kgc:Not    <http://kgc.knowledge-graph.jp/data/SpeckledBand/known>;
     rdfs:label     "notKnown"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/faint>
     rdf:type    kgc:Property;
@@ -4504,9 +4494,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/send>
     rdf:type    kgc:Action;
     rdfs:label     "send"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/Oppose>
-    rdfs:label     "Oppose"@en;
-    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/oppose>
+    rdfs:label     "oppose"@en;
+    rdf:type    kgc:Action.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/safe>
     rdf:type    kgc:Object;
     rdfs:label     "safe"@en.
@@ -4564,9 +4554,6 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/bedroom>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott>.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/See>
-    rdfs:label     "See"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/louder>
     rdf:type    kgc:Property;
     rdfs:label     "louder"@en.
@@ -4854,15 +4841,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/until_signal>
     rdfs:label     "until signal"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/Sleep>
-    rdfs:label     "Sleep"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/match_box>
     rdf:type    kgc:Object;
     rdfs:label     "match box"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/Work>
-    rdfs:label     "Work"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/say>
     rdf:type    kgc:Action;
     rdfs:label     "say"@en.
@@ -4912,9 +4893,6 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/floor>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/bedroom>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia>.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/Go>
-    rdfs:label     "Go"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/insectHoles>
     rdfs:label     "insect holes"@en;
     rdf:type    kgc:Object.
@@ -4935,9 +4913,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/jumpUp>
     rdf:type    kgc:Action;
     rdfs:label     "jumpUp"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/Satisfied>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/satisfied>
     rdfs:label     "Satisfied"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Action.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/villager>
     rdfs:label     "villager"@en;
     rdf:type    kgc:Object.
@@ -4964,9 +4942,6 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "cane"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/back_part>
     rdfs:label     "back part"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/Open>
-    rdfs:label     "Open"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/tightly>
     rdfs:label     "tightly"@en;
@@ -5136,9 +5111,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/bed>
     rdf:type    kgc:Object;
     rdfs:label     "bed"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/Hear>
-    rdfs:label     "Hear"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/notOppose>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
