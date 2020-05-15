@@ -396,7 +396,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "バークリとナンシィは、言い争わなかった"@ja ;
     kgc:source  "Barkeley and Nancy did not argue."@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/22> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/022> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notArgue> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> .
@@ -404,7 +404,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "バークリはナンシィを情熱的に愛していた"@ja ;
     kgc:source  "Berkeley had loved passionately the Nancy."@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/22> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/022> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/love> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
@@ -413,7 +413,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ナンシィはバークリを情熱的には愛していなかった"@ja ;
     kgc:source  "Nancy is passionate the Berkeley did not love."@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/22> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/022> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notLove> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
@@ -422,7 +422,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ナンシィとバークリはロイヤル・マロウズの中で中年夫婦の理想像であった"@ja ;
     kgc:source  "Nancy and Berkeley was the ideal image of a middle-aged couple in the Royal Mallows."@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/22> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/022> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/ideal_image_of_middle-aged_couple> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
@@ -432,14 +432,14 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "バークリは変わった性格である"@ja ;
     kgc:source  "Berkeley is the unusual character."@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/22> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/022> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/unusual> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/character_of_Berkeley> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/028>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリは快活な老兵である"@ja ;
     kgc:source  "Berkeley is a light-hearted old soldier."@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/22> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/022> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/old_soldier> .
@@ -511,7 +511,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ロイヤル・マロウズ第一大隊はオールダショットに駐留している"@ja ;
     kgc:source  "The first battalion Royal Mallows are stationed in Aldershot."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/station> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/first_battalion_of_Royal_MAllows> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/first_battalion_of_Royal_Mallows> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/CrookedMan/Aldershot> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/040>
     rdf:type    kgc:Situation ;
@@ -1102,7 +1102,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ナンシィは犯人としての矛盾を持たない"@ja ;
     kgc:source  "Nancy does not have a conflict of as criminal."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Holmes> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notContradict> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/notContradict> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/criminal> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/119>
@@ -3042,7 +3042,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/please> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/every_night> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Teddy> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/soldiers> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/soldier> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/356>
     rdf:type    kgc:Situation ;
     kgc:source  "以下の時に、ヘンリはホームズを助ける"@ja ;
@@ -3275,6 +3275,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/old_friends_of_Nancy_AND_Henry>
     rdfs:label     "old friends of Nancy and Henry"@en;
+    rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/CrookedMan/old_friend> ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
@@ -3335,12 +3336,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/unusual>
     rdf:type    kgc:Property;
     rdfs:label     "unusual"@en.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/first_battalion_of_Royal_MAllows>
-    rdf:type    kgc:PhysicalObject;
-    rdfs:label     "first battalion of Royal MAllows"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/CrookedMan/first_battalion>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/Royal_MAllows>.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/outside>
     rdf:type    kgc:Place;
     rdfs:label     "outside"@en.
@@ -3404,9 +3399,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/Watson>
     rdf:type    kgc:Person;
     rdfs:label     "Watson"@en.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/Morrison_AND_Nancy>
-    rdf:type    kgc:Person;
-    rdfs:label     "Morrison AND Nancy"@en.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/long_torso>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "long torso"@en.
@@ -3419,12 +3411,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/take>
     rdf:type    kgc:Action;
     rdfs:label     "take"@en.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/soldiers>
-    rdf:type    kgc:Person;
-    rdfs:label     "soldiers"@en.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/299>
-    rdfs:label     "299"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/character>
     rdfs:label     "character"@en;
     rdf:type    kgc:Object.
@@ -3707,9 +3693,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/incedent>
     rdfs:label     "incedent"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/Holmes_AND_Watson>
-    rdf:type    kgc:Person;
-    rdfs:label     "Holmes AND Watson"@en.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/help>
     rdfs:label     "help"@en;
     rdf:type    kgc:PhysicalObject.
@@ -3775,9 +3758,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/Old_Testament>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "Old Testament"@en.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy_AND_Henry>
-    rdf:type    kgc:Person;
-    rdfs:label     "Nancy AND Henry"@en.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/tea>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "tea"@en.
@@ -3813,9 +3793,6 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:CanNotAction;
     kgc:canNot    <http://kgc.knowledge-graph.jp/data/predicate/take>;
     rdfs:label     "cannotTake"@en.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/Royal_MAllows>
-    rdfs:label     "Royal MAllows"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/do>
     rdf:type    kgc:Action;
     rdfs:label     "do"@en.
@@ -4476,9 +4453,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/distort>
     rdf:type    kgc:Action;
     rdfs:label     "distort"@en.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/300>
-    rdfs:label     "300"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/usually>
     rdfs:label     "usually"@en;
     rdf:type    kgc:Object.
@@ -4573,14 +4547,9 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry>;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/CrookedMan/witness>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/Holmes>.
-<http://kgc.knowledge-graph.jp/data/predicate/young_woman>
-    rdf:type    kgc:Property;
+<http://kgc.knowledge-graph.jp/data/CrookedMan/young_woman>
+    rdf:type    kgc:Object;
     rdfs:label     "young woman"@en.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/first_battalion_of_Royal_Mallows>
-    rdfs:label     "first battalion of Royal Mallows"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/CrookedMan/first_battalion>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/Royal_Mallows>.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/India>
     rdfs:label     "India"@en;
     rdf:type    kgc:Object.
@@ -4602,9 +4571,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/hear>
     rdf:type    kgc:Action;
     rdfs:label     "hear"@en.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/125>
-    rdfs:label     "125"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/ensign_sergeant>
     rdfs:label     "ensign sergeant"@en;
     rdf:type    kgc:Object.
@@ -4770,6 +4736,9 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/CrookedMan/daughter>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/ensign_sergeant>.
+<http://kgc.knowledge-graph.jp/data/predicate/habit>
+    rdf:type    kgc:Property;
+    rdfs:label     "habit"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notHabit>
     rdf:type    kgc:Property;
     kgc:Not <http://kgc.knowledge-graph.jp/data/predicate/habit>;
@@ -4845,9 +4814,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/attend>
     rdf:type    kgc:Action;
     rdfs:label     "attend"@en.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/161>
-    rdfs:label     "161"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy>
     rdf:type    kgc:Person;
     rdfs:label     "Nancy"@en.
@@ -4880,9 +4846,9 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/CrookedMan/window>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/living_room>.
-<http://kgc.knowledge-graph.jp/data/predicate/decided>
-    rdf:type    kgc:Property;
-    rdfs:label     "decided"@en.
+<http://kgc.knowledge-graph.jp/data/predicate/beDecided>
+    rdf:type    kgc:Action;
+    rdfs:label     "beDecided"@en.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/love_relationship>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "love relationship"@en.
@@ -4937,9 +4903,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/window>
     rdfs:label     "window"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/22>
-    rdfs:label     "22"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/Hair_of_Henry>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "Hair of Henry"@en;
@@ -4949,6 +4912,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/guilt>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "guilt"@en.
+<http://kgc.knowledge-graph.jp/data/CrookedMan/ideal_image_of_middle-aged_couple>
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "ideal image of middle-aged couple"@en.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/witness_of_Henry>
     rdf:type    kgc:Person;
     rdfs:label     "witness of Henry"@en;
@@ -5016,6 +4982,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/bad_mood>
     rdf:type    kgc:Property;
     rdfs:label     "bad mood"@en.
+<http://kgc.knowledge-graph.jp/data/predicate/sociable>
+    rdf:type    kgc:Property;
+    rdfs:label     "sociable"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notSociable>
     rdf:type    kgc:Property;
     kgc:Not <http://kgc.knowledge-graph.jp/data/predicate/sociable>;
@@ -5028,9 +4997,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/20_40_on_Monday>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "20:40 on Monday"@en.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/256>
-    rdfs:label     "256"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/Aldershot>
     rdf:type    kgc:Place;
     rdfs:label     "Aldershot"@en.
