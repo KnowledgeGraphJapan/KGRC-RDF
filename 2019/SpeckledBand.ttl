@@ -153,8 +153,12 @@ kgc:Action rdf:type owl:Class .
 ###  http://kgc.knowledge-graph.jp/ontology/kgcc.owl#Animal
 kgc:Animal rdf:type owl:Class ;
             rdfs:subClassOf kgc:Object .
+###  http://kgc.knowledge-graph.jp/ontology/kgcc.owl#CanAction
+kgc:CanAction rdf:type owl:Class ;
+               rdfs:subClassOf kgc:Action .
 ###  http://kgc.knowledge-graph.jp/ontology/kgcc.owl#CanNotAction
 kgc:CanNotAction rdf:type owl:Class ;
+                  rdfs:subClassOf kgc:CanAction ;
                   rdfs:subClassOf kgc:NotAction .
 ###  http://kgc.knowledge-graph.jp/ontology/kgcc.owl#NotAction
 kgc:NotAction rdf:type owl:Class ;
@@ -358,7 +362,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "ロイロットは怒りやすい"@ja ;
     kgc:source  "Roylott is easy to get angry"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/angry> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/angry> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/occasionally>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/23>
@@ -2642,6 +2646,10 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/293>
     rdf:type    kgc:Situation;
     kgc:source  "ホームズとワトソンはじっとした"@ja ;
+    kgc:source  "Holmes and Watson made still."@en ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/stay> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Watson> ;
     kgc:why   <http://kgc.knowledge-graph.jp/data/SpeckledBand/294>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/294>
     rdf:type    kgc:Situation;
@@ -2862,14 +2870,21 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "かすかな音は，穏やかな"@ja ;
     kgc:source  "Faint sound is calm."@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/faint> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/calm> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/sound>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/320>
     rdf:type    kgc:Situation;
-    kgc:source  "かすかな音は，さやさや"@ja.
+    kgc:source  "かすかな音は，さやさや"@ja;
+    kgc:source  "Faint sound is smoothing."@en ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/smoothing> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/sound>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/321>
     rdf:type    kgc:Situation;
-    kgc:source  "かすかな音は，薬缶から湯気が噴き出すような"@ja.
+    kgc:source  "かすかな音は，薬缶から湯気が噴き出すような"@ja;
+    kgc:source  "Faint sound is like that of a small jet of steam escaping continually from a kettle."@en ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/like> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/jet_of_steam> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/sound>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/322>
     rdf:type    kgc:Situation;
     kgc:source  "聞こえた瞬間、ホームズが寝台から飛び上がる"@ja ;
@@ -3141,6 +3156,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/355>
     rdf:type    kgc:Situation;
     kgc:source  "ロイロット博士は、天井の隅をみていた"@ja ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/see> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/ceiling> ;
     kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/SpeckledBand/356>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/356>
     rdf:type    kgc:Situation;
@@ -3585,7 +3603,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:canNot    <http://kgc.knowledge-graph.jp/data/SpeckledBand/move>;
     rdfs:label     "cannotMove"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/notBeFixed>
-    rdf:type    kgc:Property;
+    rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/SpeckledBand/beFixed>;
     rdfs:label     "notBeFixed"@en.
@@ -3797,6 +3815,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/sound>
     rdfs:label     "sound"@en;
     rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/jet_of_steam>
+    rdfs:label     "jet of steam"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/money>
     rdf:type    kgc:Object;
     rdfs:label     "money"@en.
@@ -3964,7 +3985,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/mansion>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/beModified>
-    rdf:type    kgc:Property;
+    rdf:type    kgc:Action;
     rdfs:label     "be modified"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/roof_of_masion>
     rdf:type    kgc:Object;
@@ -4028,7 +4049,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "bridge"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/effect>
-    rdf:type    kgc:Property;
+    rdf:type    kgc:Object;
+    rdf:type    kgc:Action;
     rdfs:label     "effect"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/bedroom_of_Julia>
     rdf:type    kgc:Place;
@@ -4154,7 +4176,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "small"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/beDecorated>
-    rdf:type    kgc:Property;
+    rdf:type    kgc:Action;
     rdfs:label     "beDecorated"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/talk>
     rdf:type    kgc:Action;
@@ -4405,13 +4427,19 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/2_years_ago>
     rdfs:label     "2 years ago"@en;
     rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/known>
+    rdf:type    kgc:Property;
+    rdfs:label     "known"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/notKnown>
     rdf:type    kgc:Property;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/SpeckledBand/known>;
     rdfs:label     "notKnown"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/faint>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/calm>
     rdf:type    kgc:Property;
-    rdfs:label     "faint"@en.
+    rdfs:label     "calm"@en.
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/smoothing>
+    rdf:type    kgc:Property;
+    rdfs:label     "smoothing"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/result>
     rdfs:label     "result"@en;
     rdf:type    kgc:Object.
@@ -4689,7 +4717,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "hit"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/beFixed>
-    rdf:type    kgc:Property;
+    rdf:type    kgc:Action;
     rdfs:label     "beFixed"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/work>
     rdf:type    kgc:Action;
