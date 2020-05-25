@@ -1030,7 +1030,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/99>
     rdf:type    kgc:Situation;
     kgc:source  "ヘレンはジュリアの部屋の床もつぶさに調べた"@ja ;
-    kgc:source  "Object"@en ;
+    kgc:source  "Julia specifically investigated the room's floor."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/investigate> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/bedroom_of_Julia> ;
@@ -1555,13 +1555,13 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "左側の棟の屋根がへこんでいる。"@ja ;
     kgc:source  "The roof of the left ridge is recessed."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/broken> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/roof_of_masion>.
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/roof_of_mansion>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/162>
     rdf:type    kgc:Situation;
     kgc:source  "左側の棟は廃墟の体"@ja ;
     kgc:source  "The building on the left is a ruined body"@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/ruined> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/left_building_of_masion_of_Roylott>.
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/left_building_of_mansion_of_Roylott>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/163>
     rdf:type    kgc:Situation;
     kgc:source  "屋敷の中央部は手入れ不足。"@ja ;
@@ -1905,7 +1905,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ジュリアの部屋の壁は虫の食った褐色の樫材。"@ja ;
     kgc:source  "The wall of bedroom of Julia is brown oak worm insect."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SpeckledBand/madeByBrownOakWithInsectHoles> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/walll_of_bedroom_of_Julia>.
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/wall_of_bedroom_of_Julia>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/207>
     rdf:type    kgc:Situation;
     kgc:source  "ホームズは椅子に座った。"@ja ;
@@ -3156,6 +3156,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/355>
     rdf:type    kgc:Situation;
     kgc:source  "ロイロット博士は、天井の隅をみていた"@ja ;
+    kgc:source  "Roylott gazed on the ceiling."@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/see> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/ceiling> ;
@@ -3222,7 +3223,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "その蛇はインドでもっとも恐ろしい蛇だった"@ja ;
     kgc:source  "This snake was the most terrible one in India."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/sname> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/snake> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/SpeckledBand/poisonous_snake> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/the_most_terrible_snake_of_India>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/364>
@@ -3426,7 +3427,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation;
     kgc:source  "博士は蛇を口笛で呼び寄せる（訓練イベント）"@ja ;
     kgc:source  "Whistle calls snakes back."@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/callBak> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SpeckledBand/call> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/snake> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/SpeckledBand/whistle> ;
@@ -3619,9 +3620,6 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/voice>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia>.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/sname>
-    rdfs:label     "sname"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/getMarried>
     rdf:type    kgc:Action;
     rdfs:label     "getMarried"@en.
@@ -3768,8 +3766,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/one_month_ago>
     rdfs:label     "one month ago"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/masion>
-    rdfs:label     "masion"@en;
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/mansion>
+    rdfs:label     "mansion"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/reach>
     rdf:type    kgc:Action;
@@ -3987,12 +3985,12 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/beModified>
     rdf:type    kgc:Action;
     rdfs:label     "be modified"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/roof_of_masion>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/roof_of_mansion>
     rdf:type    kgc:Object;
-    rdfs:label     "roof of masion"@en;
+    rdfs:label     "roof of mansion"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/roof>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/masion>.
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/mansion>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/small_dish>
     rdfs:label     "small dish"@en;
     rdf:type    kgc:Object.
@@ -4081,12 +4079,12 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/at_the_same_time_as_rope>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/bell_put>.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/walll_of_bedroom_of_Julia>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/wall_of_bedroom_of_Julia>
     rdf:type    kgc:Object;
-    rdfs:label     "walll of bedroom of Julia"@en;
+    rdfs:label     "wall of bedroom of Julia"@en;
     rdf:type    kgc:OFobj;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/bedroom_of_Julia>;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/walll>;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/wall>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/bedroom>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/goDown>
@@ -4143,13 +4141,13 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen>
     rdf:type    kgc:Person;
     rdfs:label     "Helen"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/left_building_of_masion_of_Roylott>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/left_building_of_mansion_of_Roylott>
     rdf:type    kgc:Object;
-    rdfs:label     "left building of masion of Roylott"@en;
+    rdfs:label     "left building of mansion of Roylott"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/masion_of_Roylott>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/mansion_of_Roylott>;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/left_building>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/masion>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/mansion>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/central_building>
     rdfs:label     "central building"@en;
@@ -4514,10 +4512,10 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/strange>
     rdf:type    kgc:Property;
     rdfs:label     "strange"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/masion_of_Roylott>
-    rdfs:label     "masion of Roylott"@en;
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/mansion_of_Roylott>
+    rdfs:label     "mansion of Roylott"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/masion>;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/mansion>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/send>
     rdf:type    kgc:Action;
@@ -4560,9 +4558,6 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/snake>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/house>
     rdfs:label     "house"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/walll>
-    rdfs:label     "walll"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/bedroom_of_Helen>
     rdf:type    kgc:Place;
@@ -5169,9 +5164,6 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/desk>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/bedroom>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott>.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/mansion>
-    rdfs:label     "mansion"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/wall_of_right_building_of_mansion_of_Roylott>
     rdf:type    kgc:Object;
     rdfs:label     "wall of right building of mansion of Roylott"@en;
@@ -5238,9 +5230,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott>
     rdf:type    kgc:Person;
     rdfs:label     "Roylott"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/callBak>
-    rdf:type    kgc:Action;
-    rdfs:label     "callBak"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/within_2_months>
     rdfs:label     "within 2 months"@en;
     rdf:type    kgc:Object.
@@ -5275,11 +5264,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/gray>
     rdf:type    kgc:Property;
     rdfs:label     "gray"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/mansion_of_Roylott>
-    rdfs:label     "mansion of Roylott"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/mansion>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/pull>
     rdf:type    kgc:Action;
     rdfs:label     "pull"@en.
