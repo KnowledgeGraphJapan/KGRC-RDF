@@ -2079,7 +2079,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "Doll"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/gunfire>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "gunfire"@en;
     rdf:type    kgc:AbstractTime.
 <http://kgc.knowledge-graph.jp/data/DancingMen/Dancing_dolls_X>
@@ -2149,7 +2149,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "heart"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/_At_Elridge_>
-    rdf:type    kgc:PhysicalObject.
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/DancingMen/night>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "night"@en.
@@ -2168,7 +2168,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/equalTo>;
     rdfs:label     "notEqualTo"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/Signs_of_evil>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Signs of evil"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/DancingMen/Signs>;
@@ -2266,7 +2266,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "full"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/Identity_of_Abe_Slaney>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Identity of Abe_Slaney"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/DancingMen/Identity>;
@@ -2313,7 +2313,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "fall"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/Bad_memories>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Bad memories"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/locked>
     rdf:type    kgc:Property;
@@ -2412,7 +2412,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "beSeen"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/Past_of_Elsie>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Past of Elsie"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/DancingMen/Past>;
@@ -2449,7 +2449,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:AbstractTime;
     rdfs:label     "2:00"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/three_characters>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "three characters"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/Meaning>
     rdfs:label     "Meaning"@en;
@@ -2461,7 +2461,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "Bookshelf"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/first_position_of_the_second_word_of_Sentence_H>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "first position of the second word of Sentence H"@en;
     rdf:type    kgc:OFobj;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/DancingMen/the_second_word_of_Sentence_H>;
@@ -2469,7 +2469,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/DancingMen/the_second_word>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/DancingMen/Sentence_H>.
 <http://kgc.knowledge-graph.jp/data/DancingMen/investigation>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "investigation"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/Dancing_dolls_Y>
     rdfs:label     "Dancing dolls Y"@en;
@@ -2634,7 +2634,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "beSurprised"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/character>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "character"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/find>
     rdf:type    kgc:Action;
@@ -2699,13 +2699,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "read"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/cipher>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "cipher"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/cryptography>
     rdfs:label     "cryptography"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/DancingMen/findings>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "findings"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/enter>
     rdf:type    kgc:Action;
@@ -2760,7 +2760,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "Sentence I"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/_Am_Here_Abe_Slaney_>
-    rdf:type    kgc:PhysicalObject.
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/DancingMen/4_00>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "4:00"@en.
@@ -2768,7 +2768,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "telegram"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/Smell_of_gunfire>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Smell of gunfire"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/DancingMen/Smell>;
@@ -2882,7 +2882,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "see"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/_Come_soon_at_once_>
-    rdf:type    kgc:PhysicalObject.
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/examine>
     rdf:type    kgc:Action;
     rdfs:label     "examine"@en.
@@ -2922,7 +2922,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/DancingMen/Shadow>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/DancingMen/storeroom>.
 <http://kgc.knowledge-graph.jp/data/DancingMen/Meaning_of_Dancing_dolls_A>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Meaning of Dancing dolls A"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/DancingMen/Meaning>;
@@ -2964,7 +2964,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "Dancing dolls G"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/priority_of_Elsie>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "priority of Elsie"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/DancingMen/priority>;
@@ -3036,7 +3036,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "Candle"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/promise>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "promise"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/Storage_door>
     rdf:type    kgc:PhysicalObject;
