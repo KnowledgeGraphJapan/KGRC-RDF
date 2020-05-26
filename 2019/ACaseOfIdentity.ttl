@@ -2223,7 +2223,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/getAngry> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland_s_mother> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hozma_s_disappearance> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hozma_lost> .
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/257>
     rdf:type    kgc:Situation ;
     kgc:source  "サザランドの母はサザランドに以下を言った"@ja ;
@@ -3107,7 +3107,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Watson_s_remarks> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/black_frock_coat> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/cloth> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/disappearance> .
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hozma_lost> .
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/365>
     rdf:type    kgc:Statement ;
     kgc:source  "失踪時の服装は黒のベストである"@ja ;
@@ -3115,7 +3115,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Watson_s_remarks> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/black_best> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/cloth> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/disappearance> .
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hozma_lost> .
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/366>
     rdf:type    kgc:Statement ;
     kgc:source  "失踪時の服装は金のアルバート鎖である"@ja ;
@@ -3123,7 +3123,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Watson_s_remarks> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/albert_chain_of_gold> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/cloth> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/disappearance> .
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hozma_lost> .
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/367>
     rdf:type    kgc:Statement ;
     kgc:source  "過去に、ホズマはレドンホール街の事務所で働いていた"@ja ;
@@ -4789,7 +4789,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "swear"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/At_home>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "At home"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/close_eye>
     rdf:type    kgc:Property;
@@ -4816,10 +4816,10 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "lose weight"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/personality>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "personality"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hozma_s_personalities>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/personality>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hozma>;
@@ -4828,7 +4828,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "missing"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/60_pounds>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "60 pounds"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland_s_mother_s_remark>
     rdfs:label     "Sutherland's mother's remark"@en;
@@ -4837,7 +4837,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland_s_mother>;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Big_problem>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Big problem"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/handle>
     rdfs:label     "handle"@en;
@@ -4846,10 +4846,10 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:AbstractTime;
     rdfs:label     "be called"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Esalid_s_husband_s_death>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Esalid's husband's death"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Near_sight>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Near sight"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland_s_finger>
     rdf:type    kgc:PhysicalObject;
@@ -4878,7 +4878,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "tightly"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Danger>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Danger"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/sleeping>
     rdf:type    kgc:Action;
@@ -4934,7 +4934,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Windybank>;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland_s_earning>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Sutherland's earning"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/At_the_edge>
     rdfs:label     "At the edge"@en;
@@ -4943,7 +4943,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "welcome"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Holmes__advice>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Holmes' advice"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/unwillingToGo>
     rdf:type    kgc:Action;
@@ -4952,7 +4952,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "2500 pounds"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Incident>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Incident"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Last_Friday>
     rdfs:label     "Last Friday"@en;
@@ -4964,7 +4964,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "tearOff"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Quotation_from_Balzac>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Quotation from Balzac"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/obtain>
     rdf:type    kgc:Action;
@@ -4990,7 +4990,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object;
     rdfs:label     "work"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/work_of_Hozma>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "work of Hozma"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/work>;
@@ -5014,7 +5014,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "Red brick feather"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/4700_pounds>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "4700 pounds"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/enthusiastic>
     rdf:type    kgc:Property;
@@ -5051,7 +5051,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "the hem"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Interpretation>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Interpretation"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/hair>
     rdf:type    kgc:PhysicalObject;
@@ -5069,7 +5069,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "the above"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/meaning_of_the_words_of_Holmes>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "meaning of the words of Holmes"@en;
     rdf:type    kgc:OFobj;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/the_words_of_Holmes>;
@@ -5103,7 +5103,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "issue"@en;
     rdf:type    kgc:Action.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Appearance>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Appearance"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/getOut>
     rdf:type    kgc:Action;
@@ -5190,7 +5190,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "forget"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Important_point>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Important point"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notAccept>
     rdf:type    kgc:Action;
@@ -5201,7 +5201,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "eat"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland_Address>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Sutherland Address"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/brown>
     rdf:type    kgc:Property;
@@ -5234,7 +5234,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "Glove button"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Method>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Method"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/repeat>
     rdf:type    kgc:Action;
@@ -5258,10 +5258,10 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "dead"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/help>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "help"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland_s_mother_s_help>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/help>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland_s_mother>;
@@ -5306,7 +5306,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/reach>;
     rdfs:label     "notReach"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/In_letter_2>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "In letter 2"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Oversight>
     rdfs:label     "Oversight"@en;
@@ -5321,7 +5321,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "Gallow"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/yield>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "yield"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hozma_s_thoughts>
     rdfs:label     "Hozma's thoughts"@en;
@@ -5371,7 +5371,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "not rich"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Voice>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Voice"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/putOn>
     rdf:type    kgc:Action;
@@ -5395,7 +5395,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:AbstractTime;
     rdfs:label     "Friday"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland_s_income>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Sutherland's income"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Forever>
     rdf:type    kgc:AbstractTime;
@@ -5407,7 +5407,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "To the ball"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/date>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "date"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/rebel>
     rdf:type    kgc:Action;
@@ -5428,7 +5428,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Windybank>;
     rdfs:label     "Windybank workplace"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Compassion>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Compassion"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/reach>
     rdf:type    kgc:Action;
@@ -5458,7 +5458,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland_shoes>;
     rdfs:label     "right_and_left_of_Sutherland's_shoes"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/right_and_left>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "right_and_left"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/cannotEscape>
     rdf:type    kgc:Action;
@@ -5508,7 +5508,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "involved"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hozma_s_appearance>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Appearance>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hozma>;
@@ -5520,7 +5520,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "Someone"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/less_than_60_pounds>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "less than 60 pounds"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/chaseAway>
     rdf:type    kgc:Action;
@@ -5541,19 +5541,19 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Type"@en;
     rdf:type    kgc:Action.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Solution>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Solution"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Important_of_the_minor>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Important of the minor"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/predicate/important>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/the_minor>.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/height>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "height"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hozma_s_height>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/height>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hozma>;
@@ -5607,7 +5607,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "Whistle cheek brow"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/danger_of_hozma>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "danger of hozma"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Danger>;
@@ -5626,13 +5626,13 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "ice"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Whereabouts_of_Hozma>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Whereabouts of Hozma"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Whereabouts>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hozma>.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Mystery>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Mystery"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hardy>
     rdf:type    kgc:Person;
@@ -5641,10 +5641,10 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "enter"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/characters>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "characters"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/relationship_between_Sutherland_and_Hosma>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "relationship between Sutherland and Hosma"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/return>
     rdf:type    kgc:Action;
@@ -5668,7 +5668,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:AbstractTime;
     rdfs:label     "one year"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/voice>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "voice"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/getEngaged>
     rdf:type    kgc:Action;
@@ -5680,7 +5680,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "small"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/14_features>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "14 features"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/keep>
     rdf:type    kgc:Action;
@@ -5698,13 +5698,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "send"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Trace>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Trace"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Woman_s_sleeve>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "Woman's sleeve"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Type_features>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Type features"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/overlook>
     rdf:type    kgc:Action;
@@ -5811,7 +5811,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Windybank>;
     rdfs:label     "Windybank lips"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Inscription>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Inscription"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Pavement_opposite>
     rdf:type    kgc:Place;
@@ -5873,10 +5873,10 @@ kgc:Thought rdf:type owl:Class ;
     kgc:canNot    <http://kgc.knowledge-graph.jp/data/predicate/meet>;
     rdfs:label     "cannotMeet"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/complexion>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "complexion"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Windybank_complexion>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/complexion>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Windybank>;
@@ -5888,7 +5888,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "examine"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Crime>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Crime"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/trace>
     rdfs:label     "trace"@en;
@@ -5903,7 +5903,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "remove"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Women_s_troubles>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Women's troubles"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/beTyped>
     rdf:type    kgc:Action;
@@ -5955,19 +5955,19 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "pledge"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hozma_s_complexion>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Hozma's complexion"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/complexion>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hozma>.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/disguise>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "disguise"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/77_years>
     rdfs:label     "77 years"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/more_than_Sutherland>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "more than Sutherland"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/breakUp>
     rdf:type    kgc:Action;
@@ -5976,7 +5976,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "match"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Life_and_death_of_Hozma>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Life and death of Hozma"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Life_and_death>;
@@ -6020,13 +6020,13 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "stop"@en;
     rdf:type    kgc:Action.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Family_calamity>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Family calamity"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/gaze>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "gaze"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland_s_gaze>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/gaze>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland>;
@@ -6064,7 +6064,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/believe>;
     rdfs:label     "notBelieve"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/law>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "law"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/cry>
     rdf:type    kgc:Action;
@@ -6081,10 +6081,10 @@ kgc:Thought rdf:type owl:Class ;
     kgc:can    <http://kgc.knowledge-graph.jp/data/predicate/solve>;
     rdfs:label     "canSolve"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/howToSpeak>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "How to speak"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/How_to_speak_hozma>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/howToSpeak>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hozma>;
@@ -6140,10 +6140,10 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "drop"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/100_pounds>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "100 pounds"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sunday_school_events>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Sunday school events"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/comeBack>
     rdf:type    kgc:Action;
@@ -6163,10 +6163,10 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "Bowler hat"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Tonsillitis>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Tonsillitis"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/2_pence>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "2 pence"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/surprise>
     rdf:type    kgc:Action;
@@ -6193,7 +6193,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Redon_Hall_Street>;
     rdfs:label     "Redon Hall Street Post Office"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland_s_love>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Sutherland's love"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Quickly>
     rdfs:label     "Quickly"@en;
@@ -6244,7 +6244,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/have>;
     rdfs:label     "notHave"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Wasted_time>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Wasted time"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/foreign_business_of_West_House&Marbank>
     rdf:type    kgc:Property;
@@ -6253,7 +6253,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/predicate/foreign_business>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/West_House&Marbank>.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Treatment_of_serious_patients>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Treatment of serious patients"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Treatment>;
@@ -6285,12 +6285,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/thin>
     rdf:type    kgc:Action;
     rdfs:label     "thin"@en.
-<http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hozma_s_disappearance>
-    rdf:type    kgc:PhysicalObject;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/disappearance>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hozma>;
-    rdfs:label     "Hozma's disappearance"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Moth>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "Moth"@en.
@@ -6309,7 +6303,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:AbstractTime;
     rdfs:label     "there is Windybank"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Appeal_for_breach_of_pledge>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Appeal for breach of pledge"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Appeal_for_breach>;
@@ -6332,7 +6326,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "Coworker"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Deep_motive>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Deep motive"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/As_whisper>
     rdfs:label     "As whisper"@en;
@@ -6356,7 +6350,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:AbstractTime;
     rdfs:label     "young"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/right>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "right"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/listen>
     rdf:type    kgc:Action;
@@ -6379,7 +6373,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "unforgettable"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sender_s_address>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Sender's address"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland_House>
     rdf:type    kgc:PhysicalObject;
@@ -6424,10 +6418,10 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "Room door"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/value>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "value"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland_s_story>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Sutherland's story"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Handwritten_letter>
     rdf:type    kgc:PhysicalObject;
@@ -6530,7 +6524,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "characteristics"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Up_to_20_sheets>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Up to 20 sheets"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/worry>
     rdf:type    kgc:Action;
@@ -6539,10 +6533,10 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "5 years 2 months older"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/one_quarter>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "one quarter"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Face_value_of_heritage>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Face value of heritage"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Face_value>;
@@ -6567,9 +6561,9 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hozma>.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland_s_thoughts>
     rdfs:label     "Sutherland's thoughts"@en;
-    rdf:type    kgc:PhysicalObject.
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland_s_appearance>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Sutherland's appearance"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/lose>
     rdf:type    kgc:Action;
@@ -6583,7 +6577,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "worn"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/For_selfish_treats>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "For selfish treats"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/bePuzzled>
     rdf:type    kgc:Action;
@@ -6598,7 +6592,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "come"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Personal_statement>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Personal statement"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/show>
     rdfs:label     "show"@en;
@@ -6610,10 +6604,10 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Place;
     rdfs:label     "France"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/My_property>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "My property"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/advice>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "advice"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/pullOut>
     rdf:type    kgc:Action;
@@ -6622,7 +6616,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "letter"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hozma_s_voice>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Hozma's voice"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/medium_height>
     rdf:type    kgc:Property;
@@ -6671,7 +6665,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Windybank>;
     rdfs:label     "Windybank handwriting"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland_s_character>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Sutherland's character"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/House>
     rdf:type    kgc:PhysicalObject;
@@ -6714,16 +6708,16 @@ kgc:Thought rdf:type owl:Class ;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/go>;
     rdfs:label     "notGo"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Boy_serving>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Boy serving"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/goCrazy>
     rdf:type    kgc:Action;
     rdfs:label     "goCrazy"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/wedding>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "wedding"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Inquirer_advertisement>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Inquirer advertisement"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/equalTo>
     rdf:type    kgc:Action;
@@ -6741,7 +6735,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "r"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/pavement>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "pavement"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/newspaper>
     rdf:type    kgc:PhysicalObject;
@@ -6814,13 +6808,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "getUp"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Late>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Late"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Typed_letter>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "Typed letter"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/sin>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "sin"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/last_year>
     rdf:type    kgc:AbstractTime;
@@ -6846,7 +6840,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:canNot    <http://kgc.knowledge-graph.jp/data/predicate/handle>;
     rdfs:label     "cannotHandle"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Words_of_hozma>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Words of hozma"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Words>;
@@ -6858,13 +6852,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "Central District City Company"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hozma_lost>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Hozma lost"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/serious_patients>
     rdfs:label     "serious patients"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/truth>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "truth"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Gas_Engineering_Union_Ball_Invitation>
     rdf:type    kgc:PhysicalObject;
@@ -6873,7 +6867,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "beTiedUp"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/respect>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "respect"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland_gloves>
     rdf:type    kgc:PhysicalObject;
@@ -6893,7 +6887,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/understand>;
     rdfs:label     "notUnderstand"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/characteristics_of_the_type>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "characteristics of the type"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/characteristics>;
@@ -6927,7 +6921,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "nobody"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Same_incident>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Same incident"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/black>
     rdf:type    kgc:Property;
@@ -7025,7 +7019,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "beDirected"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Character_position>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Character position"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/relyOn>
     rdfs:label     "rely on"@en;
@@ -7037,7 +7031,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "open"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hozma_s_behavior>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Hozma's behavior"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Back_and_forth>
     rdfs:label     "Back and forth"@en;
@@ -7057,9 +7051,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/cloth>
     rdfs:label     "cloth"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/disappearance>
-    rdfs:label     "disappearance"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/grab>
     rdf:type    kgc:Action;
     rdfs:label     "grab"@en.
@@ -7073,7 +7064,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "town girl"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Relationship_with_human_beings_of_the_same_age>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Relationship with human beings of the same age"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Relationship_with_human_beings>;
@@ -7094,7 +7085,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/separate_shoes>;
     rdfs:label     "Left and right separate shoes"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hozma_s_Address>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "Hozma's Address"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/occur>
     rdf:type    kgc:Action;
@@ -7103,7 +7094,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "echo"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/reply>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "reply"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/day>
     rdfs:label     "day"@en;
@@ -7216,13 +7207,13 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Words"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/margin>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "margin"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Other_carriages>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "Other carriages"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/signature>
-    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Object;
     rdfs:label     "signature"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/hear>
     rdf:type    kgc:Action;
