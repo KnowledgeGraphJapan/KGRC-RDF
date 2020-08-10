@@ -1,4 +1,7 @@
 # 推論チャレンジ2019用ナレッジグラフ【バックアップ用】
+
+[![CC BY 4.0][cc-by-shield]][cc-by]
+
 ナレッジグラフ推論チャレンジ2019用のナレッジグラフを公開するレポジトリの「バックアップ」です．  
 
 下記の時点（推論チャレンジ2029時点）でのデータをバックアップ用途で公開しています．
@@ -25,10 +28,14 @@ SPARQLエンドポイント　http://lod.hozo.jp/repositories/kgc2019
 ## ライセンス
 本データは人工知能学会セマンティックウェブとオントロジー研究会（SIG-SWO, JSAI）が，[クリエイティブ・コモンズ・ライセンス（表示4.0国際)](https://creativecommons.org/licenses/by/4.0/)のもとで提供しています．
 
+[![CC BY 4.0][cc-by-image]][cc-by]
+
 ## SPARQLクエリのサンプル
 https://github.com/KnowledgeGraphJapan/KGRC-RDF/blob/master/2019/SPARQLsample.md
 
 ## 可視化ツール
 http://knowledge-graph.jp/visualization/
 
-
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
