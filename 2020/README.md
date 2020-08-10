@@ -1,4 +1,7 @@
 # 推論チャレンジ2020用ナレッジグラフ
+
+[![CC BY 4.0][cc-by-shield]][cc-by]
+
 ナレッジグラフ推論チャレンジ2020用のナレッジグラフを公開するレポジトリです．  
 
 利用法については下記のサイトもご覧ください.  
@@ -22,3 +25,9 @@ SPARQLエンドポイント（仮※）　http://kg.hozo.jp/virtuoso/sparql
 
 ## ライセンス
 本データは人工知能学会セマンティックウェブとオントロジー研究会（SIG-SWO, JSAI）が，[クリエイティブ・コモンズ・ライセンス（表示4.0国際)](https://creativecommons.org/licenses/by/4.0/)のもとで提供しています．
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
