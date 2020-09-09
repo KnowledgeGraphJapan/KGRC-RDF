@@ -12,8 +12,10 @@ https://challenge.knowledge-graph.jp/2020/rdf.html
   
 修正リクエストはGitHubのIsuuesおよびPull rewiestsで受け付けております。  
 
-SPARQLエンドポイント（仮※）　http://kg.hozo.jp/virtuoso/sparql  
-※アドレス変更の予定があるの語注意ください
+SPARQLエンドポイント
+- http://kg.hozo.jp/fuseki/kgrc/sparql (APIとして使う場合)
+- http://knowledge-graph.jp/sparql.html (ブラウザから利用)  
+※下記のグラフIRIをFROM句で指定する必要がありますのでご注意ください．
   
 |小説|グラフIRI|
 ----|----
