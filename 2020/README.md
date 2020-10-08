@@ -7,11 +7,13 @@
 利用法については下記のサイトもご覧ください.  
 https://challenge.knowledge-graph.jp/2020/rdf.html
 
-## 2020/06/09 バージョン  
-[2019年度版](https://github.com/KnowledgeGraphJapan/Challenge/tree/master/rdf/2019)の不具合を大幅に修正したバージョンです．  
+## 2020/06/09 バージョン（5小説）＋ 2020/10/09 追加（2小説）  
+[2019年度版](https://github.com/KnowledgeGraphJapan/Challenge/tree/master/rdf/2019)の５小説について，不具合を大幅に修正したバージョンです（2020/06/09公開）．  
+[2020年度版] 「僧坊荘園（アベイ農場）」および「白銀号事件」を追加しました．  
   
 修正リクエストはGitHubのIsuuesおよびPull rewiestsで受け付けております。  
-
+※現在，すべての小説について更なる見直し・修正作業を進めています．修正作業の終了後，データを更新予定ですが，現時点バージョンのデータ公開を継続します．  
+  
 SPARQLエンドポイント
 - http://kg.hozo.jp/fuseki/kgrc/sparql (APIとして使う場合)
 - http://knowledge-graph.jp/sparql.html (ブラウザから利用)  
@@ -26,6 +28,8 @@ SPARQLエンドポイント
 |背中の曲がった男（曲がれる者）|&lt;http://kgc.knowledge-graph.jp/data/CrookedMan&gt;|
 |僧坊荘園（アベイ農場）|&lt;http://kgc.knowledge-graph.jp/data/AbbeyGrange&gt;|
 |白銀号事件|&lt;http://kgc.knowledge-graph.jp/data/SilverBlaze&gt;|
+
+
 
 ## ライセンス
 本データは人工知能学会セマンティックウェブとオントロジー研究会（SIG-SWO, JSAI）が，[クリエイティブ・コモンズ・ライセンス（表示4.0国際)](https://creativecommons.org/licenses/by/4.0/)のもとで提供しています．
