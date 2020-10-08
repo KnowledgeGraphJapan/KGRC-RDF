@@ -24,6 +24,8 @@ SPARQLエンドポイント
 |花婿失踪事件（同一事件）|&lt;http://kgc.knowledge-graph.jp/data/ACaseOfIdentity&gt;|
 |悪魔の足|&lt;http://kgc.knowledge-graph.jp/data/DevilsFoot&gt;|
 |背中の曲がった男（曲がれる者）|&lt;http://kgc.knowledge-graph.jp/data/CrookedMan&gt;|
+|僧坊荘園（アベイ農場）|&lt;http://kgc.knowledge-graph.jp/data/AbbeyGrange&gt;|
+|白銀号事件|&lt;http://kgc.knowledge-graph.jp/data/SilverBlaze&gt;|
 
 ## ライセンス
 本データは人工知能学会セマンティックウェブとオントロジー研究会（SIG-SWO, JSAI）が，[クリエイティブ・コモンズ・ライセンス（表示4.0国際)](https://creativecommons.org/licenses/by/4.0/)のもとで提供しています．

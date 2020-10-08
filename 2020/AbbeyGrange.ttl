@@ -1612,7 +1612,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "テリーサやレディー・ブラックンストールの言うことは真実であるという考えを頭から払いのける必要がある"@ja ;
     kgc:source  "It is necessary to dispel from my head the idea that what you say Theresa and Lady Brackenstall is true"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Thought_of_Holmes> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Fill_the_Required_•_Multiple_go]__subject_> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/deny> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/170> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/172>
@@ -4664,9 +4664,6 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/The_sound>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_bell>.
-<http://kgc.knowledge-graph.jp/data/Fill_the_Required_•_Multiple_go]__subject_>
-    rdfs:label     "Fill the Required • Multiple go] "subject""@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/Wooden_blanket>
     rdfs:label     "Wooden blanket"@en;
     rdf:type    kgc:Object.
