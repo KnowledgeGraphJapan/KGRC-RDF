@@ -12,7 +12,7 @@ https://challenge.knowledge-graph.jp/2020/rdf.html
 - [2020年度版] 「僧坊荘園（アベイ農場）」および「白銀号事件」を追加しました．  
 
 ## 2020/12/24版 バージョン　データ修正（6小説）＋ データ追加（1小説）  
-- [2020年度(2020/10/09)版](https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/master/2020) で公開したナレッジグラフ（6小説分）のデータを見直し，修正を加えました．  
+- [2020年度(2020/10/09)版](https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/master/2020) で公開したナレッジグラフ（7小説分）のデータを見直し，修正を加えました．  
 - 「入院患者」のナレッジグラフを追加しました．  
 
  
