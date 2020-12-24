@@ -9,5 +9,9 @@ https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/master/SpeckledBand
 ## 第2回ナレッジグラフ推論チャレンジ2019用  
 https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/master/2019
  
-## 第3回ナレッジグラフ推論チャレンジ2020用 【2020/10/09更新】
+## 第3回ナレッジグラフ推論チャレンジ2020用 
+### 2020/10/09版
 https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/master/2020
+
+### 2020/12/24版【Ver.2暫定版】
+https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/master/2020v2

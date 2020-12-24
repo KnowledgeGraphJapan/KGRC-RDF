@@ -1536,7 +1536,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Sentence_H> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/?M ?ERE ??E SL?NE?> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/?M_?ERE_??E_SL?NE?> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/170>
     rdf:type    kgc:Situation ;
     kgc:source  "文章Hの最初の位置にある文字C1はAである"@ja ;
@@ -1584,14 +1584,14 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "The Sentence I has 'T' and 'G'"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Sentence_I> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/T AND G> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/T_AND_G> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/173c>
     rdf:type    kgc:Situation ;
     kgc:source  "文章Iは'A? ELRI?ES'である"@ja ;
     kgc:source  "The Sentence I is 'A? ELRI?ES'"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Sentence_I> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/A? ELRI?ES> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/A?_ELRI?ES> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/174>
     rdf:type    kgc:Situation ;
     kgc:source  "エイブ・スレイニはアメリカ人である"@ja ;

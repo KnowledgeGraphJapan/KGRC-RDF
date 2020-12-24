@@ -1,4 +1,4 @@
-# 推論チャレンジ2020用ナレッジグラフ
+# 推論チャレンジ2020用ナレッジグラフ【2020/12/24更新】 
 
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
@@ -8,8 +8,14 @@
 https://challenge.knowledge-graph.jp/2020/rdf.html
 
 ## 2020/06/09 バージョン（5小説）＋ 2020/10/09 追加（2小説）  
-[2019年度版](https://github.com/KnowledgeGraphJapan/Challenge/tree/master/rdf/2019)の５小説について，不具合を大幅に修正したバージョンです（2020/06/09公開）．  
-[2020年度版] 「僧坊荘園（アベイ農場）」および「白銀号事件」を追加しました．  
+- [2019年度版](https://github.com/KnowledgeGraphJapan/Challenge/tree/master/rdf/2019)の５小説について，不具合を大幅に修正したバージョンです（2020/06/09公開）．  
+- [2020年度版] 「僧坊荘園（アベイ農場）」および「白銀号事件」を追加しました．  
+
+## 2020/12/24 バージョン　データ修正（6小説）＋ データ追加（1小説）  
+- [2020年度(2020/10/09)版](https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/master/2020) で公開したナレッジグラフ（6小説分）のデータを見直し，修正を加えました．  
+- 「入院患者」のナレッジグラフを追加しました．  
+
+※
   
 修正リクエストはGitHubのIsuuesおよびPull rewiestsで受け付けております。  
 ※現在，すべての小説について更なる見直し・修正作業を進めています．修正作業の終了後，データを更新予定ですが，現時点バージョンのデータ公開を継続します．  
@@ -28,6 +34,7 @@ SPARQLエンドポイント
 |背中の曲がった男（曲がれる者）|&lt;http://kgc.knowledge-graph.jp/data/CrookedMan&gt;|
 |僧坊荘園（アベイ農場）|&lt;http://kgc.knowledge-graph.jp/data/AbbeyGrange&gt;|
 |白銀号事件|&lt;http://kgc.knowledge-graph.jp/data/SilverBlaze&gt;|
+|入院患者|&lt;http://kgc.knowledge-graph.jp/data/ResidentPatient&gt;|
 
 
 
