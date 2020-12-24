@@ -11,18 +11,18 @@ https://challenge.knowledge-graph.jp/2020/rdf.html
 - [2019年度版](https://github.com/KnowledgeGraphJapan/Challenge/tree/master/rdf/2019)の５小説について，不具合を大幅に修正したバージョンです（2020/06/09公開）．  
 - [2020年度版] 「僧坊荘園（アベイ農場）」および「白銀号事件」を追加しました．  
 
-## 2020/12/24 バージョン　データ修正（6小説）＋ データ追加（1小説）  
+## 2020/12/24版 バージョン　データ修正（6小説）＋ データ追加（1小説）  
 - [2020年度(2020/10/09)版](https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/master/2020) で公開したナレッジグラフ（6小説分）のデータを見直し，修正を加えました．  
 - 「入院患者」のナレッジグラフを追加しました．  
 
-※
-  
+ 
 修正リクエストはGitHubのIsuuesおよびPull rewiestsで受け付けております。  
+  
 ※現在，すべての小説について更なる見直し・修正作業を進めています．修正作業の終了後，データを更新予定ですが，現時点バージョンのデータ公開を継続します．  
   
 SPARQLエンドポイント
-- http://kg.hozo.jp/fuseki/kgrc/sparql (APIとして使う場合)
-- http://knowledge-graph.jp/sparql.html (ブラウザから利用)  
+- http://kg.hozo.jp/fuseki/kgrc2020v2/sparql (APIとして使う場合)
+- http://knowledge-graph.jp/sparql2020v2.html (ブラウザから利用)  
 ※下記のグラフIRIをFROM句で指定する必要がありますのでご注意ください．
   
 |小説|グラフIRI|
