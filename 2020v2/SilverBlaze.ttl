@@ -2211,7 +2211,9 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "事件の夜、雨は土砂降りだった"@ja ;
     kgc:source  "Night of the incident, the rain was pouring rain"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/rain> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/beheavyly> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/downpour> ;
+    kgc:time  "rain heavylyT00:00:00"^^xsd:dateTime ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SilverBlaze/rain heavyly> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Night_of_the_incident> .
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/252>
     rdf:type    kgc:Situation ;
@@ -3403,84 +3405,78 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/say>
     rdf:type    kgc:Action;
     rdfs:label     "say"@en.
-<http://kgc.knowledge-graph.jp/data/Dry_hard_grass_soil>
-    rdfs:label     "Dry hard grass soil"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/the_shoes_of_John_Straker>
-    rdfs:label     "the shoes of John Straker"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Spirit_of_the_duplicate_key_possession>
+    rdfs:label     "Spirit of the duplicate key possession"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/the_shoes>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/John_Straker>.
-<http://kgc.knowledge-graph.jp/data/Comfortably>
-    rdfs:label     "Comfortably"@en;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Spirit>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_duplicate_key_possession>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Fixed_game>
+    rdfs:label     "Fixed game"@en;
     rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Figure>
+    rdfs:label     "Figure"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_second_floor_of_the_stables>
+    rdfs:label     "The second floor of the stables"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/The_second_floor>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_stables>.
 <http://kgc.knowledge-graph.jp/data/predicate/expensive>
     rdf:type    kgc:Property;
     rdfs:label     "expensive"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Ned_Hunter_and_two_young_men>
+    rdfs:label     "Ned Hunter and two young men"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/notWork>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/work>;
     rdfs:label     "notWork"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Own_wickedness>
+    rdfs:label     "Own wickedness"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/predicate/Away_two_mile>
+    rdf:type    kgc:Property;
+    rdfs:label     "Away two mile"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notBeBlown>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/beblown>;
     rdfs:label     "notBeBlown"@en.
-<http://kgc.knowledge-graph.jp/data/Open_air>
-    rdfs:label     "Open air"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Cache_of_Silver_Blaze>
-    rdfs:label     "Cache of Silver Blaze"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_bottom_of_the_depression>
+    rdfs:label     "The bottom of the depression"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Cache>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Silver_Blaze>.
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/The_bottom>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_depression>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Popularity_second_only_to_Silver_Blaze>
+    rdfs:label     "Popularity second only to Silver Blaze"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/bring>
     rdf:type    kgc:Action;
     rdfs:label     "bring"@en.
-<http://kgc.knowledge-graph.jp/data/Curry_dishes_minute>
-    rdfs:label     "Curry dishes minute"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Disappearance>
+    rdfs:label     "Disappearance"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/live>
     rdf:type    kgc:Action;
     rdfs:label     "live"@en.
-<http://kgc.knowledge-graph.jp/data/John_Straker>
-    rdfs:label     "John Straker"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Watch>
-    rdf:type    kgc:Action;
-    rdfs:label     "Watch"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/missing>
     rdf:type    kgc:Property;
     rdfs:label     "missing"@en.
-<http://kgc.knowledge-graph.jp/data/Ned_Hunter>
-    rdfs:label     "Ned Hunter"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/murder_scene>
+    rdfs:label     "murder scene"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/5_00_tomorrow_morning>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "5:00 tomorrow morning"@en.
-<http://kgc.knowledge-graph.jp/data/Footprint_that_is_oriented_towards_the_King_s_Pyland>
-    rdfs:label     "Footprint that is oriented towards the King's Pyland"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Stables_of_King_s_Pyland>
-    rdfs:label     "Stables of King's Pyland"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Skull_of_John_Straker>
+    rdfs:label     "Skull of John Straker"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Stables>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/King's_Pyland>.
-<http://kgc.knowledge-graph.jp/data/State>
-    rdfs:label     "State"@en;
-    rdf:type    kgc:Object.
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Skull>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/John_Straker>.
 <http://kgc.knowledge-graph.jp/data/predicate/remain>
     rdf:type    kgc:Action;
     rdfs:label     "remain"@en.
-<http://kgc.knowledge-graph.jp/data/Photos_of_John_Straker>
-    rdfs:label     "Photos of John Straker"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Photos>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/John_Straker>.
-<http://kgc.knowledge-graph.jp/data/Use_the_jockey>
-    rdfs:label     "Use the jockey"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/cannotUnderstand>
     rdf:type    kgc:Action;
     rdf:type    kgc:CanNotAction;
@@ -3489,18 +3485,18 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/complexion>
     rdfs:label     "complexion"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Corpse_of_John_Straker>
-    rdfs:label     "Corpse of John Straker"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Ground_of_murder_scene>
+    rdfs:label     "Ground of murder scene"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Corpse>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/John_Straker>.
-<http://kgc.knowledge-graph.jp/data/Footprint_of_Silver_Blaze>
-    rdfs:label     "Footprint of Silver Blaze"@en;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Ground>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/murder_scene>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Complexion_of_Fitzroy_Simpson>
+    rdfs:label     "Complexion of Fitzroy Simpson"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Footprint>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Silver_Blaze>.
-<http://kgc.knowledge-graph.jp/data/His_thigh>
-    rdfs:label     "His thigh"@en;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Complexion>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Enormous_amount>
+    rdfs:label     "Enormous amount"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/independent_of_the_incident>
     rdf:type    kgc:Property;
@@ -3508,38 +3504,43 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/predicate/independent>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/predicate/the_incident>.
-<http://kgc.knowledge-graph.jp/data/The_type>
-    rdfs:label     "The type"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/Include>
-    rdfs:label     "Include"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Action;
+    rdfs:label     "Include"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notOrdinary>
     rdf:type    kgc:Property;
     rdfs:label     "notOrdinary"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/wander>
     rdf:type    kgc:Action;
     rdfs:label     "wander"@en.
-<http://kgc.knowledge-graph.jp/data/Use_the_knife>
-    rdfs:label     "Use the knife"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson>
+    rdfs:label     "Fitzroy Simpson"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Taste>
-    rdfs:label     "Taste"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Hand_to_the_left_of_the_corpse>
+    rdfs:label     "Hand to the left of the corpse"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Hand_to_the_left>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_corpse>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Thick_stick>
+    rdfs:label     "Thick stick"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/sleeping>
     rdf:type    kgc:Action;
     rdfs:label     "sleeping"@en.
-<http://kgc.knowledge-graph.jp/data/Enormous_amount>
-    rdfs:label     "Enormous amount"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Using_something_heavy_Kyoki>
+    rdfs:label     "Using something heavy Kyoki"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Cache>
-    rdfs:label     "Cache"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/London_decoration_shop>
+    rdfs:label     "London decoration shop"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/How_to_escape_the_sin>
+    rdfs:label     "How to escape the sin"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/Decide>
     rdfs:label     "Decide"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Thick_stick>
-    rdfs:label     "Thick stick"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Head>
+    rdfs:label     "Head"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/accuire>
     rdf:type    kgc:Action;
@@ -3547,66 +3548,58 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/rampage>
     rdf:type    kgc:Action;
     rdfs:label     "rampage"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Popularity>
+    rdfs:label     "Popularity"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/hold>
     rdf:type    kgc:Action;
     rdfs:label     "hold"@en.
-<http://kgc.knowledge-graph.jp/data/Bookmaker>
-    rdfs:label     "Bookmaker"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Horse_out_to_Wessex_Cup_round_of_the_biceps>
-    rdfs:label     "Horse out to Wessex Cup round of the biceps"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Horse_out_to_Wessex_Cup_round>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_biceps>.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/optium>
     rdfs:label     "optium"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/Take>
     rdfs:label     "Take"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/At_the_1_mile>
-    rdfs:label     "At the 1 mile"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Mysteriously>
+    rdfs:label     "Mysteriously"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Ned_Hunter>
-    rdfs:label     "Ned Hunter"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/When_the_horse_racing>
+    rdf:type    kgc:AbstractTime;
+    rdfs:label     "When the horse racing"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Competition_subscriber_table>
+    rdfs:label     "Competition subscriber table"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Tavistock>
-    rdfs:label     "Tavistock"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Lame>
+    rdfs:label     "Lame"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Horse>
-    rdfs:label     "Horse"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Letter>
-    rdfs:label     "Letter"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/tendon>
-    rdfs:label     "tendon"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Knife_that_can_not_hide>
-    rdfs:label     "Knife that can not hide"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Wasteland_dark>
-    rdfs:label     "Wasteland dark"@en;
-    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/predicate/Watch>
+    rdf:type    kgc:Action;
+    rdfs:label     "Watch"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/Injured>
     rdfs:label     "Injured"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Sport_Club_of_London>
-    rdfs:label     "Sport Club of London"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Sport_Club>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/London>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_King's_Pyland>
+    rdfs:label     "the King's Pyland"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/horse_racing>
+    rdfs:label     "horse racing"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/talk>
     rdf:type    kgc:Action;
     rdfs:label     "talk"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/obtain>
     rdf:type    kgc:Action;
     rdfs:label     "obtain"@en.
-<http://kgc.knowledge-graph.jp/data/The_reason_for_Fitzroy_Simpson_came>
-    rdfs:label     "The reason for Fitzroy Simpson came"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_land>
+    rdfs:label     "the land"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/John_Straker_house>
-    rdfs:label     "John Straker house"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Surgery_of_tendon>
+    rdfs:label     "Surgery of tendon"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Surgery>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/tendon>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Use_the_knife>
+    rdfs:label     "Use the knife"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/tryToCheck>
     rdf:type    kgc:Action;
@@ -3628,116 +3621,135 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/need>
     rdf:type    kgc:Action;
     rdfs:label     "need"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Depression_in_the_bush>
+    rdfs:label     "Depression in the bush"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Plug_the_water_comes_out>
+    rdfs:label     "Plug the water comes out"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/murderer>
     rdfs:label     "murderer"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/the_biceps>
-    rdfs:label     "the biceps"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Lot>
-    rdfs:label     "Lot"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Depression_in_the_direction>
-    rdfs:label     "Depression in the direction"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Gregory_Inspector>
-    rdfs:label     "Gregory Inspector"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Watson>
-    rdfs:label     "Watson"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/the_bill>
-    rdfs:label     "the bill"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/The_bottom_of_the_depression>
-    rdfs:label     "The bottom of the depression"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Where_is_the_slope_of_the_land>
+    rdfs:label     "Where is the slope of the land"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/The_bottom>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_depression>.
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Where_is_the_slope>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_land>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/King's_Pyland>
+    rdfs:label     "King's Pyland"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Nine_o_clock>
+    rdf:type    kgc:AbstractTime;
+    rdfs:label     "Nine o'clock"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/bePlaced>
     rdf:type    kgc:Action;
     rdfs:label     "bePlaced"@en.
-<http://kgc.knowledge-graph.jp/data/Pm_1_incident>
-    rdf:type    kgc:AbstractTime;
-    rdfs:label     "Pm 1 incident"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/take>
     rdf:type    kgc:Action;
     rdfs:label     "take"@en.
-<http://kgc.knowledge-graph.jp/data/instructions_from_Colonel_Ross>
-    rdfs:label     "instructions from Colonel Ross"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Edith_Baxter>
-    rdfs:label     "Edith Baxter"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Use_a_thick_stick>
-    rdfs:label     "Use a thick stick"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Taste_of_the_opium>
+    rdfs:label     "Taste of the opium"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Taste>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_opium>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_stables_of_Mapleton_riding_ground>
+    rdfs:label     "the stables of Mapleton riding ground"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_stables>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Mapleton_riding_ground>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Jockey_of_Colonel_Ross>
+    rdfs:label     "Jockey of Colonel Ross"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Jockey>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Colonel_Ross>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Stables>
+    rdfs:label     "Stables"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/the_most_popular_horse>
     rdf:type    kgc:Property;
     rdfs:label     "the most popular horse"@en.
-<http://kgc.knowledge-graph.jp/data/King_s_Pyland_riding_ground>
-    rdfs:label     "King's Pyland riding ground"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/interrupt>
     rdf:type    kgc:Action;
     rdfs:label     "interrupt"@en.
-<http://kgc.knowledge-graph.jp/data/Minute>
-    rdfs:label     "Minute"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Remains_of_brown_color>
+    rdfs:label     "Remains of brown color"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Remains>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/brown_color>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/It_is_not_white_forehead>
+    rdfs:label     "It is not white forehead"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/wet>
     rdf:type    kgc:Property;
     rdfs:label     "wet"@en.
-<http://kgc.knowledge-graph.jp/data/I_ran_away_from_the_dog>
-    rdf:type    kgc:AbstractTime;
-    rdfs:label     "I ran away from the dog"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Gray_Scotch>
+    rdfs:label     "Gray Scotch"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/profitable>
     rdf:type    kgc:Action;
     rdfs:label     "profitable"@en.
-<http://kgc.knowledge-graph.jp/data/Silver_Blaze_of_racehorses>
-    rdfs:label     "Silver Blaze of racehorses"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Silver_Blaze>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/racehorses>.
 <http://kgc.knowledge-graph.jp/data/predicate/train>
     rdf:type    kgc:Action;
     rdfs:label     "train"@en.
-<http://kgc.knowledge-graph.jp/data/Cigarette_case>
-    rdfs:label     "Cigarette case"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Figure_of_the_people>
-    rdfs:label     "Figure of the people"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Figure>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_people>.
 <http://kgc.knowledge-graph.jp/data/predicate/wait>
     rdf:type    kgc:Action;
     rdfs:label     "wait"@en.
-<http://kgc.knowledge-graph.jp/data/paper_money>
-    rdfs:label     "paper money"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Wife_of_John_Straker>
+    rdfs:label     "Wife of John Straker"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Wife>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/John_Straker>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Mapleton_riding_ground>
+    rdfs:label     "Mapleton riding ground"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Fitzroy_Simpson>
-    rdfs:label     "Fitzroy Simpson"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Traces>
+    rdfs:label     "Traces"@en;
     rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Two_horses>
+    rdfs:label     "Two horses"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Curry_dishes_minute_of_sheep_of_Ned_Hunter>
+    rdfs:label     "Curry dishes minute of sheep of Ned Hunter"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/sheep_of_Ned_Hunter>;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Curry_dishes_minute>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/sheep>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Ned_Hunter>.
 <http://kgc.knowledge-graph.jp/data/predicate/practice>
     rdf:type    kgc:Action;
     rdfs:label     "practice"@en.
-<http://kgc.knowledge-graph.jp/data/The_reason_for_bring_out_the_Silver_Blaze>
-    rdfs:label     "The reason for bring out the Silver Blaze"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Bill_of_clothes>
-    rdfs:label     "Bill of clothes"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Bill>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/clothes>.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/silver_watch>
     rdfs:label     "silver watch"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/When_the_horse_racing>
-    rdf:type    kgc:AbstractTime;
-    rdfs:label     "When the horse racing"@en.
-<http://kgc.knowledge-graph.jp/data/the_previous_beam_broom>
-    rdfs:label     "the previous beam broom"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Depression_in_the_bush_of_the_previous_beam_broom>
+    rdfs:label     "Depression in the bush of the previous beam broom"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Depression_in_the_bush>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_previous_beam_broom>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Dartmoor>
+    rdfs:label     "Dartmoor"@en;
     rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/By_the_disappearance_of_Silver_Blaze>
+    rdfs:label     "By the disappearance of Silver Blaze"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/By_the_disappearance>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Expensive_clothes>
+    rdfs:label     "Expensive clothes"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Hunting_of_woolen_cloth>
+    rdfs:label     "Hunting of woolen cloth"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Hunting>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/woolen_cloth>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/State_of_Fitzroy_Simpson>
+    rdfs:label     "State of Fitzroy Simpson"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/State>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/I_ran_away_from_the_dog>
+    rdf:type    kgc:AbstractTime;
+    rdfs:label     "I ran away from the dog"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/wilderness>
     rdf:type    kgc:Property;
     rdfs:label     "wilderness"@en.
@@ -3750,28 +3762,32 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/strong_crowd_live_animal>
     rdf:type    kgc:Property;
     rdfs:label     "strong crowd live animal"@en.
-<http://kgc.knowledge-graph.jp/data/How_to_escape_the_sin>
-    rdfs:label     "How to escape the sin"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/During_the_fighting>
+    rdfs:label     "During the fighting"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Bets>
+    rdfs:label     "Bets"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/excite>
     rdf:type    kgc:Property;
     rdfs:label     "excite"@en.
-<http://kgc.knowledge-graph.jp/data/The_bottom>
-    rdfs:label     "The bottom"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Youth_stables_number>
+    rdfs:label     "Youth stables number"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/check>
     rdf:type    kgc:Action;
     rdfs:label     "check"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Ground>
+    rdfs:label     "Ground"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/cultivate>
     rdf:type    kgc:Action;
     rdfs:label     "cultivate"@en.
-<http://kgc.knowledge-graph.jp/data/Wife_of_John_Straker>
-    rdfs:label     "Wife of John Straker"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Wife>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/John_Straker>.
-<http://kgc.knowledge-graph.jp/data/Gypsy>
-    rdfs:label     "Gypsy"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Skull>
+    rdfs:label     "Skull"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Dent>
+    rdfs:label     "Dent"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/notBark>
     rdf:type    kgc:Action;
@@ -3784,25 +3800,31 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/confirm>
     rdf:type    kgc:Action;
     rdfs:label     "confirm"@en.
-<http://kgc.knowledge-graph.jp/Silver_issue_of_the_horseshoe>
-    rdfs:label     "Silver issue of the horseshoe"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/Silver_issue>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/the_horseshoe>.
-<http://kgc.knowledge-graph.jp/data/The_entrance>
-    rdfs:label     "The entrance"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Soft_soil>
+    rdfs:label     "Soft soil"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Whereabouts>
-    rdfs:label     "Whereabouts"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/High_odds>
+    rdfs:label     "High odds"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/BeDiscovered>
     rdfs:label     "BeDiscovered"@en;
     rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Murder_of_John_Straker>
+    rdfs:label     "Murder of John Straker"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Murder>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/John_Straker>.
 <http://kgc.knowledge-graph.jp/data/predicate/wacky>
     rdf:type    kgc:Property;
     rdfs:label     "wacky"@en.
-<http://kgc.knowledge-graph.jp/data/Those>
-    rdfs:label     "Those"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Night_of_the_incident>
+    rdf:type    kgc:AbstractTime;
+    rdfs:label     "Night of the incident"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Night>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_incident>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown_shoes>
+    rdfs:label     "Cyrus Brown shoes"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/appoint>
     rdf:type    kgc:Action;
@@ -3810,211 +3832,211 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/peep>
     rdf:type    kgc:Action;
     rdfs:label     "peep"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Two_of_the_home>
+    rdfs:label     "Two of the home"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Two>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_home>.
 <http://kgc.knowledge-graph.jp/data/predicate/wantToMeet>
     rdf:type    kgc:Action;
     rdfs:label     "wantToMeet"@en.
-<http://kgc.knowledge-graph.jp/data/Criminal>
-    rdfs:label     "Criminal"@en;
-    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Pm_1_incident>
+    rdf:type    kgc:AbstractTime;
+    rdfs:label     "Pm 1 incident"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/cannotSell>
     rdf:type    kgc:Action;
     rdf:type    kgc:CanNotAction;
     kgc:canNot    <http://kgc.knowledge-graph.jp/data/predicate/sell>;
     rdfs:label     "cannotSell"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/In_order_to_lighten_the_sin>
+    rdfs:label     "In order to lighten the sin"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/leave>
     rdf:type    kgc:Action;
     rdfs:label     "leave"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Match>
+    rdfs:label     "Match"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/get>
     rdf:type    kgc:Action;
     rdfs:label     "get"@en.
-<http://kgc.knowledge-graph.jp/data/Look_thirty_too>
-    rdf:type    kgc:Property;
-    rdfs:label     "Look thirty too"@en.
-<http://kgc.knowledge-graph.jp/data/By_the_disappearance>
-    rdfs:label     "By the disappearance"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Horseshoe_marks>
+    rdfs:label     "Horseshoe marks"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_duplicate_key_possession>
+    rdfs:label     "the duplicate key possession"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/His_thigh>
+    rdfs:label     "His thigh"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Hand_to_the_left>
+    rdfs:label     "Hand to the left"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/eat>
     rdf:type    kgc:Action;
     rdfs:label     "eat"@en.
-<http://kgc.knowledge-graph.jp/data/Ned_Hunter_and_two_young_men>
-    rdfs:label     "Ned Hunter and two young men"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Tavistock>
+    rdfs:label     "Tavistock"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Thigh>
-    rdfs:label     "Thigh"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/At_thirty_yards_from_the_stables>
+    rdfs:label     "At thirty yards from the stables"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/available_route>
-    rdfs:label     "available route"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/racehorses>
+    rdfs:label     "racehorses"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/In_order_to_lighten_the_sin>
-    rdfs:label     "In order to lighten the sin"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_name_of_the_Silver_Blaze>
+    rdfs:label     "The name of the Silver Blaze"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/The_name>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_Silver_Blaze>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Profits>
+    rdfs:label     "Profits"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/A_small_knife>
-    rdfs:label     "A small knife"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Face>
+    rdfs:label     "Face"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Among_the_stables>
-    rdfs:label     "Among the stables"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_wife_of_John_Straker>
+    rdfs:label     "the wife of John Straker"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_wife>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/John_Straker>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_stables>
+    rdfs:label     "the stables"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Previous_work>
-    rdf:type    kgc:AbstractTime;
-    rdfs:label     "Previous work"@en.
-<http://kgc.knowledge-graph.jp/data/a_small_gambling>
-    rdfs:label     "a small gambling"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Drink>
-    rdfs:label     "Drink"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/King_s_Pyland>
-    rdfs:label     "King's Pyland"@en;
-    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Those_of_wasteland>
+    rdfs:label     "Those of wasteland"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Those>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/wasteland>.
 <http://kgc.knowledge-graph.jp/data/predicate/wakeUp>
     rdf:type    kgc:Action;
     rdfs:label     "wakeUp"@en.
-<http://kgc.knowledge-graph.jp/data/Fixed_game>
-    rdfs:label     "Fixed game"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/murder_scene>
-    rdfs:label     "murder scene"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Gaiters>
-    rdfs:label     "Gaiters"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Minute_of_cooking_of_Ned_Hunter>
+    rdfs:label     "Minute of cooking of Ned Hunter"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/cooking_of_Ned_Hunter>;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Minute>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/cooking>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Ned_Hunter>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Very_nicely>
+    rdfs:label     "Very nicely"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/hide>
     rdf:type    kgc:Action;
     rdfs:label     "hide"@en.
-<http://kgc.knowledge-graph.jp/data/By_the_disappearance_of_Silver_Blaze>
-    rdfs:label     "By the disappearance of Silver Blaze"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/By_the_disappearance>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Silver_Blaze>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/As_your_stuff>
+    rdfs:label     "As your stuff"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/declare>
     rdf:type    kgc:Action;
     rdfs:label     "declare"@en.
-<http://kgc.knowledge-graph.jp/data/the_prizes>
-    rdfs:label     "the prizes"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Night>
-    rdfs:label     "Night"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/man's_shoes>
-    rdfs:label     "man's shoes"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Return_of_the_two_young_men>
-    rdfs:label     "Return of the two young men"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_type_of_Silver_issue_of_the_horseshoe>
+    rdfs:label     "The type of Silver issue of the horseshoe"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Return>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_two_young_men>.
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_issue_of_the_horseshoe>;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/The_type>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_issue>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_horseshoe>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Minute>
+    rdfs:label     "Minute"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Two_young_men>
+    rdfs:label     "Two young men"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/One_of_the_shoes_of_Fitzroy_Simpson>
+    rdfs:label     "One of the shoes of Fitzroy Simpson"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_shoes_of_Fitzroy_Simpson>;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/One>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_shoes>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Letter>
+    rdfs:label     "Letter"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/small_riding_ground>
     rdfs:label     "small riding ground"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/the_depression>
-    rdfs:label     "the depression"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/relive>
     rdf:type    kgc:Action;
     rdfs:label     "relive"@en.
-<http://kgc.knowledge-graph.jp/data/Future>
-    rdfs:label     "Future"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Enough_weapon>
+    rdfs:label     "Enough weapon"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Cyrus_Brown>
-    rdfs:label     "Cyrus Brown"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Lot>
+    rdfs:label     "Lot"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/fear>
     rdf:type    kgc:Action;
     rdfs:label     "fear"@en.
-<http://kgc.knowledge-graph.jp/data/Admirably>
-    rdfs:label     "Admirably"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/House_near_the_stables>
+    rdfs:label     "House near the stables"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Minute_of_the_cuisine_of_the_two_young_men>
-    rdfs:label     "Minute of the cuisine of the two young men"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/cooking_of_Ned_Hunter>
+    rdfs:label     "cooking of Ned Hunter"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_cuisine_of_the_two_young_men>;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Minute>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_cuisine>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_two_young_men>.
-<http://kgc.knowledge-graph.jp/data/A_scrap>
-    rdfs:label     "A scrap"@en;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/cooking>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Ned_Hunter>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/A_large_amount>
+    rdfs:label     "A large amount"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/For_self-defense>
-    rdfs:label     "For self-defense"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Huge_prize>
-    rdfs:label     "Huge prize"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Dog_of_the_stables>
-    rdfs:label     "Dog of the stables"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Lot_of_money>
+    rdfs:label     "Lot of money"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Dog>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_stables>.
-<http://kgc.knowledge-graph.jp/data/just_remaining_half_burned>
-    rdfs:label     "just remaining half burned"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Good_record>
-    rdfs:label     "Good record"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Direction_of_Mapleton>
-    rdfs:label     "Direction of Mapleton"@en;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Lot>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/money>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Opium_at_the_end_of_available_route>
+    rdfs:label     "Opium at the end of available route"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Direction>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Mapleton>.
-<http://kgc.knowledge-graph.jp/data/The_name>
-    rdfs:label     "The name"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/The_amount_of_Silver_Blaze>
-    rdfs:label     "The amount of Silver Blaze"@en;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Opium_at_the_end>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/available_route>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Match_of_just_remaining_half_burned>
+    rdfs:label     "Match of just remaining half burned"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/The_amount>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Silver_Blaze>.
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Match>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/just_remaining_half_burned>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Forecast>
+    rdfs:label     "Forecast"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_total_amount_of_the_bill>
+    rdfs:label     "The total amount of the bill"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/The_total_amount>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_bill>.
 <http://kgc.knowledge-graph.jp/data/predicate/expensive_tastes>
     rdf:type    kgc:Property;
     rdfs:label     "expensive tastes"@en.
-<http://kgc.knowledge-graph.jp/data/Not_a_Silver_Blaze>
-    rdf:type    kgc:Property;
-    rdfs:label     "Not a Silver Blaze"@en.
-<http://kgc.knowledge-graph.jp/data/A_group>
-    rdfs:label     "A group"@en;
-    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Around_nine_o_clock>
+    rdf:type    kgc:AbstractTime;
+    rdfs:label     "Around nine o'clock"@en.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/camp>
     rdfs:label     "camp"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Spirit>
-    rdfs:label     "Spirit"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Kicked_in_Silver_Blaze>
+    rdfs:label     "Kicked in Silver Blaze"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/put>
     rdf:type    kgc:Action;
     rdfs:label     "put"@en;
     rdf:type    kgc:Property.
-<http://kgc.knowledge-graph.jp/data/Hand_to_the_left_of_the_corpse>
-    rdfs:label     "Hand to the left of the corpse"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Hand_to_the_left>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_corpse>.
 <http://kgc.knowledge-graph.jp/data/predicate/avoid>
     rdf:type    kgc:Action;
     rdfs:label     "avoid"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/For_horse_racing_information_collection>
+    rdfs:label     "For horse racing information collection"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/notInclude>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/include>;
     rdfs:label     "notInclude"@en.
-<http://kgc.knowledge-graph.jp/data/I_felt_the_danger>
-    rdfs:label     "I felt the danger"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/The_total_amount_of_the_bill>
-    rdfs:label     "The total amount of the bill"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/The_total_amount>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_bill>.
-<http://kgc.knowledge-graph.jp/data/Mapleton_riding_ground_stables>
-    rdfs:label     "Mapleton riding ground stables"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Depression_there_was_a_dead_body>
-    rdfs:label     "Depression there was a dead body"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/The_total_amount>
-    rdfs:label     "The total amount"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/just_remaining_half_burned>
+    rdfs:label     "just remaining half burned"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/horse_trainer>
     rdfs:label     "horse trainer"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_issue>
+    rdfs:label     "Silver issue"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/notBeDiscovered>
     rdf:type    kgc:Action;
@@ -4024,97 +4046,66 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/stop>
     rdf:type    kgc:Action;
     rdfs:label     "stop"@en.
-<http://kgc.knowledge-graph.jp/data/Return>
-    rdfs:label     "Return"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Enormous_amount_of_money>
-    rdfs:label     "Enormous amount of money"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Enormous_amount>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/money>.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/two_young_men>
     rdfs:label     "two young men"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Wasteland>
-    rdfs:label     "Wasteland"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/cannotDrink>
     rdf:type    kgc:Action;
     rdf:type    kgc:CanNotAction;
     kgc:canNot    <http://kgc.knowledge-graph.jp/data/predicate/drink>;
     rdfs:label     "cannotDrink"@en.
-<http://kgc.knowledge-graph.jp/data/William_Derbyshire>
-    rdfs:label     "William Derbyshire"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/notHurt>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/hurt>;
     rdfs:label     "notHurt"@en.
-<http://kgc.knowledge-graph.jp/data/the_duplicate_key_possession>
-    rdfs:label     "the duplicate key possession"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze>
+    rdfs:label     "Silver Blaze"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Wax_match_a_box>
-    rdfs:label     "Wax match a box"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Crime>
+    rdfs:label     "Crime"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Keep_holding>
-    rdf:type    kgc:Action;
-    rdfs:label     "Keep holding"@en.
-<http://kgc.knowledge-graph.jp/data/Forecast_of_horse_racing>
-    rdfs:label     "Forecast of horse racing"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/small_gambling>
+    rdfs:label     "small gambling"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Warning>
+    rdfs:label     "Warning"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_mantle_of_John_Straker>
+    rdfs:label     "The mantle of John Straker"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Forecast>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/horse_racing>.
-<http://kgc.knowledge-graph.jp/data/sheep_of_Ned_Hunter>
-    rdfs:label     "sheep of Ned Hunter"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/sheep>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Ned_Hunter>.
-<http://kgc.knowledge-graph.jp/data/Doing_bookmaker_of_small_gambling>
-    rdfs:label     "Doing bookmaker of small gambling"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Doing_bookmaker>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/small_gambling>.
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/The_mantle>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/John_Straker>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_stables_and_the_small_building_near_Tavistock>
+    rdfs:label     "the stables and the small building near Tavistock"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/erase>
     rdf:type    kgc:Action;
     rdfs:label     "erase"@en.
-<http://kgc.knowledge-graph.jp/data/Long_vividly>
-    rdfs:label     "Long vividly"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/High_odds>
-    rdfs:label     "High odds"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/4_horses>
     rdfs:label     "4 horses"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Soft_soil>
-    rdfs:label     "Soft soil"@en;
-    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Tie_of_Fitzroy_Simpson>
+    rdfs:label     "Tie of Fitzroy Simpson"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Tie>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson>.
 <http://kgc.knowledge-graph.jp/data/predicate/notKidnap>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/kidnap>;
     rdfs:label     "notKidnap"@en.
-<http://kgc.knowledge-graph.jp/data/Silver_issue>
-    rdfs:label     "Silver issue"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Big_riding_ground>
+    rdfs:label     "Big riding ground"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/Tell>
     rdfs:label     "Tell"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Own_wickedness>
-    rdfs:label     "Own wickedness"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Wide_space>
+    rdfs:label     "Wide space"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/4_minutes_from_the_stables>
-    rdfs:label     "4 minutes from the stables"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Profit_story>
-    rdfs:label     "Profit story"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Tie>
-    rdf:type    kgc:Action;
-    rdfs:label     "Tie"@en.
-<http://kgc.knowledge-graph.jp/data/Crime>
-    rdfs:label     "Crime"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_next_morning>
+    rdfs:label     "The next morning"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/anxiety>
     rdfs:label     "anxiety"@en;
@@ -4128,37 +4119,29 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/go>
     rdf:type    kgc:Action;
     rdfs:label     "go"@en.
-<http://kgc.knowledge-graph.jp/data/The_name_of_the_Silver_Blaze>
-    rdfs:label     "The name of the Silver Blaze"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/The_name>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_Silver_Blaze>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Dry_hard_grass_soil>
+    rdfs:label     "Dry hard grass soil"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/Colonel_Ross>
     rdfs:label     "Colonel Ross"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Enough_weapon>
-    rdfs:label     "Enough weapon"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/Wander>
     rdfs:label     "Wander"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Silver>
-    rdfs:label     "Silver"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_biceps>
+    rdfs:label     "the biceps"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Fitzroy_Simpson>
-    rdfs:label     "Fitzroy Simpson"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/the_cuisine_of_the_two_young_men>
-    rdfs:label     "the cuisine of the two young men"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/the_cuisine>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_two_young_men>.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/fat>
     rdfs:label     "fat"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/pencil_case>
     rdfs:label     "pencil case"@en;
     rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Cache_of_Silver_Blaze>
+    rdfs:label     "Cache of Silver Blaze"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cache>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze>.
 <http://kgc.knowledge-graph.jp/data/predicate/noContact>
     rdf:type    kgc:Property;
     rdfs:label     "noContact"@en.
@@ -4170,70 +4153,79 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/happen>;
     rdfs:label     "notHappen"@en.
-<http://kgc.knowledge-graph.jp/data/Thigh_of_John_Straker>
-    rdfs:label     "Thigh of John Straker"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Thigh>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/John_Straker>.
-<http://kgc.knowledge-graph.jp/data/Cyrus_Brown_stables>
-    rdfs:label     "Cyrus Brown stables"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_left_side>
+    rdfs:label     "The left side"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/exist>
     rdf:type    kgc:Action;
     rdfs:label     "exist"@en.
-<http://kgc.knowledge-graph.jp/data/Hurt_the_horse>
-    rdfs:label     "Hurt the horse"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Those>
+    rdfs:label     "Those"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/the_home>
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Inference_of_Gregory_Inspector>
+    rdfs:label     "Inference of Gregory Inspector"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Inference>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Gregory_Inspector>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_home>
     rdfs:label     "the home"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/During_the_fighting>
-    rdfs:label     "During the fighting"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/available_route>
+    rdfs:label     "available route"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Plymouth>
-    rdfs:label     "Plymouth"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Murder_of_John_Straker>
-    rdfs:label     "Murder of John Straker"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/O_clock_the_next_morning_of_7_cases>
+    rdf:type    kgc:AbstractTime;
+    rdfs:label     "O'clock the next morning of 7 cases"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Murder>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/John_Straker>.
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/O'clock_the_next_morning>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/7_cases>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Letter_of_instructions_from_Colonel_Ross>
+    rdfs:label     "Letter of instructions from Colonel Ross"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Letter>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/instructions_from_Colonel_Ross>.
 <http://kgc.knowledge-graph.jp/data/predicate/do>
     rdf:type    kgc:Action;
     rdfs:label     "do"@en.
-<http://kgc.knowledge-graph.jp/data/Skull_of_John_Straker>
-    rdfs:label     "Skull of John Straker"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Skull>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/John_Straker>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/It_was_in_the_open_air>
+    rdfs:label     "It was in the open air"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/stable>
     rdfs:label     "stable"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Dent_of_wasteland>
-    rdfs:label     "Dent of wasteland"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Dent>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/wasteland>.
-<http://kgc.knowledge-graph.jp/data/Silver_Blaze>
-    rdfs:label     "Silver Blaze"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/knife>
     rdfs:label     "knife"@en;
     rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/King_s_Pyland>
+    rdfs:label     "King's Pyland"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Forecast_of_horse_racing>
+    rdfs:label     "Forecast of horse racing"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Forecast>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/horse_racing>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_cutting_edge_of_the_knife>
+    rdfs:label     "The cutting edge of the knife"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/The_cutting_edge>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_knife>.
 <http://kgc.knowledge-graph.jp/data/predicate/driveOff>
     rdf:type    kgc:Action;
     rdfs:label     "driveOff"@en.
-<http://kgc.knowledge-graph.jp/data/Sport_Club>
-    rdfs:label     "Sport Club"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Thigh>
+    rdfs:label     "Thigh"@en;
     rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/predicate/Look_thirty_too>
+    rdf:type    kgc:Property;
+    rdfs:label     "Look thirty too"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/tell>
     rdf:type    kgc:Action;
     rdfs:label     "tell"@en.
-<http://kgc.knowledge-graph.jp/data/Ready_for_jockey>
-    rdfs:label     "Ready for jockey"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_second_floor>
+    rdfs:label     "The second floor"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/paper>
-    rdfs:label     "paper"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Wessex_Cup_game>
+    rdfs:label     "Wessex Cup game"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/interest>
     rdfs:label     "interest"@en;
@@ -4247,199 +4239,189 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/BeBlown>
     rdfs:label     "BeBlown"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Dressing_table>
-    rdfs:label     "Dressing table"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Huge_prize>
+    rdfs:label     "Huge prize"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/canEnter>
     rdf:type    kgc:Action;
     rdf:type    kgc:CanAction;
     kgc:can    <http://kgc.knowledge-graph.jp/data/predicate/enter>;
     rdfs:label     "canEnter"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Doing_bookmaker>
+    rdfs:label     "Doing bookmaker"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/run>
     rdf:type    kgc:Action;
     rdfs:label     "run"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/had>
     rdf:type    kgc:Action;
     rdfs:label     "had"@en.
-<http://kgc.knowledge-graph.jp/data/Match_of_just_remaining_half_burned>
-    rdfs:label     "Match of just remaining half burned"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Match>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/just_remaining_half_burned>.
 <http://kgc.knowledge-graph.jp/data/predicate/rain>
     rdf:type    kgc:Action;
     rdfs:label     "rain"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/doNothing>
     rdf:type    kgc:Action;
     rdfs:label     "doNothing"@en.
-<http://kgc.knowledge-graph.jp/data/Youth_stables_number>
-    rdfs:label     "Youth stables number"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Ten_pounds>
-    rdfs:label     "Ten pounds"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Opium_at_the_end_of_available_route>
-    rdfs:label     "Opium at the end of available route"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Opium_at_the_end>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/available_route>.
 <http://kgc.knowledge-graph.jp/data/predicate/notTake>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/take>;
     rdfs:label     "notTake"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Mapleton_riding_ground>
+    rdfs:label     "Mapleton riding ground"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/enter>
     rdf:type    kgc:Action;
     rdfs:label     "enter"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/London>
+    rdfs:label     "London"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/cold>
     rdfs:label     "cold"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/As_usual>
-    rdfs:label     "As usual"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/return>
     rdf:type    kgc:Action;
     rdfs:label     "return"@en.
-<http://kgc.knowledge-graph.jp/data/The_next_morning_of_the_incident>
-    rdf:type    kgc:AbstractTime;
-    rdfs:label     "The next morning of the incident"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/The_next_morning>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_incident>.
-<http://kgc.knowledge-graph.jp/data/cooking>
-    rdfs:label     "cooking"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Knife_that_can_not_hide>
+    rdfs:label     "Knife that can not hide"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Mapleton_riding_ground>
-    rdfs:label     "Mapleton riding ground"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown>
+    rdfs:label     "Cyrus Brown"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/At_thirty_yards_from_the_stables>
-    rdfs:label     "At thirty yards from the stables"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Long_vividly>
+    rdfs:label     "Long vividly"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/small>
     rdf:type    kgc:Property;
     rdfs:label     "small"@en.
-<http://kgc.knowledge-graph.jp/data/Those_of_wasteland>
-    rdfs:label     "Those of wasteland"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Warning_of_the_wife_of_John_Straker>
+    rdfs:label     "Warning of the wife of John Straker"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Those>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/wasteland>.
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_wife_of_John_Straker>;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Warning>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_wife>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/John_Straker>.
 <http://kgc.knowledge-graph.jp/data/predicate/keep>
     rdf:type    kgc:Action;
     rdfs:label     "keep"@en.
-<http://kgc.knowledge-graph.jp/data/Jockey>
-    rdfs:label     "Jockey"@en;
-    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Enormous_amount_of_money>
+    rdfs:label     "Enormous amount of money"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Enormous_amount>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/money>.
 <http://kgc.knowledge-graph.jp/data/predicate/send>
     rdf:type    kgc:Action;
     rdfs:label     "send"@en.
-<http://kgc.knowledge-graph.jp/data/Cyrus_Brown>
-    rdfs:label     "Cyrus Brown"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/A_small_knife>
+    rdfs:label     "A small knife"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Ned_Hunter>
+    rdfs:label     "Ned Hunter"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/report>
     rdf:type    kgc:Action;
     rdfs:label     "report"@en.
-<http://kgc.knowledge-graph.jp/data/Bookmaker_of_a_small_gambling>
-    rdfs:label     "Bookmaker of a small gambling"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Bookmaker>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/a_small_gambling>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Horse_out_to_Wessex_Cup_round>
+    rdfs:label     "Horse out to Wessex Cup round"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/manhand>
     rdfs:label     "manhand"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Use_the_sheep>
+    rdfs:label     "Use the sheep"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Without_sleep>
+    rdfs:label     "Without sleep"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/self-defence>
     rdf:type    kgc:Property;
     rdfs:label     "self-defence"@en.
-<http://kgc.knowledge-graph.jp/data/Age_of_Fitzroy_Simpson>
-    rdfs:label     "Age of Fitzroy Simpson"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Age>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Fitzroy_Simpson>.
+<http://kgc.knowledge-graph.jp/data/predicate/Attention>
+    rdf:type    kgc:Action;
+    rdfs:label     "Attention"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/guard>
     rdf:type    kgc:Property;
     rdfs:label     "guard"@en.
-<http://kgc.knowledge-graph.jp/data/Desborough>
-    rdfs:label     "Desborough"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Surgery>
+    rdfs:label     "Surgery"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/fetch>
     rdf:type    kgc:Action;
     rdfs:label     "fetch"@en.
-<http://kgc.knowledge-graph.jp/data/Tavistock_of_land>
-    rdfs:label     "Tavistock of land"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Tavistock>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/land>.
-<http://kgc.knowledge-graph.jp/data/Gray_Scotch>
-    rdfs:label     "Gray Scotch"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_prizes>
+    rdfs:label     "the prizes"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/wasteland>
-    rdfs:label     "wasteland"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Murder>
+    rdfs:label     "Murder"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/The_entrance_of_the_stables_of_Mapleton_riding_ground>
-    rdfs:label     "The entrance of the stables of Mapleton riding ground"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_stables_of_Mapleton_riding_ground>;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/The_entrance>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_stables>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Mapleton_riding_ground>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Hunting>
+    rdfs:label     "Hunting"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/Meet>
     rdfs:label     "Meet"@en;
     rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/paper_money>
+    rdfs:label     "paper money"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/In_combat>
+    rdf:type    kgc:AbstractTime;
+    rdfs:label     "In combat"@en.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/letter>
     rdfs:label     "letter"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Taste_of_opium>
-    rdfs:label     "Taste of opium"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_shoes_of_John_Straker>
+    rdfs:label     "the shoes of John Straker"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Taste>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/opium>.
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_shoes>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/John_Straker>.
 <http://kgc.knowledge-graph.jp/data/predicate/mix>
     rdf:type    kgc:Action;
     rdfs:label     "mix"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/brown_color>
+    rdfs:label     "brown color"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/restless_state>
     rdf:type    kgc:Property;
     rdfs:label     "restless state"@en.
-<http://kgc.knowledge-graph.jp/data/Away_two_mile>
-    rdf:type    kgc:Property;
-    rdfs:label     "Away two mile"@en.
-<http://kgc.knowledge-graph.jp/data/Door_of_the_stables>
-    rdfs:label     "Door of the stables"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Door>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_stables>.
 <http://kgc.knowledge-graph.jp/data/predicate/canDetermine>
     rdf:type    kgc:Action;
     rdf:type    kgc:CanAction;
     kgc:can    <http://kgc.knowledge-graph.jp/data/predicate/determine>;
     rdfs:label     "canDetermine"@en.
-<http://kgc.knowledge-graph.jp/data/Police_reasoning_of>
-    rdfs:label     "Police reasoning of"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/horse_trainer>
     rdfs:label     "horse trainer"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/children>
     rdfs:label     "children"@en;
     rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/One_of_the_shoes_of_John_Straker>
+    rdfs:label     "One of the shoes of John Straker"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_shoes_of_John_Straker>;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/One>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_shoes>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/John_Straker>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Wasteland>
+    rdfs:label     "Wasteland"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/dead>
     rdf:type    kgc:Property;
     rdfs:label     "dead"@en.
-<http://kgc.knowledge-graph.jp/data/the_murder_scene>
-    rdfs:label     "the murder scene"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Ten_pounds>
+    rdfs:label     "Ten pounds"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Hat>
+    rdfs:label     "Hat"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Photos>
+    rdfs:label     "Photos"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/ask>
     rdf:type    kgc:Action;
     rdfs:label     "ask"@en.
-<http://kgc.knowledge-graph.jp/data/Hat_of_London_decoration_shop>
-    rdfs:label     "Hat of London decoration shop"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Hat>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/London_decoration_shop>.
 <http://kgc.knowledge-graph.jp/data/predicate/deal>
     rdf:type    kgc:Action;
     rdfs:label     "deal"@en.
-<http://kgc.knowledge-graph.jp/data/Gregory_Inspector>
-    rdfs:label     "Gregory Inspector"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/lantern>
     rdfs:label     "lantern"@en;
     rdf:type    kgc:Object.
@@ -4452,64 +4434,52 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/hang>
     rdf:type    kgc:Action;
     rdfs:label     "hang"@en.
-<http://kgc.knowledge-graph.jp/data/Use_a_very_sharp_weapon>
-    rdfs:label     "Use a very sharp weapon"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/struggle>
     rdf:type    kgc:Action;
     rdfs:label     "struggle"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Tie_of_the_murder_scene>
+    rdfs:label     "Tie of the murder scene"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Tie>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_murder_scene>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_right_side>
+    rdfs:label     "The right side"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/medicine>
     rdfs:label     "medicine"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Knife_made_in_sharp>
-    rdfs:label     "Knife made in sharp"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Lucrative_story>
+    rdfs:label     "Lucrative story"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Jockey_of_Colonel_Ross>
-    rdfs:label     "Jockey of Colonel Ross"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/All_of_the_stables_and_the_small_building_near_Tavistock>
+    rdfs:label     "All of the stables and the small building near Tavistock"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Jockey>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Colonel_Ross>.
-<http://kgc.knowledge-graph.jp/data/Attention>
-    rdf:type    kgc:Action;
-    rdfs:label     "Attention"@en.
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/All>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_stables_and_the_small_building_near_Tavistock>.
 <http://kgc.knowledge-graph.jp/data/predicate/notBlow>
     rdf:type    kgc:Property;
     rdfs:label     "notBlow"@en.
-<http://kgc.knowledge-graph.jp/data/Gypsy_of_Dartmoor>
-    rdfs:label     "Gypsy of Dartmoor"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Gypsy>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Dartmoor>.
 <http://kgc.knowledge-graph.jp/data/predicate/notAbnormal>
     rdf:type    kgc:Property;
     rdfs:label     "notAbnormal"@en.
-<http://kgc.knowledge-graph.jp/data/The_second_floor_of_the_stables>
-    rdfs:label     "The second floor of the stables"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/The_second_floor>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_stables>.
 <http://kgc.knowledge-graph.jp/data/predicate/suspect>
     rdf:type    kgc:Action;
     rdfs:label     "suspect"@en.
-<http://kgc.knowledge-graph.jp/data/Curry_dishes_minute_of_sheep_of_Ned_Hunter>
-    rdfs:label     "Curry dishes minute of sheep of Ned Hunter"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Work>
+    rdfs:label     "Work"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Wife>
+    rdfs:label     "Wife"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Ten_pounds_of_paper_money>
+    rdfs:label     "Ten pounds of paper money"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/sheep_of_Ned_Hunter>;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Curry_dishes_minute>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/sheep>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Ned_Hunter>.
-<http://kgc.knowledge-graph.jp/Fitzroy_Simpson_for_a_piece_of_paper>
-    rdfs:label     "Fitzroy Simpson for a piece of paper"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/Fitzroy_Simpson_for_a_piece>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/paper>.
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Ten_pounds>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/paper_money>.
 <http://kgc.knowledge-graph.jp/data/predicate/Isonomy_system>
     rdfs:label     "Isonomy system"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/the_window>
-    rdfs:label     "the window"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Dedicated_and_honest>
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Dedicated_and_honest>
     rdfs:label     "Dedicated and honest"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/beWritten>
@@ -4518,15 +4488,19 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/meet>
     rdf:type    kgc:Action;
     rdfs:label     "meet"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Figure_of_the_people>
+    rdfs:label     "Figure of the people"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Figure>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_people>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Disappearance_of_Silver_Blaze>
+    rdfs:label     "Disappearance of Silver Blaze"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Disappearance>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze>.
 <http://kgc.knowledge-graph.jp/data/predicate/beSlashed>
     rdf:type    kgc:Action;
     rdfs:label     "beSlashed"@en.
-<http://kgc.knowledge-graph.jp/data/Using_something_heavy_Kyoki>
-    rdfs:label     "Using something heavy Kyoki"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/woolen_cloth>
-    rdfs:label     "woolen cloth"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/examine>
     rdf:type    kgc:Action;
     rdfs:label     "examine"@en.
@@ -4535,130 +4509,106 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/tell>;
     rdfs:label     "notTell"@en.
-<http://kgc.knowledge-graph.jp/data/Fitzroy_Simpson_for_a_piece>
-    rdfs:label     "Fitzroy Simpson for a piece"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/instructions_from_Colonel_Ross>
+    rdfs:label     "instructions from Colonel Ross"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/the_cuisine>
-    rdfs:label     "the cuisine"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/the_stables>
-    rdfs:label     "the stables"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Two>
+    rdfs:label     "Two"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/testify>
     rdf:type    kgc:Action;
     rdfs:label     "testify"@en.
-<http://kgc.knowledge-graph.jp/data/All_of_the_prizes>
-    rdfs:label     "All of the prizes"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/All>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_prizes>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Mapleton>
+    rdfs:label     "Mapleton"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/Accompany>
     rdfs:label     "Accompany"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/track>
     rdf:type    kgc:Action;
     rdfs:label     "track"@en.
-<http://kgc.knowledge-graph.jp/Silver_issue>
-    rdfs:label     "Silver issue"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Warning_of_the_wife_of_John_Straker>
-    rdfs:label     "Warning of the wife of John Straker"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Subordinates_of_Cyrus_Brown>
+    rdfs:label     "Subordinates of Cyrus Brown"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_wife_of_John_Straker>;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Warning>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_wife>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/John_Straker>.
-<http://kgc.knowledge-graph.jp/data/It_is_not_white_forehead>
-    rdfs:label     "It is not white forehead"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/the_King's_Pyland>
-    rdfs:label     "the King's Pyland"@en;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Subordinates>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/John_Straker>
+    rdfs:label     "John Straker"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/notEnter>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/enter>;
     rdfs:label     "notEnter"@en.
-<http://kgc.knowledge-graph.jp/data/Small_parcel>
-    rdfs:label     "Small parcel"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Use_the_sheep_curry_dishes>
+    rdfs:label     "Use the sheep curry dishes"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/cooking_of_Ned_Hunter>
-    rdfs:label     "cooking of Ned Hunter"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/cooking>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Ned_Hunter>.
-<http://kgc.knowledge-graph.jp/data/O_clock_the_next_morning_of_7_cases>
-    rdf:type    kgc:AbstractTime;
-    rdfs:label     "O'clock the next morning of 7 cases"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/O'clock_the_next_morning>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/7_cases>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Johns_tray_mosquitoes>
+    rdfs:label     "Johns tray mosquitoes"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Desborough>
+    rdfs:label     "Desborough"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/Hurt>
     rdfs:label     "Hurt"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Complexion_of_Fitzroy_Simpson>
-    rdfs:label     "Complexion of Fitzroy Simpson"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Complexion>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Fitzroy_Simpson>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/receipt_already_in_liquidation_certificate>
+    rdfs:label     "receipt already in liquidation certificate"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Jockey>
+    rdfs:label     "Jockey"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Taste>
+    rdfs:label     "Taste"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Profit_story>
+    rdfs:label     "Profit story"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/include>
     rdf:type    kgc:Property;
     rdfs:label     "include"@en;
     rdf:type    kgc:Action.
-<http://kgc.knowledge-graph.jp/data/William_Derbyshire_Mrs.>
-    rdfs:label     "William Derbyshire Mrs."@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/State>
+    rdfs:label     "State"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Future_of_Silver_Blaze>
-    rdfs:label     "Future of Silver Blaze"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Future>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Silver_Blaze>.
 <http://kgc.knowledge-graph.jp/data/predicate/notReturn>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/return>;
     rdfs:label     "notReturn"@en.
-<http://kgc.knowledge-graph.jp/data/Five_thousand_lbs>
-    rdfs:label     "Five thousand lbs"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Information_about_the_Desborough>
+    rdfs:label     "Information about the Desborough"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Night_menu_is_curry>
-    rdfs:label     "Night menu is curry"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_reason_for_visit>
+    rdfs:label     "The reason for visit"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Two_horses>
-    rdfs:label     "Two horses"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Small_parcel>
+    rdfs:label     "Small parcel"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/clothes>
-    rdfs:label     "clothes"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/brown_horse>
-    rdfs:label     "brown horse"@en;
-    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Accident_of_sheep>
+    rdfs:label     "Accident of sheep"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Accident>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/sheep>.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/rain>
     rdfs:label     "rain"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Forecast>
-    rdfs:label     "Forecast"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Remains>
-    rdfs:label     "Remains"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Plug_the_water_comes_out>
-    rdfs:label     "Plug the water comes out"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/The_next_morning>
-    rdfs:label     "The next morning"@en;
-    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Traces_of_man_s_shoes>
+    rdfs:label     "Traces of man's shoes"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Traces>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/man's_shoes>.
 <http://kgc.knowledge-graph.jp/data/predicate/beSurprise>
     rdf:type    kgc:Action;
     rdfs:label     "beSurprise"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/woolen_cloth>
+    rdfs:label     "woolen cloth"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/manage>
     rdf:type    kgc:Action;
     rdfs:label     "manage"@en.
-<http://kgc.knowledge-graph.jp/data/Use_the_sheep_curry_dishes>
-    rdfs:label     "Use the sheep curry dishes"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Bill>
-    rdfs:label     "Bill"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/One>
+    rdfs:label     "One"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/beRaised>
     rdf:type    kgc:Action;
@@ -4666,17 +4616,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/match>
     rdf:type    kgc:Action;
     rdfs:label     "match"@en.
-<http://kgc.knowledge-graph.jp/data/The_second_floor>
-    rdfs:label     "The second floor"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/For_the_attack>
+    rdfs:label     "For the attack"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/horse_racing>
-    rdfs:label     "horse racing"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Taste_of_the_opium>
-    rdfs:label     "Taste of the opium"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Taste>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_opium>.
 <http://kgc.knowledge-graph.jp/data/predicate/pick>
     rdf:type    kgc:Action;
     rdfs:label     "pick"@en.
@@ -4691,76 +4633,68 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/wonder>
     rdf:type    kgc:Action;
     rdfs:label     "wonder"@en.
-<http://kgc.knowledge-graph.jp/data/Face_of_brown_horse>
-    rdfs:label     "Face of brown horse"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Face>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/brown_horse>.
-<http://kgc.knowledge-graph.jp/data/Photos>
-    rdfs:label     "Photos"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/opium>
-    rdfs:label     "opium"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/discard>
     rdf:type    kgc:Action;
     rdfs:label     "discard"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Tie_Silver_Blaze_legs>
+    rdfs:label     "Tie Silver Blaze legs"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/hurt>
     rdf:type    kgc:Action;
     rdfs:label     "hurt"@en.
-<http://kgc.knowledge-graph.jp/data/Two_of_the_home>
-    rdfs:label     "Two of the home"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/A_large_amount_of_opium_end>
+    rdfs:label     "A large amount of opium end"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Two>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_home>.
-<http://kgc.knowledge-graph.jp/data/7_cases>
-    rdfs:label     "7 cases"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Popularity>
-    rdfs:label     "Popularity"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Colonel_Ross>
-    rdfs:label     "Colonel Ross"@en;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/A_large_amount>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/opium_end>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Comfortably>
+    rdfs:label     "Comfortably"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/cannotFind>
     rdf:type    kgc:Action;
     rdf:type    kgc:CanNotAction;
     kgc:canNot    <http://kgc.knowledge-graph.jp/data/predicate/find>;
     rdfs:label     "cannotFind"@en.
-<http://kgc.knowledge-graph.jp/data/Accident>
-    rdfs:label     "Accident"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/I_felt_the_danger>
+    rdfs:label     "I felt the danger"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Return>
+    rdfs:label     "Return"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/hire>
     rdf:type    kgc:Action;
     rdfs:label     "hire"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/wasteland>
+    rdfs:label     "wasteland"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/tryToGive>
     rdf:type    kgc:Action;
     rdfs:label     "tryToGive"@en.
-<http://kgc.knowledge-graph.jp/data/Colonel_Ross>
-    rdfs:label     "Colonel Ross"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Sport_Club>
+    rdfs:label     "Sport Club"@en;
     rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Head_of_John_Straker>
+    rdfs:label     "Head of John Straker"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Head>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/John_Straker>.
 <http://kgc.knowledge-graph.jp/data/predicate/not_reliable_man>
     rdf:type    kgc:Property;
     rdfs:label     "not reliable man"@en.
-<http://kgc.knowledge-graph.jp/data/Lucrative_story>
-    rdfs:label     "Lucrative story"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Lord_Backwater>
+    rdfs:label     "Lord Backwater"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/receiveTheRain>
     rdf:type    kgc:Action;
     rdfs:label     "receiveTheRain"@en.
-<http://kgc.knowledge-graph.jp/data/Cyrus_Brown_shoes>
-    rdfs:label     "Cyrus Brown shoes"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/mash>
     rdf:type    kgc:Action;
     rdfs:label     "mash"@en.
-<http://kgc.knowledge-graph.jp/data/The_right_side_of_the_recess>
-    rdfs:label     "The right side of the recess"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/The_right_side>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_recess>.
-<http://kgc.knowledge-graph.jp/data/Horseracing>
-    rdfs:label     "Horseracing"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver>
+    rdfs:label     "Silver"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Right_hand>
+    rdfs:label     "Right hand"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/police>
     rdfs:label     "police"@en;
@@ -4768,12 +4702,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/kidnap>
     rdf:type    kgc:Action;
     rdfs:label     "kidnap"@en.
-<http://kgc.knowledge-graph.jp/data/Wide_space>
-    rdfs:label     "Wide space"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Without_leaving_a_trace>
-    rdfs:label     "Without leaving a trace"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/a_horse>
     rdfs:label     "a horse"@en;
     rdf:type    kgc:Object.
@@ -4782,128 +4710,99 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:CanNotAction;
     kgc:canNot    <http://kgc.knowledge-graph.jp/data/predicate/explain>;
     rdfs:label     "cannotExplain"@en.
-<http://kgc.knowledge-graph.jp/data/In_combat>
-    rdf:type    kgc:AbstractTime;
-    rdfs:label     "In combat"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Horseracing>
+    rdfs:label     "Horseracing"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_total_amount>
+    rdfs:label     "The total amount"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/drop>
     rdf:type    kgc:Action;
     rdfs:label     "drop"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/suffer>
     rdf:type    kgc:Action;
     rdfs:label     "suffer"@en.
-<http://kgc.knowledge-graph.jp/data/the_two_young_men>
-    rdfs:label     "the two young men"@en;
-    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Minute_of_the_cuisine_of_the_two_young_men>
+    rdfs:label     "Minute of the cuisine of the two young men"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_cuisine_of_the_two_young_men>;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Minute>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_cuisine>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_two_young_men>.
 <http://kgc.knowledge-graph.jp/data/predicate/independent>
     rdfs:label     "independent"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/admit>
     rdf:type    kgc:Action;
     rdfs:label     "admit"@en.
-<http://kgc.knowledge-graph.jp/data/And_I_went_to_the_hat_decoration_shop>
-    rdfs:label     "And I went to the hat decoration shop"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Duplicate_key>
+    rdfs:label     "Duplicate key"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/notAccompany>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/accompany>;
     rdfs:label     "notAccompany"@en.
-<http://kgc.knowledge-graph.jp/data/The_cutting_edge>
-    rdfs:label     "The cutting edge"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/the_horseshoe>
-    rdfs:label     "the horseshoe"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Gold_coin>
-    rdfs:label     "Gold coin"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze_of_racehorses>
+    rdfs:label     "Silver Blaze of racehorses"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/racehorses>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown_stables>
+    rdfs:label     "Cyrus Brown stables"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/cork>
     rdfs:label     "cork"@en;
     rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Murder_scene>
+    rdfs:label     "Murder scene"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/luxurious_taste>
     rdf:type    kgc:Action;
     rdfs:label     "luxurious taste"@en.
-<http://kgc.knowledge-graph.jp/data/Brown_horse>
-    rdfs:label     "Brown horse"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/The_reason_for_visit>
-    rdfs:label     "The reason for visit"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Depression_in_the_direction_of_Mapleton>
-    rdfs:label     "Depression in the direction of Mapleton"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/sheep_of_Ned_Hunter>
+    rdfs:label     "sheep of Ned Hunter"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Depression_in_the_direction>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Mapleton>.
-<http://kgc.knowledge-graph.jp/data/the_knife>
-    rdfs:label     "the knife"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/It_has_been_over>
-    rdf:type    kgc:Property;
-    rdfs:label     "It has been over"@en.
-<http://kgc.knowledge-graph.jp/data/Betting_horse_racing>
-    rdfs:label     "Betting horse racing"@en;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/sheep>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Ned_Hunter>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Ready_for_jockey>
+    rdfs:label     "Ready for jockey"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/Bark>
     rdfs:label     "Bark"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/the_stables_of_Mapleton_riding_ground>
-    rdfs:label     "the stables of Mapleton riding ground"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/the_stables>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Mapleton_riding_ground>.
-<http://kgc.knowledge-graph.jp/data/the_horseshoe>
-    rdfs:label     "the horseshoe"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Door>
+    rdfs:label     "Door"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/All>
-    rdfs:label     "All"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/By_the_wind>
+    rdfs:label     "By the wind"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Ten_pounds_of_paper_money>
-    rdfs:label     "Ten pounds of paper money"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Ten_pounds>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/paper_money>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Brown_Umanoashi_of>
+    rdfs:label     "Brown Umanoashi of"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/Explain>
     rdfs:label     "Explain"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Include>
-    rdf:type    kgc:Action;
-    rdfs:label     "Include"@en.
-<http://kgc.knowledge-graph.jp/data/Traces_of_man_s_shoes>
-    rdfs:label     "Traces of man's shoes"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Traces>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/man's_shoes>.
-<http://kgc.knowledge-graph.jp/data/Direction_of_the_King_s_Pyland>
-    rdfs:label     "Direction of the King's Pyland"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Direction>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_King's_Pyland>.
 <http://kgc.knowledge-graph.jp/data/predicate/the_incident>
     rdfs:label     "the incident"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_incident>
     rdfs:label     "the incident"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/House_near_the_stables>
-    rdfs:label     "House near the stables"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Claims>
+    rdfs:label     "Claims"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/The_mantle>
-    rdfs:label     "The mantle"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/7_cases>
+    rdfs:label     "7 cases"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/By_the_wind>
-    rdfs:label     "By the wind"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/the_land>
-    rdfs:label     "the land"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Holmes>
-    rdfs:label     "Holmes"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/The_mantle_of_John_Straker>
-    rdfs:label     "The mantle of John Straker"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Dog_of_the_stables>
+    rdfs:label     "Dog of the stables"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/The_mantle>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/John_Straker>.
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Dog>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_stables>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Insufficient_reasons>
+    rdfs:label     "Insufficient reasons"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/canMeet>
     rdf:type    kgc:Action;
     rdf:type    kgc:CanAction;
@@ -4912,62 +4811,82 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/match>
     rdfs:label     "match"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/One_of_the_shoes_of_Fitzroy_Simpson>
-    rdfs:label     "One of the shoes of Fitzroy Simpson"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_shoes_of_Fitzroy_Simpson>;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/One>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_shoes>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Fitzroy_Simpson>.
 <http://kgc.knowledge-graph.jp/data/predicate/notHave>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/have>;
     rdfs:label     "notHave"@en.
-<http://kgc.knowledge-graph.jp/data/Minute_of_cooking_of_Ned_Hunter>
-    rdfs:label     "Minute of cooking of Ned Hunter"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/cooking_of_Ned_Hunter>;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Minute>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/cooking>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Ned_Hunter>.
 <http://kgc.knowledge-graph.jp/data/predicate/retire>
     rdf:type    kgc:Action;
     rdfs:label     "retire"@en.
-<http://kgc.knowledge-graph.jp/data/Owner_muscle>
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Owner_muscle>
     rdfs:label     "Owner muscle"@en;
     rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_opium>
+    rdfs:label     "the opium"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Stables_of_Mapleton>
+    rdfs:label     "Stables of Mapleton"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Stables>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Mapleton>.
 <http://kgc.knowledge-graph.jp/data/predicate/self-harm>
     rdf:type    kgc:Action;
     rdfs:label     "self-harm"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Future>
+    rdfs:label     "Future"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/promise>
     rdf:type    kgc:Action;
     rdfs:label     "promise"@en.
-<http://kgc.knowledge-graph.jp/data/Holmes_reasoning_of>
-    rdfs:label     "Holmes reasoning of"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_window>
+    rdfs:label     "the window"@en;
     rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Criminal>
+    rdfs:label     "Criminal"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Corpse_of_John_Straker>
+    rdfs:label     "Corpse of John Straker"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Corpse>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/John_Straker>.
 <http://kgc.knowledge-graph.jp/data/predicate/notDecide>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/decide>;
     rdfs:label     "notDecide"@en.
-<http://kgc.knowledge-graph.jp/data/Along_the_way>
-    rdfs:label     "Along the way"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Evening_meal>
+    rdfs:label     "Evening meal"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Door>
-    rdfs:label     "Door"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Depression_in_the_direction_of_Mapleton>
+    rdfs:label     "Depression in the direction of Mapleton"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Depression_in_the_direction>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Mapleton>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_recess>
+    rdfs:label     "the recess"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/use>
     rdf:type    kgc:Action;
     rdfs:label     "use"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/a_small_gambling>
+    rdfs:label     "a small gambling"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Doing_bookmaker_of_small_gambling>
+    rdfs:label     "Doing bookmaker of small gambling"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Doing_bookmaker>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/small_gambling>.
 <http://kgc.knowledge-graph.jp/data/predicate/wash>
     rdf:type    kgc:Action;
     rdfs:label     "wash"@en.
-<http://kgc.knowledge-graph.jp/data/the_incident>
-    rdfs:label     "the incident"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Very_large>
-    rdfs:label     "Very large"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Three_pieces_of_receipt_already_in_liquidation_certificate>
+    rdfs:label     "Three pieces of receipt already in liquidation certificate"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Three_pieces>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/receipt_already_in_liquidation_certificate>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Colonel_Ross>
+    rdfs:label     "Colonel Ross"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/chase>
     rdf:type    kgc:Action;
@@ -4975,87 +4894,105 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/five_years_old>
     rdf:type    kgc:Property;
     rdfs:label     "five years old"@en.
-<http://kgc.knowledge-graph.jp/data/Three_pieces>
-    rdfs:label     "Three pieces"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/During_the_fighting_of_John_Straker>
+    rdf:type    kgc:AbstractTime;
+    rdfs:label     "During the fighting of John Straker"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/During_the_fighting>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/John_Straker>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/William_Derbyshire>
+    rdfs:label     "William Derbyshire"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/John_Straker>
-    rdfs:label     "John Straker"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_murder_scene>
+    rdfs:label     "the murder scene"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Injured_horse>
-    rdfs:label     "Injured horse"@en;
-    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_left_side_of_the_recess>
+    rdfs:label     "The left side of the recess"@en;
+    rdf:type    kgc:OFobj;
+    rdf:type    kgc:AbstractTime;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/The_left_side>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_recess>.
 <http://kgc.knowledge-graph.jp/data/predicate/think>
     rdf:type    kgc:Action;
     rdfs:label     "think"@en.
-<http://kgc.knowledge-graph.jp/data/Murder_scene>
-    rdfs:label     "Murder scene"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/aware_of_the_incident>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "aware of the incident"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/aware>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_incident>.
-<http://kgc.knowledge-graph.jp/data/Man>
-    rdfs:label     "Man"@en;
+<http://kgc.knowledge-graph.jp/data/predicate/It_has_been_over>
+    rdf:type    kgc:Property;
+    rdfs:label     "It has been over"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze_legs>
+    rdfs:label     "Silver Blaze legs"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/know>
     rdf:type    kgc:Action;
     rdfs:label     "know"@en.
-<http://kgc.knowledge-graph.jp/data/Profits>
-    rdfs:label     "Profits"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Horse>
+    rdfs:label     "Horse"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Expensive_clothes>
-    rdfs:label     "Expensive clothes"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_previous_beam_broom>
+    rdfs:label     "the previous beam broom"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_bill>
+    rdfs:label     "the bill"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/answer>
     rdf:type    kgc:Action;
     rdfs:label     "answer"@en.
-<http://kgc.knowledge-graph.jp/data/receipt_already_in_liquidation_certificate>
-    rdfs:label     "receipt already in liquidation certificate"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/arrest>
     rdf:type    kgc:Action;
     rdfs:label     "arrest"@en.
-<http://kgc.knowledge-graph.jp/Fitzroy_Simpson_for_a_piece>
-    rdfs:label     "Fitzroy Simpson for a piece"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/watch>
     rdf:type    kgc:Action;
     rdfs:label     "watch"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Plymouth>
+    rdfs:label     "Plymouth"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/dark>
     rdf:type    kgc:Property;
     rdfs:label     "dark"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/wear>
     rdf:type    kgc:Action;
     rdfs:label     "wear"@en.
-<http://kgc.knowledge-graph.jp/data/Traces>
-    rdfs:label     "Traces"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Convulsions_to>
+    rdfs:label     "Convulsions to"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/the_wife_of_John_Straker>
-    rdfs:label     "the wife of John Straker"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/the_wife>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/John_Straker>.
 <http://kgc.knowledge-graph.jp/data/predicate/for_catarct>
     rdf:type    kgc:Property;
     rdfs:label     "for catarct"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/Sell>
     rdfs:label     "Sell"@en;
     rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/4_minutes_from_the_stables>
+    rdfs:label     "4 minutes from the stables"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/deeply>
     rdfs:label     "deeply"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Stables_of_Mapleton>
-    rdfs:label     "Stables of Mapleton"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Right_hand_of_the_corpse>
+    rdfs:label     "Right hand of the corpse"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Stables>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Mapleton>.
-<http://kgc.knowledge-graph.jp/data/Match>
-    rdfs:label     "Match"@en;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Right_hand>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_corpse>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Strong_chemicals>
+    rdfs:label     "Strong chemicals"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Depression_in_the_bush>
-    rdfs:label     "Depression in the bush"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Gray_Scotch_of_clothes>
+    rdfs:label     "Gray Scotch of clothes"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Gray_Scotch>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/clothes>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Cigarette_case>
+    rdfs:label     "Cigarette case"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Complexion>
+    rdfs:label     "Complexion"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/A_scrap>
+    rdfs:label     "A scrap"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/self-halm>
     rdf:type    kgc:Action;
@@ -5063,213 +5000,249 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/Notice>
     rdfs:label     "Notice"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/They_were_allowed_to_exercise>
-    rdf:type    kgc:Action;
-    rdfs:label     "They were allowed to exercise"@en.
-<http://kgc.knowledge-graph.jp/data/Working>
-    rdf:type    kgc:AbstractTime;
-    rdfs:label     "Working"@en.
-<http://kgc.knowledge-graph.jp/data/Tie_Silver_Blaze_legs>
-    rdfs:label     "Tie Silver Blaze legs"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Hunting_of_woolen_cloth>
-    rdfs:label     "Hunting of woolen cloth"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Hunting>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/woolen_cloth>.
-<http://kgc.knowledge-graph.jp/data/Duplicate_key>
-    rdfs:label     "Duplicate key"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/London>
-    rdfs:label     "London"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/brown_color>
-    rdfs:label     "brown color"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Spirit>
+    rdfs:label     "Spirit"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/7_years_ago>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "7 years ago"@en.
-<http://kgc.knowledge-graph.jp/data/Murder>
-    rdfs:label     "Murder"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Where_is_the_slope>
+    rdfs:label     "Where is the slope"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Convulsions_to>
-    rdfs:label     "Convulsions to"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Bill>
+    rdfs:label     "Bill"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/white>
     rdf:type    kgc:Property;
     rdfs:label     "white"@en.
-<http://kgc.knowledge-graph.jp/data/Dog>
-    rdfs:label     "Dog"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Depression_in_the_person>
+    rdfs:label     "Depression in the person"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Opium_at_the_end>
-    rdfs:label     "Opium at the end"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_type>
+    rdfs:label     "The type"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Popularity_second_only_to_Silver_Blaze>
-    rdfs:label     "Popularity second only to Silver Blaze"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/opium_end>
-    rdfs:label     "opium end"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/All_of_the_prizes>
+    rdfs:label     "All of the prizes"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/All>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_prizes>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_cuisine>
+    rdfs:label     "the cuisine"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/difficult_to_predict>
     rdf:type    kgc:Action;
     rdfs:label     "difficult to predict"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_horseshoe>
+    rdfs:label     "the horseshoe"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/kill>
     rdf:type    kgc:Action;
     rdfs:label     "kill"@en.
-<http://kgc.knowledge-graph.jp/data/A_large_amount>
-    rdfs:label     "A large amount"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/All>
+    rdfs:label     "All"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Hand_to_the_left>
-    rdfs:label     "Hand to the left"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Injured_horse>
+    rdfs:label     "Injured horse"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Surgery>
-    rdfs:label     "Surgery"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_depression>
+    rdfs:label     "the depression"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Depression_in_the_person_of_Mapleton>
-    rdfs:label     "Depression in the person of Mapleton"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_right_side_of_the_recess>
+    rdfs:label     "The right side of the recess"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Depression_in_the_person>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Mapleton>.
-<http://kgc.knowledge-graph.jp/data/Corpse>
-    rdfs:label     "Corpse"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Avoid_a_glance>
-    rdfs:label     "Avoid a glance"@en;
-    rdf:type    kgc:Object.
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/The_right_side>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_recess>.
 <http://kgc.knowledge-graph.jp/data/predicate/man>
     rdf:type    kgc:Property;
     rdfs:label     "man"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_mantle>
+    rdfs:label     "The mantle"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Very_large>
+    rdfs:label     "Very large"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/3_sheep>
     rdfs:label     "3 sheep"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Half-length>
-    rdfs:label     "Half-length"@en;
+<http://kgc.knowledge-graph.jp/data/predicate/Keep_holding>
+    rdf:type    kgc:Action;
+    rdfs:label     "Keep holding"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Gypsy>
+    rdfs:label     "Gypsy"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Where_is_the_slope>
-    rdfs:label     "Where is the slope"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Gregory_Inspector>
+    rdfs:label     "Gregory Inspector"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Other_than_water_to_drink>
-    rdfs:label     "Other than water to drink"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Three_pieces>
+    rdfs:label     "Three pieces"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Claims>
-    rdfs:label     "Claims"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Gold_coin>
+    rdfs:label     "Gold coin"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Spirit_of_the_duplicate_key_possession>
-    rdfs:label     "Spirit of the duplicate key possession"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Various_people>
+    rdfs:label     "Various people"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/John_Straker>
+    rdfs:label     "John Straker"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Future_of_Silver_Blaze>
+    rdfs:label     "Future of Silver Blaze"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Spirit>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_duplicate_key_possession>.
-<http://kgc.knowledge-graph.jp/data/Use_the_sheep>
-    rdfs:label     "Use the sheep"@en;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Future>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_next_morning_of_the_incident>
+    rdf:type    kgc:AbstractTime;
+    rdfs:label     "The next morning of the incident"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/The_next_morning>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_incident>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Weight_inspection_stations>
+    rdfs:label     "Weight inspection stations"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Doing_bookmaker>
-    rdfs:label     "Doing bookmaker"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Right_hand>
-    rdfs:label     "Right hand"@en;
-    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_issue_of_the_horseshoe>
+    rdfs:label     "Silver issue of the horseshoe"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_issue>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_horseshoe>.
 <http://kgc.knowledge-graph.jp/data/predicate/Work>
     rdfs:label     "Work"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Letter_of_instructions_from_Colonel_Ross>
-    rdfs:label     "Letter of instructions from Colonel Ross"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Hurt_the_horse>
+    rdfs:label     "Hurt the horse"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Opium_at_the_end>
+    rdfs:label     "Opium at the end"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Stables_of_the_window>
+    rdfs:label     "Stables of the window"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Letter>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/instructions_from_Colonel_Ross>.
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Stables>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_window>.
 <http://kgc.knowledge-graph.jp/data/predicate/takeOff>
     rdf:type    kgc:Action;
     rdfs:label     "takeOff"@en.
-<http://kgc.knowledge-graph.jp/data/Mapleton>
-    rdfs:label     "Mapleton"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/brown_horse>
+    rdfs:label     "brown horse"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/respectableBirth>
     rdf:type    kgc:Property;
     rdfs:label     "respectableBirth"@en.
-<http://kgc.knowledge-graph.jp/data/Vest_pocket>
-    rdfs:label     "Vest pocket"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_reason_for_Fitzroy_Simpson_came>
+    rdfs:label     "The reason for Fitzroy Simpson came"@en;
     rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Use_the_jockey>
+    rdfs:label     "Use the jockey"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Man>
+    rdfs:label     "Man"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Sport_Club_of_London>
+    rdfs:label     "Sport Club of London"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Sport_Club>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/London>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Brown_horse>
+    rdfs:label     "Brown horse"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/tendon>
+    rdfs:label     "tendon"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Depression_in_the_person_of_Mapleton>
+    rdfs:label     "Depression in the person of Mapleton"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Depression_in_the_person>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Mapleton>.
 <http://kgc.knowledge-graph.jp/data/predicate/greet>
     rdf:type    kgc:Action;
     rdfs:label     "greet"@en.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/debt>
     rdfs:label     "debt"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Ground_of_murder_scene>
-    rdfs:label     "Ground of murder scene"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Return_of_the_two_young_men>
+    rdfs:label     "Return of the two young men"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Ground>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/murder_scene>.
-<http://kgc.knowledge-graph.jp/data/Remains_of_brown_color>
-    rdfs:label     "Remains of brown color"@en;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Return>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_two_young_men>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Working>
+    rdf:type    kgc:AbstractTime;
+    rdfs:label     "Working"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Stables_of_King_s_Pyland>
+    rdfs:label     "Stables of King's Pyland"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Remains>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/brown_color>.
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Stables>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/King's_Pyland>.
 <http://kgc.knowledge-graph.jp/data/predicate/beMarried>
     rdf:type    kgc:Property;
     rdfs:label     "beMarried"@en.
-<http://kgc.knowledge-graph.jp/data/Age>
-    rdfs:label     "Age"@en;
+<http://kgc.knowledge-graph.jp/data/predicate/They_were_allowed_to_exercise>
+    rdf:type    kgc:Action;
+    rdfs:label     "They were allowed to exercise"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Open_air>
+    rdfs:label     "Open air"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/London_decoration_shop>
-    rdfs:label     "London decoration shop"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Night>
+    rdfs:label     "Night"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Work>
-    rdfs:label     "Work"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Wife>
-    rdfs:label     "Wife"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Of_Silver_Blaze_wager>
-    rdfs:label     "Of Silver Blaze wager"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Avoid_a_glance>
+    rdfs:label     "Avoid a glance"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/lose>
     rdf:type    kgc:Action;
     rdfs:label     "lose"@en.
-<http://kgc.knowledge-graph.jp/data/Subordinates>
-    rdfs:label     "Subordinates"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Gaiters>
+    rdfs:label     "Gaiters"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/downpour>
     rdf:type    kgc:Action;
     rdfs:label     "downpour"@en.
-<http://kgc.knowledge-graph.jp/data/Footprint_that_is_oriented_towards_the_Mapleton>
-    rdfs:label     "Footprint that is oriented towards the Mapleton"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Drink>
+    rdfs:label     "Drink"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/fail>
     rdf:type    kgc:Action;
     rdfs:label     "fail"@en.
-<http://kgc.knowledge-graph.jp/data/Weight_inspection_stations>
-    rdfs:label     "Weight inspection stations"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Evening_meal>
-    rdfs:label     "Evening meal"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/John_Straker_house>
+    rdfs:label     "John Straker house"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/come>
     rdf:type    kgc:Action;
     rdfs:label     "come"@en.
-<http://kgc.knowledge-graph.jp/data/Use_the_alcohol>
-    rdfs:label     "Use the alcohol"@en;
-    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Direction_of_the_King_s_Pyland>
+    rdfs:label     "Direction of the King's Pyland"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Direction>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_King's_Pyland>.
 <http://kgc.knowledge-graph.jp/data/predicate/a_horse_of_Isonomy_system>
     rdf:type    kgc:Property;
     rdfs:label     "a horse of Isonomy system"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/predicate/a_horse>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/predicate/Isonomy_system>.
-<http://kgc.knowledge-graph.jp/data/Around_nine_o_clock>
-    rdf:type    kgc:AbstractTime;
-    rdfs:label     "Around nine o'clock"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Photos_of_John_Straker>
+    rdfs:label     "Photos of John Straker"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Photos>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/John_Straker>.
 <http://kgc.knowledge-graph.jp/data/predicate/work>
     rdf:type    kgc:Action;
     rdfs:label     "work"@en.
-<http://kgc.knowledge-graph.jp/data/small_gambling>
-    rdfs:label     "small gambling"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Use_the_dog>
+    rdfs:label     "Use the dog"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Johns_tray_mosquitoes>
-    rdfs:label     "Johns tray mosquitoes"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Direction>
+    rdfs:label     "Direction"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/tryToCamp>
     rdf:type    kgc:Action;
     rdfs:label     "tryToCamp"@en.
+<http://kgc.knowledge-graph.jp/data/predicate/Silver_Blaze>
+    rdf:type    kgc:Property;
+    rdfs:label     "Silver Blaze"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_amount_of_Silver_Blaze>
+    rdfs:label     "The amount of Silver Blaze"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/The_amount>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze>.
 <http://kgc.knowledge-graph.jp/data/predicate/follow>
     rdf:type    kgc:Action;
     rdfs:label     "follow"@en.
@@ -5279,127 +5252,109 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/give>
     rdf:type    kgc:Action;
     rdfs:label     "give"@en.
-<http://kgc.knowledge-graph.jp/data/Lot_of_money>
-    rdfs:label     "Lot of money"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Lot>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/money>.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/amount>
     rdfs:label     "amount"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/A_group_of_Gypsy>
-    rdfs:label     "A group of Gypsy"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Subordinates>
+    rdfs:label     "Subordinates"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Direction_of_Mapleton>
+    rdfs:label     "Direction of Mapleton"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/A_group>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Gypsy>.
-<http://kgc.knowledge-graph.jp/data/Surgery_of_tendon>
-    rdfs:label     "Surgery of tendon"@en;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Direction>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Mapleton>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Gregory_Inspector>
+    rdfs:label     "Gregory Inspector"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Remains>
+    rdfs:label     "Remains"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Whereabouts_of_the_horse>
+    rdfs:label     "Whereabouts of the horse"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Surgery>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/tendon>.
-<http://kgc.knowledge-graph.jp/data/Head_of_John_Straker>
-    rdfs:label     "Head of John Straker"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Head>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/John_Straker>.
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Whereabouts>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_horse>.
 <http://kgc.knowledge-graph.jp/data/predicate/Understand>
     rdfs:label     "Understand"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Direction>
-    rdfs:label     "Direction"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Stableman>
-    rdfs:label     "Stableman"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/aware>
     rdfs:label     "aware"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Kicked_in_Silver_Blaze>
-    rdfs:label     "Kicked in Silver Blaze"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/cannotSteal>
     rdf:type    kgc:Action;
     rdf:type    kgc:CanNotAction;
     kgc:canNot    <http://kgc.knowledge-graph.jp/data/predicate/steal>;
     rdfs:label     "cannotSteal"@en.
-<http://kgc.knowledge-graph.jp/data/Face>
-    rdfs:label     "Face"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Without_leaving_a_trace>
+    rdfs:label     "Without leaving a trace"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/The_amount_of_Johns_tray_mosquitoes>
-    rdfs:label     "The amount of Johns tray mosquitoes"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/The_amount>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Johns_tray_mosquitoes>.
-<http://kgc.knowledge-graph.jp/data/sheep>
-    rdfs:label     "sheep"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Age>
+    rdfs:label     "Age"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/The_following_horse_racing>
-    rdfs:label     "The following horse racing"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Brown_Umanoashi_of>
-    rdfs:label     "Brown Umanoashi of"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_reason_for_bring_out_the_Silver_Blaze>
+    rdfs:label     "The reason for bring out the Silver Blaze"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/beBeaten>
     rdf:type    kgc:Action;
     rdfs:label     "beBeaten"@en.
-<http://kgc.knowledge-graph.jp/data/Figure>
-    rdfs:label     "Figure"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Watson>
+    rdfs:label     "Watson"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/notWander>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/wander>;
     rdfs:label     "notWander"@en.
-<http://kgc.knowledge-graph.jp/data/Information_about_the_Desborough>
-    rdfs:label     "Information about the Desborough"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/The_left_side_of_the_recess>
-    rdfs:label     "The left side of the recess"@en;
-    rdf:type    kgc:OFobj;
-    rdf:type    kgc:AbstractTime;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/The_left_side>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_recess>.
-<http://kgc.knowledge-graph.jp/data/Horse_out_to_Wessex_Cup_round>
-    rdfs:label     "Horse out to Wessex Cup round"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Ned_Hunter>
+    rdfs:label     "Ned Hunter"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/candle>
     rdfs:label     "candle"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Lord_Backwater>
-    rdfs:label     "Lord Backwater"@en;
-    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Gypsy_of_Dartmoor>
+    rdfs:label     "Gypsy of Dartmoor"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Gypsy>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Dartmoor>.
 <http://kgc.knowledge-graph.jp/data/predicate/notInjured>
     rdf:type    kgc:Property;
     rdfs:label     "notInjured"@en;
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/injured>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Use_a_thick_stick>
+    rdfs:label     "Use a thick stick"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/no_way_that_may>
     rdf:type    kgc:Property;
     rdfs:label     "no way that may"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/lookFor>
     rdf:type    kgc:Action;
     rdfs:label     "lookFor"@en.
-<http://kgc.knowledge-graph.jp/data/Stables>
-    rdfs:label     "Stables"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/At_the_1_mile_of_4_minutes_from_the_stables>
+    rdfs:label     "At the 1 mile of 4 minutes from the stables"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/At_the_1_mile>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/4_minutes_from_the_stables>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Tavistock_of_land>
+    rdfs:label     "Tavistock of land"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Tavistock>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/land>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/opium_end>
+    rdfs:label     "opium end"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Without_sleep>
-    rdfs:label     "Without sleep"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_people>
+    rdfs:label     "the people"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Footprint>
-    rdfs:label     "Footprint"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Dartmoor>
-    rdfs:label     "Dartmoor"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Use_the_alcohol>
+    rdfs:label     "Use the alcohol"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/Exist>
     rdfs:label     "Exist"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/beam_broom_bush>
     rdfs:label     "beam broom bush"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Wessex_Cup_game>
-    rdfs:label     "Wessex Cup game"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/beBeaten>
     rdfs:label     "beBeaten"@en;
@@ -5410,44 +5365,42 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/equalTo>
     rdf:type    kgc:Action;
     rdfs:label     "equalTo"@en.
-<http://kgc.knowledge-graph.jp/data/Hunting>
-    rdfs:label     "Hunting"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_horse>
+    rdfs:label     "the horse"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/go_to_release>
     rdf:type    kgc:Action;
     rdfs:label     "go to release"@en.
-<http://kgc.knowledge-graph.jp/data/Hat>
-    rdfs:label     "Hat"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Dog>
+    rdfs:label     "Dog"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/tryToListen>
     rdf:type    kgc:Action;
     rdfs:label     "tryToListen"@en.
-<http://kgc.knowledge-graph.jp/data/Insufficient_reasons>
-    rdfs:label     "Insufficient reasons"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/Find>
     rdfs:label     "Find"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/After_eating>
-    rdf:type    kgc:AbstractTime;
-    rdfs:label     "After eating"@en.
-<http://kgc.knowledge-graph.jp/data/Inference>
-    rdfs:label     "Inference"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Mapleton_riding_ground_stables>
+    rdfs:label     "Mapleton riding ground stables"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Good_nature>
-    rdf:type    kgc:Property;
-    rdfs:label     "Good nature"@en.
-<http://kgc.knowledge-graph.jp/data/Whereabouts_of_the_horse>
-    rdfs:label     "Whereabouts of the horse"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Whereabouts>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_horse>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/A_group>
+    rdfs:label     "A group"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/walk>
     rdf:type    kgc:Action;
     rdfs:label     "walk"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/lame>
     rdf:type    kgc:Property;
     rdfs:label     "lame"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Along_the_way>
+    rdfs:label     "Along the way"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Depression_there_was_a_dead_body>
+    rdfs:label     "Depression there was a dead body"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Bookmaker>
+    rdfs:label     "Bookmaker"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/notHeed>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
@@ -5456,48 +5409,40 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/beCrushed>
     rdf:type    kgc:Action;
     rdfs:label     "beCrushed"@en.
-<http://kgc.knowledge-graph.jp/data/Depression_in_the_bush_of_the_previous_beam_broom>
-    rdfs:label     "Depression in the bush of the previous beam broom"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Depression_in_the_bush>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_previous_beam_broom>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Other_than_water_to_drink>
+    rdfs:label     "Other than water to drink"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/For_self-defense>
+    rdfs:label     "For self-defense"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/find>
     rdf:type    kgc:Action;
     rdfs:label     "find"@en.
-<http://kgc.knowledge-graph.jp/data/Subordinates_of_Cyrus_Brown>
-    rdfs:label     "Subordinates of Cyrus Brown"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Subordinates>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Cyrus_Brown>.
-<http://kgc.knowledge-graph.jp/data/One>
-    rdfs:label     "One"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Footprint_that_is_oriented_towards_the_Mapleton>
+    rdfs:label     "Footprint that is oriented towards the Mapleton"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Accident_of_sheep>
-    rdfs:label     "Accident of sheep"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/A_fall>
+    rdfs:label     "A fall"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Hat_of_London_decoration_shop>
+    rdfs:label     "Hat of London decoration shop"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Accident>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/sheep>.
-<http://kgc.knowledge-graph.jp/data/Tie_of_Fitzroy_Simpson>
-    rdfs:label     "Tie of Fitzroy Simpson"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Tie>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Fitzroy_Simpson>.
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Hat>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/London_decoration_shop>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Opium>
+    rdfs:label     "Opium"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/wake_up>
     rdf:type    kgc:Action;
     rdfs:label     "wake up"@en.
-<http://kgc.knowledge-graph.jp/data/The_cutting_edge_of_the_knife>
-    rdfs:label     "The cutting edge of the knife"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/The_cutting_edge>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_knife>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Half-length>
+    rdfs:label     "Half-length"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_shoes>
+    rdfs:label     "the shoes"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/Enter>
     rdfs:label     "Enter"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/money>
-    rdfs:label     "money"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/As_your_stuff>
-    rdfs:label     "As your stuff"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/feel>
     rdf:type    kgc:Action;
@@ -5505,36 +5450,23 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/money>
     rdfs:label     "money"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/William_Derbyshire_Women>
-    rdfs:label     "William Derbyshire Women"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/At_the_1_mile>
+    rdfs:label     "At the 1 mile"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/explain>
     rdf:type    kgc:Action;
     rdfs:label     "explain"@en.
-<http://kgc.knowledge-graph.jp/data/Various_people>
-    rdfs:label     "Various people"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/A_scrap_of_paper>
-    rdfs:label     "A scrap of paper"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/A_scrap>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/paper>.
 <http://kgc.knowledge-graph.jp/data/predicate/Kidnap>
     rdfs:label     "Kidnap"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Competition_subscriber_table>
-    rdfs:label     "Competition subscriber table"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Corpse>
+    rdfs:label     "Corpse"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/Happen>
     rdfs:label     "Happen"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/All_of_the_stables_and_the_small_building_near_Tavistock>
-    rdfs:label     "All of the stables and the small building near Tavistock"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/All>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_stables_and_the_small_building_near_Tavistock>.
-<http://kgc.knowledge-graph.jp/data/For_the_attack>
-    rdfs:label     "For the attack"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_amount>
+    rdfs:label     "The amount"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/collect>
     rdf:type    kgc:Action;
@@ -5542,108 +5474,146 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/serve>
     rdf:type    kgc:Action;
     rdfs:label     "serve"@en.
-<http://kgc.knowledge-graph.jp/data/The_type_of_Silver_issue_of_the_horseshoe>
-    rdfs:label     "The type of Silver issue of the horseshoe"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Silver_issue_of_the_horseshoe>;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/The_type>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Silver_issue>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_horseshoe>.
 <http://kgc.knowledge-graph.jp/data/predicate/Have>
     rdfs:label     "Have"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/the_corpse>
-    rdfs:label     "the corpse"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Bookmaker_of_a_small_gambling>
+    rdfs:label     "Bookmaker of a small gambling"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Bookmaker>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/a_small_gambling>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/King_s_Pyland_riding_ground>
+    rdfs:label     "King's Pyland riding ground"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/O'clock_the_next_morning>
+    rdfs:label     "O'clock the next morning"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/beImpressed>
     rdf:type    kgc:Action;
     rdfs:label     "beImpressed"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Among_the_stables>
+    rdfs:label     "Among the stables"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Previous_work>
+    rdf:type    kgc:AbstractTime;
+    rdfs:label     "Previous work"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/high>
     rdf:type    kgc:Property;
     rdfs:label     "high"@en.
-<http://kgc.knowledge-graph.jp/data/Two_young_men>
-    rdfs:label     "Two young men"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Curry_dishes_minute>
+    rdfs:label     "Curry dishes minute"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Two>
-    rdfs:label     "Two"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Injustice>
+    rdfs:label     "Injustice"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Inference_of_Gregory_Inspector>
-    rdfs:label     "Inference of Gregory Inspector"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Inference>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Gregory_Inspector>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/And_I_went_to_the_hat_decoration_shop>
+    rdfs:label     "And I went to the hat decoration shop"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_wife>
+    rdfs:label     "the wife"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/upset>
     rdf:type    kgc:Action;
     rdfs:label     "upset"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Five_thousand_lbs>
+    rdfs:label     "Five thousand lbs"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Stableman>
+    rdfs:label     "Stableman"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/sin>
     rdfs:label     "sin"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_two_young_men>
+    rdfs:label     "the two young men"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/As_usual>
+    rdfs:label     "As usual"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/cameToListen>
     rdf:type    kgc:Action;
     rdfs:label     "cameToListen"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/After_eating>
+    rdf:type    kgc:AbstractTime;
+    rdfs:label     "After eating"@en.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/expensive_wear>
     rdfs:label     "expensive wear"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/side-by-side>
     rdf:type    kgc:Property;
     rdfs:label     "side-by-side"@en.
-<http://kgc.knowledge-graph.jp/data/Complexion>
-    rdfs:label     "Complexion"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Skull>
-    rdfs:label     "Skull"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/paper>
     rdfs:label     "paper"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/change>
     rdf:type    kgc:Action;
     rdfs:label     "change"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Depression_in_the_direction>
+    rdfs:label     "Depression in the direction"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/Determine>
     rdfs:label     "Determine"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Horseshoe_marks>
-    rdfs:label     "Horseshoe marks"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/sheep>
+    rdfs:label     "sheep"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/bet>
     rdf:type    kgc:Action;
     rdfs:label     "bet"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_entrance>
+    rdfs:label     "The entrance"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/present_location>
     rdfs:label     "present location"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Tie_of_the_murder_scene>
-    rdfs:label     "Tie of the murder scene"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Taste_of_opium>
+    rdfs:label     "Taste of opium"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Tie>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_murder_scene>.
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Taste>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/opium>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Bets_of_horse_racing>
+    rdfs:label     "Bets of horse racing"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Bets>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/horse_racing>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Knife_made_in_sharp>
+    rdfs:label     "Knife made in sharp"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/tryToLighten>
     rdf:type    kgc:Action;
     rdfs:label     "tryToLighten"@en.
-<http://kgc.knowledge-graph.jp/data/Make>
-    rdf:type    kgc:Action;
-    rdfs:label     "Make"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/clothes>
+    rdfs:label     "clothes"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/Steal>
     rdfs:label     "Steal"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/blood>
     rdfs:label     "blood"@en;
     rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Accident>
+    rdfs:label     "Accident"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/propose>
     rdf:type    kgc:Action;
     rdfs:label     "propose"@en.
-<http://kgc.knowledge-graph.jp/data/Stables_of_the_window>
-    rdfs:label     "Stables of the window"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Stables>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_window>.
-<http://kgc.knowledge-graph.jp/data/Head>
-    rdfs:label     "Head"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Use_a_very_sharp_weapon>
+    rdfs:label     "Use a very sharp weapon"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson_for_a_piece>
+    rdfs:label     "Fitzroy Simpson for a piece"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/defense>
     rdf:type    kgc:Action;
     rdfs:label     "defense"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Holmes_reasoning_of>
+    rdfs:label     "Holmes reasoning of"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/wilderness>
     rdfs:label     "wilderness"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_following_horse_racing>
+    rdfs:label     "The following horse racing"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/menu>
     rdfs:label     "menu"@en;
@@ -5657,82 +5627,65 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/early_morning>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "early morning"@en.
-<http://kgc.knowledge-graph.jp/data/Mapleton_riding_ground>
-    rdfs:label     "Mapleton riding ground"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Useless>
-    rdf:type    kgc:Property;
-    rdfs:label     "Useless"@en.
-<http://kgc.knowledge-graph.jp/data/Disappearance_of_Silver_Blaze>
-    rdfs:label     "Disappearance of Silver Blaze"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Disappearance>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Silver_Blaze>.
-<http://kgc.knowledge-graph.jp/data/Strong_chemicals>
-    rdfs:label     "Strong chemicals"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/The_left_side>
-    rdfs:label     "The left side"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/Heed>
     rdfs:label     "Heed"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Where_is_the_slope_of_the_land>
-    rdfs:label     "Where is the slope of the land"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Where_is_the_slope>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_land>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Police_reasoning_of>
+    rdfs:label     "Police reasoning of"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/William_Derbyshire_Women>
+    rdfs:label     "William Derbyshire Women"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/advantageous>
     rdf:type    kgc:Property;
     rdfs:label     "advantageous"@en.
-<http://kgc.knowledge-graph.jp/data/Big_riding_ground>
-    rdfs:label     "Big riding ground"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Wax_match_a_box>
+    rdfs:label     "Wax match a box"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/beSent>
     rdf:type    kgc:Action;
     rdfs:label     "beSent"@en.
-<http://kgc.knowledge-graph.jp/data/paper>
-    rdfs:label     "paper"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Tie>
+    rdfs:label     "Tie"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/the_wife>
-    rdfs:label     "the wife"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Lame>
-    rdfs:label     "Lame"@en;
-    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/predicate/Tie>
+    rdf:type    kgc:Action;
+    rdfs:label     "Tie"@en.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/tie>
     rdfs:label     "tie"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Racing>
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Admirably>
+    rdfs:label     "Admirably"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/predicate/Useless>
+    rdf:type    kgc:Property;
+    rdfs:label     "Useless"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Racing>
     rdfs:label     "Racing"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/the_people>
-    rdfs:label     "the people"@en;
-    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_amount_of_Johns_tray_mosquitoes>
+    rdfs:label     "The amount of Johns tray mosquitoes"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/The_amount>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Johns_tray_mosquitoes>.
 <http://kgc.knowledge-graph.jp/data/predicate/escape>
     rdf:type    kgc:Action;
     rdfs:label     "escape"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/face>
     rdf:type    kgc:Action;
     rdfs:label     "face"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Inference>
+    rdfs:label     "Inference"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/instruct>
     rdf:type    kgc:Action;
     rdfs:label     "instruct"@en.
-<http://kgc.knowledge-graph.jp/data/Ground>
-    rdfs:label     "Ground"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/For_horse_racing_information_collection>
-    rdfs:label     "For horse racing information collection"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_Silver_Blaze>
+    rdfs:label     "the Silver Blaze"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/prepare>
     rdf:type    kgc:Action;
     rdfs:label     "prepare"@en.
-<http://kgc.knowledge-graph.jp/data/land>
-    rdfs:label     "land"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/the_horse>
-    rdfs:label     "the horse"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/kick>
     rdf:type    kgc:Action;
     rdfs:label     "kick"@en.
@@ -5740,29 +5693,33 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "open"@en;
     rdf:type    kgc:Action.
-<http://kgc.knowledge-graph.jp/data/Night_of_the_incident>
-    rdf:type    kgc:AbstractTime;
-    rdfs:label     "Night of the incident"@en;
+<http://kgc.knowledge-graph.jp/data/predicate/Not_a_Silver_Blaze>
+    rdf:type    kgc:Property;
+    rdfs:label     "Not a Silver Blaze"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Footprint_of_Silver_Blaze>
+    rdfs:label     "Footprint of Silver Blaze"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Night>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_incident>.
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Footprint>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson_for_a_piece_of_paper>
+    rdfs:label     "Fitzroy Simpson for a piece of paper"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson_for_a_piece>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/paper>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/cooking>
+    rdfs:label     "cooking"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/whisper>
     rdf:type    kgc:Action;
     rdfs:label     "whisper"@en.
-<http://kgc.knowledge-graph.jp/data/the_Silver_Blaze>
-    rdfs:label     "the Silver Blaze"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze>
+    rdfs:label     "Silver Blaze"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/grab>
     rdf:type    kgc:Action;
     rdfs:label     "grab"@en.
-<http://kgc.knowledge-graph.jp/data/The_amount>
-    rdfs:label     "The amount"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Disappearance>
-    rdfs:label     "Disappearance"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/O'clock_the_next_morning>
-    rdfs:label     "O'clock the next morning"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/By_the_disappearance>
+    rdfs:label     "By the disappearance"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/see>
     rdf:type    kgc:Action;
@@ -5770,181 +5727,195 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/infer>
     rdf:type    kgc:Action;
     rdfs:label     "infer"@en.
-<http://kgc.knowledge-graph.jp/data/Bets_of_horse_racing>
-    rdfs:label     "Bets of horse racing"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Bets>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/horse_racing>.
-<http://kgc.knowledge-graph.jp/data/A_large_amount_of_opium_end>
-    rdfs:label     "A large amount of opium end"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/A_large_amount>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/opium_end>.
-<http://kgc.knowledge-graph.jp/data/the_stables_and_the_small_building_near_Tavistock>
-    rdfs:label     "the stables and the small building near Tavistock"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Whereabouts>
+    rdfs:label     "Whereabouts"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/At_the_1_mile_of_4_minutes_from_the_stables>
-    rdfs:label     "At the 1 mile of 4 minutes from the stables"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Thigh_of_John_Straker>
+    rdfs:label     "Thigh of John Straker"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/At_the_1_mile>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/4_minutes_from_the_stables>.
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Thigh>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/John_Straker>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_knife>
+    rdfs:label     "the knife"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/fire>
     rdf:type    kgc:Action;
     rdfs:label     "fire"@en.
-<http://kgc.knowledge-graph.jp/data/racehorses>
-    rdfs:label     "racehorses"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/William_Derbyshire_Mrs.>
+    rdfs:label     "William Derbyshire Mrs."@en;
     rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_cutting_edge>
+    rdfs:label     "The cutting edge"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Claims_of_Fitzroy_Simpson_for_a_piece_of_paper>
+    rdfs:label     "Claims of Fitzroy Simpson for a piece of paper"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson_for_a_piece_of_paper>;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Claims>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson_for_a_piece>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/paper>.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/every_night>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "every night"@en.
-<http://kgc.knowledge-graph.jp/data/A_fall>
-    rdfs:label     "A fall"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/the_shoes>
-    rdfs:label     "the shoes"@en;
-    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Duplicate_key_of_the_stables>
+    rdfs:label     "Duplicate key of the stables"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Duplicate_key>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_stables>.
 <http://kgc.knowledge-graph.jp/data/predicate/stab>
     rdf:type    kgc:Action;
     rdfs:label     "stab"@en.
-<http://kgc.knowledge-graph.jp/data/the_shoes_of_Fitzroy_Simpson>
-    rdfs:label     "the shoes of Fitzroy Simpson"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/the_shoes>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Fitzroy_Simpson>.
-<http://kgc.knowledge-graph.jp/data/Warning>
-    rdfs:label     "Warning"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Night_menu_is_curry>
+    rdfs:label     "Night menu is curry"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown>
+    rdfs:label     "Cyrus Brown"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/cannotEnter>
     rdf:type    kgc:Action;
     rdf:type    kgc:CanNotAction;
     kgc:canNot    <http://kgc.knowledge-graph.jp/data/predicate/enter>;
     rdfs:label     "cannotEnter"@en.
-<http://kgc.knowledge-graph.jp/data/Opium>
-    rdfs:label     "Opium"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/man's_shoes>
+    rdfs:label     "man's shoes"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Age_of_Fitzroy_Simpson>
+    rdfs:label     "Age of Fitzroy Simpson"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Age>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Vest_pocket>
+    rdfs:label     "Vest pocket"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/garden_party>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "garden party"@en.
-<http://kgc.knowledge-graph.jp/data/Silver_Blaze_legs>
-    rdfs:label     "Silver Blaze legs"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Holmes>
+    rdfs:label     "Holmes"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_shoes_of_Fitzroy_Simpson>
+    rdfs:label     "the shoes of Fitzroy Simpson"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_shoes>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_corpse>
+    rdfs:label     "the corpse"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/investigate>
     rdf:type    kgc:Action;
     rdfs:label     "investigate"@en.
-<http://kgc.knowledge-graph.jp/data/Claims_of_Fitzroy_Simpson_for_a_piece_of_paper>
-    rdfs:label     "Claims of Fitzroy Simpson for a piece of paper"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/A_scrap_of_paper>
+    rdfs:label     "A scrap of paper"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Fitzroy_Simpson_for_a_piece_of_paper>;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Claims>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Fitzroy_Simpson_for_a_piece>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/paper>.
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/A_scrap>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/paper>.
 <http://kgc.knowledge-graph.jp/data/predicate/fight>
     rdf:type    kgc:Action;
     rdfs:label     "fight"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Betting_horse_racing>
+    rdfs:label     "Betting horse racing"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Edith_Baxter>
+    rdfs:label     "Edith Baxter"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/horse_trainer_of_Colonel_Ross>
     rdfs:label     "horse trainer of Colonel Ross"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/horse_trainer>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Colonel_Ross>.
-<http://kgc.knowledge-graph.jp/data/State_of_Fitzroy_Simpson>
-    rdfs:label     "State of Fitzroy Simpson"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Face_of_brown_horse>
+    rdfs:label     "Face of brown horse"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/State>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/Fitzroy_Simpson>.
-<http://kgc.knowledge-graph.jp/data/Very_nicely>
-    rdfs:label     "Very nicely"@en;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Face>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/brown_horse>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Horse_out_to_Wessex_Cup_round_of_the_biceps>
+    rdfs:label     "Horse out to Wessex Cup round of the biceps"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Horse_out_to_Wessex_Cup_round>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_biceps>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Bill_of_clothes>
+    rdfs:label     "Bill of clothes"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Bill>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/clothes>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Cache>
+    rdfs:label     "Cache"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Right_hand_of_the_corpse>
-    rdfs:label     "Right hand of the corpse"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Right_hand>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_corpse>.
-<http://kgc.knowledge-graph.jp/data/Duplicate_key_of_the_stables>
-    rdfs:label     "Duplicate key of the stables"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Duplicate_key>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_stables>.
-<http://kgc.knowledge-graph.jp/data/Nine_o_clock>
-    rdf:type    kgc:AbstractTime;
-    rdfs:label     "Nine o'clock"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/Return>
     rdfs:label     "Return"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Mysteriously>
-    rdfs:label     "Mysteriously"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Footprint>
+    rdfs:label     "Footprint"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_bottom>
+    rdfs:label     "The bottom"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/bad>
     rdf:type    kgc:Property;
     rdfs:label     "bad"@en.
-<http://kgc.knowledge-graph.jp/data/the_recess>
-    rdfs:label     "the recess"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Gray_Scotch_of_clothes>
-    rdfs:label     "Gray Scotch of clothes"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Gray_Scotch>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/clothes>.
 <http://kgc.knowledge-graph.jp/data/predicate/friend>
     rdf:type    kgc:Property;
     rdfs:label     "friend"@en.
-<http://kgc.knowledge-graph.jp/data/Dent>
-    rdfs:label     "Dent"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Footprint_that_is_oriented_towards_the_King_s_Pyland>
+    rdfs:label     "Footprint that is oriented towards the King's Pyland"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/The_right_side>
-    rdfs:label     "The right side"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson>
+    rdfs:label     "Fitzroy Simpson"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/During_the_fighting_of_John_Straker>
-    rdf:type    kgc:AbstractTime;
-    rdfs:label     "During the fighting of John Straker"@en;
+<http://kgc.knowledge-graph.jp/data/predicate/Make>
+    rdf:type    kgc:Action;
+    rdfs:label     "Make"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/A_group_of_Gypsy>
+    rdfs:label     "A group of Gypsy"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/During_the_fighting>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/John_Straker>.
-<http://kgc.knowledge-graph.jp/data/It_was_in_the_open_air>
-    rdfs:label     "It was in the open air"@en;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/A_group>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Gypsy>.
+<http://kgc.knowledge-graph.jp/data/predicate/Good_nature>
+    rdf:type    kgc:Property;
+    rdfs:label     "Good nature"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Door_of_the_stables>
+    rdfs:label     "Door of the stables"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Door>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_stables>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Good_record>
+    rdfs:label     "Good record"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Bets>
-    rdfs:label     "Bets"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Of_Silver_Blaze_wager>
+    rdfs:label     "Of Silver Blaze wager"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Depression_in_the_person>
-    rdfs:label     "Depression in the person"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/King's_Pyland>
-    rdfs:label     "King's Pyland"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/the_opium>
-    rdfs:label     "the opium"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Dressing_table>
+    rdfs:label     "Dressing table"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/asItIs>
     rdf:type    kgc:Action;
     rdfs:label     "asItIs"@en.
-<http://kgc.knowledge-graph.jp/data/Use_the_dog>
-    rdfs:label     "Use the dog"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/Silver_Blaze>
-    rdfs:label     "Silver Blaze"@en;
-    rdf:type    kgc:Property.
-<http://kgc.knowledge-graph.jp/data/Three_pieces_of_receipt_already_in_liquidation_certificate>
-    rdfs:label     "Three pieces of receipt already in liquidation certificate"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Dent_of_wasteland>
+    rdfs:label     "Dent of wasteland"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/Three_pieces>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/receipt_already_in_liquidation_certificate>.
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Dent>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/wasteland>.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_entrance_of_the_stables_of_Mapleton_riding_ground>
+    rdfs:label     "The entrance of the stables of Mapleton riding ground"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_stables_of_Mapleton_riding_ground>;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/The_entrance>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_stables>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Mapleton_riding_ground>.
 <http://kgc.knowledge-graph.jp/data/predicate/cause>
     rdf:type    kgc:Action;
     rdfs:label     "cause"@en.
-<http://kgc.knowledge-graph.jp/data/One_of_the_shoes_of_John_Straker>
-    rdfs:label     "One of the shoes of John Straker"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_shoes_of_John_Straker>;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/One>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/the_shoes>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/John_Straker>.
-<http://kgc.knowledge-graph.jp/data/Injustice>
-    rdfs:label     "Injustice"@en;
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/The_name>
+    rdfs:label     "The name"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/fit>
     rdf:type    kgc:Action;
     rdfs:label     "fit"@en.
-#以下，エラー回避のため手書きで修正
-<http://kgc.knowledge-graph.jp/data/beheavyly>
-    rdfs:label     "beheavyly"@en;
-    rdf:type    kgc:Action.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Wasteland_dark>
+    rdfs:label     "Wasteland dark"@en;
+    rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/the_cuisine_of_the_two_young_men>
+    rdfs:label     "the cuisine of the two young men"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_cuisine>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_two_young_men>.
