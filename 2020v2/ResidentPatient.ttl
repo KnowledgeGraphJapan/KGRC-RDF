@@ -197,12 +197,17 @@ kgc:Thought rdf:type owl:Class ;
              rdfs:subClassOf kgc:Scene .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/001>
     rdf:type    kgc:Situation ;
+    kgc:source  "ホームズは以下を推測した"@ja ;
+    kgc:source  "Holmes guessed"@en ;
+    kgc:time  "1888-10-10T22:00:00"^^xsd:dateTime ;
+    kgc:source   <http://kgc.knowledge-graph.jp/data/ResidentPatient/1888-10-10T22> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/guess> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/002> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/003> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/004> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/005> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/005> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/006> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/002>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは医者である。"@ja ;
@@ -234,7 +239,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Watson guessed"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Watson> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/guess> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/007> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/007> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/008> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/007>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは33,4歳以下である"@ja ;
@@ -255,7 +261,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/014> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/015> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/016> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/017> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/017> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/022> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/009>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンの表情はやつれている"@ja ;
@@ -274,14 +281,18 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Percy Trevelyan was squeezed forces"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beSqueezed> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Power> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Power> ;
+    kgc:because   <http://kgc.knowledge-graph.jp/data/ResidentPatient/009> ;
+    kgc:because   <http://kgc.knowledge-graph.jp/data/ResidentPatient/010> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/012>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは若さを奪われた"@ja ;
     kgc:source  "Percy Trevelyan was robbed of youth"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beRobbed> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Youth> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Youth> ;
+    kgc:because   <http://kgc.knowledge-graph.jp/data/ResidentPatient/009> ;
+    kgc:because   <http://kgc.knowledge-graph.jp/data/ResidentPatient/010> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/013>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは神経質である"@ja ;
@@ -306,14 +317,14 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Percy Trevelyan does not seem to a doctor"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/notSeemToDoctor> ;
-    kgc:why   <http://kgc.knowledge-graph.jp/data/ResidentPatient/015> .
+    kgc:because   <http://kgc.knowledge-graph.jp/data/ResidentPatient/015> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/017>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは芸術家に見える"@ja ;
     kgc:source  "Percy Trevelyan seems to an artist"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/seemToArtist> ;
-    kgc:why   <http://kgc.knowledge-graph.jp/data/ResidentPatient/015> .
+    kgc:because   <http://kgc.knowledge-graph.jp/data/ResidentPatient/015> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/018>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンの服装は地味である"@ja ;
@@ -349,7 +360,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/tell> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/name> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Watson> .
+    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Watson> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/024> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/023>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンはブルックリン街四〇三番地に住んでいる"@ja ;
@@ -370,7 +382,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Percy Trevelyan wrote a paper about the neurological disorder"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/write> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/paper_about_neurological_disorders> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/paper_about_neurological_disorders> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/027> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/026>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは神経疾患を研究している"@ja ;
@@ -386,7 +399,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/028> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/029> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/029> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/030> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/028>
     rdf:type    kgc:Situation ;
     kgc:source  "'妙な事件がパーシィ・トリヴェリアンの自宅で立て続けに起こった"@ja .
@@ -403,146 +417,148 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Percy Trevelyan came to the consultation that the incident"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/comeToConsult> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/incident> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/incident> ;
+    kgc:because   <http://kgc.knowledge-graph.jp/data/ResidentPatient/028> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/030>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは以下を言った"@ja ;
     kgc:source  "Percy Trevelyan said the following:"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/031> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/032> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/033> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/034> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/035> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/036> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/037> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/038> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/039> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/040> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/041> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/042> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/043> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/044> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/045> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/046> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/047> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/048> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/049> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/050> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/051> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/052> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/053> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/054> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/055> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/056> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/057> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/058> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/059> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/060> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/061> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/062> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/063> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/064> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/065> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/066> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/067> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/068> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/069> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/070> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/071> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/072> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/073> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/074> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/075> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/076> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/077> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/078> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/079> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/080> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/081> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/082> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/083> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/084> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/085> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/086> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/087> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/088> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/089> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/090> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/091> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/092> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/093> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/094> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/095> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/096> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/097> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/098> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/099> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/100> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/101> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/102> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/103> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/104> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/105> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/106> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/107> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/108> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/109> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/110> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/111> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/112> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/113> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/114> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/115> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/116> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/117> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/118> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/119> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/120> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/121> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/122> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/123> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/124> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/125> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/126> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/127> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/128> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/129> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/130> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/131> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/132> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/133> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/134> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/135> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/136> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/137> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/138> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/139> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/140> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/141> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/142> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/143> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/144> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/145> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/146> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/147> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/148> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/149> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/150> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/151> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/152> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/153> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/154> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/155> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/156> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/157> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/031> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/032> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/033> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/034> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/035> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/036> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/037> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/038> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/039> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/040> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/041> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/042> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/043> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/044> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/045> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/046> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/047> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/048> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/049> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/050> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/051> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/052> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/053> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/054> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/055> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/056> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/057> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/058> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/059> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/060> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/061> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/062> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/063> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/064> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/065> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/066> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/067> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/068> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/069> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/070> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/071> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/072> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/073> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/074> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/075> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/076> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/077> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/078> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/079> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/080> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/081> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/082> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/083> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/084> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/085> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/086> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/087> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/088> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/089> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/090> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/091> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/092> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/093> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/094> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/095> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/096> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/097> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/098> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/099> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/100> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/101> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/102> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/103> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/104> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/105> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/106> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/107> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/108> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/109> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/110> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/111> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/112> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/113> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/114> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/115> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/116> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/117> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/118> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/119> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/120> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/121> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/122> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/123> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/124> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/125> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/126> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/127> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/128> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/129> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/130> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/131> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/132> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/133> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/134> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/135> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/136> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/137> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/138> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/139> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/140> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/141> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/142> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/143> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/144> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/145> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/146> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/147> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/148> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/149> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/150> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/151> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/152> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/153> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/154> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/155> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/156> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/157> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/031>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンの硬化症の研究は注目されていた"@ja ;
     kgc:source  "A study of sclerosis of Percy Trevelyan had been noted"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/A_study_of_sclerosis_of_Percy_Trevelyan> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beNoted> .
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beNoted> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/032> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/032>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンはブルース・ピンカトン賞を受賞した"@ja ;
@@ -564,7 +580,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/mustPay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Certain_large_rent> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Expenditure_for_furnishings> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Expenditure_for_furnishings> ;
+    kgc:because   <http://kgc.knowledge-graph.jp/data/ResidentPatient/033> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/035>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは数年分の生活費と体裁の良い馬車を雇う金を用意しなければならなかった"@ja ;
@@ -572,7 +589,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/mustPrepare> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Several_years_worth_of_living_expenses> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Gold_to_hire_the_appearance_of_a_good_coach> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Gold_to_hire_the_appearance_of_a_good_coach> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/034> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/036>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは金を用意できなかった"@ja ;
@@ -586,7 +604,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Percy Trevelyan can only be expected following"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/expect> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/038> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/038> ;
+    kgc:because   <http://kgc.knowledge-graph.jp/data/ResidentPatient/036> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/038>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは10年後に開業する"@ja ;
@@ -608,7 +627,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/visit> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Room_of_Percy_Trevelyan> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/One_morning> .
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/One_morning> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/042> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/041>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンはブレッシントンを知らない"@ja ;
@@ -623,14 +643,16 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/ask> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/The_reason_for_not_opening> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/The_reason_for_not_opening> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/043> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/043>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは肩をすくめた"@ja ;
     kgc:source  "Percy Trevelyan shrugged"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/shrug> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/shoulder> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/shoulder> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/044> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/044>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンはパーシィ・トリヴェリアンに以下を言った"@ja ;
@@ -645,14 +667,17 @@ kgc:Thought rdf:type owl:Class ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/051> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/052> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/053> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> .
+    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/046> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/054> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/045>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンはパーシィ・トリヴェリアンに投資する"@ja ;
     kgc:source  "Blessington is to invest in Percy Trevelyan"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/invest> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> .
+    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
+    kgc:because   <http://kgc.knowledge-graph.jp/data/ResidentPatient/047> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/046>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは驚いた"@ja ;
@@ -661,10 +686,11 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/surprise> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/047>
     rdf:type    kgc:Situation ;
-    kgc:source  "自身のための投資である"@ja ;
-    kgc:source  "the investment for its own"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Investment_for_its_own> ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> .
+    kgc:source  "これは自身のための投資である"@ja ;
+    kgc:source  "This is an investment for its own"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/045> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Investment_for_its_own> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/048>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは数千の投資金を持っている"@ja ;
@@ -679,28 +705,35 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/wantToInvest> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Several_thousand_investment_gold> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> .
+    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
+    kgc:because   <http://kgc.knowledge-graph.jp/data/ResidentPatient/048> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/050>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは家を手に入れる"@ja ;
     kgc:source  "Blessington is to get a house"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/obtain> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/House> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/House> ;
+    kgc:if   <http://kgc.knowledge-graph.jp/data/ResidentPatient/045> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/051> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/051>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは調度を揃える"@ja ;
     kgc:source  "Blessington align the furniture"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/align> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Furniture> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Furniture> ;
+    kgc:if   <http://kgc.knowledge-graph.jp/data/ResidentPatient/045> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/052> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/052>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは診察を行う"@ja ;
     kgc:source  "Percy Trevelyan do medical examination"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/do> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Medical_examination> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Medical_examination> ;
+    kgc:if   <http://kgc.knowledge-graph.jp/data/ResidentPatient/045> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/053> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/053>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは稼ぎの３分の２をブレッシントンに渡す"@ja ;
@@ -708,7 +741,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/pass> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Two-thirds_of_earnings> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> .
+    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
+    kgc:if   <http://kgc.knowledge-graph.jp/data/ResidentPatient/045> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/054>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンはパーシィ・トリヴェリアンに奇妙な提案をした"@ja ;
@@ -716,34 +750,40 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/do> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Strange_proposal> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> .
+    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/044> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/055> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/055>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは提案通りの条件で開業した"@ja ;
     kgc:source  "Percy Trevelyan was opened under the conditions of the proposed street"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/open> ;
-    kgc:how   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Conditions_of_the_proposed_street> .
+    kgc:how   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Conditions_of_the_proposed_street> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/056> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/056>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンとパーシィ・トリヴェリアンは同居した"@ja ;
     kgc:source  "Blessington and Percy Trevelyan were living together"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/liveTogether> .
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/liveTogether> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/060> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/057>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは患者件同居者である"@ja ;
     kgc:source  "Blessington is a patient matter living person"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Patients_and_living_person> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Patients_and_living_person> ;
+    kgc:because   <http://kgc.knowledge-graph.jp/data/ResidentPatient/058> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/058>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンの心臓は弱い"@ja ;
     kgc:source  "The heart of Blessington is weak"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/The_heart_of_Blessington> ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/weak> .
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/weak> ;
+    kgc:therefore   <http://kgc.knowledge-graph.jp/data/ResidentPatient/059> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/059>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは医者の監督を常時必要とする"@ja ;
@@ -751,7 +791,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/need> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Director_of_doctor> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/always> .
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/always> ;
+    kgc:because   <http://kgc.knowledge-graph.jp/data/ResidentPatient/058> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/060>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは二階にある一番良い部屋二室を居間と寝室として使った"@ja ;
@@ -773,7 +814,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Blessington avoid socializing"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/avoid> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Social_disposition> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Social_disposition> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/063> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/063>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは外出をほとんどしない"@ja ;
@@ -805,21 +847,24 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/go> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Examination_room> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Every_night,_same_time> .
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Every_night,_same_time> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/067> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/067>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは帳簿を調べる"@ja ;
     kgc:source  "Blessington find the book"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/investigate> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Account_book> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Account_book> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/068> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/068>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは一ギニィに五シリングと三ペンスを置いていく"@ja ;
     kgc:source  "Blessington is going to put five shillings and three pence to one Ginyi"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/put> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Five_shillings_and_three_pence_to_one_Ginyi> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Five_shillings_and_three_pence_to_one_Ginyi> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/069> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/069>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは残りの金を自身の部屋に持っていく"@ja ;
@@ -827,7 +872,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/take> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/The_rest_of_the_gold> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Own_room> .
+    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Own_room> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/070> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/070>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは残りの金を自身の部屋の金庫にしまう"@ja ;
@@ -843,13 +889,15 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/visit> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Room_of_Percy_Trevelyan> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Few_weeks_ago> .
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Few_weeks_ago> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/072> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/072>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは動揺した"@ja ;
     kgc:source  "Blessington was upset"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/upset> .
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/upset> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/073> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/073>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンはパーシィ・トリヴェリアンに以下を言った"@ja ;
@@ -857,7 +905,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/074> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/074> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/075> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/074>
     rdf:type    kgc:Situation ;
     kgc:source  "押し込みの強盗がウエスト・エンド界隈で起こった"@ja ;
@@ -871,15 +920,17 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Blessington was very excited"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/excite> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/073> ;
-    kgc:how   <http://kgc.knowledge-graph.jp/data/ResidentPatient/very> .
+    kgc:how   <http://kgc.knowledge-graph.jp/data/ResidentPatient/very> ;
+    kgc:because   <http://kgc.knowledge-graph.jp/data/ResidentPatient/073> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/076> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/076>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは以下を言い張った"@ja ;
     kgc:source  "Blessington has insisted the following"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/insist> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/077> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/077> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/078> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/077>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンとパーシィ・トリヴェリアンは閂を窓や扉に取り付けなければならない"@ja ;
@@ -895,14 +946,19 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Blessington did not settle for one week from the incident"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/notSettle> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/During_the_week_from_the_incident> .
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/During_the_week_from_the_incident> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/079> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/080> ;
+    kgc:therefore   <http://kgc.knowledge-graph.jp/data/ResidentPatient/081> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/079>
     rdf:type    kgc:Situation ;
-    kgc:source  "ブレッシントンは窓の外を覗いた"@ja ;
-    kgc:source  "Blessington was peeped out of the window"@en ;
+    kgc:source  "ブレッシントンはしきりに窓の外を覗いた"@ja ;
+    kgc:source  "Blessington was frequently peeped out of the window"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/peep> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Out_of_the_window> .
+    kgc:how   <http://kgc.knowledge-graph.jp/data/ResidentPatient/frequently> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Out_of_the_window> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/080> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/080>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは日課の散歩をやめた"@ja ;
@@ -916,7 +972,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Percy Trevelyan felt the following"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/feel> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/082> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/082> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/084> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/082>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは何かを病的に恐れた"@ja ;
@@ -931,7 +988,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Blessington was offended"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/feelBad> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/084> .
+    kgc:because   <http://kgc.knowledge-graph.jp/data/ResidentPatient/084> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/084>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンはブレッシントンに恐怖に感じている事を尋ねる"@ja ;
@@ -939,13 +996,15 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/ask> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/feelFear> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/feelFear> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/085> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/085>
     rdf:type    kgc:Situation ;
-    kgc:source  "ブレッシントンの恐怖は静まった"@ja ;
+    kgc:source  "やがてブレッシントンの恐怖は静まった"@ja ;
     kgc:source  "Fear of Blessington subsided"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Fear_of_Blessington> ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/subside> .
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/subside> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/086> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/086>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは再び恐怖を覚えた"@ja ;
@@ -960,7 +1019,10 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/receive> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/letter> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/2_days_ago> .
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/2_days_ago> ;
+    kgc:time  "1888-10-08T10:00:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/1888-10-08T10> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/088> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/088>
     rdf:type    kgc:Situation ;
     kgc:source  "住所と日付は手紙に書かれていなかった"@ja ;
@@ -968,7 +1030,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Street_address> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/date> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notBeWritten> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/letter> .
+    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/letter> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/089> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/089>
     rdf:type    kgc:Situation ;
     kgc:source  "手紙の内容は以下を含む"@ja ;
@@ -978,28 +1041,32 @@ kgc:Thought rdf:type owl:Class ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/090> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/091> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/092> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/093> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/093> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/094> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/090>
     rdf:type    kgc:Situation ;
     kgc:source  "ロシア貴族はイングランドに在留中である"@ja ;
     kgc:source  "Russian aristocracy is in residence in England"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Russian_nobility> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/in_residence> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/ResidentPatient/England> .
+    kgc:where   <http://kgc.knowledge-graph.jp/data/ResidentPatient/England> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/091> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/091>
     rdf:type    kgc:Situation ;
     kgc:source  "ロシア貴族は強硬症の発作に悩んでいる"@ja ;
     kgc:source  "Russian nobles suffer from bouts of hard-line disease"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Russian_nobility> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/worry> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/bouts_of_hard-line_disease> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/bouts_of_hard-line_disease> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/092> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/092>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは強硬症の名医である"@ja ;
     kgc:source  "Percy Trevelyan is a good doctor of catalepsy"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/equalTo> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Doctors_of_the_treatment_of_catalepsy> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Doctors_of_the_treatment_of_catalepsy> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/093> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/093>
     rdf:type    kgc:Situation ;
     kgc:source  "ロシア貴族は次の日の午後六時十五分頃にパーシィ・トリヴェリアンの診察を受けたい"@ja ;
@@ -1007,7 +1074,9 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Russian_nobility> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/wantToReceive> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Examination_of_Percy_Trevelyan> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Pm_six_of_the_next_day_tens_of_around_five_minutes> .
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Pm_six_of_the_next_day_tens_of_around_five_minutes> ;
+    kgc:time  "1888-10-09T18:15:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/1888-10-09T18:15:00> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/094>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは診察室でロシア貴族を待った"@ja ;
@@ -1015,7 +1084,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/wait> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Examination_room> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Russian_nobility> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Russian_nobility> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/095> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/095>
     rdf:type    kgc:Situation ;
     kgc:source  "手伝いの少年は指定の時刻に患者を診察室に招き入れた"@ja ;
@@ -1024,7 +1094,10 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/invite> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/patient> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Examination_room> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Specified_time> .
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Specified_time> ;
+    kgc:time  "1888-10-09T18:15:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/1888-10-09T18:15:00> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/096> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/096>
     rdf:type    kgc:Situation ;
     kgc:source  "初老の男と若い男は診察室に入ってきた"@ja ;
@@ -1032,7 +1105,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Elderly_man> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Young_man> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/enter> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Examination_room> .
+    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Examination_room> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/105> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/097>
     rdf:type    kgc:Situation ;
     kgc:source  "初老の男は痩せている"@ja ;
@@ -1088,14 +1162,16 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "The young man was caring for an elderly man"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Young_man> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/care> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Elderly_man> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Elderly_man> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/106> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/106>
     rdf:type    kgc:Situation ;
     kgc:source  "若い男は以下を言った"@ja ;
     kgc:source  "The young man said the following:"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Young_man> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/106> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/107> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/108> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/107>
     rdf:type    kgc:Situation ;
     kgc:source  "初老の男は若い男の父親である"@ja ;
@@ -1110,21 +1186,24 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/recommend> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/attending_to_the_medical_examination> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Young_man> .
+    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Young_man> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/109> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/109>
     rdf:type    kgc:Situation ;
     kgc:source  "若い男はパーシィ・トリヴェリアンの提案を断った"@ja ;
     kgc:source  "The young man refused the proposal of Percy Trevelyan"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Young_man> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/refuse> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Proposal_of_Percy_Trevelyan> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Proposal_of_Percy_Trevelyan> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/110> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/110>
     rdf:type    kgc:Situation ;
     kgc:source  "若い男は以下を言った"@ja ;
     kgc:source  "The young man said the following:"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Young_man> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/111> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/111> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/112> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/111>
     rdf:type    kgc:Situation ;
     kgc:source  "若い男は診察中、待合室にいる"@ja ;
@@ -1139,7 +1218,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "The young man was leaving the examination room"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Young_man> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/leave> ;
-    kgc:from   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Examination_room> .
+    kgc:from   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Examination_room> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/113> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/113>
     rdf:type    kgc:Situation ;
     kgc:source  "初老の男とパーシィ・トリヴェリアンは症状のことを話した"@ja ;
@@ -1147,14 +1227,16 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Elderly_man> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/talk> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/about_symptoms> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/about_symptoms> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/114> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/114>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは覚え書きを取った"@ja ;
     kgc:source  "Percy Trevelyan took a Memorandum"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/take> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Note> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Note> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/116> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/115>
     rdf:type    kgc:Situation ;
     kgc:source  "初老の男は高い教養を持っていない"@ja ;
@@ -1168,7 +1250,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "An elderly man was no longer a reply"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Elderly_man> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/stop> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Reply> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Reply> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/117> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/117>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは以下を驚いた"@ja ;
@@ -1177,7 +1260,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/surprise> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/118> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/119> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/120> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/120> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/121> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/118>
     rdf:type    kgc:Situation ;
     kgc:source  "初老の男は背をのばして椅子に座っている"@ja ;
@@ -1185,13 +1269,15 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Elderly_man> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sit> ;
     kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Chair> ;
-    kgc:how   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Stretched_back> .
+    kgc:how   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Stretched_back> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/119> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/119>
     rdf:type    kgc:Situation ;
     kgc:source  "初老の男の顔は無表情である"@ja ;
     kgc:source  "Elderly man's face is expressionless"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Face_of_elderly_man> ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/expressionless> .
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/expressionless> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/120> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/120>
     rdf:type    kgc:Situation ;
     kgc:source  "初老の男はパーシィ・トリヴェリアンを見つめている"@ja ;
@@ -1207,21 +1293,27 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/examine> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Pulse_of_elderly_man> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Body_temperature_of_elderly_man> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Rigid_condition_of_an_elderly_man_of_muscle> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Rigid_condition_of_an_elderly_man_of_muscle> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/122> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/122>
     rdf:type    kgc:Situation ;
     kgc:source  "初老の男は異常がなかった"@ja ;
     kgc:source  "An elderly man had no abnormality"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Elderly_man> ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/Abnormality_was_not> .
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/Abnormality_was_not> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/123> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/123>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは亜硝酸アルミを階下の実験室に取りに行った"@ja ;
     kgc:source  "Percy Trevelyan went to take to the lab downstairs nitrite aluminum"@en ;
+    kgc:time  "1888-10-09T18:20:00"^^xsd:dateTime ;
+    kgc:source   <http://kgc.knowledge-graph.jp/data/ResidentPatient/1888-10-09T18:20:00> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/goToGet> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Nitrous_acid_aluminum> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Downstairs_in_the_laboratory> .
+    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Downstairs_in_the_laboratory> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/125> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/124> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/124>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは診察室に初老の男を残した"@ja ;
@@ -1238,7 +1330,11 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/Back_was> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Examination_room> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/after_5_minutes> .
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/after_5_minutes> ;
+    kgc:time  "1888-10-09T18:25:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/1888-10-09T18:25:00> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/126> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/127> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/126>
     rdf:type    kgc:Situation ;
     kgc:source  "初老の男は診察室にいなかった"@ja ;
@@ -1246,14 +1342,15 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Elderly_man> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/notExist> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Examination_room> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/125> .
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/125> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/127>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは待合室に飛び込んだ"@ja ;
     kgc:source  "Percy Trevelyan jumped into the waiting room"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/jumpInto> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/waiting_room> .
+    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/waiting_room> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/128> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/128>
     rdf:type    kgc:Situation ;
     kgc:source  "初老の男と若い男は待合室にいなかった"@ja ;
@@ -1261,33 +1358,38 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Elderly_man> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Young_man> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/notExist> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/ResidentPatient/waiting_room> .
+    kgc:where   <http://kgc.knowledge-graph.jp/data/ResidentPatient/waiting_room> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/129> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/129>
     rdf:type    kgc:Situation ;
     kgc:source  "広間の戸は閉まっていた"@ja ;
     kgc:source  "Door of the hall was closed"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Door_of_the_hall> ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/close> .
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/close> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/130> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/130>
     rdf:type    kgc:Situation ;
     kgc:source  "鍵はかかっていなかった"@ja ;
     kgc:source  "The key was not at stake"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/key> ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/notBeAtStake> .
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/notBeAtStake> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/131> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/131>
     rdf:type    kgc:Situation ;
     kgc:source  "手伝いの少年は物音を聞いていない"@ja ;
     kgc:source  "Helper boy did not hear the sounds"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Helper_boy> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notListen> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Sounds> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Sounds> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/132> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/132>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは日課の散歩から帰ってきた"@ja ;
     kgc:source  "Blessington came back from a walk of daily routine"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/return> ;
-    kgc:from   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Walk_of_the_daily_routine> .
+    kgc:from   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Walk_of_the_daily_routine> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/133> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/133>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは初老の男と若い男の事をブレッシントンに伝えなかった"@ja ;
@@ -1295,11 +1397,14 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notTell> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/about_Elderly_man_and_Young_man> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/about_Elderly_man_and_Young_man> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/134> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/134>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは以下を驚いた"@ja ;
     kgc:source  "Percy Trevelyan was surprised the following"@en ;
+    kgc:time  "1888-10-10T18:15:00"^^xsd:dateTime ;
+    kgc:source   <http://kgc.knowledge-graph.jp/data/ResidentPatient/1888-10-10T18:15:00> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/surprise> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/135> .
@@ -1311,7 +1416,10 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Young_man> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/enter> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Examination_room> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Same_time_tonight> .
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Same_time_tonight> ;
+    kgc:time  "1888-10-10T18:15:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/1888-10-10T18:15:00> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/136> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/136>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは初老の男と若い男を待合室に入れた"@ja ;
@@ -1320,14 +1428,16 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/enter> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Elderly_man> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Young_man> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/waiting_room> .
+    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/waiting_room> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/137> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/137>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは初老の男を診察した"@ja ;
     kgc:source  "Percy Trevelyan was examination of the elderly man"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/examine> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Elderly_man> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Elderly_man> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/138> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/138>
     rdf:type    kgc:Situation ;
     kgc:source  "初老の男と若い男は診察の後出ていった"@ja ;
@@ -1343,14 +1453,17 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/goUp> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Upper_floor> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/After_the_daily_routine_of_a_walk> .
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/After_the_daily_routine_of_a_walk> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/140> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/140>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは診察室に飛び込んだ"@ja ;
     kgc:source  "Blessington jumped into the examination room"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/jumpInto> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Examination_room> .
+    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Examination_room> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/142> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/141> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/141>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは混乱した"@ja ;
@@ -1365,27 +1478,31 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/ask> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Man_entered_the_room_of_Blessington> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> .
+    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/143> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/143>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンはパーシィ・トリヴェリアンを疑った"@ja ;
     kgc:source  "Blessington could not believe Percy Trevelyan"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/doubt> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/144> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/144>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンはわめき散らした"@ja ;
     kgc:source  "Blessington was scattered screaming"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/scream> .
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/scream> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/145> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/145>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンはブレッシントンの部屋に行った"@ja ;
     kgc:source  "Percy Trevelyan went to the room of Blessington"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/go> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington_room> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington_room> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/147> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/146>
     rdf:type    kgc:Situation ;
     kgc:source  "足跡がブレッシントンの部屋の絨毯についていた"@ja ;
@@ -1398,7 +1515,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ブレッシントンは怒鳴った"@ja ;
     kgc:source  "Blessington was shouted"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/shout> .
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/shout> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/151> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/148>
     rdf:type    kgc:Situation ;
     kgc:source  "足跡はブレッシントンの足跡より大きい"@ja ;
@@ -1417,14 +1535,17 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "It came only outpatients of the day"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Outpatients> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/come> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/that_day> .
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/that_day> ;
+    kgc:time  "1888-10-10T18:15:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/1888-10-10T18:15:00> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/151>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは推測した"@ja ;
     kgc:source  "Percy Trevelyan guessed"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/guess> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/152> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/152> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/156> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/152>
     rdf:type    kgc:Situation ;
     kgc:source  "待合室にいた人物がブレッシントンの部屋に入った"@ja ;
@@ -1461,7 +1582,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Blessington was ordered the following"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/command> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/157> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/157> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/158> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/157>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンがホームズを訪問する"@ja ;
@@ -1476,7 +1598,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/think> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/159> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/160> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/160> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/161> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/159>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンはホームズを訪問しほうがよい"@ja ;
@@ -1503,6 +1626,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズがブルック街の住まいを訪問する"@ja ;
     kgc:source  "Holmes is to visit the house of Brook Street"@en ;
+    kgc:time  "1888-10-10T23:00:00"^^xsd:dateTime ;
+    kgc:source   <http://kgc.knowledge-graph.jp/data/ResidentPatient/1888-10-10T23:00:00> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/visit> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Brook_Street_house> .
@@ -1515,7 +1640,10 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/arrive> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Brook_Street_house> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/within_25_minutes> .
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/within_25_minutes> ;
+    kgc:time  "1888-10-10T23:25:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/1888-10-10T23:25:00> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/166> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/164>
     rdf:type    kgc:Situation ;
     kgc:source  "ブルック街の住まいは正面の平坦な家である"@ja ;
@@ -1536,14 +1664,16 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/enter> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Watson> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/House> .
+    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/House> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/167> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/167>
     rdf:type    kgc:Situation ;
     kgc:source  "手伝いの少年は広い階段を上り始めた"@ja ;
     kgc:source  "Helper boy began to up the wide stairs"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Helper_boy> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/goUp> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Wide_stairs> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Wide_stairs> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/168> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/168>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズとワトソンは甲高い震えた声を聞いた"@ja ;
@@ -1551,7 +1681,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Watson> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hear> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/High-pitched_trembling_voice> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/High-pitched_trembling_voice> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/169> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/169>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンはホームズとワトソンを威嚇した"@ja ;
@@ -1559,21 +1690,24 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/intimidate> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Watson> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Watson> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/170> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/170>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンはブレッシントンを止めた"@ja ;
     kgc:source  "Percy Trevelyan was stopped Blessington"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/stop> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/171> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/171>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは落ち着いた"@ja ;
     kgc:source  "Blessington was calm"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/calm> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/173> .
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/172> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/173> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/172>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンはパーシィ・トリヴェリアンを認識した"@ja ;
@@ -1586,20 +1720,23 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ブレッシントンはやつれていた"@ja ;
     kgc:source  "Blessington was haggard"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/beHaggard> .
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/beHaggard> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/174> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/174>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは不健康そうであった"@ja ;
     kgc:source  "Blessington was unhealthy likely"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/looksNotHealthy> .
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/looksNotHealthy> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/175> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/175>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは拳銃を持っていた"@ja ;
     kgc:source  "Blessington had a pistol"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Pistol> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Pistol> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/176> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/176>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは拳銃を引っ込めた"@ja ;
@@ -1607,7 +1744,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/withdraw> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Pistol> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/177> .
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/177> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/177>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズとワトソンとパーシィ・トリヴェリアンはブレッシントンに近寄った"@ja ;
@@ -1616,27 +1753,31 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Watson> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/approach> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> .
+    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/178> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/178>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは2人の男のことを尋ねた"@ja ;
     kgc:source  "Holmes asked the two boys"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/ask> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/about_two_men> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/about_two_men> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/179> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/179>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンはホームズの質問に答えられない"@ja ;
     kgc:source  "Blessington is not the answer to the Homes of the question"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/cannotAnswer> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/question_of_Holmes> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/question_of_Holmes> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/180> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/180>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは再度尋ねた"@ja ;
     kgc:source  "Holmes asked again"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/askAgain> .
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/askAgain> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/181> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/181>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンはホームズとワトソンをブレッシントンの寝室に招き入れた"@ja ;
@@ -1645,7 +1786,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/invite> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Watson> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington_bedroom> .
+    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington_bedroom> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/182> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/182>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは以下を言った"@ja ;
@@ -1654,7 +1796,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/183> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/184> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/185> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/185> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/186> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/183>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは銀行を信用していない"@ja ;
@@ -1684,21 +1827,24 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/186>
     rdf:type    kgc:Situation ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/seemToAsk> .
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/seemToAsk> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/187> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/187>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズはブレッシントンの相談を断った"@ja ;
     kgc:source  "Holmes refused the consultation of Blessington"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/refuse> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Consultation_of_Blessington> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Consultation_of_Blessington> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/188> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/188>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは以下を言った"@ja ;
     kgc:source  "Holmes said the following:"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/189> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/189> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/190> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/189>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは嘘をついている"@ja ;
@@ -1711,20 +1857,23 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Holmes showed disgust"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/indicate> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Disgust> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Disgust> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/191> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/191>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは困惑した"@ja ;
     kgc:source  "Blessington was puzzled"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/confuse> .
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/confuse> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/192> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/192>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは以下を要求した"@ja ;
     kgc:source  "Holmes has requested the following"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/request> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/193> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/193> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/194> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/193>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンが事実を話す"@ja ;
@@ -1749,7 +1898,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/203> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/204> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/205> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/206> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/206> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/207> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/195>
     rdf:type    kgc:Situation ;
     kgc:source  "2人以上の男はブレッシントンを狙っている"@ja ;
@@ -1763,7 +1913,10 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "The young man crept into the room of Blessington"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Young_man> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/crept> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington_room> .
+    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington_room> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/197> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/199> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/200> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/197>
     rdf:type    kgc:Situation ;
     kgc:source  "共謀者は以下を阻止した"@ja ;
@@ -1791,7 +1944,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Blessington was out of the office"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/out> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/196> .
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/196> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/201>
     rdf:type    kgc:Situation ;
     kgc:source  "侵入者は待合室に他の患者がいない時間を選んだ"@ja ;
@@ -1841,7 +1994,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Watson> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/propose> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/208> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/209> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/209> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/210> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/208>
     rdf:type    kgc:Situation ;
     kgc:source  "ロシア人親子の話はパーシィ・トリヴェリアンの作り話である"@ja ;
@@ -1862,7 +2016,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/deny> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Guess_of_Watson> ;
-    kgc:why   <http://kgc.knowledge-graph.jp/data/ResidentPatient/211> .
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/212> ;
+    kgc:because   <http://kgc.knowledge-graph.jp/data/ResidentPatient/211> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/211>
     rdf:type    kgc:Situation ;
     kgc:source  "絨毯の足跡はパーシィ・トリヴェリアンのものより長い"@ja ;
@@ -1876,7 +2031,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Holmes was to guess the following"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/guess> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/213> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/213> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/214> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/213>
     rdf:type    kgc:Situation ;
     kgc:source  "次の日の朝、手紙がブルック街からホームズに届く"@ja ;
@@ -1885,13 +2041,16 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/arrive> ;
     kgc:from   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Brook_Street> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/The_morning_of_the_next_day> .
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/The_morning_of_the_next_day> ;
+    kgc:time  "1888-10-11T07:30:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/1888-10-11T07:30:00> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/214>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズの予言は当たった"@ja ;
     kgc:source  "Holmes prediction has come true"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes_prophecy> ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/comeTrue> .
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/comeTrue> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/215> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/215>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは通達の内容を予測できない"@ja ;
@@ -1912,7 +2071,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Percy Trevelyan was desperate"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/desperate> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/216> .
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/216> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/218>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは以下を言った"@ja ;
@@ -1952,20 +2111,25 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/find> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/cadaver> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Morning_7_o_clock> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington_room> .
+    kgc:time  "1888-10-11T07:00:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/1888-10-11T07:00:00> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington_room> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/223> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/223>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは金具に紐を結びつけてぶら下がって死んでいた"@ja ;
     kgc:source  "Blessington was dead hanging tied a string to the bracket"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/dead> ;
-    kgc:how   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Hanging_tied_a_string_to_the_bracket> .
+    kgc:how   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Hanging_tied_a_string_to_the_bracket> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/224> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/224>
     rdf:type    kgc:Situation ;
     kgc:source  "死体は無残であった"@ja ;
     kgc:source  "Corpse was miserably"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/cadaver> ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/miserably> .
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/miserably> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/225> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/225>
     rdf:type    kgc:Situation ;
     kgc:source  "死体は寝間着を着ていた"@ja ;
@@ -1979,23 +2143,26 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Lanner police inspector was standing beside the corpse"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Lanner_Inspector> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/stand> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Near_the_corpse> .
+    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Near_the_corpse> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/227> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/227>
     rdf:type    kgc:Situation ;
     kgc:source  "ラーナ警部はホームズに挨拶した"@ja ;
     kgc:source  "Lanner inspector greeted Holmes"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Lanner_Inspector> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/greet> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> .
+    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/228> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/228>
     rdf:type    kgc:Situation ;
     kgc:source  "ラーナ警部は以下を言った"@ja ;
     kgc:source  "Lanner police inspector said the following:"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Lanner_Inspector> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/229> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/230> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/231> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/232> .
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/232> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/229>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは恐怖により正気を失った"@ja ;
@@ -2010,25 +2177,31 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Blessington was sleeping in bed"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sleep> ;
-    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/bed> .
+    kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/bed> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/231> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/231>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは、朝5時に自殺した"@ja ;
     kgc:source  "Blessington has committed suicide at 5 o'clock in the morning"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/suicide> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/0.208333333> .
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/5_am> ;
+    kgc:time  "1888-10-11T05:00:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/1888-10-11T05:00:00> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/232>
     rdf:type    kgc:Situation ;
     kgc:source  "ワトソンは以下を言った"@ja ;
     kgc:source  "Watson said the following:"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Watson> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/234> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/233> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/234> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/233>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは3時間前に死んだ"@ja ;
     kgc:source  "Blessington died before 3 hours"@en ;
+    kgc:time  "1888-10-11T08:00:00"^^xsd:dateTime ;
+    kgc:source   <http://kgc.knowledge-graph.jp/data/ResidentPatient/1888-10-11T08:00:00> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/die> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/3_hours_ago> .
@@ -2038,9 +2211,12 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Lanner police inspector said the following:"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Lanner_Inspector> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/235> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/236> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/237> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/238> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/238> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/239> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/241> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/235>
     rdf:type    kgc:Situation ;
     kgc:source  "ねじ回しとねじは洗面台の上で発見された"@ja ;
@@ -2090,13 +2266,15 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Holmes smelled the cigar that was left"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/smell> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Cigar> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Cigar> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/242> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/242>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは以下を言った"@ja ;
     kgc:source  "Holmes said the following:"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/243> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/244> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/245> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/246> ;
@@ -2109,7 +2287,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/253> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/254> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/255> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/256> .
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/256> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/243>
     rdf:type    kgc:Situation ;
     kgc:source  "残っていた葉巻はバナナの香りがする"@ja ;
@@ -2183,7 +2361,9 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Corpses enclosed the neck, is a state at the time of discovery"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Corpses_enclosed_the_neck> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/discovery> .
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/discovery> ;
+    kgc:time  "1888-10-11T07:00:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/1888-10-11T07:00:00> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/254>
     rdf:type    kgc:Situation ;
     kgc:source  "犯人は正面玄関から入った"@ja ;
@@ -2205,7 +2385,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Holmes examined the door of the key"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/examine> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Door_key> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Door_key> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/257> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/257>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズはパーシィ・トリヴェリアンに綱の事を尋ねた"@ja ;
@@ -2213,16 +2394,18 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/ask> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/That_of_the_rope> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> .
+    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/258> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/258>
     rdf:type    kgc:Situation ;
     kgc:source  "パーシィ・トリヴェリアンは以下を言った"@ja ;
     kgc:source  "Percy Trevelyan said the following:"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/259> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/260> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/261> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/262> .
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/262> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/259>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンは大きな綱の輪を切って使った"@ja ;
@@ -2251,12 +2434,13 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Holmes said the following:"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/263> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/264> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/265> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/266> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/267> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/268> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/269> .
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/269> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/263>
     rdf:type    kgc:Situation ;
     kgc:source  "大きな綱の輪はブレッシントンを救うはずのものであった"@ja ;
@@ -2285,7 +2469,9 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Young_man> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington_room> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Time_of_the_incident> .
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Time_of_the_incident> ;
+    kgc:time  "1888-10-11T05:00:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/1888-10-11T05:00:00> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/267>
     rdf:type    kgc:Situation ;
     kgc:source  "3番目の人物は初老の男と若い男を家の中に案内した"@ja ;
@@ -2307,19 +2493,21 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Percy Trevelyan said the following:"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/271> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/270> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/270>
     rdf:type    kgc:Situation ;
     kgc:source  "手伝いの少年は見当たらない"@ja ;
     kgc:source  "I do not see Helper boy"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Helper_boy> ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/notExist> .
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/notExist> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/271> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/271>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは以下を言った"@ja ;
     kgc:source  "Holmes said the following:"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/272> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/273> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/274> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/275> ;
@@ -2342,8 +2530,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/292> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/293> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/294> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/295> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/296> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/295> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/272>
     rdf:type    kgc:Situation ;
     kgc:source  "手伝いの少年は事件の重要な役を担っている"@ja ;
@@ -2361,28 +2548,32 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/goUp> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Stairs> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Tiptoe> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Time_of_the_incident> .
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Time_of_the_incident> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/274> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/274>
     rdf:type    kgc:Situation ;
     kgc:source  "初老の男は先頭を歩いた"@ja ;
     kgc:source  "An elderly man was walking along the top"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Elderly_man> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/walk> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/ResidentPatient/lead> .
+    kgc:where   <http://kgc.knowledge-graph.jp/data/ResidentPatient/lead> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/275> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/275>
     rdf:type    kgc:Situation ;
     kgc:source  "若い男は真ん中を歩いた"@ja ;
     kgc:source  "The young man was walking down the middle"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Young_man> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/walk> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/ResidentPatient/middle> .
+    kgc:where   <http://kgc.knowledge-graph.jp/data/ResidentPatient/middle> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/276> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/276>
     rdf:type    kgc:Situation ;
     kgc:source  "手伝いの少年は最後尾を歩いた"@ja ;
     kgc:source  "Helper boy walked the last tail"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Helper_boy> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/walk> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/ResidentPatient/end_of_a_line> .
+    kgc:where   <http://kgc.knowledge-graph.jp/data/ResidentPatient/end_of_a_line> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/277> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/277>
     rdf:type    kgc:Situation ;
     kgc:source  "初老の男と若い男と手伝いの少年は以下を気づいた"@ja ;
@@ -2391,7 +2582,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Young_man> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Helper_boy> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notice> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/279> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/278> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/279> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/278>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンの部屋の鍵はかかっている"@ja ;
@@ -2407,14 +2599,16 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Helper_boy> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/open> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/door> ;
-    kgc:how   <http://kgc.knowledge-graph.jp/data/ResidentPatient/wire> .
+    kgc:how   <http://kgc.knowledge-graph.jp/data/ResidentPatient/wire> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/281> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/280>
     rdf:type    kgc:Situation ;
     kgc:source  "鍵穴のなかに引っかき傷が存在する"@ja ;
     kgc:source  "There are scratches Some of the keyhole"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Scratch> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Among_the_keyhole> .
+    kgc:where   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Among_the_keyhole> ;
+    kgc:because   <http://kgc.knowledge-graph.jp/data/ResidentPatient/279> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/281>
     rdf:type    kgc:Situation ;
     kgc:source  "初老の男と若い男と手伝いの少年はブレッシントンの部屋に侵入した"@ja ;
@@ -2423,7 +2617,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Young_man> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Helper_boy> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/enter> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington_room> .
+    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington_room> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/282> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/282>
     rdf:type    kgc:Situation ;
     kgc:source  "初老の男と若い男と手伝いの少年はブレッシントンを縛った"@ja ;
@@ -2432,14 +2627,16 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Young_man> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Helper_boy> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/tie> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/285> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/283> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/283>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンの声は聞こえなかった"@ja ;
     kgc:source  "Voice of Blessington did not hear"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Voice_of_Blessington> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/notHear> ;
-    kgc:why   <http://kgc.knowledge-graph.jp/data/ResidentPatient/284> .
+    kgc:because   <http://kgc.knowledge-graph.jp/data/ResidentPatient/284> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/284>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンの部屋の壁は厚い"@ja ;
@@ -2454,7 +2651,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Young_man> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Helper_boy> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/discuss> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Means_of_conviction> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Means_of_conviction> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/286> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/286>
     rdf:type    kgc:Situation ;
     kgc:source  "初老の男と若い男と手伝いの少年はブレッシントンの部屋にしばらくの間とどまった"@ja ;
@@ -2463,7 +2661,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Young_man> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Helper_boy> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/stay> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington_room> .
+    kgc:where   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington_room> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/287> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/287>
     rdf:type    kgc:Situation ;
     kgc:source  "初老の男と若い男と手伝いの少年は葉巻を吸った"@ja ;
@@ -2473,7 +2672,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Helper_boy> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/smoke> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/cigar> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/286> .
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/286> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/288>
     rdf:type    kgc:Situation ;
     kgc:source  "初老の男は椅子に座った"@ja ;
@@ -2481,7 +2680,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Elderly_man> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sit> ;
     kgc:on   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Chair> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/286> .
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/286> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/289>
     rdf:type    kgc:Situation ;
     kgc:source  "初老の男は葉巻パイプを使って葉巻を吸った"@ja ;
@@ -2489,20 +2688,23 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Elderly_man> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/smoke> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/cigar> ;
-    kgc:how   <http://kgc.knowledge-graph.jp/data/ResidentPatient/cigar_pipe> .
+    kgc:how   <http://kgc.knowledge-graph.jp/data/ResidentPatient/cigar_pipe> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/286> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/290>
     rdf:type    kgc:Situation ;
     kgc:source  "若い男は灰を叩き落とした"@ja ;
     kgc:source  "The young man dropped beating ash"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Young_man> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/drop> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Ash> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Ash> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/286> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/291>
     rdf:type    kgc:Situation ;
     kgc:source  "手伝いの少年は歩き回っていた"@ja ;
     kgc:source  "Helper boy was walking around"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Helper_boy> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/wander> .
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/wander> ;
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ResidentPatient/286> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/292>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンの絞首刑は準備されていた"@ja ;
@@ -2528,7 +2730,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Helper_boy> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/execute> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Hanging_of_Blessington> ;
-    kgc:how   <http://kgc.knowledge-graph.jp/data/ResidentPatient/bracket> .
+    kgc:how   <http://kgc.knowledge-graph.jp/data/ResidentPatient/bracket> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/295> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/295>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンの絞首刑の後、初老の男と若い男は逃げた"@ja ;
@@ -2536,7 +2739,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Elderly_man> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Young_man> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/escape> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/After_the_hanging_of_Blessington> .
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/After_the_hanging_of_Blessington> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/296> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/296>
     rdf:type    kgc:Situation ;
     kgc:source  "ブレッシントンの絞首刑の後、手伝いの少年は閂をかけた"@ja ;
@@ -2552,7 +2756,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Watson> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/go> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Baker_Street> .
+    kgc:to   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Baker_Street> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/298> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/298>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは以下を言った"@ja ;
@@ -2631,7 +2836,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "When the major event of Worthingdon bank, custodian of Tobin was killed"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Moderator_of_Tobin> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beKilled> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Major_event_of_Worthingdon_bank> .
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Major_event_of_Worthingdon_bank> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/309> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/309>
     rdf:type    kgc:Situation ;
     kgc:source  "強盗団は７０００ポンドを持って逃げた"@ja ;
@@ -2645,7 +2851,9 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Major event of Worthingdon bank took place in 1875"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Major_event_of_Worthingdon_bank> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/happen> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/1875> .
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/1875> ;
+    kgc:time  "1875-01-01T00:00:00"^^xsd:dateTime ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/1875-01-01> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/311>
     rdf:type    kgc:Situation ;
     kgc:source  "強盗団全員が捕まえられた"@ja ;
@@ -2677,14 +2885,15 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Blessington was give away the evidence of the major events of Worthingdon bank"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/reveal> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Evidence_of_the_major_events_of_Worthingdon_bank> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Evidence_of_the_major_events_of_Worthingdon_bank> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/316> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/316>
     rdf:type    kgc:Situation ;
     kgc:source  "カートライトは絞首刑となった"@ja ;
     kgc:source  "Cartwright was hanged"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Cartwright> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/beHanged> ;
-    kgc:why   <http://kgc.knowledge-graph.jp/data/ResidentPatient/315> .
+    kgc:because   <http://kgc.knowledge-graph.jp/data/ResidentPatient/315> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/317>
     rdf:type    kgc:Situation ;
     kgc:source  "初老の男と初老の男と手伝いの少年は14年の禁錮を受けた"@ja ;
@@ -2693,7 +2902,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Young_man> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Helper_boy> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/receive> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Imprisonment_of_14_years> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Imprisonment_of_14_years> ;
+    kgc:because   <http://kgc.knowledge-graph.jp/data/ResidentPatient/315> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/318>
     rdf:type    kgc:Situation ;
     kgc:source  "初老の男と若い男と手伝いの少年は刑期より早く釈放された"@ja ;
@@ -2716,7 +2926,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "仇討の計画は2度失敗した"@ja ;
     kgc:source  "Plan of revenge failed twice"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Plan_of_revenge> ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/failed_twice> .
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/failed_twice> ;
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/321> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/321>
     rdf:type    kgc:Situation ;
     kgc:source  "3度目の仇討の計画は成功した"@ja ;
@@ -2745,7 +2956,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/wantToHide> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Own_identity> ;
-    kgc:why   <http://kgc.knowledge-graph.jp/data/ResidentPatient/323> .
+    kgc:because   <http://kgc.knowledge-graph.jp/data/ResidentPatient/323> .
 #Objectとして参照されているリソースの定義
 <http://kgc.knowledge-graph.jp/data/predicate/Provide>
     rdfs:label     "Provide"@en;
@@ -2765,11 +2976,11 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/an_elderly_man>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ResidentPatient/muscle>.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/screw>
-    rdfs:label     "screw"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "screw"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Cartwright>
-    rdfs:label     "Cartwright"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Cartwright"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Some>
     rdfs:label     "Some"@en;
     rdf:type    kgc:Object.
@@ -2798,8 +3009,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/The_morning>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ResidentPatient/the_next_day>.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Baker_Street>
-    rdfs:label     "Baker Street"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Baker Street"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/The_reason_for_not_opening>
     rdfs:label     "The reason for not opening"@en;
     rdf:type    kgc:Object.
@@ -2819,6 +3030,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "very"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington_room_of_carpet>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Blessington room of carpet"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington_room>;
@@ -2830,9 +3042,10 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "expressionless"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Corpses_enclosed_the_neck>
-    rdfs:label     "Corpses enclosed the neck"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Corpses enclosed the neck"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/end_of_a_line>
+    rdf:type    kgc:Place;
     rdfs:label     "end of a line"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/end>;
@@ -2844,6 +3057,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:AbstractTime;
     rdfs:label     "Same time tonight"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Wall_of_Blessington_room>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Wall of Blessington room"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Wall>;
@@ -2857,14 +3071,16 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "succeed"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Hand_of_Percy_Trevelyan>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Hand of Percy Trevelyan"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Hand>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan>.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Wide_stairs>
-    rdfs:label     "Wide stairs"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Wide stairs"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Expression_of_Percy_Trevelyan>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Expression of Percy Trevelyan"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Expression>;
@@ -2876,8 +3092,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Imprisonment"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Furniture>
-    rdfs:label     "Furniture"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Furniture"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/seemToArtist>
     rdf:type    kgc:Property;
     rdfs:label     "seemToArtist"@en.
@@ -2905,6 +3121,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Instead>
     rdfs:label     "Instead"@en;
     rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/ResidentPatient/frequently>
+    rdfs:label     "frequently"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/worst_villain>
     rdf:type    kgc:Property;
     rdfs:label     "worst villain"@en.
@@ -2912,6 +3131,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "nervous"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/face_of_young_man>
+    rdf:type    kgc:Person;
     rdfs:label     "face of young man"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/face>;
@@ -2920,8 +3140,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Four"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Examination_room>
-    rdfs:label     "Examination room"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Examination room"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/imported>
     rdf:type    kgc:Property;
     rdfs:label     "imported"@en.
@@ -2935,6 +3155,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "mustAttach"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Face_of_elderly_man>
+    rdf:type    kgc:Person;
     rdfs:label     "Face of elderly man"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Face>;
@@ -2967,6 +3188,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "talk"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/all_of_Robbers>
+    rdf:type    kgc:Person;
     rdfs:label     "all of Robbers"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/all>;
@@ -3023,6 +3245,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "Abnormality was not"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/father_of_Young_man>
+    rdf:type    kgc:Person;
     rdfs:label     "father of Young man"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/father>;
@@ -3067,6 +3290,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "muscle"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/hand_of_Young_man>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "hand of Young man"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/hand>;
@@ -3115,13 +3339,14 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Hand"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Moderator_of_Tobin>
+    rdf:type    kgc:Person;
     rdfs:label     "Moderator of Tobin"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Moderator>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Tobin>.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Russian_nobility>
-    rdfs:label     "Russian nobility"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Russian nobility"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/Sutton>
     rdf:type    kgc:Property;
     rdfs:label     "Sutton"@en.
@@ -3135,11 +3360,11 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Event"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington_bedroom>
-    rdfs:label     "Blessington bedroom"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Blessington bedroom"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/middle>
-    rdfs:label     "middle"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "middle"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/The_contents_of_Circular>
     rdfs:label     "The contents of Circular"@en;
     rdf:type    kgc:OFobj;
@@ -3154,8 +3379,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "peep"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/The_third_person>
-    rdfs:label     "The third person"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "The third person"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/leave>
     rdf:type    kgc:Action;
     rdfs:label     "leave"@en.
@@ -3169,13 +3394,14 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "After the hanging"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Gold_to_hire_the_appearance_of_a_good_coach>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Gold to hire the appearance of a good coach"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Gold_to_hire_the_appearance>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ResidentPatient/a_good_coach>.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/bed>
-    rdfs:label     "bed"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "bed"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/unexpected_events>
     rdfs:label     "unexpected events"@en;
     rdf:type    kgc:Object.
@@ -3186,27 +3412,28 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:AbstractTime;
     rdfs:label     "Specified time"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Brook_Street>
-    rdfs:label     "Brook Street"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Brook Street"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/wantToConsult>
     rdf:type    kgc:Property;
     rdfs:label     "wantToConsult"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington>
-    rdfs:label     "Blessington"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Blessington"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Director_of_doctor>
     rdfs:label     "Director of doctor"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Director>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ResidentPatient/doctor>.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Door_of_the_hall>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Door of the hall"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Door>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ResidentPatient/the_hall>.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Near_the_corpse>
-    rdfs:label     "Near the corpse"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Near the corpse"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/Blessington>
     rdfs:label     "Blessington"@en;
     rdf:type    kgc:Object.
@@ -3217,11 +3444,11 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "beAwarded"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan>
-    rdfs:label     "Percy Trevelyan"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Percy Trevelyan"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/invader>
-    rdfs:label     "invader"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "invader"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Daily_routine>
     rdfs:label     "Daily routine"@en;
     rdf:type    kgc:Object.
@@ -3232,6 +3459,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "intendToFix"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Robbery_of_the_indentation>
+    rdf:type    kgc:Person;
     rdfs:label     "Robbery of the indentation"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Robbery>;
@@ -3240,6 +3468,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "indicate"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Evidence_of_the_major_events_of_Worthingdon_bank>
+    rdf:type    kgc:Person;
     rdfs:label     "Evidence of the major events of Worthingdon bank"@en;
     rdf:type    kgc:OFobj;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ResidentPatient/the_major_events_of_Worthingdon_bank>;
@@ -3272,8 +3501,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "receive"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Among_the_keyhole>
-    rdfs:label     "Among the keyhole"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Among the keyhole"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/those>
     rdfs:label     "those"@en;
     rdf:type    kgc:Object.
@@ -3284,8 +3513,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Room"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/waiting_room>
-    rdfs:label     "waiting room"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "waiting room"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/myth>
     rdfs:label     "myth"@en;
     rdf:type    kgc:Object.
@@ -3302,26 +3531,27 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:AbstractTime;
     rdfs:label     "last night"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Cigar_purse>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Cigar purse"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place.
 <http://kgc.knowledge-graph.jp/data/predicate/beCaught>
     rdf:type    kgc:Action;
     rdfs:label     "beCaught"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Sleepwear>
-    rdfs:label     "Sleepwear"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Sleepwear"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Own_identity>
     rdfs:label     "Own identity"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Aspiring_specialists>
-    rdfs:label     "Aspiring specialists"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Aspiring specialists"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notSeemToDoctor>
     rdf:type    kgc:Property;
     rdfs:label     "notSeemToDoctor"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/touched>
-    rdfs:label     "touched"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "touched"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Consultation_of_Blessington>
     rdfs:label     "Consultation of Blessington"@en;
     rdf:type    kgc:OFobj;
@@ -3346,6 +3576,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "tryToSteal"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Four_of_cigar_butts>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Four of cigar butts"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Four>;
@@ -3365,29 +3596,29 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "stop"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Note>
-    rdfs:label     "Note"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Note"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Lanner_Inspector>
-    rdfs:label     "Lanner Inspector"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Lanner Inspector"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/command>
     rdf:type    kgc:Action;
     rdfs:label     "command"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Own_room_safe>
-    rdfs:label     "Own room safe"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Own room safe"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Stairs>
-    rdfs:label     "Stairs"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Stairs"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Chair>
-    rdfs:label     "Chair"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Chair"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/something>
-    rdfs:label     "something"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "something"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Street_address>
-    rdfs:label     "Street address"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Street address"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/Tell>
     rdfs:label     "Tell"@en;
     rdf:type    kgc:Object.
@@ -3443,8 +3674,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Worthingdon bank"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/cigar>
-    rdfs:label     "cigar"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "cigar"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Mere_theft>
     rdfs:label     "Mere theft"@en;
     rdf:type    kgc:Object.
@@ -3482,9 +3713,10 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "tryToRevenge"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Front_door>
-    rdfs:label     "Front door"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Front door"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Some_of_the_cities_of_the_jacket>
+    rdf:type    kgc:Place;
     rdfs:label     "Some of the cities of the jacket"@en;
     rdf:type    kgc:OFobj;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ResidentPatient/the_cities_of_the_jacket>;
@@ -3492,8 +3724,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ResidentPatient/the_cities>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ResidentPatient/the_jacket>.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/paper_about_neurological_disorders>
-    rdfs:label     "paper about neurological disorders"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "paper about neurological disorders"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/ice>
     rdfs:label     "ice"@en;
     rdf:type    kgc:Object.
@@ -3514,8 +3746,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "enter"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/house>
-    rdfs:label     "house"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "house"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/return>
     rdf:type    kgc:Action;
     rdfs:label     "return"@en.
@@ -3526,20 +3758,23 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Worthington bank"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/letter>
-    rdfs:label     "letter"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "letter"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/neck>
-    rdfs:label     "neck"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "neck"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/carpet>
     rdfs:label     "carpet"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/beRobbed>
     rdf:type    kgc:Action;
     rdfs:label     "beRobbed"@en.
+<http://kgc.knowledge-graph.jp/data/ResidentPatient/5_am>
+    rdf:type    kgc:AbstractTime;
+    rdfs:label     "5 am"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/5th_man>
-    rdfs:label     "5th man"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "5th man"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/question>
     rdfs:label     "question"@en;
     rdf:type    kgc:Object.
@@ -3566,8 +3801,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "date"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/door>
-    rdfs:label     "door"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "door"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/dead>
     rdf:type    kgc:Property;
     rdfs:label     "dead"@en.
@@ -3593,8 +3828,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "notTrust"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/tobacco>
-    rdfs:label     "tobacco"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "tobacco"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/withStrongTeeth>
     rdfs:label     "withStrongTeeth"@en;
     rdf:type    kgc:Object.
@@ -3602,8 +3837,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Source Date"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/The_best_two_rooms_located_on_the_second_floor>
-    rdfs:label     "The best two rooms located on the second floor"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "The best two rooms located on the second floor"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/After_exiting>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "After exiting"@en.
@@ -3623,8 +3858,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "under 33,4 years old"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/police>
-    rdfs:label     "police"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "police"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/study>
     rdf:type    kgc:Action;
     rdfs:label     "study"@en.
@@ -3645,6 +3880,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/tell>;
     rdfs:label     "notTell"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Two-thirds_of_earnings>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Two-thirds of earnings"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Two-thirds>;
@@ -3662,6 +3898,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Robbery"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/The_rest_of_the_gold>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "The rest of the gold"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/The_rest>;
@@ -3670,8 +3907,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "sanity"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Person_who_was_in_the_waiting_room>
-    rdfs:label     "Person who was in the waiting room"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Person who was in the waiting room"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/include>
     rdf:type    kgc:Action;
     rdfs:label     "include"@en.
@@ -3690,6 +3927,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "recommend"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Money_of_Blessington>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Money of Blessington"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Money>;
@@ -3703,8 +3941,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:canNot    <http://kgc.knowledge-graph.jp/data/predicate/provide>;
     rdfs:label     "cannotProvide"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Robbers>
-    rdfs:label     "Robbers"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Robbers"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/discovery>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "discovery"@en.
@@ -3712,8 +3950,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "manage"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/black_trousers>
-    rdfs:label     "black trousers"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "black trousers"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/visit>
     rdf:type    kgc:Action;
     rdfs:label     "visit"@en.
@@ -3724,11 +3962,11 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "jumpInto"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Outpatients>
-    rdfs:label     "Outpatients"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Outpatients"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington_bed>
-    rdfs:label     "Blessington bed"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Blessington bed"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/a_good_coach>
     rdfs:label     "a good coach"@en;
     rdf:type    kgc:Object.
@@ -3742,12 +3980,13 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Story"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Helper_boy>
-    rdfs:label     "Helper boy"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Helper boy"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Means>
     rdfs:label     "Means"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Dress_of_Percy_Trevelyan>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Dress of Percy Trevelyan"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Dress>;
@@ -3768,6 +4007,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "wantToReceive"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/chest_of_Young_man>
+    rdf:type    kgc:Person;
     rdfs:label     "chest of Young man"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/chest>;
@@ -3778,8 +4018,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Guess>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Watson>.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Black_frock_coat>
-    rdfs:label     "Black frock coat"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Black frock coat"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Life>
     rdfs:label     "Life"@en;
     rdf:type    kgc:Object.
@@ -3799,6 +4039,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "drop"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/butts_of_Cigar>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "butts of Cigar"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/butts>;
@@ -3836,6 +4077,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "the incident"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/One_of_the_cigar>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "One of the cigar"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/One>;
@@ -3849,8 +4091,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "goToGet"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Expenditure_for_furnishings>
-    rdfs:label     "Expenditure for furnishings"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Expenditure for furnishings"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Time_of_the_incident>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "Time of the incident"@en;
@@ -3864,9 +4106,10 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Two-thirds"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/shoulder>
-    rdfs:label     "shoulder"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "shoulder"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Doctors_of_the_treatment_of_catalepsy>
+    rdf:type    kgc:Place;
     rdfs:label     "Doctors of the treatment of catalepsy"@en;
     rdf:type    kgc:OFobj;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ResidentPatient/the_treatment_of_catalepsy>;
@@ -3891,8 +4134,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "notEqualTo"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Pistol>
-    rdfs:label     "Pistol"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Pistol"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notListen>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
@@ -3911,8 +4154,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Voice"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Scratch>
-    rdfs:label     "Scratch"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Scratch"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/StrangeIncident>
     rdfs:label     "StrangeIncident"@en;
     rdf:type    kgc:Object.
@@ -3926,6 +4169,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "thin"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Room_of_Percy_Trevelyan>
+    rdf:type    kgc:Place;
     rdfs:label     "Room of Percy Trevelyan"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Room>;
@@ -3940,14 +4184,14 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "shrug"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/West_End_neighborhood>
-    rdfs:label     "West End neighborhood"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "West End neighborhood"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/7,000_lbs>
     rdfs:label     "7,000 lbs"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Money>
-    rdfs:label     "Money"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Money"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/miserably>
     rdf:type    kgc:Property;
     rdfs:label     "miserably"@en.
@@ -3970,6 +4214,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "The contents"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Door_of_Blessington_room>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Door of Blessington room"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Door>;
@@ -3978,8 +4223,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:AbstractTime;
     rdfs:label     "after 5 minutes"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/lead>
-    rdfs:label     "lead"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "lead"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/The_identity>
     rdfs:label     "The identity"@en;
     rdf:type    kgc:Object.
@@ -3996,8 +4241,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "wear"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Account_book>
-    rdfs:label     "Account book"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Account book"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/The_morning>
     rdfs:label     "The morning"@en;
     rdf:type    kgc:Object.
@@ -4013,8 +4258,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "doubt"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Brook_Street_house>
-    rdfs:label     "Brook Street house"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Brook Street house"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/weak>
     rdf:type    kgc:Property;
     rdfs:label     "weak"@en.
@@ -4055,21 +4300,22 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "wearing"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Footprint_of_carpet>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Footprint of carpet"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Footprint>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ResidentPatient/carpet>.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Young_man>
-    rdfs:label     "Young man"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Young man"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/the_cities_of_the_jacket>
     rdfs:label     "the cities of the jacket"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/the_cities>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ResidentPatient/the_jacket>.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington_room>
-    rdfs:label     "Blessington room"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Blessington room"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/conviction>
     rdfs:label     "conviction"@en;
     rdf:type    kgc:Object.
@@ -4091,8 +4337,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "Hardly"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Conspirators>
-    rdfs:label     "Conspirators"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Conspirators"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/beReleased_earlier_than_the_prison_term>
     rdf:type    kgc:Property;
     rdfs:label     "beReleased earlier than the prison term"@en.
@@ -4118,8 +4364,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Notification"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Elderly_man>
-    rdfs:label     "Elderly man"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Elderly man"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/sclerosis_of_Percy_Trevelyan>
     rdfs:label     "sclerosis of Percy Trevelyan"@en;
     rdf:type    kgc:OFobj;
@@ -4138,8 +4384,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "worry"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/cadaver>
-    rdfs:label     "cadaver"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "cadaver"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Proposal>
     rdfs:label     "Proposal"@en;
     rdf:type    kgc:Object.
@@ -4147,8 +4393,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "in residence"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/key>
-    rdfs:label     "key"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "key"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/guide>
     rdf:type    kgc:Action;
     rdfs:label     "guide"@en.
@@ -4156,8 +4402,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "greet"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Nitrous_acid_aluminum>
-    rdfs:label     "Nitrous acid aluminum"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Nitrous acid aluminum"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/question_of_Holmes>
     rdfs:label     "question of Holmes"@en;
     rdf:type    kgc:OFobj;
@@ -4197,15 +4443,12 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/a_walk>
     rdfs:label     "a walk"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/ResidentPatient/0.208333333>
-    rdf:type    kgc:AbstractTime;
-    rdfs:label     "0.208333333"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/screwdriver>
-    rdfs:label     "screwdriver"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "screwdriver"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Ash>
-    rdfs:label     "Ash"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Ash"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Hanging_tied_a_string_to_the_bracket>
     rdfs:label     "Hanging tied a string to the bracket"@en;
     rdf:type    kgc:Object.
@@ -4224,8 +4467,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "come"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Twelve_city_near_Cavendish_Square>
-    rdfs:label     "Twelve city near Cavendish Square"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Twelve city near Cavendish Square"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/Cartwright>
     rdf:type    kgc:Property;
     rdfs:label     "Cartwright"@en.
@@ -4233,14 +4476,15 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "doctor"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Wash_basin>
-    rdfs:label     "Wash basin"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Wash basin"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Imprisonment_of_14_years>
     rdfs:label     "Imprisonment of 14 years"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Imprisonment>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ResidentPatient/14_years>.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/The_identity_of_the_intruder>
+    rdf:type    kgc:Person;
     rdfs:label     "The identity of the intruder"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/The_identity>;
@@ -4249,8 +4493,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Time"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Door_key>
-    rdfs:label     "Door key"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Door key"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/One>
     rdfs:label     "One"@en;
     rdf:type    kgc:Object.
@@ -4283,14 +4527,15 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/bouts>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ResidentPatient/hard-line_disease>.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/House>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "House"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place.
 <http://kgc.knowledge-graph.jp/data/predicate/sit>
     rdf:type    kgc:Action;
     rdfs:label     "sit"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Downstairs_in_the_laboratory>
-    rdfs:label     "Downstairs in the laboratory"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Downstairs in the laboratory"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/feelBad>
     rdf:type    kgc:Action;
     rdfs:label     "feelBad"@en.
@@ -4309,12 +4554,13 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Young man"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Windows_and_doors>
-    rdfs:label     "Windows and doors"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Windows and doors"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Major_event_of_Worthingdon_bank>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "Major event of Worthingdon bank"@en;
     rdf:type    kgc:OFobj;
+    rdf:type    kgc:Person;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Major_event>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Worthingdon_bank>.
 <http://kgc.knowledge-graph.jp/data/predicate/hear>
@@ -4327,6 +4573,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "haveNowhereToGo"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Out_of_the_window>
+    rdf:type    kgc:Place;
     rdfs:label     "Out of the window"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Out>;
@@ -4351,23 +4598,23 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "arrive"@en;
     rdf:type    kgc:Property.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Cigar>
-    rdfs:label     "Cigar"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Cigar"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Man_entered_the_room>
     rdfs:label     "Man entered the room"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/tieSlightlyWithColor>
-    rdfs:label     "tieSlightlyWithColor"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "tieSlightlyWithColor"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/equalTo>
     rdf:type    kgc:Property;
     rdfs:label     "equalTo"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/East_Indies_colonial>
-    rdfs:label     "East Indies colonial"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "East Indies colonial"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/England>
-    rdfs:label     "England"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "England"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/cannotPredict>
     rdf:type    kgc:Action;
     rdf:type    kgc:CanNotAction;
@@ -4387,8 +4634,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:AbstractTime;
     rdfs:label     "After a medical examination"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/stolen>
-    rdfs:label     "stolen"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "stolen"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/walk>
     rdf:type    kgc:Action;
     rdfs:label     "walk"@en.
@@ -4405,8 +4652,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Gold to hire the appearance"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/two_men>
-    rdfs:label     "two men"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "two men"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/beFound>
     rdf:type    kgc:Action;
     rdfs:label     "beFound"@en.
@@ -4437,11 +4684,11 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ResidentPatient/sclerosis>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan>.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/patient>
-    rdfs:label     "patient"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "patient"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Bank>
-    rdfs:label     "Bank"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Bank"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Morning_7_o_clock>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "Morning 7 o'clock"@en.
@@ -4472,8 +4719,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "the gold"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Upper_floor>
-    rdfs:label     "Upper floor"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Upper floor"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/walk_of_Blessington>
     rdfs:label     "walk of Blessington"@en;
     rdf:type    kgc:OFobj;
@@ -4492,6 +4739,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "sneak"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/two_butts_of_Cigar>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "two butts of Cigar"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/two_butts>;
@@ -4505,8 +4753,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "wantToInvest"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Five_shillings_and_three_pence_to_one_Ginyi>
-    rdfs:label     "Five shillings and three pence to one Ginyi"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Five shillings and three pence to one Ginyi"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/around_five_minutes>
     rdfs:label     "around five minutes"@en;
     rdf:type    kgc:Object.
@@ -4520,14 +4768,16 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "High-pitched trembling voice"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Cigar_Pipes>
-    rdfs:label     "Cigar Pipes"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Cigar Pipes"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Wheel_of_a_large_rope>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Wheel of a large rope"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Wheel>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ResidentPatient/a_large_rope>.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Several_years_worth_of_living_expenses>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Several years worth of living expenses"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Several_years_worth>;
@@ -4539,8 +4789,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Disgust"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Criminal>
-    rdfs:label     "Criminal"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Criminal"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/The_heart>
     rdfs:label     "The heart"@en;
     rdf:type    kgc:Object.
@@ -4572,8 +4822,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "flat house front"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/someone>
-    rdfs:label     "someone"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "someone"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Suspicious_incidents>
     rdfs:label     "Suspicious incidents"@en;
     rdf:type    kgc:Object.
@@ -4623,6 +4873,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Unclear thing"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Kind_of_butts_of_Cigar>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Kind of butts of Cigar"@en;
     rdf:type    kgc:OFobj;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ResidentPatient/butts_of_Cigar>;
@@ -4639,6 +4890,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "approach"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Kind_of_Cigar>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Kind of Cigar"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Kind>;
@@ -4656,11 +4908,11 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "propose"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/maid>
-    rdfs:label     "maid"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "maid"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Several_thousand_investment_gold>
-    rdfs:label     "Several thousand investment gold"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Several thousand investment gold"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Facts>
     rdfs:label     "Facts"@en;
     rdf:type    kgc:Object.
@@ -4687,6 +4939,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Morbidly"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Man_entered_the_room_of_Blessington>
+    rdf:type    kgc:Person;
     rdfs:label     "Man entered the room of Blessington"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Man_entered_the_room>;
@@ -4698,9 +4951,10 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "stand"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Certain_large_rent>
-    rdfs:label     "Certain large rent"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Certain large rent"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/The_heart_of_Blessington>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "The heart of Blessington"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/The_heart>;
@@ -4725,12 +4979,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "calm"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Own_room>
-    rdfs:label     "Own room"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Own room"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Two_or_more_men>
-    rdfs:label     "Two or more men"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Two or more men"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Another_two_butts_of_Cigar>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Another two butts of Cigar"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Another_two_butts>;
@@ -4772,14 +5027,14 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Several years worth"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Watson>
-    rdfs:label     "Watson"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Watson"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/the_rope>
     rdfs:label     "the rope"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Patients_and_living_person>
-    rdfs:label     "Patients and living person"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Patients and living person"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Hanging_of_Blessington>
     rdfs:label     "Hanging of Blessington"@en;
     rdf:type    kgc:OFobj;
@@ -4792,6 +5047,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "occur"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Robbers_of_Worthington_bank>
+    rdf:type    kgc:Person;
     rdfs:label     "Robbers of Worthington bank"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Robbers>;
@@ -4815,8 +5071,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "notSettle"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Footprint>
-    rdfs:label     "Footprint"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Footprint"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/desperate>
     rdf:type    kgc:Property;
     rdfs:label     "desperate"@en.
@@ -4835,8 +5091,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "prospect"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/fireplace>
-    rdfs:label     "fireplace"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "fireplace"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Wall>
     rdfs:label     "Wall"@en;
     rdf:type    kgc:Object.
@@ -4857,7 +5113,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Obex>
     rdfs:label     "Obex"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes>
-    rdfs:label     "Holmes"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Holmes"@en.
