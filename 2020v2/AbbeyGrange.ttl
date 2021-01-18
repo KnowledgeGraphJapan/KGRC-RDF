@@ -3803,6 +3803,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "official"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Two_of_glass>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Two of glass"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Two>;
@@ -3829,8 +3830,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Regret"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holmes>
-    rdfs:label     "Holmes"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Holmes"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notSay>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
@@ -3840,13 +3841,14 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Think"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Bottle_of_wine>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Bottle of wine"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Bottle>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/wine>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/oak_chair>
-    rdfs:label     "oak chair"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "oak chair"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Voyage_of_Lady_Brackenstall>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "Voyage of Lady Brackenstall"@en;
@@ -3857,17 +3859,17 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "live"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Beard>
-    rdfs:label     "Beard"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Beard"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/Fit>
     rdfs:label     "Fit"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/cork>
-    rdfs:label     "cork"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "cork"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Near_the_Lady_Brackenstall>
-    rdfs:label     "Near the Lady Brackenstall"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Near the Lady Brackenstall"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holes>
     rdfs:label     "Holes"@en;
     rdf:type    kgc:Object.
@@ -3878,6 +3880,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Throat"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Restraint_of_Lady_Brackenstall_OR_killing_of_Lady_Brackenstall>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Restraint of Lady Brackenstall OR killing of Lady Brackenstall"@en;
     rdf:type    kgc:ORobj;
     kgc:orTarget    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Restraint_of_Lady_Brackenstall>;
@@ -3896,9 +3899,10 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "tryToHide"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/sin>
-    rdfs:label     "sin"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "sin"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/bottle_of_wine>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "bottle of wine"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/bottle>;
@@ -3918,6 +3922,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:canNot    <http://kgc.knowledge-graph.jp/data/predicate/say>;
     rdfs:label     "cannotSay"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Charm_of_the_case>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Charm of the case"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Charm>;
@@ -3935,8 +3940,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Sir Eustace brackenstall"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/door>
-    rdfs:label     "door"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "door"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notFit>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
@@ -3949,12 +3954,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "unofficial"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Armrest>
-    rdfs:label     "Armrest"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Armrest"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Findings>
     rdfs:label     "Findings"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Recovery_of_Lady_Brackenstall>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Recovery of Lady Brackenstall"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Recovery>;
@@ -3966,32 +3972,34 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "notKill"@en;
     rdf:type    kgc:Property.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/wine>
-    rdfs:label     "wine"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "wine"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/accomplice>
-    rdfs:label     "accomplice"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "accomplice"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/Impeccable>
     rdf:type    kgc:Property;
     rdfs:label     "Impeccable"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/third_glass>
-    rdfs:label     "third glass"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "third glass"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/hold>
     rdf:type    kgc:Action;
     rdfs:label     "hold"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Severe_injury>
-    rdfs:label     "Severe injury"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Severe injury"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/unrelated>
     rdf:type    kgc:Property;
     rdfs:label     "unrelated"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/As_of_squirrel>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "As of squirrel"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/As>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/squirrel>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/End_of_cord_of_bell>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "End of cord of bell"@en;
     rdf:type    kgc:OFobj;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/cord_of_bell>;
@@ -4008,8 +4016,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Marry"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/letter>
-    rdfs:label     "letter"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "letter"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/represent>
     rdf:type    kgc:Property;
     rdfs:label     "represent"@en.
@@ -4017,11 +4025,11 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "tall"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/London>
-    rdfs:label     "London"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "London"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/new_ship>
-    rdfs:label     "new ship"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "new ship"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/close>
     rdf:type    kgc:Action;
     rdfs:label     "close"@en.
@@ -4049,14 +4057,14 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "pond"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Wooden_blanket>
-    rdfs:label     "Wooden blanket"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Wooden blanket"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/About_1_year_ago>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "About 1 year ago"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstal>
-    rdfs:label     "Lady Brackenstal"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Lady Brackenstal"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/take>
     rdf:type    kgc:Action;
     rdfs:label     "take"@en.
@@ -4081,8 +4089,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "hit"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/consciousness>
-    rdfs:label     "consciousness"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "consciousness"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notMarry>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
@@ -4090,14 +4098,16 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "notMarry"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Stanley_Hopkins>
     rdfs:label     "Stanley Hopkins"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdf:type    kgc:Place.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/White_teeth>
-    rdfs:label     "White teeth"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "White teeth"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/July>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "July"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Findings_of_Holmes>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Findings of Holmes"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Findings>;
@@ -4121,11 +4131,11 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "believe"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/15_minutes>
-    rdfs:label     "15 minutes"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "15 minutes"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Restraint>
-    rdfs:label     "Restraint"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Restraint"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Scratches_on_the_arm>
     rdfs:label     "Scratches on the arm"@en;
     rdf:type    kgc:Object.
@@ -4135,8 +4145,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/know>;
     rdfs:label     "notKnow"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Substantial_prey>
-    rdfs:label     "Substantial prey"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Substantial prey"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/have>
     rdf:type    kgc:Action;
     rdfs:label     "have"@en;
@@ -4151,11 +4161,12 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "two-thirds"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Quickly>
-    rdfs:label     "Quickly"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Quickly"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Thought_of_Holmes>
     rdfs:label     "Thought of Holmes"@en;
     rdf:type    kgc:OFobj;
+    rdf:type    kgc:PhysicalObject;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Thought>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holmes>.
 <http://kgc.knowledge-graph.jp/data/predicate/sleep>
@@ -4168,9 +4179,10 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Wrist"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Appearance>
-    rdfs:label     "Appearance "@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Appearance "@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/bottom_of_pond_of_garden>
+    rdf:type    kgc:Place;
     rdfs:label     "bottom of pond of garden"@en;
     rdf:type    kgc:OFobj;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/pond_of_garden>;
@@ -4178,20 +4190,22 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/pond>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/garden>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Dining_room_of_Abbey_mansion>
+    rdf:type    kgc:Place;
     rdfs:label     "Dining room of Abbey mansion"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Dining_room>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Abbey_mansion>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/bracket>
-    rdfs:label     "bracket"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "bracket"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Theresa>
-    rdfs:label     "Theresa"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Theresa"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/beStained>
     rdf:type    kgc:Action;
     rdfs:label     "beStained"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Face_of_Lady_Brackenstall>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Face of Lady Brackenstall"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Face>;
@@ -4209,8 +4223,10 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "killing of Lady Brackenstall"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Mouth_of_Lady_Brackenstall>
+    rdf:type    kgc:Person;
     rdfs:label     "Mouth of Lady Brackenstall"@en;
     rdf:type    kgc:OFobj;
+    rdf:type    kgc:PhysicalObject;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Mouth>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Brutal_character>
@@ -4232,17 +4248,17 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "dregs"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Mantelpiece>
-    rdfs:label     "Mantelpiece"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Mantelpiece"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Beefy_man>
-    rdfs:label     "Beefy man"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Beefy man"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/cigar>
-    rdfs:label     "cigar"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "cigar"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Whistleblower>
-    rdfs:label     "Whistleblower"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Whistleblower"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Eyes>
     rdfs:label     "Eyes"@en;
     rdf:type    kgc:Object.
@@ -4255,8 +4271,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:canNot    <http://kgc.knowledge-graph.jp/data/predicate/put>;
     rdfs:label     "cannotPut"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/home_port>
-    rdfs:label     "home port"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "home port"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/repeat>
     rdf:type    kgc:Action;
     rdfs:label     "repeat"@en.
@@ -4267,6 +4283,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "Depart"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Scratches_on_the_arm_of_Lady_Brackenstall>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Scratches on the arm of Lady Brackenstall"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Scratches_on_the_arm>;
@@ -4275,21 +4292,22 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "bend"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Point_A>
-    rdfs:label     "Point A"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Point A"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/wire>
-    rdfs:label     "wire"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "wire"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/train>
-    rdfs:label     "train"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "train"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/fear>
     rdf:type    kgc:Action;
     rdfs:label     "fear"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Remains_found>
-    rdfs:label     "Remains found"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Remains found"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/window_of_room_of_Lady_Brackenstall>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "window of room of Lady Brackenstall"@en;
     rdf:type    kgc:OFobj;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/room_of_Lady_Brackenstall>;
@@ -4300,11 +4318,11 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "truth"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Scotland_Yard>
-    rdfs:label     "Scotland Yard"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Scotland Yard"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/crafty>
-    rdfs:label     "crafty"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "crafty"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notReach>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
@@ -4314,14 +4332,14 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:AbstractTime;
     rdfs:label     "June"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Poker>
-    rdfs:label     "Poker"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Poker"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Consciousness>
-    rdfs:label     "Consciousness"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Consciousness"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/cadaver>
-    rdfs:label     "cadaver"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "cadaver"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/put>
     rdf:type    kgc:Action;
     rdfs:label     "put"@en.
@@ -4329,6 +4347,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "hand"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/bottom_of_pond>
+    rdf:type    kgc:Place;
     rdfs:label     "bottom of pond"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/bottom>;
@@ -4340,6 +4359,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:AbstractTime;
     rdfs:label     "A few months"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Physiognomy_of_criminal>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Physiognomy of criminal"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Physiognomy>;
@@ -4351,6 +4371,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "wrong"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/end_of_cord_of_bell>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "end of cord of bell"@en;
     rdf:type    kgc:OFobj;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/cord_of_bell>;
@@ -4375,14 +4396,14 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Man>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/the_elderly>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/All-purpose_knife>
-    rdfs:label     "All-purpose knife"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "All-purpose knife"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/versy_surprising>
     rdf:type    kgc:Property;
     rdfs:label     "versy surprising"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Small_three_windows>
-    rdfs:label     "Small three windows"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Small three windows"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/command>
     rdf:type    kgc:Action;
     rdfs:label     "command"@en.
@@ -4404,12 +4425,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "sail"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/scratch>
-    rdfs:label     "scratch"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "scratch"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/squirrel>
     rdfs:label     "squirrel"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Annex_of_Abbey_mansion>
+    rdf:type    kgc:Place;
     rdfs:label     "Annex of Abbey mansion"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Annex>;
@@ -4418,8 +4440,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "Upset"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/3_people>
-    rdfs:label     "3 people"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "3 people"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/reach>
     rdf:type    kgc:Action;
     rdfs:label     "reach"@en.
@@ -4427,6 +4449,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "impress"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/3_inch_from_top_of_cord_of_bell>
+    rdf:type    kgc:Place;
     rdfs:label     "3 inch from top of cord of bell"@en;
     rdf:type    kgc:OFobj;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/cord_of_bell>;
@@ -4434,6 +4457,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/cord>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/bell>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Story_of_Sir_Eustace_Brackenstall>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Story of Sir Eustace Brackenstall"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Story>;
@@ -4442,19 +4466,20 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "rush"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/sober>
-    rdf:type    kgc:AbstractTime;
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "sober"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/Abnormality>
     rdf:type    kgc:Property;
     rdfs:label     "Abnormality"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Behavior_of_Jack_Crocker>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Behavior of Jack Crocker"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Behavior>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Upper_limbs>
-    rdfs:label     "Upper limbs"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Upper limbs"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/rest>
     rdf:type    kgc:Action;
     rdfs:label     "rest"@en.
@@ -4465,6 +4490,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "go"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/cord_of_bell>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "cord of bell"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/cord>;
@@ -4476,18 +4502,19 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "perfect"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/scary_demon>
-    rdfs:label     "scary demon"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "scary demon"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Many_rooms>
-    rdfs:label     "Many rooms"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Many rooms"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Company_office>
-    rdfs:label     "Company office"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Company office"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Knot>
     rdfs:label     "Knot"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/bell_of_kitchen>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "bell of kitchen"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/bell>;
@@ -4496,19 +4523,20 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:AbstractTime;
     rdfs:label     "this morning"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/dust>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     " dust"@en;
-    rdfs:label     "dust"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "dust"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/abuse>
-    rdfs:label     "abuse"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "abuse"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Marriage>
     rdfs:label     "Marriage"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/oil>
-    rdfs:label     "oil"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "oil"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Blood_of_Sir_Eustace_Brackenstall>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Blood of Sir Eustace Brackenstall"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Blood>;
@@ -4517,11 +4545,11 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "enjoy"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Deliberately>
-    rdfs:label     "Deliberately"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Deliberately"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Ordinary_criminal>
-    rdfs:label     "Ordinary criminal"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Ordinary criminal"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/WantToCheat>
     rdfs:label     "WantToCheat"@en;
     rdf:type    kgc:Object.
@@ -4529,47 +4557,50 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "siblings"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Mary>
-    rdfs:label     "Mary"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Mary"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/exist>
     rdf:type    kgc:Action;
     rdfs:label     "exist"@en;
     rdf:type    kgc:Property.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Wrong_London_way>
-    rdfs:label     "Wrong London way"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Wrong London way"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Hesitation>
     rdfs:label     "Hesitation"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/French_windows>
-    rdfs:label     "French windows"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "French windows"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/All>
     rdfs:label     "All"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/use>
-    rdfs:label     "use"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "use"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Hints>
-    rdfs:label     "Hints"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Hints"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/One_person>
-    rdfs:label     "One person"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "One person"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sincerity_of_Jack_Crocker>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Sincerity of Jack Crocker"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sincerity>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/half_alive_state>
-    rdfs:label     "half alive state"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "half alive state"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/case_of_murder>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "case of murder"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/case>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/murder>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Marriage_of_Lady_Brackenstall>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Marriage of Lady Brackenstall"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Marriage>;
@@ -4590,28 +4621,29 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Pin"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/arm_of_Lady_Brackenstall>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "arm of Lady Brackenstall"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/arm>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Two_people>
-    rdfs:label     "Two people"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Two people"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/dress>
-    rdfs:label     "dress"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "dress"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/life>
-    rdfs:label     "life"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "life"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/angry>
-    rdfs:label     "angry"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "angry"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/Examine>
     rdfs:label     "Examine"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/stick>
-    rdfs:label     "stick"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "stick"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/beat>
     rdf:type    kgc:Action;
     rdfs:label     "beat"@en.
@@ -4619,8 +4651,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "Serious problems"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Complaint>
-    rdfs:label     "Complaint"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Complaint"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/ice>
     rdfs:label     "ice"@en;
     rdf:type    kgc:Object.
@@ -4628,9 +4660,10 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "lie"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/mask>
-    rdfs:label     "mask"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "mask"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/pond_of_garden_of_Abbey_mansion>
+    rdf:type    kgc:Place;
     rdfs:label     "pond of garden of Abbey mansion"@en;
     rdf:type    kgc:OFobj;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/garden_of_Abbey_mansion>;
@@ -4644,17 +4677,19 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "law"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/sound_of_bell>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "sound of bell"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/sound>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/bell>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sir_Eustace_Brackenstall>
-    rdfs:label     "Sir Eustace Brackenstall"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Sir Eustace Brackenstall"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/enter>
     rdf:type    kgc:Action;
     rdfs:label     "enter"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/room_of_Lady_Brackenstall>
+    rdf:type    kgc:Place;
     rdfs:label     "room of Lady Brackenstall"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/room>;
@@ -4663,11 +4698,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "return"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holes_of_pond>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Holes of pond"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holes>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/pond>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/dregs_of_wine>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "dregs of wine"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/dregs>;
@@ -4676,8 +4713,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Do"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Book>
-    rdfs:label     "Book"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Book"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/keep>
     rdf:type    kgc:Action;
     rdfs:label     "keep"@en.
@@ -4685,12 +4722,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "report"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/warrant>
-    rdfs:label     "warrant"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "warrant"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/fireplace>
-    rdfs:label     "fireplace"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "fireplace"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Screams_of_Lady_Brackenstall>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Screams of Lady Brackenstall"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Screams>;
@@ -4702,9 +4740,10 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Voyage"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sydenham>
-    rdfs:label     "Sydenham"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Sydenham"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/seat_of_oak_chair>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "seat of oak chair"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/seat>;
@@ -4724,26 +4763,29 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "innocent"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sideboard>
+    rdf:type    kgc:Place;
     rdfs:label     "Sideboard"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/three_people>
-    rdfs:label     "three people"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "three people"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/help>
-    rdfs:label     "help"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "help"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/bottle_opener>
-    rdfs:label     "bottle opener"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "bottle opener"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/alarm>
-    rdfs:label     "alarm"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "alarm"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Eyes_of_Holmes>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Eyes of Holmes"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Eyes>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holmes>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/head_of_cadaver>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "head of cadaver"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/head>;
@@ -4755,8 +4797,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Charm"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/any_ship>
-    rdfs:label     "any ship"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "any ship"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/kitchen>
     rdfs:label     "kitchen"@en;
     rdf:type    kgc:Object.
@@ -4767,19 +4809,20 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "dead"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Rock-of-Gibraltar>
-    rdfs:label     "Rock-of-Gibraltar"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Rock-of-Gibraltar"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/the_wine>
     rdfs:label     "the wine"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Success_of_work>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Success of work"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Success>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/work>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Two_red_dot>
-    rdfs:label     "Two red dot"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Two red dot"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/estimate>
     rdf:type    kgc:Action;
     rdfs:label     "estimate"@en.
@@ -4787,8 +4830,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "ask"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/window>
-    rdfs:label     "window"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "window"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Two>
     rdfs:label     "Two"@en;
     rdf:type    kgc:Object.
@@ -4796,21 +4839,22 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Thought"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/trace>
-    rdfs:label     "trace"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "trace"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/Contact>
     rdfs:label     "Contact"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/moving>
-    rdfs:label     "moving"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "moving"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Unknown_things>
-    rdfs:label     "Unknown things"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Unknown things"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/criminal>
-    rdfs:label     "criminal"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "criminal"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/dog_of_Lady_Brackenstall>
+    rdf:type    kgc:Animal;
     rdfs:label     "dog of Lady Brackenstall"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/dog>;
@@ -4822,8 +4866,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "arm"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Criminal>
+    rdf:type    kgc:Person;
     rdfs:label     "Criminal"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject.
 <http://kgc.knowledge-graph.jp/data/predicate/cut>
     rdf:type    kgc:Action;
     rdfs:label     "cut"@en.
@@ -4833,9 +4878,10 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/cord>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/bell>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Brilliantly>
-    rdfs:label     "Brilliantly"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Brilliantly"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Testimony_of_Lady_Brackenstall>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Testimony of Lady Brackenstall"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Testimony>;
@@ -4844,20 +4890,20 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:AbstractTime;
     rdfs:label     "first time"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/both_hands>
-    rdfs:label     "both hands"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "both hands"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Hatred>
-    rdfs:label     "Hatred"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Hatred"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/case>
-    rdfs:label     "case"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "case"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Recovery>
     rdfs:label     "Recovery"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Oak_chair>
-    rdfs:label     "Oak chair"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Oak chair"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/meet>
     rdf:type    kgc:Action;
     rdfs:label     "meet"@en.
@@ -4871,6 +4917,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "two"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Mystery_of_the_case>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Mystery of the case"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Mystery>;
@@ -4879,24 +4926,26 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:AbstractTime;
     rdfs:label     "10:30"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Human_beings>
-    rdfs:label     "Human beings"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Human beings"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Three_of_glass>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Three of glass"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Three>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/glass>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Telegram>
-    rdfs:label     "Telegram"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Telegram"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sin_of_Jack_Crocker>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Sin of Jack Crocker"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sin>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/High_French_windows>
-    rdfs:label     "High French windows"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "High French windows"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/examine>
     rdf:type    kgc:Action;
     rdfs:label     "examine"@en.
@@ -4912,9 +4961,10 @@ kgc:Thought rdf:type owl:Class ;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/leave>;
     rdfs:label     "notLeave"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/sound>
-    rdfs:label     "sound"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "sound"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Voice_of_God>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Voice of God"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Voice>;
@@ -4923,9 +4973,10 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Stanley Hopkins"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/mobile_Bottle_opener>
-    rdfs:label     "mobile Bottle opener"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "mobile Bottle opener"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Brains_of_Sir_Eustace_Brackenstall>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Brains of Sir Eustace Brackenstall"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Brains>;
@@ -4934,8 +4985,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Cut"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/favorite_man>
-    rdfs:label     "favorite man"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "favorite man"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/swoon>
     rdf:type    kgc:Action;
     rdfs:label     "swoon"@en.
@@ -4946,6 +4997,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/end>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/case>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/room_of_Holmes>
+    rdf:type    kgc:Place;
     rdfs:label     "room of Holmes"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/room>;
@@ -4959,8 +5011,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "jump"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Southampton>
-    rdfs:label     "Southampton"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Southampton"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/stuck>
     rdf:type    kgc:Action;
     rdfs:label     "stuck"@en.
@@ -4968,8 +5020,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "please"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Living_room>
-    rdfs:label     "Living room"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Living room"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/2_hours>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "2 hours"@en.
@@ -4986,11 +5038,11 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "notHappy"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/The_entire_room>
-    rdfs:label     "The entire room"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "The entire room"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/love>
-    rdfs:label     "love"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "love"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notExist>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
@@ -4998,14 +5050,14 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "notExist"@en;
     rdf:type    kgc:Property.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Private_decision>
-    rdfs:label     "Private decision"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Private decision"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/blood>
-    rdfs:label     "blood"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "blood"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sailor>
-    rdfs:label     "Sailor"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Sailor"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/classy>
     rdf:type    kgc:Property;
     rdfs:label     "classy"@en.
@@ -5022,6 +5074,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:AbstractTime;
     rdfs:label     "1897"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Death_of_Sir_Eustace_Brackenstall>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Death of Sir Eustace Brackenstall"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Death>;
@@ -5030,22 +5083,22 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:AbstractTime;
     rdfs:label     "1895"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Situation>
-    rdfs:label     "Situation"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Situation"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Patrol>
-    rdfs:label     "Patrol"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Patrol"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/property>
-    rdfs:label     "property"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "property"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notExamine>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/examine>;
     rdfs:label     "notExamine"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/40_years_old>
-    rdfs:label     "40 years old"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "40 years old"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/marry>
     rdf:type    kgc:Action;
     rdfs:label     "marry"@en.
@@ -5058,23 +5111,23 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Thought>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Fiction>
-    rdfs:label     "Fiction"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Fiction"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/wonderful>
     rdf:type    kgc:Property;
     rdfs:label     "wonderful"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Decanter>
-    rdfs:label     "Decanter"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Decanter"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Heavy_blackthorn_stick>
-    rdfs:label     "Heavy blackthorn stick"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Heavy blackthorn stick"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/demon>
-    rdfs:label     "demon"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "demon"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/False_charge_person>
-    rdfs:label     "False charge person"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "False charge person"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/pullDown>
     rdf:type    kgc:Action;
     rdfs:label     "pullDown"@en.
@@ -5094,6 +5147,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "suffer"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Break_of_cord_of_bell>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Break of cord of bell"@en;
     rdf:type    kgc:OFobj;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/cord_of_bell>;
@@ -5104,17 +5158,20 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:AbstractTime;
     rdfs:label     "Two days later"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/All_of_servants>
+    rdf:type    kgc:Person;
     rdfs:label     "All of servants"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/All>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/servants>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall>
+    rdf:type    kgc:Person;
     rdfs:label     "Lady Brackenstall"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject.
 <http://kgc.knowledge-graph.jp/data/predicate/barefoot>
     rdf:type    kgc:Property;
     rdfs:label     "barefoot"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/opposite_end_of_cord_of_bell>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "opposite end of cord of bell"@en;
     rdf:type    kgc:OFobj;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/cord_of_bell>;
@@ -5125,11 +5182,11 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "attention"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/blanket>
-    rdfs:label     "blanket"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "blanket"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Personal_Description>
-    rdfs:label     "Personal Description"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Personal Description"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notHide>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
@@ -5142,28 +5199,30 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "surprise"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/acrobat>
-    rdfs:label     "acrobat"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "acrobat"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/beautiful>
     rdf:type    kgc:Property;
     rdfs:label     "beautiful"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Watson>
     rdfs:label     "Watson"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/dreg>
     rdfs:label     "dreg"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Adelaide>
-    rdfs:label     "Adelaide"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Adelaide"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/center_of_Abbey_mansion>
+    rdf:type    kgc:Place;
     rdfs:label     "center of Abbey mansion"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/center>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Abbey_mansion>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Bays_Rock>
+    rdf:type    kgc:Person;
     rdfs:label     "Bays Rock"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject.
 <http://kgc.knowledge-graph.jp/data/predicate/taciturn>
     rdf:type    kgc:Property;
     rdfs:label     "taciturn"@en.
@@ -5179,8 +5238,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:canNot    <http://kgc.knowledge-graph.jp/data/predicate/save>;
     rdfs:label     "cannotSave"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/fairly>
-    rdfs:label     "fairly"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "fairly"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/read_aloud>
     rdf:type    kgc:Action;
     rdfs:label     "read aloud"@en.
@@ -5188,11 +5247,11 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "contact"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Head>
-    rdfs:label     "Head"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Head"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/very_much>
-    rdfs:label     "very much"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "very much"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Mystery>
     rdfs:label     "Mystery"@en;
     rdf:type    kgc:Object.
@@ -5200,9 +5259,10 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "manly"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/candle>
-    rdfs:label     "candle"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "candle"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/window_of_Dining_room>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "window of Dining room"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/window>;
@@ -5214,14 +5274,16 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "notHave"@en;
     rdf:type    kgc:Property.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Vintage_wine>
-    rdfs:label     "Vintage wine"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Vintage wine"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/One_eye_of_Lady_Brackenstall>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "One eye of Lady Brackenstall"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/One_eye>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/room_of_Lady_Blackenstall>
+    rdf:type    kgc:Place;
     rdfs:label     "room of Lady Blackenstall"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/room>;
@@ -5232,8 +5294,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/equalto>;
     rdfs:label     "notEqualTo"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/6_feet_3_inch>
-    rdfs:label     "6 feet 3 inch"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "6 feet 3 inch"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/try>
     rdf:type    kgc:Action;
     rdfs:label     "try"@en.
@@ -5252,22 +5314,23 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "seat"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker>
-    rdfs:label     "Jack Crocker"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Jack Crocker"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/wantToCheat>
     rdf:type    kgc:Action;
     rdfs:label     "wantToCheat"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/newspaper>
-    rdfs:label     "newspaper"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "newspaper"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Hesitation_of_Lady_Brackenstall>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Hesitation of Lady Brackenstall"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Hesitation>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Title>
-    rdfs:label     "Title"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Title"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/head>
     rdfs:label     "head"@en;
     rdf:type    kgc:Object.
@@ -5283,6 +5346,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "emerge"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Pin_of_hat>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Pin of hat"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Pin>;
@@ -5302,8 +5366,10 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "hat"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Burglary_team_of_Lewisham>
+    rdf:type    kgc:Person;
     rdfs:label     "Burglary team of Lewisham"@en;
     rdf:type    kgc:OFobj;
+    rdf:type    kgc:PhysicalObject;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Burglary_team>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lewisham>.
 <http://kgc.knowledge-graph.jp/data/predicate/think>
@@ -5334,13 +5400,14 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "warn"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Testimony_of_Theresa>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Testimony of Theresa"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Testimony>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Theresa>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Captain>
-    rdfs:label     "Captain"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Captain"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/bottle>
     rdfs:label     "bottle"@en;
     rdf:type    kgc:Object.
@@ -5348,8 +5415,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "wear"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/conscience>
-    rdfs:label     "conscience"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "conscience"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/put_out>
     rdf:type    kgc:Action;
     rdfs:label     "put out"@en.
@@ -5357,14 +5424,15 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "beCut"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/danger_position>
-    rdfs:label     "danger position"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "danger position"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/room_of_Lady_Brackenstall>
     rdfs:label     "room of Lady Brackenstall"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/room>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/scratch_of_Lady_Brackenstal>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "scratch of Lady Brackenstal"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/scratch>;
@@ -5375,17 +5443,17 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "garden"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/ship>
-    rdfs:label     "ship"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "ship"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/Notice>
     rdfs:label     "Notice"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/again>
-    rdfs:label     "again"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "again"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Dining_room>
-    rdfs:label     "Dining room"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Dining room"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/love>
     rdf:type    kgc:Action;
     rdfs:label     "love"@en.
@@ -5395,8 +5463,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/interfere>;
     rdfs:label     "notInterfere"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/strength>
-    rdfs:label     "strength"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "strength"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/Kill>
     rdfs:label     "Kill"@en;
     rdf:type    kgc:Object.
@@ -5410,8 +5478,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "shout"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/rotten_pumpkin>
-    rdfs:label     "rotten pumpkin"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "rotten pumpkin"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/kill>
     rdf:type    kgc:Action;
     rdfs:label     "kill"@en.
@@ -5419,6 +5487,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "nice"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/law_of_UK>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "law of UK"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/law>;
@@ -5430,27 +5499,29 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "wantToSay"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/beard>
-    rdfs:label     "beard"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "beard"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/similarly>
-    rdfs:label     "similarly"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "similarly"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/The_top_floor_of_the_Abbey_mansion>
+    rdf:type    kgc:Place;
     rdfs:label     "The top floor of the Abbey mansion"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/The_top_floor>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/the_Abbey_mansion>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Arm_of_Sir_Eustace_Brackenstall>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Arm of Sir Eustace Brackenstall"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Arm>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sir_Eustace_Brackenstall>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/knot>
-    rdfs:label     "knot"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "knot"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/knife>
-    rdfs:label     "knife"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "knife"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/bottom>
     rdfs:label     "bottom"@en;
     rdf:type    kgc:Object.
@@ -5476,17 +5547,17 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Break"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Booze_hound>
-    rdfs:label     "Booze hound"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Booze hound"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Fist>
-    rdfs:label     "Fist"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Fist"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/within_24_hours>
-    rdfs:label     "within 24 hours"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "within 24 hours"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/decanter>
-    rdfs:label     "decanter"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "decanter"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/help>
     rdf:type    kgc:Action;
     rdfs:label     "help"@en.
@@ -5494,11 +5565,11 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "pale"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Rugs>
-    rdfs:label     "Rugs"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Rugs"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/poker>
-    rdfs:label     "poker"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "poker"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/distort>
     rdf:type    kgc:Property;
     rdfs:label     "distort"@en.
@@ -5509,12 +5580,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "silence"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/full>
-    rdfs:label     "full"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "full"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Cleverly>
-    rdfs:label     "Cleverly"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Cleverly"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/face_of_cadaver>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "face of cadaver"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/face>;
@@ -5523,20 +5595,20 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "beMarried"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Only_one_woman>
-    rdfs:label     "Only one woman"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Only one woman"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/beImprisoned>
     rdf:type    kgc:Action;
     rdfs:label     "beImprisoned"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Silver_products>
-    rdfs:label     "Silver products"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Silver products"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/beKilled>
     rdf:type    kgc:Action;
     rdfs:label     "beKilled"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/New_York>
-    rdfs:label     "New York"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "New York"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Thought_of_Watson>
     rdfs:label     "Thought of Watson"@en;
     rdf:type    kgc:OFobj;
@@ -5546,22 +5618,23 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "lose"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Loose_gown>
-    rdfs:label     "Loose gown"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Loose gown"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/The_same_class>
     rdf:type    kgc:Property;
     rdfs:label     "The same class"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Silver_Products>
-    rdfs:label     "Silver Products"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Silver Products"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Throat_of_Lady_Brackenstall>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Throat of Lady Brackenstall"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Throat>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/face>
-    rdfs:label     "face"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "face"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/derail>
     rdf:type    kgc:Action;
     rdfs:label     "derail"@en.
@@ -5569,36 +5642,37 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "come"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Blinding>
-    rdfs:label     "Blinding"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Blinding"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/voyage>
-    rdfs:label     "voyage"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "voyage"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/work>
     rdf:type    kgc:Action;
     rdfs:label     "work"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Kitchen>
-    rdfs:label     "Kitchen"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Kitchen"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Heavy_poker>
-    rdfs:label     "Heavy poker"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Heavy poker"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Interest>
     rdfs:label     "Interest"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/short_term>
-    rdfs:label     "short term"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "short term"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/The_local_police>
-    rdfs:label     "The local police"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "The local police"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Old_man>
-    rdfs:label     "Old man"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Old man"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Personality>
     rdfs:label     "Personality"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/siblings_of_Lady_Brackenstall>
+    rdf:type    kgc:Person;
     rdfs:label     "siblings of Lady Brackenstall"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/siblings>;
@@ -5607,13 +5681,14 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "sit"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/hand_of_Jack_Crocker>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "hand of Jack Crocker"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/hand>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Kent>
-    rdfs:label     "Kent"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Kent"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/self-defense>
     rdf:type    kgc:Property;
     rdfs:label     "self-defense"@en.
@@ -5624,23 +5699,25 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "letExamine"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/clue>
-    rdfs:label     "clue"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "clue"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/abuse_of_Lady_Brackenstall>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "abuse of Lady Brackenstall"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/abuse>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Train_crew>
-    rdfs:label     "Train crew"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Train crew"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Brains>
     rdfs:label     "Brains"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/baby>
-    rdfs:label     "baby"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "baby"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/dreg_of_two_of_glass>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "dreg of two of glass"@en;
     rdf:type    kgc:OFobj;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/two_of_glass>;
@@ -5654,8 +5731,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "hear"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/hole>
-    rdfs:label     "hole"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "hole"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/beBeaten>
     rdf:type    kgc:Action;
     rdfs:label     "beBeaten"@en.
@@ -5692,14 +5769,14 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "equalTo"@en;
     rdf:type    kgc:Property.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/dining_room>
-    rdfs:label     "dining room"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "dining room"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/become>
     rdf:type    kgc:Action;
     rdfs:label     "become"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Comparable_Officer>
-    rdfs:label     "Comparable Officer"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Comparable Officer"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/drink>
     rdf:type    kgc:Action;
     rdfs:label     "drink"@en.
@@ -5712,8 +5789,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Find"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Rock-Of-Gibraltar>
-    rdfs:label     "Rock-Of-Gibraltar"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Rock-Of-Gibraltar"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Death>
     rdfs:label     "Death"@en;
     rdf:type    kgc:Object.
@@ -5724,6 +5801,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "find"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/pond_of_garden>
+    rdf:type    kgc:Place;
     rdfs:label     "pond of garden"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/pond>;
@@ -5732,8 +5810,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "bell"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sir_Eustace_brackenstall>
-    rdfs:label     "Sir Eustace brackenstall"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Sir Eustace brackenstall"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/servants>
     rdfs:label     "servants"@en;
     rdf:type    kgc:Object.
@@ -5744,8 +5822,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "gangUp"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/shock>
-    rdfs:label     "shock"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "shock"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/doubtful>
     rdf:type    kgc:Property;
     rdfs:label     "doubtful"@en.
@@ -5755,16 +5833,17 @@ kgc:Thought rdf:type owl:Class ;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/contact>;
     rdfs:label     "notContact"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Personality_of_Jack_Crocker>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Personality of Jack Crocker"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Personality>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/servant>
-    rdfs:label     "servant"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "servant"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Wooden_products>
-    rdfs:label     "Wooden products"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Wooden products"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstal>
     rdfs:label     "Lady Brackenstal"@en;
     rdf:type    kgc:Object.
@@ -5775,8 +5854,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Annex"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/back>
-    rdfs:label     "back"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "back"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/collect>
     rdf:type    kgc:Action;
     rdfs:label     "collect"@en.
@@ -5790,8 +5869,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Have"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/repeatedly>
-    rdfs:label     "repeatedly"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "repeatedly"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/Wonder>
     rdf:type    kgc:Action;
     rdfs:label     "Wonder"@en.
@@ -5802,16 +5881,19 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "goUp"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Voice_of_the_people>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Voice of the people"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Voice>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/the_people>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Etiquette_of_UK>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Etiquette of UK"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Etiquette>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/UK>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Gate_of_garden>
+    rdf:type    kgc:Place;
     rdfs:label     "Gate of garden"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Gate>;
@@ -5820,8 +5902,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "gaze"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady>
-    rdfs:label     "Lady"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "Lady"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/Save>
     rdfs:label     "Save"@en;
     rdf:type    kgc:Object.
@@ -5835,14 +5917,14 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "the people"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/sailor>
-    rdfs:label     "sailor"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "sailor"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/home>
-    rdfs:label     "home"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "home"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/silver_products>
-    rdfs:label     "silver products"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "silver products"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/room>
     rdfs:label     "room"@en;
     rdf:type    kgc:Object.
@@ -5850,8 +5932,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "collapse"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/truth>
-    rdfs:label     "truth"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "truth"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/tie>
     rdf:type    kgc:Action;
     rdfs:label     "tie"@en.
@@ -5899,18 +5981,19 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "Formidable"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Southampton_route>
-    rdfs:label     "Southampton route"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Southampton route"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/side>
-    rdfs:label     "side"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "side"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/inhospitable>
     rdf:type    kgc:Property;
     rdfs:label     "inhospitable"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/eight_servants>
-    rdfs:label     "eight servants"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "eight servants"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Wrist_of_Lady_Brackenstall>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Wrist of Lady Brackenstall"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Wrist>;
@@ -5919,27 +6002,28 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "attend"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/pajama>
-    rdfs:label     "pajama"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "pajama"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/good_thing>
-    rdfs:label     "good thing"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "good thing"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Requirements_of_Lady_Brackenstall>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Requirements of Lady Brackenstall"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Requirements>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Bell>
-    rdfs:label     "Bell"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Bell"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/canMake>
     rdf:type    kgc:Action;
     rdf:type    kgc:CanAction;
     kgc:can    <http://kgc.knowledge-graph.jp/data/predicate/make>;
     rdfs:label     "canMake"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Gently>
-    rdfs:label     "Gently"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Gently"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/raise>
     rdf:type    kgc:Action;
     rdfs:label     "raise"@en.
@@ -5947,6 +6031,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "free"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Knot_of_cord_of_bell>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Knot of cord of bell"@en;
     rdf:type    kgc:OFobj;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/cord_of_bell>;
@@ -5954,8 +6039,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/cord>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/bell>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/cache>
-    rdfs:label     "cache"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "cache"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/BeUnhappy>
     rdfs:label     "BeUnhappy"@en;
     rdf:type    kgc:Object.
@@ -5986,8 +6071,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:AbstractTime;
     rdfs:label     "2 weeks ago"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Three_times>
-    rdfs:label     "Three times"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Three times"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/instruct>
     rdf:type    kgc:Action;
     rdfs:label     "instruct"@en.
@@ -5995,11 +6080,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "call"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Findings_of_Stanley_Hopkins>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Findings of Stanley Hopkins"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Findings>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Stanley_Hopkins>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/room_of_Theresa>
+    rdf:type    kgc:Place;
     rdfs:label     "room of Theresa"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/room>;
@@ -6010,8 +6097,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/two>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/glass>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Abbey_mansion>
-    rdfs:label     "Abbey mansion"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Abbey mansion"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notWantToInvolve>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
@@ -6021,20 +6108,22 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "God"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Abbey_Grange>
-    rdfs:label     "Abbey Grange"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Abbey Grange"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/open>
     rdf:type    kgc:Property;
     rdfs:label     "open"@en;
     rdf:type    kgc:Action.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Brutal_character_of_criminal>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Brutal character of criminal"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Brutal_character>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/criminal>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/police>
+    rdf:type    kgc:Place;
     rdfs:label     "police"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/oak_chair>
     rdfs:label     "oak chair"@en;
     rdf:type    kgc:Object.
@@ -6048,12 +6137,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "beHoax"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Suez_Canal>
-    rdfs:label     "Suez Canal"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "Suez Canal"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/see>
     rdf:type    kgc:Action;
     rdfs:label     "see"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/color_of_wine>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "color of wine"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/color>;
@@ -6065,8 +6155,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "fire"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Third_glass>
-    rdfs:label     "Third glass"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Third glass"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/Want>
     rdfs:label     "Want"@en;
     rdf:type    kgc:Object.
@@ -6077,6 +6167,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "center"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Both_ends_of_cord_of_bell>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Both ends of cord of bell"@en;
     rdf:type    kgc:OFobj;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/cord_of_bell>;
@@ -6084,30 +6175,34 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/cord>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/bell>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/swan>
-    rdfs:label     "swan"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Animal;
+    rdfs:label     "swan"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Residents_of_Abbey_Grange>
+    rdf:type    kgc:Person;
     rdfs:label     "Residents of Abbey Grange"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Residents>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Abbey_Grange>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Dinner_dress_of_black_sequins>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Dinner dress of black sequins"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Dinner_dress>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/black_sequins>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/two-thirds_of_the_wine>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "two-thirds of the wine"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/two-thirds>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/the_wine>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/pocket>
-    rdfs:label     "pocket"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "pocket"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/beHit>
     rdf:type    kgc:Action;
     rdfs:label     "beHit"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Interest_of_case>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Interest of case"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Interest>;
@@ -6126,13 +6221,14 @@ kgc:Thought rdf:type owl:Class ;
     kgc:canNot    <http://kgc.knowledge-graph.jp/data/predicate/hear>;
     rdfs:label     "cannotHear"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Death_of_Sir_Eustace_brackenstall>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Death of Sir Eustace brackenstall"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Death>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sir_Eustace_brackenstall>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/glass>
-    rdfs:label     "glass"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "glass"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/ring>
     rdf:type    kgc:Action;
     rdfs:label     "ring"@en.
@@ -6149,17 +6245,17 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "wantToInform"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Up>
-    rdfs:label     "Up"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Up"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/friend>
     rdf:type    kgc:Property;
     rdfs:label     "friend"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/second_glass>
-    rdfs:label     "second glass"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "second glass"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/fiction>
-    rdfs:label     "fiction"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "fiction"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Testimony>
     rdfs:label     "Testimony"@en;
     rdf:type    kgc:Object.
@@ -6167,15 +6263,16 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Hear"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Knee>
-    rdfs:label     "Knee"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "Knee"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/dining_table>
-    rdfs:label     "dining table"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "dining table"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/sufficient>
     rdf:type    kgc:Property;
     rdfs:label     "sufficient"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Career_of_Jack_Crocker>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "Career of Jack Crocker"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Career>;
@@ -6190,8 +6287,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "freeze"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/everyone>
-    rdfs:label     "everyone"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person;
+    rdfs:label     "everyone"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/Reach>
     rdfs:label     "Reach"@en;
     rdf:type    kgc:Object.
@@ -6207,8 +6304,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/hear>;
     rdfs:label     "notHear"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/talking>
-    rdfs:label     "talking"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "talking"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/deny>
     rdf:type    kgc:Action;
     rdfs:label     "deny"@en.
@@ -6219,5 +6316,5 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "beStabbled"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/several_times>
-    rdfs:label     "several times"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "several times"@en.
