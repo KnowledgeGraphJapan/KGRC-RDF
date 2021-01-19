@@ -2376,7 +2376,6 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/rain> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beheavyly> ;
     kgc:time  "rain heavylyT00:00:00"^^xsd:dateTime ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/SilverBlaze/rain heavyly> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SilverBlaze/1896-02-01T21_00_00> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/252> .
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/252>
