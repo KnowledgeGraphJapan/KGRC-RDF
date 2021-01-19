@@ -41,7 +41,7 @@ SPARQLエンドポイント
 |背中の曲がった男（曲がれる者）|&lt;http://kgc.knowledge-graph.jp/data/CrookedMan&gt;|
 |僧坊荘園（アベイ農場）|&lt;http://kgc.knowledge-graph.jp/data/AbbeyGrange&gt;|
 |白銀号事件|&lt;http://kgc.knowledge-graph.jp/data/SilverBlaze&gt;|
-|入院患者|&lt;http://kgc.knowledge-graph.jp/data/ResidentPatient&gt;|
+|入院患者（患者兼同居人）|&lt;http://kgc.knowledge-graph.jp/data/ResidentPatient&gt;|
 
 
 
