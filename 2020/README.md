@@ -2,7 +2,9 @@
 
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
-ナレッジグラフ推論チャレンジ2020用のナレッジグラフを公開するレポジトリです．  
+ナレッジグラフ推論チャレンジ2020用のナレッジグラフを公開するレポジトリです． 
+
+※最新版のナレッジグラフは，[こちら（2020用ver.2）](https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/master/2020v2)をご覧ください．
 
 利用法については下記のサイトもご覧ください.  
 https://challenge.knowledge-graph.jp/2020/rdf.html
