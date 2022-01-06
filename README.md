@@ -13,12 +13,12 @@ https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/master/2019
 ### 2020/10/09版
 https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/master/2020
 
-### 2020/01/19版【ver.2】
+### 2021/01/19版【ver.2】
 2020/12/24版【Ver.2暫定版】の不具合を修正したバージョン．  
 第3回ナレッジグラフ推論チャレンジ2020用の最終バージョンです． 
 https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/master/2020v2
 
 ## 第1回学生向け！ナレッジグラフ推論チャレンジ2021用
-2020/01/19版【ver.2】を使用します．  
+2021/01/19版【ver.2】を使用します．  
 https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/master/2020v2
 
