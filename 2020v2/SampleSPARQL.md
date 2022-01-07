@@ -136,3 +136,25 @@ WHERE {
   ?s ?p ?o .
 }
 ```
+## 「まだらのひも」の各場面の説明文（日本語）一覧を取得
+```
+PREFIX kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#>
+SELECT DISTINCT *
+FROM <http://kgc.knowledge-graph.jp/data/SpeckledBand>
+WHERE {
+  ?s kgc:source ?o .
+  FILTER(lang(?o)="ja")
+}
+```
+その中で「ホームズ」という文字列が含むシーンに限定する．
+```
+PREFIX kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#>
+SELECT DISTINCT *
+FROM <http://kgc.knowledge-graph.jp/data/SpeckledBand>
+WHERE {
+  ?s kgc:source ?o .
+  FILTER(lang(?o)="ja")
+  FILTER(regex(?o,"ホームズ"))  
+}
+```
+
