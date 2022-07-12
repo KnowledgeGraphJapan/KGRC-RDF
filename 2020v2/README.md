@@ -1,21 +1,19 @@
-# 推論チャレンジ2020用ナレッジグラフ【2021/01/19更新】 
-[![CC BY 4.0][cc-by-shield]][cc-by] 2022/01/06 説明更新  
+# The Open Knowledge Graph for the Third Knowledge Graph Reasoning Challenge 2020 
+[![CC BY 4.0][cc-by-shield]][cc-by]  
+(2021/01/19 data updated)    
+(2022/01/06 description updated)    
 
-ナレッジグラフ推論チャレンジ2020用のナレッジグラフを公開するレポジトリです．  
-※ **「第1回学生向け！ナレッジグラフ推論チャレンジ2021」** も，こちらのナレッジグラフを使用します．  
-※致命的な誤りが発見された場合は，修正する場合もありますので，修正リクエストはGitHubのIsuuesおよびPull rewiestsへお願いします．  
+This repogitory is for for public use of the Open Knowledge Graph for **the Third Knowledge Graph Reasoning Challenge 2020**.  
+(This KG is also used for **the First Knowledge Graph Reasoning Challenge 2021 for Students**.  
 
-## SPARQLエンドポイント
-- http://kg.hozo.jp/fuseki/kgrc2020v2/sparql (APIとして使う場合)
-- http://knowledge-graph.jp/sparql2020v2.html (ブラウザから利用)  
+## SPARQL endpoint
+- http://kg.hozo.jp/fuseki/kgrc2020v2/sparql (for use as API)
+- http://knowledge-graph.jp/sparql2020v2.html (for querying on the web browser)  
 
-サンプクエリは[こちら](SampleSPARQL.md)をご覧ください．  
-  
-利用法については下記のサイトもご覧ください.  
-https://challenge.knowledge-graph.jp/2020/rdf.html
-
-## 各小説のグラフIRI 
-※SPARQLクエリを実行する際には，下記のグラフIRIをFROM句で指定する必要がありますのでご注意ください．
+*Sample queries are availabe at [this page](SampleSPARQL.md).  
+ 
+## Grpaph IRI for each Story 
+[Note] When you run SPARQL queries, you have to specfy Graph IRIs using **FROM** sentences．
 |Story|Graph IRI|
 ----|----
 |The Speckled Band|&lt;http://kgc.knowledge-graph.jp/data/SpeckledBand&gt;|
