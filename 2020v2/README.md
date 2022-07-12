@@ -1,3 +1,4 @@
+[[Japanese](README_ja.md)]
 # The Open Knowledge Graph for the Third Knowledge Graph Reasoning Challenge 2020 
 [![CC BY 4.0][cc-by-shield]][cc-by]  
 (2021/01/19 data updated)    
@@ -28,8 +29,8 @@ This repogitory is for for public use of the Open Knowledge Graph for **the Thir
 
 
 
-## ライセンス
-本データは人工知能学会セマンティックウェブとオントロジー研究会（SIG-SWO, JSAI）が，[クリエイティブ・コモンズ・ライセンス（表示4.0国際)](https://creativecommons.org/licenses/by/4.0/)のもとで提供しています．
+## License
+This data is licensed under [a Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) by Special Interest Group on Semantic Web and Ontology, the Japanese Society for AI (SIG-SWO, JSAI).
 
 [![CC BY 4.0][cc-by-image]][cc-by]
 
