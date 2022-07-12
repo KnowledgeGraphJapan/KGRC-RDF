@@ -1,4 +1,5 @@
-# Open Knowledge Graph [[Japanese](README_ja.md)]
+ [[Japanese](README_ja.md)]
+ # Open Knowledge Graph
 This repogitory is for  for public use of the Open Knowledge Graph for **the Knowledge Graph Reasoning Challenge**.  
 
 ## for the First Knowledge Graph Reasoning Challenge 2018
