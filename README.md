@@ -1,24 +1,20 @@
-# ナレッジグラフ公開
-ナレッジグラフ推論チャレンジ用のナレッジグラフ公開ページです  
-※https://github.com/KnowledgeGraphJapan/Challenge/tree/master/rdf から移動しました．  
-　今後は，こちらのレポジトリで公開します（2019/10/18）．
+# Open Knowledge Graph
+This repogitory is for  for public use of the Open Knowledge Graph for **the Knowledge Graph Reasoning Challenge**.  
 
-## 第1回ナレッジグラフ推論チャレンジ2018用
+## for the First Knowledge Graph Reasoning Challenge 2018
 https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/master/SpeckledBand
 
-## 第2回ナレッジグラフ推論チャレンジ2019用  
+## for the Second Knowledge Graph Reasoning Challenge 2019
 https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/master/2019
  
-## 第3回ナレッジグラフ推論チャレンジ2020用 
-### 2020/10/09版
+## for the Third Knowledge Graph Reasoning Challenge 2020 
+### 2020/10/09ver.
 https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/master/2020
 
-### 2021/01/19版【ver.2】
-2020/12/24版【Ver.2暫定版】の不具合を修正したバージョン．  
-第3回ナレッジグラフ推論チャレンジ2020用の最終バージョンです． 
+### 2021/01/19ver. [ver.2]
+This is the final version for the Third Knowledge Graph Reasoning Challenge 2020.  
 https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/master/2020v2
 
-## 第1回学生向け！ナレッジグラフ推論チャレンジ2021用
-2021/01/19版【ver.2】を使用します．  
-https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/master/2020v2
+## for the First Knowledge Graph Reasoning Challenge 2021 *for Students*
+**2021/01/19ver. [ver.2]** should be used for this year's contest
 
