@@ -16,16 +16,16 @@ https://challenge.knowledge-graph.jp/2020/rdf.html
 
 ## 各小説のグラフIRI 
 ※SPARQLクエリを実行する際には，下記のグラフIRIをFROM句で指定する必要がありますのでご注意ください．
-|小説|グラフIRI|
+|Story|Graph IRI|
 ----|----
-|まだらのひも|&lt;http://kgc.knowledge-graph.jp/data/SpeckledBand&gt;|
-|踊る人形|&lt;http://kgc.knowledge-graph.jp/data/DancingMen&gt;|
-|花婿失踪事件（同一事件）|&lt;http://kgc.knowledge-graph.jp/data/ACaseOfIdentity&gt;|
-|悪魔の足|&lt;http://kgc.knowledge-graph.jp/data/DevilsFoot&gt;|
-|背中の曲がった男（曲がれる者）|&lt;http://kgc.knowledge-graph.jp/data/CrookedMan&gt;|
-|僧坊荘園（アベイ農場）|&lt;http://kgc.knowledge-graph.jp/data/AbbeyGrange&gt;|
-|白銀号事件|&lt;http://kgc.knowledge-graph.jp/data/SilverBlaze&gt;|
-|入院患者（患者兼同居人）|&lt;http://kgc.knowledge-graph.jp/data/ResidentPatient&gt;|
+|The Speckled Band|&lt;http://kgc.knowledge-graph.jp/data/SpeckledBand&gt;|
+|The Dancing Men|&lt;http://kgc.knowledge-graph.jp/data/DancingMen&gt;|
+|A Case of Identity|&lt;http://kgc.knowledge-graph.jp/data/ACaseOfIdentity&gt;|
+|The Devil's Foot|&lt;http://kgc.knowledge-graph.jp/data/DevilsFoot&gt;|
+|The Crooked Man|&lt;http://kgc.knowledge-graph.jp/data/CrookedMan&gt;|
+|The Abbey Grange|&lt;http://kgc.knowledge-graph.jp/data/AbbeyGrange&gt;|
+|Silver Blaze|&lt;http://kgc.knowledge-graph.jp/data/SilverBlaze&gt;|
+|The Resident Patient|&lt;http://kgc.knowledge-graph.jp/data/ResidentPatient&gt;|
 
 
 
