@@ -1,4 +1,5 @@
-# ナレッジグラフ公開 [[English](README.md)]
+ [[English](README.md)]
+ # ナレッジグラフ公開
 ナレッジグラフ推論チャレンジ用のナレッジグラフ公開ページです  
 ※https://github.com/KnowledgeGraphJapan/Challenge/tree/master/rdf から移動しました．  
 　今後は，こちらのレポジトリで公開します（2019/10/18）．
