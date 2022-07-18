@@ -1,23 +1,25 @@
-# サンプルクエリ
-ナレッジグラフ推論チャレンジ2019用の「ナレッジグラフ」を対象としたSPARQLクエリのサンプルです．  
+[Japanese](https://github.com/KnowledgeGraphJapan/KGRC-RDF/blob/master/2019/SPARQLsample_ja.md)
 
-SPARQLエンドポイントは，http://lod.hozo.jp/repositories/kgc2019 です．
+# Example Queries
+Example SPARQL queries for the knowledge graphs of the Knowledge Graph Reasoning Challenge.
 
-## ｢まらだのひも」の場面36のhasPredicate（その場面の内容を表す述語）を取得する
+SPARQL endpoint is [http://kg.hozo.jp/fuseki/kgrc2020v2/sparql](http://kg.hozo.jp/fuseki/kgrc2020v2/sparql)
+
+## Get hasPredicate (predicate representing the content of the scene) for scene 36 of "Speckled Band."
 ```
 select ?o
 {<http://kgc.knowledge-graph.jp/data/SpeckledBand/36> <http://kgc.knowledge-graph.jp/ontology/kgc.owl#hasPredicate> ?o .}
 ```
-[クエリ結果を見る](http://lod.hozo.jp/repositories/kgc2019#query/d/select%20?o%0A%7B%3Chttp://kgc.knowledge-graph.jp/data/SpeckledBand/36%3E%20%3Chttp://kgc.knowledge-graph.jp/ontology/kgc.owl%23hasPredicate%3E%20?o%20.%7D)
+[View the results](http://kg.hozo.jp/fuseki/kgrc2020v2/sparql?query=select%20?o%0A%7B%3Chttp://kgc.knowledge-graph.jp/data/SpeckledBand/36%3E%20%3Chttp://kgc.knowledge-graph.jp/ontology/kgc.owl%23hasPredicate%3E%20?o%20.%7D)
 
-## 指定した場面（例：｢まらだのひも」の場面36）の内容（トリプル一覧）を取得する
+## Get the contents (triple list) of the specified scene (e.g., scene 36 of "Speckled Band") 
 ```
 select ?p ?o
 {<http://kgc.knowledge-graph.jp/data/SpeckledBand/36> ?p ?o .}
 ```
-[クエリ結果を見る](http://lod.hozo.jp/repositories/kgc2019#query/d/select%20?p%20?o%0A%7B%3Chttp://kgc.knowledge-graph.jp/data/SpeckledBand/36%3E%20?p%20?o%20.%7D)
+[View the results](http://kg.hozo.jp/fuseki/kgrc2020v2/sparql?query=select%20?p%20?o%0A%7B%3Chttp://kgc.knowledge-graph.jp/data/SpeckledBand/36%3E%20?p%20?o%20.%7D)
 
-## 場面の一覧を取得する
+## Get a list of scenes
 ```
 PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#>
@@ -27,11 +29,11 @@ WHERE{
 ?s rdf:type kgc:Situation .
 }
 ```
-[クエリ結果を見る](http://lod.hozo.jp/repositories/kgc2019#query/d/PREFIX%20rdf:%20%20%3Chttp://www.w3.org/1999/02/22-rdf-syntax-ns%23%3E%0APREFIX%20kgc:%20%3Chttp://kgc.knowledge-graph.jp/ontology/kgc.owl#%3E%0A%0ASELECT%20?s%20%0AWHERE%7B%0A?s%20rdf:type%20kgc:Situation%20.%0A%7D)
+[View the results](http://kg.hozo.jp/fuseki/kgrc2020v2/sparql?query=PREFIX%20rdf:%20%20%3Chttp://www.w3.org/1999/02/22-rdf-syntax-ns%23%3E%0APREFIX%20kgc:%20%3Chttp://kgc.knowledge-graph.jp/ontology/kgc.owl#%3E%0A%0ASELECT%20?s%20%0AWHERE%7B%0A?s%20rdf:type%20kgc:Situation%20.%0A%7D)
 
-なお，このSPARQLエンドポイントには5つの小説のデータが入っていますので，特定の小説のデータのみを取得したい場合は`FROM <>`のように検索対象とする小説のグラフIRIを指定してください．
+This SPARQL endpoint contains data for eight novels, so if you want to retrieve data only for a specific novel, specify the graph IRI of the novel to be retrieved as in `FROM <>`. 
 
-## 場面の一覧を取得する（検索対象を「踊る人形」に限定）
+## Get a list of scenes (search target is limited to "The Dancing Men") 
 ```
 PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#>
@@ -42,9 +44,9 @@ WHERE{
 ?s rdf:type kgc:Situation .
 }
 ```
-[クエリ結果を見る](http://lod.hozo.jp/repositories/kgc2019#query/d/PREFIX%20rdf:%20%20%3Chttp://www.w3.org/1999/02/22-rdf-syntax-ns%23%3E%0APREFIX%20kgc:%20%3Chttp://kgc.knowledge-graph.jp/ontology/kgc.owl#%3E%0A%0ASELECT%20?s%20%0AFROM%20%3Chttp://kgc.knowledge-graph.jp/data/DancingMen%3E%0AWHERE%7B%0A?s%20rdf:type%20kgc:Situation%20.%0A%7D)
+[View the results](http://kg.hozo.jp/fuseki/kgrc2020v2/sparql?query=PREFIX%20rdf:%20%20%3Chttp://www.w3.org/1999/02/22-rdf-syntax-ns%23%3E%0APREFIX%20kgc:%20%3Chttp://kgc.knowledge-graph.jp/ontology/kgc.owl#%3E%0A%0ASELECT%20?s%20%0AFROM%20%3Chttp://kgc.knowledge-graph.jp/data/DancingMen%3E%0AWHERE%7B%0A?s%20rdf:type%20kgc:Situation%20.%0A%7D)
 
-## 条件を満たす場面の一覧を取得する
+## Get a list of scenes that satisfy the conditions.
 ```
 PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#>
@@ -56,10 +58,10 @@ WHERE{
 FILTER(lang(?sc)="ja")
 }
 ```
-[クエリ結果を見る](http://lod.hozo.jp/repositories/kgc2019#query/d/PREFIX%20rdf:%20%20%3Chttp://www.w3.org/1999/02/22-rdf-syntax-ns%23%3E%0APREFIX%20kgc:%20%3Chttp://kgc.knowledge-graph.jp/ontology/kgc.owl#%3E%0A%0ASELECT%20?s%20?sc%0AWHERE%7B%0A?s%20kgc:subject%09%3Chttp://kgc.knowledge-graph.jp/data/DancingMen/Qubit%3E%20;%0A%20%20%20kgc:source%20%20?sc.%0AFILTER(lang(?sc)=%22ja%22)%0A%7D)
+[View the results](http://kg.hozo.jp/fuseki/kgrc2020v2/sparql?query=PREFIX%20rdf:%20%20%3Chttp://www.w3.org/1999/02/22-rdf-syntax-ns%23%3E%0APREFIX%20kgc:%20%3Chttp://kgc.knowledge-graph.jp/ontology/kgc.owl#%3E%0A%0ASELECT%20?s%20?sc%0AWHERE%7B%0A?s%20kgc:subject%09%3Chttp://kgc.knowledge-graph.jp/data/DancingMen/Qubit%3E%20;%0A%20%20%20kgc:source%20%20?sc.%0AFILTER(lang(?sc)=%22ja%22)%0A%7D)
 
 
-## 場面間のつながりを取得する
+## Get connections between scenes
 ```
 PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#>
@@ -73,4 +75,4 @@ WHERE{
 ?o rdf:type kgc:Situation .
 }
 ```
-[クエリ結果を見る](http://lod.hozo.jp/repositories/kgc2019#query/d/PREFIX%20rdf:%20%20%3Chttp://www.w3.org/1999/02/22-rdf-syntax-ns%23%3E%0APREFIX%20kgc:%20%3Chttp://kgc.knowledge-graph.jp/ontology/kgc.owl#%3E%0APREFIX%20dm:%20%3Chttp://kgc.knowledge-graph.jp/data/DancingMen/%3E%0A%0ASELECT%20?s%20?p%20?o%0AFROM%20%3Chttp://kgc.knowledge-graph.jp/data/DancingMen%3E%0AWHERE%7B%0A?s%20?p%20?o.%0A?s%20rdf:type%20kgc:Situation%20.%0A?o%20rdf:type%20kgc:Situation%20.%0A%7D)
+[View the results](http://kg.hozo.jp/fuseki/kgrc2020v2/sparql?query=PREFIX%20rdf:%20%20%3Chttp://www.w3.org/1999/02/22-rdf-syntax-ns%23%3E%0APREFIX%20kgc:%20%3Chttp://kgc.knowledge-graph.jp/ontology/kgc.owl#%3E%0APREFIX%20dm:%20%3Chttp://kgc.knowledge-graph.jp/data/DancingMen/%3E%0A%0ASELECT%20?s%20?p%20?o%0AFROM%20%3Chttp://kgc.knowledge-graph.jp/data/DancingMen%3E%0AWHERE%7B%0A?s%20?p%20?o.%0A?s%20rdf:type%20kgc:Situation%20.%0A?o%20rdf:type%20kgc:Situation%20.%0A%7D)
