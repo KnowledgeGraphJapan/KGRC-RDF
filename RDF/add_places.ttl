@@ -1,0 +1,197 @@
+@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
+
+ex:event0_admire_paintings_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event0_browse_internet_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event0_brush_teeth_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event0_carry_box_scene1 vh2kg:place ex:bedroom74_scene1 .
+
+ex:event0_clean_desk_scene1 vh2kg:place ex:bedroom74_scene1 .
+
+ex:event0_drink_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event0_find_some_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event0_go_to_sleep_scene1 vh2kg:place ex:bedroom74_scene1 .
+
+ex:event0_go_to_toilet_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event0_prepare_breakfast_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event0_prepare_sitting_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event0_read_book_scene1 vh2kg:place ex:bedroom74_scene1 .
+
+ex:event0_relax_on_sofa_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event0_take_a_nap_scene1 vh2kg:place ex:bedroom74_scene1 .
+
+ex:event0_take_off_clock_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event0_use_smartphone_scene1 vh2kg:place ex:bedroom74_scene1 .
+
+ex:event0_wash_clothes_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event0_wash_hands_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event0_wash_pillow_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event0_watch_tv_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event1_admire_paintings_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event1_browse_internet_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event1_brush_teeth_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event1_carry_box_scene1 vh2kg:place ex:bedroom74_scene1 .
+
+ex:event1_clean_desk_scene1 vh2kg:place ex:bedroom74_scene1 .
+
+ex:event1_find_some_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event1_go_to_toilet_scene1 vh2kg:place ex:bathroom11_scene1,
+        ex:toilet46_scene1 .
+
+ex:event1_prepare_breakfast_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event1_prepare_sitting_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event1_read_book_scene1 vh2kg:place ex:bedroom74_scene1 .
+
+ex:event1_relax_on_sofa_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event1_take_a_nap_scene1 vh2kg:place ex:bedroom74_scene1 .
+
+ex:event1_take_off_clock_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event1_use_smartphone_scene1 vh2kg:place ex:bedroom74_scene1 .
+
+ex:event1_wash_clothes_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event1_wash_hands_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event1_wash_pillow_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event1_watch_tv_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event2_admire_paintings_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event2_browse_internet_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event2_brush_teeth_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event2_carry_box_scene1 vh2kg:from ex:bedroom74_scene1 ;
+    vh2kg:to ex:livingroom336_scene1 .
+
+ex:event2_clean_desk_scene1 vh2kg:from ex:bedroom74_scene1 ;
+    vh2kg:to ex:kitchen207_scene1 .
+
+ex:event2_find_some_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event2_go_to_toilet_scene1 vh2kg:place ex:bathroom11_scene1,
+        ex:toilet46_scene1 .
+
+ex:event2_prepare_breakfast_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event2_prepare_sitting_scene1 vh2kg:from ex:kitchen207_scene1 ;
+    vh2kg:to ex:livingroom336_scene1 .
+
+ex:event2_read_book_scene1 vh2kg:place ex:bedroom74_scene1 .
+
+ex:event2_relax_on_sofa_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event2_take_a_nap_scene1 vh2kg:place ex:bedroom74_scene1 .
+
+ex:event2_use_smartphone_scene1 vh2kg:place ex:bedroom74_scene1 .
+
+ex:event2_wash_clothes_scene1 vh2kg:from ex:kitchen207_scene1 ;
+    vh2kg:to ex:bathroom11_scene1 .
+
+ex:event2_wash_hands_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event2_watch_tv_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event3_browse_internet_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event3_brush_teeth_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event3_carry_box_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event3_clean_desk_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event3_drink_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event3_find_some_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event3_go_to_sleep_scene1 vh2kg:place ex:bedroom74_scene1 .
+
+ex:event3_prepare_breakfast_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event3_prepare_sitting_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event3_read_book_scene1 vh2kg:from ex:bedroom74_scene1 ;
+    vh2kg:to ex:livingroom336_scene1 .
+
+ex:event3_relax_on_sofa_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event3_take_a_nap_scene1 vh2kg:place ex:bedroom74_scene1 .
+
+ex:event3_use_smartphone_scene1 vh2kg:from ex:bedroom74_scene1 ;
+    vh2kg:to ex:livingroom336_scene1 .
+
+ex:event3_wash_hands_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event3_watch_tv_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event4_browse_internet_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event4_carry_box_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event4_drink_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event4_find_some_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event4_go_to_sleep_scene1 vh2kg:place ex:bedroom74_scene1 .
+
+ex:event4_go_to_toilet_scene1 vh2kg:place ex:bathroom11_scene1,
+        ex:toilet46_scene1 .
+
+ex:event4_prepare_breakfast_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event4_read_book_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event4_relax_on_sofa_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event4_take_a_nap_scene1 vh2kg:place ex:bedroom74_scene1 .
+
+ex:event4_use_smartphone_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event4_wash_clothes_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event4_wash_hands_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event4_watch_tv_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event5_drink_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event5_find_some_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event5_go_to_toilet_scene1 vh2kg:place ex:bathroom11_scene1,
+        ex:toilet46_scene1 .
+
+ex:event5_relax_on_sofa_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event5_take_a_nap_scene1 vh2kg:place ex:bedroom74_scene1 .
+
+ex:event5_use_smartphone_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event5_wash_hands_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event5_watch_tv_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event7_drink_scene1 vh2kg:place ex:kitchen207_scene1 .
+

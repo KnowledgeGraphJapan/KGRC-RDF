@@ -3613,247 +3613,247 @@ ex:wash_pillow_scene1 a ho:wash_pillow ;
     vh2kg:virtualHome ex:scene1 ;
     rdfs:comment "Walk to the pillow. Carry the pillow to the washing machine." .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Characters> a owl:Class ;
+vh2kg:Characters a owl:Class ;
     rdfs:label "Characters" ;
     rdfs:subClassOf vh2kg:Object .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floors> a owl:Class ;
+vh2kg:Floors a owl:Class ;
     rdfs:label "Floors" ;
     rdfs:subClassOf vh2kg:Object .
 
-ex:bathroom11_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bathroom> ;
+ex:bathroom11_scene1 a vh2kg:Bathroom ;
     rdfs:label "bathroom" ;
     ns1:identifier "11" .
 
-ex:bedroom74_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bedroom> ;
+ex:bedroom74_scene1 a vh2kg:Bedroom ;
     rdfs:label "bedroom" ;
     ns1:identifier "74" .
 
-ex:ceiling100_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling100_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "100" .
 
-ex:ceiling101_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling101_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "101" .
 
-ex:ceiling221_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling221_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "221" .
 
-ex:ceiling222_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling222_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "222" .
 
-ex:ceiling223_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling223_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "223" .
 
-ex:ceiling224_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling224_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "224" .
 
-ex:ceiling225_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling225_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "225" .
 
-ex:ceiling226_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling226_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "226" .
 
-ex:ceiling25_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling25_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "25" .
 
-ex:ceiling26_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling26_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "26" .
 
-ex:ceiling27_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling27_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "27" .
 
-ex:ceiling28_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling28_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "28" .
 
-ex:ceiling29_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling29_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "29" .
 
-ex:ceiling30_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling30_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "30" .
 
-ex:ceiling354_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling354_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "354" .
 
-ex:ceiling355_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling355_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "355" .
 
-ex:ceiling356_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling356_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "356" .
 
-ex:ceiling357_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling357_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "357" .
 
-ex:ceiling358_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling358_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "358" .
 
-ex:ceiling359_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling359_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "359" .
 
-ex:ceiling360_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling360_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "360" .
 
-ex:ceiling361_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling361_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "361" .
 
-ex:ceiling362_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling362_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "362" .
 
-ex:ceiling93_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling93_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "93" .
 
-ex:ceiling94_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling94_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "94" .
 
-ex:ceiling95_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling95_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "95" .
 
-ex:ceiling96_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling96_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "96" .
 
-ex:ceiling97_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling97_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "97" .
 
-ex:ceiling98_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling98_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "98" .
 
-ex:ceiling99_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> ;
+ex:ceiling99_scene1 a vh2kg:Ceiling ;
     rdfs:label "ceiling" ;
     ns1:identifier "99" .
 
-ex:ceilinglamp102_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceilinglamp> ;
+ex:ceilinglamp102_scene1 a vh2kg:Ceilinglamp ;
     rdfs:label "ceilinglamp" ;
     ns1:identifier "102" .
 
-ex:ceilinglamp228_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceilinglamp> ;
+ex:ceilinglamp228_scene1 a vh2kg:Ceilinglamp ;
     rdfs:label "ceilinglamp" ;
     ns1:identifier "228" .
 
-ex:ceilinglamp229_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceilinglamp> ;
+ex:ceilinglamp229_scene1 a vh2kg:Ceilinglamp ;
     rdfs:label "ceilinglamp" ;
     ns1:identifier "229" .
 
-ex:ceilinglamp35_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceilinglamp> ;
+ex:ceilinglamp35_scene1 a vh2kg:Ceilinglamp ;
     rdfs:label "ceilinglamp" ;
     ns1:identifier "35" .
 
-ex:ceilinglamp366_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceilinglamp> ;
+ex:ceilinglamp366_scene1 a vh2kg:Ceilinglamp ;
     rdfs:label "ceilinglamp" ;
     ns1:identifier "366" .
 
-ex:chair109_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Chair> ;
+ex:chair109_scene1 a vh2kg:Chair ;
     rdfs:label "chair" ;
     ns1:identifier "109" .
 
-ex:chair112_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Chair> ;
+ex:chair112_scene1 a vh2kg:Chair ;
     rdfs:label "chair" ;
     ns1:identifier "112" .
 
-ex:closet129_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Closet> ;
+ex:closet129_scene1 a vh2kg:Closet ;
     rdfs:label "closet" ;
     ns1:identifier "129" .
 
-ex:closet375_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Closet> ;
+ex:closet375_scene1 a vh2kg:Closet ;
     rdfs:label "closet" ;
     ns1:identifier "375" .
 
-ex:computer176_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Computer> ;
+ex:computer176_scene1 a vh2kg:Computer ;
     rdfs:label "computer" ;
     ns1:identifier "176" .
 
-ex:computer434_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Computer> ;
+ex:computer434_scene1 a vh2kg:Computer ;
     rdfs:label "computer" ;
     ns1:identifier "434" .
 
-ex:curtains185_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Curtains> ;
+ex:curtains185_scene1 a vh2kg:Curtains ;
     rdfs:label "curtains" ;
     ns1:identifier "185" .
 
-ex:curtains186_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Curtains> ;
+ex:curtains186_scene1 a vh2kg:Curtains ;
     rdfs:label "curtains" ;
     ns1:identifier "186" .
 
-ex:curtains187_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Curtains> ;
+ex:curtains187_scene1 a vh2kg:Curtains ;
     rdfs:label "curtains" ;
     ns1:identifier "187" .
 
-ex:curtains32_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Curtains> ;
+ex:curtains32_scene1 a vh2kg:Curtains ;
     rdfs:label "curtains" ;
     ns1:identifier "32" .
 
-ex:curtains33_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Curtains> ;
+ex:curtains33_scene1 a vh2kg:Curtains ;
     rdfs:label "curtains" ;
     ns1:identifier "33" .
 
-ex:curtains34_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Curtains> ;
+ex:curtains34_scene1 a vh2kg:Curtains ;
     rdfs:label "curtains" ;
     ns1:identifier "34" .
 
-ex:curtains424_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Curtains> ;
+ex:curtains424_scene1 a vh2kg:Curtains ;
     rdfs:label "curtains" ;
     ns1:identifier "424" .
 
-ex:curtains425_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Curtains> ;
+ex:curtains425_scene1 a vh2kg:Curtains ;
     rdfs:label "curtains" ;
     ns1:identifier "425" .
 
-ex:curtains426_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Curtains> ;
+ex:curtains426_scene1 a vh2kg:Curtains ;
     rdfs:label "curtains" ;
     ns1:identifier "426" .
 
-ex:curtains48_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Curtains> ;
+ex:curtains48_scene1 a vh2kg:Curtains ;
     rdfs:label "curtains" ;
     ns1:identifier "48" .
 
-ex:door227_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Door> ;
+ex:door227_scene1 a vh2kg:Door ;
     rdfs:label "door" ;
     ns1:identifier "227" .
 
-ex:door52_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Door> ;
+ex:door52_scene1 a vh2kg:Door ;
     rdfs:label "door" ;
     ns1:identifier "52" .
 
-ex:doorjamb171_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Doorjamb> ;
+ex:doorjamb171_scene1 a vh2kg:Doorjamb ;
     rdfs:label "doorjamb" ;
     ns1:identifier "171" .
 
-ex:doorjamb363_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Doorjamb> ;
+ex:doorjamb363_scene1 a vh2kg:Doorjamb ;
     rdfs:label "doorjamb" ;
     ns1:identifier "363" .
 
-ex:doorjamb364_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Doorjamb> ;
+ex:doorjamb364_scene1 a vh2kg:Doorjamb ;
     rdfs:label "doorjamb" ;
     ns1:identifier "364" .
 
-ex:doorjamb53_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Doorjamb> ;
+ex:doorjamb53_scene1 a vh2kg:Doorjamb ;
     rdfs:label "doorjamb" ;
     ns1:identifier "53" .
 
@@ -3867,191 +3867,191 @@ ex:event0_wash_pillow_scene1 a vh2kg:StartEvent ;
     vh2kg:situationBeforeEvent ex:home_situation0_wash_pillow_scene1 ;
     vh2kg:time ex:time_event0_wash_pillow_scene1 .
 
-ex:facecream61_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Facecream> ;
+ex:facecream61_scene1 a vh2kg:Facecream ;
     rdfs:label "facecream" ;
     vh2kg:attribute vh2kg:cream ;
     ns1:identifier "61" .
 
-ex:floor12_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor12_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "12" .
 
-ex:floor13_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor13_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "13" .
 
-ex:floor14_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor14_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "14" .
 
-ex:floor15_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor15_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "15" .
 
-ex:floor16_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor16_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "16" .
 
-ex:floor17_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor17_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "17" .
 
-ex:floor208_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor208_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "208" .
 
-ex:floor209_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor209_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "209" .
 
-ex:floor210_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor210_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "210" .
 
-ex:floor211_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor211_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "211" .
 
-ex:floor212_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor212_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "212" .
 
-ex:floor213_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor213_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "213" .
 
-ex:floor337_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor337_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "337" .
 
-ex:floor338_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor338_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "338" .
 
-ex:floor339_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor339_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "339" .
 
-ex:floor340_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor340_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "340" .
 
-ex:floor341_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor341_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "341" .
 
-ex:floor342_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor342_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "342" .
 
-ex:floor343_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor343_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "343" .
 
-ex:floor344_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor344_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "344" .
 
-ex:floor345_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor345_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "345" .
 
-ex:floor75_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor75_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "75" .
 
-ex:floor76_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor76_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "76" .
 
-ex:floor77_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor77_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "77" .
 
-ex:floor78_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor78_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "78" .
 
-ex:floor79_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor79_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "79" .
 
-ex:floor80_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor80_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "80" .
 
-ex:floor81_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor81_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "81" .
 
-ex:floor82_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor82_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "82" .
 
-ex:floor83_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> ;
+ex:floor83_scene1 a vh2kg:Floor ;
     rdfs:label "floor" ;
     ns1:identifier "83" .
 
-ex:garbagecan105_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Garbagecan> ;
+ex:garbagecan105_scene1 a vh2kg:Garbagecan ;
     rdfs:label "garbagecan" ;
     ns1:identifier "105" .
 
-ex:hairproduct59_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hairproduct> ;
+ex:hairproduct59_scene1 a vh2kg:Hairproduct ;
     rdfs:label "hairproduct" ;
     ns1:identifier "59" .
 
-ex:hairproduct60_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hairproduct> ;
+ex:hairproduct60_scene1 a vh2kg:Hairproduct ;
     rdfs:label "hairproduct" ;
     ns1:identifier "60" .
 
-ex:kitchen207_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Kitchen> ;
+ex:kitchen207_scene1 a vh2kg:Kitchen ;
     rdfs:label "kitchen" ;
     ns1:identifier "207" .
 
-ex:kitchencabinet234_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Kitchencabinet> ;
+ex:kitchencabinet234_scene1 a vh2kg:Kitchencabinet ;
     rdfs:label "kitchencabinet" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "234" .
 
-ex:kitchencabinet235_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Kitchencabinet> ;
+ex:kitchencabinet235_scene1 a vh2kg:Kitchencabinet ;
     rdfs:label "kitchencabinet" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "235" .
 
-ex:kitchencabinet236_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Kitchencabinet> ;
+ex:kitchencabinet236_scene1 a vh2kg:Kitchencabinet ;
     rdfs:label "kitchencabinet" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "236" .
 
-ex:kitchencounter238_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Kitchencounter> ;
+ex:kitchencounter238_scene1 a vh2kg:Kitchencounter ;
     rdfs:label "kitchencounter" ;
     ns1:identifier "238" .
 
-ex:kitchencounterdrawer239_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Kitchencounterdrawer> ;
+ex:kitchencounterdrawer239_scene1 a vh2kg:Kitchencounterdrawer ;
     rdfs:label "kitchencounterdrawer" ;
     ns1:identifier "239" .
 
-ex:kitchencounterdrawer242_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Kitchencounterdrawer> ;
+ex:kitchencounterdrawer242_scene1 a vh2kg:Kitchencounterdrawer ;
     rdfs:label "kitchencounterdrawer" ;
     ns1:identifier "242" .
 
-ex:lightswitch175_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Lightswitch> ;
+ex:lightswitch175_scene1 a vh2kg:Lightswitch ;
     rdfs:label "lightswitch" ;
     ns1:identifier "175" .
 
-ex:lightswitch428_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Lightswitch> ;
+ex:lightswitch428_scene1 a vh2kg:Lightswitch ;
     rdfs:label "lightswitch" ;
     ns1:identifier "428" .
 
-ex:livingroom336_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Livingroom> ;
+ex:livingroom336_scene1 a vh2kg:Livingroom ;
     rdfs:label "livingroom" ;
     ns1:identifier "336" .
 
-ex:powersocket429_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Powersocket> ;
+ex:powersocket429_scene1 a vh2kg:Powersocket ;
     rdfs:label "powersocket" ;
     ns1:identifier "429" .
 
-ex:rug179_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Rug> ;
+ex:rug179_scene1 a vh2kg:Rug ;
     rdfs:label "rug" ;
     ns1:identifier "179" .
 
@@ -15470,15 +15470,15 @@ ex:shape_state4_wineglass300_wash_pillow_scene1 a x3do:Shape ;
             rdf:first 8.954637e-02 ;
             rdf:rest ( 1.902101e-01 8.954637e-02 ) ] .
 
-ex:sink247_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Sink> ;
+ex:sink247_scene1 a vh2kg:Sink ;
     rdfs:label "sink" ;
     ns1:identifier "247" .
 
-ex:sink248_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Sink> ;
+ex:sink248_scene1 a vh2kg:Sink ;
     rdfs:label "sink" ;
     ns1:identifier "248" .
 
-ex:stall47_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Stall> ;
+ex:stall47_scene1 a vh2kg:Stall ;
     rdfs:label "stall" ;
     ns1:identifier "47" .
 
@@ -22793,11 +22793,11 @@ ex:state4_wineglass300_wash_pillow_scene1 a vh2kg:State ;
     vh2kg:isStateOf ex:wineglass300_scene1 ;
     vh2kg:partOf ex:home_situation4_wash_pillow_scene1 .
 
-ex:stove312_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Stove> ;
+ex:stove312_scene1 a vh2kg:Stove ;
     rdfs:label "stove" ;
     ns1:identifier "312" .
 
-ex:stovefan305_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Stovefan> ;
+ex:stovefan305_scene1 a vh2kg:Stovefan ;
     rdfs:label "stovefan" ;
     ns1:identifier "305" .
 
@@ -22817,347 +22817,347 @@ ex:time_event3_wash_pillow_scene1 a time:Duration ;
     time:numericDuration 0.04487490653991699 ;
     time:unitType time:unitSecond .
 
-ex:towel68_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Towel> ;
+ex:towel68_scene1 a vh2kg:Towel ;
     rdfs:label "towel" ;
     vh2kg:attribute vh2kg:cover_object ;
     ns1:identifier "68" .
 
-ex:towel69_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Towel> ;
+ex:towel69_scene1 a vh2kg:Towel ;
     rdfs:label "towel" ;
     vh2kg:attribute vh2kg:cover_object ;
     ns1:identifier "69" .
 
-ex:towelrack40_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Towelrack> ;
+ex:towelrack40_scene1 a vh2kg:Towelrack ;
     rdfs:label "towelrack" ;
     ns1:identifier "40" .
 
-ex:towelrack41_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Towelrack> ;
+ex:towelrack41_scene1 a vh2kg:Towelrack ;
     rdfs:label "towelrack" ;
     ns1:identifier "41" .
 
-ex:towelrack42_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Towelrack> ;
+ex:towelrack42_scene1 a vh2kg:Towelrack ;
     rdfs:label "towelrack" ;
     ns1:identifier "42" .
 
-ex:towelrack43_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Towelrack> ;
+ex:towelrack43_scene1 a vh2kg:Towelrack ;
     rdfs:label "towelrack" ;
     ns1:identifier "43" .
 
-ex:wall18_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall18_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "18" .
 
-ex:wall19_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall19_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "19" .
 
-ex:wall20_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall20_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "20" .
 
-ex:wall214_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall214_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "214" .
 
-ex:wall215_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall215_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "215" .
 
-ex:wall216_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall216_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "216" .
 
-ex:wall217_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall217_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "217" .
 
-ex:wall218_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall218_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "218" .
 
-ex:wall219_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall219_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "219" .
 
-ex:wall21_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall21_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "21" .
 
-ex:wall220_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall220_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "220" .
 
-ex:wall22_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall22_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "22" .
 
-ex:wall23_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall23_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "23" .
 
-ex:wall24_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall24_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "24" .
 
-ex:wall346_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall346_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "346" .
 
-ex:wall347_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall347_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "347" .
 
-ex:wall348_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall348_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "348" .
 
-ex:wall349_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall349_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "349" .
 
-ex:wall350_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall350_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "350" .
 
-ex:wall351_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall351_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "351" .
 
-ex:wall352_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall352_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "352" .
 
-ex:wall353_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall353_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "353" .
 
-ex:wall84_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall84_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "84" .
 
-ex:wall85_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall85_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "85" .
 
-ex:wall86_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall86_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "86" .
 
-ex:wall87_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall87_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "87" .
 
-ex:wall88_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall88_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "88" .
 
-ex:wall89_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall89_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "89" .
 
-ex:wall90_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall90_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "90" .
 
-ex:wall91_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> ;
+ex:wall91_scene1 a vh2kg:Wall ;
     rdfs:label "wall" ;
     ns1:identifier "91" .
 
-ex:walllamp367_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Walllamp> ;
+ex:walllamp367_scene1 a vh2kg:Walllamp ;
     rdfs:label "walllamp" ;
     ns1:identifier "367" .
 
-ex:walllamp368_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Walllamp> ;
+ex:walllamp368_scene1 a vh2kg:Walllamp ;
     rdfs:label "walllamp" ;
     ns1:identifier "368" .
 
-ex:walllamp36_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Walllamp> ;
+ex:walllamp36_scene1 a vh2kg:Walllamp ;
     rdfs:label "walllamp" ;
     ns1:identifier "36" .
 
-ex:walllamp37_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Walllamp> ;
+ex:walllamp37_scene1 a vh2kg:Walllamp ;
     rdfs:label "walllamp" ;
     ns1:identifier "37" .
 
-ex:walllamp38_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Walllamp> ;
+ex:walllamp38_scene1 a vh2kg:Walllamp ;
     rdfs:label "walllamp" ;
     ns1:identifier "38" .
 
-ex:wallpictureframe181_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wallpictureframe> ;
+ex:wallpictureframe181_scene1 a vh2kg:Wallpictureframe ;
     rdfs:label "wallpictureframe" ;
     ns1:identifier "181" .
 
-ex:wallpictureframe255_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wallpictureframe> ;
+ex:wallpictureframe255_scene1 a vh2kg:Wallpictureframe ;
     rdfs:label "wallpictureframe" ;
     ns1:identifier "255" .
 
-ex:wallpictureframe256_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wallpictureframe> ;
+ex:wallpictureframe256_scene1 a vh2kg:Wallpictureframe ;
     rdfs:label "wallpictureframe" ;
     ns1:identifier "256" .
 
-ex:wallpictureframe419_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wallpictureframe> ;
+ex:wallpictureframe419_scene1 a vh2kg:Wallpictureframe ;
     rdfs:label "wallpictureframe" ;
     ns1:identifier "419" .
 
-ex:wallpictureframe420_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wallpictureframe> ;
+ex:wallpictureframe420_scene1 a vh2kg:Wallpictureframe ;
     rdfs:label "wallpictureframe" ;
     ns1:identifier "420" .
 
-ex:wallshelf44_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wallshelf> ;
+ex:wallshelf44_scene1 a vh2kg:Wallshelf ;
     rdfs:label "wallshelf" ;
     ns1:identifier "44" .
 
-ex:window365_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Window> ;
+ex:window365_scene1 a vh2kg:Window ;
     rdfs:label "window" ;
     ns1:identifier "365" .
 
-ex:window71_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Window> ;
+ex:window71_scene1 a vh2kg:Window ;
     rdfs:label "window" ;
     ns1:identifier "71" .
 
-ex:window92_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Window> ;
+ex:window92_scene1 a vh2kg:Window ;
     rdfs:label "window" ;
     ns1:identifier "92" .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Barsoap> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Barsoap a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bathroom> a owl:Class .
+vh2kg:Bathroom a owl:Class .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bathroomcabinet> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Bathroomcabinet a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bathroomcounter> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Bathroomcounter a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bathtub> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Bathtub a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bed> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Bed a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bedroom> a owl:Class .
+vh2kg:Bedroom a owl:Class .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Cabinet> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Cabinet a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Candybar> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Food> .
+vh2kg:Candybar a owl:Class ;
+    rdfs:subClassOf vh2kg:Food .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Cereal> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Food> .
+vh2kg:Cereal a owl:Class ;
+    rdfs:subClassOf vh2kg:Food .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Chocolatesyrup> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Food> .
+vh2kg:Chocolatesyrup a owl:Class ;
+    rdfs:subClassOf vh2kg:Food .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clock> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Electronics> .
+vh2kg:Clock a owl:Class ;
+    rdfs:subClassOf vh2kg:Electronics .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Coffeemaker> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Appliances> .
+vh2kg:Coffeemaker a owl:Class ;
+    rdfs:subClassOf vh2kg:Appliances .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Coffeepot> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Appliances> .
+vh2kg:Coffeepot a owl:Class ;
+    rdfs:subClassOf vh2kg:Appliances .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Crackers> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Food> .
+vh2kg:Crackers a owl:Class ;
+    rdfs:subClassOf vh2kg:Food .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Creamybuns> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Food> .
+vh2kg:Creamybuns a owl:Class ;
+    rdfs:subClassOf vh2kg:Food .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Deodorant> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Deodorant a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Dishwashingliquid> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Dishwashingliquid a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Facecream> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Facecream a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Fridge> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Appliances> .
+vh2kg:Fridge a owl:Class ;
+    rdfs:subClassOf vh2kg:Appliances .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Fryingpan> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Fryingpan a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Garbagecan> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Garbagecan a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Kitchen> a owl:Class .
+vh2kg:Kitchen a owl:Class .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Kitchencounter> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Kitchencounter a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Kitchentable> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Kitchentable a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Lime> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Lime a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Livingroom> a owl:Class .
+vh2kg:Livingroom a owl:Class .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Microwave> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Appliances> .
+vh2kg:Microwave a owl:Class ;
+    rdfs:subClassOf vh2kg:Appliances .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Oventray> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Appliances> .
+vh2kg:Oventray a owl:Class ;
+    rdfs:subClassOf vh2kg:Appliances .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Painkillers> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Painkillers a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Perfume> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Perfume a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Pie> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Food> .
+vh2kg:Pie a owl:Class ;
+    rdfs:subClassOf vh2kg:Food .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Radio> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Electronics> .
+vh2kg:Radio a owl:Class ;
+    rdfs:subClassOf vh2kg:Electronics .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Remotecontrol> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Remotecontrol a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Salmon> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Food> .
+vh2kg:Salmon a owl:Class ;
+    rdfs:subClassOf vh2kg:Food .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Sofa> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Sofa a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Stove> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Appliances> .
+vh2kg:Stove a owl:Class ;
+    rdfs:subClassOf vh2kg:Appliances .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Stovefan> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Appliances> .
+vh2kg:Stovefan a owl:Class ;
+    rdfs:subClassOf vh2kg:Appliances .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Toaster> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Appliances> .
+vh2kg:Toaster a owl:Class ;
+    rdfs:subClassOf vh2kg:Appliances .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Toilet> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Toilet a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Toothbrush> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Toothbrush a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Toothpaste> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Toothpaste a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wallphone> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Electronics> .
+vh2kg:Wallphone a owl:Class ;
+    rdfs:subClassOf vh2kg:Electronics .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Walls> a owl:Class ;
+vh2kg:Walls a owl:Class ;
     rdfs:label "Walls" ;
     rdfs:subClassOf vh2kg:Object .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Washingmachine> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Appliances> .
+vh2kg:Washingmachine a owl:Class ;
+    rdfs:subClassOf vh2kg:Appliances .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Washingsponge> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Washingsponge a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Whippedcream> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Food> .
+vh2kg:Whippedcream a owl:Class ;
+    rdfs:subClassOf vh2kg:Food .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Windows> a owl:Class ;
+vh2kg:Windows a owl:Class ;
     rdfs:label "Windows" ;
     rdfs:subClassOf vh2kg:Object .
 
@@ -23190,20 +23190,20 @@ ex:event3_wash_pillow_scene1 a vh2kg:EndEvent ;
     vh2kg:situationBeforeEvent ex:home_situation3_wash_pillow_scene1 ;
     vh2kg:time ex:time_event3_wash_pillow_scene1 .
 
-ex:kitchencabinet237_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Kitchencabinet> ;
+ex:kitchencabinet237_scene1 a vh2kg:Kitchencabinet ;
     rdfs:label "kitchencabinet" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "237" .
 
-ex:kitchencounterdrawer245_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Kitchencounterdrawer> ;
+ex:kitchencounterdrawer245_scene1 a vh2kg:Kitchencounterdrawer ;
     rdfs:label "kitchencounterdrawer" ;
     ns1:identifier "245" .
 
-ex:lightswitch72_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Lightswitch> ;
+ex:lightswitch72_scene1 a vh2kg:Lightswitch ;
     rdfs:label "lightswitch" ;
     ns1:identifier "72" .
 
-ex:rug31_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Rug> ;
+ex:rug31_scene1 a vh2kg:Rug ;
     rdfs:label "rug" ;
     ns1:identifier "31" .
 
@@ -25785,109 +25785,109 @@ ex:shape_state4_washingmachine73_wash_pillow_scene1 a x3do:Shape ;
             rdf:first 7.247698e-01 ;
             rdf:rest ( 9.977087e-01 6.621626e-01 ) ] .
 
-ex:stall45_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Stall> ;
+ex:stall45_scene1 a vh2kg:Stall ;
     rdfs:label "stall" ;
     ns1:identifier "45" .
 
-ex:toilet46_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Toilet> ;
+ex:toilet46_scene1 a vh2kg:Toilet ;
     rdfs:label "toilet" ;
     ns1:identifier "46" .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Apple> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Apple a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bench> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Bench a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Breadslice> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Appliances> .
+vh2kg:Breadslice a owl:Class ;
+    rdfs:subClassOf vh2kg:Appliances .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Candle> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Candle a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Chips> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Food> .
+vh2kg:Chips a owl:Class ;
+    rdfs:subClassOf vh2kg:Food .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Coffeetable> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Coffeetable a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Computer> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Electronics> .
+vh2kg:Computer a owl:Class ;
+    rdfs:subClassOf vh2kg:Electronics .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Condimentbottle> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Condimentbottle a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Condimentshaker> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Condimentshaker a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Cpuscreen> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Electronics> .
+vh2kg:Cpuscreen a owl:Class ;
+    rdfs:subClassOf vh2kg:Electronics .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Cupcake> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Cupcake a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Desk> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Desk a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Door> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Doors> .
+vh2kg:Door a owl:Class ;
+    rdfs:subClassOf vh2kg:Doors .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Doors> a owl:Class ;
+vh2kg:Doors a owl:Class ;
     rdfs:label "Doors" ;
     rdfs:subClassOf vh2kg:Object .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Faucet> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Faucet a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hairproduct> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Hairproduct a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Keyboard> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Electronics> .
+vh2kg:Keyboard a owl:Class ;
+    rdfs:subClassOf vh2kg:Electronics .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Mouse> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Electronics> .
+vh2kg:Mouse a owl:Class ;
+    rdfs:subClassOf vh2kg:Electronics .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Mousemat> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Electronics> .
+vh2kg:Mousemat a owl:Class ;
+    rdfs:subClassOf vh2kg:Electronics .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Mug> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Mug a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Nightstand> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Nightstand a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Orchid> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Decor> .
+vh2kg:Orchid a owl:Class ;
+    rdfs:subClassOf vh2kg:Decor .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Peach> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Peach a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Plum> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Plum a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Powersocket> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Electronics> .
+vh2kg:Powersocket a owl:Class ;
+    rdfs:subClassOf vh2kg:Electronics .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Sink> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Sink a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Slippers> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Slippers a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Stall> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Stall a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Tablelamp> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Lamps> .
+vh2kg:Tablelamp a owl:Class ;
+    rdfs:subClassOf vh2kg:Lamps .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Tv> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Electronics> .
+vh2kg:Tv a owl:Class ;
+    rdfs:subClassOf vh2kg:Electronics .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Tvstand> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Tvstand a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-ex:rug418_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Rug> ;
+ex:rug418_scene1 a vh2kg:Rug ;
     rdfs:label "rug" ;
     ns1:identifier "418" .
 
@@ -26520,33 +26520,33 @@ ex:shape_state4_toaster309_wash_pillow_scene1 a x3do:Shape ;
             rdf:first 2.539676e-01 ;
             rdf:rest ( 2.183318e-01 3.144588e-01 ) ] .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bananas> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Food> .
+vh2kg:Bananas a owl:Class ;
+    rdfs:subClassOf vh2kg:Food .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bookshelf> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Bookshelf a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Chair> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Chair a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Closet> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Closet a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Folder> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Folder a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Lamps> a owl:Class ;
+vh2kg:Lamps a owl:Class ;
     rdfs:label "Lamps" ;
     rdfs:subClassOf vh2kg:Object .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Photoframe> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Photoframe a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wallshelf> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Wallshelf a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Window> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Windows> .
+vh2kg:Window a owl:Class ;
+    rdfs:subClassOf vh2kg:Windows .
 
 ex:shape_state0_character1_wash_pillow_scene1 a x3do:Shape ;
     vh2kg:close ex:shape_state0_chair373_wash_pillow_scene1,
@@ -26841,1084 +26841,1084 @@ ex:shape_state4_wallshelf252_wash_pillow_scene1 a x3do:Shape ;
             rdf:first 2.722777e-01 ;
             rdf:rest ( 1.819556e-01 1.000001e+00 ) ] .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Box> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Box a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Cellphone> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Cellphone a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Cutleryfork> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Cutleryfork a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Cutleryknife> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Cutleryknife a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Dishbowl> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Dishbowl a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Doorjamb> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Doors> .
+vh2kg:Doorjamb a owl:Class ;
+    rdfs:subClassOf vh2kg:Doors .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Kitchencabinet> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Kitchencabinet a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Lightswitch> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Electronics> .
+vh2kg:Lightswitch a owl:Class ;
+    rdfs:subClassOf vh2kg:Electronics .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Paper> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Paper a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Pillow> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Decor> .
+vh2kg:Pillow a owl:Class ;
+    rdfs:subClassOf vh2kg:Decor .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Towelrack> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Towelrack a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wineglass> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Wineglass a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-ex:apple438_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Apple> ;
+ex:apple438_scene1 a vh2kg:Apple ;
     rdfs:label "apple" ;
     ns1:identifier "438" .
 
-ex:apple439_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Apple> ;
+ex:apple439_scene1 a vh2kg:Apple ;
     rdfs:label "apple" ;
     ns1:identifier "439" .
 
-ex:bananas316_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bananas> ;
+ex:bananas316_scene1 a vh2kg:Bananas ;
     rdfs:label "bananas" ;
     ns1:identifier "316" .
 
-ex:bananas317_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bananas> ;
+ex:bananas317_scene1 a vh2kg:Bananas ;
     rdfs:label "bananas" ;
     ns1:identifier "317" .
 
-ex:bananas440_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bananas> ;
+ex:bananas440_scene1 a vh2kg:Bananas ;
     rdfs:label "bananas" ;
     ns1:identifier "440" .
 
-ex:barsoap67_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Barsoap> ;
+ex:barsoap67_scene1 a vh2kg:Barsoap ;
     rdfs:label "barsoap" ;
     vh2kg:attribute vh2kg:cream ;
     ns1:identifier "67" .
 
-ex:bathroomcabinet49_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bathroomcabinet> ;
+ex:bathroomcabinet49_scene1 a vh2kg:Bathroomcabinet ;
     rdfs:label "bathroomcabinet" ;
     ns1:identifier "49" .
 
-ex:bathroomcounter50_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bathroomcounter> ;
+ex:bathroomcounter50_scene1 a vh2kg:Bathroomcounter ;
     rdfs:label "bathroomcounter" ;
     ns1:identifier "50" .
 
-ex:bathtub39_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bathtub> ;
+ex:bathtub39_scene1 a vh2kg:Bathtub ;
     rdfs:label "bathtub" ;
     ns1:identifier "39" .
 
-ex:bed111_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bed> ;
+ex:bed111_scene1 a vh2kg:Bed ;
     rdfs:label "bed" ;
     ns1:identifier "111" .
 
-ex:bellpepper321_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bellpepper> ;
+ex:bellpepper321_scene1 a vh2kg:Bellpepper ;
     rdfs:label "bellpepper" ;
     ns1:identifier "321" .
 
-ex:bellpepper322_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bellpepper> ;
+ex:bellpepper322_scene1 a vh2kg:Bellpepper ;
     rdfs:label "bellpepper" ;
     ns1:identifier "322" .
 
-ex:bellpepper323_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bellpepper> ;
+ex:bellpepper323_scene1 a vh2kg:Bellpepper ;
     rdfs:label "bellpepper" ;
     ns1:identifier "323" .
 
-ex:bellpepper324_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bellpepper> ;
+ex:bellpepper324_scene1 a vh2kg:Bellpepper ;
     rdfs:label "bellpepper" ;
     ns1:identifier "324" .
 
-ex:bellpepper325_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bellpepper> ;
+ex:bellpepper325_scene1 a vh2kg:Bellpepper ;
     rdfs:label "bellpepper" ;
     ns1:identifier "325" .
 
-ex:bellpepper326_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bellpepper> ;
+ex:bellpepper326_scene1 a vh2kg:Bellpepper ;
     rdfs:label "bellpepper" ;
     ns1:identifier "326" .
 
-ex:bench232_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bench> ;
+ex:bench232_scene1 a vh2kg:Bench ;
     rdfs:label "bench" ;
     ns1:identifier "232" .
 
-ex:bench233_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bench> ;
+ex:bench233_scene1 a vh2kg:Bench ;
     rdfs:label "bench" ;
     ns1:identifier "233" .
 
-ex:book192_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Book> ;
+ex:book192_scene1 a vh2kg:Book ;
     rdfs:label "book" ;
     vh2kg:attribute vh2kg:has_paper ;
     ns1:identifier "192" .
 
-ex:book193_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Book> ;
+ex:book193_scene1 a vh2kg:Book ;
     rdfs:label "book" ;
     vh2kg:attribute vh2kg:has_paper ;
     ns1:identifier "193" .
 
-ex:book269_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Book> ;
+ex:book269_scene1 a vh2kg:Book ;
     rdfs:label "book" ;
     vh2kg:attribute vh2kg:has_paper ;
     ns1:identifier "269" .
 
-ex:book290_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Book> ;
+ex:book290_scene1 a vh2kg:Book ;
     rdfs:label "book" ;
     vh2kg:attribute vh2kg:has_paper ;
     ns1:identifier "290" .
 
-ex:book291_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Book> ;
+ex:book291_scene1 a vh2kg:Book ;
     rdfs:label "book" ;
     vh2kg:attribute vh2kg:has_paper ;
     ns1:identifier "291" .
 
-ex:book292_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Book> ;
+ex:book292_scene1 a vh2kg:Book ;
     rdfs:label "book" ;
     vh2kg:attribute vh2kg:has_paper ;
     ns1:identifier "292" .
 
-ex:book293_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Book> ;
+ex:book293_scene1 a vh2kg:Book ;
     rdfs:label "book" ;
     vh2kg:attribute vh2kg:has_paper ;
     ns1:identifier "293" .
 
-ex:book294_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Book> ;
+ex:book294_scene1 a vh2kg:Book ;
     rdfs:label "book" ;
     vh2kg:attribute vh2kg:has_paper ;
     ns1:identifier "294" .
 
-ex:book435_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Book> ;
+ex:book435_scene1 a vh2kg:Book ;
     rdfs:label "book" ;
     vh2kg:attribute vh2kg:has_paper ;
     ns1:identifier "435" .
 
-ex:book437_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Book> ;
+ex:book437_scene1 a vh2kg:Book ;
     rdfs:label "book" ;
     vh2kg:attribute vh2kg:has_paper ;
     ns1:identifier "437" .
 
-ex:bookshelf107_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bookshelf> ;
+ex:bookshelf107_scene1 a vh2kg:Bookshelf ;
     rdfs:label "bookshelf" ;
     ns1:identifier "107" .
 
-ex:bookshelf250_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bookshelf> ;
+ex:bookshelf250_scene1 a vh2kg:Bookshelf ;
     rdfs:label "bookshelf" ;
     ns1:identifier "250" .
 
-ex:bookshelf371_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bookshelf> ;
+ex:bookshelf371_scene1 a vh2kg:Bookshelf ;
     rdfs:label "bookshelf" ;
     ns1:identifier "371" .
 
-ex:box194_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Box> ;
+ex:box194_scene1 a vh2kg:Box ;
     rdfs:label "box" ;
     vh2kg:attribute vh2kg:containers,
         vh2kg:cover_object ;
     ns1:identifier "194" .
 
-ex:box288_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Box> ;
+ex:box288_scene1 a vh2kg:Box ;
     rdfs:label "box" ;
     vh2kg:attribute vh2kg:containers,
         vh2kg:cover_object ;
     ns1:identifier "288" .
 
-ex:box301_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Box> ;
+ex:box301_scene1 a vh2kg:Box ;
     rdfs:label "box" ;
     vh2kg:attribute vh2kg:containers,
         vh2kg:cover_object ;
     ns1:identifier "301" .
 
-ex:box436_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Box> ;
+ex:box436_scene1 a vh2kg:Box ;
     rdfs:label "box" ;
     vh2kg:attribute vh2kg:containers,
         vh2kg:cover_object ;
     ns1:identifier "436" .
 
-ex:breadslice310_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Breadslice> ;
+ex:breadslice310_scene1 a vh2kg:Breadslice ;
     rdfs:label "breadslice" ;
     ns1:identifier "310" .
 
-ex:breadslice311_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Breadslice> ;
+ex:breadslice311_scene1 a vh2kg:Breadslice ;
     rdfs:label "breadslice" ;
     ns1:identifier "311" .
 
-ex:cabinet416_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Cabinet> ;
+ex:cabinet416_scene1 a vh2kg:Cabinet ;
     rdfs:label "cabinet" ;
     ns1:identifier "416" .
 
-ex:candle183_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Candle> ;
+ex:candle183_scene1 a vh2kg:Candle ;
     rdfs:label "candle" ;
     vh2kg:attribute vh2kg:has_switch ;
     ns1:identifier "183" .
 
-ex:candle70_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Candle> ;
+ex:candle70_scene1 a vh2kg:Candle ;
     rdfs:label "candle" ;
     vh2kg:attribute vh2kg:has_switch ;
     ns1:identifier "70" .
 
-ex:candybar331_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Candybar> ;
+ex:candybar331_scene1 a vh2kg:Candybar ;
     rdfs:label "candybar" ;
     ns1:identifier "331" .
 
-ex:cellphone190_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Cellphone> ;
+ex:cellphone190_scene1 a vh2kg:Cellphone ;
     rdfs:label "cellphone" ;
     vh2kg:attribute vh2kg:has_plug,
         vh2kg:has_switch ;
     ns1:identifier "190" .
 
-ex:cellphone204_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Cellphone> ;
+ex:cellphone204_scene1 a vh2kg:Cellphone ;
     rdfs:label "cellphone" ;
     vh2kg:attribute vh2kg:has_plug,
         vh2kg:has_switch ;
     ns1:identifier "204" .
 
-ex:cellphone449_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Cellphone> ;
+ex:cellphone449_scene1 a vh2kg:Cellphone ;
     rdfs:label "cellphone" ;
     vh2kg:attribute vh2kg:has_plug,
         vh2kg:has_switch ;
     ns1:identifier "449" .
 
-ex:cellphone450_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Cellphone> ;
+ex:cellphone450_scene1 a vh2kg:Cellphone ;
     rdfs:label "cellphone" ;
     vh2kg:attribute vh2kg:has_plug,
         vh2kg:has_switch ;
     ns1:identifier "450" .
 
-ex:cereal335_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Cereal> ;
+ex:cereal335_scene1 a vh2kg:Cereal ;
     rdfs:label "cereal" ;
     ns1:identifier "335" .
 
-ex:chair373_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Chair> ;
+ex:chair373_scene1 a vh2kg:Chair ;
     rdfs:label "chair" ;
     ns1:identifier "373" .
 
-ex:chips329_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Chips> ;
+ex:chips329_scene1 a vh2kg:Chips ;
     rdfs:label "chips" ;
     ns1:identifier "329" .
 
-ex:chips330_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Chips> ;
+ex:chips330_scene1 a vh2kg:Chips ;
     rdfs:label "chips" ;
     ns1:identifier "330" .
 
-ex:chocolatesyrup332_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Chocolatesyrup> ;
+ex:chocolatesyrup332_scene1 a vh2kg:Chocolatesyrup ;
     rdfs:label "chocolatesyrup" ;
     ns1:identifier "332" .
 
-ex:clock266_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clock> ;
+ex:clock266_scene1 a vh2kg:Clock ;
     rdfs:label "clock" ;
     ns1:identifier "266" .
 
-ex:closet114_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Closet> ;
+ex:closet114_scene1 a vh2kg:Closet ;
     rdfs:label "closet" ;
     ns1:identifier "114" .
 
-ex:closetdrawer122_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Closetdrawer> ;
+ex:closetdrawer122_scene1 a vh2kg:Closetdrawer ;
     rdfs:label "closetdrawer" ;
     ns1:identifier "122" .
 
-ex:closetdrawer123_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Closetdrawer> ;
+ex:closetdrawer123_scene1 a vh2kg:Closetdrawer ;
     rdfs:label "closetdrawer" ;
     ns1:identifier "123" .
 
-ex:closetdrawer124_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Closetdrawer> ;
+ex:closetdrawer124_scene1 a vh2kg:Closetdrawer ;
     rdfs:label "closetdrawer" ;
     ns1:identifier "124" .
 
-ex:closetdrawer125_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Closetdrawer> ;
+ex:closetdrawer125_scene1 a vh2kg:Closetdrawer ;
     rdfs:label "closetdrawer" ;
     ns1:identifier "125" .
 
-ex:closetdrawer126_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Closetdrawer> ;
+ex:closetdrawer126_scene1 a vh2kg:Closetdrawer ;
     rdfs:label "closetdrawer" ;
     ns1:identifier "126" .
 
-ex:closetdrawer127_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Closetdrawer> ;
+ex:closetdrawer127_scene1 a vh2kg:Closetdrawer ;
     rdfs:label "closetdrawer" ;
     ns1:identifier "127" .
 
-ex:closetdrawer128_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Closetdrawer> ;
+ex:closetdrawer128_scene1 a vh2kg:Closetdrawer ;
     rdfs:label "closetdrawer" ;
     ns1:identifier "128" .
 
-ex:closetdrawer149_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Closetdrawer> ;
+ex:closetdrawer149_scene1 a vh2kg:Closetdrawer ;
     rdfs:label "closetdrawer" ;
     ns1:identifier "149" .
 
-ex:closetdrawer152_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Closetdrawer> ;
+ex:closetdrawer152_scene1 a vh2kg:Closetdrawer ;
     rdfs:label "closetdrawer" ;
     ns1:identifier "152" .
 
-ex:closetdrawer154_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Closetdrawer> ;
+ex:closetdrawer154_scene1 a vh2kg:Closetdrawer ;
     rdfs:label "closetdrawer" ;
     ns1:identifier "154" .
 
-ex:closetdrawer156_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Closetdrawer> ;
+ex:closetdrawer156_scene1 a vh2kg:Closetdrawer ;
     rdfs:label "closetdrawer" ;
     ns1:identifier "156" .
 
-ex:closetdrawer160_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Closetdrawer> ;
+ex:closetdrawer160_scene1 a vh2kg:Closetdrawer ;
     rdfs:label "closetdrawer" ;
     ns1:identifier "160" .
 
-ex:closetdrawer164_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Closetdrawer> ;
+ex:closetdrawer164_scene1 a vh2kg:Closetdrawer ;
     rdfs:label "closetdrawer" ;
     ns1:identifier "164" .
 
-ex:closetdrawer166_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Closetdrawer> ;
+ex:closetdrawer166_scene1 a vh2kg:Closetdrawer ;
     rdfs:label "closetdrawer" ;
     ns1:identifier "166" .
 
-ex:closetdrawer394_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Closetdrawer> ;
+ex:closetdrawer394_scene1 a vh2kg:Closetdrawer ;
     rdfs:label "closetdrawer" ;
     ns1:identifier "394" .
 
-ex:closetdrawer397_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Closetdrawer> ;
+ex:closetdrawer397_scene1 a vh2kg:Closetdrawer ;
     rdfs:label "closetdrawer" ;
     ns1:identifier "397" .
 
-ex:closetdrawer399_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Closetdrawer> ;
+ex:closetdrawer399_scene1 a vh2kg:Closetdrawer ;
     rdfs:label "closetdrawer" ;
     ns1:identifier "399" .
 
-ex:closetdrawer401_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Closetdrawer> ;
+ex:closetdrawer401_scene1 a vh2kg:Closetdrawer ;
     rdfs:label "closetdrawer" ;
     ns1:identifier "401" .
 
-ex:closetdrawer405_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Closetdrawer> ;
+ex:closetdrawer405_scene1 a vh2kg:Closetdrawer ;
     rdfs:label "closetdrawer" ;
     ns1:identifier "405" .
 
-ex:closetdrawer409_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Closetdrawer> ;
+ex:closetdrawer409_scene1 a vh2kg:Closetdrawer ;
     rdfs:label "closetdrawer" ;
     ns1:identifier "409" .
 
-ex:closetdrawer411_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Closetdrawer> ;
+ex:closetdrawer411_scene1 a vh2kg:Closetdrawer ;
     rdfs:label "closetdrawer" ;
     ns1:identifier "411" .
 
-ex:clothespants133_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespants> ;
+ex:clothespants133_scene1 a vh2kg:Clothespants ;
     rdfs:label "clothespants" ;
     vh2kg:attribute vh2kg:clothes ;
     ns1:identifier "133" .
 
-ex:clothespants137_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespants> ;
+ex:clothespants137_scene1 a vh2kg:Clothespants ;
     rdfs:label "clothespants" ;
     vh2kg:attribute vh2kg:clothes ;
     ns1:identifier "137" .
 
-ex:clothespants139_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespants> ;
+ex:clothespants139_scene1 a vh2kg:Clothespants ;
     rdfs:label "clothespants" ;
     vh2kg:attribute vh2kg:clothes ;
     ns1:identifier "139" .
 
-ex:clothespants141_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespants> ;
+ex:clothespants141_scene1 a vh2kg:Clothespants ;
     rdfs:label "clothespants" ;
     vh2kg:attribute vh2kg:clothes ;
     ns1:identifier "141" .
 
-ex:clothespants143_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespants> ;
+ex:clothespants143_scene1 a vh2kg:Clothespants ;
     rdfs:label "clothespants" ;
     vh2kg:attribute vh2kg:clothes ;
     ns1:identifier "143" .
 
-ex:clothespants379_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespants> ;
+ex:clothespants379_scene1 a vh2kg:Clothespants ;
     rdfs:label "clothespants" ;
     vh2kg:attribute vh2kg:clothes ;
     ns1:identifier "379" .
 
-ex:clothespants383_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespants> ;
+ex:clothespants383_scene1 a vh2kg:Clothespants ;
     rdfs:label "clothespants" ;
     vh2kg:attribute vh2kg:clothes ;
     ns1:identifier "383" .
 
-ex:clothespants385_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespants> ;
+ex:clothespants385_scene1 a vh2kg:Clothespants ;
     rdfs:label "clothespants" ;
     vh2kg:attribute vh2kg:clothes ;
     ns1:identifier "385" .
 
-ex:clothespants387_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespants> ;
+ex:clothespants387_scene1 a vh2kg:Clothespants ;
     rdfs:label "clothespants" ;
     vh2kg:attribute vh2kg:clothes ;
     ns1:identifier "387" .
 
-ex:clothespants388_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespants> ;
+ex:clothespants388_scene1 a vh2kg:Clothespants ;
     rdfs:label "clothespants" ;
     vh2kg:attribute vh2kg:clothes ;
     ns1:identifier "388" .
 
-ex:clothespile150_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile150_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "150" .
 
-ex:clothespile151_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile151_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "151" .
 
-ex:clothespile153_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile153_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "153" .
 
-ex:clothespile155_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile155_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "155" .
 
-ex:clothespile157_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile157_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "157" .
 
-ex:clothespile158_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile158_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "158" .
 
-ex:clothespile159_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile159_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "159" .
 
-ex:clothespile161_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile161_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "161" .
 
-ex:clothespile162_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile162_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "162" .
 
-ex:clothespile163_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile163_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "163" .
 
-ex:clothespile165_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile165_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "165" .
 
-ex:clothespile167_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile167_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "167" .
 
-ex:clothespile168_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile168_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "168" .
 
-ex:clothespile169_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile169_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "169" .
 
-ex:clothespile170_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile170_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "170" .
 
-ex:clothespile287_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile287_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "287" .
 
-ex:clothespile395_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile395_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "395" .
 
-ex:clothespile396_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile396_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "396" .
 
-ex:clothespile398_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile398_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "398" .
 
-ex:clothespile400_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile400_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "400" .
 
-ex:clothespile402_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile402_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "402" .
 
-ex:clothespile403_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile403_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "403" .
 
-ex:clothespile404_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile404_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "404" .
 
-ex:clothespile406_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile406_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "406" .
 
-ex:clothespile407_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile407_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "407" .
 
-ex:clothespile408_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile408_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "408" .
 
-ex:clothespile410_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile410_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "410" .
 
-ex:clothespile412_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile412_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "412" .
 
-ex:clothespile413_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile413_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "413" .
 
-ex:clothespile414_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile414_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "414" .
 
-ex:clothespile415_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> ;
+ex:clothespile415_scene1 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "415" .
 
-ex:clothesshirt131_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothesshirt> ;
+ex:clothesshirt131_scene1 a vh2kg:Clothesshirt ;
     rdfs:label "clothesshirt" ;
     vh2kg:attribute vh2kg:clothes ;
     ns1:identifier "131" .
 
-ex:clothesshirt135_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothesshirt> ;
+ex:clothesshirt135_scene1 a vh2kg:Clothesshirt ;
     rdfs:label "clothesshirt" ;
     vh2kg:attribute vh2kg:clothes ;
     ns1:identifier "135" .
 
-ex:clothesshirt145_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothesshirt> ;
+ex:clothesshirt145_scene1 a vh2kg:Clothesshirt ;
     rdfs:label "clothesshirt" ;
     vh2kg:attribute vh2kg:clothes ;
     ns1:identifier "145" .
 
-ex:clothesshirt377_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothesshirt> ;
+ex:clothesshirt377_scene1 a vh2kg:Clothesshirt ;
     rdfs:label "clothesshirt" ;
     vh2kg:attribute vh2kg:clothes ;
     ns1:identifier "377" .
 
-ex:clothesshirt381_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothesshirt> ;
+ex:clothesshirt381_scene1 a vh2kg:Clothesshirt ;
     rdfs:label "clothesshirt" ;
     vh2kg:attribute vh2kg:clothes ;
     ns1:identifier "381" .
 
-ex:clothesshirt390_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothesshirt> ;
+ex:clothesshirt390_scene1 a vh2kg:Clothesshirt ;
     rdfs:label "clothesshirt" ;
     vh2kg:attribute vh2kg:clothes ;
     ns1:identifier "390" .
 
-ex:coffeemaker307_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Coffeemaker> ;
+ex:coffeemaker307_scene1 a vh2kg:Coffeemaker ;
     rdfs:label "coffeemaker" ;
     ns1:identifier "307" .
 
-ex:coffeepot308_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Coffeepot> ;
+ex:coffeepot308_scene1 a vh2kg:Coffeepot ;
     rdfs:label "coffeepot" ;
     ns1:identifier "308" .
 
-ex:coffeetable113_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Coffeetable> ;
+ex:coffeetable113_scene1 a vh2kg:Coffeetable ;
     rdfs:label "coffeetable" ;
     ns1:identifier "113" .
 
-ex:coffeetable372_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Coffeetable> ;
+ex:coffeetable372_scene1 a vh2kg:Coffeetable ;
     rdfs:label "coffeetable" ;
     ns1:identifier "372" .
 
-ex:condimentbottle295_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Condimentbottle> ;
+ex:condimentbottle295_scene1 a vh2kg:Condimentbottle ;
     rdfs:label "condimentbottle" ;
     vh2kg:attribute vh2kg:cream ;
     ns1:identifier "295" .
 
-ex:condimentbottle296_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Condimentbottle> ;
+ex:condimentbottle296_scene1 a vh2kg:Condimentbottle ;
     rdfs:label "condimentbottle" ;
     vh2kg:attribute vh2kg:cream ;
     ns1:identifier "296" .
 
-ex:condimentshaker297_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Condimentshaker> ;
+ex:condimentshaker297_scene1 a vh2kg:Condimentshaker ;
     rdfs:label "condimentshaker" ;
     ns1:identifier "297" .
 
-ex:condimentshaker298_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Condimentshaker> ;
+ex:condimentshaker298_scene1 a vh2kg:Condimentshaker ;
     rdfs:label "condimentshaker" ;
     ns1:identifier "298" .
 
-ex:cpuscreen177_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Cpuscreen> ;
+ex:cpuscreen177_scene1 a vh2kg:Cpuscreen ;
     rdfs:label "cpuscreen" ;
     ns1:identifier "177" .
 
-ex:cpuscreen433_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Cpuscreen> ;
+ex:cpuscreen433_scene1 a vh2kg:Cpuscreen ;
     rdfs:label "cpuscreen" ;
     ns1:identifier "433" .
 
-ex:crackers333_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Crackers> ;
+ex:crackers333_scene1 a vh2kg:Crackers ;
     rdfs:label "crackers" ;
     ns1:identifier "333" .
 
-ex:creamybuns334_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Creamybuns> ;
+ex:creamybuns334_scene1 a vh2kg:Creamybuns ;
     rdfs:label "creamybuns" ;
     ns1:identifier "334" .
 
-ex:cupcake197_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Cupcake> ;
+ex:cupcake197_scene1 a vh2kg:Cupcake ;
     rdfs:label "cupcake" ;
     ns1:identifier "197" .
 
-ex:cupcake198_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Cupcake> ;
+ex:cupcake198_scene1 a vh2kg:Cupcake ;
     rdfs:label "cupcake" ;
     ns1:identifier "198" .
 
-ex:cutleryfork273_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Cutleryfork> ;
+ex:cutleryfork273_scene1 a vh2kg:Cutleryfork ;
     rdfs:label "cutleryfork" ;
     ns1:identifier "273" .
 
-ex:cutleryfork277_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Cutleryfork> ;
+ex:cutleryfork277_scene1 a vh2kg:Cutleryfork ;
     rdfs:label "cutleryfork" ;
     ns1:identifier "277" .
 
-ex:cutleryfork280_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Cutleryfork> ;
+ex:cutleryfork280_scene1 a vh2kg:Cutleryfork ;
     rdfs:label "cutleryfork" ;
     ns1:identifier "280" .
 
-ex:cutleryfork285_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Cutleryfork> ;
+ex:cutleryfork285_scene1 a vh2kg:Cutleryfork ;
     rdfs:label "cutleryfork" ;
     ns1:identifier "285" .
 
-ex:cutleryknife272_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Cutleryknife> ;
+ex:cutleryknife272_scene1 a vh2kg:Cutleryknife ;
     rdfs:label "cutleryknife" ;
     ns1:identifier "272" .
 
-ex:cutleryknife276_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Cutleryknife> ;
+ex:cutleryknife276_scene1 a vh2kg:Cutleryknife ;
     rdfs:label "cutleryknife" ;
     ns1:identifier "276" .
 
-ex:cutleryknife281_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Cutleryknife> ;
+ex:cutleryknife281_scene1 a vh2kg:Cutleryknife ;
     rdfs:label "cutleryknife" ;
     ns1:identifier "281" .
 
-ex:cutleryknife284_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Cutleryknife> ;
+ex:cutleryknife284_scene1 a vh2kg:Cutleryknife ;
     rdfs:label "cutleryknife" ;
     ns1:identifier "284" .
 
-ex:deodorant58_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Deodorant> ;
+ex:deodorant58_scene1 a vh2kg:Deodorant ;
     rdfs:label "deodorant" ;
     ns1:identifier "58" .
 
-ex:desk110_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Desk> ;
+ex:desk110_scene1 a vh2kg:Desk ;
     rdfs:label "desk" ;
     ns1:identifier "110" .
 
-ex:desk374_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Desk> ;
+ex:desk374_scene1 a vh2kg:Desk ;
     rdfs:label "desk" ;
     ns1:identifier "374" .
 
-ex:dishbowl289_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Dishbowl> ;
+ex:dishbowl289_scene1 a vh2kg:Dishbowl ;
     rdfs:label "dishbowl" ;
     ns1:identifier "289" .
 
-ex:dishbowl318_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Dishbowl> ;
+ex:dishbowl318_scene1 a vh2kg:Dishbowl ;
     rdfs:label "dishbowl" ;
     ns1:identifier "318" .
 
-ex:dishbowl327_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Dishbowl> ;
+ex:dishbowl327_scene1 a vh2kg:Dishbowl ;
     rdfs:label "dishbowl" ;
     ns1:identifier "327" .
 
-ex:dishbowl446_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Dishbowl> ;
+ex:dishbowl446_scene1 a vh2kg:Dishbowl ;
     rdfs:label "dishbowl" ;
     ns1:identifier "446" .
 
-ex:dishwashingliquid268_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Dishwashingliquid> ;
+ex:dishwashingliquid268_scene1 a vh2kg:Dishwashingliquid ;
     rdfs:label "dishwashingliquid" ;
     vh2kg:attribute vh2kg:cream ;
     ns1:identifier "268" .
 
-ex:faucet249_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Faucet> ;
+ex:faucet249_scene1 a vh2kg:Faucet ;
     rdfs:label "faucet" ;
     ns1:identifier "249" .
 
-ex:faucet51_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Faucet> ;
+ex:faucet51_scene1 a vh2kg:Faucet ;
     rdfs:label "faucet" ;
     ns1:identifier "51" .
 
-ex:folder205_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Folder> ;
+ex:folder205_scene1 a vh2kg:Folder ;
     rdfs:label "folder" ;
     vh2kg:attribute vh2kg:containers,
         vh2kg:has_paper ;
     ns1:identifier "205" .
 
-ex:folder206_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Folder> ;
+ex:folder206_scene1 a vh2kg:Folder ;
     rdfs:label "folder" ;
     vh2kg:attribute vh2kg:containers,
         vh2kg:has_paper ;
     ns1:identifier "206" .
 
-ex:folder454_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Folder> ;
+ex:folder454_scene1 a vh2kg:Folder ;
     rdfs:label "folder" ;
     vh2kg:attribute vh2kg:containers,
         vh2kg:has_paper ;
     ns1:identifier "454" .
 
-ex:fridge306_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Fridge> ;
+ex:fridge306_scene1 a vh2kg:Fridge ;
     rdfs:label "fridge" ;
     ns1:identifier "306" .
 
-ex:fryingpan270_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Fryingpan> ;
+ex:fryingpan270_scene1 a vh2kg:Fryingpan ;
     rdfs:label "fryingpan" ;
     vh2kg:attribute vh2kg:containers ;
     ns1:identifier "270" .
 
-ex:hanger115_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger115_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "115" .
 
-ex:hanger116_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger116_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "116" .
 
-ex:hanger117_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger117_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "117" .
 
-ex:hanger118_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger118_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "118" .
 
-ex:hanger119_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger119_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "119" .
 
-ex:hanger120_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger120_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "120" .
 
-ex:hanger121_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger121_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "121" .
 
-ex:hanger130_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger130_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "130" .
 
-ex:hanger132_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger132_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "132" .
 
-ex:hanger134_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger134_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "134" .
 
-ex:hanger136_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger136_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "136" .
 
-ex:hanger138_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger138_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "138" .
 
-ex:hanger140_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger140_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "140" .
 
-ex:hanger142_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger142_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "142" .
 
-ex:hanger144_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger144_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "144" .
 
-ex:hanger146_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger146_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "146" .
 
-ex:hanger147_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger147_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "147" .
 
-ex:hanger148_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger148_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "148" .
 
-ex:hanger376_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger376_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "376" .
 
-ex:hanger378_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger378_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "378" .
 
-ex:hanger380_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger380_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "380" .
 
-ex:hanger382_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger382_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "382" .
 
-ex:hanger384_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger384_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "384" .
 
-ex:hanger386_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger386_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "386" .
 
-ex:hanger389_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger389_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "389" .
 
-ex:hanger391_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger391_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "391" .
 
-ex:hanger392_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger392_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "392" .
 
-ex:hanger393_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> ;
+ex:hanger393_scene1 a vh2kg:Hanger ;
     rdfs:label "hanger" ;
     ns1:identifier "393" .
 
-ex:keyboard174_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Keyboard> ;
+ex:keyboard174_scene1 a vh2kg:Keyboard ;
     rdfs:label "keyboard" ;
     ns1:identifier "174" .
 
-ex:keyboard432_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Keyboard> ;
+ex:keyboard432_scene1 a vh2kg:Keyboard ;
     rdfs:label "keyboard" ;
     ns1:identifier "432" .
 
-ex:kitchencounterdrawer240_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Kitchencounterdrawer> ;
+ex:kitchencounterdrawer240_scene1 a vh2kg:Kitchencounterdrawer ;
     rdfs:label "kitchencounterdrawer" ;
     ns1:identifier "240" .
 
-ex:kitchencounterdrawer241_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Kitchencounterdrawer> ;
+ex:kitchencounterdrawer241_scene1 a vh2kg:Kitchencounterdrawer ;
     rdfs:label "kitchencounterdrawer" ;
     ns1:identifier "241" .
 
-ex:kitchencounterdrawer243_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Kitchencounterdrawer> ;
+ex:kitchencounterdrawer243_scene1 a vh2kg:Kitchencounterdrawer ;
     rdfs:label "kitchencounterdrawer" ;
     ns1:identifier "243" .
 
-ex:kitchencounterdrawer244_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Kitchencounterdrawer> ;
+ex:kitchencounterdrawer244_scene1 a vh2kg:Kitchencounterdrawer ;
     rdfs:label "kitchencounterdrawer" ;
     ns1:identifier "244" .
 
-ex:kitchencounterdrawer246_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Kitchencounterdrawer> ;
+ex:kitchencounterdrawer246_scene1 a vh2kg:Kitchencounterdrawer ;
     rdfs:label "kitchencounterdrawer" ;
     ns1:identifier "246" .
 
-ex:kitchentable231_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Kitchentable> ;
+ex:kitchentable231_scene1 a vh2kg:Kitchentable ;
     rdfs:label "kitchentable" ;
     ns1:identifier "231" .
 
-ex:lightswitch262_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Lightswitch> ;
+ex:lightswitch262_scene1 a vh2kg:Lightswitch ;
     rdfs:label "lightswitch" ;
     ns1:identifier "262" .
 
-ex:lime441_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Lime> ;
+ex:lime441_scene1 a vh2kg:Lime ;
     rdfs:label "lime" ;
     ns1:identifier "441" .
 
-ex:microwave314_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Microwave> ;
+ex:microwave314_scene1 a vh2kg:Microwave ;
     rdfs:label "microwave" ;
     ns1:identifier "314" .
 
-ex:mouse172_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Mouse> ;
+ex:mouse172_scene1 a vh2kg:Mouse ;
     rdfs:label "mouse" ;
     ns1:identifier "172" .
 
-ex:mouse430_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Mouse> ;
+ex:mouse430_scene1 a vh2kg:Mouse ;
     rdfs:label "mouse" ;
     ns1:identifier "430" .
 
-ex:mousemat173_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Mousemat> ;
+ex:mousemat173_scene1 a vh2kg:Mousemat ;
     rdfs:label "mousemat" ;
     ns1:identifier "173" .
 
-ex:mousemat431_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Mousemat> ;
+ex:mousemat431_scene1 a vh2kg:Mousemat ;
     rdfs:label "mousemat" ;
     ns1:identifier "431" .
 
-ex:mug196_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Mug> ;
+ex:mug196_scene1 a vh2kg:Mug ;
     rdfs:label "mug" ;
     ns1:identifier "196" .
 
-ex:mug448_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Mug> ;
+ex:mug448_scene1 a vh2kg:Mug ;
     rdfs:label "mug" ;
     ns1:identifier "448" .
 
-ex:nightstand106_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Nightstand> ;
+ex:nightstand106_scene1 a vh2kg:Nightstand ;
     rdfs:label "nightstand" ;
     ns1:identifier "106" .
 
-ex:nightstand108_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Nightstand> ;
+ex:nightstand108_scene1 a vh2kg:Nightstand ;
     rdfs:label "nightstand" ;
     ns1:identifier "108" .
 
-ex:orchid184_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Orchid> ;
+ex:orchid184_scene1 a vh2kg:Orchid ;
     rdfs:label "orchid" ;
     ns1:identifier "184" .
 
-ex:orchid261_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Orchid> ;
+ex:orchid261_scene1 a vh2kg:Orchid ;
     rdfs:label "orchid" ;
     ns1:identifier "261" .
 
-ex:oventray313_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Oventray> ;
+ex:oventray313_scene1 a vh2kg:Oventray ;
     rdfs:label "oventray" ;
     ns1:identifier "313" .
 
-ex:painkillers64_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Painkillers> ;
+ex:painkillers64_scene1 a vh2kg:Painkillers ;
     rdfs:label "painkillers" ;
     ns1:identifier "64" .
 
-ex:paper303_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Paper> ;
+ex:paper303_scene1 a vh2kg:Paper ;
     rdfs:label "paper" ;
     vh2kg:attribute vh2kg:has_paper ;
     ns1:identifier "303" .
 
-ex:paper304_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Paper> ;
+ex:paper304_scene1 a vh2kg:Paper ;
     rdfs:label "paper" ;
     vh2kg:attribute vh2kg:has_paper ;
     ns1:identifier "304" .
 
-ex:paper451_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Paper> ;
+ex:paper451_scene1 a vh2kg:Paper ;
     rdfs:label "paper" ;
     vh2kg:attribute vh2kg:has_paper ;
     ns1:identifier "451" .
 
-ex:paper452_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Paper> ;
+ex:paper452_scene1 a vh2kg:Paper ;
     rdfs:label "paper" ;
     vh2kg:attribute vh2kg:has_paper ;
     ns1:identifier "452" .
 
-ex:peach442_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Peach> ;
+ex:peach442_scene1 a vh2kg:Peach ;
     rdfs:label "peach" ;
     ns1:identifier "442" .
 
-ex:peach443_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Peach> ;
+ex:peach443_scene1 a vh2kg:Peach ;
     rdfs:label "peach" ;
     ns1:identifier "443" .
 
-ex:perfume57_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Perfume> ;
+ex:perfume57_scene1 a vh2kg:Perfume ;
     rdfs:label "perfume" ;
     ns1:identifier "57" .
 
-ex:photoframe191_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Photoframe> ;
+ex:photoframe191_scene1 a vh2kg:Photoframe ;
     rdfs:label "photoframe" ;
     ns1:identifier "191" .
 
-ex:photoframe302_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Photoframe> ;
+ex:photoframe302_scene1 a vh2kg:Photoframe ;
     rdfs:label "photoframe" ;
     ns1:identifier "302" .
 
-ex:photoframe447_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Photoframe> ;
+ex:photoframe447_scene1 a vh2kg:Photoframe ;
     rdfs:label "photoframe" ;
     ns1:identifier "447" .
 
-ex:pie320_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Pie> ;
+ex:pie320_scene1 a vh2kg:Pie ;
     rdfs:label "pie" ;
     ns1:identifier "320" .
 
-ex:pillow188_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Pillow> ;
+ex:pillow188_scene1 a vh2kg:Pillow ;
     rdfs:label "pillow" ;
     ns1:identifier "188" .
 
-ex:pillow189_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Pillow> ;
+ex:pillow189_scene1 a vh2kg:Pillow ;
     rdfs:label "pillow" ;
     ns1:identifier "189" .
 
-ex:pillow422_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Pillow> ;
+ex:pillow422_scene1 a vh2kg:Pillow ;
     rdfs:label "pillow" ;
     ns1:identifier "422" .
 
-ex:plate195_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Plate> ;
+ex:plate195_scene1 a vh2kg:Plate ;
     rdfs:label "plate" ;
     ns1:identifier "195" .
 
-ex:plate201_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Plate> ;
+ex:plate201_scene1 a vh2kg:Plate ;
     rdfs:label "plate" ;
     ns1:identifier "201" .
 
-ex:plate274_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Plate> ;
+ex:plate274_scene1 a vh2kg:Plate ;
     rdfs:label "plate" ;
     ns1:identifier "274" .
 
-ex:plate278_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Plate> ;
+ex:plate278_scene1 a vh2kg:Plate ;
     rdfs:label "plate" ;
     ns1:identifier "278" .
 
-ex:plate279_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Plate> ;
+ex:plate279_scene1 a vh2kg:Plate ;
     rdfs:label "plate" ;
     ns1:identifier "279" .
 
-ex:plate286_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Plate> ;
+ex:plate286_scene1 a vh2kg:Plate ;
     rdfs:label "plate" ;
     ns1:identifier "286" .
 
-ex:plate315_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Plate> ;
+ex:plate315_scene1 a vh2kg:Plate ;
     rdfs:label "plate" ;
     ns1:identifier "315" .
 
-ex:plate62_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Plate> ;
+ex:plate62_scene1 a vh2kg:Plate ;
     rdfs:label "plate" ;
     ns1:identifier "62" .
 
-ex:plum444_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Plum> ;
+ex:plum444_scene1 a vh2kg:Plum ;
     rdfs:label "plum" ;
     ns1:identifier "444" .
 
-ex:plum445_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Plum> ;
+ex:plum445_scene1 a vh2kg:Plum ;
     rdfs:label "plum" ;
     ns1:identifier "445" .
 
-ex:powersocket263_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Powersocket> ;
+ex:powersocket263_scene1 a vh2kg:Powersocket ;
     rdfs:label "powersocket" ;
     ns1:identifier "263" .
 
-ex:radio178_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Radio> ;
+ex:radio178_scene1 a vh2kg:Radio ;
     rdfs:label "radio" ;
     vh2kg:attribute vh2kg:has_plug,
         vh2kg:has_switch ;
     ns1:identifier "178" .
 
-ex:remotecontrol453_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Remotecontrol> ;
+ex:remotecontrol453_scene1 a vh2kg:Remotecontrol ;
     rdfs:label "remotecontrol" ;
     vh2kg:attribute vh2kg:has_switch ;
     ns1:identifier "453" .
 
-ex:rug253_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Rug> ;
+ex:rug253_scene1 a vh2kg:Rug ;
     rdfs:label "rug" ;
     ns1:identifier "253" .
 
-ex:rug254_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Rug> ;
+ex:rug254_scene1 a vh2kg:Rug ;
     rdfs:label "rug" ;
     ns1:identifier "254" .
 
-ex:salmon328_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Salmon> ;
+ex:salmon328_scene1 a vh2kg:Salmon ;
     rdfs:label "salmon" ;
     ns1:identifier "328" .
 
@@ -28126,182 +28126,182 @@ ex:shape_state4_wallshelf251_wash_pillow_scene1 a x3do:Shape ;
             rdf:first 2.722777e-01 ;
             rdf:rest ( 1.819556e-01 1.000001e+00 ) ] .
 
-ex:slippers202_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Slippers> ;
+ex:slippers202_scene1 a vh2kg:Slippers ;
     rdfs:label "slippers" ;
     vh2kg:attribute vh2kg:clothes ;
     ns1:identifier "202" .
 
-ex:slippers203_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Slippers> ;
+ex:slippers203_scene1 a vh2kg:Slippers ;
     rdfs:label "slippers" ;
     vh2kg:attribute vh2kg:clothes ;
     ns1:identifier "203" .
 
-ex:sofa369_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Sofa> ;
+ex:sofa369_scene1 a vh2kg:Sofa ;
     rdfs:label "sofa" ;
     ns1:identifier "369" .
 
-ex:tablelamp103_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Tablelamp> ;
+ex:tablelamp103_scene1 a vh2kg:Tablelamp ;
     rdfs:label "tablelamp" ;
     ns1:identifier "103" .
 
-ex:tablelamp104_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Tablelamp> ;
+ex:tablelamp104_scene1 a vh2kg:Tablelamp ;
     rdfs:label "tablelamp" ;
     ns1:identifier "104" .
 
-ex:toaster309_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Toaster> ;
+ex:toaster309_scene1 a vh2kg:Toaster ;
     rdfs:label "toaster" ;
     ns1:identifier "309" .
 
-ex:toothbrush66_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Toothbrush> ;
+ex:toothbrush66_scene1 a vh2kg:Toothbrush ;
     rdfs:label "toothbrush" ;
     ns1:identifier "66" .
 
-ex:toothpaste63_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Toothpaste> ;
+ex:toothpaste63_scene1 a vh2kg:Toothpaste ;
     rdfs:label "toothpaste" ;
     vh2kg:attribute vh2kg:cream ;
     ns1:identifier "63" .
 
-ex:towel54_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Towel> ;
+ex:towel54_scene1 a vh2kg:Towel ;
     rdfs:label "towel" ;
     vh2kg:attribute vh2kg:cover_object ;
     ns1:identifier "54" .
 
-ex:towel55_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Towel> ;
+ex:towel55_scene1 a vh2kg:Towel ;
     rdfs:label "towel" ;
     vh2kg:attribute vh2kg:cover_object ;
     ns1:identifier "55" .
 
-ex:towel56_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Towel> ;
+ex:towel56_scene1 a vh2kg:Towel ;
     rdfs:label "towel" ;
     vh2kg:attribute vh2kg:cover_object ;
     ns1:identifier "56" .
 
-ex:tv265_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Tv> ;
+ex:tv265_scene1 a vh2kg:Tv ;
     rdfs:label "tv" ;
     ns1:identifier "265" .
 
-ex:tv427_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Tv> ;
+ex:tv427_scene1 a vh2kg:Tv ;
     rdfs:label "tv" ;
     ns1:identifier "427" .
 
-ex:tvstand230_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Tvstand> ;
+ex:tvstand230_scene1 a vh2kg:Tvstand ;
     rdfs:label "tvstand" ;
     ns1:identifier "230" .
 
-ex:tvstand370_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Tvstand> ;
+ex:tvstand370_scene1 a vh2kg:Tvstand ;
     rdfs:label "tvstand" ;
     ns1:identifier "370" .
 
-ex:wallphone264_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wallphone> ;
+ex:wallphone264_scene1 a vh2kg:Wallphone ;
     rdfs:label "wallphone" ;
     ns1:identifier "264" .
 
-ex:wallpictureframe180_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wallpictureframe> ;
+ex:wallpictureframe180_scene1 a vh2kg:Wallpictureframe ;
     rdfs:label "wallpictureframe" ;
     ns1:identifier "180" .
 
-ex:wallpictureframe182_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wallpictureframe> ;
+ex:wallpictureframe182_scene1 a vh2kg:Wallpictureframe ;
     rdfs:label "wallpictureframe" ;
     ns1:identifier "182" .
 
-ex:wallpictureframe257_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wallpictureframe> ;
+ex:wallpictureframe257_scene1 a vh2kg:Wallpictureframe ;
     rdfs:label "wallpictureframe" ;
     ns1:identifier "257" .
 
-ex:wallpictureframe258_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wallpictureframe> ;
+ex:wallpictureframe258_scene1 a vh2kg:Wallpictureframe ;
     rdfs:label "wallpictureframe" ;
     ns1:identifier "258" .
 
-ex:wallpictureframe259_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wallpictureframe> ;
+ex:wallpictureframe259_scene1 a vh2kg:Wallpictureframe ;
     rdfs:label "wallpictureframe" ;
     ns1:identifier "259" .
 
-ex:wallpictureframe260_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wallpictureframe> ;
+ex:wallpictureframe260_scene1 a vh2kg:Wallpictureframe ;
     rdfs:label "wallpictureframe" ;
     ns1:identifier "260" .
 
-ex:wallpictureframe417_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wallpictureframe> ;
+ex:wallpictureframe417_scene1 a vh2kg:Wallpictureframe ;
     rdfs:label "wallpictureframe" ;
     ns1:identifier "417" .
 
-ex:wallpictureframe421_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wallpictureframe> ;
+ex:wallpictureframe421_scene1 a vh2kg:Wallpictureframe ;
     rdfs:label "wallpictureframe" ;
     ns1:identifier "421" .
 
-ex:wallshelf251_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wallshelf> ;
+ex:wallshelf251_scene1 a vh2kg:Wallshelf ;
     rdfs:label "wallshelf" ;
     ns1:identifier "251" .
 
-ex:wallshelf252_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wallshelf> ;
+ex:wallshelf252_scene1 a vh2kg:Wallshelf ;
     rdfs:label "wallshelf" ;
     ns1:identifier "252" .
 
-ex:washingmachine73_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Washingmachine> ;
+ex:washingmachine73_scene1 a vh2kg:Washingmachine ;
     rdfs:label "washingmachine" ;
     ns1:identifier "73" .
 
-ex:washingsponge267_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Washingsponge> ;
+ex:washingsponge267_scene1 a vh2kg:Washingsponge ;
     rdfs:label "washingsponge" ;
     ns1:identifier "267" .
 
-ex:waterglass271_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Waterglass> ;
+ex:waterglass271_scene1 a vh2kg:Waterglass ;
     rdfs:label "waterglass" ;
     ns1:identifier "271" .
 
-ex:waterglass275_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Waterglass> ;
+ex:waterglass275_scene1 a vh2kg:Waterglass ;
     rdfs:label "waterglass" ;
     ns1:identifier "275" .
 
-ex:waterglass282_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Waterglass> ;
+ex:waterglass282_scene1 a vh2kg:Waterglass ;
     rdfs:label "waterglass" ;
     ns1:identifier "282" .
 
-ex:waterglass283_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Waterglass> ;
+ex:waterglass283_scene1 a vh2kg:Waterglass ;
     rdfs:label "waterglass" ;
     ns1:identifier "283" .
 
-ex:waterglass65_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Waterglass> ;
+ex:waterglass65_scene1 a vh2kg:Waterglass ;
     rdfs:label "waterglass" ;
     ns1:identifier "65" .
 
-ex:whippedcream319_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Whippedcream> ;
+ex:whippedcream319_scene1 a vh2kg:Whippedcream ;
     rdfs:label "whippedcream" ;
     ns1:identifier "319" .
 
-ex:wineglass199_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wineglass> ;
+ex:wineglass199_scene1 a vh2kg:Wineglass ;
     rdfs:label "wineglass" ;
     ns1:identifier "199" .
 
-ex:wineglass200_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wineglass> ;
+ex:wineglass200_scene1 a vh2kg:Wineglass ;
     rdfs:label "wineglass" ;
     ns1:identifier "200" .
 
-ex:wineglass299_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wineglass> ;
+ex:wineglass299_scene1 a vh2kg:Wineglass ;
     rdfs:label "wineglass" ;
     ns1:identifier "299" .
 
-ex:wineglass300_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wineglass> ;
+ex:wineglass300_scene1 a vh2kg:Wineglass ;
     rdfs:label "wineglass" ;
     ns1:identifier "300" .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceilinglamp> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Lamps> .
+vh2kg:Ceilinglamp a owl:Class ;
+    rdfs:subClassOf vh2kg:Lamps .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Decor> a owl:Class ;
+vh2kg:Decor a owl:Class ;
     rdfs:label "Decor" ;
     rdfs:subClassOf vh2kg:Object .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Rug> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Decor> .
+vh2kg:Rug a owl:Class ;
+    rdfs:subClassOf vh2kg:Decor .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Towel> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Towel a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Walllamp> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Lamps> .
+vh2kg:Walllamp a owl:Class ;
+    rdfs:subClassOf vh2kg:Lamps .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Waterglass> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Waterglass a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
 ex:shape_state0_bed111_wash_pillow_scene1 a x3do:Shape ;
     vh2kg:inside ex:shape_state0_bedroom74_wash_pillow_scene1 ;
@@ -28599,13 +28599,13 @@ ex:shape_state4_bookshelf371_wash_pillow_scene1 a x3do:Shape ;
             rdf:first 2.114e+00 ;
             rdf:rest ( 2.216e+00 3.200003e-01 ) ] .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Bellpepper> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Food> .
+vh2kg:Bellpepper a owl:Class ;
+    rdfs:subClassOf vh2kg:Food .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothesshirt> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Clothesshirt a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-ex:pillow423_scene1 a <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Pillow> ;
+ex:pillow423_scene1 a vh2kg:Pillow ;
     rdfs:label "pillow" ;
     ns1:identifier "423" .
 
@@ -29070,11 +29070,11 @@ ex:shape_state4_tv427_wash_pillow_scene1 a x3do:Shape ;
             rdf:first 1.106102e+00 ;
             rdf:rest ( 8.233126e-01 2.354236e-01 ) ] .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Kitchencounterdrawer> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Kitchencounterdrawer a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Plate> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Plate a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
 ex:shape_state0_chair373_wash_pillow_scene1 a x3do:Shape ;
     vh2kg:close ex:shape_state0_character1_wash_pillow_scene1 ;
@@ -29167,18 +29167,18 @@ ex:character1_scene1 a vh2kg:Character ;
     rdfs:label "character" ;
     ns1:identifier "1" .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Appliances> a owl:Class ;
+vh2kg:Appliances a owl:Class ;
     rdfs:label "Appliances" ;
     rdfs:subClassOf vh2kg:Object .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Book> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> .
+vh2kg:Book a owl:Class ;
+    rdfs:subClassOf vh2kg:Props .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespants> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Clothespants a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Curtains> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Decor> .
+vh2kg:Curtains a owl:Class ;
+    rdfs:subClassOf vh2kg:Decor .
 
 ex:shape_state0_bathroomcounter50_wash_pillow_scene1 a x3do:Shape ;
     vh2kg:inside ex:shape_state0_bathroom11_wash_pillow_scene1 ;
@@ -29352,11 +29352,11 @@ ex:shape_state4_coffeetable372_wash_pillow_scene1 a x3do:Shape ;
             rdf:first 1.28e+00 ;
             rdf:rest ( 2.44e-01 1.28e+00 ) ] .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Electronics> a owl:Class ;
+vh2kg:Electronics a owl:Class ;
     rdfs:label "Electronics" ;
     rdfs:subClassOf vh2kg:Object .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Food> a owl:Class ;
+vh2kg:Food a owl:Class ;
     rdfs:label "Food" ;
     rdfs:subClassOf vh2kg:Object .
 
@@ -29386,8 +29386,8 @@ ex:shape_state2_coffeetable372_wash_pillow_scene1 a x3do:Shape ;
             rdf:first 1.28e+00 ;
             rdf:rest ( 2.44e-01 1.28e+00 ) ] .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wallpictureframe> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Decor> .
+vh2kg:Wallpictureframe a owl:Class ;
+    rdfs:subClassOf vh2kg:Decor .
 
 ex:shape_state0_toilet46_wash_pillow_scene1 a x3do:Shape ;
     vh2kg:close ex:shape_state3_character1_wash_pillow_scene1 ;
@@ -29713,8 +29713,8 @@ ex:shape_state4_kitchentable231_wash_pillow_scene1 a x3do:Shape ;
             rdf:first 2e+00 ;
             rdf:rest ( 9.5e-01 1.092e+00 ) ] .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Closetdrawer> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Closetdrawer a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
 ex:shape_state0_rug179_wash_pillow_scene1 a x3do:Shape ;
     vh2kg:inside ex:shape_state0_bedroom74_wash_pillow_scene1 ;
@@ -29725,23 +29725,23 @@ ex:shape_state0_rug179_wash_pillow_scene1 a x3do:Shape ;
             rdf:first 2.954861e+00 ;
             rdf:rest ( 2.454547e-02 3.849833e+00 ) ] .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Hanger> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Hanger a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Ceiling> a owl:Class ;
+vh2kg:Ceiling a owl:Class ;
     rdfs:label "Ceiling" ;
     rdfs:subClassOf vh2kg:Object .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Floor> a owl:Class ;
+vh2kg:Floor a owl:Class ;
     rdfs:label "Floor" ;
     rdfs:subClassOf vh2kg:Object .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> a owl:Class ;
+vh2kg:Furniture a owl:Class ;
     rdfs:label "Furniture" ;
     rdfs:subClassOf vh2kg:Object .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Wall> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Walls> .
+vh2kg:Wall a owl:Class ;
+    rdfs:subClassOf vh2kg:Walls .
 
 ex:shape_state0_chair112_wash_pillow_scene1 a x3do:Shape ;
     vh2kg:inside ex:shape_state0_bedroom74_wash_pillow_scene1 ;
@@ -29752,10 +29752,10 @@ ex:shape_state0_chair112_wash_pillow_scene1 a x3do:Shape ;
             rdf:first 9.520716e-01 ;
             rdf:rest ( 1.0489e+00 2.940714e-03 ) ] .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Clothespile> a owl:Class ;
-    rdfs:subClassOf <http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Furniture> .
+vh2kg:Clothespile a owl:Class ;
+    rdfs:subClassOf vh2kg:Furniture .
 
-<http://raw.githubusercontent.com/aistairc/HomeObjectOntology/main/HomeObject.owl#Props> a owl:Class ;
+vh2kg:Props a owl:Class ;
     rdfs:label "Props" ;
     rdfs:subClassOf vh2kg:Object .
 
