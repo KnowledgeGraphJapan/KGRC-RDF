@@ -1,10 +1,12 @@
- [[Japanese](README_ja.md)]
+ [[English](README_en.md)]
  # Knowledge Graph
-This repogitory is for  for public use of the Knowledge Graph for **the Knowledge Graph Reasoning Challenge for Social Issue**.  
+ナレッジグラフ推論チャレンジ【実社会版】のデータ（ナレッジグラフ・動画）を公開するリポジトリです．
 
-## RDF Data
-https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/kgrc4si/RDF
+## ナレッジグラフ (RDFデータ)
+https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/kgrc4si/RDF  
+データスキーマは[VirtualHome2KG](https://github.com/aistairc/VirtualHome2KG/tree/main/ontology)に基づいています．  
+下記の動画を内容をナレッジグラフとして表現しています．
 
-## Movies
-https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/kgrc4si/Movie
- 
+## 動画
+https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/kgrc4si/Movie  
+[VirtualHome](https://github.com/xavierpuigf/virtualhome)をもとに，本チャレンジ用にモーションを拡張して動画を作成しています．
