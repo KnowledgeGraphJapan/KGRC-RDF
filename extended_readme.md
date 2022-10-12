@@ -28,3 +28,6 @@
 
 
 ## ナレッジグラフの説明
+
+### スキーマ図
+<img src="https://github.com/aistairc/VirtualHome2KG/raw/main/ontology/image/class_diagram.png" alt="schema">
