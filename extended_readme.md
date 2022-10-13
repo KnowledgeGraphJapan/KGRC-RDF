@@ -1,5 +1,8 @@
 # 家庭内の日常生活行動の合成動画および合成ナレッジグラフ
 
+<img src="./asset/put_food_in_fridge1.gif" width="242px;" alt="kg">
+<img src="./asset/put_food_in_fridge1_kg.png" width="250px;" alt="kg">
+
 ## 簡単に言うと
 - 家庭内日常生活を仮想空間でシミュレーションした動画と，その内容を表すナレッジグラフのセット
 
