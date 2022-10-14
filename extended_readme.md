@@ -45,7 +45,7 @@
 ## ナレッジグラフの説明
 
 ### スキーマ図
-<img src="https://github.com/aistairc/VirtualHome2KG/raw/main/ontology/image/class_diagram.png" alt="schema">
+<img src="https://github.com/aistairc/VirtualHome2KG/raw/main/ontology/image/class_diagram.png" alt="schema" width="80%">
 
 
 <details>
@@ -83,43 +83,43 @@
     </tr>
     <tr>
         <td>ho:Activity</td>
-        <td>Human daily activity at home. This class is reused from the HomeOntology.</td>
+        <td>家庭での人間の日常活動。このクラスは<a href="https://github.com/valexande/HomeOntology" target="_blank">HomeOntology</a>から再利用されている。</td>
     </tr>
     <tr>
         <td>:Event</td>
-        <td>Fine-grained event to compose the activity.</td>
+        <td>アクティビティを構成する細かなイベント。</td>
     </tr>
     <tr>
         <td>:Action</td>
-        <td>Primitive action performed in an event.</td>
+        <td>イベント内で行われる人間の動作（アクション）。</td>
     </tr>
     <tr>
         <td>:Object</td>
-        <td>Object in a home such as food, furniture, electronics, consumables, and living thing.</td>
+        <td>食べ物、家具、電化製品、消耗品、生活用品など、家庭内にある様々なオブジェクト。</td>
     </tr>
     <tr>
         <td>:Situation</td>
-        <td>Situation in a home at a certain time.</td>
+        <td>特定の瞬間における家庭内の状況。その瞬間における家庭内のすべてのオブジェクトの状態（State）インスタンスは、このクラスのインスタンスの一部分(part)となる。</td>
     </tr>
     <tr>
         <td>:State</td>
-        <td>State of an object at a certain time.</td>
+        <td>特定の瞬間における、特定の物体の状態。イベントの前後で状態が変化する場合にのみ新たにインスタンスが作成される。</td>
     </tr>
     <tr>
         <td>:StateType</td>
-        <td>Type of state. The instances of this class are based on [object states](https://github.com/xavierpuigf/virtualhome/tree/master/simulation#object-states) of VirtualHome.</td>
+        <td>オブジェクトの状態の種類. このクラスのインスタンスは、VirtualHomeの<a href="https://github.com/xavierpuigf/virtualhome/tree/master/src/virtualhome/simulation#object-states" target="_blank">object states</a>に基づいている。</td>
     </tr>
     <tr>
         <td>:Attribute</td>
-        <td>Attribute of an object.</td>
+        <td>オブジェクトの属性。</td>
     </tr>
     <tr>
         <td>:Shape</td>
-        <td>Object's 3D bounding box, including size and coordinates. This class is reused from the [X3D ontology](https://www.web3d.org/x3d/content/semantics/semantics.html).</td>
+        <td>オブジェクトの形状と位置を表すクラス。サイズと座標を含む3Dバウンディングボックスの値を持つ。このクラスは<a href="https://www.web3d.org/x3d/content/semantics/semantics.html" target="_blank">X3D ontology</a>から再利用されている。</td>
     </tr>
     <tr>
         <td>time:Duration</td>
-        <td>Duration of an execution of an action. This class is reused from the [Time Ontology](https://www.w3.org/TR/owl-time/#time:Duration).</td>
+        <td>動作の実行時間（秒数）。 このクラスは<a href="https://www.w3.org/TR/owl-time/#time:Duration">Time Ontology</a>から再利用されている。</td>
     </tr>
 </table>
 </details>
@@ -137,146 +137,159 @@
         <td>:activty</td>
         <td>:Character</td>
         <td>:Activity</td>
-        <td>Associates a character (agent) to activities.</td>
+        <td>キャラクター（エージェント）とアクティビティを関連付ける。</td>
     </tr>
     <tr>
         <td>:action</td>
-        <td>:Activity</td>
+        <td>:Event</td>
         <td>:Action</td>
-        <td>Associates an activity to actions. The activity is composed of an action sequence.</td>
+        <td>イベントとアクション(動作)を関連付ける。アクティビティはアクションのシーケンスで構成される。</td>
     </tr>
     <tr>
-        <td>:actionNumber</td>
-        <td>:Action</td>
+        <td>:eventNumber</td>
+        <td>:Event</td>
         <td>xsd:int</td>
-        <td>Indicates the order of the action in the activity.</td>
+        <td>アクティビティにおけるイベントの順序を示す。</td>
     </tr>
     <tr>
         <td>:situationBeforeEvent</td>
-        <td></td>
+        <td>:Event</td>
         <td>:Situation</td>
-        <td>Subproperty of :relatedSituation. Associates an event to a situation. Environmental situation before executing some action.</td>
+        <td>あるイベントをある状況に関連付ける。何らかのイベントが実行される前の家庭内の状況。</td>
     </tr>
     <tr>
         <td>:situationAfterEvent</td>
-        <td></td>
+        <td>:Event</td>
         <td>:Situation</td>
-        <td>Subproperty of :relatedSituation. Associates an event to a situation. Environmental situation after executing some action.</td>
+        <td>あるイベントをある状況に関連付ける。何らかのイベントが実行された後の家庭内の状況。</td>
     </tr>
     <tr>
-        <td>ho:object</td>
-        <td>:Action</td>
+        <td>:mainObject</td>
+        <td>:Event</td>
         <td>:Object</td>
-        <td>Associates an action to a target object. This property is reused and modified from the HomeOntology.</td>
+        <td>イベントをメインオブジェクトに関連付ける。イベントにおける動作対象のオブジェクトを表す。「object_Xをobject_Yにactionする」のような場合、object_Xを指定する場合にこのプロパティを使う。</td>
+    </tr>
+    <tr>
+        <td>:targetObject</td>
+        <td>:Event</td>
+        <td>:Object</td>
+        <td>イベントをターゲットオブジェクトに関連付ける。イベントにおける動作対象のオブジェクトを表す。「object_Xをobject_Yにactionする」のような場合、object_Yを指定する場合にこのプロパティを使う。</td>
     </tr>
     <tr>
         <td>time:hasDuration</td>
-        <td>:Action</td>
+        <td>:Event</td>
         <td>time:Duration</td>
-        <td>Associates an action to its execution duration.</td>
+        <td>イベントとその実行時間を関連付ける。</td>
     </tr>
     <tr>
         <td>:isStateOf</td>
         <td>:State</td>
         <td>:Object</td>
-        <td>Associates an object to its state.</td>
+        <td>オブジェクトとその状態を関連付ける。</td>
     </tr>
     <tr>
         <td>:state</td>
         <td>:State</td>
         <td>:StateType</td>
-        <td>Associates a state to its values.</td>
+        <td>状態をその値に関連付ける。</td>
     </tr>
     <tr>
         <td>:affords</td>
         <td>:Object</td>
         <td>:Action</td>
-        <td>Associates an object to actions. This means affordance.</td>
+        <td>オブジェクトとアクションを関連付ける。オブジェクトのアフォーダンスを意味する。</td>
     </tr>
     <tr>
         <td>:attribute</td>
-        <td>:State</td>
+        <td>:Object</td>
         <td>:Attribute</td>
-        <td>Associates a state to attributes of an object.</td>
+        <td>オブジェクトに属性を関連付ける。</td>
     </tr>
     <tr>
         <td>:partOf</td>
         <td>:State</td>
         <td>:Situation</td>
-        <td>In this ontology, the :partOf property is used for associating a state to a situation.</td>
+        <td>オブジェクトの状態(State)が、どの瞬間の家庭内の状況(Situtation)のものであるかを表す。</td>
     </tr>
     <tr>
         <td>:bbox</td>
         <td>:State</td>
         <td>:Shape</td>
-        <td>Associates a state to a 3D bounding box of an object.</td>
+        <td>ある時点でのオブジェクトの状態のリソースと形状リソースを関連付ける。</td>
     </tr>
     <tr>
         <td>:nextActivity</td>
         <td>:Activity</td>
         <td>:Activity</td>
-        <td>Subproperty of :relatedActivity. Associates an activity to the next activity. This property is usually used for KG that is augmented by our method.</td>
+        <td>アクティビティ間の関係を表す。次のアクティビティ。</td>
     </tr>
     <tr>
-        <td>:nextAction</td>
-        <td>:Action</td>
-        <td>:Action</td>
-        <td>Subproperty of :relatedAction. Associates an action to the next action.</td>
+        <td>:nextEvent</td>
+        <td>:Event</td>
+        <td>:Event</td>
+        <td>イベント間の関係を表す。次のイベント。</td>
     </tr>
     <tr>
         <td>:nextSituation</td>
         <td>:Situation</td>
         <td>:Situation</td>
-        <td>Subproperty of :relatedSituation. Associates a situation to the next situation.</td>
+        <td>状況間の関係を表す。次の状況。</td>
     </tr>
     <tr>
         <td>:nextState</td>
         <td>:State</td>
         <td>:State</td>
-        <td>Subproperty of :relatedState. Associates a state to the next state.</td>
+        <td>オブジェクトの状態間の関係を表す。オブジェクトの次の状態。</td>
     </tr>
     <tr>
         <td>:between</td>
         <td>:Shape</td>
         <td>:Shape</td>
-        <td>Subproperty of :relatedShape. Please see [detailed description](https://github.com/xavierpuigf/virtualhome/tree/master/simulation#relations). This property is used for door objects. If a door is between a kitchen and a living room, this property associates the door to the living room and associates the door to the kitchen.</td>
+        <td>主にドアオブジェクトに適応される。キッチンとリビングの間にドアがある場合、このプロパティはドアとリビング、ドアとキッチンの関係に使用される。詳細はVirtualHomeの<a href="https://github.com/xavierpuigf/virtualhome/tree/master/src/virtualhome/simulation#relations" target="_blank">relations</a>をご覧ください。</td>
     </tr>
     <tr>
         <td>:close</td>
         <td>:Shape</td>
         <td>:Shape</td>
-        <td>Subproperty of :relatedShape. Please see [detailed description](https://github.com/xavierpuigf/virtualhome/tree/master/simulation#relations). Triple &lt;object1, close, object2&gt; denotes that the distance between center of object1 (object2) to the bounding box of object2 (object1) is &lt; 1.5 units (~meters).</td>
+        <td>オブジェクト間の距離が1.5m以内であることを意味する。詳細はVirtualHomeの<a href="https://github.com/xavierpuigf/virtualhome/tree/master/src/virtualhome/simulation#relations" target="_blank">relations</a>をご覧ください。</td>
     </tr>
     <tr>
         <td>:facing</td>
         <td>:Shape</td>
         <td>:Shape</td>
-        <td>Subproperty of :relatedShape. Please see [detailed description](https://github.com/xavierpuigf/virtualhome/tree/master/simulation#relations). Triple &lt;object1, facing, object2&gt; denotes that object2 is lookable, is visible from object1, and the distance between the centers is &lt; 5 units (~meters).</td>
+        <td>オブジェクト1からオブジェクト2が見えることを意味する。オブジェクトの中心間の距離が5m以内。詳細はVirtualHomeの<a href="https://github.com/xavierpuigf/virtualhome/tree/master/src/virtualhome/simulation#relations" target="_blank">relations</a>をご覧ください。</td>
     </tr>
     <tr>
         <td>:holds_lh</td>
         <td>:Shape</td>
         <td>:Shape</td>
-        <td>Subproperty of :relatedShape. Please see [detailed description](https://github.com/xavierpuigf/virtualhome/tree/master/simulation#relations). Relation for left hand.</td>
+        <td>左手でオブジェクトを持っていることを意味する。したがって主語はCharacterに関するShapeである。詳細はVirtualHomeの<a href="https://github.com/xavierpuigf/virtualhome/tree/master/src/virtualhome/simulation#relations" target="_blank">relations</a>をご覧ください。</td>
     </tr>
     <tr>
         <td>:holds_rh</td>
         <td>:Shape</td>
         <td>:Shape</td>
-        <td>Subproperty of :relatedShape. Please see [detailed description](https://github.com/xavierpuigf/virtualhome/tree/master/simulation#relations). Relation for left hand.</td>
+        <td>右手でオブジェクトを持っていることを意味する。したがって主語はCharacterに関するShapeである。詳細はVirtualHomeの<a href="https://github.com/xavierpuigf/virtualhome/tree/master/src/virtualhome/simulation#relations" target="_blank">relations</a>をご覧ください。</td>
     </tr>
     <tr>
         <td>:inside</td>
         <td>:Shape</td>
         <td>:Shape</td>
-        <td>Subproperty of :relatedShape. Triple &lt;object1, inside, object2&gt; denotes that object1 is placed inside of object2.</td>
+        <td>オブジェクト1がオブジェクト2の中に位置していることを意味する。詳細はVirtualHomeの<a href="https://github.com/xavierpuigf/virtualhome/tree/master/src/virtualhome/simulation#relations" target="_blank">relations</a>をご覧ください。</td>
     </tr>
     <tr>
         <td>:on</td>
         <td>:Shape</td>
         <td>:Shape</td>
-        <td>Subproperty of :relatedShape. Triple &lt;object1, on, object2&gt; denotes that object1 is placed on object2.</td>
+        <td>オブジェクト1がオブジェクト2の上に位置していることを意味する。</td>
     </tr>
 </table>
 </details>
 
+### 仕様書
+全クラス・インスタンス・プロパティの説明は下記の仕様書を御覧ください。  
+[https://aistairc.github.io/VirtualHome2KG/vh2kg_ontology.html](https://aistairc.github.io/VirtualHome2KG/vh2kg_ontology.html)
+
+### 具体的なナレッジグラフの例
+
+## ナレッジグラフの使用方法
