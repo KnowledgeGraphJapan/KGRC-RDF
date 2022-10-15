@@ -307,3 +307,46 @@
 
 左サイドメニューより，「SPARQL」を選択するとSPARQLエディターが表示されます．  
 トリプルストアとしてOntotext GraphDBを使用しています．基本的な使用方法は[こちらの動画](https://drive.google.com/file/d/19YKSsUalvVSGinYtCwi2R7zHIp3W0EBU/view)を御覧ください。
+
+### SPARQLクエリ例
+
+- [アクティビティの一覧を取得する](#アクティビティの一覧を取得する)
+- [「インターネットをブラウズする」というアクティビティ中のイベントとアクションを取得する](#「インターネットをブラウズする」というアクティビティ中のイベントとアクションを取得する)
+- [よく掴まれているオブジェクト](#よく掴まれているオブジェクト)
+
+#### アクティビティの一覧を取得する
+```sparql
+PREFIX ex: <http://example.org/virtualhome2kg/instance/>
+PREFIX vh2kg: <http://example.org/virtualhome2kg/ontology/>
+select DISTINCT * where {
+?activity vh2kg:virtualHome ex:scene1 .
+}
+```
+
+#### 「インターネットをブラウズする」というアクティビティ中のイベントとアクションを取得する
+```sparql
+PREFIX ex: <http://example.org/virtualhome2kg/instance/>
+PREFIX vh2kg: <http://example.org/virtualhome2kg/ontology/>
+select DISTINCT * where {
+    ex:browse_internet_scene1 vh2kg:hasEvent ?event .
+    ?event vh2kg:action ?action .
+}
+```
+
+#### よく掴まれているオブジェクト
+```sparql
+PREFIX ho: <http://www.owl-ontologies.com/VirtualHome.owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX : <http://example.org/virtualhome2kg/ontology/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX ac: <http://example.org/virtualhome2kg/ontology/action/>
+select ?name (count(?object) AS ?count) where { 
+	?objectClass rdfs:subClassOf :Object .
+    ?object a ?objectClass ;
+            rdfs:label ?label ; 
+            dcterms:identifier ?id .
+    ?event ho:object ?object .
+    ?event :action ac:grab .
+    BIND(concat(?label, ?id) AS ?name)
+} group by ?object ?name order by desc(count(?object))
+```
