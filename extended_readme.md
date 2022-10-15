@@ -167,13 +167,13 @@
         <td>:mainObject</td>
         <td>:Event</td>
         <td>:Object</td>
-        <td>イベントをメインオブジェクトに関連付ける。イベントにおける動作対象のオブジェクトを表す。「object_Xをobject_Yにactionする」のような場合、object_Xを指定する場合にこのプロパティを使う。</td>
+        <td>ho:objectのサブプロパティ。イベントをメインオブジェクトに関連付ける。イベントにおける動作対象のオブジェクトを表す。「object_Xをobject_Yにactionする」のような場合、object_Xを指定する場合にこのプロパティを使う。</td>
     </tr>
     <tr>
         <td>:targetObject</td>
         <td>:Event</td>
         <td>:Object</td>
-        <td>イベントをターゲットオブジェクトに関連付ける。イベントにおける動作対象のオブジェクトを表す。「object_Xをobject_Yにactionする」のような場合、object_Yを指定する場合にこのプロパティを使う。</td>
+        <td>ho:objectのサブプロパティ。イベントをターゲットオブジェクトに関連付ける。イベントにおける動作対象のオブジェクトを表す。「object_Xをobject_Yにactionする」のような場合、object_Yを指定する場合にこのプロパティを使う。</td>
     </tr>
     <tr>
         <td>time:hasDuration</td>
@@ -290,6 +290,9 @@
 全クラス・インスタンス・プロパティの説明は下記の仕様書を御覧ください。  
 [https://aistairc.github.io/VirtualHome2KG/vh2kg_ontology.html](https://aistairc.github.io/VirtualHome2KG/vh2kg_ontology.html)
 
-### 具体的なナレッジグラフの例
+### 具体的なナレッジグラフの説明
+<img src="./asset/Slide3.png" alt="kgの例 (listen to music)">
 
 ## ナレッジグラフの使用方法
+
+### SPARQLエンドポイント
