@@ -311,27 +311,40 @@
 ### SPARQLクエリ例
 
 - [アクティビティの一覧を取得する](#アクティビティの一覧を取得する)
-- [「インターネットをブラウズする」というアクティビティ中のイベントとアクションを取得する](#「インターネットをブラウズする」というアクティビティ中のイベントとアクションを取得する)
+- [「インターネットをブラウズする」というアクティビティ中のイベントとアクションを取得する](#インターネットをブラウズするというアクティビティ中のイベントとアクションを取得する)
 - [よく掴まれているオブジェクト](#よく掴まれているオブジェクト)
+- [インタラクションしているオブジェクトのタイプ一覧](#インタラクションしているオブジェクトのタイプ一覧)
 
 #### アクティビティの一覧を取得する
 ```sparql
 PREFIX ex: <http://example.org/virtualhome2kg/instance/>
-PREFIX vh2kg: <http://example.org/virtualhome2kg/ontology/>
+PREFIX : <http://example.org/virtualhome2kg/ontology/>
 select DISTINCT * where {
-?activity vh2kg:virtualHome ex:scene1 .
+    ?activity :virtualHome ex:scene1 .
 }
 ```
+[実行結果](http://kgrc4si.ml:7200/sparql?name=&infer=true&sameAs=false&query=PREFIX%20ex%3A%20%3Chttp%3A%2F%2Fexample.org%2Fvirtualhome2kg%2Finstance%2F%3E%0APREFIX%20%3A%20%3Chttp%3A%2F%2Fexample.org%2Fvirtualhome2kg%2Fontology%2F%3E%0Aselect%20DISTINCT%20*%20where%20%7B%0A%20%20%20%20%3Factivity%20%3AvirtualHome%20ex%3Ascene1%20.%0A%7D)
 
 #### 「インターネットをブラウズする」というアクティビティ中のイベントとアクションを取得する
 ```sparql
 PREFIX ex: <http://example.org/virtualhome2kg/instance/>
-PREFIX vh2kg: <http://example.org/virtualhome2kg/ontology/>
+PREFIX : <http://example.org/virtualhome2kg/ontology/>
 select DISTINCT * where {
-    ex:browse_internet_scene1 vh2kg:hasEvent ?event .
-    ?event vh2kg:action ?action .
+    ex:browse_internet_scene1 :hasEvent ?event .
+    ?event :action ?action .
 }
 ```
+[実行結果](http://kgrc4si.ml:7200/sparql?name=&infer=true&sameAs=false&query=PREFIX%20ex%3A%20%3Chttp%3A%2F%2Fexample.org%2Fvirtualhome2kg%2Finstance%2F%3E%0APREFIX%20%3A%20%3Chttp%3A%2F%2Fexample.org%2Fvirtualhome2kg%2Fontology%2F%3E%0Aselect%20DISTINCT%20*%20where%20%7B%0A%20%20%20%20ex%3Abrowse_internet_scene1%20%3AhasEvent%20%3Fevent%20.%0A%20%20%20%20%3Fevent%20%3Aaction%20%3Faction%20.%0A%7D)
+
+#### インタラクションしているオブジェクトのタイプ一覧
+```sparql
+PREFIX : <http://example.org/virtualhome2kg/ontology/>
+select distinct ?objectType where { 
+    ?event (:mainObject|:targetObject) ?object .
+    ?object a ?objectType .
+}
+```
+[実行結果](http://kgrc4si.ml:7200/sparql?name=&infer=true&sameAs=false&query=PREFIX%20%3A%20%3Chttp%3A%2F%2Fexample.org%2Fvirtualhome2kg%2Fontology%2F%3E%0Aselect%20distinct%20%3FobjectType%20where%20%7B%20%0A%20%20%20%20%3Fevent%20(%3AmainObject%7C%3AtargetObject)%20%3Fobject%20.%0A%20%20%20%20%3Fobject%20a%20%3FobjectType%20.%0A%7D)
 
 #### よく掴まれているオブジェクト
 ```sparql
@@ -350,3 +363,4 @@ select ?name (count(?object) AS ?count) where {
     BIND(concat(?label, ?id) AS ?name)
 } group by ?object ?name order by desc(count(?object))
 ```
+[実行結果](http://kgrc4si.ml:7200/sparql?name=&infer=true&sameAs=false&query=PREFIX%20ho%3A%20%3Chttp%3A%2F%2Fwww.owl-ontologies.com%2FVirtualHome.owl%23%3E%0APREFIX%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX%20%3A%20%3Chttp%3A%2F%2Fexample.org%2Fvirtualhome2kg%2Fontology%2F%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0APREFIX%20ac%3A%20%3Chttp%3A%2F%2Fexample.org%2Fvirtualhome2kg%2Fontology%2Faction%2F%3E%0Aselect%20%3Fname%20(count(%3Fobject)%20AS%20%3Fcount)%20where%20%7B%20%0A%09%3FobjectClass%20rdfs%3AsubClassOf%20%3AObject%20.%0A%20%20%20%20%3Fobject%20a%20%3FobjectClass%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20rdfs%3Alabel%20%3Flabel%20%3B%20%0A%20%20%20%20%20%20%20%20%20%20%20%20dcterms%3Aidentifier%20%3Fid%20.%0A%20%20%20%20%3Fevent%20ho%3Aobject%20%3Fobject%20.%0A%20%20%20%20%3Fevent%20%3Aaction%20ac%3Agrab%20.%0A%20%20%20%20BIND(concat(%3Flabel%2C%20%3Fid)%20AS%20%3Fname)%0A%7D%20group%20by%20%3Fobject%20%3Fname%20order%20by%20desc(count(%3Fobject)))
