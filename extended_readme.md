@@ -1,9 +1,9 @@
 # 家庭内の日常生活行動の合成動画および合成ナレッジグラフ
 
-<table>
+<table width="100%">
 <tr>
-<td><img src="./asset/put_food_in_fridge1.gif" width="290" alt="video"></td>
-<td><img src="./asset/put_food_in_fridge1_kg.png" width="300" alt="kg"></td>
+<td width="49%"><img src="./asset/put_food_in_fridge1.gif" alt="video"></td>
+<td width="51%"><img src="./asset/put_food_in_fridge1_kg.png" alt="kg"></td>
 </tr>
 </table>
 
