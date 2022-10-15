@@ -44,6 +44,11 @@
 
 ## ナレッジグラフの説明
 
+### オントロジーの仕様書
+全クラス・インスタンス・プロパティの説明は下記の仕様書を御覧ください。  
+[https://aistairc.github.io/VirtualHome2KG/vh2kg_ontology.html](https://aistairc.github.io/VirtualHome2KG/vh2kg_ontology.html)  
+以下で代表的なクラス・プロパティを説明します。
+
 ### スキーマ図
 <img src="https://github.com/aistairc/VirtualHome2KG/raw/main/ontology/image/class_diagram.png" alt="schema" width="80%">
 
@@ -125,7 +130,7 @@
 </details>
 
 <details>
-<summary>プロパティ</summary>
+<summary>代表的なプロパティ</summary>
 <table>
     <tr>
         <td>QName</td>
@@ -286,10 +291,6 @@
 </table>
 </details>
 
-### 仕様書
-全クラス・インスタンス・プロパティの説明は下記の仕様書を御覧ください。  
-[https://aistairc.github.io/VirtualHome2KG/vh2kg_ontology.html](https://aistairc.github.io/VirtualHome2KG/vh2kg_ontology.html)
-
 ### 具体的なナレッジグラフの説明
 <img src="./asset/Slide3.png" alt="kgの例 (listen to music)">
 
@@ -364,3 +365,6 @@ select ?name (count(?object) AS ?count) where {
 } group by ?object ?name order by desc(count(?object))
 ```
 [実行結果](http://kgrc4si.ml:7200/sparql?name=&infer=true&sameAs=false&query=PREFIX%20ho%3A%20%3Chttp%3A%2F%2Fwww.owl-ontologies.com%2FVirtualHome.owl%23%3E%0APREFIX%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX%20%3A%20%3Chttp%3A%2F%2Fexample.org%2Fvirtualhome2kg%2Fontology%2F%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0APREFIX%20ac%3A%20%3Chttp%3A%2F%2Fexample.org%2Fvirtualhome2kg%2Fontology%2Faction%2F%3E%0Aselect%20%3Fname%20(count(%3Fobject)%20AS%20%3Fcount)%20where%20%7B%20%0A%09%3FobjectClass%20rdfs%3AsubClassOf%20%3AObject%20.%0A%20%20%20%20%3Fobject%20a%20%3FobjectClass%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20rdfs%3Alabel%20%3Flabel%20%3B%20%0A%20%20%20%20%20%20%20%20%20%20%20%20dcterms%3Aidentifier%20%3Fid%20.%0A%20%20%20%20%3Fevent%20ho%3Aobject%20%3Fobject%20.%0A%20%20%20%20%3Fevent%20%3Aaction%20ac%3Agrab%20.%0A%20%20%20%20BIND(concat(%3Flabel%2C%20%3Fid)%20AS%20%3Fname)%0A%7D%20group%20by%20%3Fobject%20%3Fname%20order%20by%20desc(count(%3Fobject)))
+
+## 同様のナレッジグラフの作成方法
+本データセットは
