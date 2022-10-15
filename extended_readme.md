@@ -296,14 +296,10 @@
 ## ナレッジグラフの使用方法
 ナレッジグラフはRDF形式のデータで提供しているため，トリプルストアに格納することで，クエリ言語SPARQLを使用して様々な検索が可能です．
 
-<details>
-<summary>【トリプルストアについての参考資料】トリプルストアの導入</summary>
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/BTPxa1u2OX8c1E?startSlide=12" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/KnowledgeGraph/lod-250078657" title="ナレッジグラフ/LOD利用技術の入門（後編）" target="_blank">ナレッジグラフ/LOD利用技術の入門（後編）</a> </strong> from <strong><a href="//www.slideshare.net/KnowledgeGraph" target="_blank">KnowledgeGraph</a></strong> </div>
-</details>
-<details>
-<summary>【SPARQLについての参考資料】Wikidataを例としたSPARQLクエリの例</summary>
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/4ItKD2U95GF8UV?startSlide=14" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/KnowledgeGraph/lod-250078643" title="ナレッジグラフ/LOD利用技術の入門（前編）" target="_blank">ナレッジグラフ/LOD利用技術の入門（前編）</a> </strong> from <strong><a href="//www.slideshare.net/KnowledgeGraph" target="_blank">KnowledgeGraph</a></strong> </div>
-</details>
+参考資料:
+- 【トリプルストアについての参考資料】[トリプルストアの導入](https://www.slideshare.net/KnowledgeGraph/lod-250078657)  （12ページから）
+- 【SPARQLについての参考資料】[Wikidataを例としたSPARQLクエリの例](https://www.slideshare.net/KnowledgeGraph/linked-open-data2020-sparqlsparql)（16ページから）
+
   
 ### SPARQLエンドポイント
 本データセットを格納したSPARQLエンドポイントを提供しています。
