@@ -972,7 +972,8 @@ ho:care_for_houseplants rdf:type owl:Class ;
 
 ###  http://www.owl-ontologies.com/VirtualHome.owl#carry_box
 ho:carry_box rdf:type owl:Class ;
-             rdfs:subClassOf ho:HouseArrangement .
+             rdfs:subClassOf ho:HouseArrangement ;
+             rdfs:comment "added by virtualhome2kg"@en .
 
 
 ###  http://www.owl-ontologies.com/VirtualHome.owl#carry_groceries_to_kitchen
@@ -1294,6 +1295,12 @@ ho:computer_work rdf:type owl:Class ;
                  rdfs:comment "The class with sequence of actions to do computer work." .
 
 
+###  http://www.owl-ontologies.com/VirtualHome.owl#cook_food
+ho:cook_food rdf:type owl:Class ;
+             rdfs:subClassOf ho:FoodPreparation ;
+             rdfs:comment "added by virtualhome2kg"@en .
+
+
 ###  http://www.owl-ontologies.com/VirtualHome.owl#cook_some_food
 ho:cook_some_food rdf:type owl:Class ;
                   rdfs:subClassOf ho:FoodPreparation ;
@@ -1515,6 +1522,12 @@ ho:dry_soap_bottles rdf:type owl:Class ;
 ho:dust rdf:type owl:Class ;
         rdfs:subClassOf ho:HouseCleaning ;
         rdfs:comment "Class with sequences about how to dust, different objects." .
+
+
+###  http://www.owl-ontologies.com/VirtualHome.owl#eat_bread
+ho:eat_bread rdf:type owl:Class ;
+             rdfs:subClassOf ho:EatingDrinking ;
+             rdfs:comment "added by virtualhome2kg"@en .
 
 
 ###  http://www.owl-ontologies.com/VirtualHome.owl#eat_breakfast
@@ -2188,6 +2201,12 @@ table, in any room.""" .
 ho:leave_home rdf:type owl:Class ;
               rdfs:subClassOf ho:Other ;
               rdfs:comment "The class with sequence of actions for leaving home." .
+
+
+###  http://www.owl-ontologies.com/VirtualHome.owl#leaving_room
+ho:leaving_room rdf:type owl:Class ;
+                rdfs:subClassOf ho:Other ;
+                rdfs:comment "added by virtualhome2kg"@en .
 
 
 ###  http://www.owl-ontologies.com/VirtualHome.owl#let_baby_learn_how_to_walk
@@ -2871,6 +2890,12 @@ ho:prepare_for_work rdf:type owl:Class ;
                     rdfs:comment "The class with sequence of actions for preparing for work." .
 
 
+###  http://www.owl-ontologies.com/VirtualHome.owl#prepare_go_out
+ho:prepare_go_out rdf:type owl:Class ;
+                  rdfs:subClassOf ho:GettingReady ;
+                  rdfs:comment "added by virtualhome2kg"@en .
+
+
 ###  http://www.owl-ontologies.com/VirtualHome.owl#prepare_letter_for_mailing
 ho:prepare_letter_for_mailing rdf:type owl:Class ;
                               rdfs:subClassOf ho:Work ;
@@ -3052,6 +3077,12 @@ ho:put_dvds_on_shelves rdf:type owl:Class ;
                        rdfs:subClassOf ho:HouseArrangement ;
                        rdfs:comment """The class with sequence of actions for putting the dvds on shelves
 .""" .
+
+
+###  http://www.owl-ontologies.com/VirtualHome.owl#put_food_in_fridge
+ho:put_food_in_fridge rdf:type owl:Class ;
+                      rdfs:subClassOf ho:HouseArrangement ;
+                      rdfs:comment "added by virtualhome2kg"@en .
 
 
 ###  http://www.owl-ontologies.com/VirtualHome.owl#put_groceries_in_fridge
@@ -3937,6 +3968,12 @@ ho:throw_away_paper rdf:type owl:Class ;
 garbage that could be in any room.""" .
 
 
+###  http://www.owl-ontologies.com/VirtualHome.owl#throw_in_the_garbage
+ho:throw_in_the_garbage rdf:type owl:Class ;
+                        rdfs:subClassOf ho:HouseCleaning ;
+                        rdfs:comment "added by virtualhome2kg"@en .
+
+
 ###  http://www.owl-ontologies.com/VirtualHome.owl#throw_shoes
 ho:throw_shoes rdf:type owl:Class ;
                rdfs:subClassOf ho:Other ;
@@ -4232,6 +4269,12 @@ ho:wash_dishes_with_dishwasher rdf:type owl:Class ;
 ho:wash_face rdf:type owl:Class ;
              rdfs:subClassOf ho:HygieneStyling ;
              rdfs:comment "The class with sequence of actions for washing your face." .
+
+
+###  http://www.owl-ontologies.com/VirtualHome.owl#wash_fry_pan
+ho:wash_fry_pan rdf:type owl:Class ;
+                rdfs:subClassOf ho:HouseCleaning ;
+                rdfs:comment "added by virtualhome2kg"@en .
 
 
 ###  http://www.owl-ontologies.com/VirtualHome.owl#wash_hair
