@@ -1,4 +1,4 @@
-# 家庭内の日常生活行動の合成動画および合成ナレッジグラフ
+# VirtualHome2KGデータセット―家庭内の日常生活行動のシミュレーション動画とナレッジグラフ―
 
 <table width="100%">
 <tr>
@@ -17,6 +17,7 @@
 4. [ナレッジグラフの説明](#ナレッジグラフの説明)
 5. [ナレッジグラフの使用方法](#ナレッジグラフの使用方法)
 6. [同様のナレッジグラフの作成方法](#同様のナレッジグラフの作成方法)
+7. [LODチャレンジ向けの説明](#lodチャレンジ向けの説明)
 
 ## 背景
 - 超高齢化社会に伴い，日常生活に潜む安全上・健康上の問題の予測，分析の需要が増加
@@ -304,9 +305,8 @@
   
 ### SPARQLエンドポイント
 本データセットを格納したSPARQLエンドポイントを提供しています。  
-[http://kgrc4si.ml:7200/](http://kgrc4si.ml:7200/)
-
-左サイドメニューより，「SPARQL」を選択するとSPARQLエディターが表示されます．  
+[http://kgrc4si.ml:7200/sparql](http://kgrc4si.ml:7200/sparql)  
+リポジトリは「KGRC4SIv0」を選択してください。（2022/10/15時点）  
 トリプルストアとしてOntotext GraphDBを使用しています．基本的な使用方法は[こちらの動画](https://drive.google.com/file/d/19YKSsUalvVSGinYtCwi2R7zHIp3W0EBU/view)を御覧ください。
 
 ### SPARQLクエリ例
@@ -367,4 +367,22 @@ select ?name (count(?object) AS ?count) where {
 [実行結果](http://kgrc4si.ml:7200/sparql?name=&infer=true&sameAs=false&query=PREFIX%20ho%3A%20%3Chttp%3A%2F%2Fwww.owl-ontologies.com%2FVirtualHome.owl%23%3E%0APREFIX%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX%20%3A%20%3Chttp%3A%2F%2Fexample.org%2Fvirtualhome2kg%2Fontology%2F%3E%0APREFIX%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0APREFIX%20ac%3A%20%3Chttp%3A%2F%2Fexample.org%2Fvirtualhome2kg%2Fontology%2Faction%2F%3E%0Aselect%20%3Fname%20(count(%3Fobject)%20AS%20%3Fcount)%20where%20%7B%20%0A%09%3FobjectClass%20rdfs%3AsubClassOf%20%3AObject%20.%0A%20%20%20%20%3Fobject%20a%20%3FobjectClass%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20rdfs%3Alabel%20%3Flabel%20%3B%20%0A%20%20%20%20%20%20%20%20%20%20%20%20dcterms%3Aidentifier%20%3Fid%20.%0A%20%20%20%20%3Fevent%20ho%3Aobject%20%3Fobject%20.%0A%20%20%20%20%3Fevent%20%3Aaction%20ac%3Agrab%20.%0A%20%20%20%20BIND(concat(%3Flabel%2C%20%3Fid)%20AS%20%3Fname)%0A%7D%20group%20by%20%3Fobject%20%3Fname%20order%20by%20desc(count(%3Fobject)))
 
 ## 同様のナレッジグラフの作成方法
-本データセットは
+本データセットは我々の提案システム「VirtualHome2KG」を使用して作成されています。
+
+## LODチャレンジ2022向けの説明
+- Impact - 影響力
+  - あ
+- Creativity - 想像力
+- Usefulness - 有用性
+- Accessibility - 機械可読性
+- Openness - 開放性
+- Linkability - つながる可能性
+- Sustainability − 持続可能性
+
+## リファレンス
+
+## ライセンス
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/KnowledgeGraphJapan/KGRC-RDF/blob/kgrc4si/extended_readme.md" property="cc:attributionName" rel="cc:attributionURL">江上周作，他</a> 作『<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">VirtualHome2KGデータセット―家庭内の日常生活行動のシミュレーション動画とナレッジグラフ―</span>』は<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ 表示 4.0 国際 ライセンス</a>で提供されています。<br /><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/aistairc/VirtualHome2KG" rel="dct:source">https://github.com/aistairc/VirtualHome2KG</a>にある作品に基づいている。
+
+## 謝辞
+この成果は，国立研究開発法人新エネルギー・産業技術総合開発機構(NEDO)の委託業務(JPNP20006, JPNP180013)の結果得られたものです．
