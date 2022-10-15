@@ -21,12 +21,13 @@
 
 ## 背景
 - 超高齢化社会に伴い，日常生活に潜む安全上・健康上の問題の予測，分析の需要が増加
-- データ収集の多くは物理機材や被験者を要し，コストがかかる上に条件変更が難しい
+- データ収集の多くは物理機材や被験者を要し，コストがかかる上に条件変更が難しく，ライセンス上制限が厳しい
 - 収集データ内に意味的な関係が不足しているため，意味やコンテキストを考慮した分析が難しい
 
 ## 提案データセット
 - 仮想空間内で日常生活行動をシミュレーションした動画データ
 - 動画の内容をナレッジグラフ化したデータ（"誰"がどんな"物"にどんな"行動"をしてその結果"物の状態"や"位置関係"がどうなったか）
+- 上記をオープンデータとして公開
 
 ## データセットの構成
 - [動画](./Movie/)
@@ -390,19 +391,32 @@ CONSTRUCT {
 [実行結果](http://kgrc4si.ml:7200/sparql?name=&infer=false&sameAs=false&query=PREFIX%20x3do%3A%20%3Chttps%3A%2F%2Fwww.web3d.org%2Fspecifications%2FX3dOntology4.0%23%3E%0APREFIX%20rdf%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX%20%3A%20%3Chttp%3A%2F%2Fexample.org%2Fvirtualhome2kg%2Fontology%2F%3E%0APREFIX%20ex%3A%20%3Chttp%3A%2F%2Fexample.org%2Fvirtualhome2kg%2Finstance%2F%3E%0ACONSTRUCT%20%7B%0A%20%20%20%20%3Fobject%20%3Aheight%20%3Fheight_node%20.%0A%20%20%20%20%3Fheight_node%20rdf%3Avalue%20%3Fsize_y1%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%3Aunit%20%3Ameter%20.%0A%7D%20WHERE%20%7B%0A%09%3Fstate1%20%3AisStateOf%20%3Fobject%20%3B%20%3Abbox%20%3Fshape1%20.%0A%09%3Fshape1%20x3do%3AbboxSize%20%3Fsize1%20.%0A%09%3Fsize1%20rdf%3Arest%20%3Fsize_y%20.%0A%20%20%20%20%3Fsize_y%20rdf%3Afirst%20%3Fsize_y1%20.%0A%20%20%20%20BIND(REPLACE(STR(%3Fobject)%2C%20STR(ex%3A)%20%2C%22%22)%20AS%20%3Fobject_name)%0A%20%20%20%20BIND(URI(CONCAT(STR(ex%3A)%2C%22height_%22%2C%20%3Fobject_name))%20AS%20%3Fheight_node)%0A%7D)
 
 ## 同様のナレッジグラフの作成方法
-本データセットは我々の提案システム「VirtualHome2KG」を使用して作成されています。
+本データセットは我々の提案システム「[VirtualHome2KG](https://github.com/aistairc/VirtualHome2KG)」を使用して作成されています。  
+詳細はこちらの資料を御覧ください。
 
 ## LODチャレンジ2022向けの説明
 - Impact - 影響力
-  - あ
-- Creativity - 想像力
+  - 高齢者の家庭内における事故につながる可能性がある，危険な行動や危険な状況を発見し説明する手法の開発を促進します。
+  - 動画とナレッジグラフを同時に扱うマルチモーダルAIの開発に資するGround truthデータセットとして発展していくと考えています。
+- Creativity - 創造力
+  - 日常生活における動作・行動（意味のある動作のまとまり）・モノ・状態・位置関係・アフォーダンスなどを事細かに記録し，各エンティティがURIとして一貫性のある一意なIDを持ち（参照解決は今後の課題），エンティティ同士が相互に関連付けられたデータセットはこれまでになく，既存のシーングラフよりも多くの情報量を持っています．単にデータを変換しただけでなく，既存のオントロジーやオントロジーデザインパターンを再利用しながら新たなスキーマを提案し，検索性能を高める工夫を施しています．
 - Usefulness - 有用性
+  - 動画の内容をナレッジグラフとして表現することで，SPARQL例に示したとおり柔軟な検索が可能です。様々な視点から日常生活パターンを分析し，安全上・健康上のリスク回避に役立てる手法やツールを開発するための，ベンチマーク用のデータセットとして機能します．
 - Accessibility - 機械可読性
+  - ナレッジグラフはRDF形式で提供し，可能な限りエンティティをリテラルではなくURI付きリソースとしており，機械可読性は高いと言えます．
 - Openness - 開放性
+  - CC BY 4.0ライセンスのオープンデータとして公開しています．
+  - RDF化されており，各エンティティに一意なURIが付与されていますが，参照解決は今後の課題としています．
 - Linkability - つながる可能性
+  - 外部データとして[HomeOntology](https://github.com/valexande/HomeOntolog)，[PrimitiveActionOntology](https://github.com/aistairc/PrimitiveActionOntology)，[HomeObjectOntology](https://github.com/aistairc/HomeObjectOntology)，[Time Ontology](https://www.w3.org/TR/owl-time/#time:Duration)，[X3D ontology](https://www.web3d.org/x3d/content/semantics/semantics.html)などを再利用・参考にしています。
+  - 現在，本提案データセットを利用して「[ナレッジグラフ推論チャレンジ【実社会版】](https://challenge.knowledge-graph.jp/2022/)」を開催しており，今後このデータセットを利用して様々な研究・開発が生まれることが見込めます。
 - Sustainability − 持続可能性
+  - 現在，本提案データセットを利用して「[ナレッジグラフ推論チャレンジ【実社会版】](https://challenge.knowledge-graph.jp/2022/)」を開催しており，継続してデータセットを追加しています．今年度中にデータが数十件増える予定となっており，その後もデータ増加・クオリティの向上を検討しています．チャレンジ終了後もGithub repositoryで継続して公開します．
 
 ## リファレンス
+- 江上周作，鵜飼孝典，窪田文也，大野美喜子，北村光司，福田賢一郎: 家庭内の事故予防に向けた合成ナレッジグラフの構築と推論，第56回人工知能学会セマンティックウェブとオントロジー研究会, SIG-SWO-056-14 (2022) [[J-STAGE]](https://www.jstage.jst.go.jp/article/jsaisigtwo/2022/SWO-056/2022_14/_article/-char/ja)
+- Egami, S., Nishimura, S., Fukuda, K.: A Framework for Constructing and Augmenting Knowledge Graphs using Virtual Space: Towards Analysis of Daily Activities. Proceedings of the 33rd IEEE International Conference on Tools with Artificial Intelligence. pp.1226-1230 (2021) [[IEEE Xplore]](https://ieeexplore.ieee.org/document/9643400)
+- Egami, S., Nishimura, S., Fukuda, K.: VirtualHome2KG: Constructing and Augmenting Knowledge Graphs of Daily Activities Using Virtual Space. Proceedings of the ISWC 2021 Posters, Demos and Industry Tracks: From Novel Ideas to Industrial Practice, co-located with 20th International Semantic Web Conference. CEUR, Vol.2980 (2021) [[pdf]](http://ceur-ws.org/Vol-2980/paper381.pdf)
 
 ## ライセンス
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><a xmlns:cc="http://creativecommons.org/ns#" href="https://profile.idease.info/" property="cc:attributionName" rel="cc:attributionURL">江上周作</a>，他 作『<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">VirtualHome2KGデータセット―家庭内の日常生活行動のシミュレーション動画とナレッジグラフ―</span>』は<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ 表示 4.0 国際 ライセンス</a>で提供されています。<br /><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/aistairc/VirtualHome2KG" rel="dct:source">https://github.com/aistairc/VirtualHome2KG</a>にある作品に基づいている。
