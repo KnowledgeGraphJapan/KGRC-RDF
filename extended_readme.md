@@ -294,7 +294,7 @@
 <img src="./asset/Slide3.png" alt="kgの例 (listen to music)">
 
 ## ナレッジグラフの使用方法
-ナレッジグラフはRDF形式のデータで提供しているため，トリプルストアに格納することで，クエリ言語SPARQLを使用して様々な検索が可能です．
+ナレッジグラフはRDF形式のデータで提供しているため，トリプルストアに格納することで，クエリ言語SPARQLを使用して様々な検索が可能です．また，[SPARQLエンドポイント](#sparqlエンドポイント)を提供していますので，そちらから直接ご利用いただけます．
 
 参考資料:
 - 【トリプルストアについての参考資料】[トリプルストアの導入](https://www.slideshare.net/KnowledgeGraph/lod-250078657)  （12ページから）
@@ -302,4 +302,8 @@
 
   
 ### SPARQLエンドポイント
-本データセットを格納したSPARQLエンドポイントを提供しています。
+本データセットを格納したSPARQLエンドポイントを提供しています。  
+[http://kgrc4si.ml:7200/](http://kgrc4si.ml:7200/)
+
+左サイドメニューより，「SPARQL」を選択するとSPARQLエディターが表示されます．  
+トリプルストアとしてOntotext GraphDBを使用しています．基本的な使用方法は[こちらの動画](https://drive.google.com/file/d/19YKSsUalvVSGinYtCwi2R7zHIp3W0EBU/view)を御覧ください。
