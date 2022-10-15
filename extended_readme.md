@@ -410,6 +410,8 @@ CONSTRUCT {
 - Linkability - つながる可能性
   - 外部データとして[HomeOntology](https://github.com/valexande/HomeOntolog)，[PrimitiveActionOntology](https://github.com/aistairc/PrimitiveActionOntology)，[HomeObjectOntology](https://github.com/aistairc/HomeObjectOntology)，[Time Ontology](https://www.w3.org/TR/owl-time/#time:Duration)，[X3D ontology](https://www.web3d.org/x3d/content/semantics/semantics.html)などを再利用・参考にしています。
   - 現在，本提案データセットを利用して「[ナレッジグラフ推論チャレンジ【実社会版】](https://challenge.knowledge-graph.jp/2022/)」を開催しており，今後このデータセットを利用して様々な研究・開発が生まれることが見込めます。
+  - LODチャレンジ2022の別の応募作品で使用されていることを確認しました（ありがとうございます！）
+    - s246wv氏，[virtualhome2kg-Admire_paintings.ttlのbboxを描いてみる](https://github.com/s246wv/viz-kgrc-rdf-bbox-x3dom/tree/master/virtualhome2kg-Admire_paintings)
 - Sustainability − 持続可能性
   - 現在，本提案データセットを利用して「[ナレッジグラフ推論チャレンジ【実社会版】](https://challenge.knowledge-graph.jp/2022/)」を開催しており，継続してデータセットを追加しています．今年度中にデータが数十件増える予定となっており，その後もデータ増加・クオリティの向上を検討しています．チャレンジ終了後もGithub repositoryで継続して公開します．
 
