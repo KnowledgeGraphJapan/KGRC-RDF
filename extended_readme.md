@@ -50,7 +50,7 @@
 以下で代表的なクラス・プロパティを説明します。
 
 ### スキーマ図
-<img src="https://github.com/aistairc/VirtualHome2KG/raw/main/ontology/image/class_diagram.png" alt="schema" width="80%">
+<img src="https://github.com/aistairc/VirtualHome2KG/raw/main/ontology/image/class_diagram.png" alt="schema">
 
 
 <details>
