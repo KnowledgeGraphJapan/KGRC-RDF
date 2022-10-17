@@ -1159,10 +1159,22 @@ ho:clean_kitchen rdf:type owl:Class ;
 kitchen.""" .
 
 
+###  http://www.owl-ontologies.com/VirtualHome.owl#clean_kitchen_television
+ho:clean_kitchen_television rdf:type owl:Class ;
+                            rdfs:subClassOf ho:HouseCleaning ;
+                            rdfs:comment "added by virtualhome2kg"@en .
+
+
 ###  http://www.owl-ontologies.com/VirtualHome.owl#clean_large_jacuzzi_tub
 ho:clean_large_jacuzzi_tub rdf:type owl:Class ;
                            rdfs:subClassOf ho:HouseCleaning ;
                            rdfs:comment "The class with sequence of actions for cleaning up a large jacuzzi tab." .
+
+
+###  http://www.owl-ontologies.com/VirtualHome.owl#clean_living_desk
+ho:clean_living_desk rdf:type owl:Class ;
+                     rdfs:subClassOf ho:HouseCleaning ;
+                     rdfs:comment "added by virtualhome2kg"@en .
 
 
 ###  http://www.owl-ontologies.com/VirtualHome.owl#clean_mirror
@@ -1189,6 +1201,12 @@ ho:clean_sink rdf:type owl:Class ;
               rdfs:subClassOf ho:HouseCleaning ;
               rdfs:comment """Class with sequences for cleaning only the sink, not the surounding, or 
 the whole room.""" .
+
+
+###  http://www.owl-ontologies.com/VirtualHome.owl#clean_stove
+ho:clean_stove rdf:type owl:Class ;
+               rdfs:subClassOf ho:HouseCleaning ;
+               rdfs:comment "added by virtualhome2kg"@en .
 
 
 ###  http://www.owl-ontologies.com/VirtualHome.owl#clean_toilet
