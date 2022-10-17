@@ -40,7 +40,7 @@
   - スキーマは[後述](#ナレッジグラフの説明)
 - [台本データ](./Program/)
   - txt形式
-  - 動画とナレッジグラフを生成するために[VirtualHome2KG](https://github.com/aistairc/VirtualHome2KG)に与えたデータ
+  - 動画とナレッジグラフを生成するために[VirtualHome2KG](https://github.com/aistairc/VirtualHome2KG/blob/main/README_ja.md)に与えたデータ
   - 行動のタイトルと簡単な文章説明を含む
 
 
@@ -391,7 +391,7 @@ CONSTRUCT {
 [実行結果](http://kgrc4si.ml:7200/sparql?name=&infer=false&sameAs=false&query=PREFIX%20x3do%3A%20%3Chttps%3A%2F%2Fwww.web3d.org%2Fspecifications%2FX3dOntology4.0%23%3E%0APREFIX%20rdf%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX%20%3A%20%3Chttp%3A%2F%2Fexample.org%2Fvirtualhome2kg%2Fontology%2F%3E%0APREFIX%20ex%3A%20%3Chttp%3A%2F%2Fexample.org%2Fvirtualhome2kg%2Finstance%2F%3E%0ACONSTRUCT%20%7B%0A%20%20%20%20%3Fobject%20%3Aheight%20%3Fheight_node%20.%0A%20%20%20%20%3Fheight_node%20rdf%3Avalue%20%3Fsize_y1%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%3Aunit%20%3Ameter%20.%0A%7D%20WHERE%20%7B%0A%09%3Fstate1%20%3AisStateOf%20%3Fobject%20%3B%20%3Abbox%20%3Fshape1%20.%0A%09%3Fshape1%20x3do%3AbboxSize%20%3Fsize1%20.%0A%09%3Fsize1%20rdf%3Arest%20%3Fsize_y%20.%0A%20%20%20%20%3Fsize_y%20rdf%3Afirst%20%3Fsize_y1%20.%0A%20%20%20%20BIND(REPLACE(STR(%3Fobject)%2C%20STR(ex%3A)%20%2C%22%22)%20AS%20%3Fobject_name)%0A%20%20%20%20BIND(URI(CONCAT(STR(ex%3A)%2C%22height_%22%2C%20%3Fobject_name))%20AS%20%3Fheight_node)%0A%7D)
 
 ## 同様のナレッジグラフの作成方法
-本データセットは我々の提案システム「[VirtualHome2KG](https://github.com/aistairc/VirtualHome2KG)」を使用して作成されています。  
+本データセットは我々の提案システム「[VirtualHome2KG](https://github.com/aistairc/VirtualHome2KG/blob/main/README_ja.md)」を使用して作成されています。  
 詳細はこちらの資料を御覧ください。
 
 ## LODチャレンジ2022向けの説明
