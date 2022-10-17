@@ -30,6 +30,7 @@
   - RDF形式
   - 動画に対応する36個のナレッジグラフ(更新: 2022/10/17)
   - スキーマは[後述](#ナレッジグラフの説明)
+  - SPARQLエンドポイントやクエリ例は[こちら](https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/kgrc4si#%E3%83%8A%E3%83%AC%E3%83%83%E3%82%B8%E3%82%B0%E3%83%A9%E3%83%95%E3%81%AE%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95)
 - [台本データ](./Program/)
   - txt形式
   - 動画とナレッジグラフを生成するために[VirtualHome2KG](https://github.com/aistairc/VirtualHome2KG/blob/main/README_ja.md)に与えたデータ
