@@ -16,7 +16,7 @@ WHERE {
 ```
 
 
-## Get <hasPredicate> of Scene#36 in "Speckled Band".
+## Get "hasPredicate" of Scene#36 in "Speckled Band".
 ```
 PREFIX kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#>
 
@@ -27,7 +27,7 @@ WHERE {
 }
 ```
 
-## Get <subject> of Scene#36 in "Speckled Band".
+## Get "subject" of Scene#36 in "Speckled Band".
 ```
 PREFIX kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#>
 
@@ -37,7 +37,7 @@ WHERE {
   <http://kgc.knowledge-graph.jp/data/SpeckledBand/36> kgc:subject ?o .
 }
 ```
-## Get all <hasPredicate> in "Speckled Band".
+## Get all "hasPredicate" in "Speckled Band".
 ```
 PREFIX kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#>
 
@@ -57,7 +57,8 @@ WHERE {
   ?s kgc:hasPredicate ?o .
 }
 ```
-## Get all <Situation> in "Speckled Band".
+  
+## Get all "Situation" in "Speckled Band".
 ```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#>
@@ -68,7 +69,7 @@ WHERE {
   ?s rdf:type kgc:Situation .
 }
 ```
-## Get all <scene> in "Speckled Band".
+## Get all "scene" in "Speckled Band".
 ```
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -81,7 +82,7 @@ WHERE {
   ?s rdf:type ?o .
 }
 ```
-## Get all <scene> whose <hasPredicate> is "meet" form all stories.
+## Get all "scene" whose <hasPredicate> is "meet" form all stories.
 ```
 PREFIX kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#>
 SELECT DISTINCT *
@@ -95,7 +96,7 @@ WHERE {
 }
 ```
 
-## ｢まらだのひも」で場面間のつながりの一覧を取得する
+## Get all relationships among scenes in "Speckled Band".
 ```
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -109,25 +110,25 @@ WHERE {
   ?s ?p ?o .
 }
 ```
-## 「まだらのひも」の各場面の説明文（日本語）一覧を取得
+## Get text(in English) of all scenes in "Speckled Band".
 ```
 PREFIX kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#>
 SELECT DISTINCT *
 FROM <http://kgc.knowledge-graph.jp/data/SpeckledBand>
 WHERE {
   ?s kgc:source ?o .
-  FILTER(lang(?o)="ja")
+  FILTER(lang(?o)="en")
 }
 ```
-その中で「ホームズ」という文字列が含むシーンに限定する．
+Get sences whose text contains ""．
 ```
 PREFIX kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#>
 SELECT DISTINCT *
 FROM <http://kgc.knowledge-graph.jp/data/SpeckledBand>
 WHERE {
   ?s kgc:source ?o .
-  FILTER(lang(?o)="ja")
-  FILTER(regex(?o,"ホームズ"))  
+  FILTER(lang(?o)="en")
+  FILTER(regex(?o,"Holmes"))  
 }
 ```
 
