@@ -1,10 +1,10 @@
- [[Japanese](README_ja.md)]
- # Open Knowledge Graph
+# Open Knowledge Graph
 This repogitory is for  for public use of the Open Knowledge Graph for **the Knowledge Graph Reasoning Challenge**.  
 
-## for the first International Knowledge Graph Reasoning Challenge 2023 
-### 2022/10/27ver. [ikgrc]
-https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/master/ikgrc2023
+## for the first International Knowledge Graph Reasoning Challenge 2023
+This version is for [the first International Knowledge Graph Reasoning Challenge 2023](https://ikgrc.org/2023/).  
+- the detailed information about is avaliable here;  
+  https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/master/ikgrc2023
 
 ## for the First Knowledge Graph Reasoning Challenge 2021 *for Students*
 **2021/01/19ver. [ver.2]** should be used for this year's contest
