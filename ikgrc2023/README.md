@@ -7,7 +7,11 @@ This repogitory is for for public use of the Open Knowledge Graph for **the Firs
 - http://knowledge-graph.jp/sparql-ikgrc.html (for querying on the web browser)  
 
 *Sample queries are availabe at [this page](SampleSPARQL.md).  
- 
+
+## Visualization Tool for the KG
+- http://knowledge-graph.jp/visualization/
+
+
 ## Grpaph IRI for each Story 
 [Note] When you run SPARQL queries, you have to specfy Graph IRIs using **FROM** sentences．
 |Story|Graph IRI|
