@@ -6180,11 +6180,10 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "killing of Lady Brackenstall"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Mouth_of_Lady_Brackenstall>
-    rdf:type    kgc:Person;
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "レディー・ブラックンストールの口"@ja;
     rdfs:label     "Mouth of Lady Brackenstall"@en;
     rdf:type    kgc:OFobj;
-    rdf:type    kgc:PhysicalObject;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Mouth>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Brutal_character>
@@ -7092,7 +7091,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "残さない"@ja;
     rdfs:label     "notLeave"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/sound>
-    rdf:type    kgc:Person;
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "音"@ja;
     rdfs:label     "sound"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Stanley_Hopkins>
@@ -7391,7 +7390,6 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Person;
     rdfs:label     "レディー・ブラックンストール"@ja;
     rdfs:label     "Lady Brackenstall"@en;
-    rdf:type    kgc:Place;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "レディーブラックンストール"@ja.
 <http://kgc.knowledge-graph.jp/data/predicate/barefoot>
