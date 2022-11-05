@@ -5,7 +5,7 @@
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 @prefix kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#> . 
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/metadata>
-    rdfs:comment  "作成日（2022-10-17） "@ja ;
+    rdfs:comment  "作成日（2022-11-05） "@ja ;
 	cc:attributionName "SIG-SWO, JSAI" ;
 	cc:license <https://creativecommons.org/licenses/by/4.0/> .
 #################################################################
@@ -1003,7 +1003,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/087>
     rdf:type    kgc:Situation ;
     kgc:source  "事件当夜，ジュリアは寝間着を着ていた。"@ja ;
-    kgc:source  "Julia was wearing a sleepwear on the day Julia died."@en ;
+    kgc:source  "Julia was wearing a sleepwear on the day Julia died."@en .
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/087>
+    rdf:type    kgc:Situation ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/wear> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/the_day_Julia_died> ;
@@ -4040,13 +4042,13 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "left building"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/bedroom>
+    rdf:type    kgc:Place;
     rdfs:label     "寝室"@ja;
-    rdfs:label     "bedroom"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "bedroom"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/baboon>
+    rdf:type    kgc:Animal;
     rdfs:label     "ヒヒ"@ja;
-    rdfs:label     "baboon"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "baboon"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/mother_of_Helen>
     rdfs:label     "mother of Helen"@en;
     rdf:type    kgc:OFobj;
@@ -4060,15 +4062,15 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "しばしば"@ja;
     rdfs:label     "occasionally"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen’s_bedroom>
+    rdf:type    kgc:Place;
     rdfs:label     "ヘレンの寝室"@ja;
     rdfs:label     "Helen’s bedroom"@en;
     rdfs:label     "ヘレンの寝室の窓"@ja;
-    rdfs:label     "ジュリアの寝室"@ja;
-    rdf:type    kgc:Object.
+    rdfs:label     "ジュリアの寝室"@ja.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/window>
     rdfs:label     "窓"@ja;
     rdfs:label     "window"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject.
 <http://kgc.knowledge-graph.jp/data/predicate/bite>
     rdf:type    kgc:Action;
     rdfs:label     "噛む"@ja;
@@ -4086,10 +4088,11 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "reward"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/private_documents>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "個人的な書類"@ja;
-    rdfs:label     "private documents"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "private documents"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/voice_of_Julia>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "ジュリアの声"@ja;
     rdfs:label     "voice of Julia"@en;
     rdf:type    kgc:OFobj;
@@ -4108,13 +4111,13 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "ready"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/light>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "光"@ja;
-    rdfs:label     "light"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "light"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/coach>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "馬車"@ja;
-    rdfs:label     "coach"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "coach"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/jaw>
     rdfs:label     "jaw"@en;
     rdf:type    kgc:Object.
@@ -4129,6 +4132,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/smell>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Indian_cigarettes>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/mother_of_Helen>
+    rdf:type    kgc:Person;
     rdfs:label     "ヘレンの母"@ja;
     rdfs:label     "mother of Helen"@en;
     rdf:type    kgc:OFobj;
@@ -4139,14 +4143,15 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "橋渡しする"@ja;
     rdfs:label     "bridge"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom>
+    rdf:type    kgc:Place;
     rdfs:label     "ロイロットの寝室"@ja;
     rdfs:label     "Roylott’s bedroom"@en;
     rdfs:label     "ロイロットの寝室の隣"@ja;
     rdfs:label     "ロイロット博士の寝室"@ja;
     rdfs:label     "ロイロット博士の寝室の窓"@ja;
-    rdfs:label     "ヘレンの寝室とロイロット博士の寝室"@ja;
-    rdf:type    kgc:Object.
+    rdfs:label     "ヘレンの寝室とロイロット博士の寝室"@ja.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/floor_of_Helen’s_bedroom>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "ジュリアの寝室の床"@ja;
     rdfs:label     "floor of Helen’s bedroom"@en;
     rdf:type    kgc:OFobj;
@@ -4156,9 +4161,10 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdf:type    kgc:CanNotAction;
     kgc:canNot    <http://kgc.knowledge-graph.jp/data/predicate/move>;
-    rdfs:label     "動けない"@ja;
+    rdfs:label     "動かせない"@ja;
     rdfs:label     "cannotMove"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/hinges_of_shutter>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "鎧戸の蝶番"@ja;
     rdfs:label     "hinges of shutter"@en;
     rdf:type    kgc:OFobj;
@@ -4174,13 +4180,14 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "危険である"@ja;
     rdfs:label     "danger"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/eye>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "目"@ja;
-    rdfs:label     "eye"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "eye"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/corner>
     rdfs:label     "corner"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/villager_of_Stoke_Moran>
+    rdf:type    kgc:Person;
     rdfs:label     "ストークモランの村人"@ja;
     rdfs:label     "villager of Stoke Moran"@en;
     rdf:type    kgc:OFobj;
@@ -4190,6 +4197,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "price"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/door_of_Julia’s_bedroom>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "ジュリアの寝室のドア"@ja;
     rdfs:label     "door of Julia’s bedroom"@en;
     rdf:type    kgc:OFobj;
@@ -4198,41 +4206,42 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom>.
 <http://kgc.knowledge-graph.jp/data/predicate/wander>
     rdf:type    kgc:Action;
-    rdfs:label     "徘徊する"@ja;
+    rdfs:label     "歩き回る"@ja;
     rdfs:label     "wander"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/dog_whip>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "小さな犬鞭"@ja;
     rdfs:label     "dog whip"@en;
     rdfs:label     "小さな犬鞭の先"@ja;
     rdfs:label     "鞭"@ja;
-    rdfs:label     "鞭を使って"@ja;
-    rdf:type    kgc:Object.
+    rdfs:label     "鞭を使って"@ja.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/two-wheeled_coach>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "二輪馬車"@ja;
-    rdfs:label     "two-wheeled coach"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "two-wheeled coach"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/lamp>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "ランプ"@ja;
     rdfs:label     "lamp"@en;
-    rdfs:label     "明かり"@ja;
-    rdf:type    kgc:Object.
+    rdfs:label     "明かり"@ja.
 <http://kgc.knowledge-graph.jp/data/predicate/Listen>
     rdfs:label     "Listen"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/doctor_of_Stoke_Moran>
+    rdf:type    kgc:Person;
     rdfs:label     "ストークモランの医師"@ja;
     rdfs:label     "doctor of Stoke Moran"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/doctor>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Stoke_Moran>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Crown_Inn>
+    rdf:type    kgc:Place;
     rdfs:label     "クラウン・イン"@ja;
-    rdfs:label     "Crown Inn"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "Crown Inn"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/wall>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "壁に寄せて"@ja;
-    rdfs:label     "wall"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "wall"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/Asleep>
     rdfs:label     "Asleep"@en;
     rdf:type    kgc:Object.
@@ -4273,34 +4282,33 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "一ヶ月前"@ja;
     rdfs:label     "one month ago"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Crewe>
+    rdf:type    kgc:Place;
     rdfs:label     "クルー"@ja;
-    rdfs:label     "Crewe"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "Crewe"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/west_building>
     rdfs:label     "west building"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/two_small_chairs>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "２つの小さな籐椅子"@ja;
-    rdfs:label     "two small chairs"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "two small chairs"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/inspect>
     rdf:type    kgc:Action;
     rdfs:label     "取り調べる"@ja;
     rdfs:label     "inspect"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/leopard>
+    rdf:type    kgc:Animal;
     rdfs:label     "豹"@ja;
-    rdfs:label     "leopard"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "leopard"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/hit>
     rdf:type    kgc:Action;
-    rdfs:label     "殴る"@ja;
+    rdfs:label     "打つ"@ja;
     rdfs:label     "hit"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/scare>
     rdf:type    kgc:Action;
     rdfs:label     "怯える"@ja;
     rdfs:label     "scare"@en;
-    rdf:type    kgc:Property;
-    rdfs:label     "恐れた"@ja.
+    rdf:type    kgc:Property.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/deeply>
     rdfs:label     "ぐっすりと"@ja;
     rdfs:label     "deeply"@en;
@@ -4310,6 +4318,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "壊れている"@ja;
     rdfs:label     "broken"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/floor_of_Julia’s_bedroom>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "ジュリアの寝室の床"@ja;
     rdfs:label     "floor of Julia’s bedroom"@en;
     rdf:type    kgc:OFobj;
@@ -4329,12 +4338,12 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/sound>
     rdfs:label     "音"@ja;
     rdfs:label     "sound"@en;
-    rdfs:label     "かすかな音"@ja;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "かすかな音"@ja.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/money>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "お金"@ja;
-    rdfs:label     "money"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "money"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/every_year>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "毎年"@ja;
@@ -4349,9 +4358,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "上向き"@ja;
     rdfs:label     "upward"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/something>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "何か"@ja;
-    rdfs:label     "something"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "something"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/have>
     rdf:type    kgc:Action;
     rdfs:label     "持つ"@ja;
@@ -4368,6 +4377,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_suffered_from_the_smell>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Indian_cigarettes>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/rope_of_bell>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "呼び鈴の引き綱"@ja;
     rdfs:label     "rope of bell"@en;
     rdf:type    kgc:OFobj;
@@ -4382,7 +4392,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "confirm"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/turnOn>
     rdf:type    kgc:Action;
-    rdfs:label     "灯す"@ja;
+    rdfs:label     "点灯する"@ja;
     rdfs:label     "turnOn"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/like_steam_gushing_out_of_a_medicine_can>
     rdf:type    kgc:Property;
@@ -4396,19 +4406,20 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "結婚式の2週間前"@ja;
     rdfs:label     "two weeks before the wedding ceremony"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/VentilationHole>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "通風孔"@ja;
-    rdfs:label     "VentilationHole"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "VentilationHole"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/simple_chair>
     rdfs:label     "粗末な椅子が一つ"@ja;
     rdfs:label     "simple chair"@en;
     rdfs:label     "粗末な椅子"@ja;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/with_a_thick_iron_rod>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "太い鉄の棒をはめて"@ja;
-    rdfs:label     "with a thick iron rod"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "with a thick iron rod"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/reward_of_request>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "依頼の報酬"@ja;
     rdfs:label     "reward of request"@en;
     rdf:type    kgc:OFobj;
@@ -4426,16 +4437,16 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Satisfied"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Indian_animal>
+    rdf:type    kgc:Animal;
     rdfs:label     "インドの動物"@ja;
-    rdfs:label     "Indian animal"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "Indian animal"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/bell>
     rdfs:label     "bell"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/church_bell>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "教会の鐘"@ja;
-    rdfs:label     "church bell"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "church bell"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/Roylott>
     rdfs:label     "Roylott"@en;
     rdf:type    kgc:Object.
@@ -4443,6 +4454,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "rope"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom>
+    rdf:type    kgc:Place;
     rdfs:label     "ジュリアの寝室"@ja;
     rdfs:label     "Julia’s bedroom"@en;
     rdfs:label     "ジュリアの寝室の隣"@ja;
@@ -4451,20 +4463,19 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "ジュリアの寝室の窓"@ja;
     rdfs:label     "部屋"@ja;
     rdfs:label     "ヘレンの寝室とロイロット博士の寝室"@ja;
-    rdfs:label     "隣の寝室"@ja;
-    rdf:type    kgc:Object.
+    rdfs:label     "隣の寝室"@ja.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/white_overhard>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "白い上掛け"@ja;
-    rdfs:label     "white overhard"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "white overhard"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/small_hole_for_ventilation>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "通風孔"@ja;
-    rdfs:label     "small hole for ventilation"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "small hole for ventilation"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/bookshelf>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "医学書ばかり詰まった木製の本棚"@ja;
-    rdfs:label     "bookshelf"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "bookshelf"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/gently>
     rdfs:label     "静かに"@ja;
     rdfs:label     "gently"@en;
@@ -4474,6 +4485,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "起きる"@ja;
     rdfs:label     "wakeUp"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/question_of_Roylott>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "質問"@ja;
     rdfs:label     "question of Roylott"@en;
     rdf:type    kgc:OFobj;
@@ -4495,6 +4507,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "oil"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/mother_of_sister>
+    rdf:type    kgc:Person;
     rdfs:label     "姉妹の母"@ja;
     rdfs:label     "mother of sister"@en;
     rdf:type    kgc:OFobj;
@@ -4506,12 +4519,12 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "angry"@en;
     rdf:type    kgc:Property.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/lanthanum>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "ランタン"@ja;
-    rdfs:label     "lanthanum"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "lanthanum"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/receive>
     rdf:type    kgc:Action;
-    rdfs:label     "受け取る"@ja;
+    rdfs:label     "受ける"@ja;
     rdfs:label     "receive"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/canView>
     rdf:type    kgc:Action;
@@ -4541,15 +4554,18 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "穏やかな"@ja.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/mansion_of_Roylott>
+    rdf:type    kgc:Place;
     rdfs:label     "ロイロットの屋敷"@ja;
     rdfs:label     "mansion of Roylott"@en;
     rdf:type    kgc:OFobj;
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "家"@ja;
     rdfs:label     "屋敷"@ja;
     rdfs:label     "屋敷の地"@ja;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/mansion>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_Julia’s_bedroom>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "ジュリアの寝室の窓"@ja;
     rdfs:label     "window of Julia’s bedroom"@en;
     rdf:type    kgc:OFobj;
@@ -4557,20 +4573,20 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/window>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/cry>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "鳴き声"@ja;
-    rdfs:label     "cry"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "cry"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/knee>
     rdfs:label     "knee"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/storm>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "嵐"@ja;
-    rdfs:label     "storm"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "storm"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/intense_fear>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "激しい恐怖"@ja;
-    rdfs:label     "intense fear"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "intense fear"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/fat>
     rdf:type    kgc:Property;
     rdfs:label     "太い"@ja;
@@ -4596,15 +4612,16 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "反対しない"@ja;
     rdfs:label     "notOppose"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/small_dish>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "牛乳の入った小皿"@ja;
     rdfs:label     "small dish"@en;
     rdfs:label     "小皿"@ja;
-    rdfs:label     "小皿の牛乳"@ja;
-    rdf:type    kgc:Object.
+    rdfs:label     "小皿の牛乳"@ja.
 <http://kgc.knowledge-graph.jp/data/predicate/stop>
     rdf:type    kgc:Action;
-    rdfs:label     "止める"@ja;
-    rdfs:label     "stop"@en.
+    rdfs:label     "止まる"@ja;
+    rdfs:label     "stop"@en;
+    rdfs:label     "止める"@ja.
 <http://kgc.knowledge-graph.jp/data/predicate/Move>
     rdfs:label     "Move"@en;
     rdf:type    kgc:Object.
@@ -4616,41 +4633,44 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "old-fashioned"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/these_days>
-    rdf:type    kgc:AbstractTime;
     rdfs:label     "今"@ja;
-    rdfs:label     "these days"@en.
+    rdfs:label     "these days"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/consider>
     rdf:type    kgc:Action;
-    rdfs:label     "考える"@ja;
+    rdfs:label     "考慮する"@ja;
     rdfs:label     "consider"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/house_of_Holmes>
+    rdf:type    kgc:Place;
     rdfs:label     "ホームズの家"@ja;
     rdfs:label     "house of Holmes"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/house>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/250_GBP>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "250ポンド"@ja;
-    rdfs:label     "250 GBP"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "250 GBP"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/craftsman>
+    rdf:type    kgc:Person;
     rdfs:label     "職人"@ja;
-    rdfs:label     "craftsman"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "craftsman"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/for_a_moment>
+    rdf:type    kgc:AbstractTime;
     rdfs:label     "一瞬だけ"@ja;
-    rdfs:label     "for a moment"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "for a moment"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/garden_of_Roylott>
     rdfs:label     "garden of Roylott"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_left_building>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "左側の棟の窓"@ja;
     rdfs:label     "window of left building"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/window>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/left_building>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/will_of_mother_of_Helen>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "ヘレンの母の遺言状"@ja;
     rdfs:label     "will of mother of Helen"@en;
     rdf:type    kgc:OFobj;
@@ -4688,14 +4708,15 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "agricultural products"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/sleepwear>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "寝間着"@ja;
-    rdfs:label     "sleepwear"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "sleepwear"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/move>
     rdf:type    kgc:Action;
-    rdfs:label     "動く"@ja;
+    rdfs:label     "移動する"@ja;
     rdfs:label     "move"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/smell_of_oil>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "続いて油が燃え、金属が熱せられるきつい匂い"@ja;
     rdfs:label     "smell of oil"@en;
     rdf:type    kgc:OFobj;
@@ -4721,6 +4742,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "吹く"@ja;
     rdfs:label     "blow"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/by_falling_price_of_agricultural_products>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "農産物の価格下落"@ja;
     rdfs:label     "by falling price of agricultural products"@en;
     rdf:type    kgc:OFobj;
@@ -4739,6 +4761,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "口実を作る"@ja;
     rdfs:label     "motivate"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/reason_of_sound>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "音の正体"@ja;
     rdfs:label     "reason of sound"@en;
     rdf:type    kgc:OFobj;
@@ -4760,9 +4783,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "first floor"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/premium_wilton_carpet>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "高級なウィルトン絨毯"@ja;
-    rdfs:label     "premium wilton carpet"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "premium wilton carpet"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/roof>
     rdfs:label     "roof"@en;
     rdf:type    kgc:Object.
@@ -4783,9 +4806,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "昼間"@ja;
     rdfs:label     "daytime"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/lieutenant_commander>
+    rdf:type    kgc:Person;
     rdfs:label     "海軍少佐"@ja;
-    rdfs:label     "lieutenant commander"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "lieutenant commander"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/kind>
     rdf:type    kgc:Property;
     rdfs:label     "種類"@ja;
@@ -4794,6 +4817,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "dog whip"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/back_part_of_chair>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "木の椅子の背の部分"@ja;
     rdfs:label     "back part of chair"@en;
     rdf:type    kgc:OFobj;
@@ -4803,22 +4827,24 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "ice"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen>
+    rdf:type    kgc:Person;
     rdfs:label     "ヘレン"@ja;
     rdfs:label     "Helen"@en;
     rdfs:label     "何も"@ja;
-    rdfs:label     "ヘレン，ジュリア，ロイロット"@ja;
-    rdf:type    kgc:Object.
+    rdfs:label     "ヘレン，ジュリア，ロイロット"@ja.
 <http://kgc.knowledge-graph.jp/data/predicate/like>
     rdf:type    kgc:Action;
     rdfs:label     "好む"@ja;
     rdfs:label     "like"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/wall_of_right_building>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "右側の棟の石の壁"@ja;
     rdfs:label     "wall of right building"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/wall>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/right_building>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/walll_of_Julia’s_bedroom>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "ジュリアの寝室の壁"@ja;
     rdfs:label     "walll of Julia’s bedroom"@en;
     rdf:type    kgc:OFobj;
@@ -4828,9 +4854,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "central building"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roma>
+    rdf:type    kgc:Person;
     rdfs:label     "ロマ"@ja;
-    rdfs:label     "Roma"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "Roma"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/enter>
     rdf:type    kgc:Action;
     rdfs:label     "入る"@ja;
@@ -4840,7 +4866,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/return>
     rdf:type    kgc:Action;
-    rdfs:label     "帰る"@ja;
+    rdfs:label     "戻る"@ja;
     rdfs:label     "return"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/narrow>
     rdf:type    kgc:Property;
@@ -4855,16 +4881,16 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "small"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/keep>
     rdf:type    kgc:Action;
-    rdfs:label     "飼っている"@ja;
+    rdfs:label     "維持する"@ja;
     rdfs:label     "keep"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/send>
     rdf:type    kgc:Action;
     rdfs:label     "送る"@ja;
     rdfs:label     "send"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/hole>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "穴"@ja;
-    rdfs:label     "hole"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "hole"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/asset_of_mother_of_Helen>
     rdfs:label     "asset of mother of Helen"@en;
     rdf:type    kgc:OFobj;
@@ -4873,11 +4899,12 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/mother_of_Helen>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes>
+    rdf:type    kgc:Person;
     rdfs:label     "ホームズ"@ja;
     rdfs:label     "Holmes"@en;
-    rdfs:label     "ホームズのもと"@ja;
-    rdf:type    kgc:Object.
+    rdfs:label     "ホームズのもと"@ja.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/central_building_of_mansion_of_Roylott>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "中央部"@ja;
     rdfs:label     "central building of mansion of Roylott"@en;
     rdf:type    kgc:OFobj;
@@ -4886,9 +4913,9 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/mansion>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/milk>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "牛乳"@ja;
-    rdfs:label     "milk"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "milk"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/gradually>
     rdfs:label     "徐々に"@ja;
     rdfs:label     "gradually"@en;
@@ -4933,6 +4960,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "尋ねる"@ja;
     rdfs:label     "ask"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/bruise_of_fingers_of_Roylott>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "青痣"@ja;
     rdfs:label     "bruise of fingers of Roylott"@en;
     rdf:type    kgc:OFobj;
@@ -4941,6 +4969,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/fingers>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/than_bedroom_of_sister>
+    rdf:type    kgc:Place;
     rdfs:label     "娘たちの寝室より"@ja;
     rdfs:label     "than bedroom of sister"@en;
     rdf:type    kgc:OFobj;
@@ -4951,24 +4980,25 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "堅い"@ja;
     rdfs:label     "tight"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Watson>
+    rdf:type    kgc:Person;
     rdfs:label     "ワトソン"@ja;
     rdfs:label     "Watson"@en;
     rdfs:label     "ホームズ"@ja;
-    rdfs:label     "ワトソンン"@ja;
-    rdf:type    kgc:Object.
+    rdfs:label     "ワトソンン"@ja.
 <http://kgc.knowledge-graph.jp/data/predicate/suspect>
     rdf:type    kgc:Action;
     rdfs:label     "疑う"@ja;
-    rdfs:label     "suspect"@en.
+    rdfs:label     "suspect"@en;
+    rdfs:label     "知る"@ja.
 <http://kgc.knowledge-graph.jp/data/predicate/tremble>
     rdf:type    kgc:Action;
     rdfs:label     "震える"@ja;
     rdfs:label     "tremble"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/shutter>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "鎧戸"@ja;
     rdfs:label     "shutter"@en;
-    rdfs:label     "閂"@ja;
-    rdf:type    kgc:Object.
+    rdfs:label     "閂"@ja.
 <http://kgc.knowledge-graph.jp/data/predicate/meet>
     rdf:type    kgc:Action;
     rdfs:label     "会う"@ja;
@@ -4985,18 +5015,18 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "夜明け"@ja;
     rdfs:label     "early morning"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Leatherhead_station>
+    rdf:type    kgc:Place;
     rdfs:label     "レザヘッド駅"@ja;
     rdfs:label     "Leatherhead station"@en;
-    rdfs:label     "レザヘッド"@ja;
-    rdf:type    kgc:Object.
+    rdfs:label     "レザヘッド"@ja.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/quiet>
     rdfs:label     "静かである"@ja;
     rdfs:label     "quiet"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/chest>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "茶色の箪笥"@ja;
-    rdfs:label     "chest"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "chest"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/examine>
     rdf:type    kgc:Action;
     rdfs:label     "調べる"@ja;
@@ -5028,9 +5058,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "neck"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/low_celling>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "低い天井"@ja;
-    rdfs:label     "low celling"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "low celling"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notEnter>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
@@ -5045,6 +5075,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "like steam gushing out"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/chimney_of_Julia’s_bedroom>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "ジュリアの寝室の煙突"@ja;
     rdfs:label     "chimney of Julia’s bedroom"@en;
     rdf:type    kgc:OFobj;
@@ -5071,14 +5102,15 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "気づく"@ja;
     rdfs:label     "notice"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/poison>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "毒"@ja;
-    rdfs:label     "poison"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "poison"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/recently>
     rdfs:label     "最近"@ja;
     rdfs:label     "recently"@en;
     rdf:type    kgc:AbstractTime.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/west_building_of_mansion_of_Roylott>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "西棟"@ja;
     rdfs:label     "west building of mansion of Roylott"@en;
     rdf:type    kgc:OFobj;
@@ -5091,9 +5123,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "今"@ja;
     rdfs:label     "now"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/1000_GBP>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "1000ポンド"@ja;
-    rdfs:label     "1000 GBP"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "1000 GBP"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notMove>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
@@ -5105,9 +5137,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "half"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/2_years_ago>
-    rdf:type    kgc:AbstractTime;
     rdfs:label     "2年前"@ja;
-    rdfs:label     "2 years ago"@en.
+    rdfs:label     "2 years ago"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/unobservable>
     rdf:type    kgc:Property;
     rdfs:label     "目立たない"@ja;
@@ -5120,7 +5152,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "notExist"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/visit>
     rdf:type    kgc:Action;
-    rdfs:label     "訪れる"@ja;
+    rdfs:label     "訪ねる"@ja;
     rdfs:label     "visit"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/result>
     rdfs:label     "結果"@ja;
@@ -5141,32 +5173,33 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "suddenly"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/chair>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "椅子"@ja;
-    rdfs:label     "chair"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "chair"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/crooked_voice>
     rdf:type    kgc:Property;
     rdfs:label     "しゃがれ声"@ja;
     rdfs:label     "crooked voice"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Stoke_Moran>
+    rdf:type    kgc:Place;
     rdfs:label     "ストークモラン"@ja;
     rdfs:label     "Stoke Moran"@en;
-    rdfs:label     "ストーク・モラン"@ja;
-    rdf:type    kgc:Object.
+    rdfs:label     "ストーク・モラン"@ja.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/strange_points>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "奇妙な点がいくつか"@ja;
-    rdfs:label     "strange points"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "strange points"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/sister>
+    rdf:type    kgc:Person;
     rdfs:label     "姉妹"@ja;
     rdfs:label     "sister"@en;
-    rdfs:label     "娘"@ja;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "娘"@ja.
 <http://kgc.knowledge-graph.jp/data/predicate/cannotFind>
     rdf:type    kgc:Action;
     rdf:type    kgc:CanNotAction;
     kgc:canNot    <http://kgc.knowledge-graph.jp/data/predicate/find>;
-    rdfs:label     "見つからない"@ja;
+    rdfs:label     "見つけられない"@ja;
     rdfs:label     "cannotFind"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/wrist>
     rdfs:label     "wrist"@en;
@@ -5175,6 +5208,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "engagement"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/price_of_asset_of_mother_of_Helen>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "関係する投下資本の現在価格"@ja;
     rdfs:label     "price of asset of mother of Helen"@en;
     rdf:type    kgc:OFobj;
@@ -5184,9 +5218,9 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/mother>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/garden>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "芝地"@ja;
-    rdfs:label     "garden"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "garden"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/marry>
     rdf:type    kgc:Action;
     rdfs:label     "結婚する"@ja;
@@ -5202,9 +5236,9 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/pull>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/the_doorbell>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/marriage>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "結婚"@ja;
-    rdfs:label     "marriage"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "marriage"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notSleep>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
@@ -5223,19 +5257,19 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "半時間のあいだ"@ja;
     rdfs:label     "for half an hour"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/clothes>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "衣服"@ja;
-    rdfs:label     "clothes"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "clothes"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/jumpUp>
     rdf:type    kgc:Action;
-    rdfs:label     "飛び上がる"@ja;
+    rdfs:label     "跳び上がる"@ja;
     rdfs:label     "jumpUp"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/safe>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "大きい金庫"@ja;
     rdfs:label     "safe"@en;
     rdfs:label     "金庫"@ja;
-    rdfs:label     "金庫の上"@ja;
-    rdf:type    kgc:Object.
+    rdfs:label     "金庫の上"@ja.
 <http://kgc.knowledge-graph.jp/data/predicate/notAsleep>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
@@ -5292,9 +5326,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "ふらふら"@ja;
     rdfs:label     "beDizzy"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/metal_fittings>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "金具"@ja;
-    rdfs:label     "metal fittings"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "metal fittings"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/brown_specled_yellow_band>
     rdf:type    kgc:Property;
     rdfs:label     "褐色の斑がついた黄色い紐"@ja;
@@ -5304,13 +5338,13 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "750ポンド"@ja;
     rdfs:label     "750 GBP"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/scaffold>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "足場"@ja;
-    rdfs:label     "scaffold"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "scaffold"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Danger>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "危険"@ja;
-    rdfs:label     "Danger"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "Danger"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/father-in-law_of_Helen>
     rdf:type    kgc:Property;
     rdfs:label     "ヘレンの義理の父"@ja;
@@ -5319,6 +5353,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/predicate/father-in-law>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/predicate/Helen>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/body_of_Julia>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "ジュリアの体"@ja;
     rdfs:label     "body of Julia"@en;
     rdf:type    kgc:OFobj;
@@ -5328,20 +5363,21 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "at the same time as rope"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/roof_of_left_building>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "左側の棟の屋根"@ja;
     rdfs:label     "roof of left building"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/roof>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/left_building>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/living_room>
+    rdf:type    kgc:Place;
     rdfs:label     "居間の隣"@ja;
-    rdfs:label     "living room"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "living room"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notHave>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/have>;
-    rdfs:label     "not持つ"@ja;
+    rdfs:label     "持たない"@ja;
     rdfs:label     "notHave"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/question>
     rdfs:label     "question"@en;
@@ -5351,10 +5387,10 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "新しい"@ja;
     rdfs:label     "new"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/round_table>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "円卓が一つ"@ja;
     rdfs:label     "round table"@en;
-    rdfs:label     "円卓"@ja;
-    rdf:type    kgc:Object.
+    rdfs:label     "円卓"@ja.
 <http://kgc.knowledge-graph.jp/data/predicate/callBack>
     rdf:type    kgc:Action;
     rdfs:label     "呼び戻す"@ja;
@@ -5377,34 +5413,34 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "強い"@ja;
     rdfs:label     "strong"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/limbs>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "手足"@ja;
-    rdfs:label     "limbs"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "limbs"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/goDown>
     rdf:type    kgc:Action;
-    rdfs:label     "降りる"@ja;
+    rdfs:label     "下りる"@ja;
     rdfs:label     "goDown"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/use>
     rdf:type    kgc:Action;
     rdfs:label     "使う"@ja;
     rdfs:label     "use"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/culprit>
+    rdf:type    kgc:Person;
     rdfs:label     "犯人"@ja;
-    rdfs:label     "culprit"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "culprit"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/door>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "ドア"@ja;
-    rdfs:label     "door"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "door"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/whistle>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "口笛"@ja;
     rdfs:label     "whistle"@en;
-    rdfs:label     "低い口笛"@ja;
-    rdf:type    kgc:Object.
+    rdfs:label     "低い口笛"@ja.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/fireplace>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "大きい暖炉"@ja;
-    rdfs:label     "fireplace"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "fireplace"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/whip>
     rdfs:label     "鞭"@ja;
     rdfs:label     "whip"@en;
@@ -5420,10 +5456,10 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/sound>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/snake>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/today>
-    rdf:type    kgc:AbstractTime;
     rdfs:label     "今日"@ja;
     rdfs:label     "today"@en;
-    rdfs:label     "今日の日中"@ja.
+    rdfs:label     "今日の日中"@ja;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/corner_of_ceiling>
     rdfs:label     "天井の隅"@ja;
     rdfs:label     "corner of ceiling"@en;
@@ -5435,6 +5471,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Safe"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/story_of_Helen>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "ヘレンの話した内容"@ja;
     rdfs:label     "story of Helen"@en;
     rdf:type    kgc:OFobj;
@@ -5442,29 +5479,30 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen>.
 <http://kgc.knowledge-graph.jp/data/predicate/smell>
     rdf:type    kgc:Action;
-    rdfs:label     "嗅ぐ"@ja;
+    rdfs:label     "匂う"@ja;
     rdfs:label     "smell"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/handgun>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "拳銃"@ja;
-    rdfs:label     "handgun"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "handgun"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Percy_Armitage>
+    rdf:type    kgc:Person;
     rdfs:label     "パーシィ・アーミティッジ"@ja;
-    rdfs:label     "Percy Armitage"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "Percy Armitage"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/alone>
     rdfs:label     "ひとり"@ja;
     rdfs:label     "alone"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/signal>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "合図"@ja;
-    rdfs:label     "signal"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "signal"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/wear>
     rdf:type    kgc:Property;
-    rdfs:label     "着る"@ja;
+    rdfs:label     "着ている"@ja;
     rdfs:label     "wear"@en;
-    rdf:type    kgc:Action.
+    rdf:type    kgc:Action;
+    rdfs:label     "着る"@ja.
 <http://kgc.knowledge-graph.jp/data/predicate/dark>
     rdf:type    kgc:Property;
     rdfs:label     "暗い"@ja;
@@ -5479,7 +5517,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "fall"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/gain>
     rdf:type    kgc:Action;
-    rdfs:label     "獲得する"@ja;
+    rdfs:label     "得る"@ja;
     rdfs:label     "gain"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/putInto>
     rdf:type    kgc:Action;
@@ -5502,9 +5540,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Notice"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/interesting_features>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "非常に興味深い特徴"@ja;
-    rdfs:label     "interesting features"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "interesting features"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/request>
     rdfs:label     "request"@en;
     rdf:type    kgc:Object.
@@ -5512,14 +5550,14 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Stoke Moran"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/poisonous_snake>
+    rdf:type    kgc:Animal;
     rdfs:label     "毒沼蛇"@ja;
-    rdfs:label     "poisonous snake"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "poisonous snake"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/speckled_band>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "まだらの紐"@ja;
     rdfs:label     "speckled band"@en;
-    rdfs:label     "まだらのひも"@ja;
-    rdf:type    kgc:Object.
+    rdfs:label     "まだらのひも"@ja.
 <http://kgc.knowledge-graph.jp/data/predicate/simple>
     rdf:type    kgc:Property;
     rdfs:label     "質素"@ja;
@@ -5533,9 +5571,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "30歳"@ja;
     rdfs:label     "30 years old"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/in_ten_seconds>
+    rdf:type    kgc:AbstractTime;
     rdfs:label     "十秒で"@ja;
-    rdfs:label     "in ten seconds"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "in ten seconds"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/forecast>
     rdf:type    kgc:Action;
     rdfs:label     "予想する"@ja;
@@ -5545,6 +5583,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "叫ぶ"@ja;
     rdfs:label     "shout"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/garden_of_Roylott>
+    rdf:type    kgc:Place;
     rdfs:label     "ロイロットの庭"@ja;
     rdfs:label     "garden of Roylott"@en;
     rdf:type    kgc:OFobj;
@@ -5557,17 +5596,17 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "殺す"@ja;
     rdfs:label     "kill"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/candle>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "燃えさしの蝋燭"@ja;
-    rdfs:label     "candle"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "candle"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/leak>
     rdf:type    kgc:Action;
     rdfs:label     "漏れる"@ja;
     rdfs:label     "leak"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Harrow>
+    rdf:type    kgc:Place;
     rdfs:label     "ハロウ"@ja;
-    rdfs:label     "Harrow"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "Harrow"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/one_building>
     rdfs:label     "one building"@en;
     rdf:type    kgc:Object.
@@ -5592,7 +5631,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "contain"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/getOff>
     rdf:type    kgc:Action;
-    rdfs:label     "飛び降りる"@ja;
+    rdfs:label     "下車する"@ja;
     rdfs:label     "getOff"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/fixed>
     rdf:type    kgc:Property;
@@ -5605,20 +5644,20 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/using_rope>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/bell>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/decorative_wear>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "化粧着"@ja;
-    rdfs:label     "decorative wear"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "decorative wear"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/OutsideAir>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "外気"@ja;
-    rdfs:label     "OutsideAir"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "OutsideAir"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/the_invested_capital>
     rdfs:label     "the invested capital"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/headache>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "頭痛"@ja;
-    rdfs:label     "headache"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "headache"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/engage>
     rdf:type    kgc:Action;
     rdfs:label     "婚約する"@ja;
@@ -5633,6 +5672,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "specifically"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_mansion_of_Roylott>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "屋敷の窓"@ja;
     rdfs:label     "window of mansion of Roylott"@en;
     rdf:type    kgc:OFobj;
@@ -5645,10 +5685,11 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "真っ青である"@ja;
     rdfs:label     "pale"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/India>
+    rdf:type    kgc:Place;
     rdfs:label     "インド"@ja;
-    rdfs:label     "India"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "India"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/sister_of_mother_of_Helen>
+    rdf:type    kgc:Person;
     rdfs:label     "姉妹の母の妹"@ja;
     rdfs:label     "sister of mother of Helen"@en;
     rdf:type    kgc:OFobj;
@@ -5674,25 +5715,25 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/jaw>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/brandy>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "ブランデー"@ja;
-    rdfs:label     "brandy"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "brandy"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/cat>
     rdfs:label     "猫"@ja;
     rdfs:label     "cat"@en;
-    rdfs:label     "大きな猫"@ja;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Animal;
+    rdfs:label     "大きな猫"@ja.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/one_match_cinders>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "マッチの燃えさし"@ja;
-    rdfs:label     "one match cinders"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "one match cinders"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia>
+    rdf:type    kgc:Person;
     rdfs:label     "ジュリア"@ja;
     rdfs:label     "Julia"@en;
     rdfs:label     "ヘレン"@ja;
     rdfs:label     "ヘレン，ジュリア，ロイロット"@ja;
-    rdfs:label     "ご婦人（ヘレンの姉）"@ja;
-    rdf:type    kgc:Object.
+    rdfs:label     "ご婦人（ヘレンの姉）"@ja.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/some_years_ago>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "何年か前"@ja;
@@ -5707,9 +5748,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "夜11時"@ja;
     rdfs:label     "事件当夜"@ja.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/match_box>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "マッチの箱"@ja;
-    rdfs:label     "match box"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "match box"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/lose>
     rdf:type    kgc:Action;
     rdfs:label     "失う"@ja;
@@ -5731,11 +5772,12 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/coroner>
     rdfs:label     "検視官"@ja;
     rdfs:label     "coroner"@en;
-    rdfs:label     "毒物"@ja;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:PhysicalObject;
+    rdf:type    kgc:Person;
+    rdfs:label     "毒物"@ja.
 <http://kgc.knowledge-graph.jp/data/predicate/work>
     rdf:type    kgc:Action;
-    rdfs:label     "働く"@ja;
+    rdfs:label     "仕事をする"@ja;
     rdfs:label     "work"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/by_falling_price>
     rdfs:label     "by falling price"@en;
@@ -5745,10 +5787,11 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Case"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/plan>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "計画"@ja;
-    rdfs:label     "plan"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "plan"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/neck_of_Roylott>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "ロイロット博士の首"@ja;
     rdfs:label     "neck of Roylott"@en;
     rdf:type    kgc:OFobj;
@@ -5768,11 +5811,12 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/sit>
     rdf:type    kgc:Action;
     rdfs:label     "座る"@ja;
-    rdfs:label     "sit"@en.
+    rdfs:label     "sit"@en;
+    rdfs:label     "存在する"@ja.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/central_building>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "中央部"@ja;
-    rdfs:label     "central building"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "central building"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/villager>
     rdfs:label     "villager"@en;
     rdf:type    kgc:Object.
@@ -5793,15 +5837,16 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "hear"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/focus>
     rdf:type    kgc:Action;
-    rdfs:label     "集中している"@ja;
+    rdfs:label     "注目する"@ja;
     rdfs:label     "focus"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/desk>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "机の隅"@ja;
     rdfs:label     "desk"@en;
     rdfs:label     "細く長い杖のそば"@ja;
-    rdfs:label     "卓上"@ja;
-    rdf:type    kgc:Object.
+    rdfs:label     "卓上"@ja.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/four_walls_of_Julia’s_bedroom>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "ジュリアの寝室の四方の壁"@ja;
     rdfs:label     "four walls of Julia’s bedroom"@en;
     rdf:type    kgc:OFobj;
@@ -5815,13 +5860,13 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom>.
 <http://kgc.knowledge-graph.jp/data/predicate/lookAround>
     rdf:type    kgc:Action;
-    rdfs:label     "ながめ回す"@ja;
+    rdfs:label     "見まわす"@ja;
     rdfs:label     "lookAround"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/cane>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "細く長い杖"@ja;
     rdfs:label     "cane"@en;
-    rdfs:label     "杖で"@ja;
-    rdf:type    kgc:Object.
+    rdfs:label     "杖で"@ja.
 <http://kgc.knowledge-graph.jp/data/predicate/make>
     rdf:type    kgc:Action;
     rdfs:label     "作る"@ja;
@@ -5832,15 +5877,15 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/beReleased>
     rdf:type    kgc:Action;
-    rdfs:label     "存在する"@ja;
+    rdfs:label     "放たれる"@ja;
     rdfs:label     "beReleased"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/back_part>
     rdfs:label     "back part"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/simple_furniture>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "質素な家具"@ja;
-    rdfs:label     "simple furniture"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "simple furniture"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/tightly>
     rdfs:label     "しっかり"@ja;
     rdfs:label     "tightly"@en;
@@ -5851,16 +5896,16 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "this morning"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/arrive>
     rdf:type    kgc:Action;
-    rdfs:label     "到着する"@ja;
+    rdfs:label     "来る"@ja;
     rdfs:label     "arrive"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/scar>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "傷跡"@ja;
-    rdfs:label     "scar"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "scar"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/vanity>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "化粧台"@ja;
-    rdfs:label     "vanity"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "vanity"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/one_building_of_mansion_of_Roylott>
     rdfs:label     "one building of mansion of Roylott"@en;
     rdf:type    kgc:OFobj;
@@ -5898,8 +5943,9 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdf:type    kgc:CanNotAction;
     kgc:canNot    <http://kgc.knowledge-graph.jp/data/predicate/gothrough>;
-    rdfs:label     "通れない"@ja;
-    rdfs:label     "cannotGoThrough"@en.
+    rdfs:label     "通り抜けできない"@ja;
+    rdfs:label     "cannotGoThrough"@en;
+    rdfs:label     "通れない"@ja.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/by_hitting>
     rdfs:label     "叩いて"@ja;
     rdfs:label     "by hitting"@en;
@@ -5923,6 +5969,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/animal>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/India>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/first_floor_of_one_building_of_mansion_of_Roylott>
+    rdf:type    kgc:Place;
     rdfs:label     "ロイロットの屋敷の一棟の一階"@ja;
     rdfs:label     "first floor of one building of mansion of Roylott"@en;
     rdf:type    kgc:OFobj;
@@ -5938,9 +5985,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Enter"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/bad_act>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "悪行"@ja;
-    rdfs:label     "bad act"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "bad act"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/explain>
     rdf:type    kgc:Action;
     rdfs:label     "説明する"@ja;
@@ -5950,6 +5997,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "昨日から"@ja;
     rdfs:label     "since yesterday"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/The_current_price_of_the_invested_capital>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "関係する投下資本の現在価格"@ja;
     rdfs:label     "The current price of the invested capital"@en;
     rdf:type    kgc:OFobj;
@@ -5965,6 +6013,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "animal"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/handkerchief_of_Roma>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "ハンカチーフ"@ja;
     rdfs:label     "handkerchief of Roma"@en;
     rdf:type    kgc:OFobj;
@@ -5974,47 +6023,48 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "The current price"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/man>
+    rdf:type    kgc:Person;
     rdfs:label     "人"@ja;
     rdfs:label     "man"@en;
-    rdfs:label     "誰も"@ja;
-    rdf:type    kgc:Object.
+    rdfs:label     "誰も"@ja.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/fingers_of_Roylott>
     rdfs:label     "fingers of Roylott"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/fingers>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/mouse>
+    rdf:type    kgc:Animal;
     rdfs:label     "ネズミ"@ja;
-    rdfs:label     "mouse"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "mouse"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/door_of_safe>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "金庫の戸"@ja;
     rdfs:label     "door of safe"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/door>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/safe>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/elbow_chair>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "肘掛椅子が一つ"@ja;
     rdfs:label     "elbow chair"@en;
-    rdfs:label     "肘掛け椅子"@ja;
-    rdf:type    kgc:Object.
+    rdfs:label     "肘掛け椅子"@ja.
 <http://kgc.knowledge-graph.jp/data/predicate/read>
     rdf:type    kgc:Action;
     rdfs:label     "読む"@ja;
     rdfs:label     "read"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Leopard>
+    rdf:type    kgc:Animal;
     rdfs:label     "豹"@ja;
-    rdfs:label     "Leopard"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "Leopard"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/Have>
     rdfs:label     "Have"@en;
-    rdfs:label     "持つ"@ja;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/scream>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "悲鳴"@ja;
-    rdfs:label     "scream"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "scream"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/engagement_of_Julia>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "ジュリアの婚約"@ja;
     rdfs:label     "engagement of Julia"@en;
     rdf:type    kgc:OFobj;
@@ -6022,7 +6072,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia>.
 <http://kgc.knowledge-graph.jp/data/predicate/goUp>
     rdf:type    kgc:Action;
-    rdfs:label     "上る"@ja;
+    rdfs:label     "上がる"@ja;
     rdfs:label     "goUp"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/die>
     rdf:type    kgc:Action;
@@ -6036,12 +6086,12 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/respond>;
-    rdfs:label     "反応しない"@ja;
+    rdfs:label     "答えない"@ja;
     rdfs:label     "notRespond"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Sleeping_Woman>
     rdfs:label     "寝台に寝ていた女性"@ja;
     rdfs:label     "Sleeping Woman"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/floor>
     rdfs:label     "床"@ja;
     rdfs:label     "floor"@en;
@@ -6057,9 +6107,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "わからない"@ja;
     rdfs:label     "notUnderstand"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/metallic_sound>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "金属音"@ja;
-    rdfs:label     "metallic sound"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "metallic sound"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/tie>
     rdf:type    kgc:Property;
     rdfs:label     "結ばれている"@ja;
@@ -6068,38 +6118,40 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Open"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/stone_wall>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "堅い石壁"@ja;
-    rdfs:label     "stone wall"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "stone wall"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/approach>
     rdf:type    kgc:Action;
     rdfs:label     "近寄る"@ja;
     rdfs:label     "approach"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/knee_of_Roylott>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "ロイロット博士の膝の上"@ja;
     rdfs:label     "knee of Roylott"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/knee>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/four_nails>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "四本の釘"@ja;
-    rdfs:label     "four nails"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "four nails"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/right_building>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "右の棟"@ja;
     rdfs:label     "right building"@en;
     rdfs:label     "右側の棟"@ja;
-    rdfs:label     "右側の棟の反対側"@ja;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place;
+    rdfs:label     "右側の棟の反対側"@ja.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/bed>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "寝台"@ja;
     rdfs:label     "bed"@en;
     rdfs:label     "寝台のそば"@ja;
     rdfs:label     "枕"@ja;
     rdfs:label     "寝台のわきに"@ja;
     rdfs:label     "普通の寝台"@ja;
-    rdfs:label     "寝台のへり"@ja;
-    rdf:type    kgc:Object.
+    rdfs:label     "寝台のへり"@ja.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/the_time>
     rdfs:label     "the time"@en;
     rdf:type    kgc:Object.
@@ -6139,7 +6191,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/stay>
     rdf:type    kgc:Action;
-    rdfs:label     "滞在する"@ja;
+    rdfs:label     "留まる"@ja;
     rdfs:label     "stay"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/friend_of_Roylott>
     rdf:type    kgc:Property;
@@ -6162,13 +6214,13 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "立つ"@ja;
     rdfs:label     "stand"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/housekeeper>
+    rdf:type    kgc:Person;
     rdfs:label     "召使い"@ja;
-    rdfs:label     "housekeeper"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "housekeeper"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Crane_Water>
+    rdf:type    kgc:Place;
     rdfs:label     "クレイン・ウォータ"@ja;
-    rdfs:label     "Crane Water"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "Crane Water"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/escape>
     rdf:type    kgc:Action;
     rdfs:label     "逃げる"@ja;
@@ -6178,14 +6230,15 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "面している"@ja;
     rdfs:label     "face"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/folding_bed>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "折りたたみ寝台"@ja;
-    rdfs:label     "folding bed"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "folding bed"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/instruct>
     rdf:type    kgc:Action;
     rdfs:label     "指示する"@ja;
     rdfs:label     "instruct"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/wedding_ceremony_of_Julia>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "ジュリアの結婚式"@ja;
     rdfs:label     "wedding ceremony of Julia"@en;
     rdf:type    kgc:OFobj;
@@ -6200,25 +6253,26 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "修理されている"@ja;
     rdfs:label     "repaired"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Indian_cigarettes>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "ロイロット博士の煙草"@ja;
-    rdfs:label     "Indian cigarettes"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "Indian cigarettes"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/gray>
     rdf:type    kgc:Property;
     rdfs:label     "灰色"@ja;
     rdfs:label     "gray"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/corridor>
+    rdf:type    kgc:Place;
     rdfs:label     "廊下"@ja;
-    rdfs:label     "corridor"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "corridor"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/prepare>
     rdf:type    kgc:Action;
     rdfs:label     "準備する"@ja;
     rdfs:label     "prepare"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/open>
     rdf:type    kgc:Action;
-    rdfs:label     "開く"@ja;
+    rdfs:label     "開ける"@ja;
     rdfs:label     "open"@en;
+    rdfs:label     "開く"@ja;
     rdf:type    kgc:Property.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/same_place>
     rdfs:label     "同じ位置"@ja;
@@ -6235,12 +6289,12 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "引く"@ja;
     rdfs:label     "pull"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott>
+    rdf:type    kgc:Person;
     rdfs:label     "ロイロット"@ja;
     rdfs:label     "Roylott"@en;
     rdfs:label     "ロイロット博士"@ja;
     rdfs:label     "ヘレン，ジュリア，ロイロット"@ja;
-    rdfs:label     "博士"@ja;
-    rdf:type    kgc:Object.
+    rdfs:label     "博士"@ja.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/within_2_months>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "２ヶ月以内"@ja;
@@ -6266,14 +6320,15 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "燃やす"@ja;
     rdfs:label     "fire"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/8_years_ago>
-    rdf:type    kgc:AbstractTime;
     rdfs:label     "8年前"@ja;
-    rdfs:label     "8 years ago"@en.
+    rdfs:label     "8 years ago"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/night>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "夜"@ja;
     rdfs:label     "night"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/wall_of_Helen’s_bedroom>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "ヘレンの寝室の壁"@ja;
     rdfs:label     "wall of Helen’s bedroom"@en;
     rdf:type    kgc:OFobj;
@@ -6295,16 +6350,16 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/fight>
     rdf:type    kgc:Action;
-    rdfs:label     "格闘する"@ja;
+    rdfs:label     "戦う"@ja;
     rdfs:label     "fight"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/VentilationHole>
     rdf:type    kgc:Property;
     rdfs:label     "通風孔"@ja;
     rdfs:label     "VentilationHole"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/London>
+    rdf:type    kgc:Place;
     rdfs:label     "ロンドン"@ja;
-    rdfs:label     "London"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "London"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/See>
     rdfs:label     "See"@en;
     rdf:type    kgc:Object.
@@ -6313,10 +6368,10 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "楽団"@ja;
     rdfs:label     "band"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/left_building>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "左の棟"@ja;
     rdfs:label     "left building"@en;
-    rdfs:label     "左側の棟"@ja;
-    rdf:type    kgc:Object.
+    rdfs:label     "左側の棟"@ja.
 <http://kgc.knowledge-graph.jp/data/predicate/friend>
     rdfs:label     "friend"@en;
     rdf:type    kgc:Object.
@@ -6341,16 +6396,17 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen’s_mothers_death>.
 <http://kgc.knowledge-graph.jp/data/predicate/want>
     rdf:type    kgc:Action;
-    rdfs:label     "したい"@ja;
+    rdfs:label     "望む"@ja;
     rdfs:label     "want"@en.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/bedroom_of_housekeeper>
+    rdf:type    kgc:Place;
     rdfs:label     "家政婦の寝室"@ja;
     rdfs:label     "bedroom of housekeeper"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/bedroom>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/housekeeper>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/band>
+    rdf:type    kgc:PhysicalObject;
     rdfs:label     "褐色の斑《ぶち》がついた黄色い紐"@ja;
     rdfs:label     "band"@en;
-    rdfs:label     "紐"@ja;
-    rdf:type    kgc:Object.
+    rdfs:label     "紐"@ja.
