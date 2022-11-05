@@ -2750,7 +2750,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/290a>
     rdf:type    kgc:Situation ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/call> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> .
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/291>
     rdf:type    kgc:Situation ;
@@ -8195,8 +8195,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "サザランド"@ja;
     rdfs:label     "Sutherland"@en;
     rdf:type    kgc:PhysicalObject;
-    rdfs:label     "サザランドと"@ja;
-    rdfs:label     "ホームズ"@ja.
+    rdfs:label     "サザランドと"@ja.
 <http://kgc.knowledge-graph.jp/data/predicate/shadow>
     rdf:type    kgc:Action;
     rdfs:label     "跡をつける"@ja;
