@@ -2150,7 +2150,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/237a> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/237a>
     rdf:type    kgc:Situation ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/シンプソン> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Simpson> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/monitor> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/238>
@@ -3933,10 +3933,6 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "日よけ"@ja;
     rdfs:label     "sunshade"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/シンプソン>
-    rdf:type    kgc:Person;
-    rdfs:label     "シンプソン"@ja;
-    rdfs:label     "シンプソン"@en.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/fireplace>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "暖炉"@ja;
