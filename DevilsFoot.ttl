@@ -5,7 +5,7 @@
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 @prefix kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#> . 
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/metadata>
-    rdfs:comment  "作成日（2022-10-17） "@ja ;
+    rdfs:comment  "作成日（2022-11-05） "@ja ;
 	cc:attributionName "SIG-SWO, JSAI" ;
 	cc:license <https://creativecommons.org/licenses/by/4.0/> .
 #################################################################
@@ -2706,6 +2706,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Mortimer was fearful"@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/fearful> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/face_of_fear> ;
     kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/DevilsFoot/266> .
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/266>
     rdf:type    kgc:Situation ;
@@ -4762,10 +4763,10 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Brenda>
     rdfs:label     "ブレンダ"@ja;
     rdfs:label     "Brenda"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person.
 <http://kgc.knowledge-graph.jp/data/predicate/bring>
     rdf:type    kgc:Action;
-    rdfs:label     "持っていく"@ja;
+    rdfs:label     "連れていく"@ja;
     rdfs:label     "bring"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/living_room>
     rdfs:label     "居間"@ja;
@@ -4831,14 +4832,13 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "曖昧である"@ja;
     rdfs:label     "ambiguous"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Within_5_minutes>
-    rdf:type    kgc:AbstractTime;
     rdfs:label     "5分以内"@ja;
-    rdfs:label     "Within 5 minutes"@en.
+    rdfs:label     "Within 5 minutes"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/opinion>
     rdfs:label     "opinion"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Morning_of_the_first_day>
-    rdf:type    kgc:AbstractTime;
     rdfs:label     "1日目の朝"@ja;
     rdfs:label     "Morning of the first day"@en;
     rdf:type    kgc:OFobj;
@@ -4877,7 +4877,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/predicate/Mortimer>.
 <http://kgc.knowledge-graph.jp/data/predicate/wander>
     rdf:type    kgc:Action;
-    rdfs:label     "徘徊する"@ja;
+    rdfs:label     "歩き回る"@ja;
     rdfs:label     "wander"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/laws>
     rdfs:label     "laws"@en;
@@ -4887,9 +4887,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Father"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Within_a_few_minutes>
-    rdf:type    kgc:AbstractTime;
     rdfs:label     "数分以内"@ja;
-    rdfs:label     "Within a few minutes"@en.
+    rdfs:label     "Within a few minutes"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Cause>
     rdfs:label     "原因"@ja;
     rdfs:label     "Cause"@en;
@@ -4911,9 +4911,9 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/DevilsFoot/Motivation>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/DevilsFoot/case>.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Doctor_Richard>
+    rdf:type    kgc:Person;
     rdfs:label     "ドクター・リチャード"@ja;
-    rdfs:label     "Doctor Richard"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "Doctor Richard"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/After_death_of_Brenda_>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "ブレンダの死後"@ja;
@@ -5145,19 +5145,19 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "madness"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/card_game>
-    rdf:type    kgc:AbstractTime;
     rdfs:label     "カードの最中"@ja;
-    rdfs:label     "card game"@en.
+    rdfs:label     "card game"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/create>
     rdf:type    kgc:Action;
-    rdfs:label     "練る"@ja;
+    rdfs:label     "創造する"@ja;
     rdfs:label     "create"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/note>
     rdfs:label     "note"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/turnOn>
     rdf:type    kgc:Action;
-    rdfs:label     "灯す"@ja;
+    rdfs:label     "点灯する"@ja;
     rdfs:label     "turnOn"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/sample>
     rdfs:label     "sample"@en;
@@ -5245,8 +5245,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/combustion>
     rdfs:label     "燃焼"@ja;
     rdfs:label     "combustion"@en;
-    rdf:type    kgc:AbstractTime;
-    rdfs:label     "燃焼時"@ja.
+    rdfs:label     "燃焼時"@ja;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Morning>
     rdfs:label     "Morning"@en;
     rdf:type    kgc:Object.
@@ -5310,16 +5310,16 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/DevilsFoot/1897>.
 <http://kgc.knowledge-graph.jp/data/predicate/receive>
     rdf:type    kgc:Action;
-    rdfs:label     "受け取る"@ja;
+    rdfs:label     "受ける"@ja;
     rdfs:label     "receive"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Four_men>
     rdfs:label     "4人の男"@ja;
     rdfs:label     "Four men"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Former_wife>
+    rdf:type    kgc:Person;
     rdfs:label     "前妻"@ja;
-    rdfs:label     "Former wife"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "Former wife"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer_sImmediate_family>
     rdfs:label     "モーティマーの肉親"@ja;
     rdfs:label     "Mortimer'sImmediate family"@en;
@@ -5434,8 +5434,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "putOn"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/fearful>
     rdf:type    kgc:Property;
-    rdfs:label     "恐怖の表情"@ja;
-    rdfs:label     "fearful"@en.
+    rdfs:label     "持つ"@ja;
+    rdfs:label     "fearful"@en;
+    rdfs:label     "恐怖の表情"@ja.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/exterior_of_Exhaust>
     rdfs:label     "排煙部の外装"@ja;
     rdfs:label     "exterior of Exhaust"@en;
@@ -5475,7 +5476,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale>.
 <http://kgc.knowledge-graph.jp/data/predicate/consider>
     rdf:type    kgc:Action;
-    rdfs:label     "考える"@ja;
+    rdfs:label     "考慮する"@ja;
     rdfs:label     "consider"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/fireplace>
     rdfs:label     "暖炉"@ja;
@@ -5509,7 +5510,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/crush>
     rdf:type    kgc:Action;
-    rdfs:label     "粉砕する"@ja;
+    rdfs:label     "砕く"@ja;
     rdfs:label     "crush"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notGenerous>
     rdf:type    kgc:Action;
@@ -5560,7 +5561,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "gravel"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/separate>
     rdf:type    kgc:Action;
-    rdfs:label     "分かれる"@ja;
+    rdfs:label     "別れる"@ja;
     rdfs:label     "separate"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/In_the_room>
     rdfs:label     "部屋の中"@ja;
@@ -5609,9 +5610,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "forehead"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Toridan_Wasa>
+    rdf:type    kgc:Place;
     rdfs:label     "トリダニック・ワーサ"@ja;
-    rdfs:label     "Toridan Wasa"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "Toridan Wasa"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Hoist>
     rdfs:label     "ホイスト"@ja;
     rdfs:label     "Hoist"@en;
@@ -5699,10 +5700,12 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/enter>
     rdf:type    kgc:Action;
     rdfs:label     "入る"@ja;
-    rdfs:label     "enter"@en.
+    rdfs:label     "enter"@en;
+    rdfs:label     "入ってくる"@ja;
+    rdfs:label     "行く"@ja.
 <http://kgc.knowledge-graph.jp/data/predicate/return>
     rdf:type    kgc:Action;
-    rdfs:label     "帰る"@ja;
+    rdfs:label     "戻る"@ja;
     rdfs:label     "return"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/hall>
     rdfs:label     "広間から"@ja;
@@ -5793,9 +5796,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Grassland"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Five_minutes_later>
-    rdf:type    kgc:AbstractTime;
     rdfs:label     "5分後"@ja;
-    rdfs:label     "Five minutes later"@en.
+    rdfs:label     "Five minutes later"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/feet_of_Mortimer>
     rdfs:label     "モーティマーの手足"@ja;
     rdfs:label     "feet of Mortimer"@en;
@@ -5859,7 +5862,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "ask"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/request>
     rdf:type    kgc:Action;
-    rdfs:label     "要求する"@ja;
+    rdfs:label     "依頼する"@ja;
     rdfs:label     "request"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Behind_you>
     rdfs:label     "後ろ手で"@ja;
@@ -5933,7 +5936,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/beLocked>
     rdf:type    kgc:Action;
-    rdfs:label     "鍵がかかっている"@ja;
+    rdfs:label     "施錠される"@ja;
     rdfs:label     "beLocked"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Servant>
     rdfs:label     "使用人"@ja;
@@ -5957,9 +5960,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "昨日の夜"@ja;
     rdfs:label     "Yesterday night"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Watson>
+    rdf:type    kgc:Person;
     rdfs:label     "ワトソン"@ja;
-    rdfs:label     "Watson"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "Watson"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/meet>
     rdf:type    kgc:Action;
     rdfs:label     "会う"@ja;
@@ -6011,7 +6014,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/rant>
     rdf:type    kgc:Action;
-    rdfs:label     "叫ぶ"@ja;
+    rdfs:label     "わめく"@ja;
     rdfs:label     "rant"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Sufficient_funds>
     rdfs:label     "十分な資金"@ja;
@@ -6046,9 +6049,9 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/DevilsFoot/note>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes>.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Immediately_after_breakfast_on_March_16>
-    rdf:type    kgc:AbstractTime;
     rdfs:label     "3月16日朝食直後"@ja;
-    rdfs:label     "Immediately after breakfast on March 16"@en.
+    rdfs:label     "Immediately after breakfast on March 16"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/recommend>
     rdf:type    kgc:Action;
     rdfs:label     "勧める"@ja;
@@ -6064,9 +6067,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "death"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/When_the_sun_rises>
-    rdf:type    kgc:AbstractTime;
     rdfs:label     "日が昇る頃"@ja;
-    rdfs:label     "When the sun rises"@en.
+    rdfs:label     "When the sun rises"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/money>
     rdfs:label     "お金"@ja;
     rdfs:label     "money"@en;
@@ -6086,7 +6089,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Many years ago"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/visit>
     rdf:type    kgc:Action;
-    rdfs:label     "訪れる"@ja;
+    rdfs:label     "訪ねる"@ja;
     rdfs:label     "visit"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notExist>
     rdf:type    kgc:Action;
@@ -6125,7 +6128,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Owen>
     rdfs:label     "オーウェン"@ja;
     rdfs:label     "Owen"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Living_room>
     rdfs:label     "Living room"@en;
     rdf:type    kgc:Object.
@@ -6134,7 +6137,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/left>
     rdf:type    kgc:Action;
-    rdfs:label     "出ていく"@ja;
+    rdfs:label     "出る"@ja;
     rdfs:label     "left"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/takeWalk>
     rdf:type    kgc:Action;
@@ -6143,11 +6146,12 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/pass>
     rdf:type    kgc:Action;
     rdfs:label     "経過している"@ja;
-    rdfs:label     "pass"@en.
+    rdfs:label     "pass"@en;
+    rdfs:label     "すれ違う"@ja.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Holmes>
+    rdf:type    kgc:Person;
     rdfs:label     "ホームズ"@ja;
-    rdfs:label     "Holmes"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "Holmes"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Long_time_ago>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "昔"@ja;
@@ -6194,6 +6198,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Sleep"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/cottage_of_Pordeux_Bay>
+    rdf:type    kgc:Place;
     rdfs:label     "ポルデュー湾のコテージ"@ja;
     rdfs:label     "cottage of Pordeux Bay"@en;
     rdf:type    kgc:OFobj;
@@ -6225,7 +6230,6 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "錫鉱夫"@ja;
     rdfs:label     "Tin miner"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/night_of_Yesterday>
-    rdf:type    kgc:AbstractTime;
     rdfs:label     "昨日の夜"@ja;
     rdfs:label     "night of Yesterday"@en;
     rdf:type    kgc:OFobj;
@@ -6386,7 +6390,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/Ready-made>
     rdf:type    kgc:Property;
-    rdfs:label     "既製品だった"@ja;
+    rdfs:label     "既製品"@ja;
     rdfs:label     "Ready-made"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/This_afternoon>
     rdf:type    kgc:AbstractTime;
@@ -6406,7 +6410,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/have>;
-    rdfs:label     "not持つ"@ja;
+    rdfs:label     "持たない"@ja;
     rdfs:label     "notHave"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/retire>
     rdf:type    kgc:Action;
@@ -6449,7 +6453,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/goDown>
     rdf:type    kgc:Action;
-    rdfs:label     "降りる"@ja;
+    rdfs:label     "下りる"@ja;
     rdfs:label     "goDown"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/10_15_past>
     rdf:type    kgc:AbstractTime;
@@ -6501,7 +6505,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "think"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/smell>
     rdf:type    kgc:Action;
-    rdfs:label     "嗅ぐ"@ja;
+    rdfs:label     "匂う"@ja;
     rdfs:label     "smell"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/know>
     rdf:type    kgc:Action;
@@ -6524,9 +6528,10 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "sing"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/wear>
     rdf:type    kgc:Property;
-    rdfs:label     "着る"@ja;
+    rdfs:label     "着ている"@ja;
     rdfs:label     "wear"@en;
-    rdf:type    kgc:Action.
+    rdf:type    kgc:Action;
+    rdfs:label     "着る"@ja.
 <http://kgc.knowledge-graph.jp/data/predicate/cannotSleep>
     rdf:type    kgc:Action;
     rdf:type    kgc:CanNotAction;
@@ -6535,7 +6540,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "cannotSleep"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/First_discoverer>
     rdf:type    kgc:Property;
-    rdfs:label     "第一発見者だった"@ja;
+    rdfs:label     "第一発見者"@ja;
     rdfs:label     "First discoverer"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/fall>
     rdf:type    kgc:Action;
@@ -6674,7 +6679,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "cook"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/contain>
     rdf:type    kgc:Action;
-    rdfs:label     "含む"@ja;
+    rdfs:label     "存在する"@ja;
     rdfs:label     "contain"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Motivation>
     rdfs:label     "Motivation"@en;
@@ -6782,7 +6787,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/silence>
     rdf:type    kgc:Action;
-    rdfs:label     "黙る"@ja;
+    rdfs:label     "沈黙する"@ja;
     rdfs:label     "silence"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/remember>
     rdf:type    kgc:Action;
@@ -6793,7 +6798,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/comeDown>
     rdf:type    kgc:Action;
-    rdfs:label     "下りてくる"@ja;
+    rdfs:label     "降りる"@ja;
     rdfs:label     "comeDown"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Outside_of_window>
     rdfs:label     "窓の外"@ja;
@@ -6991,7 +6996,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/DevilsFoot/the_hotel_Standale_stay_at_Plymouth>.
 <http://kgc.knowledge-graph.jp/data/predicate/focus>
     rdf:type    kgc:Action;
-    rdfs:label     "集中している"@ja;
+    rdfs:label     "注目する"@ja;
     rdfs:label     "focus"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/property>
     rdfs:label     "財産"@ja;
@@ -7002,7 +7007,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/lookAround>
     rdf:type    kgc:Action;
-    rdfs:label     "ながめ回す"@ja;
+    rdfs:label     "見まわす"@ja;
     rdfs:label     "lookAround"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Emergency_message>
     rdfs:label     "緊急メッセージ"@ja;
@@ -7020,9 +7025,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Emotion"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/early_morning>
-    rdf:type    kgc:AbstractTime;
     rdfs:label     "朝早く"@ja;
-    rdfs:label     "early morning"@en.
+    rdfs:label     "early morning"@en;
+    rdf:type    kgc:AbstractTime.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Case_2>
     rdfs:label     "事件"@ja;
     rdfs:label     "Case 2"@en;
@@ -7039,7 +7044,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/want>;
-    rdfs:label     "したくない"@ja;
+    rdfs:label     "望まない"@ja;
     rdfs:label     "notWant"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/After_death>
     rdfs:label     "After death"@en;
@@ -7053,9 +7058,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Quickly"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/After_his_exit>
-    rdf:type    kgc:AbstractTime;
     rdfs:label     "彼の退出後"@ja;
-    rdfs:label     "After his exit"@en.
+    rdfs:label     "After his exit"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/cannotDo>
     rdf:type    kgc:Action;
     rdf:type    kgc:CanNotAction;
@@ -7069,15 +7074,16 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/George>
     rdfs:label     "ジョージ"@ja;
     rdfs:label     "George"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Person.
 <http://kgc.knowledge-graph.jp/data/predicate/burn>
     rdf:type    kgc:Action;
-    rdfs:label     "燃やされる"@ja;
-    rdfs:label     "burn"@en.
+    rdfs:label     "燃える"@ja;
+    rdfs:label     "burn"@en;
+    rdfs:label     "燃やされる"@ja.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Toridnik_Wasa>
     rdfs:label     "トリダニック・ワーサ"@ja;
     rdfs:label     "Toridnik Wasa"@en;
-    rdf:type    kgc:Object.
+    rdf:type    kgc:Place.
 <http://kgc.knowledge-graph.jp/data/predicate/Agree>
     rdfs:label     "Agree"@en;
     rdf:type    kgc:Object.
@@ -7087,7 +7093,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/arrive>
     rdf:type    kgc:Action;
     rdfs:label     "到着する"@ja;
-    rdfs:label     "arrive"@en.
+    rdfs:label     "arrive"@en;
+    rdfs:label     "来る"@ja.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/cottages>
     rdfs:label     "cottages"@en;
     rdf:type    kgc:Object.
@@ -7162,8 +7169,9 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/DevilsFoot/Brenda>.
 <http://kgc.knowledge-graph.jp/data/predicate/walk>
     rdf:type    kgc:Action;
-    rdfs:label     "歩く"@ja;
-    rdfs:label     "walk"@en.
+    rdfs:label     "散歩する"@ja;
+    rdfs:label     "walk"@en;
+    rdfs:label     "歩く"@ja.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/garden_of_pastoral_hall>
     rdfs:label     "牧師館の庭"@ja;
     rdfs:label     "garden of pastoral hall"@en;
@@ -7264,7 +7272,6 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "tragic"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/Have>
     rdfs:label     "Have"@en;
-    rdfs:label     "持つ"@ja;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/fire>
     rdfs:label     "火"@ja;
@@ -7283,7 +7290,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/DevilsFoot/George>.
 <http://kgc.knowledge-graph.jp/data/predicate/goUp>
     rdf:type    kgc:Action;
-    rdfs:label     "上る"@ja;
+    rdfs:label     "上がる"@ja;
     rdfs:label     "goUp"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/die>
     rdf:type    kgc:Action;
@@ -7357,9 +7364,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Case 1"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Yesterday_evening>
-    rdf:type    kgc:AbstractTime;
     rdfs:label     "昨日の晩"@ja;
-    rdfs:label     "Yesterday evening"@en.
+    rdfs:label     "Yesterday evening"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/shock>
     rdfs:label     "ショック"@ja;
     rdfs:label     "shock"@en;
@@ -7419,7 +7426,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/stay>
     rdf:type    kgc:Action;
-    rdfs:label     "滞在する"@ja;
+    rdfs:label     "留まる"@ja;
     rdfs:label     "stay"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/opinion_of_Brenda>
     rdfs:label     "ブレンダの意見"@ja;
@@ -7482,24 +7489,25 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "呼ぶ"@ja;
     rdfs:label     "call"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay>
+    rdf:type    kgc:Person;
     rdfs:label     "ラウンドヘイ"@ja;
-    rdfs:label     "Roundhay"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "Roundhay"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/greedy>
     rdf:type    kgc:Property;
     rdfs:label     "欲深い"@ja;
     rdfs:label     "greedy"@en.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/What_year>
-    rdf:type    kgc:AbstractTime;
     rdfs:label     "何年"@ja;
-    rdfs:label     "What year"@en.
+    rdfs:label     "What year"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Standale_s_guess>
     rdfs:label     "Standale's guess"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/open>
     rdf:type    kgc:Action;
     rdfs:label     "開く"@ja;
-    rdfs:label     "open"@en.
+    rdfs:label     "open"@en;
+    rdfs:label     "開ける"@ja.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Exterior>
     rdfs:label     "Exterior"@en;
     rdf:type    kgc:Object.
@@ -7585,9 +7593,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Evil thing"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/last>
-    rdf:type    kgc:AbstractTime;
     rdfs:label     "最後"@ja;
-    rdfs:label     "last"@en.
+    rdfs:label     "last"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/beBorn>
     rdf:type    kgc:Action;
     rdfs:label     "生まれる"@ja;
@@ -7691,7 +7699,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/want>
     rdf:type    kgc:Action;
-    rdfs:label     "したい"@ja;
+    rdfs:label     "望む"@ja;
     rdfs:label     "want"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notHear>
     rdf:type    kgc:Action;
@@ -7710,6 +7718,6 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "both sides"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/DevilsFoot/Mortimer>
+    rdf:type    kgc:Person;
     rdfs:label     "モーティマー"@ja;
-    rdfs:label     "Mortimer"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "Mortimer"@en.
