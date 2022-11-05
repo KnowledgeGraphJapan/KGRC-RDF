@@ -6997,8 +6997,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/case>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "事件"@ja;
-    rdfs:label     "case"@en;
-    rdf:type    kgc:Person.
+    rdfs:label     "case"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Recovery>
     rdfs:label     "Recovery"@en;
     rdf:type    kgc:Object.
