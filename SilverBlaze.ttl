@@ -3862,9 +3862,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/bring>
     rdf:type    kgc:Action;
     rdfs:label     "持っていく"@ja;
-    rdfs:label     "bring"@en;
-    rdfs:label     "持ってくる"@ja;
-    rdfs:label     "運ぶ"@ja.
+    rdfs:label     "bring"@en.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/Disappearance>
     rdfs:label     "Disappearance"@en;
     rdf:type    kgc:Object.
@@ -3944,7 +3942,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "notOrdinary"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/wander>
     rdf:type    kgc:Action;
-    rdfs:label     "歩き回る"@ja;
+    rdfs:label     "徘徊する"@ja;
     rdfs:label     "wander"@en.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson>
     rdf:type    kgc:Person;
@@ -4128,7 +4126,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/brown_color>.
 <http://kgc.knowledge-graph.jp/data/predicate/hit>
     rdf:type    kgc:Action;
-    rdfs:label     "打つ"@ja;
+    rdfs:label     "殴る"@ja;
     rdfs:label     "hit"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/wet>
     rdf:type    kgc:Property;
@@ -4465,7 +4463,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "fear"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/receive>
     rdf:type    kgc:Action;
-    rdfs:label     "受ける"@ja;
+    rdfs:label     "受け取る"@ja;
     rdfs:label     "receive"@en.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/House_near_the_stables>
     rdfs:label     "厩舎付近の家"@ja;
@@ -4593,7 +4591,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/consider>
     rdf:type    kgc:Action;
-    rdfs:label     "考慮する"@ja;
+    rdfs:label     "考える"@ja;
     rdfs:label     "consider"@en.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/Crime>
     rdf:type    kgc:PhysicalObject;
@@ -4638,7 +4636,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/crush>
     rdf:type    kgc:Action;
-    rdfs:label     "砕く"@ja;
+    rdfs:label     "粉砕する"@ja;
     rdfs:label     "crush"@en.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/Wide_space>
     rdfs:label     "広いスペース"@ja;
@@ -4697,7 +4695,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "noContact"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/move>
     rdf:type    kgc:Action;
-    rdfs:label     "移動する"@ja;
+    rdfs:label     "動く"@ja;
     rdfs:label     "move"@en.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/Mantle>
     rdfs:label     "Mantle"@en;
@@ -4813,7 +4811,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "London"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/return>
     rdf:type    kgc:Action;
-    rdfs:label     "戻る"@ja;
+    rdfs:label     "帰る"@ja;
     rdfs:label     "return"@en.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/Knife_that_can_not_hide>
     rdfs:label     "隠すことのできないナイフ"@ja;
@@ -4966,7 +4964,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "ask"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/request>
     rdf:type    kgc:Action;
-    rdfs:label     "依頼する"@ja;
+    rdfs:label     "要求する"@ja;
     rdfs:label     "request"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/deal>
     rdf:type    kgc:Action;
@@ -5019,12 +5017,11 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_stables_and_the_small_building_near_Tavistock>.
 <http://kgc.knowledge-graph.jp/data/predicate/notBlow>
     rdf:type    kgc:Property;
-    rdfs:label     "吹かない"@ja;
+    rdfs:label     "飛ばさない"@ja;
     rdfs:label     "notBlow"@en;
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
-    kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/blow>;
-    rdfs:label     "飛ばさない"@ja.
+    kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/blow>.
 <http://kgc.knowledge-graph.jp/data/predicate/Discover>
     rdfs:label     "Discover"@en;
     rdf:type    kgc:Object.
@@ -5060,8 +5057,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/meet>
     rdf:type    kgc:Action;
     rdfs:label     "会う"@ja;
-    rdfs:label     "meet"@en;
-    rdfs:label     "出会う"@ja.
+    rdfs:label     "meet"@en.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/Figure_of_the_people>
     rdfs:label     "人の姿"@ja;
     rdfs:label     "Figure of the people"@en;
@@ -5157,15 +5153,14 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/include>
     rdf:type    kgc:Property;
-    rdfs:label     "含む"@ja;
+    rdfs:label     "含んでいる"@ja;
     rdfs:label     "include"@en;
-    rdf:type    kgc:Action;
-    rdfs:label     "含んでいる"@ja.
+    rdf:type    kgc:Action.
 <http://kgc.knowledge-graph.jp/data/predicate/notice>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/ice>;
-    rdfs:label     "注目する"@ja;
+    rdfs:label     "気づく"@ja;
     rdfs:label     "notice"@en.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/State>
     rdfs:label     "State"@en;
@@ -5241,7 +5236,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "notExist"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/visit>
     rdf:type    kgc:Action;
-    rdfs:label     "訪ねる"@ja;
+    rdfs:label     "訪れる"@ja;
     rdfs:label     "visit"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/wonder>
     rdf:type    kgc:Action;
@@ -5274,7 +5269,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdf:type    kgc:CanNotAction;
     kgc:canNot    <http://kgc.knowledge-graph.jp/data/predicate/find>;
-    rdfs:label     "見つけられない"@ja;
+    rdfs:label     "見つからない"@ja;
     rdfs:label     "cannotFind"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/hire>
     rdf:type    kgc:Action;
@@ -5446,7 +5441,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/have>;
-    rdfs:label     "持たない"@ja;
+    rdfs:label     "not持つ"@ja;
     rdfs:label     "notHave"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/retire>
     rdf:type    kgc:Action;
@@ -5467,7 +5462,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/try>
     rdf:type    kgc:Action;
-    rdfs:label     "試みる"@ja;
+    rdfs:label     "しようとする"@ja;
     rdfs:label     "try"@en.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/Stables_of_Mapleton>
     rdf:type    kgc:Place;
@@ -5615,7 +5610,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "dark"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/wear>
     rdf:type    kgc:Property;
-    rdfs:label     "着ている"@ja;
+    rdfs:label     "着る"@ja;
     rdfs:label     "wear"@en.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/small_knife>
     rdfs:label     "小さなナイフ"@ja;
@@ -5945,7 +5940,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/work>
     rdf:type    kgc:Action;
-    rdfs:label     "仕事をする"@ja;
+    rdfs:label     "働く"@ja;
     rdfs:label     "work"@en.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/Direction>
     rdfs:label     "Direction"@en;
@@ -5967,9 +5962,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "teach"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/give>
     rdf:type    kgc:Action;
-    rdfs:label     "渡す"@ja;
-    rdfs:label     "give"@en;
-    rdfs:label     "与える"@ja.
+    rdfs:label     "与える"@ja;
+    rdfs:label     "give"@en.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/amount>
     rdfs:label     "額"@ja;
     rdfs:label     "amount"@en;
@@ -6037,7 +6031,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "hear"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/focus>
     rdf:type    kgc:Action;
-    rdfs:label     "注目する"@ja;
+    rdfs:label     "集中している"@ja;
     rdfs:label     "focus"@en.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/Watson>
     rdf:type    kgc:Person;
@@ -6515,8 +6509,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "開く"@ja;
     rdfs:label     "open"@en;
-    rdf:type    kgc:Action;
-    rdfs:label     "開ける"@ja.
+    rdf:type    kgc:Action.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/Footprint_of_Silver_Blaze>
     rdfs:label     "白銀号の足跡"@ja;
     rdfs:label     "Footprint of Silver Blaze"@en;
@@ -6531,7 +6524,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/paper>.
 <http://kgc.knowledge-graph.jp/data/predicate/whisper>
     rdf:type    kgc:Action;
-    rdfs:label     "ささやく"@ja;
+    rdfs:label     "囁く"@ja;
     rdfs:label     "whisper"@en.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze>
     rdf:type    kgc:PhysicalObject;
@@ -6541,7 +6534,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "白銀"@ja.
 <http://kgc.knowledge-graph.jp/data/predicate/grab>
     rdf:type    kgc:Action;
-    rdfs:label     "掴む"@ja;
+    rdfs:label     "つかむ"@ja;
     rdfs:label     "grab"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/see>
     rdf:type    kgc:Action;
@@ -6657,7 +6650,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/paper>.
 <http://kgc.knowledge-graph.jp/data/predicate/fight>
     rdf:type    kgc:Action;
-    rdfs:label     "戦う"@ja;
+    rdfs:label     "格闘する"@ja;
     rdfs:label     "fight"@en.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/Betting_horse_racing>
     rdfs:label     "競馬の賭け"@ja;
@@ -6780,7 +6773,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/want>
     rdf:type    kgc:Action;
-    rdfs:label     "望む"@ja;
+    rdfs:label     "したい"@ja;
     rdfs:label     "want"@en.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/Dent_of_wasteland>
     rdfs:label     "荒地の窪み"@ja;
@@ -6804,7 +6797,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/hear>;
-    rdfs:label     "聞かない"@ja;
+    rdfs:label     "聞こえない"@ja;
     rdfs:label     "notHear"@en.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/The_pattern_of_horseshoe_of_Silver_Blaze>
     rdfs:label     "白銀号の蹄鉄の型"@ja;
@@ -6816,7 +6809,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze>.
 <http://kgc.knowledge-graph.jp/data/predicate/comeOut>
     rdf:type    kgc:Action;
-    rdfs:label     "出てくる"@ja;
+    rdfs:label     "あらわにする"@ja;
     rdfs:label     "comeOut"@en.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/The_name>
     rdfs:label     "The name"@en;

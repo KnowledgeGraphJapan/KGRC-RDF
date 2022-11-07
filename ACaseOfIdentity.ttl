@@ -5538,7 +5538,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "cannotCome"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/disguise>
     rdf:type    kgc:Action;
-    rdfs:label     "変装する"@ja;
+    rdfs:label     "せいにする"@ja;
     rdfs:label     "disguise"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/behavior>
     rdfs:label     "behavior"@en;
@@ -5747,7 +5747,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Terrible things"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/overlook>
     rdf:type    kgc:Action;
-    rdfs:label     "見落とす"@ja;
+    rdfs:label     "見落としている"@ja;
     rdfs:label     "overlook"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/road>
     rdf:type    kgc:PhysicalObject;
@@ -5787,7 +5787,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/like>;
-    rdfs:label     "嫌いである"@ja;
+    rdfs:label     "嫌がる"@ja;
     rdfs:label     "notLike"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/this_morning>
     rdf:type    kgc:AbstractTime;
@@ -5829,9 +5829,8 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "imply"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/meet>
     rdf:type    kgc:Action;
-    rdfs:label     "出会う"@ja;
-    rdfs:label     "meet"@en;
-    rdfs:label     "会う"@ja.
+    rdfs:label     "会う"@ja;
+    rdfs:label     "meet"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/type>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "タイプ"@ja;
@@ -6031,7 +6030,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdf:type    kgc:CanNotAction;
     kgc:canNot    <http://kgc.knowledge-graph.jp/data/predicate/find>;
-    rdfs:label     "見つけられない"@ja;
+    rdfs:label     "見つからない"@ja;
     rdfs:label     "cannotFind"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/blurred>
     rdf:type    kgc:Property;
@@ -6094,7 +6093,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "notThrow"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/jumpUp>
     rdf:type    kgc:Action;
-    rdfs:label     "跳び上がる"@ja;
+    rdfs:label     "飛び上がる"@ja;
     rdfs:label     "jumpUp"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/gloves>
     rdf:type    kgc:PhysicalObject;
@@ -6128,7 +6127,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Church"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/surprise>
     rdf:type    kgc:Action;
-    rdfs:label     "驚かせる"@ja;
+    rdfs:label     "驚く"@ja;
     rdfs:label     "surprise"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/absent>
     rdf:type    kgc:Property;
@@ -6225,7 +6224,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/thin>
     rdf:type    kgc:Property;
-    rdfs:label     "細い"@ja;
+    rdfs:label     "薄い"@ja;
     rdfs:label     "thin"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/canUnderstand>
     rdf:type    kgc:Action;
@@ -6275,10 +6274,9 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/wear>
     rdf:type    kgc:Property;
-    rdfs:label     "着ている"@ja;
+    rdfs:label     "着る"@ja;
     rdfs:label     "wear"@en;
-    rdf:type    kgc:Action;
-    rdfs:label     "着る"@ja.
+    rdf:type    kgc:Action.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Appeal_of_breach_of_pledge>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "誓約不履行の訴え"@ja;
@@ -6338,7 +6336,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Single women"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/lead>
     rdf:type    kgc:Action;
-    rdfs:label     "導く"@ja;
+    rdfs:label     "率いる"@ja;
     rdfs:label     "lead"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/expensive_cloth>
     rdf:type    kgc:Property;
@@ -6429,8 +6427,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/worry>
     rdf:type    kgc:Action;
     rdfs:label     "悩む"@ja;
-    rdfs:label     "worry"@en;
-    rdfs:label     "心配する"@ja.
+    rdfs:label     "worry"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/one_quarter>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "四分の一"@ja;
@@ -6490,7 +6487,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland>.
 <http://kgc.knowledge-graph.jp/data/predicate/pullOut>
     rdf:type    kgc:Action;
-    rdfs:label     "引き出す"@ja;
+    rdfs:label     "引きだす"@ja;
     rdfs:label     "pullOut"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/mess>
     rdf:type    kgc:Action;
@@ -6531,7 +6528,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Holmes>.
 <http://kgc.knowledge-graph.jp/data/predicate/relate>
     rdf:type    kgc:Property;
-    rdfs:label     "関係している"@ja;
+    rdfs:label     "関係する"@ja;
     rdfs:label     "relate"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/hear>
     rdf:type    kgc:Action;
@@ -6543,13 +6540,12 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "beBeaten"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/focus>
     rdf:type    kgc:Action;
-    rdfs:label     "注目する"@ja;
+    rdfs:label     "集中している"@ja;
     rdfs:label     "focus"@en;
-    rdf:type    kgc:Property;
-    rdfs:label     "目ざとい"@ja.
+    rdf:type    kgc:Property.
 <http://kgc.knowledge-graph.jp/data/predicate/lookAround>
     rdf:type    kgc:Action;
-    rdfs:label     "見まわす"@ja;
+    rdfs:label     "ながめ回す"@ja;
     rdfs:label     "lookAround"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/After_a_week>
     rdf:type    kgc:AbstractTime;
@@ -6593,10 +6589,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "notBreak"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/attached>
     rdf:type    kgc:Property;
-    rdfs:label     "ついている"@ja;
+    rdfs:label     "付いている"@ja;
     rdfs:label     "attached"@en;
-    rdf:type    kgc:Action;
-    rdfs:label     "付いている"@ja.
+    rdf:type    kgc:Action.
 <http://kgc.knowledge-graph.jp/data/predicate/plumbing_business>
     rdf:type    kgc:Property;
     rdfs:label     "配管業である"@ja;
@@ -6740,7 +6735,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Watson>.
 <http://kgc.knowledge-graph.jp/data/predicate/open>
     rdf:type    kgc:Action;
-    rdfs:label     "開ける"@ja;
+    rdfs:label     "開く"@ja;
     rdfs:label     "open"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/father_of_Sutherland>
     rdf:type    kgc:Person;
@@ -6983,10 +6978,9 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/good>
     rdf:type    kgc:Property;
-    rdfs:label     "よい"@ja;
+    rdfs:label     "良い"@ja;
     rdfs:label     "good"@en;
-    rdf:type    kgc:Action;
-    rdfs:label     "良い"@ja.
+    rdf:type    kgc:Action.
 <http://kgc.knowledge-graph.jp/data/predicate/black_frock_coat>
     rdf:type    kgc:Property;
     rdfs:label     "黒のフロックコートである"@ja;
@@ -7042,8 +7036,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/close>
     rdf:type    kgc:Action;
     rdfs:label     "閉める"@ja;
-    rdfs:label     "close"@en;
-    rdfs:label     "閉じる"@ja.
+    rdfs:label     "close"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/need>
     rdf:type    kgc:Action;
     rdfs:label     "必要とする"@ja;
@@ -7229,7 +7222,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/repeat>
     rdf:type    kgc:Action;
-    rdfs:label     "繰り返す"@ja;
+    rdfs:label     "重ねる"@ja;
     rdfs:label     "repeat"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/relive>
     rdf:type    kgc:Action;
@@ -7245,7 +7238,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/receive>
     rdf:type    kgc:Action;
-    rdfs:label     "受ける"@ja;
+    rdfs:label     "受け取る"@ja;
     rdfs:label     "receive"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/straw_hat_of_Blackboard_color>
     rdf:type    kgc:PhysicalObject;
@@ -7423,8 +7416,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "嬉しい"@ja;
     rdfs:label     "happy"@en;
-    rdf:type    kgc:Property;
-    rdfs:label     "幸福である"@ja.
+    rdf:type    kgc:Property.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Back_and_forth>
     rdfs:label     "前後に"@ja;
     rdfs:label     "Back and forth"@en;
@@ -7471,7 +7463,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "enter"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/return>
     rdf:type    kgc:Action;
-    rdfs:label     "戻る"@ja;
+    rdfs:label     "帰る"@ja;
     rdfs:label     "return"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Horizontal_shelf>
     rdf:type    kgc:PhysicalObject;
@@ -7590,7 +7582,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "ask"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/request>
     rdf:type    kgc:Action;
-    rdfs:label     "依頼する"@ja;
+    rdfs:label     "要求する"@ja;
     rdfs:label     "request"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/dance_of_Gas_Industry>
     rdfs:label     "dance of Gas Industry"@en;
@@ -7748,7 +7740,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland>.
 <http://kgc.knowledge-graph.jp/data/predicate/visit>
     rdf:type    kgc:Action;
-    rdfs:label     "訪ねる"@ja;
+    rdfs:label     "訪れる"@ja;
     rdfs:label     "visit"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/albert_chain_of_gold>
     rdf:type    kgc:Property;
@@ -7887,7 +7879,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/have>;
-    rdfs:label     "持たない"@ja;
+    rdfs:label     "not持つ"@ja;
     rdfs:label     "notHave"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/Continue>
     rdfs:label     "Continue"@en;
@@ -7920,7 +7912,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hozma>.
 <http://kgc.knowledge-graph.jp/data/predicate/try>
     rdf:type    kgc:Action;
-    rdfs:label     "試みる"@ja;
+    rdfs:label     "しようとする"@ja;
     rdfs:label     "try"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/string>
     rdfs:label     "string"@en;
@@ -8130,7 +8122,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland>.
 <http://kgc.knowledge-graph.jp/data/predicate/pale>
     rdf:type    kgc:Property;
-    rdfs:label     "真っ青である"@ja;
+    rdfs:label     "青ざめる"@ja;
     rdfs:label     "pale"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/greet>
     rdf:type    kgc:Action;
@@ -8301,7 +8293,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/want>;
-    rdfs:label     "望まない"@ja;
+    rdfs:label     "したくない"@ja;
     rdfs:label     "notWant"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/dark_blue>
     rdfs:label     "鼠色だ"@ja;
@@ -8495,7 +8487,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "black"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/attend>
     rdf:type    kgc:Action;
-    rdfs:label     "参加する"@ja;
+    rdfs:label     "立ち会う"@ja;
     rdfs:label     "attend"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notHesitate>
     rdf:type    kgc:Action;
@@ -8550,7 +8542,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/insist>
     rdf:type    kgc:Action;
-    rdfs:label     "主張する"@ja;
+    rdfs:label     "言い張る"@ja;
     rdfs:label     "insist"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/edge_of_hem>
     rdfs:label     "裾のふさ縁に"@ja;
@@ -8560,7 +8552,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/hem>.
 <http://kgc.knowledge-graph.jp/data/predicate/whisper>
     rdf:type    kgc:Action;
-    rdfs:label     "ささやく"@ja;
+    rdfs:label     "囁く"@ja;
     rdfs:label     "whisper"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hozma>
     rdf:type    kgc:Person;
@@ -8574,7 +8566,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Man"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/grab>
     rdf:type    kgc:Action;
-    rdfs:label     "掴む"@ja;
+    rdfs:label     "つかむ"@ja;
     rdfs:label     "grab"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/interesting>
     rdf:type    kgc:Property;
@@ -8673,7 +8665,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "sufferFrom"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/want>
     rdf:type    kgc:Action;
-    rdfs:label     "望む"@ja;
+    rdfs:label     "したい"@ja;
     rdfs:label     "want"@en.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Deep_motive>
     rdf:type    kgc:PhysicalObject;

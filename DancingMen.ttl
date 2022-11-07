@@ -2286,10 +2286,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Bad memories"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/close>
     rdf:type    kgc:Property;
-    rdfs:label     "閉まっている"@ja;
+    rdfs:label     "閉める"@ja;
     rdfs:label     "close"@en;
-    rdf:type    kgc:Action;
-    rdfs:label     "閉める"@ja.
+    rdf:type    kgc:Action.
 <http://kgc.knowledge-graph.jp/data/predicate/need>
     rdf:type    kgc:Action;
     rdfs:label     "必要とする"@ja;
@@ -2358,11 +2357,11 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "know"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/take>
     rdf:type    kgc:Action;
-    rdfs:label     "持つ"@ja;
+    rdfs:label     "取る"@ja;
     rdfs:label     "take"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/smell>
     rdf:type    kgc:Action;
-    rdfs:label     "匂う"@ja;
+    rdfs:label     "嗅ぐ"@ja;
     rdfs:label     "smell"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/pencil>
     rdf:type    kgc:PhysicalObject;
@@ -2378,7 +2377,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Glass window"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/hit>
     rdf:type    kgc:Action;
-    rdfs:label     "打つ"@ja;
+    rdfs:label     "殴る"@ja;
     rdfs:label     "hit"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/Identity>
     rdfs:label     "Identity"@en;
@@ -2403,7 +2402,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Qubit"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/wear>
     rdf:type    kgc:Property;
-    rdfs:label     "着ている"@ja;
+    rdfs:label     "着る"@ja;
     rdfs:label     "wear"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/Sentence_H>
     rdfs:label     "Sentence H"@en;
@@ -2523,7 +2522,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "COME"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/getOff>
     rdf:type    kgc:Action;
-    rdfs:label     "下車する"@ja;
+    rdfs:label     "飛び降りる"@ja;
     rdfs:label     "getOff"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/contain>
     rdf:type    kgc:Action;
@@ -2650,7 +2649,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/pale>
     rdf:type    kgc:Property;
-    rdfs:label     "真っ青である"@ja;
+    rdfs:label     "青ざめる"@ja;
     rdfs:label     "pale"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/Maid_room>
     rdf:type    kgc:Place;
@@ -2676,7 +2675,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/DancingMen/Abe_Slaney>.
 <http://kgc.knowledge-graph.jp/data/predicate/receive>
     rdf:type    kgc:Action;
-    rdfs:label     "受ける"@ja;
+    rdfs:label     "受け取る"@ja;
     rdfs:label     "receive"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/face_of_Elsie>
     rdf:type    kgc:PhysicalObject;
@@ -2734,7 +2733,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/pullOut>
     rdf:type    kgc:Action;
-    rdfs:label     "引き出す"@ja;
+    rdfs:label     "引きだす"@ja;
     rdfs:label     "pullOut"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/Study_room>
     rdf:type    kgc:Place;
@@ -2748,7 +2747,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "short"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/put>
     rdf:type    kgc:Action;
-    rdfs:label     "付ける"@ja;
+    rdfs:label     "置く"@ja;
     rdfs:label     "put"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/follow>
     rdf:type    kgc:Action;
@@ -3067,7 +3066,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/return>
     rdf:type    kgc:Action;
-    rdfs:label     "戻る"@ja;
+    rdfs:label     "帰る"@ja;
     rdfs:label     "return"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/last_year>
     rdf:type    kgc:AbstractTime;
@@ -3160,7 +3159,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/request>
     rdf:type    kgc:Action;
-    rdfs:label     "依頼する"@ja;
+    rdfs:label     "要求する"@ja;
     rdfs:label     "request"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/the_second_day>
     rdfs:label     "the second day"@en;
@@ -3196,11 +3195,11 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/stay>
     rdf:type    kgc:Action;
-    rdfs:label     "留まる"@ja;
+    rdfs:label     "滞在する"@ja;
     rdfs:label     "stay"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/stand>
     rdf:type    kgc:Action;
-    rdfs:label     "立てかける"@ja;
+    rdfs:label     "立つ"@ja;
     rdfs:label     "stand"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/Traces>
     rdfs:label     "Traces"@en;
@@ -3432,7 +3431,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/visit>
     rdf:type    kgc:Action;
-    rdfs:label     "訪ねる"@ja;
+    rdfs:label     "訪れる"@ja;
     rdfs:label     "visit"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notExist>
     rdf:type    kgc:Action;
@@ -3475,7 +3474,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "paper"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/want>
     rdf:type    kgc:Action;
-    rdfs:label     "望む"@ja;
+    rdfs:label     "したい"@ja;
     rdfs:label     "want"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/promise>
     rdf:type    kgc:PhysicalObject;
@@ -3483,7 +3482,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "promise"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/hurt>
     rdf:type    kgc:Action;
-    rdfs:label     "怪我する"@ja;
+    rdfs:label     "傷つける"@ja;
     rdfs:label     "hurt"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/Identity_of_Abe_Slaney>
     rdf:type    kgc:PhysicalObject;
