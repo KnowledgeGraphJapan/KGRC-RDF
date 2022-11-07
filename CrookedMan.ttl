@@ -5,7 +5,7 @@
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 @prefix kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#> . 
 <http://kgc.knowledge-graph.jp/data/CrookedMan/metadata>
-    rdfs:comment  "作成日（2022-11-05） "@ja ;
+    rdfs:comment  "作成日（2022-11-07） "@ja ;
 	cc:attributionName "SIG-SWO, JSAI" ;
 	cc:license <https://creativecommons.org/licenses/by/4.0/> .
 #################################################################
@@ -243,18 +243,18 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/006>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリが殺された"@ja ;
-    kgc:source  "Berkeley was killed."@en ;
+    kgc:source  "Barclay was killed."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beKilled> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/Monday> ;
     kgc:time  "1887-07-06T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-06> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/007>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリはオールダショットのロイヤル・マロウズに所属している"@ja ;
-    kgc:source  "Berkeley belongs to the Royal Mallows of Aldershot."@en ;
+    kgc:source  "Barclay belongs to the Royal Mallows of Aldershot."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/belong> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/Royal_Mallows> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/CrookedMan/Aldershot> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/008>
@@ -275,9 +275,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/010>
     rdf:type    kgc:Situation ;
     kgc:source  "月曜日の夜まで、バークリはロイヤル・マロウズを率いていた"@ja ;
-    kgc:source  "Berkeley led the Royal Mallows until Monday evening."@en ;
+    kgc:source  "Barclay led the Royal Mallows until Monday evening."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/lead> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/Royal_Mallows> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/Monday_evening> ;
     kgc:time  "1887-07-06T20:00:00"^^xsd:dateTime ;
@@ -285,16 +285,16 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/011>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリは歴戦の勇者だった"@ja ;
-    kgc:source  "Berkeley was a brave hero."@en ;
+    kgc:source  "Barclay was a brave hero."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/hero> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/CrookedMan/012> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/012>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリは初めは一兵卒だった"@ja ;
-    kgc:source  "Berkeley was a soldier at first."@en ;
+    kgc:source  "Barclay was a soldier at first."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/soldier> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/first> ;
     kgc:time  "1856-07-06T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1856-07-06> ;
@@ -302,9 +302,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/013>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリは、大反乱の活躍によって将校階級に昇進した"@ja ;
-    kgc:source  "Berkeley was promoted to a senior rank by the Indian Rebellion."@en ;
+    kgc:source  "Barclay was promoted to a senior rank by the Indian Rebellion."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/promote> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:from   <http://kgc.knowledge-graph.jp/data/CrookedMan/solider> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/CrookedMan/senior_rank> ;
     kgc:why   <http://kgc.knowledge-graph.jp/data/CrookedMan/Indian_Rebellion> ;
@@ -315,18 +315,18 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/014>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリとナンシィは結婚した"@ja ;
-    kgc:source  "Berkeley and Nancy got married."@en ;
+    kgc:source  "Barclay and Nancy got married."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/marry> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
     kgc:time  "1859-07-06T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1859-07-06> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/015>
     rdf:type    kgc:Situation ;
     kgc:source  "その時、バークリは軍曹だった"@ja ;
-    kgc:source  "At that time, Berkeley was a sergeant."@en ;
+    kgc:source  "At that time, Barclay was a sergeant."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/sergeant> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:time  "1859-07-06T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1859-07-06> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/016>
@@ -339,9 +339,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/017>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリとナンシィは人付き合いをできなかった"@ja ;
-    kgc:source  "Berkeley and Nancy could not get along."@en ;
+    kgc:source  "Barclay and Nancy could not get along."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/notSociable> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/018>
     rdf:type    kgc:Situation ;
@@ -397,130 +397,130 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/22b>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリは幸福であった"@ja ;
-    kgc:source  "Berkeley was happy."@en ;
+    kgc:source  "Barclay was happy."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Murphy> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/happy> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/023>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリとナンシィは、言い争わなかった"@ja ;
     kgc:source  "Barkeley and Nancy did not argue."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Murphy> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notArgue> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/024>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリはナンシィを情熱的に愛していた"@ja ;
-    kgc:source  "Berkeley had loved passionately the Nancy."@en ;
+    kgc:source  "Barclay had loved passionately the Nancy."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Murphy> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/love> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/CrookedMan/passionately> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/025>
     rdf:type    kgc:Statement ;
     kgc:source  "ナンシィはバークリを情熱的には愛していなかった"@ja ;
-    kgc:source  "Nancy is passionate the Berkeley did not love."@en ;
+    kgc:source  "Nancy is passionate the Barclay did not love."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Murphy> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notLove> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
-    kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/CrookedMan/passionately> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/026>
     rdf:type    kgc:Statement ;
     kgc:source  "ナンシィとバークリはロイヤル・マロウズの中で中年夫婦の理想像であった"@ja ;
-    kgc:source  "Nancy and Berkeley was the ideal image of a middle-aged couple in the Royal Mallows."@en ;
+    kgc:source  "Nancy and Barclay was the ideal image of a middle-aged couple in the Royal Mallows."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Murphy> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/ideal_of_middle-aged_couple> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/CrookedMan/Royal_Mallows> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/027>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリは変わった性格である"@ja ;
-    kgc:source  "Berkeley is the unusual character."@en ;
+    kgc:source  "Barclay is the unusual character."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Murphy> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/eccentric> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/character_of_Berkeley> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/character_of_Barclay> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/028>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリは快活な老兵である"@ja ;
-    kgc:source  "Berkeley is a light-hearted old soldier."@en ;
+    kgc:source  "Barclay is a light-hearted old soldier."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Murphy> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/old_soldier> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/029>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリはたまに凶暴になる"@ja ;
-    kgc:source  "Berkeley sometimes become violent."@en ;
+    kgc:source  "Barclay sometimes become violent."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Murphy> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/violent> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/sometimes> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/030>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリはたまに執念深くなる"@ja ;
-    kgc:source  "Berkeley is sometimes obsessive."@en ;
+    kgc:source  "Barclay is sometimes obsessive."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Murphy> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/obsessive> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/sometimes> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/031>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリはナンシィに凶暴にならない"@ja ;
-    kgc:source  "Berkeley won't go bad at Nancy."@en ;
+    kgc:source  "Barclay won't go bad at Nancy."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Murphy> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/notViolent> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/032>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリはナンシィに執念深くない"@ja ;
-    kgc:source  "Berkeley is not obsessive to Nancy."@en ;
+    kgc:source  "Barclay is not obsessive to Nancy."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Murphy> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/notObsessive> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/033>
     rdf:type    kgc:Statement ;
     kgc:source  "何日間も、バークリは気が滅入る"@ja ;
-    kgc:source  "Berkeley feels down for many days."@en ;
+    kgc:source  "Barclay feels down for many days."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Murphy> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/feel_down> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/many_days> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/034>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリは迷信を信じている"@ja ;
-    kgc:source  "Berkeley believe in superstition."@en ;
+    kgc:source  "Barclay believe in superstition."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Murphy> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/believe> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/superstition> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/035>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリは以下を嫌がる"@ja ;
-    kgc:source  "Berkeley dislike the following."@en ;
+    kgc:source  "Barclay dislike the following."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Murphy> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notLike> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/036> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/036>
     rdf:type    kgc:Situation ;
     kgc:source  "夜に、バークリは一人である"@ja ;
-    kgc:source  "At night, Berkeley is one person."@en ;
+    kgc:source  "At night, Barclay is one person."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/alone> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/night> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/037>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリは、雄々しい性格となよなよした性格"@ja ;
-    kgc:source  "Berkeley has a supple personality and heroic personality."@en ;
+    kgc:source  "Barclay has a supple personality and heroic personality."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Murphy> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/heroic_personallity> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/supple_personality> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/039>
     rdf:type    kgc:Situation ;
     kgc:source  "ロイヤル・マロウズ第一大隊はオールダショットに駐留している"@ja ;
@@ -531,15 +531,15 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/040>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリは家を借りていた"@ja ;
-    kgc:source  "Berkeley had rented a house."@en ;
+    kgc:source  "Barclay had rented a house."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/rent> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/house> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/041>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリの家の名前はラシーンである"@ja ;
-    kgc:source  "The name of the house of Berkeley is a Rasheen."@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/name_of_house_of_Berkeley> ;
+    kgc:source  "The name of the house of Barclay is a Rasheen."@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/name_of_house_of_Barclay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/Rasheen> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/042>
     rdf:type    kgc:Situation ;
@@ -565,9 +565,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/045>
     rdf:type    kgc:Situation ;
     kgc:source  "御者とジェインと料理人とバークリとナンシィがラシーンに住んでいる"@ja ;
-    kgc:source  "Coachman and Jane and cooking people and Berkeley and Nancy live in Rasheen."@en ;
+    kgc:source  "Coachman and Jane and cooking people and Barclay and Nancy live in Rasheen."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/live> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/coachman> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Jane> ;
@@ -576,16 +576,16 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/046>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリは子どもをもっていない"@ja ;
-    kgc:source  "Berkeley do not have a child."@en ;
+    kgc:source  "Barclay do not have a child."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notHave> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/child> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/047>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリは滅多に客を泊まらせない"@ja ;
-    kgc:source  "Berkeley is rarely not stay overnight guests."@en ;
+    kgc:source  "Barclay is rarely not stay overnight guests."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/CrookedMan/rarely> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/guest> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/048>
@@ -805,9 +805,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/075>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリは食堂にいた"@ja ;
-    kgc:source  "Berkeley was in the dining room."@en ;
+    kgc:source  "Barclay was in the dining room."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/CrookedMan/dining_room> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/076>
     rdf:type    kgc:Situation ;
@@ -819,18 +819,18 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/077>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリは居間の部屋でナンシィに会った"@ja ;
-    kgc:source  "Berkeley met Nancy in the living room of the room."@en ;
+    kgc:source  "Barclay met Nancy in the living room of the room."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/coachman> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/meet> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/CrookedMan/living_room> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/078>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリは居間の部屋で死んだ"@ja ;
-    kgc:source  "Berkeley died in the living room of the room."@en ;
+    kgc:source  "Barclay died in the living room of the room."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/die> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/CrookedMan/living_room> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/079>
     rdf:type    kgc:Situation ;
@@ -853,15 +853,15 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/081>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリとナンシィが居間の部屋で言い争っていた"@ja ;
-    kgc:source  "Berkeley and Nancy had been arguing in the living room of the room."@en ;
+    kgc:source  "Barclay and Nancy had been arguing in the living room of the room."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/argue> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/CrookedMan/living_room> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/082>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリとナンシィは居間の部屋のドアノックに反応しなかった"@ja ;
-    kgc:source  "Berkeley and Nancy did not respond to knocking on the room door in the living room."@en ;
+    kgc:source  "Barclay and Nancy did not respond to knocking on the room door in the living room."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/knock> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Jane> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/door_of_living_room> ;
@@ -869,7 +869,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/82a>
     rdf:type    kgc:Situation ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notRespond> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/082> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/083>
@@ -900,9 +900,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/086>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリとナンシィは言い争っていた"@ja ;
-    kgc:source  "Berkeley and Nancy had been arguing."@en ;
+    kgc:source  "Barclay and Nancy had been arguing."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/argue> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/087>
     rdf:type    kgc:Situation ;
@@ -915,9 +915,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/088>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリは叫んだ"@ja ;
-    kgc:source  "Berkeley shouted."@en ;
+    kgc:source  "Barclay shouted."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/shout> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/089>
     rdf:type    kgc:Situation ;
     kgc:source  "ナンシィは悲鳴をあげた"@ja ;
@@ -961,9 +961,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/095>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリは炉格子の近くで死んでいた"@ja ;
-    kgc:source  "Berkeley was dead in the vicinity of the furnace lattice."@en ;
+    kgc:source  "Barclay was dead in the vicinity of the furnace lattice."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/dead> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:near   <http://kgc.knowledge-graph.jp/data/CrookedMan/furnace_lattice> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/096>
     rdf:type    kgc:Situation ;
@@ -1012,17 +1012,17 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/102>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリは鈍器によって殺された"@ja ;
-    kgc:source  "Berkeley was killed by blunt weapons"@en ;
+    kgc:source  "Barclay was killed by blunt weapons"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/die> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/CrookedMan/blunt_weapon> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/103>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリは後頭部に2インチの裂傷を負っていた"@ja ;
-    kgc:source  "Berkeley had suffered a two-inch laceration to the back of the head."@en ;
+    kgc:source  "Barclay had suffered a two-inch laceration to the back of the head."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/CrookedMan/back_of_head_of_Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/CrookedMan/back_of_head_of_Barclay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/2-inch_tear> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/104>
     rdf:type    kgc:Situation ;
@@ -1034,17 +1034,17 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/105>
     rdf:type    kgc:Thought ;
     kgc:source  "バークリは木彫りの棍棒で殺された"@ja ;
-    kgc:source  "Berkeley was killed by a wooden carving stick."@en ;
+    kgc:source  "Barclay was killed by a wooden carving stick."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/police> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beKilled> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/CrookedMan/stick> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/106>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリは出先で武器を収集していた"@ja ;
-    kgc:source  "Berkeley had collected the weapons on the go."@en ;
+    kgc:source  "Barclay had collected the weapons on the go."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/collect> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/weapon> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/107>
     rdf:type    kgc:Situation ;
@@ -1056,11 +1056,11 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/108>
     rdf:type    kgc:Thought ;
     kgc:source  "木彫りの棍棒はバークリが収集した"@ja ;
-    kgc:source  "Wood carving of the club is Berkeley has collected."@en ;
+    kgc:source  "Wood carving of the club is Barclay has collected."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/police> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/collect> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/stick> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/109>
     rdf:type    kgc:Situation ;
     kgc:source  "ジェインと御者と料理番は木彫りの棍棒を知らなかった"@ja ;
@@ -1082,9 +1082,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/111>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリとナンシィは鍵を持っていなかった"@ja ;
-    kgc:source  "Berkeley and Nancy did not have the key."@en ;
+    kgc:source  "Barclay and Nancy did not have the key."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notHave> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/key_of_living_room> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/112>
@@ -1116,9 +1116,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/115>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリの顔は極度に歪んでいた"@ja ;
-    kgc:source  "Face of Berkeley was distorted in extreme."@en ;
+    kgc:source  "Face of Barclay was distorted in extreme."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/distort> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/face> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/CrookedMan/extreme> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/117>
@@ -1203,10 +1203,10 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/128>
     rdf:type    kgc:Thought ;
     kgc:source  "バークリとナンシィは居間の部屋の鍵を持ち出せない"@ja ;
-    kgc:source  "Berkeley and Nancy can not take out the room room key."@en ;
+    kgc:source  "Barclay and Nancy can not take out the room room key."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/cannotTakeAway> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/key_of_living_room> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/129>
@@ -1358,7 +1358,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/149>
     rdf:type    kgc:Thought ;
     kgc:source  "男は大通りからナンシィとバークリの言い争いを見ていた"@ja ;
-    kgc:source  "The man was watching the bickering of Nancy and Berkeley from the main street."@en ;
+    kgc:source  "The man was watching the bickering of Nancy and Barclay from the main street."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/see> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/man> ;
@@ -1385,33 +1385,33 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/153>
     rdf:type    kgc:Thought ;
     kgc:source  "男はバークリを殺したかもしれない"@ja ;
-    kgc:source  "The man might have killed Berkeley."@en ;
+    kgc:source  "The man might have killed Barclay."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/kill> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/man> ;
-    kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> .
+    kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/155>
     rdf:type    kgc:Thought ;
     kgc:source  "バークリは男に恐怖して卒倒した"@ja ;
-    kgc:source  "Berkeley fainted with fear to the man."@en ;
+    kgc:source  "Barclay fainted with fear to the man."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/faint> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:why   <http://kgc.knowledge-graph.jp/data/CrookedMan/155a> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/155a>
     rdf:type    kgc:Thought ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/fear> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/man> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/156>
     rdf:type    kgc:Thought ;
     kgc:source  "バークリは頭を炉格子に打ったかもしれない"@ja ;
-    kgc:source  "Berkeley might have hit his head on the furnace grid."@en ;
+    kgc:source  "Barclay might have hit his head on the furnace grid."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hit> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/head_of_Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/head_of_Barclay> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/furnace_lattice> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/157>
     rdf:type    kgc:Situation ;
@@ -1432,9 +1432,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/159>
     rdf:type    kgc:Situation ;
     kgc:source  "月曜日19時30分に、ナンシィとバークリは仲良かった"@ja ;
-    kgc:source  "Monday 19:30, Nancy and Berkeley was Nakayoka'."@en ;
+    kgc:source  "Monday 19:30, Nancy and Barclay was Nakayoka'."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/good_friends> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/19_30_on_Monday> ;
     kgc:time  "1887-07-06T19:30:00"^^xsd:dateTime ;
@@ -1442,20 +1442,20 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/160>
     rdf:type    kgc:Situation ;
     kgc:source  "月曜日21時15分に、ナンシィはバークリを非難した"@ja ;
-    kgc:source  "Monday 15 pm 21, Nancy accused Berkeley."@en ;
+    kgc:source  "Monday 15 pm 21, Nancy accused Barclay."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/blame> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
-    kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/21_15_on_Monday> ;
     kgc:time  "1887-07-06T21:15:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-06T21:15:00> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/161>
     rdf:type    kgc:Situation ;
     kgc:source  "月曜日19時30分から21時の間に、ナンシィはバークリを嫌いになった"@ja ;
-    kgc:source  "From 19:30 to 21:00 on Monday, Nancy came to hate the Berkeley."@en ;
+    kgc:source  "From 19:30 to 21:00 on Monday, Nancy came to hate the Barclay."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hate> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
-    kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/From_19_30_to_21_00_on_Monday> ;
     kgc:time  "1887-07-06T19:30:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-06T19:30:00> ;
@@ -1495,10 +1495,10 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/165>
     rdf:type    kgc:Thought ;
     kgc:source  "バークリとモリソンは恋愛関係を持たない"@ja ;
-    kgc:source  "Berkeley and Morrison do not have a love relationship."@en ;
+    kgc:source  "Barclay and Morrison do not have a love relationship."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notHave> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Morrison> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/love_relationship> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/166>
@@ -2079,7 +2079,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/229>
     rdf:type    kgc:Thought ;
     kgc:source  "ヘンリは大通りでナンシィとバークリの言い争いを見た"@ja ;
-    kgc:source  "Henry saw the bickering of Nancy and Berkeley in the main street."@en ;
+    kgc:source  "Henry saw the bickering of Nancy and Barclay in the main street."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/see> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
@@ -2378,19 +2378,19 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/259>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリは贖罪のために自殺した"@ja ;
-    kgc:source  "Berkeley was suicide for the sake of penance."@en ;
+    kgc:source  "Barclay was suicide for the sake of penance."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/suicide> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:why   <http://kgc.knowledge-graph.jp/data/CrookedMan/atonement> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/260>
     rdf:type    kgc:Statement ;
     kgc:source  "ヘンリはバークリ殺害の動機を持っていた"@ja ;
-    kgc:source  "Henry had a motive for killing Berkeley."@en ;
+    kgc:source  "Henry had a motive for killing Barclay."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/motive_of_killing_Berkeley> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/motive_of_killing_Barclay> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/262>
     rdf:type    kgc:Statement ;
     kgc:source  "ヘンリは30年前、ロイヤル・マロウズの第一大隊で一番の美男だった"@ja ;
@@ -2417,10 +2417,10 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/264>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリとヘンリはロイヤル・マロウズの第一大隊の中隊で軍曹だった"@ja ;
-    kgc:source  "Berkeley and Henry was a sergeant in the company of the first battalion of the Royal Mallows."@en ;
+    kgc:source  "Barclay and Henry was a sergeant in the company of the first battalion of the Royal Mallows."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/sergeant> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/CrookedMan/company_of_first_battalion_of_Royal_Mallows> ;
     kgc:time  "1857-07-09T00:00:00"^^xsd:dateTime ;
@@ -2447,10 +2447,10 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/267>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリとヘンリはナンシィを愛していた"@ja ;
-    kgc:source  "Berkeley and Henry loved the Nancy."@en ;
+    kgc:source  "Barclay and Henry loved the Nancy."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/love> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
     kgc:time  "1857-07-09T00:00:00"^^xsd:dateTime ;
@@ -2470,7 +2470,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/269>
     rdf:type    kgc:Statement ;
     kgc:source  "ナンシィとバークリは結婚を決められていた"@ja ;
-    kgc:source  "Nancy and Berkeley had been decided to get married."@en ;
+    kgc:source  "Nancy and Barclay had been decided to get married."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/decide> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/father_of_Nancy> ;
@@ -2482,7 +2482,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/marry> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/270>
     rdf:type    kgc:Statement ;
     kgc:source  "ヘンリは無鉄砲だった"@ja ;
@@ -2496,20 +2496,20 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/271>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリは教養を持っていた"@ja ;
-    kgc:source  "Berkeley had a liberal arts."@en ;
+    kgc:source  "Barclay had a liberal arts."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/well_educated> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:time  "1857-07-09T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1857-07-09> ;
     kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/CrookedMan/272> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/272>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリは出世できた"@ja ;
-    kgc:source  "Berkeley was able to get ahead."@en ;
+    kgc:source  "Barclay was able to get ahead."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/canGetAhead> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:because   <http://kgc.knowledge-graph.jp/data/CrookedMan/271> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/273>
     rdf:type    kgc:Statement ;
@@ -2576,10 +2576,10 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/279>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリはヘンリに抜け道を教えた"@ja ;
-    kgc:source  "Berkeley taught Henri about the way around."@en ;
+    kgc:source  "Barclay taught Henri about the way around."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/teach> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/bypath> ;
     kgc:time  "1857-07-09T20:00:00"^^xsd:dateTime ;
@@ -2629,10 +2629,10 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/284>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリがヘンリを逆徒達へ売った"@ja ;
-    kgc:source  "Berkeley was selling Henry to Gyakuto us."@en ;
+    kgc:source  "Barclay was selling Henry to Gyakuto us."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sell> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/rebels> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/285>
@@ -2794,7 +2794,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/302>
     rdf:type    kgc:Statement ;
     kgc:source  "ヘンリはバークリに復讐したくない"@ja ;
-    kgc:source  "Henry does not want to take revenge on Berkeley."@en ;
+    kgc:source  "Henry does not want to take revenge on Barclay."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notWant> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
@@ -2803,7 +2803,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/revenge> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
-    kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> .
+    kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/303>
     rdf:type    kgc:Statement ;
     kgc:source  "ヘンリはイングランドに帰りたかった"@ja ;
@@ -2884,7 +2884,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/311>
     rdf:type    kgc:Statement ;
     kgc:source  "ナンシィとヘンリはバークリの行為に気づいた"@ja ;
-    kgc:source  "Nancy and Henry noticed the act of Berkeley."@en ;
+    kgc:source  "Nancy and Henry noticed the act of Barclay."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notice> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
@@ -2902,7 +2902,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/313>
     rdf:type    kgc:Statement ;
     kgc:source  "ヘンリは大通りからナンシィとバークリの言い争いを見た"@ja ;
-    kgc:source  "Henry saw the bickering of Nancy and Berkeley from the main street."@en ;
+    kgc:source  "Henry saw the bickering of Nancy and Barclay from the main street."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/see> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
@@ -2929,10 +2929,10 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/317>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリは逆徒にヘンリを売った"@ja ;
-    kgc:source  "Berkeley has sold Henry to Gyakuto."@en ;
+    kgc:source  "Barclay has sold Henry to Gyakuto."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sell> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/rebels> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/317>
     rdf:type    kgc:Situation ;
@@ -2943,7 +2943,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/318>
     rdf:type    kgc:Statement ;
     kgc:source  "ヘンリはナンシィとバークリの言い争いを止めようとした"@ja ;
-    kgc:source  "Henry tried to stop the bickering of Nancy and Berkeley."@en ;
+    kgc:source  "Henry tried to stop the bickering of Nancy and Barclay."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/try> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
@@ -2970,21 +2970,21 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/321>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリはヘンリを見た"@ja ;
-    kgc:source  "Berkeley saw Henry."@en ;
+    kgc:source  "Barclay saw Henry."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/see> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/CrookedMan/322> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/322>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリは自殺した"@ja ;
-    kgc:source  "Berkeley was suicide."@en ;
+    kgc:source  "Barclay was suicide."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/kill> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/CrookedMan/324> ;
-    kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> .
+    kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/324>
     rdf:type    kgc:Statement ;
     kgc:source  "ナンシィは気絶した"@ja ;
@@ -3250,9 +3250,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/358>
     rdf:type    kgc:Situation ;
     kgc:source  "バークリは卑劣な行いをした"@ja ;
-    kgc:source  "Berkeley was a despicable deeds."@en ;
+    kgc:source  "Barclay was a despicable deeds."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/play_foul> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/359>
     rdf:type    kgc:Situation ;
     kgc:source  "ヘンリは以下を知った"@ja ;
@@ -3263,9 +3263,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/360>
     rdf:type    kgc:Situation ;
     kgc:source  "30年間、バークリは罪悪感に苦しんだ"@ja ;
-    kgc:source  "30 years, Berkeley suffered guilt."@en ;
+    kgc:source  "30 years, Barclay suffered guilt."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/suffer> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/guilt> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/30_years> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/361>
@@ -3314,10 +3314,10 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/366>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリは卒中で死んだ"@ja ;
-    kgc:source  "Berkeley died of stroke."@en ;
+    kgc:source  "Barclay died of stroke."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Murphy> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/die> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:why   <http://kgc.knowledge-graph.jp/data/CrookedMan/apoplexia> ;
     kgc:time  "1887-07-06T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-06> .
@@ -3359,11 +3359,11 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/371>
     rdf:type    kgc:Statement ;
     kgc:source  "デイヴィドとバークリは同じ種類の罪を犯した"@ja ;
-    kgc:source  "Davide and Berkeley had committed the same type of crime."@en ;
+    kgc:source  "Davide and Barclay had committed the same type of crime."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sin> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Davide> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/same_kind_of_sin> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/372>
     rdf:type    kgc:Statement ;
@@ -3406,13 +3406,6 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "聖ジョージ組合の設立"@ja;
     rdfs:label     "St. George union"@en.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/motive_of_killing_Berkeley>
-    rdf:type    kgc:PhysicalObject;
-    rdfs:label     "バークリ殺害の動機"@ja;
-    rdfs:label     "motive of killing Berkeley"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/CrookedMan/motive>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/killing_Berkeley>.
 <http://kgc.knowledge-graph.jp/data/predicate/notSay>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
@@ -3453,27 +3446,22 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "夜に"@ja;
     rdfs:label     "night"@en;
     rdfs:label     "夜"@ja.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/head_of_Berkeley>
-    rdfs:label     "head of Berkeley"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/CrookedMan/head>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley>.
 <http://kgc.knowledge-graph.jp/data/predicate/Say>
     rdfs:label     "Say"@en;
     rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/CrookedMan/back_of_head_of_Barclay>
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "バークリの後頭部"@ja;
+    rdfs:label     "back of head of Barclay"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/head_of_Barclay>;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/CrookedMan/back>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/head>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay>.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/every_night>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "毎晩"@ja;
     rdfs:label     "every night"@en.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/name_of_house_of_Berkeley>
-    rdf:type    kgc:PhysicalObject;
-    rdfs:label     "バークリの家の名前"@ja;
-    rdfs:label     "name of house of Berkeley"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/house_of_Berkeley>;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/CrookedMan/name>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/house>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley>.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/lodge>
     rdf:type    kgc:Place;
     rdfs:label     "下宿"@ja;
@@ -3594,6 +3582,11 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/CrookedMan/preface>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/Samuel>.
+<http://kgc.knowledge-graph.jp/data/CrookedMan/house_of_Barclay>
+    rdfs:label     "house of Barclay"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/CrookedMan/house>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay>.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy>
     rdf:type    kgc:Person;
     rdfs:label     "ナンシィ"@ja;
@@ -3622,6 +3615,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "取る"@ja;
     rdfs:label     "take"@en.
+<http://kgc.knowledge-graph.jp/data/CrookedMan/motive_of_killing_Barclay>
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "バークリ殺害の動機"@ja;
+    rdfs:label     "motive of killing Barclay"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/CrookedMan/motive>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/killing_Barclay>.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/character>
     rdfs:label     "character"@en;
     rdf:type    kgc:Object.
@@ -4049,6 +4049,11 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "仇討ちをする"@ja;
     rdfs:label     "revenge"@en.
+<http://kgc.knowledge-graph.jp/data/CrookedMan/head_of_Barclay>
+    rdfs:label     "head of Barclay"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/CrookedMan/head>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay>.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/stride_of_beast>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "獣の歩幅"@ja;
@@ -4241,6 +4246,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/CrookedMan/progress>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/incedent>.
+<http://kgc.knowledge-graph.jp/data/CrookedMan/character_of_Barclay>
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "バークリの性格"@ja;
+    rdfs:label     "character of Barclay"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/CrookedMan/character>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay>.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/Herny>
     rdf:type    kgc:Person;
     rdfs:label     "ヘンリ"@ja;
@@ -4271,15 +4283,6 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "駐留する"@ja;
     rdfs:label     "station"@en.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/back_of_head_of_Berkeley>
-    rdf:type    kgc:PhysicalObject;
-    rdfs:label     "バークリの後頭部"@ja;
-    rdfs:label     "back of head of Berkeley"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/head_of_Berkeley>;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/CrookedMan/back>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/head>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley>.
 <http://kgc.knowledge-graph.jp/data/predicate/notLike>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
@@ -4374,13 +4377,6 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/predicate/one>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/predicate/the_Irish_regiments>.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/character_of_Berkeley>
-    rdf:type    kgc:PhysicalObject;
-    rdfs:label     "バークリの性格"@ja;
-    rdfs:label     "character of Berkeley"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/CrookedMan/character>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley>.
 <http://kgc.knowledge-graph.jp/data/predicate/notObsessive>
     rdf:type    kgc:Property;
     rdfs:label     "執念深くない"@ja;
@@ -4404,9 +4400,6 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Person;
     rdfs:label     "住人"@ja;
     rdfs:label     "resident"@en.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/killing_Berkeley>
-    rdfs:label     "killing Berkeley"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/over_30_years>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "30年以上"@ja;
@@ -4439,6 +4432,12 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Place;
     rdfs:label     "北部キャンプから0.5マイル"@ja;
     rdfs:label     "0.5 miles from the northern camp"@en.
+<http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay>
+    rdf:type    kgc:Person;
+    rdfs:label     "バークリ"@ja;
+    rdfs:label     "Barclay"@en;
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "バークリの顔"@ja.
 <http://kgc.knowledge-graph.jp/data/predicate/notice>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
@@ -4611,6 +4610,15 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/CrookedMan/footprint>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/man>.
+<http://kgc.knowledge-graph.jp/data/CrookedMan/name_of_house_of_Barclay>
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "バークリの家の名前"@ja;
+    rdfs:label     "name of house of Barclay"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/house_of_Barclay>;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/CrookedMan/name>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/house>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay>.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/end_of_Darjeeling>
     rdf:type    kgc:Place;
     rdfs:label     "ダージリンの先"@ja;
@@ -4735,13 +4743,6 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "贖罪のため"@ja;
     rdfs:label     "atonement"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/head_of_Berkeley>
-    rdf:type    kgc:PhysicalObject;
-    rdfs:label     "頭を"@ja;
-    rdfs:label     "head of Berkeley"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/CrookedMan/head>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley>.
 <http://kgc.knowledge-graph.jp/data/predicate/heroic_personallity>
     rdf:type    kgc:Property;
     rdfs:label     "雄々しい性格となよなよした性格"@ja;
@@ -4788,11 +4789,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/CrookedMan/stride>
     rdfs:label     "stride"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/house_of_Berkeley>
-    rdfs:label     "house of Berkeley"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/CrookedMan/house>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley>.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/common_sense>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "常識"@ja;
@@ -4908,6 +4904,9 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/predicate/ideal>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/predicate/middle-aged_couple>.
+<http://kgc.knowledge-graph.jp/data/CrookedMan/killing_Barclay>
+    rdfs:label     "killing Barclay"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/slave>
     rdfs:label     "slave"@en;
     rdf:type    kgc:Object.
@@ -5326,12 +5325,6 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "炉格子"@ja;
     rdfs:label     "furnace lattice"@en;
     rdfs:label     "炉格子に"@ja.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley>
-    rdf:type    kgc:Person;
-    rdfs:label     "バークリ"@ja;
-    rdfs:label     "Berkeley"@en;
-    rdf:type    kgc:PhysicalObject;
-    rdfs:label     "バークリの顔"@ja.
 <http://kgc.knowledge-graph.jp/data/predicate/notCriminal>
     rdf:type    kgc:Property;
     rdfs:label     "犯人ではない"@ja;
@@ -5629,6 +5622,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "連れていく"@ja;
     rdfs:label     "takeAlong"@en.
+<http://kgc.knowledge-graph.jp/data/CrookedMan/head_of_Barclay>
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "頭を"@ja;
+    rdfs:label     "head of Barclay"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/CrookedMan/head>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay>.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/Watts_Street>
     rdf:type    kgc:Place;
     rdfs:label     "ワット街"@ja;

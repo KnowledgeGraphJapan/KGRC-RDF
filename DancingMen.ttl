@@ -5,7 +5,7 @@
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 @prefix kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#> . 
 <http://kgc.knowledge-graph.jp/data/DancingMen/metadata>
-    rdfs:comment  "作成日（2022-11-05） "@ja ;
+    rdfs:comment  "作成日（2022-11-07） "@ja ;
 	cc:attributionName "SIG-SWO, JSAI" ;
 	cc:license <https://creativecommons.org/licenses/by/4.0/> .
 #################################################################
@@ -205,29 +205,29 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/002>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットは文字の意味を知りたい"@ja ;
-    kgc:source  "Qubit wants to know the meaning of Dancing dolls A"@en ;
+    kgc:source  "Cubitt wants to know the meaning of Dancing dolls A"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/want> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/02a> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:time  "1898-07-27T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/1898-07-27> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/02a>
     rdf:type    kgc:Situation ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/know> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Meaning_of_Dancing_dolls_A> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/003>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットの背は高い"@ja ;
-    kgc:source  "Qubit is tall"@en ;
+    kgc:source  "Cubitt is tall"@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/tall> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/004>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットは紳士である"@ja ;
-    kgc:source  "Qubit is a gentleman"@en ;
+    kgc:source  "Cubitt is a gentleman"@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/gentle> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/005>
     rdf:type    kgc:Situation ;
     kgc:source  "人形が紙の上で踊っている"@ja ;
@@ -259,20 +259,20 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/009>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットは昨年，結婚した"@ja ;
-    kgc:source  "Qubit was married last year"@en ;
+    kgc:source  "Cubitt was married last year"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/marry> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/DancingMen/Elsie> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/last_year> ;
     kgc:time  "1897-07-01T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/1897-07-01> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/010>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットはノーフォーク州の旧家である"@ja ;
-    kgc:source  "Qubit is from an old family in Norfolk"@en ;
+    kgc:source  "Cubitt is from an old family in Norfolk"@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/old_family> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/DancingMen/Norfolk> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/011>
     rdf:type    kgc:Situation ;
     kgc:source  "エルシィはアメリカ人である"@ja ;
@@ -282,41 +282,41 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/013>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットとエルシィはノーフォーク州に住んでいる"@ja ;
-    kgc:source  "Qubit and Elsie live in Norfolk"@en ;
+    kgc:source  "Cubitt and Elsie live in Norfolk"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/live> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Elsie> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/DancingMen/Norfolk> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/014>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットはエルシィの過去を知らない"@ja ;
-    kgc:source  "Qubit is unware of Elsie's past"@en ;
+    kgc:source  "Cubitt is unware of Elsie's past"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notKnow> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Past_of_Elsie> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/015>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットは以下を言った"@ja ;
-    kgc:source  "Qubit says the followings"@en ;
+    kgc:source  "Cubitt says the followings"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/016> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/017> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/018> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:time  "1898-07-27T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/1898-07-27> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/016>
     rdf:type    kgc:Statement ;
     kgc:source  "エルシィは真面目である"@ja ;
     kgc:source  "Elsie is serious"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/serious> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Elsie> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/017>
     rdf:type    kgc:Statement ;
     kgc:source  "エルシィは嫌な思い出を持つ"@ja ;
     kgc:source  "Elsie has bad memories"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Bad_memories> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Elsie> .
@@ -324,16 +324,16 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Statement ;
     kgc:source  "エルシィは思い出を言わない"@ja ;
     kgc:source  "Elsie does not share the memories"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notSay> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Elsie> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Past_of_Elsie> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/019>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットは6月の末に災いの兆しを見た"@ja ;
-    kgc:source  "Qubit sees signs of the evil at the end of June"@en ;
+    kgc:source  "Cubitt sees signs of the evil at the end of June"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/see> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Signs_of_evil> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/end_of_June> ;
     kgc:time  "1898-06-30T00:00:00"^^xsd:dateTime ;
@@ -388,40 +388,40 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/026>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットは約束に従った"@ja ;
-    kgc:source  "Qubit follows the promise"@en ;
+    kgc:source  "Cubitt follows the promise"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/follow> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/promise> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/DancingMen/027> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/027>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットは黙っている"@ja ;
-    kgc:source  "Qubit shuts up"@en ;
+    kgc:source  "Cubitt shuts up"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/shutUp> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/028>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットは先週の火曜日、ガラス窓に踊る人形を見た"@ja ;
-    kgc:source  "Qubit saw the Dancing dolls in a glass window last Tuesday"@en ;
+    kgc:source  "Cubitt saw the Dancing dolls in a glass window last Tuesday"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/see> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Dancing_dolls> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/DancingMen/Glass_window> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/last_Tuesday> ;
     kgc:time  "1898-07-19T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/1898-07-19> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/029>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットは以下を思った"@ja ;
-    kgc:source  "Qubit thinks of the following"@en ;
+    kgc:source  "Cubitt thinks of the following"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/think> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/030> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/030>
     rdf:type    kgc:Thought ;
     kgc:source  "馬番の少年が踊る人形を描いた"@ja ;
     kgc:source  "Horse boy draws the Dancing dolls"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/draw> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Dancing_dolls> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Horse_boy> .
@@ -452,10 +452,10 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/034>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットは昨日の朝、庭の日時計の上に踊る人形を見た"@ja ;
-    kgc:source  "Qubit saw the Dancing dolls on a sundial in the garden yesterday morning"@en ;
+    kgc:source  "Cubitt saw the Dancing dolls on a sundial in the garden yesterday morning"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/see> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Dancing_dolls> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:on   <http://kgc.knowledge-graph.jp/data/DancingMen/sundial_of_garden> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/yesterday_morning> ;
     kgc:time  "1898-07-26T08:00:00"^^xsd:dateTime ;
@@ -463,11 +463,11 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/035>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットはエルシィに踊る人形を見せた"@ja ;
-    kgc:source  "Qubit shows Elsie the Dancing dolls"@en ;
+    kgc:source  "Cubitt shows Elsie the Dancing dolls"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/show> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Dancing_dolls> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/DancingMen/Elsie> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/DancingMen/036> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/036>
     rdf:type    kgc:Situation ;
@@ -478,30 +478,30 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/037>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットはホームズに手紙を書いた"@ja ;
-    kgc:source  "Qubit sends the Letter X to Holmes"@en ;
+    kgc:source  "Cubitt sends the Letter X to Holmes"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/send> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/DancingMen/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Letter_X> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/DancingMen/038> ;
     kgc:time  "1898-07-26T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/1898-07-26> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/038>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットは踊る人形をホームズに送った"@ja ;
-    kgc:source  "Qubit sends a dancing doll to Holmes"@en ;
+    kgc:source  "Cubitt sends a dancing doll to Holmes"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/send> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Dancing_dolls> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/DancingMen/Holmes> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/039>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットはエルシィに過去の話を強要しなかった"@ja ;
-    kgc:source  "Qubit does not force Elsie to discuss the past"@en ;
+    kgc:source  "Cubitt does not force Elsie to discuss the past"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notForce> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/DancingMen/Elsie> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Past_of_Elsie> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/040>
     rdf:type    kgc:Situation ;
     kgc:source  "新顔が近所で現れた"@ja ;
@@ -512,26 +512,26 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/041>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズはキュービットに以下を頼んだ"@ja ;
-    kgc:source  "Holmes asks Qubit the following"@en ;
+    kgc:source  "Holmes asks Cubitt the following"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/request> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/042> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Holmes> ;
-    kgc:whom   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> .
+    kgc:whom   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/042>
     rdf:type    kgc:Statement ;
     kgc:source  "キュービットは踊る人形を写し取る"@ja ;
-    kgc:source  "Qubit copies the Dancing dolls"@en ;
+    kgc:source  "Cubitt copies the Dancing dolls"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/copy> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Dancing_dolls> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/043>
     rdf:type    kgc:Situation ;
     kgc:source  "今朝，ホームズはキュービットから電報を受け取った"@ja ;
-    kgc:source  "Holmes receives a telegram from Qubit this morning"@en ;
+    kgc:source  "Holmes receives a telegram from Cubitt this morning"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/receive> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Holmes> ;
-    kgc:from   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:from   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/telegram> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/this_morning> ;
     kgc:time  "1898-08-10T08:00:00"^^xsd:dateTime ;
@@ -540,9 +540,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/044>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットは駅からやってきた"@ja ;
-    kgc:source  "Qubit comes from the station"@en ;
+    kgc:source  "Cubitt comes from the station"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/come> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:from   <http://kgc.knowledge-graph.jp/data/DancingMen/station> ;
     kgc:time  "1898-08-10T14:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/1898-08-10T14:00> ;
@@ -550,22 +550,22 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/045>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットはホームズを訪ねた"@ja ;
-    kgc:source  "Qubit visits Holmes"@en ;
+    kgc:source  "Cubitt visits Holmes"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/visit> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/DancingMen/Holmes> ;
     kgc:time  "1898-08-10T14:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/1898-08-10T14:00> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/046>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットは翌朝に踊る人形Bを見た"@ja ;
-    kgc:source  "Qubit sees the Dancing dolls B the next morning"@en ;
+    kgc:source  "Cubitt sees the Dancing dolls B the next morning"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/find> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Dancing_dolls_B> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/next_morning> ;
     kgc:time  "1898-07-28T08:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/1898-07-28T08:00> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/047>
     rdf:type    kgc:Situation ;
     kgc:source  "踊る人形Bは物置の扉の上にチョークで描かれていた"@ja ;
@@ -606,9 +606,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/052>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットは午前2時頃、窓際に腰かけていた"@ja ;
-    kgc:source  "Qubit sits by the window around 2 am"@en ;
+    kgc:source  "Cubitt sits by the window around 2 am"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sit> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/DancingMen/window> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/2_00> ;
     kgc:time  "1898-08-06T02:00:00"^^xsd:dateTime ;
@@ -633,19 +633,19 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/055>
     rdf:type    kgc:Situation ;
     kgc:source  "エルシィはキュービットに以下を言った"@ja ;
-    kgc:source  "Elsie says the following to Qubit"@en ;
+    kgc:source  "Elsie says the following to Cubitt"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/056> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Elsie> ;
-    kgc:whom   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> .
+    kgc:whom   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/056>
     rdf:type    kgc:Statement ;
     kgc:source  "キュービットは寝室に帰る"@ja ;
-    kgc:source  "Qubit returns to the bedroom"@en ;
+    kgc:source  "Cubitt returns to the bedroom"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Elsie> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/return> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/DancingMen/Bedroom> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/057>
     rdf:type    kgc:Situation ;
     kgc:source  "物置の影で何かが動いた"@ja ;
@@ -656,18 +656,18 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/058>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットは拳銃を持った"@ja ;
-    kgc:source  "Qubit holds a handgun"@en ;
+    kgc:source  "Cubitt holds a handgun"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/take> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Handgun> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/DancingMen/059> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/059>
     rdf:type    kgc:Situation ;
     kgc:source  "エルシィはキュービットを止めた"@ja ;
-    kgc:source  "Elsie stops Qubit"@en ;
+    kgc:source  "Elsie stops Cubitt"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/stop> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Elsie> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/061>
     rdf:type    kgc:Situation ;
     kgc:source  "翌朝、物置の扉の上に踊る人形Dが描かれていた"@ja ;
@@ -702,41 +702,41 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/063>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットは以下を言った"@ja ;
-    kgc:source  "Qubit says the followng"@en ;
+    kgc:source  "Cubitt says the followng"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/064> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:time  "1898-08-10T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/1898-08-10> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/064>
     rdf:type    kgc:Statement ;
     kgc:source  "エルシィは守るためにキュービットを抑えた"@ja ;
-    kgc:source  "Elsie stops Qubits to protect himself"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:source  "Elsie stops Cubitts to protect himself"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/stop> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Elsie> ;
     kgc:why   <http://kgc.knowledge-graph.jp/data/DancingMen/64a> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/64a>
     rdf:type    kgc:Statement ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/protect> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Elsie> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/065>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズはキュービットに以下を言った"@ja ;
-    kgc:source  "Holmes says the following to Qubit"@en ;
+    kgc:source  "Holmes says the following to Cubitt"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/066> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Holmes> ;
-    kgc:whom   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> .
+    kgc:whom   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/066>
     rdf:type    kgc:Statement ;
     kgc:source  "キュービットは今日中に帰宅する"@ja ;
-    kgc:source  "Qubit returns home today"@en ;
+    kgc:source  "Cubitt returns home today"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/return> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/DancingMen/home> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/today> ;
     kgc:time  "1898-08-10T00:00:00"^^xsd:dateTime ;
@@ -776,10 +776,10 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/071>
     rdf:type    kgc:Situation ;
     kgc:source  "2日目の夕べ、ホームズはキュービットから手紙を受け取った"@ja ;
-    kgc:source  "On the second evening, Holmes receives the Letter Y from Qubit"@en ;
+    kgc:source  "On the second evening, Holmes receives the Letter Y from Cubitt"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/receive> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Holmes> ;
-    kgc:from   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:from   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Letter_Y> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/evening_of_the_second_day> ;
     kgc:time  "1898-08-12T18:00:00"^^xsd:dateTime ;
@@ -833,11 +833,11 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/078>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットとエルシィは撃たれた"@ja ;
-    kgc:source  "Qubit and Elsie are shot"@en ;
+    kgc:source  "Cubitt and Elsie are shot"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Elsie> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/shoot> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/DancingMen/Elsie> ;
-    kgc:whom   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:whom   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:time  "1898-08-13T03:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/1898-08-13T03:00> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/079>
@@ -852,11 +852,11 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/080>
     rdf:type    kgc:Statement ;
     kgc:source  "エルシィがキュービットを撃った"@ja ;
-    kgc:source  "Elsie shot Qubit"@en ;
+    kgc:source  "Elsie shot Cubitt"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Maid> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/shoot> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Elsie> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:time  "1898-08-13T03:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/1898-08-13T03:00> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/DancingMen/081> .
@@ -924,7 +924,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/091>
     rdf:type    kgc:Statement ;
     kgc:source  "キュービットは心臓を撃ち抜かれている"@ja ;
-    kgc:source  "Qubit is shot through the heart"@en ;
+    kgc:source  "Cubitt is shot through the heart"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Local_doctor> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/090>
     rdf:type    kgc:Situation ;
@@ -932,15 +932,15 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/091>
     rdf:type    kgc:Situation ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/shoot> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/heart_of_Qubit> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/heart_of_Cubitt> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/092>
     rdf:type    kgc:Situation ;
     kgc:source  "拳銃はキュービットとエルシィの間に落ちていた"@ja ;
-    kgc:source  "The handgun falls between Qubit and Elsie"@en ;
+    kgc:source  "The handgun falls between Cubitt and Elsie"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Handgun> ;
     kgc:middleOf   <http://kgc.knowledge-graph.jp/data/DancingMen/Elsie> ;
-    kgc:middleOf   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> .
+    kgc:middleOf   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/093>
     rdf:type    kgc:Situation ;
     kgc:source  "地元の医者は4時に訪れた"@ja ;
@@ -1018,18 +1018,18 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/103>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットが部屋の真ん中に倒れていた"@ja ;
-    kgc:source  "Qubit fell in the middle of the room"@en ;
+    kgc:source  "Cubitt fell in the middle of the room"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/fall> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:middleOf   <http://kgc.knowledge-graph.jp/data/DancingMen/room> ;
     kgc:time  "1898-08-13T03:02:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/1898-08-13T03:02> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/104>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットは死んでいた"@ja ;
-    kgc:source  "Qubit was dead"@en ;
+    kgc:source  "Cubitt was dead"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/dead> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:time  "1898-08-13T03:02:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/1898-08-13T03:02> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/105>
@@ -1098,10 +1098,10 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/112>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットは寝間着だった"@ja ;
-    kgc:source  "Qubit wore nightwear"@en ;
+    kgc:source  "Cubitt wore nightwear"@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/wear> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/nightwear> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:time  "1898-08-13T03:02:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/1898-08-13T03:02> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/113>
@@ -1174,31 +1174,31 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/121>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットは部屋を横切るように倒れていた"@ja ;
-    kgc:source  "Qubit is falling across the study room"@en ;
+    kgc:source  "Cubitt is falling across the study room"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/fall> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:middleOf   <http://kgc.knowledge-graph.jp/data/DancingMen/study_room> ;
     kgc:time  "1898-08-13T11:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/1898-08-13T11:00> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/122>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットの着衣は乱れていた"@ja ;
-    kgc:source  "Qubit's clothes were disordered"@en ;
+    kgc:source  "Cubitt's clothes were disordered"@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/disturb> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/nightwear_of_Qubit> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/nightwear_of_Cubitt> ;
     kgc:time  "1898-08-13T11:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/1898-08-13T11:00> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/123>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットは正面から心臓を撃たれた"@ja ;
-    kgc:source  "Qubit was shot in the heart from the front"@en .
+    kgc:source  "Cubitt was shot in the heart from the front"@en .
 <http://kgc.knowledge-graph.jp/data/DancingMen/122>
     rdf:type    kgc:Situation ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Criminal> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/123>
     rdf:type    kgc:Situation ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/shoot> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/heart_of_Qubit> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/heart_of_Cubitt> ;
     kgc:from   <http://kgc.knowledge-graph.jp/data/DancingMen/front> ;
     kgc:time  "1898-08-13T03:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/1898-08-13T03:00> .
@@ -1267,9 +1267,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/133>
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットは第三者を撃った"@ja ;
-    kgc:source  "Qubit shot a third party"@en ;
+    kgc:source  "Cubitt shot a third party"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/shoot> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Third_person> ;
     kgc:time  "1898-08-13T03:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/1898-08-13T03:00> ;
@@ -1679,20 +1679,20 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/186>
     rdf:type    kgc:Statement ;
     kgc:source  "エイブ・スレイニはキュービット宅に来る"@ja ;
-    kgc:source  "Abe_Slaney comes to Qubit's home"@en ;
+    kgc:source  "Abe_Slaney comes to Cubitt's home"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/come> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Abe_Slaney> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/DancingMen/home_of_Qubit> ;
+    kgc:to   <http://kgc.knowledge-graph.jp/data/DancingMen/home_of_Cubitt> ;
     kgc:time  "1898-08-13T12:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/1898-08-13T12:00> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/188>
     rdf:type    kgc:Situation ;
     kgc:source  "エイブ・スレイニはキュービット宅に入った"@ja ;
-    kgc:source  "Abe_Slaney enters Qubit's home"@en ;
+    kgc:source  "Abe_Slaney enters Cubitt's home"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/enter> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Abe_Slaney> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/DancingMen/home_of_Qubit> ;
+    kgc:to   <http://kgc.knowledge-graph.jp/data/DancingMen/home_of_Cubitt> ;
     kgc:time  "1898-08-13T12:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/1898-08-13T12:00> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/189>
@@ -1754,11 +1754,11 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/192>
     rdf:type    kgc:Statement ;
     kgc:source  "エイブ・スレイニはキュービットを撃った"@ja ;
-    kgc:source  "Ave Sureini shot Qubit"@en ;
+    kgc:source  "Ave Sureini shot Cubitt"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Abe_Slaney> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/shoot> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Abe_Slaney> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:time  "1898-08-13T03:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/1898-08-13T03:00> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/194>
@@ -1788,11 +1788,11 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/199>
     rdf:type    kgc:Statement ;
     kgc:source  "エイブ・スレイニはキュービットを殺した"@ja ;
-    kgc:source  "Abe_Slaney killed Qubit"@en ;
+    kgc:source  "Abe_Slaney killed Cubitt"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Abe_Slaney> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/kill> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Abe_Slaney> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/DancingMen/200> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/200>
     rdf:type    kgc:Statement ;
@@ -1971,37 +1971,37 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/222>
     rdf:type    kgc:Statement ;
     kgc:source  "キュービットはエイブ・スレイニを撃った"@ja ;
-    kgc:source  "Qubit shot Abe_Slaney"@en ;
+    kgc:source  "Cubitt shot Abe_Slaney"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Abe_Slaney> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/shoot> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Abe_Slaney> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/DancingMen/224> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/224>
     rdf:type    kgc:Statement ;
     kgc:source  "キュービットの弾はエイブ・スレイニを外れた"@ja ;
-    kgc:source  "Qubit's bullet goes out of Abe_Slaney"@en ;
+    kgc:source  "Cubitt's bullet goes out of Abe_Slaney"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Abe_Slaney> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notHit> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Abe_Slaney> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/bullet_of_Qubit> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/bullet_of_Cubitt> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/DancingMen/225> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/225>
     rdf:type    kgc:Statement ;
     kgc:source  "エイブ・スレイニはキュービットを撃った"@ja ;
-    kgc:source  "Abe_Slaney shot Qubit"@en ;
+    kgc:source  "Abe_Slaney shot Cubitt"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Abe_Slaney> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/shoot> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Abe_Slaney> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/DancingMen/226> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/226>
     rdf:type    kgc:Statement ;
     kgc:source  "キュービットは倒れた"@ja ;
-    kgc:source  "Qubit fell"@en ;
+    kgc:source  "Cubitt fell"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Abe_Slaney> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/fall> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/DancingMen/227> .
 <http://kgc.knowledge-graph.jp/data/DancingMen/227>
     rdf:type    kgc:Statement ;
@@ -2167,13 +2167,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/DancingMen/tube>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/DancingMen/bullet>.
-<http://kgc.knowledge-graph.jp/data/DancingMen/heart_of_Qubit>
+<http://kgc.knowledge-graph.jp/data/DancingMen/nightwear_of_Cubitt>
     rdf:type    kgc:PhysicalObject;
-    rdfs:label     "キュービットの心臓"@ja;
-    rdfs:label     "heart of Qubit"@en;
+    rdfs:label     "キュービットの着衣"@ja;
+    rdfs:label     "nightwear of Cubitt"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/DancingMen/heart>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit>.
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/DancingMen/nightwear>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt>.
 <http://kgc.knowledge-graph.jp/data/DancingMen/Door_of_study_room>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "書斎の扉"@ja;
@@ -2206,6 +2206,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Place;
     rdfs:label     "ノリッジ"@ja;
     rdfs:label     "Norwich"@en.
+<http://kgc.knowledge-graph.jp/data/DancingMen/home_of_Cubitt>
+    rdf:type    kgc:Place;
+    rdfs:label     "キュービット宅"@ja;
+    rdfs:label     "home of Cubitt"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/DancingMen/home>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt>.
 <http://kgc.knowledge-graph.jp/data/DancingMen/Someone>
     rdf:type    kgc:Person;
     rdfs:label     "何者か"@ja;
@@ -2258,6 +2265,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Place;
     rdfs:label     "4番目"@ja;
     rdfs:label     "the fourth position"@en.
+<http://kgc.knowledge-graph.jp/data/DancingMen/heart_of_Cubitt>
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "キュービットの心臓"@ja;
+    rdfs:label     "heart of Cubitt"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/DancingMen/heart>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt>.
 <http://kgc.knowledge-graph.jp/data/DancingMen/Signs_of_evil>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "災いの兆し"@ja;
@@ -2293,13 +2307,6 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "必要とする"@ja;
     rdfs:label     "need"@en.
-<http://kgc.knowledge-graph.jp/data/DancingMen/home_of_Qubit>
-    rdf:type    kgc:Place;
-    rdfs:label     "キュービット宅"@ja;
-    rdfs:label     "home of Qubit"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/DancingMen/home>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit>.
 <http://kgc.knowledge-graph.jp/data/predicate/notSend>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
@@ -2396,10 +2403,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/DancingMen/the_final_position>
     rdfs:label     "the final position"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/DancingMen/Qubit>
-    rdf:type    kgc:Person;
-    rdfs:label     "キュービット"@ja;
-    rdfs:label     "Qubit"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/wear>
     rdf:type    kgc:Property;
     rdfs:label     "着る"@ja;
@@ -2465,13 +2468,6 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "普段着"@ja;
     rdfs:label     "casual wear"@en.
-<http://kgc.knowledge-graph.jp/data/DancingMen/nightwear_of_Qubit>
-    rdf:type    kgc:PhysicalObject;
-    rdfs:label     "キュービットの着衣"@ja;
-    rdfs:label     "nightwear of Qubit"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/DancingMen/nightwear>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit>.
 <http://kgc.knowledge-graph.jp/data/DancingMen/banknote>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "紙幣"@ja;
@@ -3272,6 +3268,13 @@ kgc:Thought rdf:type owl:Class ;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/force>;
     rdfs:label     "強要しない"@ja;
     rdfs:label     "notForce"@en.
+<http://kgc.knowledge-graph.jp/data/DancingMen/bullet_of_Cubitt>
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "キュービットの弾"@ja;
+    rdfs:label     "bullet of Cubitt"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/DancingMen/bullet>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt>.
 <http://kgc.knowledge-graph.jp/data/DancingMen/One_minute_after_gunfire>
     rdfs:label     "銃声の1分後"@ja;
     rdfs:label     "One minute after gunfire"@en;
@@ -3296,13 +3299,6 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "踊る人形f"@ja;
     rdfs:label     "Dancing dolls F"@en;
     rdfs:label     "踊る人形F"@ja.
-<http://kgc.knowledge-graph.jp/data/DancingMen/bullet_of_Qubit>
-    rdf:type    kgc:PhysicalObject;
-    rdfs:label     "キュービットの弾"@ja;
-    rdfs:label     "bullet of Qubit"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/DancingMen/bullet>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/DancingMen/Qubit>.
 <http://kgc.knowledge-graph.jp/data/DancingMen/Dancing_dolls_E>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "踊る人形E"@ja;
@@ -3384,6 +3380,10 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "暗号"@ja;
     rdfs:label     "cipher"@en.
+<http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt>
+    rdf:type    kgc:Person;
+    rdfs:label     "キュービット"@ja;
+    rdfs:label     "Cubitt"@en.
 <http://kgc.knowledge-graph.jp/data/DancingMen/Neighborhood>
     rdf:type    kgc:Place;
     rdfs:label     "近所"@ja;

@@ -5,7 +5,7 @@
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 @prefix kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#> . 
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/metadata>
-    rdfs:comment  "作成日（2022-11-05） "@ja ;
+    rdfs:comment  "作成日（2022-11-07） "@ja ;
 	cc:attributionName "SIG-SWO, JSAI" ;
 	cc:license <https://creativecommons.org/licenses/by/4.0/> .
 #################################################################
@@ -494,8 +494,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/034>
     rdf:type    kgc:Situation ;
     kgc:source  "サイラス・ブラウンはメープルトンの調馬場を管理している"@ja ;
-    kgc:source  "Cyrus Brown manages the Mapleton riding ground"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:source  "Silas Brown manages the Mapleton riding ground"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/manage> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Mapleton_riding_ground> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/035> .
@@ -1659,8 +1659,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/157>
     rdf:type    kgc:Situation ;
     kgc:source  "サイラス・ブラウンはデスボロを管理している"@ja ;
-    kgc:source  "Cyrus Brown manages Desborough"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:source  "Silas Brown manages Desborough"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/manage> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Desborough> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/158> .
@@ -2169,7 +2169,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "サイラス・ブラウンは白銀号の失踪により得する"@ja ;
     kgc:source  "Silas Brown is obtained by the disappearance of Silver Blaze"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/benefit> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/SilverBlaze/disappearance_of_Silver_Blaze> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/214> .
@@ -2177,7 +2177,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "サイラス・ブラウンはデスボロを調馬する"@ja ;
     kgc:source  "Silas Brown is training Desborough"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/train> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Desborough> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/215> .
@@ -2185,7 +2185,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "サイラス・ブラウンはデスボロに大金を賭けている"@ja ;
     kgc:source  "Silas Brown is betting a lot of money to Desborough"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/bet> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Lot_of_money> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Desborough> ;
@@ -2193,18 +2193,18 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/216>
     rdf:type    kgc:Situation ;
     kgc:source  "サイラス・ブラウンとジョン・ストレーカーは仲が悪い"@ja ;
-    kgc:source  "Cyrus Brown and John Straker have a bad relationship"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:source  "Silas Brown and John Straker have a bad relationship"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/John_Straker> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/bad_terms> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/217> .
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/217>
     rdf:type    kgc:Situation ;
     kgc:source  "警察はサイラス・ブラウンの厩舎を調べた"@ja ;
-    kgc:source  "The police analyzed the stables of Cyrus Brown stables"@en ;
+    kgc:source  "The police analyzed the stables of Silas Brown stables"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/police> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/examine> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown_stables> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown_stables> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/218> .
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/218>
     rdf:type    kgc:Situation ;
@@ -2212,14 +2212,14 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "The police could not find the white silver degree in Silas Brown stables"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/police> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/cannotFind> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown_stables> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown_stables> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/219> .
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/219>
     rdf:type    kgc:Situation ;
     kgc:source  "サイラス・ブラウンとフィッロイ・シムソンは接点がない"@ja ;
     kgc:source  "Silas Brown and Fitzroy Simpson has no contact"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/noContact> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/221> .
@@ -2875,10 +2875,10 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/295a>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは明日の朝５時にサイラス・ブラウンに会う"@ja ;
-    kgc:source  "Holmes meet Cyrus Brown at 5:00 the following morning"@en ;
+    kgc:source  "Holmes meet Silas Brown at 5:00 the following morning"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/meet> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:to   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SilverBlaze/5_00_tomorrow_morning> .
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/296>
     rdf:type    kgc:Situation ;
@@ -2891,57 +2891,57 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/297>
     rdf:type    kgc:Situation ;
     kgc:source  "サイラス・ブラウンは早朝に起床する"@ja ;
-    kgc:source  "Cyrus Brown wakes up early in the morning"@en ;
+    kgc:source  "Silas Brown wakes up early in the morning"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/canMeet> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:to   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SilverBlaze/early_morning> .
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/298>
     rdf:type    kgc:Situation ;
     kgc:source  "サイラス・ブラウンは早朝に起床する"@ja ;
-    kgc:source  "Cyrus Brown wakes up early in the morning"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:source  "Silas Brown wakes up early in the morning"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/wakeUp> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SilverBlaze/early_morning> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/299> .
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/299>
     rdf:type    kgc:Situation ;
     kgc:source  "サイラス・ブラウンは狼狽した"@ja ;
-    kgc:source  "Cyrus Brown was upset"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:source  "Silas Brown was upset"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/upset> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SilverBlaze/300> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/300> .
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/300>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズはサイラス・ブラウンに囁いた"@ja ;
-    kgc:source  "Holmes whispered to Cyrus Brown"@en ;
+    kgc:source  "Holmes whispered to Silas Brown"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/whisper> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:to   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/301> .
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/301>
     rdf:type    kgc:Situation ;
     kgc:source  "サイラス・ブラウンはホームズに従った"@ja ;
-    kgc:source  "Cyrus Brown according to Holmes"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:source  "Silas Brown according to Holmes"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/follow> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Holmes> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/302> .
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/302>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズはサイラス・ブラウンに以下を言い伝えた"@ja ;
-    kgc:source  "Holmes legend the following to the Cyrus Brown"@en ;
+    kgc:source  "Holmes legend the following to the Silas Brown"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:to   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/205> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/303> .
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/303>
     rdf:type    kgc:Situation ;
     kgc:source  "サイラス・ブラウンは悪事を働かないことを約束した"@ja ;
-    kgc:source  "Cyrus Brown has promised that does not work evil"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:source  "Silas Brown has promised that does not work evil"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/promise> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Holmes> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/304> ;
@@ -2949,15 +2949,15 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/304>
     rdf:type    kgc:Situation ;
     kgc:source  "サイラス・ブラウンは悪事を働かない"@ja ;
-    kgc:source  "Cyrus Brown does not work evil"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:source  "Silas Brown does not work evil"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notWork> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Crime> .
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/305>
     rdf:type    kgc:Situation ;
     kgc:source  "競馬の時、サイラス・ブラウンは白銀号を自分の物のように扱う"@ja ;
-    kgc:source  "Time of horse racing, Cyrus Brown is dealing with the Silver issue as their own thing"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:source  "Time of horse racing, Silas Brown is dealing with the Silver issue as their own thing"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/deal> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/SilverBlaze/As_your_stuff> ;
@@ -2974,8 +2974,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/307>
     rdf:type    kgc:Situation ;
     kgc:source  "サイラス・ブラウンは白銀号を誘拐していた"@ja ;
-    kgc:source  "Cyrus Brown had kidnapped Silver Blaze"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:source  "Silas Brown had kidnapped Silver Blaze"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/kidnap> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/308> .
@@ -3000,38 +3000,38 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/309>
     rdf:type    kgc:Situation ;
     kgc:source  "サイラス・ブラウンは自分の悪事を認めた"@ja ;
-    kgc:source  "Cyrus Brown admitted his wrongdoing"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:source  "Silas Brown admitted his wrongdoing"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/admit> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Own_wickedness> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SilverBlaze/310> .
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/310>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズはサイラス・ブラウンに自身の推理を話した"@ja ;
-    kgc:source  "Holmes explained his reasoning to Cyrus Brown"@en ;
+    kgc:source  "Holmes explained his reasoning to Silas Brown"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:to   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Idea_of_Holmes> .
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/311>
     rdf:type    kgc:Situation ;
     kgc:source  "男の靴の跡とサイラス・ブラウンの靴は適応していた"@ja ;
-    kgc:source  "Mark and Cyrus Brown shoes of a man of the shoes had been adapted"@en ;
+    kgc:source  "Mark and Silas Brown shoes of a man of the shoes had been adapted"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Traces_of_man_s_shoes> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown_shoes> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown_shoes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/fit> .
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/312>
     rdf:type    kgc:Situation ;
     kgc:source  "サイラス・ブラウンの部下は白銀号を窃盗できない"@ja ;
-    kgc:source  "Of Cyrus Brown subordinates can not stealing the Silver Blaze"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Subordinates_of_Cyrus_Brown> ;
+    kgc:source  "Of Silas Brown subordinates can not stealing the Silver Blaze"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Subordinates_of_Silas_Brown> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/cannotSteal> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze> .
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/313>
     rdf:type    kgc:Situation ;
     kgc:source  "事件の翌朝、サイラス・ブラウンは荒地で白銀号を見つけた"@ja ;
-    kgc:source  "The morning following the incident, Cyrus Brown found a white silver degree in wasteland"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:source  "The morning following the incident, Silas Brown found a white silver degree in wasteland"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/find> ;
     kgc:on   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Wasteland> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze> ;
@@ -3039,8 +3039,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/314>
     rdf:type    kgc:Situation ;
     kgc:source  "サイラス・ブラウンは白銀号を誘拐した"@ja ;
-    kgc:source  "Cyrus Brown kidnapped Silver Blaze"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:source  "Silas Brown kidnapped Silver Blaze"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/kidnap> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze> .
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/315>
@@ -3060,24 +3060,24 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/317>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズはサイラス・ブラウンに以下を指示した"@ja ;
-    kgc:source  "Holmes instructed the following to Cyrus Brown"@en ;
+    kgc:source  "Holmes instructed the following to Silas Brown"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/instruct> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/318> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> .
+    kgc:to   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> .
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/318>
     rdf:type    kgc:Situation ;
     kgc:source  "サイラス・ブラウンはメープルトン調馬場の厩舎に白銀号を隠す"@ja ;
-    kgc:source  "Cyrus Brown hide the Silver issue to the stables of Mapleton riding ground"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:source  "Silas Brown hide the Silver issue to the stables of Mapleton riding ground"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hide> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Mapleton_riding_ground_stables> .
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/319>
     rdf:type    kgc:Situation ;
     kgc:source  "サイラス・ブラウンは罪を逃れる方法を考える"@ja ;
-    kgc:source  "Cyrus Brown think of a way to escape the sin"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:source  "Silas Brown think of a way to escape the sin"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/consider> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/How_to_escape_the_sin> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/320> .
@@ -3108,8 +3108,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/323>
     rdf:type    kgc:Situation ;
     kgc:source  "サイラス・ブラウンは白銀に細工を施した"@ja ;
-    kgc:source  "Cyrus Brown was subjected to crafted in Baiyin"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:source  "Silas Brown was subjected to crafted in Baiyin"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/give> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Work> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze> ;
@@ -3125,16 +3125,16 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/325>
     rdf:type    kgc:Situation ;
     kgc:source  "サイラス・ブラウンは利益を得る"@ja ;
-    kgc:source  "Cyrus Brown benefitted"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:source  "Silas Brown benefitted"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/get> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Profits> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SilverBlaze/326> .
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/326>
     rdf:type    kgc:Situation ;
     kgc:source  "サイラス・ブラウンは白銀号を傷つける"@ja ;
-    kgc:source  "Cyrus Brown hurt Silver Blaze"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:source  "Silas Brown hurt Silver Blaze"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hurt> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/327> .
@@ -3149,8 +3149,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/328>
     rdf:type    kgc:Situation ;
     kgc:source  "サイラス・ブラウンは、罪を軽くするために白銀を傷つけない"@ja ;
-    kgc:source  "Cyrus Brown tried to lighten the sin but did not with to damage the silvery white color."@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:source  "Silas Brown tried to lighten the sin but did not with to damage the silvery white color."@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notHurt> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze> ;
     kgc:why   <http://kgc.knowledge-graph.jp/data/SilverBlaze/329> ;
@@ -3158,8 +3158,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/329>
     rdf:type    kgc:Situation ;
     kgc:source  "サイラス・ブラウンは罪を軽くしようとした"@ja ;
-    kgc:source  "Cyrus Brown tried to lighten the sin"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown> ;
+    kgc:source  "Silas Brown tried to lighten the sin"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/mitigate> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/sin> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/330> .
@@ -4261,6 +4261,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/Skull>
     rdfs:label     "Skull"@en;
     rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown>
+    rdfs:label     "Silas Brown"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/Dent>
     rdfs:label     "Dent"@en;
     rdf:type    kgc:Object.
@@ -4303,10 +4306,6 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Night>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/the_incident>.
-<http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown_shoes>
-    rdf:type    kgc:PhysicalObject;
-    rdfs:label     "サイラス・ブラウンの靴"@ja;
-    rdfs:label     "Cyrus Brown shoes"@en.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/thigh>
     rdfs:label     "thigh"@en;
     rdf:type    kgc:Object.
@@ -4486,6 +4485,10 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "人気である"@ja;
     rdfs:label     "popular"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown_stables>
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "サイラス・ブラウンの厩舎"@ja;
+    rdfs:label     "Silas Brown stables"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/takeOut>
     rdf:type    kgc:Action;
     rdfs:label     "取り出す"@ja;
@@ -4535,6 +4538,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "避ける"@ja;
     rdfs:label     "avoid"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Subordinates_of_Silas_Brown>
+    rdf:type    kgc:Person;
+    rdfs:label     "サイラス・ブラウンの部下"@ja;
+    rdfs:label     "Subordinates of Silas Brown"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Subordinates>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown>.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/For_horse_racing_information_collection>
     rdfs:label     "競馬の情報収集のため"@ja;
     rdfs:label     "For horse racing information collection"@en;
@@ -4817,11 +4827,6 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "隠すことのできないナイフ"@ja;
     rdfs:label     "Knife that can not hide"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown>
-    rdf:type    kgc:Person;
-    rdfs:label     "サイラス・ブラウン"@ja;
-    rdfs:label     "Cyrus Brown"@en;
-    rdf:type    kgc:PhysicalObject.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/Long_vividly>
     rdfs:label     "長く鮮やかに"@ja;
     rdfs:label     "Long vividly"@en;
@@ -5099,13 +5104,6 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/disappearance>
     rdfs:label     "disappearance"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/SilverBlaze/Subordinates_of_Cyrus_Brown>
-    rdf:type    kgc:Person;
-    rdfs:label     "サイラス・ブラウンの部下"@ja;
-    rdfs:label     "Subordinates of Cyrus Brown"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Subordinates>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown>.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/The_forehead>
     rdfs:label     "The forehead"@en;
     rdf:type    kgc:Object.
@@ -5366,10 +5364,6 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/racehorses>.
-<http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown_stables>
-    rdf:type    kgc:PhysicalObject;
-    rdfs:label     "サイラス・ブラウンの厩舎"@ja;
-    rdfs:label     "Cyrus Brown stables"@en.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/cork>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "コルク"@ja;
@@ -5634,6 +5628,10 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "深く"@ja;
     rdfs:label     "deeply"@en;
     rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown_shoes>
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "サイラス・ブラウンの靴"@ja;
+    rdfs:label     "Silas Brown shoes"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/gain>
     rdf:type    kgc:Action;
     rdfs:label     "獲得する"@ja;
@@ -6142,6 +6140,11 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "跛になる"@ja;
     rdfs:label     "lame"@en.
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Silas_Brown>
+    rdf:type    kgc:Person;
+    rdfs:label     "サイラス・ブラウン"@ja;
+    rdfs:label     "Silas Brown"@en;
+    rdf:type    kgc:PhysicalObject.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/Along_the_way>
     rdfs:label     "道中"@ja;
     rdfs:label     "Along the way"@en;
@@ -6601,9 +6604,6 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/bookmaker>
     rdfs:label     "bookmaker"@en;
-    rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/SilverBlaze/Cyrus_Brown>
-    rdfs:label     "Cyrus Brown"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/cannotEnter>
     rdf:type    kgc:Action;
