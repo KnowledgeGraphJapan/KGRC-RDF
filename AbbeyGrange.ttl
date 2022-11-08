@@ -5,7 +5,7 @@
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 @prefix kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#> . 
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/metadata>
-    rdfs:comment  "作成日（2022-11-05） "@ja ;
+    rdfs:comment  "作成日（2022-11-07） "@ja ;
 	cc:attributionName "SIG-SWO, JSAI" ;
 	cc:license <https://creativecommons.org/licenses/by/4.0/> .
 #################################################################
@@ -3833,10 +3833,10 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/273>
     rdf:type    kgc:Situation ;
     kgc:source  "ジャック・クロッカーは一等航海士だった"@ja ;
-    kgc:source  "Jack Crocker was the Chief officer"@en .
+    kgc:source  "Jack Croker was the Chief officer"@en .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/273>
     rdf:type    kgc:Situation ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/Chief_officer> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/273>
     rdf:type    kgc:Situation ;
@@ -3846,10 +3846,10 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/274>
     rdf:type    kgc:Situation ;
     kgc:source  "ジャック・クロッカーは船長になっている"@ja ;
-    kgc:source  "Jack Crocker has become the captain"@en .
+    kgc:source  "Jack Croker has become the captain"@en .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/274>
     rdf:type    kgc:Situation ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/Captain> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/274>
     rdf:type    kgc:Situation ;
@@ -3873,8 +3873,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/276>
     rdf:type    kgc:Situation ;
     kgc:source  "ジャック・クロッカーはベイス・ロック号の指揮を執る"@ja ;
-    kgc:source  "Jack Crocker takes command of the Base Rock"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker takes command of the Base Rock"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/command> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/276>
     rdf:type    kgc:Situation ;
@@ -3882,8 +3882,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/277>
     rdf:type    kgc:Situation ;
     kgc:source  "ジャック・クロッカーはシドナムに住んでいる"@ja ;
-    kgc:source  "Jack Crocker lives in Sydenham"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker lives in Sydenham"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/live> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/277>
     rdf:type    kgc:Situation ;
@@ -3891,8 +3891,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/278>
     rdf:type    kgc:Situation ;
     kgc:source  "ジャック・クロッカーの経歴はすばらしかった"@ja ;
-    kgc:source  "The career of Jack Crocker was wonderful"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Career_of_Jack_Crocker> ;
+    kgc:source  "The career of Jack Croker was wonderful"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Career_of_Jack_Croker> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/wonderful> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/278>
     rdf:type    kgc:Situation ;
@@ -3900,8 +3900,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/279>
     rdf:type    kgc:Situation ;
     kgc:source  "ジャック・クロッカーに匹敵する航海士はどの船にもいなかった"@ja ;
-    kgc:source  "The officer comparable to Jack Crocker was not on any ship"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "The officer comparable to Jack Croker was not on any ship"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/notExist> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/279>
     rdf:type    kgc:Situation ;
@@ -3912,8 +3912,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/280>
     rdf:type    kgc:Situation ;
     kgc:source  "ジャック・クロッカーは船を離れる"@ja ;
-    kgc:source  "Jack Crocker leaves the ship"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker leaves the ship"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/leave> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/280>
     rdf:type    kgc:Situation ;
@@ -3921,8 +3921,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/281>
     rdf:type    kgc:Situation ;
     kgc:source  "ジャック・クロッカーの性格は無鉄砲である"@ja ;
-    kgc:source  "The personality of Jack Crocker is wildly reckless"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Personality_of_Jack_Crocker> ;
+    kgc:source  "The personality of Jack Croker is wildly reckless"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Personality_of_Jack_Croker> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/Reckless> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/・hasProperty→状態を表す>
     rdf:type    kgc:Situation ;
@@ -3933,8 +3933,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/282>
     rdf:type    kgc:Situation ;
     kgc:source  "ジャック・クロッカーは短気で興奮しやすい"@ja ;
-    kgc:source  "Jack Crocker easy excited in the short term"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker easy excited in the short term"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/inpatient> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/・Opposite（反対側）>
     rdf:type    kgc:Situation ;
@@ -3942,8 +3942,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/283>
     rdf:type    kgc:Situation ;
     kgc:source  "ジャック・クロッカーは忠実で正直で優しい"@ja ;
-    kgc:source  "Jack Crocker is friendly, faithful, and honest"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker is friendly, faithful, and honest"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/Friendly> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/faithful> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/honest> .
@@ -4242,14 +4242,14 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/308>
     rdf:type    kgc:Situation ;
     kgc:source  "ジャック・クロッカーは男らしい"@ja ;
-    kgc:source  "Jack Crocker is manly"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker is manly"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/manly> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/309>
     rdf:type    kgc:Situation ;
     kgc:source  "ジャック・クロッカーがホームズの部屋に入ってきた"@ja ;
-    kgc:source  "Jack Crocker walked into Holmes' room"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker walked into Holmes' room"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/come> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/309>
     rdf:type    kgc:Situation ;
@@ -4257,8 +4257,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/310>
     rdf:type    kgc:Situation ;
     kgc:source  "ジャック・クロッカーは軽快な足取りをしていた"@ja ;
-    kgc:source  "Jack Crocker had a nimble gait"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker had a nimble gait"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/nimble-footed> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/310>
     rdf:type    kgc:Situation ;
@@ -4266,9 +4266,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/311>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーはホームズからの電報を受け取った"@ja ;
-    kgc:source  "Jack Crocker received a telegram from Holmes"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker received a telegram from Holmes"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/receive> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/311>
     rdf:type    kgc:Situation ;
@@ -4298,8 +4298,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/312a>
     rdf:type    kgc:Situation ;
     kgc:source  "ジャック・クロッカーは葉巻を吸う"@ja ;
-    kgc:source  "Jack Crocker smoked a cigar"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker smoked a cigar"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/smoke> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/312a>
     rdf:type    kgc:Situation ;
@@ -4321,15 +4321,15 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/314>
     rdf:type    kgc:Situation ;
     kgc:source  "ジャック・クロッカーは普通の犯罪者である"@ja ;
-    kgc:source  "Jack Crocker is an ordinary criminal"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker is an ordinary criminal"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/Ordinary_criminal> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/315>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーはホームズを信じる"@ja ;
-    kgc:source  "Jack Crocker believe Holmes"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker believe Holmes"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/believe> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/315>
     rdf:type    kgc:Situation ;
@@ -4340,10 +4340,10 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/316>
     rdf:type    kgc:Situation ;
     kgc:source  "ジャック・クロッカーは以下を誓った"@ja ;
-    kgc:source  "Jack Crocker vowed the following"@en .
+    kgc:source  "Jack Croker vowed the following"@en .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/316>
     rdf:type    kgc:Situation ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/swear> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/316>
     rdf:type    kgc:Situation ;
@@ -4351,9 +4351,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/316a>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーは事実を話す"@ja ;
-    kgc:source  "Jack Crocker speaks the truth."@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker speaks the truth."@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/316a>
     rdf:type    kgc:Situation ;
@@ -4362,17 +4362,17 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Statement ;
     kgc:source  "サー・ユースタス・ブラックンストールが生き返る"@ja ;
     kgc:source  "Sir Eustace Brackenstall come back to life"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sir_Eustace_Brackenstall> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/revive> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/318>
     rdf:type    kgc:Situation ;
     kgc:source  "ジャック・クロッカーは同じことをする"@ja ;
-    kgc:source  "Jack Crocker does the same thing to Sir Eustace Brackenstall"@en .
+    kgc:source  "Jack Croker does the same thing to Sir Eustace Brackenstall"@en .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/318>
     rdf:type    kgc:Statement ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/repeat> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/318>
     rdf:type    kgc:Situation ;
@@ -4386,9 +4386,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/319>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーは以下を望まない"@ja ;
-    kgc:source  "Jack Crocker does not want the following"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker does not want the following"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notWant> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/319>
     rdf:type    kgc:Situation ;
@@ -4396,11 +4396,11 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/320>
     rdf:type    kgc:Situation ;
     kgc:source  "ジャック・クロッカーはレディー・ブラックンストールを厄介な立場に巻き込む"@ja ;
-    kgc:source  "Jack Crocker puts Lady Blackenstall in an awkward position"@en .
+    kgc:source  "Jack Croker puts Lady Blackenstall in an awkward position"@en .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/319a>
     rdf:type    kgc:Statement ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/involve> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/319a>
     rdf:type    kgc:Situation ;
@@ -4411,9 +4411,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/320>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーは命をささげる"@ja ;
-    kgc:source  "Jack Crocker gives his life"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker gives his life"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/dedicate> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/320>
     rdf:type    kgc:Situation ;
@@ -4424,9 +4424,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/321>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーとレディー・ブラックンストールはロック・オブ・ジブラルタルという船で出会った"@ja ;
-    kgc:source  "Jack Crocker and Lady Brackenstall met at the Rock of Gibraltar"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker and Lady Brackenstall met at the Rock of Gibraltar"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/meet> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/321>
@@ -4435,8 +4435,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/322>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーにとってレディー・ブラックンストールはただ一人の女性となった"@ja ;
-    kgc:source  "Lady Brackenstall just became one of the women for Jack Crocker"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Lady Brackenstall just became one of the women for Jack Croker"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/become> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/322>
@@ -4448,9 +4448,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/323>
     rdf:type    kgc:Statement ;
     kgc:source  "恋心はジャック・クロッカーの方ばかりだった"@ja ;
-    kgc:source  "Love was the only person of Jack Crocker"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Love was the only person of Jack Croker"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/323>
     rdf:type    kgc:Situation ;
@@ -4464,8 +4464,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/324>
     rdf:type    kgc:Situation ;
     kgc:source  "ジャック・クロッカーが次の航海から帰った"@ja ;
-    kgc:source  "Jack Crocker was back from the next voyage"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker was back from the next voyage"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/return> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/324>
     rdf:type    kgc:Situation ;
@@ -4473,9 +4473,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/325>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーはレディー・ブラックンストールの結婚を知った"@ja ;
-    kgc:source  "Jack Crocker was aware of the marriage of Lady Brackenstall"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker was aware of the marriage of Lady Brackenstall"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/know> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/325>
     rdf:type    kgc:Situation ;
@@ -4487,7 +4487,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Thought ;
     kgc:source  "レディー・ブラックンストールは好きな男と結婚していない"@ja ;
     kgc:source  "Lady Brackenstall is not married to a favorite man"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Thought_of_Jack_Crocker> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Thought_of_Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notMarry> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/326>
@@ -4497,25 +4497,25 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Thought ;
     kgc:source  "レディー・ブラックンストールは上品なものすべてのために生まれた"@ja ;
     kgc:source  "Lady Brackenstall was born for this classy life"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Thought_of_Jack_Crocker> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Thought_of_Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/classy> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/328>
     rdf:type    kgc:Statement ;
     kgc:source  "レディー・ブラックンストールがジャック・クロッカーのために不幸にならない"@ja ;
-    kgc:source  "Lady Bracknstall is not unhappy for Jack Crocker."@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Lady Bracknstall is not unhappy for Jack Croker."@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/notUnhappy> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/328>
     rdf:type    kgc:Situation ;
-    kgc:why   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> .
+    kgc:why   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/329>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーは以下を喜んだ"@ja ;
-    kgc:source  "Jack Crocker was pleased with the following"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker was pleased with the following"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/bePleased> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/329>
     rdf:type    kgc:Situation ;
@@ -4523,9 +4523,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/330>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーは新しい船のためシドナムで数ヵ月待っていた"@ja ;
-    kgc:source  "Jack Crocker had been waiting in Sydenham for the new ship for several months"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker had been waiting in Sydenham for the new ship for several months"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/wait> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/330>
     rdf:type    kgc:Situation ;
@@ -4541,9 +4541,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/331>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーはテリーサと会った"@ja ;
-    kgc:source  "Jack Crocker met with Theresa"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker met with Theresa"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Theresa> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/meet> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/331>
@@ -4555,9 +4555,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/332>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーはテリーサからサー・ユースタス・ブラックンストールの話を聞いた"@ja ;
-    kgc:source  "Jack Crocker heard the story of Sir Eustace Brackenstall from Theresa"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker heard the story of Sir Eustace Brackenstall from Theresa"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hear> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/332>
     rdf:type    kgc:Situation ;
@@ -4568,9 +4568,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/333>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーはもう一度テリーサと会った"@ja ;
-    kgc:source  "Jack Crocker met Theresa once again"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker met Theresa once again"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Theresa> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/meet> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/333>
@@ -4582,17 +4582,17 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/334>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーはメアリーに会った"@ja ;
-    kgc:source  "Jack Crocker met Mary"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker met Mary"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Mary> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/meet> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/335>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーは船旅に出る"@ja ;
-    kgc:source  "Jack Crocker go on a voyage"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker go on a voyage"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/go> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/335>
     rdf:type    kgc:Situation ;
@@ -4600,9 +4600,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/336>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーはもう一度テリーサに会った"@ja ;
-    kgc:source  "Jack Crocker met Teresa once more"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker met Teresa once more"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/meet> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/336>
     rdf:type    kgc:Situation ;
@@ -4616,8 +4616,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/337>
     rdf:type    kgc:Statement ;
     kgc:source  "テリーサはいつもジャック・クロッカーの味方だった"@ja ;
-    kgc:source  "Theresa was always an ally of Jack Crocker"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Theresa was always an ally of Jack Croker"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Theresa> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/ally> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/337>
@@ -4629,9 +4629,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/338>
     rdf:type    kgc:Situation ;
     kgc:source  "テリーサはジャック・クロッカーと同様にサー・ユースタス・ブラックンストールを憎んでいる"@ja ;
-    kgc:source  "Theresa is hated Sir Eustace Brackenstall in the same way as Jack Crocker"@en ;
+    kgc:source  "Theresa is hated Sir Eustace Brackenstall in the same way as Jack Croker"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Theresa> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hate> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/338>
     rdf:type    kgc:Situation ;
@@ -4642,9 +4642,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/339>
     rdf:type    kgc:Situation ;
     kgc:source  "テリーサはジャック・クロッカーと同様にレディー・ブラックンストールを愛している"@ja ;
-    kgc:source  "Theresa loves Lady Brackenstall in the same way as Jack Crocker"@en ;
+    kgc:source  "Theresa loves Lady Brackenstall in the same way as Jack Croker"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Theresa> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/love> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/339>
     rdf:type    kgc:Situation ;
@@ -4655,9 +4655,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/340>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーはテリーサから以下のことを聞いた"@ja ;
-    kgc:source  "Jack Crocker heard the following from Theresa"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker heard the following from Theresa"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hear> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/340>
     rdf:type    kgc:Situation ;
@@ -4675,7 +4675,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Statement ;
     kgc:source  "レディー・ブラックンストールはいつも階下の小さな部屋で本を読んでいる"@ja ;
     kgc:source  "Lady Brackenstall is always reading a book in a small room downstairs"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/read> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/341>
@@ -4687,9 +4687,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/342>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーはレディー・ブラックンストールの部屋の窓をひっかいた"@ja ;
-    kgc:source  "Jack Crocker scratched the window of the room of Lady Brackenstall"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker scratched the window of the room of Lady Brackenstall"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/scratch> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/342>
     rdf:type    kgc:Situation ;
@@ -4700,26 +4700,26 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/343>
     rdf:type    kgc:Statement ;
     kgc:source  "レディー・ブラックンストールはジャック・クロッカーのことを愛している"@ja ;
-    kgc:source  "Lady Brackenstall love Jack Crocker"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Lady Brackenstall love Jack Croker"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/love> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/343>
     rdf:type    kgc:Situation ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/344>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーはレディー・ブラックンストールによりダイニングルームに招き入れられた"@ja ;
-    kgc:source  "Jack Crocker was invited to the dining room by Lady Brackenstall"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker was invited to the dining room by Lady Brackenstall"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/inviteIn> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/344>
     rdf:type    kgc:Situation ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/dining_room> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/344>
     rdf:type    kgc:Situation ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/344>
     rdf:type    kgc:Situation ;
     kgc:why   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/343> .
@@ -4729,9 +4729,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/345>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーはレディー・ブラックンストールから事情を聞いた"@ja ;
-    kgc:source  "Jack Crocker heard what happened from Lady Bracknstall"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker heard what happened from Lady Bracknstall"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hear> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/345>
     rdf:type    kgc:Situation ;
@@ -4745,9 +4745,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/346>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーはレディー・ブラックンストールと共に窓の内側に立っていた"@ja ;
-    kgc:source  "Jack Crocker was standing on the inside of the window along with the Lady Brackenstall"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker was standing on the inside of the window along with the Lady Brackenstall"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/stand> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/346>
@@ -4760,7 +4760,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Statement ;
     kgc:source  "サー・ユースタス・ブラックンストールが狂ったようにダイニングルームに駆け込んできた"@ja ;
     kgc:source  "Sir Eustace Brackenstall has rushed to the dining room like crazy"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sir_Eustace_Brackenstall> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/rush> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/347>
@@ -4773,7 +4773,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Statement ;
     kgc:source  "サー・ユースタス・ブラックンストールはステッキでレディー・ブラックンストールの顔を横から殴った"@ja ;
     kgc:source  "Sir Eustace Brackenstall hit the face of the Lady Brackenstall from the side with a stick"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sir_Eustace_Brackenstall> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hit> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/348>
@@ -4788,9 +4788,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/349>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーは火かき棒に飛びついた"@ja ;
-    kgc:source  "Jack Crocker jumped at the poker"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker jumped at the poker"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/349>
     rdf:type    kgc:Situation ;
@@ -4801,9 +4801,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/350>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーとサー・ユースタス・ブラックンストールは正々堂々戦った"@ja ;
-    kgc:source  "Jack Crocker and Sir Eustace Brackenstall fought fair and square"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker and Sir Eustace Brackenstall fought fair and square"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sir_Eustace_Brackenstall> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/fight> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/350>
@@ -4815,8 +4815,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/351>
     rdf:type    kgc:Statement ;
     kgc:source  "サー・ユースタス・ブラックンストールはジャック・クロッカーの腕に一撃加えた"@ja ;
-    kgc:source  "Sir Eustace Brackenstall added a blow to the arm of Jack Crocker"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Sir Eustace Brackenstall added a blow to the arm of Jack Croker"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sir_Eustace_Brackenstall> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hit> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/351>
@@ -4828,9 +4828,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/352>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーはサー・ユースタス・ブラックンストールを腐ったかぼちゃのようにやっつけた"@ja ;
-    kgc:source  "Jack Crocker beat Sir Eustace Blackenstall like a rotten pumpkin"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker beat Sir Eustace Blackenstall like a rotten pumpkin"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hit> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/・hasProperty→状態を表す>
     rdf:type    kgc:Situation ;
@@ -4844,9 +4844,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/353>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーは以下を後悔していない"@ja ;
-    kgc:source  "Jack Crocker does not regret the following"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker does not regret the following"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notRegret> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/353>
     rdf:type    kgc:Situation ;
@@ -4854,8 +4854,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/354>
     rdf:type    kgc:Situation ;
     kgc:source  "ジャック・クロッカーがサー・ユースタス・ブラックンストールを殺さない"@ja ;
-    kgc:source  "Jack Crocker does not kill Sir Eustace Brackenstall"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker does not kill Sir Eustace Brackenstall"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notKill> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/354>
     rdf:type    kgc:Situation ;
@@ -4863,9 +4863,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/355>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーが危なかった"@ja ;
-    kgc:source  "Jack Crocker was dangerous"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker was dangerous"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/dangerous> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/355>
     rdf:type    kgc:Situation ;
@@ -4874,7 +4874,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Thought ;
     kgc:source  "レディー・ブラックンストールが危なかった"@ja ;
     kgc:source  "Lady Brackenstall was dangerous"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Thought_of_Jack_Crocker> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Thought_of_Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/dangerous> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/356>
@@ -4883,9 +4883,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/357>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーはサー・ユースタス・ブラックンストールにレディー・ブラックンストールを残せなかった"@ja ;
-    kgc:source  "Jack Crocker could not leave Lady Blackenstall for Sir Eustace Blackenstall"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker could not leave Lady Blackenstall for Sir Eustace Blackenstall"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notLeave> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/357>
     rdf:type    kgc:Situation ;
@@ -4896,9 +4896,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/358>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーはサー・ユースタス・ブラックンストールを殺した"@ja ;
-    kgc:source  "Jack Crocker killed Sir Eustace Brackenstall"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker killed Sir Eustace Brackenstall"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/kill> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/358>
     rdf:type    kgc:Situation ;
@@ -4913,7 +4913,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Statement ;
     kgc:source  "レディー・ブラックンストールはサー・ユースタス・ブラックンストールに殴られた"@ja ;
     kgc:source  "Lady Brackenstall was beaten by Sir Eustace Brackenstall"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hit> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/359>
@@ -4923,7 +4923,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Statement ;
     kgc:source  "レディー・ブラックンストールは叫び声をあげた"@ja ;
     kgc:source  "Lady Brackenstall screamed"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/shout> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/360>
@@ -4939,7 +4939,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Statement ;
     kgc:source  "テリーサはレディー・ブラックンストールの叫び声を聞いた"@ja ;
     kgc:source  "Theresa heard the screams of Lady Brackenstall"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Theresa> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hear> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/361>
@@ -4952,7 +4952,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Statement ;
     kgc:source  "テリーサは上の部屋から降りてきた"@ja ;
     kgc:source  "Theresa came down from the top of the room"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Theresa> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/goDown> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/362>
@@ -4962,7 +4962,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Statement ;
     kgc:source  "サイドボードにワインの瓶があった"@ja ;
     kgc:source  "On the sideboard, there was a wine bottle"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Bottle_of_wine> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/exist> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/363>
@@ -4974,9 +4974,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/364>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーはワインの瓶を開けた"@ja ;
-    kgc:source  "Jack Crocker opened the bottle of wine"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker opened the bottle of wine"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/open> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/364>
     rdf:type    kgc:Situation ;
@@ -4985,7 +4985,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Statement ;
     kgc:source  "レディー・ブラックンストールはショックで死んだようになっている"@ja ;
     kgc:source  "Lady Brackenstall is as dead in shock"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/unconscious> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/365>
@@ -4994,9 +4994,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/366>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーはレディー・ブラックンストールの口にワインを少し注いだ"@ja ;
-    kgc:source  "Jack Crocker poured a little wine into the mouth of Lady Brackenstall"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker poured a little wine into the mouth of Lady Brackenstall"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/pour> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/366>
     rdf:type    kgc:Situation ;
@@ -5013,9 +5013,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/367>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーもワインを一杯飲んだ"@ja ;
-    kgc:source  "Jack Crocker also had a glass of wine"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker also had a glass of wine"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/drink> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/367>
     rdf:type    kgc:Situation ;
@@ -5026,10 +5026,10 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/368>
     rdf:type    kgc:Statement ;
     kgc:source  "テリーサとジャック・クロッカーが策略を考えた"@ja ;
-    kgc:source  "Theresa and Jack Crocker thought of the ruse"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Theresa and Jack Croker thought of the ruse"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Theresa> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/consider> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/368>
     rdf:type    kgc:Situation ;
@@ -5040,10 +5040,10 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/369>
     rdf:type    kgc:Statement ;
     kgc:source  "テリーサとジャック・クロッカーは事件を夜盗の仕業にした"@ja ;
-    kgc:source  "Theresa and Jack Crocker were involved in the work of burglary"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Theresa and Jack Croker were involved in the work of burglary"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Theresa> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/camouflage> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/369>
     rdf:type    kgc:Situation ;
@@ -5061,7 +5061,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Statement ;
     kgc:source  "テリーサは作り話を繰り返しレディー・ブラックンストールに聞かせた"@ja ;
     kgc:source  "Theresa let Lady Brackenstall repeat the apocryphal"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Theresa> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/370>
@@ -5079,9 +5079,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/371>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーはベルの紐を切った"@ja ;
-    kgc:source  "Jack Crocker cut the bell code"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker cut the bell code"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/cut> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/371>
     rdf:type    kgc:Situation ;
@@ -5092,9 +5092,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/372>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーはレディー・ブラックンストールを椅子に縛り付けた"@ja ;
-    kgc:source  "Jack Crocker was tied to chair the Lady Brackenstall"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker was tied to chair the Lady Brackenstall"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/tie> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/372>
     rdf:type    kgc:Situation ;
@@ -5105,9 +5105,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/373>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーは紐の端をほつれさせた"@ja ;
-    kgc:source  "Jack Crocker frayed the ends of the code"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker frayed the ends of the code"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/fray> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/373>
     rdf:type    kgc:Situation ;
@@ -5127,9 +5127,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/375>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーは泥棒というアイディアを貫徹したい"@ja ;
-    kgc:source  "Jack Crocker want to penetration of the idea of __thief"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker want to penetration of the idea of __thief"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/keep> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/375>
     rdf:type    kgc:Situation ;
@@ -5137,9 +5137,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/376>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーは銀のさらやポットをいくつかかき集めた"@ja ;
-    kgc:source  "Jack Crocker has gathered some of the silver plates and pots"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker has gathered some of the silver plates and pots"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/collect> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/376>
     rdf:type    kgc:Situation ;
@@ -5151,7 +5151,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Statement ;
     kgc:source  "テリーサとレディー・ブラックンストールは15分したら非常を知らせる"@ja ;
     kgc:source  "Theresa and Lady Brackenstall inform a police after the 15 minutes"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Theresa> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/inform> .
@@ -5164,9 +5164,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/378>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーは指示した"@ja ;
-    kgc:source  "Jack Crocker instructed"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker instructed"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/instruct> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/378>
     rdf:type    kgc:Situation ;
@@ -5180,9 +5180,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/379>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーは池の底に銀製品を落とした"@ja ;
-    kgc:source  "Jack Crocker dropped the silver product to the bottom of the pond"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker dropped the silver product to the bottom of the pond"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/drop> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/379>
     rdf:type    kgc:Situation ;
@@ -5193,9 +5193,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/380>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーは本当に良いことをした"@ja ;
-    kgc:source  "Jack Crocker did a really good thing"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker did a really good thing"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/perform> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/380>
     rdf:type    kgc:Situation ;
@@ -5203,9 +5203,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/381>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーは以下を思った"@ja ;
-    kgc:source  "Jack Crocker thought the following"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker thought the following"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/think> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/381>
     rdf:type    kgc:Situation ;
@@ -5216,9 +5216,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/382>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーはシドナムへ向かった"@ja ;
-    kgc:source  "Jack Crocker went to Sydenham"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker went to Sydenham"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/go> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/382>
     rdf:type    kgc:Situation ;
@@ -5226,8 +5226,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/383>
     rdf:type    kgc:Situation ;
     kgc:source  "ジャック・クロッカーは真実を話した"@ja ;
-    kgc:source  "Jack Crocker told the truth"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker told the truth"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/383>
     rdf:type    kgc:Situation ;
@@ -5238,22 +5238,22 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/384>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズはジャック・クロッカーの手を握った"@ja ;
-    kgc:source  "Holmes was holding the hand of Jack Crocker"@en ;
+    kgc:source  "Holmes was holding the hand of Jack Croker"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hold> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/384>
     rdf:type    kgc:Situation ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/hand_of_Jack_Crocker> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/hand_of_Jack_Croker> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/385>
     rdf:type    kgc:Statement ;
     kgc:source  "ホームズはジャック・クロッカーの一言一言が真実であるとわかる"@ja ;
-    kgc:source  "Holmes finds Jack Crocker's story to be true"@en ;
+    kgc:source  "Holmes finds Jack Croker's story to be true"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holmes> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/believe> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/385>
     rdf:type    kgc:Situation ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Testimony_of_Jack_Crocker> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Testimony_of_Jack_Croker> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/・Opposite（反対側）>
     rdf:type    kgc:Situation ;
     kgc:   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/370> .
@@ -5263,8 +5263,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/386>
     rdf:type    kgc:Situation ;
     kgc:source  "ジャック・クロッカーはホームズの知らないことを言わなかった"@ja ;
-    kgc:source  "Jack Crocker never told Holmes what he didn't know"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker never told Holmes what he didn't know"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notSay> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/386>
     rdf:type    kgc:Situation ;
@@ -5393,16 +5393,16 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/395>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーの行動は極めて重大な問題である"@ja ;
-    kgc:source  "Behavior of Jack Crocker is an extremely serious problem"@en ;
+    kgc:source  "Behavior of Jack Croker is an extremely serious problem"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holmes> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Behavior_of_Jack_Crocker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Behavior_of_Jack_Croker> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/Serious_problems> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/396>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーの行動は正当防衛である"@ja ;
-    kgc:source  "Behavior of Jack Crocker is in self-defense."@en ;
+    kgc:source  "Behavior of Jack Croker is in self-defense."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holmes> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Behavior_of_Jack_Crocker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Behavior_of_Jack_Croker> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/self-defense> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/397>
     rdf:type    kgc:Statement ;
@@ -5423,32 +5423,32 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/398>
     rdf:type    kgc:Statement ;
     kgc:source  "ホームズはジャック・クロッカーにおおいに同情している"@ja ;
-    kgc:source  "Holmes has shown much sympathy for Jack Crocker"@en ;
+    kgc:source  "Holmes has shown much sympathy for Jack Croker"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holmes> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sympathy> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/398>
     rdf:type    kgc:Situation ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/399>
     rdf:type    kgc:Statement ;
     kgc:source  "誰もジャック・クロッカーを妨げない"@ja ;
-    kgc:source  "No one prevents Jack Crocker"@en ;
+    kgc:source  "No one prevents Jack Croker"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holmes> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/everyone> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notInterfere> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/399>
     rdf:type    kgc:Situation ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/399>
     rdf:type    kgc:Situation ;
     kgc:if   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/399a> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/399a>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーが二十四時間以内に姿を隠す"@ja ;
-    kgc:source  "Jack Crocker hide the appearance within twenty-four hours"@en ;
+    kgc:source  "Jack Croker hide the appearance within twenty-four hours"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holmes> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hide> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/399a>
     rdf:type    kgc:Situation ;
@@ -5469,9 +5469,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/401>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーは隠れる"@ja ;
-    kgc:source  "Jack Crocker is hidden"@en ;
+    kgc:source  "Jack Croker is hidden"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holmes> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hide> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/401>
     rdf:type    kgc:Situation ;
@@ -5493,7 +5493,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Statement ;
     kgc:source  "レディー・ブラックンストールは共犯者として非難を受ける"@ja ;
     kgc:source  "Lady Brackenstall receives the accused as an accomplice"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/police> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/concider> .
@@ -5513,9 +5513,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/405>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーはレディー・ブラックンストールを置いて逃げない"@ja ;
-    kgc:source  "Jack Crocker will not run away at Lady Brackenstall"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:source  "Jack Croker will not run away at Lady Brackenstall"@en ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notEscape> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/405>
     rdf:type    kgc:Situation ;
@@ -5523,13 +5523,13 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/406>
     rdf:type    kgc:Statement ;
     kgc:source  "ホームズはジャック・クロッカーを試していた"@ja ;
-    kgc:source  "Holmes only had to try Jack Crocker"@en ;
+    kgc:source  "Holmes only had to try Jack Croker"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holmes> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/try> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/406>
     rdf:type    kgc:Situation ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sincerity_of_Jack_Crocker> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sincerity_of_Jack_Croker> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/406>
     rdf:type    kgc:Situation ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/407> .
@@ -5550,12 +5550,12 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/408>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズはジャック・クロッカーの罪をワトソンに聞いた"@ja ;
-    kgc:source  "Holmes asked Watson about Jack Crocker's crimes"@en ;
+    kgc:source  "Holmes asked Watson about Jack Croker's crimes"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/ask> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/408>
     rdf:type    kgc:Situation ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sin_of_Jack_Crocker> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sin_of_Jack_Croker> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/408>
     rdf:type    kgc:Situation ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Watson> .
@@ -5565,9 +5565,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/409>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーは無罪である"@ja ;
-    kgc:source  "Jack Crocker is innocent"@en ;
+    kgc:source  "Jack Croker is innocent"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Watson> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/innocent> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/410>
     rdf:type    kgc:Statement ;
@@ -5582,9 +5582,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/411>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーは無罪放免である"@ja ;
-    kgc:source  "Jack Crocker was acquitted"@en ;
+    kgc:source  "Jack Croker was acquitted"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holmes> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notHave> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/411>
     rdf:type    kgc:Situation ;
@@ -5601,9 +5601,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/413>
     rdf:type    kgc:Statement ;
     kgc:source  "ジャック・クロッカーはホームズのことを信じる"@ja ;
-    kgc:source  "Jack Crocker believes Holmes"@en ;
+    kgc:source  "Jack Croker believes Holmes"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holmes> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/believe> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/413>
     rdf:type    kgc:Situation ;
@@ -5750,9 +5750,6 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "招き入れる"@ja;
     rdfs:label     "inviteIn"@en.
-<http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker>
-    rdfs:label     "Jack Crocker"@en;
-    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/cord>
     rdfs:label     "cord"@en;
     rdf:type    kgc:Object.
@@ -5773,7 +5770,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "cannotMove"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/pour>
     rdf:type    kgc:Action;
-    rdfs:label     "注ぐ"@ja;
+    rdfs:label     "浴びせる"@ja;
     rdfs:label     "pour"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/bottle_of_wine>
     rdf:type    kgc:PhysicalObject;
@@ -6030,7 +6027,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "amiable"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/hit>
     rdf:type    kgc:Action;
-    rdfs:label     "打つ"@ja;
+    rdfs:label     "殴る"@ja;
     rdfs:label     "hit"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notMarry>
     rdf:type    kgc:Action;
@@ -6052,6 +6049,13 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "7月"@ja;
     rdfs:label     "July"@en;
     rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/AbbeyGrange/Career_of_Jack_Croker>
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "ジャック・クロッカーの経歴"@ja;
+    rdfs:label     "Career of Jack Croker"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Career>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Heavy_curved_poker>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "曲がった重い火かき棒"@ja;
@@ -6083,7 +6087,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "believe"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/fill>
     rdf:type    kgc:Action;
-    rdfs:label     "満たす"@ja;
+    rdfs:label     "埋めつくす"@ja;
     rdfs:label     "fill"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/15_minutes>
     rdf:type    kgc:PhysicalObject;
@@ -6200,6 +6204,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "冷やす"@ja;
     rdfs:label     "chill"@en.
+<http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sincerity_of_Jack_Croker>
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "ジャック・クロッカーの誠実さ"@ja;
+    rdfs:label     "Sincerity of Jack Croker"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sincerity>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/dregs>
     rdfs:label     "dregs"@en;
     rdf:type    kgc:Object.
@@ -6213,7 +6224,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "cigar"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/wakeUp>
     rdf:type    kgc:Action;
-    rdfs:label     "起こす"@ja;
+    rdfs:label     "起きる"@ja;
     rdfs:label     "wakeUp"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/hide>
     rdf:type    kgc:Action;
@@ -6232,7 +6243,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/the_Abbey_Grange>.
 <http://kgc.knowledge-graph.jp/data/predicate/repeat>
     rdf:type    kgc:Action;
-    rdfs:label     "繰り返す"@ja;
+    rdfs:label     "重ねる"@ja;
     rdfs:label     "repeat"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/hate>
     rdf:type    kgc:Action;
@@ -6272,7 +6283,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "fear"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/receive>
     rdf:type    kgc:Action;
-    rdfs:label     "受ける"@ja;
+    rdfs:label     "受け取る"@ja;
     rdfs:label     "receive"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/window_of_room_of_Lady_Brackenstall>
     rdf:type    kgc:PhysicalObject;
@@ -6337,8 +6348,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/put>
     rdf:type    kgc:Action;
     rdfs:label     "置く"@ja;
-    rdfs:label     "put"@en;
-    rdfs:label     "乗せる"@ja.
+    rdfs:label     "put"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/hand>
     rdfs:label     "hand"@en;
     rdf:type    kgc:Object.
@@ -6408,11 +6418,11 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Small three windows"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/command>
     rdf:type    kgc:Action;
-    rdfs:label     "命令する"@ja;
+    rdfs:label     "指揮を執る"@ja;
     rdfs:label     "command"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/consider>
     rdf:type    kgc:Action;
-    rdfs:label     "考慮する"@ja;
+    rdfs:label     "考える"@ja;
     rdfs:label     "consider"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/revive>
     rdf:type    kgc:Action;
@@ -6456,15 +6466,6 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "しらふ"@ja;
     rdfs:label     "sober"@en.
-<http://kgc.knowledge-graph.jp/data/AbbeyGrange/Behavior_of_Jack_Crocker>
-    rdf:type    kgc:PhysicalObject;
-    rdfs:label     "ジャック・クロッカーの行動は"@ja;
-    rdfs:label     "Behavior of Jack Crocker"@en;
-    rdf:type    kgc:OFobj;
-    rdf:type    kgc:Person;
-    rdfs:label     "ジャック・クロッカーの行動"@ja;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Behavior>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Upper_limbs>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "上肢"@ja;
@@ -6608,13 +6609,6 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Person;
     rdfs:label     "使い"@ja;
     rdfs:label     "use"@en.
-<http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sincerity_of_Jack_Crocker>
-    rdf:type    kgc:PhysicalObject;
-    rdfs:label     "ジャック・クロッカーの誠実さ"@ja;
-    rdfs:label     "Sincerity of Jack Crocker"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sincerity>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker>.
 <http://kgc.knowledge-graph.jp/data/predicate/demon>
     rdf:type    kgc:Property;
     rdfs:label     "鬼のようである"@ja;
@@ -6626,13 +6620,6 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Marriage>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall>.
-<http://kgc.knowledge-graph.jp/data/AbbeyGrange/Testimony_of_Jack_Crocker>
-    rdf:type    kgc:PhysicalObject;
-    rdfs:label     "ジャック・クロッカーの証言"@ja;
-    rdfs:label     "Testimony of Jack Crocker"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Testimony>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker>.
 <http://kgc.knowledge-graph.jp/data/predicate/Friendly>
     rdf:type    kgc:Property;
     rdfs:label     "忠実"@ja;
@@ -6716,7 +6703,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall>.
 <http://kgc.knowledge-graph.jp/data/predicate/return>
     rdf:type    kgc:Action;
-    rdfs:label     "戻る"@ja;
+    rdfs:label     "帰る"@ja;
     rdfs:label     "return"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holes_of_pond>
     rdf:type    kgc:PhysicalObject;
@@ -6738,8 +6725,15 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Book"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/keep>
     rdf:type    kgc:Action;
-    rdfs:label     "維持する"@ja;
+    rdfs:label     "飼っている"@ja;
     rdfs:label     "keep"@en.
+<http://kgc.knowledge-graph.jp/data/AbbeyGrange/hand_of_Jack_Croker>
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "ジャック・クロッカーの手"@ja;
+    rdfs:label     "hand of Jack Croker"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/hand>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker>.
 <http://kgc.knowledge-graph.jp/data/predicate/report>
     rdf:type    kgc:Action;
     rdfs:label     "報告する"@ja;
@@ -6889,7 +6883,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "complaint"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/request>
     rdf:type    kgc:Action;
-    rdfs:label     "依頼する"@ja;
+    rdfs:label     "要求する"@ja;
     rdfs:label     "request"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/window>
     rdf:type    kgc:Place;
@@ -6997,6 +6991,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "事件"@ja;
     rdfs:label     "case"@en.
+<http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sin_of_Jack_Croker>
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "ジャック・クロッカーの罪"@ja;
+    rdfs:label     "Sin of Jack Croker"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sin>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Recovery>
     rdfs:label     "Recovery"@en;
     rdf:type    kgc:Object.
@@ -7007,8 +7008,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/meet>
     rdf:type    kgc:Action;
     rdfs:label     "会う"@ja;
-    rdfs:label     "meet"@en;
-    rdfs:label     "出会う"@ja.
+    rdfs:label     "meet"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/smart>
     rdf:type    kgc:Property;
     rdfs:label     "利口である"@ja;
@@ -7057,13 +7057,6 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/a_cup>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/wine>.
-<http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sin_of_Jack_Crocker>
-    rdf:type    kgc:PhysicalObject;
-    rdfs:label     "ジャック・クロッカーの罪"@ja;
-    rdfs:label     "Sin of Jack Crocker"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sin>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/High_French_windows>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "フランス窓"@ja;
@@ -7130,7 +7123,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holmes>.
 <http://kgc.knowledge-graph.jp/data/predicate/include>
     rdf:type    kgc:Action;
-    rdfs:label     "である"@ja;
+    rdfs:label     "含んでいる"@ja;
     rdfs:label     "include"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/clean>
     rdf:type    kgc:Property;
@@ -7280,13 +7273,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdf:type    kgc:CanNotAction;
     kgc:canNot    <http://kgc.knowledge-graph.jp/data/predicate/find>;
-    rdfs:label     "見つけられない"@ja;
+    rdfs:label     "見つからない"@ja;
     rdfs:label     "cannotFind"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/notExamine>
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/examine>;
-    rdfs:label     "調べない"@ja;
+    rdfs:label     "あさらない"@ja;
     rdfs:label     "notExamine"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/putOut>
     rdf:type    kgc:Action;
@@ -7304,11 +7297,6 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "早い時間帯"@ja;
     rdfs:label     "early time"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/AbbeyGrange/Thought_of_Jack_Crocker>
-    rdfs:label     "Thought of Jack Crocker"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Thought>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker>.
 <http://kgc.knowledge-graph.jp/data/predicate/wonderful>
     rdf:type    kgc:Property;
     rdfs:label     "すばらしい"@ja;
@@ -7528,7 +7516,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/have>;
-    rdfs:label     "持たない"@ja;
+    rdfs:label     "not持つ"@ja;
     rdfs:label     "notHave"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/callBack>
     rdf:type    kgc:Action;
@@ -7557,6 +7545,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/room>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Blackenstall>.
+<http://kgc.knowledge-graph.jp/data/AbbeyGrange/Testimony_of_Jack_Croker>
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "ジャック・クロッカーの証言"@ja;
+    rdfs:label     "Testimony of Jack Croker"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Testimony>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker>.
 <http://kgc.knowledge-graph.jp/data/predicate/leaveBehind>
     rdf:type    kgc:Action;
     rdfs:label     "置いていく"@ja;
@@ -7573,7 +7568,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "6 feet 3 inch"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/try>
     rdf:type    kgc:Action;
-    rdfs:label     "試みる"@ja;
+    rdfs:label     "しようとする"@ja;
     rdfs:label     "try"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/promise>
     rdf:type    kgc:Action;
@@ -7591,15 +7586,9 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "演ずる"@ja;
     rdfs:label     "perform"@en.
-<http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker>
-    rdf:type    kgc:Person;
-    rdfs:label     "ジャック・クロッカー"@ja;
-    rdfs:label     "Jack Crocker"@en;
-    rdfs:label     "ジャック・クロッカ―"@ja;
-    rdfs:label     "レディー・ブラックンストール"@ja.
 <http://kgc.knowledge-graph.jp/data/predicate/goDown>
     rdf:type    kgc:Action;
-    rdfs:label     "下りる"@ja;
+    rdfs:label     "降りる"@ja;
     rdfs:label     "goDown"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/newspaper>
     rdf:type    kgc:PhysicalObject;
@@ -7694,7 +7683,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/wear>
     rdf:type    kgc:Property;
-    rdfs:label     "着ている"@ja;
+    rdfs:label     "着る"@ja;
     rdfs:label     "wear"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/conscience>
     rdf:type    kgc:PhysicalObject;
@@ -7781,6 +7770,9 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "殺す"@ja;
     rdfs:label     "kill"@en.
+<http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker>
+    rdfs:label     "Jack Croker"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/nice>
     rdf:type    kgc:Action;
     rdfs:label     "素敵である"@ja;
@@ -7795,7 +7787,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "similarly"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/getOff>
     rdf:type    kgc:Action;
-    rdfs:label     "下車する"@ja;
+    rdfs:label     "飛び降りる"@ja;
     rdfs:label     "getOff"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/［複数行可］下記から種類を選択の上「目的語」を記入>
     rdfs:label     "Holmes approaches the bell string"@ja;
@@ -7943,6 +7935,12 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "来る"@ja;
     rdfs:label     "come"@en.
+<http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker>
+    rdf:type    kgc:Person;
+    rdfs:label     "ジャック・クロッカー"@ja;
+    rdfs:label     "Jack Croker"@en;
+    rdfs:label     "ジャック・クロッカ―"@ja;
+    rdfs:label     "レディー・ブラックンストール"@ja.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Blinding>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "目くらまし"@ja;
@@ -7953,15 +7951,20 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "voyage"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/work>
     rdf:type    kgc:Action;
-    rdfs:label     "仕事をする"@ja;
+    rdfs:label     "働く"@ja;
     rdfs:label     "work"@en.
+<http://kgc.knowledge-graph.jp/data/AbbeyGrange/Thought_of_Jack_Croker>
+    rdfs:label     "Thought of Jack Croker"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Thought>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Kitchen>
     rdf:type    kgc:Place;
     rdfs:label     "調理場"@ja;
     rdfs:label     "Kitchen"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/pullOut>
     rdf:type    kgc:Action;
-    rdfs:label     "引き出す"@ja;
+    rdfs:label     "引きだす"@ja;
     rdfs:label     "pullOut"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/free>
     rdfs:label     "自由である"@ja;
@@ -7993,17 +7996,17 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/siblings>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall>.
+<http://kgc.knowledge-graph.jp/data/AbbeyGrange/Personality_of_Jack_Croker>
+    rdf:type    kgc:PhysicalObject;
+    rdfs:label     "ジャック・クロッカーの性格"@ja;
+    rdfs:label     "Personality of Jack Croker"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Personality>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker>.
 <http://kgc.knowledge-graph.jp/data/predicate/sit>
     rdf:type    kgc:Action;
     rdfs:label     "座る"@ja;
     rdfs:label     "sit"@en.
-<http://kgc.knowledge-graph.jp/data/AbbeyGrange/hand_of_Jack_Crocker>
-    rdf:type    kgc:PhysicalObject;
-    rdfs:label     "ジャック・クロッカーの手"@ja;
-    rdfs:label     "hand of Jack Crocker"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/hand>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Kent>
     rdf:type    kgc:Place;
     rdfs:label     "ケント"@ja;
@@ -8055,7 +8058,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/glass>.
 <http://kgc.knowledge-graph.jp/data/predicate/focus>
     rdf:type    kgc:Action;
-    rdfs:label     "注目する"@ja;
+    rdfs:label     "集中している"@ja;
     rdfs:label     "focus"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/hear>
     rdf:type    kgc:Action;
@@ -8078,7 +8081,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdf:type    kgc:NotAction;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/want>;
-    rdfs:label     "望まない"@ja;
+    rdfs:label     "したくない"@ja;
     rdfs:label     "notWant"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Dining_room_of_Abbey_Grange>
     rdf:type    kgc:Place;
@@ -8194,13 +8197,15 @@ kgc:Thought rdf:type owl:Class ;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/contact>;
     rdfs:label     "連絡しない"@ja;
     rdfs:label     "notContact"@en.
-<http://kgc.knowledge-graph.jp/data/AbbeyGrange/Personality_of_Jack_Crocker>
+<http://kgc.knowledge-graph.jp/data/AbbeyGrange/Behavior_of_Jack_Croker>
     rdf:type    kgc:PhysicalObject;
-    rdfs:label     "ジャック・クロッカーの性格"@ja;
-    rdfs:label     "Personality of Jack Crocker"@en;
+    rdfs:label     "ジャック・クロッカーの行動は"@ja;
+    rdfs:label     "Behavior of Jack Croker"@en;
     rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Personality>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker>.
+    rdf:type    kgc:Person;
+    rdfs:label     "ジャック・クロッカーの行動"@ja;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Behavior>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/early_morning>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "朝早く"@ja;
@@ -8264,7 +8269,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/goUp>
     rdf:type    kgc:Action;
-    rdfs:label     "上がる"@ja;
+    rdfs:label     "上る"@ja;
     rdfs:label     "goUp"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Voice_of_the_people>
     rdf:type    kgc:PhysicalObject;
@@ -8417,7 +8422,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall>.
 <http://kgc.knowledge-graph.jp/data/predicate/attend>
     rdf:type    kgc:Action;
-    rdfs:label     "参加する"@ja;
+    rdfs:label     "立ち会う"@ja;
     rdfs:label     "attend"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/pajama>
     rdf:type    kgc:PhysicalObject;
@@ -8485,7 +8490,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "cache"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/stay>
     rdf:type    kgc:Action;
-    rdfs:label     "留まる"@ja;
+    rdfs:label     "滞在する"@ja;
     rdfs:label     "stay"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/sprinkle>
     rdf:type    kgc:Action;
@@ -8545,8 +8550,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "開く"@ja;
     rdfs:label     "open"@en;
-    rdf:type    kgc:Action;
-    rdfs:label     "開ける"@ja.
+    rdf:type    kgc:Action.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Brutal_character_of_criminal>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "犯人の残忍な性格"@ja;
@@ -8586,7 +8590,7 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "swell"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/grab>
     rdf:type    kgc:Action;
-    rdfs:label     "掴む"@ja;
+    rdfs:label     "つかむ"@ja;
     rdfs:label     "grab"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Suez_Canal>
     rdf:type    kgc:Place;
@@ -8677,7 +8681,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/case>.
 <http://kgc.knowledge-graph.jp/data/predicate/fight>
     rdf:type    kgc:Action;
-    rdfs:label     "戦う"@ja;
+    rdfs:label     "格闘する"@ja;
     rdfs:label     "fight"@en.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Death_of_Sir_Eustace_brackenstall>
     rdf:type    kgc:PhysicalObject;
@@ -8742,13 +8746,6 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "十分"@ja;
     rdfs:label     "sufficient"@en.
-<http://kgc.knowledge-graph.jp/data/AbbeyGrange/Career_of_Jack_Crocker>
-    rdf:type    kgc:PhysicalObject;
-    rdfs:label     "ジャック・クロッカーの経歴"@ja;
-    rdfs:label     "Career of Jack Crocker"@en;
-    rdf:type    kgc:OFobj;
-    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Career>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Crocker>.
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/law_of_England>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "イングランドの法"@ja;
@@ -8782,8 +8779,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "ほつれている"@ja;
     rdfs:label     "fray"@en;
-    rdf:type    kgc:Action;
-    rdfs:label     "ほつれさせる"@ja.
+    rdf:type    kgc:Action.
 <http://kgc.knowledge-graph.jp/data/predicate/fix>
     rdf:type    kgc:Action;
     rdfs:label     "固定する"@ja;
@@ -8794,7 +8790,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/want>
     rdf:type    kgc:Action;
-    rdfs:label     "望む"@ja;
+    rdfs:label     "したい"@ja;
     rdfs:label     "want"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/Voice>
     rdfs:label     "Voice"@en;
