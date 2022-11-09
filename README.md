@@ -1,6 +1,6 @@
 [![CC BY 4.0][cc-by-shield]][cc-by]  
 
-This repogitory is for for public use of the Open Knowledge Graph for **[the First International Knowledge Graph Reasoning Challenge 2020](https://ikgrc.org/2023/)**.  
+This repogitory is for for public use of the Open Knowledge Graph for **[the First International Knowledge Graph Reasoning Challenge 2023](https://ikgrc.org/2023/)**.  
 
 ## SPARQL endpoint
 - http://kg.hozo.jp/fuseki/ikgrc/sparql (for use as API)
