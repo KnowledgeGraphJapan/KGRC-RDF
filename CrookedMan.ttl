@@ -2943,9 +2943,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sell> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Barclay> ;
-    kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/rebels> .
-<http://kgc.knowledge-graph.jp/data/CrookedMan/317>
-    rdf:type    kgc:Situation ;
+    kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/rebels> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/Henry> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1857-07-09> ;
     kgc:time  "1857-07-09T00:00:00"^^xsd:dateTime ;
@@ -4353,9 +4351,9 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "Samuel"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/1857-07-09>
+    rdf:type    kgc:AbstractTime;
     rdfs:label     "1857年7月9日"@ja;
-    rdfs:label     "1857-07-09"@en;
-    rdf:type    kgc:Object.
+    rdfs:label     "1857-07-09"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/survive>
     rdf:type    kgc:Action;
     rdfs:label     "生き延びる"@ja;

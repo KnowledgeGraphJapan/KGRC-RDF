@@ -429,15 +429,13 @@ kgc:Thought rdf:type owl:Class ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/029> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/030> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/028>
-    rdf:type    kgc:Situation ;
-    kgc:source  "妙な事件がパーシィ・トリヴェリアンの自宅で立て続けに起こった"@ja .
-<http://kgc.knowledge-graph.jp/data/ResidentPatient/028>
     rdf:type    kgc:Statement ;
+    kgc:source  "妙な事件がパーシィ・トリヴェリアンの自宅で立て続けに起こった"@ja ;
+    kgc:source  "A strange incident occurred in quick succession at his home."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Strange_incident> ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/occur> .
-<http://kgc.knowledge-graph.jp/data/ResidentPatient/028>
-    rdf:type    kgc:Situation ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/occur> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Home_of_Percy_Trevelyan> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/ResidentPatient/In_quick_succession> ;
     kgc:time  "1889-10-01T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/1889-10-01> .
@@ -3802,6 +3800,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/a_line>
     rdfs:label     "a line"@en;
     rdf:type    kgc:Object.
+<http://kgc.knowledge-graph.jp/data/ResidentPatient/Home>
+    rdfs:label     "Home"@en;
+    rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/Stretched_back>
     rdfs:label     "背をのばして"@ja;
     rdfs:label     "Stretched back"@en;
@@ -3969,6 +3970,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:AbstractTime;
     rdfs:label     "三時間前"@ja;
     rdfs:label     "3 hours ago"@en.
+<http://kgc.knowledge-graph.jp/data/ResidentPatient/Home_of_Percy_Trevelyan>
+    rdf:type    kgc:Place;
+    rdfs:label     "パーシィ・トリヴェリアンの自宅"@ja;
+    rdfs:label     "Home of Percy Trevelyan"@en;
+    rdf:type    kgc:OFobj;
+    kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Home>;
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ResidentPatient/Percy_Trevelyan>.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/cigar>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "葉巻"@ja;
