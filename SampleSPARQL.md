@@ -4,37 +4,37 @@ These are samples to query Open Knowledge Graph for [The 1st International Knowl
 - SPARQL Endpoint 
 http://knowledge-graph.jp/sparql-ikgrc.html  
 
-## Get all triples of Scene#36 in "Speckled Band"
+## Get all triples of Scene#036 in "Speckled Band"
 ```
 PREFIX kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#>
 
 SELECT DISTINCT *
 FROM <http://kgc.knowledge-graph.jp/data/SpeckledBand>
 WHERE {
-  <http://kgc.knowledge-graph.jp/data/SpeckledBand/36> ?p ?o .
+  <http://kgc.knowledge-graph.jp/data/SpeckledBand/036> ?p ?o .
 }
 ```
 
 
-## Get "hasPredicate" of Scene#36 in "Speckled Band".
+## Get "hasPredicate" of Scene#036 in "Speckled Band".
 ```
 PREFIX kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#>
 
 SELECT DISTINCT *
 FROM <http://kgc.knowledge-graph.jp/data/SpeckledBand>
 WHERE {
-  <http://kgc.knowledge-graph.jp/data/SpeckledBand/36> kgc:hasPredicate ?o .
+  <http://kgc.knowledge-graph.jp/data/SpeckledBand/036> kgc:hasPredicate ?o .
 }
 ```
 
-## Get "subject" of Scene#36 in "Speckled Band".
+## Get "subject" of Scene#036 in "Speckled Band".
 ```
 PREFIX kgc: <http://kgc.knowledge-graph.jp/ontology/kgc.owl#>
 
 SELECT DISTINCT *
 FROM <http://kgc.knowledge-graph.jp/data/SpeckledBand>
 WHERE {
-  <http://kgc.knowledge-graph.jp/data/SpeckledBand/36> kgc:subject ?o .
+  <http://kgc.knowledge-graph.jp/data/SpeckledBand/036> kgc:subject ?o .
 }
 ```
 ## Get all "hasPredicate" in "Speckled Band".
