@@ -1,6 +1,20 @@
 @prefix ex: <http://example.org/virtualhome2kg/instance/> .
 @prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
 
+ex:event0_admire_art_scene1 vh2kg:place ex:bedroom75_scene1 .
+
+ex:event0_admire_art_scene2 vh2kg:place ex:bedroom193_scene2 .
+
+ex:event0_admire_art_scene3 vh2kg:place ex:bedroom351_scene3 .
+
+ex:event0_admire_art_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event0_admire_art_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event0_admire_art_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event0_admire_art_scene7 vh2kg:place ex:livingroom201_scene7 .
+
 ex:event0_admire_paintings_scene1 vh2kg:place ex:livingroom336_scene1 .
 
 ex:event0_browse_internet_scene1 vh2kg:place ex:livingroom336_scene1 .
@@ -9,21 +23,271 @@ ex:event0_brush_teeth_scene1 vh2kg:place ex:bathroom11_scene1 .
 
 ex:event0_carry_box_scene1 vh2kg:place ex:bedroom74_scene1 .
 
-ex:event0_change_tv_channel_scene1 vh2kg:from ex:bathroom11_scene1 ;
-    vh2kg:to ex:livingroom336_scene1 .
+ex:event0_clean_desk_scene1 vh2kg:place ex:livingroom339_scene1 .
 
-ex:event0_clean_desk_scene1 vh2kg:place ex:bedroom74_scene1 .
+ex:event0_clean_desk_scene2 vh2kg:place ex:livingroom268_scene2 .
 
-ex:event0_cook_food_scene1 vh2kg:from ex:livingroom336_scene1 ;
-    vh2kg:to ex:kitchen207_scene1 .
+ex:event0_clean_desk_scene4 vh2kg:place ex:livingroom271_scene4 .
 
-ex:event0_cook_some_food_scene1 vh2kg:from ex:bathroom11_scene1 ;
-    vh2kg:to ex:kitchen207_scene1 .
+ex:event0_clean_desk_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event0_clean_desk_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event0_clean_desk_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event0_clean_fridge_scene1 vh2kg:place ex:kitchen208_scene1 .
+
+ex:event0_clean_fridge_scene2 vh2kg:place ex:kitchen50_scene2 .
+
+ex:event0_clean_fridge_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event0_clean_fridge_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event0_clean_fridge_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event0_clean_fridge_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event0_clean_fridge_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event0_clean_kitchen_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event0_clean_kitchen_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event0_clean_kitchen_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event0_clean_kitchen_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event0_clean_kitchen_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event0_clean_kitchen_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event0_clean_kitchen_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event0_clean_livingroom_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event0_clean_livingroom_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event0_clean_livingroom_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event0_clean_livingroom_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event0_clean_livingroom_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event0_clean_livingroom_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event0_clean_livingroom_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event0_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event0_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event0_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event0_clean_sink_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event0_clean_sink_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event0_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event0_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event0_clean_sofa_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event0_clean_sofa_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event0_clean_sofa_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event0_clean_sofa_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event0_clean_sofa_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event0_clean_sofa_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event0_clean_sofa_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event0_clean_stove_scene1 vh2kg:place ex:kitchen208_scene1 .
+
+ex:event0_clean_stove_scene2 vh2kg:place ex:kitchen50_scene2 .
+
+ex:event0_clean_stove_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event0_clean_stove_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event0_clean_stove_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event0_clean_stove_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event0_clean_stove_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event0_clean_table_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event0_clean_table_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event0_clean_table_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event0_clean_table_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event0_clean_table_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event0_clean_table_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event0_clean_table_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event0_clean_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event0_clean_television_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event0_clean_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event0_clean_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event0_clean_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event0_clean_television_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event0_clean_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event0_drink_alcohol_scene1 vh2kg:place ex:kitchen208_scene1 .
+
+ex:event0_drink_alcohol_scene2 vh2kg:place ex:kitchen50_scene2 .
+
+ex:event0_drink_alcohol_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event0_drink_alcohol_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event0_drink_alcohol_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event0_drink_alcohol_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event0_drink_alcohol_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event0_drink_alcohol_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event0_drink_alcohol_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event0_drink_alcohol_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event0_drink_alcohol_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event0_drink_alcohol_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event0_drink_alcohol_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event0_drink_alcohol_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event0_drink_juice_scene1 vh2kg:place ex:kitchen208_scene1 .
+
+ex:event0_drink_juice_scene2 vh2kg:place ex:kitchen50_scene2 .
+
+ex:event0_drink_juice_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event0_drink_juice_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event0_drink_juice_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event0_drink_juice_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event0_drink_juice_scene7 vh2kg:place ex:bedroom286_scene7 .
+
+ex:event0_drink_juice_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event0_drink_juice_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event0_drink_juice_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event0_drink_juice_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event0_drink_juice_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event0_drink_juice_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event0_drink_juice_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event0_drink_milk_scene1 vh2kg:place ex:kitchen208_scene1 .
+
+ex:event0_drink_milk_scene2 vh2kg:place ex:kitchen50_scene2 .
+
+ex:event0_drink_milk_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event0_drink_milk_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event0_drink_milk_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event0_drink_milk_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event0_drink_milk_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event0_drink_milk_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event0_drink_milk_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event0_drink_milk_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event0_drink_milk_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event0_drink_milk_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event0_drink_milk_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event0_drink_milk_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
 
 ex:event0_drink_scene1 vh2kg:place ex:kitchen207_scene1 .
 
-ex:event0_eat_bread_scene1 vh2kg:from ex:bedroom74_scene1 ;
-    vh2kg:to ex:kitchen207_scene1 .
+ex:event0_drink_wine_scene1 vh2kg:place ex:kitchen208_scene1 .
+
+ex:event0_drink_wine_scene2 vh2kg:place ex:kitchen50_scene2 .
+
+ex:event0_drink_wine_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event0_drink_wine_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event0_drink_wine_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event0_drink_wine_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event0_drink_wine_scene7 vh2kg:place ex:bedroom286_scene7 .
+
+ex:event0_drink_wine_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event0_drink_wine_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event0_drink_wine_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event0_drink_wine_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event0_drink_wine_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event0_drink_wine_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event0_drink_wine_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event0_eat_bread_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event0_eat_bread_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event0_eat_bread_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event0_eat_bread_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event0_eat_bread_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event0_eat_bread_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event0_eat_bread_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event0_eat_cupcake_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event0_eat_cupcake_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event0_eat_cupcake_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event0_eat_cupcake_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event0_eat_cupcake_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event0_eat_cupcake_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event0_eat_cupcake_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
 
 ex:event0_find_some_food_scene1 vh2kg:place ex:kitchen207_scene1 .
 
@@ -31,61 +295,589 @@ ex:event0_go_to_sleep_scene1 vh2kg:place ex:bedroom74_scene1 .
 
 ex:event0_go_to_toilet_scene1 vh2kg:place ex:bathroom11_scene1 .
 
-ex:event0_leaving_room_scene1 vh2kg:from ex:bedroom74_scene1 ;
-    vh2kg:to ex:bathroom11_scene1 .
+ex:event0_pet_cat_scene1 vh2kg:place ex:bedroom75_scene1 .
+
+ex:event0_pet_cat_scene2 vh2kg:place ex:bedroom193_scene2 .
+
+ex:event0_pet_cat_scene3 vh2kg:place ex:bedroom351_scene3 .
+
+ex:event0_pet_cat_scene4 vh2kg:place ex:bedroom214_scene4 .
+
+ex:event0_pet_cat_scene5 vh2kg:place ex:bedroom220_scene5 .
+
+ex:event0_pet_cat_scene6 vh2kg:place ex:bedroom69_scene6 .
+
+ex:event0_pet_cat_scene7 vh2kg:place ex:bedroom289_scene7 .
 
 ex:event0_prepare_breakfast_scene1 vh2kg:place ex:kitchen207_scene1 .
 
-ex:event0_prepare_dinner_scene1 vh2kg:from ex:bathroom11_scene1 ;
-    vh2kg:to ex:kitchen207_scene1 .
-
-ex:event0_prepare_go_out_scene1 vh2kg:from ex:kitchen207_scene1 ;
-    vh2kg:to ex:bedroom74_scene1 .
-
 ex:event0_prepare_sitting_scene1 vh2kg:place ex:kitchen207_scene1 .
 
-ex:event0_put_food_in_fridge_scene1 vh2kg:from ex:livingroom336_scene1 ;
-    vh2kg:to ex:kitchen207_scene1 .
+ex:event0_put_groceries_in_fridge_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event0_put_groceries_in_fridge_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event0_put_groceries_in_fridge_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event0_put_groceries_in_fridge_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event0_put_groceries_in_fridge_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event0_put_groceries_in_fridge_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event0_put_groceries_in_fridge_scene7 vh2kg:place ex:kitchen56_scene7 .
 
 ex:event0_read_book_scene1 vh2kg:place ex:bedroom74_scene1 .
 
-ex:event0_relax_on_sofa_scene1 vh2kg:place ex:livingroom336_scene1 .
+ex:event0_relax_on_bed_scene1 vh2kg:place ex:bedroom75_scene1 .
+
+ex:event0_relax_on_bed_scene2 vh2kg:place ex:bedroom193_scene2 .
+
+ex:event0_relax_on_bed_scene3 vh2kg:place ex:bedroom349_scene3 .
+
+ex:event0_relax_on_bed_scene4 vh2kg:place ex:bedroom214_scene4 .
+
+ex:event0_relax_on_bed_scene5 vh2kg:place ex:bedroom219_scene5 .
+
+ex:event0_relax_on_bed_scene6 vh2kg:place ex:bedroom69_scene6 .
+
+ex:event0_relax_on_bed_scene7 vh2kg:place ex:bedroom287_scene7 .
+
+ex:event0_relax_on_sofa_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event0_relax_on_sofa_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event0_relax_on_sofa_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event0_relax_on_sofa_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event0_relax_on_sofa_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event0_relax_on_sofa_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event0_relax_on_sofa_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event0_relax_on_sofa_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event0_relax_on_sofa_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event0_relax_on_sofa_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event0_relax_on_sofa_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event0_relax_on_sofa_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event0_relax_on_sofa_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event0_relax_on_sofa_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
 
 ex:event0_take_a_nap_scene1 vh2kg:place ex:bedroom74_scene1 .
 
 ex:event0_take_off_clock_scene1 vh2kg:place ex:kitchen207_scene1 .
 
-ex:event0_throw_in_the_garbage_scene1 vh2kg:from ex:bathroom11_scene1 ;
-    vh2kg:to ex:kitchen207_scene1 .
-
 ex:event0_use_smartphone_scene1 vh2kg:place ex:bedroom74_scene1 .
 
 ex:event0_wash_clothes_scene1 vh2kg:place ex:kitchen207_scene1 .
-
-ex:event0_wash_fry_pan_scene1 vh2kg:from ex:bathroom11_scene1 ;
-    vh2kg:to ex:kitchen207_scene1 .
 
 ex:event0_wash_hands_scene1 vh2kg:place ex:bathroom11_scene1 .
 
 ex:event0_wash_pillow_scene1 vh2kg:place ex:livingroom336_scene1 .
 
+ex:event0_watch_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event0_watch_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event0_watch_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event0_watch_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event0_watch_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event0_watch_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event0_watch_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
 ex:event0_watch_tv_scene1 vh2kg:place ex:livingroom336_scene1 .
 
-ex:event10_change_tv_channel_scene1 vh2kg:place ex:livingroom336_scene1 .
+ex:event10_clean_desk_scene1 vh2kg:place ex:livingroom339_scene1 .
 
-ex:event10_cook_some_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event10_clean_desk_scene2 vh2kg:place ex:livingroom268_scene2 .
 
-ex:event10_put_food_in_fridge_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event10_clean_desk_scene4 vh2kg:place ex:livingroom271_scene4 .
 
-ex:event11_change_tv_channel_scene1 vh2kg:place ex:livingroom336_scene1 .
+ex:event10_clean_desk_scene5 vh2kg:place ex:livingroom11_scene5 .
 
-ex:event11_cook_some_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event10_clean_desk_scene6 vh2kg:place ex:livingroom252_scene6 .
 
-ex:event12_change_tv_channel_scene1 vh2kg:place ex:livingroom336_scene1 .
+ex:event10_clean_desk_scene7 vh2kg:place ex:livingroom201_scene7 .
 
-ex:event12_cook_some_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event10_clean_kitchen_scene1 vh2kg:place ex:kitchen207_scene1 .
 
-ex:event13_cook_some_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event10_clean_kitchen_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event10_clean_kitchen_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event10_clean_kitchen_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event10_clean_kitchen_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event10_clean_kitchen_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event10_clean_kitchen_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event10_clean_livingroom_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event10_clean_livingroom_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event10_clean_livingroom_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event10_clean_livingroom_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event10_clean_livingroom_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event10_clean_livingroom_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event10_clean_livingroom_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event10_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event10_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event10_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event10_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event10_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event10_drink_alcohol_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event10_drink_alcohol_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event10_drink_alcohol_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event10_drink_alcohol_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event10_drink_alcohol_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event10_drink_alcohol_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event10_drink_alcohol_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event10_drink_juice_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event10_drink_juice_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event10_drink_juice_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event10_drink_juice_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event10_drink_juice_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event10_drink_juice_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event10_drink_juice_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event10_drink_milk_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event10_drink_milk_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event10_drink_milk_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event10_drink_milk_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event10_drink_milk_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event10_drink_milk_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event10_drink_milk_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event10_drink_wine_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event10_drink_wine_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event10_drink_wine_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event10_drink_wine_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event10_drink_wine_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event10_drink_wine_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event10_drink_wine_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event10_eat_bread_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event10_eat_bread_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event10_eat_bread_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event10_eat_bread_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event10_eat_bread_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event10_eat_bread_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event10_eat_bread_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event10_eat_cupcake_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event10_eat_cupcake_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event10_eat_cupcake_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event10_eat_cupcake_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event10_eat_cupcake_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event10_eat_cupcake_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event10_eat_cupcake_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event11_clean_desk_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event11_clean_desk_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event11_clean_desk_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event11_clean_desk_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event11_clean_desk_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event11_clean_desk_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event11_clean_kitchen_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event11_clean_kitchen_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event11_clean_kitchen_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event11_clean_kitchen_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event11_clean_kitchen_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event11_clean_kitchen_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event11_clean_kitchen_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event11_clean_livingroom_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event11_clean_livingroom_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event11_clean_livingroom_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event11_clean_livingroom_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event11_clean_livingroom_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event11_clean_livingroom_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event11_clean_livingroom_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event11_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event11_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event11_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event11_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event11_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event12_clean_desk_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event12_clean_desk_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event12_clean_desk_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event12_clean_desk_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event12_clean_desk_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event12_clean_desk_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event12_clean_livingroom_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event12_clean_livingroom_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event12_clean_livingroom_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event12_clean_livingroom_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event12_clean_livingroom_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event12_clean_livingroom_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event12_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event12_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event12_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event12_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event12_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event13_clean_desk_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event13_clean_desk_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event13_clean_desk_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event13_clean_desk_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event13_clean_desk_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event13_clean_desk_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event13_clean_livingroom_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event13_clean_livingroom_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event13_clean_livingroom_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event13_clean_livingroom_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event13_clean_livingroom_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event13_clean_livingroom_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event13_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event13_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event13_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event13_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event13_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event14_clean_desk_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event14_clean_desk_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event14_clean_desk_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event14_clean_desk_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event14_clean_desk_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event14_clean_desk_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event14_clean_kitchen_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event14_clean_kitchen_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event14_clean_kitchen_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event14_clean_kitchen_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event14_clean_kitchen_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event14_clean_kitchen_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event14_clean_kitchen_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event14_clean_livingroom_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event14_clean_livingroom_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event14_clean_livingroom_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event14_clean_livingroom_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event14_clean_livingroom_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event14_clean_livingroom_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event14_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event14_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event14_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event14_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event14_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event15_clean_kitchen_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event15_clean_kitchen_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event15_clean_kitchen_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event15_clean_kitchen_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event15_clean_kitchen_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event15_clean_kitchen_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event15_clean_kitchen_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event15_clean_livingroom_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event15_clean_livingroom_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event15_clean_livingroom_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event15_clean_livingroom_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event15_clean_livingroom_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event15_clean_livingroom_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event15_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event15_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event15_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event15_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event15_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event16_clean_livingroom_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event16_clean_livingroom_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event16_clean_livingroom_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event16_clean_livingroom_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event16_clean_livingroom_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event16_clean_livingroom_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event16_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event16_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event16_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event16_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event16_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event17_clean_kitchen_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event17_clean_kitchen_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event17_clean_kitchen_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event17_clean_kitchen_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event17_clean_kitchen_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event17_clean_kitchen_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event17_clean_kitchen_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event17_clean_livingroom_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event17_clean_livingroom_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event17_clean_livingroom_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event17_clean_livingroom_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event17_clean_livingroom_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event17_clean_livingroom_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event17_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event17_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event17_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event17_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event17_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event18_clean_kitchen_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event18_clean_kitchen_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event18_clean_kitchen_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event18_clean_kitchen_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event18_clean_kitchen_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event18_clean_kitchen_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event18_clean_kitchen_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event18_clean_livingroom_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event18_clean_livingroom_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event18_clean_livingroom_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event18_clean_livingroom_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event18_clean_livingroom_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event18_clean_livingroom_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event18_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event18_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event18_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event18_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event18_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event19_clean_kitchen_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event19_clean_kitchen_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event19_clean_kitchen_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event19_clean_kitchen_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event19_clean_kitchen_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event19_clean_kitchen_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event19_clean_kitchen_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event19_clean_livingroom_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event19_clean_livingroom_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event19_clean_livingroom_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event19_clean_livingroom_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event19_clean_livingroom_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event19_clean_livingroom_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event19_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event19_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event19_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event19_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event19_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event1_admire_art_scene1 vh2kg:place ex:bedroom75_scene1 .
+
+ex:event1_admire_art_scene2 vh2kg:place ex:bedroom193_scene2 .
+
+ex:event1_admire_art_scene3 vh2kg:place ex:bedroom351_scene3 .
+
+ex:event1_admire_art_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event1_admire_art_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event1_admire_art_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event1_admire_art_scene7 vh2kg:place ex:livingroom201_scene7 .
 
 ex:event1_admire_paintings_scene1 vh2kg:place ex:livingroom336_scene1 .
 
@@ -95,54 +887,633 @@ ex:event1_brush_teeth_scene1 vh2kg:place ex:kitchen207_scene1 .
 
 ex:event1_carry_box_scene1 vh2kg:place ex:bedroom74_scene1 .
 
-ex:event1_change_tv_channel_scene1 vh2kg:place ex:livingroom336_scene1 .
+ex:event1_clean_desk_scene1 vh2kg:from ex:livingroom339_scene1 ;
+    vh2kg:to ex:bathroom11_scene1 .
 
-ex:event1_clean_desk_scene1 vh2kg:place ex:bedroom74_scene1 .
+ex:event1_clean_desk_scene2 vh2kg:from ex:livingroom268_scene2 ;
+    vh2kg:to ex:kitchen50_scene2 .
 
-ex:event1_cook_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event1_clean_desk_scene4 vh2kg:from ex:livingroom271_scene4 ;
+    vh2kg:to ex:bathroom175_scene4 .
 
-ex:event1_cook_some_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event1_clean_desk_scene5 vh2kg:from ex:livingroom11_scene5 ;
+    vh2kg:to ex:bathroom280_scene5 .
 
-ex:event1_eat_bread_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event1_clean_desk_scene6 vh2kg:from ex:livingroom252_scene6 ;
+    vh2kg:to ex:bathroom11_scene6 .
+
+ex:event1_clean_desk_scene7 vh2kg:from ex:livingroom201_scene7 ;
+    vh2kg:to ex:kitchen56_scene7 .
+
+ex:event1_clean_fridge_scene1 vh2kg:place ex:kitchen208_scene1 .
+
+ex:event1_clean_fridge_scene2 vh2kg:place ex:kitchen50_scene2 .
+
+ex:event1_clean_fridge_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event1_clean_fridge_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event1_clean_fridge_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event1_clean_fridge_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event1_clean_fridge_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event1_clean_kitchen_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event1_clean_kitchen_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event1_clean_kitchen_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event1_clean_kitchen_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event1_clean_kitchen_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event1_clean_kitchen_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event1_clean_kitchen_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event1_clean_livingroom_scene1 vh2kg:from ex:livingroom339_scene1 ;
+    vh2kg:to ex:bathroom11_scene1 .
+
+ex:event1_clean_livingroom_scene2 vh2kg:from ex:livingroom268_scene2 ;
+    vh2kg:to ex:kitchen50_scene2 .
+
+ex:event1_clean_livingroom_scene3 vh2kg:from ex:livingroom188_scene3 ;
+    vh2kg:to ex:bathroom288_scene3 .
+
+ex:event1_clean_livingroom_scene4 vh2kg:from ex:livingroom271_scene4 ;
+    vh2kg:to ex:bathroom175_scene4 .
+
+ex:event1_clean_livingroom_scene5 vh2kg:from ex:livingroom11_scene5 ;
+    vh2kg:to ex:bathroom280_scene5 .
+
+ex:event1_clean_livingroom_scene6 vh2kg:from ex:livingroom252_scene6 ;
+    vh2kg:to ex:bathroom11_scene6 .
+
+ex:event1_clean_livingroom_scene7 vh2kg:from ex:livingroom201_scene7 ;
+    vh2kg:to ex:kitchen56_scene7 .
+
+ex:event1_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event1_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event1_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event1_clean_sink_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event1_clean_sink_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event1_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event1_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event1_clean_sofa_scene1 vh2kg:from ex:livingroom339_scene1 ;
+    vh2kg:to ex:bathroom11_scene1 .
+
+ex:event1_clean_sofa_scene2 vh2kg:from ex:livingroom268_scene2 ;
+    vh2kg:to ex:kitchen50_scene2 .
+
+ex:event1_clean_sofa_scene3 vh2kg:from ex:livingroom188_scene3 ;
+    vh2kg:to ex:bathroom288_scene3 .
+
+ex:event1_clean_sofa_scene4 vh2kg:from ex:livingroom271_scene4 ;
+    vh2kg:to ex:bathroom175_scene4 .
+
+ex:event1_clean_sofa_scene5 vh2kg:from ex:livingroom11_scene5 ;
+    vh2kg:to ex:bathroom280_scene5 .
+
+ex:event1_clean_sofa_scene6 vh2kg:from ex:livingroom252_scene6 ;
+    vh2kg:to ex:bathroom11_scene6 .
+
+ex:event1_clean_sofa_scene7 vh2kg:from ex:livingroom201_scene7 ;
+    vh2kg:to ex:kitchen56_scene7 .
+
+ex:event1_clean_stove_scene1 vh2kg:place ex:kitchen208_scene1 .
+
+ex:event1_clean_stove_scene2 vh2kg:place ex:kitchen50_scene2 .
+
+ex:event1_clean_stove_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event1_clean_stove_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event1_clean_stove_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event1_clean_stove_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event1_clean_stove_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event1_clean_table_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event1_clean_table_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event1_clean_table_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event1_clean_table_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event1_clean_table_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event1_clean_table_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event1_clean_table_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event1_clean_television_scene1 vh2kg:from ex:livingroom339_scene1 ;
+    vh2kg:to ex:bathroom11_scene1 .
+
+ex:event1_clean_television_scene2 vh2kg:from ex:livingroom268_scene2 ;
+    vh2kg:to ex:kitchen50_scene2 .
+
+ex:event1_clean_television_scene3 vh2kg:from ex:livingroom188_scene3 ;
+    vh2kg:to ex:bathroom288_scene3 .
+
+ex:event1_clean_television_scene4 vh2kg:from ex:livingroom271_scene4 ;
+    vh2kg:to ex:bathroom175_scene4 .
+
+ex:event1_clean_television_scene5 vh2kg:from ex:livingroom11_scene5 ;
+    vh2kg:to ex:bathroom280_scene5 .
+
+ex:event1_clean_television_scene6 vh2kg:from ex:livingroom252_scene6 ;
+    vh2kg:to ex:bathroom11_scene6 .
+
+ex:event1_clean_television_scene7 vh2kg:from ex:livingroom201_scene7 ;
+    vh2kg:to ex:kitchen56_scene7 .
+
+ex:event1_drink_alcohol_scene1 vh2kg:place ex:kitchen208_scene1 .
+
+ex:event1_drink_alcohol_scene2 vh2kg:place ex:kitchen50_scene2 .
+
+ex:event1_drink_alcohol_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event1_drink_alcohol_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event1_drink_alcohol_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event1_drink_alcohol_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event1_drink_alcohol_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event1_drink_alcohol_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event1_drink_alcohol_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event1_drink_alcohol_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event1_drink_alcohol_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event1_drink_alcohol_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event1_drink_alcohol_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event1_drink_alcohol_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event1_drink_juice_scene1 vh2kg:place ex:kitchen208_scene1 .
+
+ex:event1_drink_juice_scene2 vh2kg:place ex:kitchen50_scene2 .
+
+ex:event1_drink_juice_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event1_drink_juice_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event1_drink_juice_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event1_drink_juice_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event1_drink_juice_scene7 vh2kg:place ex:bedroom286_scene7 .
+
+ex:event1_drink_juice_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event1_drink_juice_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event1_drink_juice_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event1_drink_juice_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event1_drink_juice_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event1_drink_juice_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event1_drink_juice_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event1_drink_milk_scene1 vh2kg:place ex:kitchen208_scene1 .
+
+ex:event1_drink_milk_scene2 vh2kg:place ex:kitchen50_scene2 .
+
+ex:event1_drink_milk_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event1_drink_milk_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event1_drink_milk_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event1_drink_milk_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event1_drink_milk_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event1_drink_milk_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event1_drink_milk_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event1_drink_milk_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event1_drink_milk_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event1_drink_milk_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event1_drink_milk_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event1_drink_milk_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event1_drink_wine_scene1 vh2kg:place ex:kitchen208_scene1 .
+
+ex:event1_drink_wine_scene2 vh2kg:place ex:kitchen50_scene2 .
+
+ex:event1_drink_wine_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event1_drink_wine_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event1_drink_wine_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event1_drink_wine_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event1_drink_wine_scene7 vh2kg:place ex:bedroom286_scene7 .
+
+ex:event1_drink_wine_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event1_drink_wine_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event1_drink_wine_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event1_drink_wine_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event1_drink_wine_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event1_drink_wine_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event1_drink_wine_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event1_eat_bread_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event1_eat_bread_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event1_eat_bread_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event1_eat_bread_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event1_eat_bread_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event1_eat_bread_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event1_eat_bread_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event1_eat_cupcake_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event1_eat_cupcake_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event1_eat_cupcake_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event1_eat_cupcake_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event1_eat_cupcake_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event1_eat_cupcake_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event1_eat_cupcake_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
 
 ex:event1_find_some_food_scene1 vh2kg:place ex:kitchen207_scene1 .
 
 ex:event1_go_to_toilet_scene1 vh2kg:place ex:bathroom11_scene1,
         ex:toilet46_scene1 .
 
-ex:event1_leaving_room_scene1 vh2kg:place ex:bathroom11_scene1 .
+ex:event1_pet_cat_scene1 vh2kg:place ex:bedroom75_scene1 .
+
+ex:event1_pet_cat_scene2 vh2kg:place ex:bedroom193_scene2 .
+
+ex:event1_pet_cat_scene3 vh2kg:place ex:bedroom351_scene3 .
+
+ex:event1_pet_cat_scene4 vh2kg:place ex:bedroom214_scene4 .
+
+ex:event1_pet_cat_scene5 vh2kg:place ex:bedroom220_scene5 .
+
+ex:event1_pet_cat_scene6 vh2kg:place ex:bedroom69_scene6 .
+
+ex:event1_pet_cat_scene7 vh2kg:place ex:bedroom289_scene7 .
 
 ex:event1_prepare_breakfast_scene1 vh2kg:place ex:kitchen207_scene1 .
 
-ex:event1_prepare_dinner_scene1 vh2kg:place ex:kitchen207_scene1 .
-
-ex:event1_prepare_go_out_scene1 vh2kg:place ex:bedroom74_scene1 .
-
 ex:event1_prepare_sitting_scene1 vh2kg:place ex:kitchen207_scene1 .
-
-ex:event1_put_food_in_fridge_scene1 vh2kg:place ex:kitchen207_scene1 .
 
 ex:event1_read_book_scene1 vh2kg:place ex:bedroom74_scene1 .
 
-ex:event1_relax_on_sofa_scene1 vh2kg:place ex:livingroom336_scene1 .
+ex:event1_relax_on_bed_scene1 vh2kg:place ex:bedroom75_scene1 .
+
+ex:event1_relax_on_bed_scene2 vh2kg:place ex:bedroom193_scene2 .
+
+ex:event1_relax_on_bed_scene3 vh2kg:place ex:bedroom349_scene3 .
+
+ex:event1_relax_on_bed_scene4 vh2kg:place ex:bedroom214_scene4 .
+
+ex:event1_relax_on_bed_scene5 vh2kg:place ex:bedroom219_scene5 .
+
+ex:event1_relax_on_bed_scene6 vh2kg:place ex:bedroom69_scene6 .
+
+ex:event1_relax_on_bed_scene7 vh2kg:place ex:bedroom287_scene7 .
+
+ex:event1_relax_on_sofa_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event1_relax_on_sofa_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event1_relax_on_sofa_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event1_relax_on_sofa_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event1_relax_on_sofa_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event1_relax_on_sofa_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event1_relax_on_sofa_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event1_relax_on_sofa_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event1_relax_on_sofa_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event1_relax_on_sofa_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event1_relax_on_sofa_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event1_relax_on_sofa_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event1_relax_on_sofa_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event1_relax_on_sofa_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
 
 ex:event1_take_a_nap_scene1 vh2kg:place ex:bedroom74_scene1 .
 
 ex:event1_take_off_clock_scene1 vh2kg:place ex:kitchen207_scene1 .
 
-ex:event1_throw_in_the_garbage_scene1 vh2kg:place ex:kitchen207_scene1 .
-
 ex:event1_use_smartphone_scene1 vh2kg:place ex:bedroom74_scene1 .
 
 ex:event1_wash_clothes_scene1 vh2kg:place ex:kitchen207_scene1 .
-
-ex:event1_wash_fry_pan_scene1 vh2kg:place ex:kitchen207_scene1 .
 
 ex:event1_wash_hands_scene1 vh2kg:place ex:kitchen207_scene1 .
 
 ex:event1_wash_pillow_scene1 vh2kg:place ex:livingroom336_scene1 .
 
+ex:event1_watch_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event1_watch_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event1_watch_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event1_watch_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event1_watch_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event1_watch_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event1_watch_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
 ex:event1_watch_tv_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event20_clean_kitchen_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event20_clean_kitchen_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event20_clean_kitchen_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event20_clean_kitchen_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event20_clean_kitchen_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event20_clean_kitchen_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event20_clean_kitchen_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event20_clean_livingroom_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event20_clean_livingroom_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event20_clean_livingroom_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event20_clean_livingroom_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event20_clean_livingroom_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event20_clean_livingroom_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event20_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event20_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event20_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event20_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event20_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event21_clean_kitchen_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event21_clean_kitchen_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event21_clean_kitchen_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event21_clean_kitchen_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event21_clean_kitchen_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event21_clean_kitchen_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event21_clean_kitchen_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event21_clean_livingroom_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event21_clean_livingroom_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event21_clean_livingroom_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event21_clean_livingroom_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event21_clean_livingroom_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event21_clean_livingroom_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event21_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event21_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event21_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event21_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event21_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event22_clean_kitchen_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event22_clean_kitchen_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event22_clean_kitchen_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event22_clean_kitchen_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event22_clean_kitchen_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event22_clean_kitchen_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event22_clean_kitchen_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event22_clean_livingroom_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event22_clean_livingroom_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event22_clean_livingroom_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event22_clean_livingroom_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event22_clean_livingroom_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event22_clean_livingroom_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event22_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event22_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event22_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event22_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event22_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event23_clean_kitchen_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event23_clean_kitchen_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event23_clean_kitchen_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event23_clean_kitchen_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event23_clean_kitchen_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event23_clean_kitchen_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event23_clean_kitchen_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event23_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event23_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event23_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event23_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event23_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event24_clean_kitchen_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event24_clean_kitchen_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event24_clean_kitchen_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event24_clean_kitchen_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event24_clean_kitchen_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event24_clean_kitchen_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event24_clean_kitchen_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event24_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event24_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event24_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event24_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event24_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event25_clean_kitchen_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event25_clean_kitchen_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event25_clean_kitchen_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event25_clean_kitchen_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event25_clean_kitchen_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event25_clean_kitchen_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event25_clean_kitchen_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event25_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event25_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event25_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event25_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event25_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event26_clean_kitchen_scene1 vh2kg:from ex:kitchen207_scene1 ;
+    vh2kg:to ex:bathroom11_scene1 .
+
+ex:event26_clean_kitchen_scene5 vh2kg:from ex:kitchen109_scene5 ;
+    vh2kg:to ex:bathroom279_scene5 .
+
+ex:event26_clean_kitchen_scene6 vh2kg:from ex:kitchen159_scene6 ;
+    vh2kg:to ex:bathroom11_scene6 .
+
+ex:event26_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event26_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event26_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event26_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event26_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event27_clean_kitchen_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event27_clean_kitchen_scene5 vh2kg:place ex:bathroom279_scene5 .
+
+ex:event27_clean_kitchen_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event27_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event27_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event27_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event27_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event28_clean_kitchen_scene1 vh2kg:from ex:bathroom11_scene1 ;
+    vh2kg:to ex:kitchen207_scene1 .
+
+ex:event28_clean_kitchen_scene5 vh2kg:from ex:bathroom279_scene5 ;
+    vh2kg:to ex:kitchen109_scene5 .
+
+ex:event28_clean_kitchen_scene6 vh2kg:from ex:bathroom11_scene6 ;
+    vh2kg:to ex:kitchen159_scene6 .
+
+ex:event29_clean_kitchen_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event29_clean_kitchen_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event29_clean_kitchen_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event2_admire_art_scene1 vh2kg:place ex:bedroom75_scene1 .
+
+ex:event2_admire_art_scene2 vh2kg:place ex:bedroom193_scene2 .
+
+ex:event2_admire_art_scene3 vh2kg:place ex:bedroom351_scene3 .
+
+ex:event2_admire_art_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event2_admire_art_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event2_admire_art_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event2_admire_art_scene7 vh2kg:place ex:livingroom201_scene7 .
 
 ex:event2_admire_paintings_scene1 vh2kg:place ex:livingroom336_scene1 .
 
@@ -153,53 +1524,340 @@ ex:event2_brush_teeth_scene1 vh2kg:place ex:bathroom11_scene1 .
 ex:event2_carry_box_scene1 vh2kg:from ex:bedroom74_scene1 ;
     vh2kg:to ex:livingroom336_scene1 .
 
-ex:event2_change_tv_channel_scene1 vh2kg:place ex:livingroom336_scene1 .
+ex:event2_clean_desk_scene1 vh2kg:place ex:bathroom11_scene1 .
 
-ex:event2_clean_desk_scene1 vh2kg:from ex:bedroom74_scene1 ;
-    vh2kg:to ex:kitchen207_scene1 .
+ex:event2_clean_desk_scene2 vh2kg:place ex:kitchen50_scene2 .
 
-ex:event2_cook_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event2_clean_desk_scene4 vh2kg:place ex:bathroom175_scene4 .
 
-ex:event2_cook_some_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event2_clean_desk_scene5 vh2kg:place ex:bathroom280_scene5 .
 
-ex:event2_eat_bread_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event2_clean_desk_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event2_clean_desk_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event2_clean_fridge_scene1 vh2kg:place ex:kitchen208_scene1 .
+
+ex:event2_clean_fridge_scene2 vh2kg:place ex:kitchen50_scene2 .
+
+ex:event2_clean_fridge_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event2_clean_fridge_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event2_clean_fridge_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event2_clean_fridge_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event2_clean_fridge_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event2_clean_kitchen_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event2_clean_kitchen_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event2_clean_kitchen_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event2_clean_kitchen_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event2_clean_kitchen_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event2_clean_kitchen_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event2_clean_kitchen_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event2_clean_livingroom_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event2_clean_livingroom_scene2 vh2kg:place ex:kitchen50_scene2 .
+
+ex:event2_clean_livingroom_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event2_clean_livingroom_scene4 vh2kg:place ex:bathroom175_scene4 .
+
+ex:event2_clean_livingroom_scene5 vh2kg:place ex:bathroom280_scene5 .
+
+ex:event2_clean_livingroom_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event2_clean_livingroom_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event2_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event2_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event2_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event2_clean_sink_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event2_clean_sink_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event2_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event2_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event2_clean_sofa_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event2_clean_sofa_scene2 vh2kg:place ex:kitchen50_scene2 .
+
+ex:event2_clean_sofa_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event2_clean_sofa_scene4 vh2kg:place ex:bathroom175_scene4 .
+
+ex:event2_clean_sofa_scene5 vh2kg:place ex:bathroom280_scene5 .
+
+ex:event2_clean_sofa_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event2_clean_sofa_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event2_clean_stove_scene1 vh2kg:place ex:kitchen208_scene1 .
+
+ex:event2_clean_stove_scene2 vh2kg:place ex:kitchen50_scene2 .
+
+ex:event2_clean_stove_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event2_clean_stove_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event2_clean_stove_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event2_clean_stove_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event2_clean_stove_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event2_clean_table_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event2_clean_table_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event2_clean_table_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event2_clean_table_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event2_clean_table_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event2_clean_table_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event2_clean_table_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event2_clean_television_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event2_clean_television_scene2 vh2kg:place ex:kitchen50_scene2 .
+
+ex:event2_clean_television_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event2_clean_television_scene4 vh2kg:place ex:bathroom175_scene4 .
+
+ex:event2_clean_television_scene5 vh2kg:place ex:bathroom280_scene5 .
+
+ex:event2_clean_television_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event2_clean_television_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event2_drink_alcohol_scene1 vh2kg:place ex:kitchen208_scene1 .
+
+ex:event2_drink_alcohol_scene2 vh2kg:place ex:kitchen50_scene2 .
+
+ex:event2_drink_alcohol_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event2_drink_alcohol_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event2_drink_alcohol_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event2_drink_alcohol_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event2_drink_alcohol_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event2_drink_alcohol_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event2_drink_alcohol_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event2_drink_alcohol_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event2_drink_alcohol_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event2_drink_alcohol_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event2_drink_alcohol_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event2_drink_alcohol_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event2_drink_juice_scene1 vh2kg:place ex:kitchen208_scene1 .
+
+ex:event2_drink_juice_scene2 vh2kg:place ex:kitchen50_scene2 .
+
+ex:event2_drink_juice_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event2_drink_juice_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event2_drink_juice_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event2_drink_juice_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event2_drink_juice_scene7 vh2kg:place ex:bedroom286_scene7 .
+
+ex:event2_drink_juice_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event2_drink_juice_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event2_drink_juice_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event2_drink_juice_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event2_drink_juice_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event2_drink_juice_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event2_drink_juice_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event2_drink_milk_scene1 vh2kg:place ex:kitchen208_scene1 .
+
+ex:event2_drink_milk_scene2 vh2kg:place ex:kitchen50_scene2 .
+
+ex:event2_drink_milk_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event2_drink_milk_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event2_drink_milk_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event2_drink_milk_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event2_drink_milk_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event2_drink_milk_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event2_drink_milk_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event2_drink_milk_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event2_drink_milk_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event2_drink_milk_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event2_drink_milk_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event2_drink_milk_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event2_drink_wine_scene1 vh2kg:place ex:kitchen208_scene1 .
+
+ex:event2_drink_wine_scene2 vh2kg:place ex:kitchen50_scene2 .
+
+ex:event2_drink_wine_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event2_drink_wine_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event2_drink_wine_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event2_drink_wine_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event2_drink_wine_scene7 vh2kg:place ex:bedroom286_scene7 .
+
+ex:event2_drink_wine_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event2_drink_wine_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event2_drink_wine_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event2_drink_wine_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event2_drink_wine_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event2_drink_wine_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event2_drink_wine_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event2_eat_bread_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event2_eat_bread_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event2_eat_bread_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event2_eat_bread_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event2_eat_bread_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event2_eat_bread_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event2_eat_bread_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event2_eat_cupcake_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event2_eat_cupcake_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event2_eat_cupcake_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event2_eat_cupcake_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event2_eat_cupcake_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event2_eat_cupcake_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event2_eat_cupcake_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
 
 ex:event2_find_some_food_scene1 vh2kg:place ex:kitchen207_scene1 .
 
 ex:event2_go_to_toilet_scene1 vh2kg:place ex:bathroom11_scene1,
         ex:toilet46_scene1 .
 
-ex:event2_leaving_room_scene1 vh2kg:place ex:bathroom11_scene1 .
+ex:event2_pet_cat_scene1 vh2kg:place ex:bedroom75_scene1 .
+
+ex:event2_pet_cat_scene2 vh2kg:place ex:bedroom193_scene2 .
+
+ex:event2_pet_cat_scene3 vh2kg:place ex:bedroom351_scene3 .
+
+ex:event2_pet_cat_scene4 vh2kg:place ex:bedroom214_scene4 .
+
+ex:event2_pet_cat_scene5 vh2kg:place ex:bedroom220_scene5 .
+
+ex:event2_pet_cat_scene6 vh2kg:place ex:bedroom69_scene6 .
+
+ex:event2_pet_cat_scene7 vh2kg:place ex:bedroom289_scene7 .
 
 ex:event2_prepare_breakfast_scene1 vh2kg:place ex:kitchen207_scene1 .
-
-ex:event2_prepare_dinner_scene1 vh2kg:place ex:kitchen207_scene1 .
-
-ex:event2_prepare_go_out_scene1 vh2kg:place ex:bedroom74_scene1 .
 
 ex:event2_prepare_sitting_scene1 vh2kg:from ex:kitchen207_scene1 ;
     vh2kg:to ex:livingroom336_scene1 .
 
-ex:event2_put_food_in_fridge_scene1 vh2kg:place ex:kitchen207_scene1 .
-
 ex:event2_read_book_scene1 vh2kg:place ex:bedroom74_scene1 .
 
-ex:event2_relax_on_sofa_scene1 vh2kg:place ex:livingroom336_scene1 .
+ex:event2_relax_on_sofa_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event2_relax_on_sofa_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event2_relax_on_sofa_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event2_relax_on_sofa_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event2_relax_on_sofa_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event2_relax_on_sofa_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event2_relax_on_sofa_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
 
 ex:event2_take_a_nap_scene1 vh2kg:place ex:bedroom74_scene1 .
-
-ex:event2_throw_in_the_garbage_scene1 vh2kg:place ex:kitchen207_scene1 .
 
 ex:event2_use_smartphone_scene1 vh2kg:place ex:bedroom74_scene1 .
 
 ex:event2_wash_clothes_scene1 vh2kg:from ex:kitchen207_scene1 ;
     vh2kg:to ex:bathroom11_scene1 .
 
-ex:event2_wash_fry_pan_scene1 vh2kg:place ex:kitchen207_scene1 .
-
 ex:event2_wash_hands_scene1 vh2kg:place ex:bathroom11_scene1 .
 
+ex:event2_watch_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event2_watch_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event2_watch_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event2_watch_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event2_watch_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event2_watch_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event2_watch_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
 ex:event2_watch_tv_scene1 vh2kg:place ex:livingroom336_scene1 .
+
+ex:event30_clean_kitchen_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event30_clean_kitchen_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event30_clean_kitchen_scene6 vh2kg:place ex:kitchen159_scene6 .
 
 ex:event3_browse_internet_scene1 vh2kg:place ex:livingroom336_scene1 .
 
@@ -207,47 +1865,330 @@ ex:event3_brush_teeth_scene1 vh2kg:place ex:bathroom11_scene1 .
 
 ex:event3_carry_box_scene1 vh2kg:place ex:livingroom336_scene1 .
 
-ex:event3_change_tv_channel_scene1 vh2kg:place ex:livingroom336_scene1 .
+ex:event3_clean_desk_scene1 vh2kg:from ex:bathroom11_scene1 ;
+    vh2kg:to ex:livingroom339_scene1 .
 
-ex:event3_clean_desk_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event3_clean_desk_scene2 vh2kg:from ex:kitchen50_scene2 ;
+    vh2kg:to ex:livingroom268_scene2 .
 
-ex:event3_cook_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event3_clean_desk_scene4 vh2kg:from ex:bathroom175_scene4 ;
+    vh2kg:to ex:livingroom271_scene4 .
 
-ex:event3_cook_some_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event3_clean_desk_scene5 vh2kg:from ex:bathroom280_scene5 ;
+    vh2kg:to ex:livingroom11_scene5 .
+
+ex:event3_clean_desk_scene6 vh2kg:from ex:bathroom11_scene6 ;
+    vh2kg:to ex:livingroom252_scene6 .
+
+ex:event3_clean_desk_scene7 vh2kg:from ex:kitchen56_scene7 ;
+    vh2kg:to ex:livingroom201_scene7 .
+
+ex:event3_clean_fridge_scene1 vh2kg:place ex:kitchen208_scene1 .
+
+ex:event3_clean_fridge_scene2 vh2kg:place ex:kitchen50_scene2 .
+
+ex:event3_clean_fridge_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event3_clean_fridge_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event3_clean_fridge_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event3_clean_fridge_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event3_clean_fridge_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event3_clean_kitchen_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event3_clean_kitchen_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event3_clean_kitchen_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event3_clean_kitchen_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event3_clean_kitchen_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event3_clean_kitchen_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event3_clean_kitchen_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event3_clean_livingroom_scene1 vh2kg:from ex:bathroom11_scene1 ;
+    vh2kg:to ex:livingroom339_scene1 .
+
+ex:event3_clean_livingroom_scene2 vh2kg:from ex:kitchen50_scene2 ;
+    vh2kg:to ex:livingroom268_scene2 .
+
+ex:event3_clean_livingroom_scene3 vh2kg:from ex:bathroom288_scene3 ;
+    vh2kg:to ex:livingroom188_scene3 .
+
+ex:event3_clean_livingroom_scene4 vh2kg:from ex:bathroom175_scene4 ;
+    vh2kg:to ex:livingroom271_scene4 .
+
+ex:event3_clean_livingroom_scene5 vh2kg:from ex:bathroom280_scene5 ;
+    vh2kg:to ex:livingroom11_scene5 .
+
+ex:event3_clean_livingroom_scene6 vh2kg:from ex:bathroom11_scene6 ;
+    vh2kg:to ex:livingroom252_scene6 .
+
+ex:event3_clean_livingroom_scene7 vh2kg:from ex:kitchen56_scene7 ;
+    vh2kg:to ex:livingroom201_scene7 .
+
+ex:event3_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event3_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event3_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event3_clean_sink_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event3_clean_sink_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event3_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event3_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event3_clean_sofa_scene1 vh2kg:from ex:bathroom11_scene1 ;
+    vh2kg:to ex:livingroom339_scene1 .
+
+ex:event3_clean_sofa_scene2 vh2kg:from ex:kitchen50_scene2 ;
+    vh2kg:to ex:livingroom268_scene2 .
+
+ex:event3_clean_sofa_scene3 vh2kg:from ex:bathroom288_scene3 ;
+    vh2kg:to ex:livingroom188_scene3 .
+
+ex:event3_clean_sofa_scene4 vh2kg:from ex:bathroom175_scene4 ;
+    vh2kg:to ex:livingroom271_scene4 .
+
+ex:event3_clean_sofa_scene5 vh2kg:from ex:bathroom280_scene5 ;
+    vh2kg:to ex:livingroom11_scene5 .
+
+ex:event3_clean_sofa_scene6 vh2kg:from ex:bathroom11_scene6 ;
+    vh2kg:to ex:livingroom252_scene6 .
+
+ex:event3_clean_sofa_scene7 vh2kg:from ex:kitchen56_scene7 ;
+    vh2kg:to ex:livingroom201_scene7 .
+
+ex:event3_clean_stove_scene1 vh2kg:place ex:kitchen208_scene1 .
+
+ex:event3_clean_stove_scene2 vh2kg:place ex:kitchen50_scene2 .
+
+ex:event3_clean_stove_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event3_clean_stove_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event3_clean_stove_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event3_clean_stove_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event3_clean_stove_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event3_clean_table_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event3_clean_table_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event3_clean_table_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event3_clean_table_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event3_clean_table_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event3_clean_table_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event3_clean_table_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event3_clean_television_scene1 vh2kg:from ex:bathroom11_scene1 ;
+    vh2kg:to ex:livingroom339_scene1 .
+
+ex:event3_clean_television_scene2 vh2kg:from ex:kitchen50_scene2 ;
+    vh2kg:to ex:livingroom268_scene2 .
+
+ex:event3_clean_television_scene3 vh2kg:from ex:bathroom288_scene3 ;
+    vh2kg:to ex:livingroom188_scene3 .
+
+ex:event3_clean_television_scene4 vh2kg:from ex:bathroom175_scene4 ;
+    vh2kg:to ex:livingroom271_scene4 .
+
+ex:event3_clean_television_scene5 vh2kg:from ex:bathroom280_scene5 ;
+    vh2kg:to ex:livingroom11_scene5 .
+
+ex:event3_clean_television_scene6 vh2kg:from ex:bathroom11_scene6 ;
+    vh2kg:to ex:livingroom252_scene6 .
+
+ex:event3_clean_television_scene7 vh2kg:from ex:kitchen56_scene7 ;
+    vh2kg:to ex:livingroom201_scene7 .
+
+ex:event3_drink_alcohol_scene1 vh2kg:place ex:kitchen208_scene1 .
+
+ex:event3_drink_alcohol_scene2 vh2kg:place ex:kitchen50_scene2 .
+
+ex:event3_drink_alcohol_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event3_drink_alcohol_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event3_drink_alcohol_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event3_drink_alcohol_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event3_drink_alcohol_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event3_drink_alcohol_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event3_drink_alcohol_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event3_drink_alcohol_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event3_drink_alcohol_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event3_drink_alcohol_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event3_drink_alcohol_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event3_drink_alcohol_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event3_drink_juice_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event3_drink_juice_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event3_drink_juice_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event3_drink_juice_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event3_drink_juice_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event3_drink_juice_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event3_drink_juice_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event3_drink_milk_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event3_drink_milk_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event3_drink_milk_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event3_drink_milk_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event3_drink_milk_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event3_drink_milk_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event3_drink_milk_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
 
 ex:event3_drink_scene1 vh2kg:place ex:kitchen207_scene1 .
 
-ex:event3_eat_bread_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event3_drink_wine_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event3_drink_wine_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event3_drink_wine_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event3_drink_wine_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event3_drink_wine_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event3_drink_wine_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event3_drink_wine_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event3_eat_bread_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event3_eat_bread_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event3_eat_bread_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event3_eat_bread_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event3_eat_bread_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event3_eat_bread_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event3_eat_bread_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event3_eat_cupcake_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event3_eat_cupcake_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event3_eat_cupcake_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event3_eat_cupcake_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event3_eat_cupcake_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event3_eat_cupcake_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event3_eat_cupcake_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
 
 ex:event3_find_some_food_scene1 vh2kg:place ex:kitchen207_scene1 .
 
 ex:event3_go_to_sleep_scene1 vh2kg:place ex:bedroom74_scene1 .
 
-ex:event3_leaving_room_scene1 vh2kg:place ex:bathroom11_scene1 .
+ex:event3_pet_cat_scene1 vh2kg:place ex:bedroom75_scene1 .
+
+ex:event3_pet_cat_scene2 vh2kg:place ex:bedroom193_scene2 .
+
+ex:event3_pet_cat_scene3 vh2kg:place ex:bedroom351_scene3 .
+
+ex:event3_pet_cat_scene4 vh2kg:place ex:bedroom214_scene4 .
+
+ex:event3_pet_cat_scene5 vh2kg:place ex:bedroom220_scene5 .
+
+ex:event3_pet_cat_scene6 vh2kg:place ex:bedroom69_scene6 .
+
+ex:event3_pet_cat_scene7 vh2kg:place ex:bedroom289_scene7 .
 
 ex:event3_prepare_breakfast_scene1 vh2kg:place ex:kitchen207_scene1 .
 
-ex:event3_prepare_go_out_scene1 vh2kg:place ex:bedroom74_scene1 .
-
 ex:event3_prepare_sitting_scene1 vh2kg:place ex:livingroom336_scene1 .
 
-ex:event3_put_food_in_fridge_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event3_put_groceries_in_fridge_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event3_put_groceries_in_fridge_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event3_put_groceries_in_fridge_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event3_put_groceries_in_fridge_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event3_put_groceries_in_fridge_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event3_put_groceries_in_fridge_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event3_put_groceries_in_fridge_scene7 vh2kg:place ex:kitchen56_scene7 .
 
 ex:event3_read_book_scene1 vh2kg:from ex:bedroom74_scene1 ;
     vh2kg:to ex:livingroom336_scene1 .
 
-ex:event3_relax_on_sofa_scene1 vh2kg:place ex:livingroom336_scene1 .
+ex:event3_relax_on_sofa_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event3_relax_on_sofa_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event3_relax_on_sofa_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event3_relax_on_sofa_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event3_relax_on_sofa_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event3_relax_on_sofa_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event3_relax_on_sofa_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
 
 ex:event3_take_a_nap_scene1 vh2kg:place ex:bedroom74_scene1 .
-
-ex:event3_throw_in_the_garbage_scene1 vh2kg:place ex:bedroom74_scene1 .
 
 ex:event3_use_smartphone_scene1 vh2kg:from ex:bedroom74_scene1 ;
     vh2kg:to ex:livingroom336_scene1 .
 
-ex:event3_wash_fry_pan_scene1 vh2kg:place ex:kitchen207_scene1 .
-
 ex:event3_wash_hands_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event3_watch_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event3_watch_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event3_watch_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event3_watch_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event3_watch_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event3_watch_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event3_watch_television_scene7 vh2kg:place ex:livingroom201_scene7 .
 
 ex:event3_watch_tv_scene1 vh2kg:place ex:livingroom336_scene1 .
 
@@ -255,13 +2196,216 @@ ex:event4_browse_internet_scene1 vh2kg:place ex:livingroom336_scene1 .
 
 ex:event4_carry_box_scene1 vh2kg:place ex:livingroom336_scene1 .
 
-ex:event4_change_tv_channel_scene1 vh2kg:place ex:livingroom336_scene1 .
+ex:event4_clean_desk_scene1 vh2kg:place ex:livingroom339_scene1 .
 
-ex:event4_cook_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event4_clean_desk_scene2 vh2kg:place ex:livingroom268_scene2 .
 
-ex:event4_cook_some_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event4_clean_desk_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event4_clean_desk_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event4_clean_desk_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event4_clean_desk_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event4_clean_fridge_scene1 vh2kg:place ex:kitchen208_scene1 .
+
+ex:event4_clean_fridge_scene2 vh2kg:place ex:kitchen50_scene2 .
+
+ex:event4_clean_fridge_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event4_clean_fridge_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event4_clean_fridge_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event4_clean_fridge_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event4_clean_fridge_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event4_clean_kitchen_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event4_clean_kitchen_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event4_clean_kitchen_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event4_clean_kitchen_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event4_clean_kitchen_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event4_clean_kitchen_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event4_clean_kitchen_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event4_clean_livingroom_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event4_clean_livingroom_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event4_clean_livingroom_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event4_clean_livingroom_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event4_clean_livingroom_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event4_clean_livingroom_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event4_clean_livingroom_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event4_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event4_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event4_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event4_clean_sink_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event4_clean_sink_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event4_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event4_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event4_clean_sofa_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event4_clean_sofa_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event4_clean_sofa_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event4_clean_sofa_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event4_clean_sofa_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event4_clean_sofa_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event4_clean_sofa_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event4_clean_stove_scene1 vh2kg:place ex:kitchen208_scene1 .
+
+ex:event4_clean_stove_scene2 vh2kg:place ex:kitchen50_scene2 .
+
+ex:event4_clean_stove_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event4_clean_stove_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event4_clean_stove_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event4_clean_stove_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event4_clean_stove_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event4_clean_table_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event4_clean_table_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event4_clean_table_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event4_clean_table_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event4_clean_table_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event4_clean_table_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event4_clean_table_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event4_clean_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event4_clean_television_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event4_clean_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event4_clean_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event4_clean_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event4_clean_television_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event4_clean_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event4_drink_alcohol_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event4_drink_alcohol_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event4_drink_alcohol_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event4_drink_alcohol_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event4_drink_alcohol_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event4_drink_alcohol_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event4_drink_alcohol_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event4_drink_juice_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event4_drink_juice_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event4_drink_juice_while_watching_television_scene3 vh2kg:from ex:livingroom188_scene3 ;
+    vh2kg:to ex:kitchen11_scene3 .
+
+ex:event4_drink_juice_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event4_drink_juice_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event4_drink_juice_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event4_drink_juice_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event4_drink_milk_while_watching_television_scene1 vh2kg:from ex:livingroom339_scene1 ;
+    vh2kg:to ex:kitchen208_scene1 .
+
+ex:event4_drink_milk_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event4_drink_milk_while_watching_television_scene3 vh2kg:from ex:livingroom188_scene3 ;
+    vh2kg:to ex:kitchen11_scene3 .
+
+ex:event4_drink_milk_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event4_drink_milk_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event4_drink_milk_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event4_drink_milk_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
 
 ex:event4_drink_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event4_drink_wine_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event4_drink_wine_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event4_drink_wine_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event4_drink_wine_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event4_drink_wine_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event4_drink_wine_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event4_drink_wine_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event4_eat_bread_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event4_eat_bread_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event4_eat_bread_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event4_eat_bread_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event4_eat_bread_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event4_eat_bread_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event4_eat_cupcake_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event4_eat_cupcake_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event4_eat_cupcake_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event4_eat_cupcake_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event4_eat_cupcake_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event4_eat_cupcake_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event4_eat_cupcake_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
 
 ex:event4_find_some_food_scene1 vh2kg:place ex:kitchen207_scene1 .
 
@@ -270,110 +2414,779 @@ ex:event4_go_to_sleep_scene1 vh2kg:place ex:bedroom74_scene1 .
 ex:event4_go_to_toilet_scene1 vh2kg:place ex:bathroom11_scene1,
         ex:toilet46_scene1 .
 
-ex:event4_leaving_room_scene1 vh2kg:place ex:bedroom74_scene1 .
-
 ex:event4_prepare_breakfast_scene1 vh2kg:place ex:kitchen207_scene1 .
 
-ex:event4_prepare_dinner_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event4_put_groceries_in_fridge_scene1 vh2kg:place ex:kitchen207_scene1 .
 
-ex:event4_prepare_go_out_scene1 vh2kg:place ex:bedroom74_scene1 .
+ex:event4_put_groceries_in_fridge_scene2 vh2kg:place ex:kitchen51_scene2 .
 
-ex:event4_put_food_in_fridge_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event4_put_groceries_in_fridge_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event4_put_groceries_in_fridge_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event4_put_groceries_in_fridge_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event4_put_groceries_in_fridge_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event4_put_groceries_in_fridge_scene7 vh2kg:place ex:kitchen56_scene7 .
 
 ex:event4_read_book_scene1 vh2kg:place ex:livingroom336_scene1 .
 
-ex:event4_relax_on_sofa_scene1 vh2kg:place ex:livingroom336_scene1 .
+ex:event4_relax_on_sofa_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event4_relax_on_sofa_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event4_relax_on_sofa_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event4_relax_on_sofa_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event4_relax_on_sofa_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event4_relax_on_sofa_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event4_relax_on_sofa_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
 
 ex:event4_take_a_nap_scene1 vh2kg:place ex:bedroom74_scene1 .
-
-ex:event4_throw_in_the_garbage_scene1 vh2kg:place ex:kitchen207_scene1 .
 
 ex:event4_use_smartphone_scene1 vh2kg:place ex:livingroom336_scene1 .
 
 ex:event4_wash_clothes_scene1 vh2kg:place ex:bathroom11_scene1 .
 
-ex:event4_wash_fry_pan_scene1 vh2kg:place ex:kitchen207_scene1 .
-
 ex:event4_wash_hands_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event4_watch_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event4_watch_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event4_watch_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event4_watch_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event4_watch_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event4_watch_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event4_watch_television_scene7 vh2kg:place ex:livingroom201_scene7 .
 
 ex:event4_watch_tv_scene1 vh2kg:place ex:livingroom336_scene1 .
 
-ex:event5_change_tv_channel_scene1 vh2kg:place ex:livingroom336_scene1 .
+ex:event5_clean_desk_scene1 vh2kg:place ex:livingroom339_scene1 .
 
-ex:event5_cook_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event5_clean_desk_scene2 vh2kg:place ex:livingroom268_scene2 .
 
-ex:event5_cook_some_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event5_clean_desk_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event5_clean_desk_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event5_clean_desk_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event5_clean_desk_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event5_clean_kitchen_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event5_clean_kitchen_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event5_clean_kitchen_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event5_clean_kitchen_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event5_clean_kitchen_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event5_clean_kitchen_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event5_clean_kitchen_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event5_clean_livingroom_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event5_clean_livingroom_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event5_clean_livingroom_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event5_clean_livingroom_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event5_clean_livingroom_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event5_clean_livingroom_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event5_clean_livingroom_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event5_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event5_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event5_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event5_clean_sink_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event5_clean_sink_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event5_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event5_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event5_clean_sofa_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event5_clean_sofa_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event5_clean_sofa_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event5_clean_sofa_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event5_clean_sofa_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event5_clean_sofa_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event5_clean_sofa_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event5_clean_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event5_clean_television_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event5_clean_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event5_clean_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event5_clean_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event5_clean_television_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event5_clean_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event5_drink_alcohol_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event5_drink_alcohol_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event5_drink_alcohol_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event5_drink_alcohol_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event5_drink_alcohol_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event5_drink_alcohol_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event5_drink_juice_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event5_drink_juice_while_watching_television_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event5_drink_juice_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event5_drink_juice_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event5_drink_juice_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event5_drink_milk_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event5_drink_milk_while_watching_television_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event5_drink_milk_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event5_drink_milk_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event5_drink_milk_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
 
 ex:event5_drink_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event5_drink_wine_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event5_drink_wine_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event5_drink_wine_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event5_drink_wine_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event5_drink_wine_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event5_drink_wine_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event5_eat_bread_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event5_eat_bread_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event5_eat_bread_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event5_eat_bread_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event5_eat_bread_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event5_eat_cupcake_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event5_eat_cupcake_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event5_eat_cupcake_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event5_eat_cupcake_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event5_eat_cupcake_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
 
 ex:event5_find_some_food_scene1 vh2kg:place ex:kitchen207_scene1 .
 
 ex:event5_go_to_toilet_scene1 vh2kg:place ex:bathroom11_scene1,
         ex:toilet46_scene1 .
 
-ex:event5_prepare_dinner_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event5_relax_on_sofa_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
 
-ex:event5_prepare_go_out_scene1 vh2kg:place ex:bedroom74_scene1 .
+ex:event5_relax_on_sofa_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
 
-ex:event5_put_food_in_fridge_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event5_relax_on_sofa_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
 
-ex:event5_relax_on_sofa_scene1 vh2kg:place ex:livingroom336_scene1 .
+ex:event5_relax_on_sofa_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event5_relax_on_sofa_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event5_relax_on_sofa_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event5_relax_on_sofa_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
 
 ex:event5_take_a_nap_scene1 vh2kg:place ex:bedroom74_scene1 .
 
 ex:event5_use_smartphone_scene1 vh2kg:place ex:livingroom336_scene1 .
 
-ex:event5_wash_fry_pan_scene1 vh2kg:place ex:kitchen207_scene1 .
-
 ex:event5_wash_hands_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event5_watch_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event5_watch_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event5_watch_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event5_watch_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event5_watch_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event5_watch_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event5_watch_television_scene7 vh2kg:place ex:livingroom201_scene7 .
 
 ex:event5_watch_tv_scene1 vh2kg:place ex:livingroom336_scene1 .
 
-ex:event6_change_tv_channel_scene1 vh2kg:place ex:livingroom336_scene1 .
+ex:event6_clean_desk_scene1 vh2kg:place ex:livingroom339_scene1 .
 
-ex:event6_cook_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event6_clean_desk_scene2 vh2kg:place ex:livingroom268_scene2 .
 
-ex:event6_cook_some_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event6_clean_desk_scene4 vh2kg:place ex:livingroom271_scene4 .
 
-ex:event6_prepare_dinner_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event6_clean_desk_scene5 vh2kg:place ex:livingroom11_scene5 .
 
-ex:event6_prepare_go_out_scene1 vh2kg:place ex:bedroom74_scene1 .
+ex:event6_clean_desk_scene6 vh2kg:place ex:livingroom252_scene6 .
 
-ex:event6_put_food_in_fridge_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event6_clean_desk_scene7 vh2kg:place ex:livingroom201_scene7 .
 
-ex:event6_wash_fry_pan_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event6_clean_kitchen_scene1 vh2kg:place ex:kitchen207_scene1 .
 
-ex:event7_change_tv_channel_scene1 vh2kg:place ex:livingroom336_scene1 .
+ex:event6_clean_kitchen_scene2 vh2kg:place ex:kitchen51_scene2 .
 
-ex:event7_cook_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event6_clean_kitchen_scene3 vh2kg:place ex:kitchen11_scene3 .
 
-ex:event7_cook_some_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event6_clean_kitchen_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event6_clean_kitchen_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event6_clean_kitchen_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event6_clean_kitchen_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event6_clean_livingroom_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event6_clean_livingroom_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event6_clean_livingroom_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event6_clean_livingroom_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event6_clean_livingroom_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event6_clean_livingroom_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event6_clean_livingroom_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event6_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event6_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event6_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event6_clean_sink_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event6_clean_sink_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event6_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event6_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event6_clean_sofa_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event6_clean_sofa_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event6_clean_sofa_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event6_clean_sofa_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event6_clean_sofa_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event6_clean_sofa_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event6_clean_sofa_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event6_drink_alcohol_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event6_drink_alcohol_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event6_drink_alcohol_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event6_drink_alcohol_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event6_drink_alcohol_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event6_drink_alcohol_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event6_drink_alcohol_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event6_drink_juice_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event6_drink_juice_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event6_drink_juice_while_watching_television_scene3 vh2kg:from ex:kitchen11_scene3 ;
+    vh2kg:to ex:livingroom188_scene3 .
+
+ex:event6_drink_juice_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event6_drink_juice_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event6_drink_juice_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event6_drink_juice_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event6_drink_milk_while_watching_television_scene1 vh2kg:from ex:kitchen208_scene1 ;
+    vh2kg:to ex:livingroom339_scene1 .
+
+ex:event6_drink_milk_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event6_drink_milk_while_watching_television_scene3 vh2kg:from ex:kitchen11_scene3 ;
+    vh2kg:to ex:livingroom188_scene3 .
+
+ex:event6_drink_milk_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event6_drink_milk_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event6_drink_milk_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event6_drink_milk_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event6_drink_wine_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event6_drink_wine_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event6_drink_wine_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event6_drink_wine_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event6_drink_wine_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event6_drink_wine_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event6_drink_wine_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event6_eat_bread_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event6_eat_bread_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event6_eat_bread_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event6_eat_bread_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event6_eat_bread_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event6_eat_bread_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event6_eat_bread_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event6_eat_cupcake_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event6_eat_cupcake_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event6_eat_cupcake_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event6_eat_cupcake_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event6_eat_cupcake_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event6_eat_cupcake_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event6_eat_cupcake_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event6_put_groceries_in_fridge_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event6_put_groceries_in_fridge_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event6_put_groceries_in_fridge_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event6_put_groceries_in_fridge_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event6_put_groceries_in_fridge_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event6_put_groceries_in_fridge_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event6_put_groceries_in_fridge_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event6_relax_on_sofa_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event6_relax_on_sofa_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event6_relax_on_sofa_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event6_relax_on_sofa_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event6_relax_on_sofa_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event6_relax_on_sofa_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event6_relax_on_sofa_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event7_clean_desk_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event7_clean_desk_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event7_clean_desk_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event7_clean_desk_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event7_clean_desk_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event7_clean_desk_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event7_clean_kitchen_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event7_clean_kitchen_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event7_clean_kitchen_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event7_clean_kitchen_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event7_clean_kitchen_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event7_clean_kitchen_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event7_clean_kitchen_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event7_clean_livingroom_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event7_clean_livingroom_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event7_clean_livingroom_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event7_clean_livingroom_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event7_clean_livingroom_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event7_clean_livingroom_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event7_clean_livingroom_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event7_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event7_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event7_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event7_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event7_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event7_clean_sofa_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event7_clean_sofa_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event7_clean_sofa_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event7_clean_sofa_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event7_clean_sofa_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event7_clean_sofa_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event7_clean_sofa_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event7_drink_alcohol_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event7_drink_alcohol_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event7_drink_alcohol_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event7_drink_alcohol_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event7_drink_alcohol_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event7_drink_alcohol_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event7_drink_alcohol_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event7_drink_juice_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event7_drink_juice_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event7_drink_juice_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event7_drink_juice_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event7_drink_juice_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event7_drink_juice_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event7_drink_juice_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event7_drink_milk_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event7_drink_milk_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event7_drink_milk_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event7_drink_milk_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event7_drink_milk_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event7_drink_milk_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event7_drink_milk_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
 
 ex:event7_drink_scene1 vh2kg:place ex:kitchen207_scene1 .
 
-ex:event7_prepare_go_out_scene1 vh2kg:place ex:bedroom74_scene1 .
+ex:event7_drink_wine_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
 
-ex:event7_put_food_in_fridge_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event7_drink_wine_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
 
-ex:event7_wash_fry_pan_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event7_drink_wine_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
 
-ex:event8_change_tv_channel_scene1 vh2kg:place ex:livingroom336_scene1 .
+ex:event7_drink_wine_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
 
-ex:event8_cook_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event7_drink_wine_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
 
-ex:event8_cook_some_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event7_drink_wine_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
 
-ex:event8_prepare_dinner_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event7_drink_wine_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
 
-ex:event8_prepare_go_out_scene1 vh2kg:place ex:bedroom74_scene1 .
+ex:event7_eat_bread_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
 
-ex:event8_put_food_in_fridge_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event7_eat_bread_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
 
-ex:event8_wash_fry_pan_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event7_eat_bread_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
 
-ex:event9_change_tv_channel_scene1 vh2kg:place ex:livingroom336_scene1 .
+ex:event7_eat_bread_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
 
-ex:event9_cook_some_food_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event7_eat_bread_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
 
-ex:event9_put_food_in_fridge_scene1 vh2kg:place ex:kitchen207_scene1 .
+ex:event7_eat_bread_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event7_eat_bread_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event7_eat_cupcake_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event7_eat_cupcake_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event7_eat_cupcake_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event7_eat_cupcake_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event7_eat_cupcake_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event7_eat_cupcake_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event7_eat_cupcake_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event8_clean_desk_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event8_clean_desk_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event8_clean_desk_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event8_clean_desk_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event8_clean_desk_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event8_clean_desk_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event8_clean_kitchen_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event8_clean_kitchen_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event8_clean_kitchen_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event8_clean_kitchen_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event8_clean_kitchen_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event8_clean_kitchen_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event8_clean_kitchen_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event8_clean_livingroom_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event8_clean_livingroom_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event8_clean_livingroom_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event8_clean_livingroom_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event8_clean_livingroom_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event8_clean_livingroom_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event8_clean_livingroom_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event8_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event8_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event8_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event8_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event8_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event8_clean_sofa_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event8_clean_sofa_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event8_clean_sofa_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event8_clean_sofa_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event8_clean_sofa_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event8_clean_sofa_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event8_clean_sofa_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event9_clean_desk_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event9_clean_desk_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event9_clean_desk_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event9_clean_desk_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event9_clean_desk_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event9_clean_desk_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event9_clean_kitchen_scene1 vh2kg:place ex:kitchen207_scene1 .
+
+ex:event9_clean_kitchen_scene2 vh2kg:place ex:kitchen51_scene2 .
+
+ex:event9_clean_kitchen_scene3 vh2kg:place ex:kitchen11_scene3 .
+
+ex:event9_clean_kitchen_scene4 vh2kg:place ex:kitchen11_scene4 .
+
+ex:event9_clean_kitchen_scene5 vh2kg:place ex:kitchen109_scene5 .
+
+ex:event9_clean_kitchen_scene6 vh2kg:place ex:kitchen159_scene6 .
+
+ex:event9_clean_kitchen_scene7 vh2kg:place ex:kitchen56_scene7 .
+
+ex:event9_clean_livingroom_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event9_clean_livingroom_scene2 vh2kg:place ex:livingroom268_scene2 .
+
+ex:event9_clean_livingroom_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event9_clean_livingroom_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event9_clean_livingroom_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event9_clean_livingroom_scene6 vh2kg:place ex:livingroom252_scene6 .
+
+ex:event9_clean_livingroom_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event9_clean_sink_scene1 vh2kg:place ex:bathroom11_scene1 .
+
+ex:event9_clean_sink_scene2 vh2kg:place ex:bathroom11_scene2 .
+
+ex:event9_clean_sink_scene3 vh2kg:place ex:bathroom288_scene3 .
+
+ex:event9_clean_sink_scene6 vh2kg:place ex:bathroom11_scene6 .
+
+ex:event9_clean_sink_scene7 vh2kg:place ex:bathroom11_scene7 .
+
+ex:event9_drink_alcohol_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event9_drink_alcohol_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event9_drink_alcohol_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event9_drink_alcohol_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event9_drink_alcohol_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event9_drink_alcohol_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event9_drink_alcohol_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event9_drink_juice_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event9_drink_juice_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event9_drink_juice_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event9_drink_juice_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event9_drink_juice_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event9_drink_juice_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event9_drink_juice_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event9_drink_milk_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event9_drink_milk_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event9_drink_milk_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event9_drink_milk_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event9_drink_milk_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event9_drink_milk_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event9_drink_milk_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event9_drink_wine_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event9_drink_wine_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event9_drink_wine_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event9_drink_wine_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event9_drink_wine_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event9_drink_wine_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event9_drink_wine_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event9_eat_bread_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event9_eat_bread_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event9_eat_bread_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event9_eat_bread_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event9_eat_bread_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event9_eat_bread_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event9_eat_bread_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
+
+ex:event9_eat_cupcake_while_watching_television_scene1 vh2kg:place ex:livingroom339_scene1 .
+
+ex:event9_eat_cupcake_while_watching_television_scene2 vh2kg:place ex:livingroom269_scene2 .
+
+ex:event9_eat_cupcake_while_watching_television_scene3 vh2kg:place ex:livingroom188_scene3 .
+
+ex:event9_eat_cupcake_while_watching_television_scene4 vh2kg:place ex:livingroom271_scene4 .
+
+ex:event9_eat_cupcake_while_watching_television_scene5 vh2kg:place ex:livingroom11_scene5 .
+
+ex:event9_eat_cupcake_while_watching_television_scene6 vh2kg:place ex:livingroom253_scene6 .
+
+ex:event9_eat_cupcake_while_watching_television_scene7 vh2kg:place ex:livingroom201_scene7 .
 
