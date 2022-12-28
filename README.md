@@ -301,7 +301,7 @@
 ### SPARQLエンドポイント
 本データセットを格納したSPARQLエンドポイントを提供しています。  
 [http://kgrc4si.ml:7200/sparql](http://kgrc4si.ml:7200/sparql)  
-リポジトリは「KGRC4SIv0」を選択してください。（2022/10/17時点）  
+リポジトリは「KGRC4SIv01」を選択してください。（2022/12/28時点）  
 トリプルストアとしてOntotext GraphDBを使用しています．基本的な使用方法は[こちらの動画](https://drive.google.com/file/d/19YKSsUalvVSGinYtCwi2R7zHIp3W0EBU/view)を御覧ください。
 
 ### SPARQLクエリ例
