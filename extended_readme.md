@@ -1,5 +1,7 @@
 # VirtualHome2KGデータセット―家庭内の日常生活行動のシミュレーション動画とナレッジグラフ―
 
+このページの最新情報は[こちら](README.md)に移動しました。
+
 <table width="100%">
 <tr>
 <td width="49%"><img src="./asset/put_food_in_fridge1.gif" alt="video"></td>
