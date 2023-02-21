@@ -1,0 +1,9 @@
+Clean fridge
+Walk to the kitchen and check the fridge. Find and grab the cleaning material to clean that fridge. Walk to the fridge and wipe it down using the cleaning material.
+
+
+[WALK] <fridge> (1)
+[WALK] <washingsponge> (1)
+[GRAB] <washingsponge> (1)
+[WALK] <fridge> (1)
+[WIPE] <washingsponge> (1) <fridge> (1)

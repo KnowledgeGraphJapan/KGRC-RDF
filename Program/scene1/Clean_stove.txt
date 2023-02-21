@@ -1,9 +1,0 @@
-Clean stove
-Walk to the kitchen and check the stove. Find and grab the cleaning material to clean that stove. Walk to the stove and wipe it down using the cleaning material.
-
-
-<char0> [WALK] <stove> (312)
-<char0> [WALK] <washingsponge> (267)
-<char0> [GRAB] <washingsponge> (267)
-<char0> [WALK] <stove> (312)
-<char0> [WIPE] <washingsponge> (267) <stove> (312)

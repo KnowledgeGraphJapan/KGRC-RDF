@@ -1,0 +1,8 @@
+Drink alcohol
+Walk to the alcohol bottle. Grab the bottle and drink it.
+
+
+[WALK] <alcohol> (1)
+[GRAB] <alcohol> (1)
+[WALK] <kitchentable> (1)
+[DRINK] <alcohol> (1)

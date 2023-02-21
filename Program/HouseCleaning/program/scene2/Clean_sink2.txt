@@ -1,0 +1,11 @@
+Clean sink2
+Walk to the kitchen and check the sink. Find and grab the cleaning material to clean that sink. Walk to the sink and wipe it down using the cleaning material.
+
+
+[WALK] <sink> (1)
+[WALK] <sponge> (1)
+[GRAB] <sponge> (1)
+[WALK] <kitchencounter> (1)
+[WIPE] <sponge> (1) <kitchencounter> (1)
+[WALK] <sink> (1)
+[WIPE] <sponge> (1) <sink> (1)

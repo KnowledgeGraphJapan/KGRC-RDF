@@ -1,0 +1,11 @@
+Put groceries in fridge1
+Walk to the kitchen and open the fridge. Find the gorceries and grab them. Walk to the fridge and put these inside the fridge.
+
+
+[WALK] <fridge> (306)
+[WALK] <groceries> (458)
+[GRAB] <groceries> (458)
+[WALK] <fridge> (306)
+[OPEN] <fridge> (306)
+[PUTBACK] <groceries> (458) <fridge> (306)
+[CLOSE] <fridge> (306)
