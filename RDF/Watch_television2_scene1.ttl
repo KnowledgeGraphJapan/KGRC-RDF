@@ -4547,7 +4547,7 @@ ex:state0_wineglass300_watch_television2_scene1 a vh2kg:State ;
         ex:home_situation4_watch_television2_scene1,
         ex:home_situation5_watch_television2_scene1 .
 
-ex:watch_television2_scene1 a ho:watch_television2 ;
+ex:watch_television2_scene1 a ho:watch_television ;
     rdfs:label "Watch television2" ;
     vh2kg:agent ex:character1_scene1 ;
     vh2kg:hasEvent ex:event0_watch_television2_scene1,

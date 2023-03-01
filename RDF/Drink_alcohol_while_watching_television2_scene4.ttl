@@ -10,7 +10,7 @@
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ex:drink_alcohol_while_watching_television2_scene4 a ho:drink_alcohol_while_watching_television2 ;
+ex:drink_alcohol_while_watching_television2_scene4 a ho:drink_alcohol_while_watching_television ;
     rdfs:label "Drink alcohol while watching television2" ;
     vh2kg:agent ex:character1_scene4 ;
     vh2kg:hasEvent ex:event0_drink_alcohol_while_watching_television2_scene4,

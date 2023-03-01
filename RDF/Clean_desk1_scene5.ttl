@@ -10,7 +10,7 @@
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ex:clean_desk1_scene5 a ho:clean_desk1 ;
+ex:clean_desk1_scene5 a ho:clean_desk ;
     rdfs:label "Clean desk1" ;
     vh2kg:agent ex:character1_scene5 ;
     vh2kg:hasEvent ex:event0_clean_desk1_scene5,

@@ -10,7 +10,7 @@
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ex:put_groceries_in_fridge1_scene7 a ho:put_groceries_in_fridge1 ;
+ex:put_groceries_in_fridge1_scene7 a ho:put_groceries_in_fridge ;
     rdfs:label "Put groceries in fridge1" ;
     vh2kg:agent ex:character1_scene7 ;
     vh2kg:hasEvent ex:event0_put_groceries_in_fridge1_scene7,
