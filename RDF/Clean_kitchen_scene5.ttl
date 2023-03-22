@@ -22044,127 +22044,127 @@ ex:tablelamp232_scene5 a vh2kg:Tablelamp ;
     ns1:identifier "232" .
 
 ex:time_event0_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 25.80066466331482 ;
+    time:numericDuration 6.510114755674024 ;
     time:unitType time:unitSecond .
 
 ex:time_event10_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 21.167879343032837 ;
+    time:numericDuration 5.3411540150493355 ;
     time:unitType time:unitSecond .
 
 ex:time_event11_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 11.818798780441284 ;
+    time:numericDuration 2.9821610155762417 ;
     time:unitType time:unitSecond .
 
 ex:time_event12_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 14.75323748588562 ;
+    time:numericDuration 3.7225889450588836 ;
     time:unitType time:unitSecond .
 
 ex:time_event13_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 12.342766523361206 ;
+    time:numericDuration 3.1143704054967394 ;
     time:unitType time:unitSecond .
 
 ex:time_event14_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 19.123375415802002 ;
+    time:numericDuration 4.825277569291565 ;
     time:unitType time:unitSecond .
 
 ex:time_event15_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 22.964723825454712 ;
+    time:numericDuration 5.794540155728829 ;
     time:unitType time:unitSecond .
 
 ex:time_event16_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 11.711220979690552 ;
+    time:numericDuration 2.955016605260096 ;
     time:unitType time:unitSecond .
 
 ex:time_event17_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 29.78179907798767 ;
+    time:numericDuration 7.51464864018805 ;
     time:unitType time:unitSecond .
 
 ex:time_event18_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 18.039615631103516 ;
+    time:numericDuration 4.551819475942382 ;
     time:unitType time:unitSecond .
 
 ex:time_event19_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 13.397738695144653 ;
+    time:numericDuration 3.380564706766748 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 13.166585922241211 ;
+    time:numericDuration 3.3222394233939774 ;
     time:unitType time:unitSecond .
 
 ex:time_event20_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 26.715569496154785 ;
+    time:numericDuration 6.740966771698937 ;
     time:unitType time:unitSecond .
 
 ex:time_event21_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 75.33983969688416 ;
+    time:numericDuration 19.01001421867193 ;
     time:unitType time:unitSecond .
 
 ex:time_event22_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 30.589677095413208 ;
+    time:numericDuration 7.718495272461242 ;
     time:unitType time:unitSecond .
 
 ex:time_event23_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 76.68866920471191 ;
+    time:numericDuration 19.35035563996421 ;
     time:unitType time:unitSecond .
 
 ex:time_event24_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 15.38834834098816 ;
+    time:numericDuration 3.8828423572576285 ;
     time:unitType time:unitSecond .
 
 ex:time_event25_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 11.642047643661499 ;
+    time:numericDuration 2.9375625450078324 ;
     time:unitType time:unitSecond .
 
 ex:time_event26_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 66.99448347091675 ;
+    time:numericDuration 16.904284485853243 ;
     time:unitType time:unitSecond .
 
 ex:time_event27_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 11.125888586044312 ;
+    time:numericDuration 2.807323470118948 ;
     time:unitType time:unitSecond .
 
 ex:time_event28_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 62.04748773574829 ;
+    time:numericDuration 15.656041064528958 ;
     time:unitType time:unitSecond .
 
 ex:time_event29_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 16.925888776779175 ;
+    time:numericDuration 4.270799985834572 ;
     time:unitType time:unitSecond .
 
 ex:time_event2_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 12.528509616851807 ;
+    time:numericDuration 3.1612377583140887 ;
     time:unitType time:unitSecond .
 
 ex:time_event30_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 72.57183933258057 ;
+    time:numericDuration 18.311582598769288 ;
     time:unitType time:unitSecond .
 
 ex:time_event3_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 10.87653374671936 ;
+    time:numericDuration 2.7444053771135284 ;
     time:unitType time:unitSecond .
 
 ex:time_event4_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 0.5769979953765869 ;
+    time:numericDuration 0.1455901703585355 ;
     time:unitType time:unitSecond .
 
 ex:time_event5_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 77.42706441879272 ;
+    time:numericDuration 19.53667012609997 ;
     time:unitType time:unitSecond .
 
 ex:time_event6_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 12.327727317810059 ;
+    time:numericDuration 3.1105756600803023 ;
     time:unitType time:unitSecond .
 
 ex:time_event7_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 78.78451895713806 ;
+    time:numericDuration 19.879187845529266 ;
     time:unitType time:unitSecond .
 
 ex:time_event8_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 17.354187965393066 ;
+    time:numericDuration 4.378869948528327 ;
     time:unitType time:unitSecond .
 
 ex:time_event9_clean_kitchen_scene5 a time:Duration ;
-    time:numericDuration 75.45352220535278 ;
+    time:numericDuration 19.038698990382326 ;
     time:unitType time:unitSecond .
 
 ex:towel362_scene5 a vh2kg:Towel ;

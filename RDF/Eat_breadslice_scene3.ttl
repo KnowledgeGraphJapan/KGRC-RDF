@@ -7388,15 +7388,15 @@ ex:tablelamp380_scene3 a vh2kg:Tablelamp ;
     ns1:identifier "380" .
 
 ex:time_event0_eat_breadslice_scene3 a time:Duration ;
-    time:numericDuration 14.385705471038818 ;
+    time:numericDuration 3.172679309451692 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_eat_breadslice_scene3 a time:Duration ;
-    time:numericDuration 13.577190637588501 ;
+    time:numericDuration 2.994366310576749 ;
     time:unitType time:unitSecond .
 
 ex:time_event2_eat_breadslice_scene3 a time:Duration ;
-    time:numericDuration 49.27040982246399 ;
+    time:numericDuration 10.866287379971558 ;
     time:unitType time:unitSecond .
 
 ex:toaster168_scene3 a vh2kg:Toaster ;

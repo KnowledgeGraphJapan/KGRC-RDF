@@ -12225,35 +12225,35 @@ ex:tablelamp380_scene3 a vh2kg:Tablelamp ;
     ns1:identifier "380" .
 
 ex:time_event0_drink_alcohol_while_watching_television2_scene3 a time:Duration ;
-    time:numericDuration 2.343 ;
+    time:numericDuration 0.0 ;
     time:unitType time:unitSecond .
 
 ex:time_event10_drink_alcohol_while_watching_television2_scene3 a time:Duration ;
-    time:numericDuration 2.4090000000000003 ;
+    time:numericDuration 0.0 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_drink_alcohol_while_watching_television2_scene3 a time:Duration ;
-    time:numericDuration 3.168 ;
+    time:numericDuration 0.0 ;
     time:unitType time:unitSecond .
 
 ex:time_event2_drink_alcohol_while_watching_television2_scene3 a time:Duration ;
-    time:numericDuration 4.224 ;
+    time:numericDuration 0.0 ;
     time:unitType time:unitSecond .
 
 ex:time_event3_drink_alcohol_while_watching_television2_scene3 a time:Duration ;
-    time:numericDuration 1.485 ;
+    time:numericDuration 0.0 ;
     time:unitType time:unitSecond .
 
 ex:time_event4_drink_alcohol_while_watching_television2_scene3 a time:Duration ;
-    time:numericDuration 4.257000000000001 ;
+    time:numericDuration 0.0 ;
     time:unitType time:unitSecond .
 
 ex:time_event5_drink_alcohol_while_watching_television2_scene3 a time:Duration ;
-    time:numericDuration 1.485 ;
+    time:numericDuration 0.0 ;
     time:unitType time:unitSecond .
 
 ex:time_event6_drink_alcohol_while_watching_television2_scene3 a time:Duration ;
-    time:numericDuration 1.8150000000000002 ;
+    time:numericDuration 0.0 ;
     time:unitType time:unitSecond .
 
 ex:time_event7_drink_alcohol_while_watching_television2_scene3 a time:Duration ;
@@ -12261,11 +12261,11 @@ ex:time_event7_drink_alcohol_while_watching_television2_scene3 a time:Duration ;
     time:unitType time:unitSecond .
 
 ex:time_event8_drink_alcohol_while_watching_television2_scene3 a time:Duration ;
-    time:numericDuration 4.95 ;
+    time:numericDuration 0.0 ;
     time:unitType time:unitSecond .
 
 ex:time_event9_drink_alcohol_while_watching_television2_scene3 a time:Duration ;
-    time:numericDuration 1.452 ;
+    time:numericDuration 0.0 ;
     time:unitType time:unitSecond .
 
 ex:toaster168_scene3 a vh2kg:Toaster ;

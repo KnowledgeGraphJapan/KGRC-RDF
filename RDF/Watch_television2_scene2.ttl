@@ -7264,27 +7264,27 @@ ex:tablelamp268_scene2 a vh2kg:Tablelamp ;
     ns1:identifier "268" .
 
 ex:time_event0_watch_television2_scene2 a time:Duration ;
-    time:numericDuration 23.389245748519897 ;
+    time:numericDuration 6.1108929502463525 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_watch_television2_scene2 a time:Duration ;
-    time:numericDuration 13.215301752090454 ;
+    time:numericDuration 3.4527532516664525 ;
     time:unitType time:unitSecond .
 
 ex:time_event2_watch_television2_scene2 a time:Duration ;
-    time:numericDuration 22.484102964401245 ;
+    time:numericDuration 5.874406886612297 ;
     time:unitType time:unitSecond .
 
 ex:time_event3_watch_television2_scene2 a time:Duration ;
-    time:numericDuration 12.370877027511597 ;
+    time:numericDuration 3.232130955764961 ;
     time:unitType time:unitSecond .
 
 ex:time_event4_watch_television2_scene2 a time:Duration ;
-    time:numericDuration 20.983692407608032 ;
+    time:numericDuration 5.482395601059702 ;
     time:unitType time:unitSecond .
 
 ex:time_event5_watch_television2_scene2 a time:Duration ;
-    time:numericDuration 22.380812883377075 ;
+    time:numericDuration 5.847420354650234 ;
     time:unitType time:unitSecond .
 
 ex:toaster157_scene2 a vh2kg:Toaster ;

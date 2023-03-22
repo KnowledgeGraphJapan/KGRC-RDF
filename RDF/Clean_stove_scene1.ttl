@@ -10182,23 +10182,23 @@ ex:tablelamp105_scene1 a vh2kg:Tablelamp ;
     ns1:identifier "105" .
 
 ex:time_event0_clean_stove_scene1 a time:Duration ;
-    time:numericDuration 30.109639644622803 ;
+    time:numericDuration 7.218091678496433 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_clean_stove_scene1 a time:Duration ;
-    time:numericDuration 19.313956022262573 ;
+    time:numericDuration 4.630075513641571 ;
     time:unitType time:unitSecond .
 
 ex:time_event2_clean_stove_scene1 a time:Duration ;
-    time:numericDuration 13.834976434707642 ;
+    time:numericDuration 3.3166165206295175 ;
     time:unitType time:unitSecond .
 
 ex:time_event3_clean_stove_scene1 a time:Duration ;
-    time:numericDuration 20.179006099700928 ;
+    time:numericDuration 4.837451318836755 ;
     time:unitType time:unitSecond .
 
 ex:time_event4_clean_stove_scene1 a time:Duration ;
-    time:numericDuration 83.41893172264099 ;
+    time:numericDuration 19.997764968395725 ;
     time:unitType time:unitSecond .
 
 ex:toothbrush67_scene1 a vh2kg:Toothbrush ;

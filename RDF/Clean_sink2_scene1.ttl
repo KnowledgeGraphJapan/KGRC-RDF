@@ -10695,31 +10695,31 @@ ex:tablelamp105_scene1 a vh2kg:Tablelamp ;
     ns1:identifier "105" .
 
 ex:time_event0_clean_sink2_scene1 a time:Duration ;
-    time:numericDuration 16.819274425506592 ;
+    time:numericDuration 4.075257207165591 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_clean_sink2_scene1 a time:Duration ;
-    time:numericDuration 14.156386852264404 ;
+    time:numericDuration 3.4300479371230126 ;
     time:unitType time:unitSecond .
 
 ex:time_event2_clean_sink2_scene1 a time:Duration ;
-    time:numericDuration 13.404885292053223 ;
+    time:numericDuration 3.2479614765559384 ;
     time:unitType time:unitSecond .
 
 ex:time_event3_clean_sink2_scene1 a time:Duration ;
-    time:numericDuration 19.310590028762817 ;
+    time:numericDuration 4.678895129387567 ;
     time:unitType time:unitSecond .
 
 ex:time_event4_clean_sink2_scene1 a time:Duration ;
-    time:numericDuration 73.4201443195343 ;
+    time:numericDuration 17.78946967150802 ;
     time:unitType time:unitSecond .
 
 ex:time_event5_clean_sink2_scene1 a time:Duration ;
-    time:numericDuration 9.842822790145874 ;
+    time:numericDuration 2.384884953988587 ;
     time:unitType time:unitSecond .
 
 ex:time_event6_clean_sink2_scene1 a time:Duration ;
-    time:numericDuration 75.36272406578064 ;
+    time:numericDuration 18.260150624271287 ;
     time:unitType time:unitSecond .
 
 ex:toothbrush67_scene1 a vh2kg:Toothbrush ;

@@ -8567,31 +8567,31 @@ ex:tablelamp341_scene4 a vh2kg:Tablelamp ;
     ns1:identifier "341" .
 
 ex:time_event0_clean_sink2_scene4 a time:Duration ;
-    time:numericDuration 32.60632014274597 ;
+    time:numericDuration 7.630090523377895 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_clean_sink2_scene4 a time:Duration ;
-    time:numericDuration 18.24266266822815 ;
+    time:numericDuration 4.268901456424976 ;
     time:unitType time:unitSecond .
 
 ex:time_event2_clean_sink2_scene4 a time:Duration ;
-    time:numericDuration 13.375324249267578 ;
+    time:numericDuration 3.1299126781145703 ;
     time:unitType time:unitSecond .
 
 ex:time_event3_clean_sink2_scene4 a time:Duration ;
-    time:numericDuration 14.728499412536621 ;
+    time:numericDuration 3.4465644482170745 ;
     time:unitType time:unitSecond .
 
 ex:time_event4_clean_sink2_scene4 a time:Duration ;
-    time:numericDuration 77.11291909217834 ;
+    time:numericDuration 18.04492351848955 ;
     time:unitType time:unitSecond .
 
 ex:time_event5_clean_sink2_scene4 a time:Duration ;
-    time:numericDuration 8.098753690719604 ;
+    time:numericDuration 1.8951609232874123 ;
     time:unitType time:unitSecond .
 
 ex:time_event6_clean_sink2_scene4 a time:Duration ;
-    time:numericDuration 81.27030777931213 ;
+    time:numericDuration 19.01777945208852 ;
     time:unitType time:unitSecond .
 
 ex:toilet191_scene4 a vh2kg:Toilet ;

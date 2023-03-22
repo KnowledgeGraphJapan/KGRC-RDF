@@ -18297,115 +18297,115 @@ ex:tablelamp380_scene3 a vh2kg:Tablelamp ;
     ns1:identifier "380" .
 
 ex:time_event0_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 25.815381050109863 ;
+    time:numericDuration 6.710828410370836 ;
     time:unitType time:unitSecond .
 
 ex:time_event10_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 11.889858961105347 ;
+    time:numericDuration 3.090824154662186 ;
     time:unitType time:unitSecond .
 
 ex:time_event11_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 12.288332462310791 ;
+    time:numericDuration 3.194409195203668 ;
     time:unitType time:unitSecond .
 
 ex:time_event12_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 82.81540369987488 ;
+    time:numericDuration 21.528249491521073 ;
     time:unitType time:unitSecond .
 
 ex:time_event13_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 54.26642727851868 ;
+    time:numericDuration 14.106810246306871 ;
     time:unitType time:unitSecond .
 
 ex:time_event14_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 8.587268590927124 ;
+    time:numericDuration 2.232300422589874 ;
     time:unitType time:unitSecond .
 
 ex:time_event15_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 12.20077133178711 ;
+    time:numericDuration 3.171647271944743 ;
     time:unitType time:unitSecond .
 
 ex:time_event16_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 13.645965337753296 ;
+    time:numericDuration 3.5473321775794884 ;
     time:unitType time:unitSecond .
 
 ex:time_event17_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 12.361822128295898 ;
+    time:numericDuration 3.21351317578812 ;
     time:unitType time:unitSecond .
 
 ex:time_event18_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 83.76788544654846 ;
+    time:numericDuration 21.775851553002536 ;
     time:unitType time:unitSecond .
 
 ex:time_event19_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 13.957431077957153 ;
+    time:numericDuration 3.6282991458438727 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 18.50550937652588 ;
+    time:numericDuration 4.810593259550018 ;
     time:unitType time:unitSecond .
 
 ex:time_event20_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 12.019330024719238 ;
+    time:numericDuration 3.124480760014418 ;
     time:unitType time:unitSecond .
 
 ex:time_event21_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 13.994405746459961 ;
+    time:numericDuration 3.6379108829463016 ;
     time:unitType time:unitSecond .
 
 ex:time_event22_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 12.586557626724243 ;
+    time:numericDuration 3.2719342141893857 ;
     time:unitType time:unitSecond .
 
 ex:time_event23_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 84.26489996910095 ;
+    time:numericDuration 21.905052790506563 ;
     time:unitType time:unitSecond .
 
 ex:time_event24_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 8.863197088241577 ;
+    time:numericDuration 2.304029319227675 ;
     time:unitType time:unitSecond .
 
 ex:time_event25_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 12.133403778076172 ;
+    time:numericDuration 3.1541347629291683 ;
     time:unitType time:unitSecond .
 
 ex:time_event26_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 5.137109994888306 ;
+    time:numericDuration 1.3354156436420181 ;
     time:unitType time:unitSecond .
 
 ex:time_event27_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 70.533682346344 ;
+    time:numericDuration 18.33555888480301 ;
     time:unitType time:unitSecond .
 
 ex:time_event2_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 11.915321588516235 ;
+    time:numericDuration 3.0974432831228507 ;
     time:unitType time:unitSecond .
 
 ex:time_event3_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 14.370782613754272 ;
+    time:numericDuration 3.735751800697709 ;
     time:unitType time:unitSecond .
 
 ex:time_event4_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 69.98729133605957 ;
+    time:numericDuration 18.19352199958832 ;
     time:unitType time:unitSecond .
 
 ex:time_event5_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 13.654982805252075 ;
+    time:numericDuration 3.5496763102096804 ;
     time:unitType time:unitSecond .
 
 ex:time_event6_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 12.411108493804932 ;
+    time:numericDuration 3.2263253958076468 ;
     time:unitType time:unitSecond .
 
 ex:time_event7_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 79.19226360321045 ;
+    time:numericDuration 20.586397366686917 ;
     time:unitType time:unitSecond .
 
 ex:time_event8_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 11.880169868469238 ;
+    time:numericDuration 3.0883054299528006 ;
     time:unitType time:unitSecond .
 
 ex:time_event9_clean_sink1_scene3 a time:Duration ;
-    time:numericDuration 12.605027914047241 ;
+    time:numericDuration 3.2767356513122503 ;
     time:unitType time:unitSecond .
 
 ex:toaster168_scene3 a vh2kg:Toaster ;

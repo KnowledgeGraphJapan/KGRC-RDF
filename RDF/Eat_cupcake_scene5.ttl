@@ -6675,15 +6675,15 @@ ex:tablelamp76_scene5 a vh2kg:Tablelamp ;
     ns1:identifier "76" .
 
 ex:time_event0_eat_cupcake_scene5 a time:Duration ;
-    time:numericDuration 27.20013403892517 ;
+    time:numericDuration 6.286920686650934 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_eat_cupcake_scene5 a time:Duration ;
-    time:numericDuration 14.300858497619629 ;
+    time:numericDuration 3.3054382378001477 ;
     time:unitType time:unitSecond .
 
 ex:time_event2_eat_cupcake_scene5 a time:Duration ;
-    time:numericDuration 43.87455606460571 ;
+    time:numericDuration 10.140974075548918 ;
     time:unitType time:unitSecond .
 
 ex:toaster156_scene5 a vh2kg:Toaster ;

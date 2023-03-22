@@ -7114,19 +7114,19 @@ ex:stovefan237_scene6 a vh2kg:Stovefan ;
     ns1:identifier "237" .
 
 ex:time_event0_pet_cat_scene6 a time:Duration ;
-    time:numericDuration 3.3000000000000003 ;
+    time:numericDuration 6.96969696969697 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_pet_cat_scene6 a time:Duration ;
-    time:numericDuration 1.485 ;
+    time:numericDuration 3.1363636363636362 ;
     time:unitType time:unitSecond .
 
 ex:time_event2_pet_cat_scene6 a time:Duration ;
-    time:numericDuration 0.924 ;
+    time:numericDuration 1.9515151515151514 ;
     time:unitType time:unitSecond .
 
 ex:time_event3_pet_cat_scene6 a time:Duration ;
-    time:numericDuration 3.003 ;
+    time:numericDuration 6.342424242424242 ;
     time:unitType time:unitSecond .
 
 ex:toaster233_scene6 a vh2kg:Toaster ;

@@ -10673,35 +10673,35 @@ ex:stovefan105_scene4 a vh2kg:Stovefan ;
     ns1:identifier "105" .
 
 ex:time_event0_eat_bread_while_watching_television2_scene4 a time:Duration ;
-    time:numericDuration 4.29 ;
+    time:numericDuration 9.069886089517079 ;
     time:unitType time:unitSecond .
 
 ex:time_event10_eat_bread_while_watching_television2_scene4 a time:Duration ;
-    time:numericDuration 2.5740000000000003 ;
+    time:numericDuration 5.441931653710248 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_eat_bread_while_watching_television2_scene4 a time:Duration ;
-    time:numericDuration 2.9370000000000003 ;
+    time:numericDuration 6.209383553592462 ;
     time:unitType time:unitSecond .
 
 ex:time_event2_eat_bread_while_watching_television2_scene4 a time:Duration ;
-    time:numericDuration 3.2670000000000003 ;
+    time:numericDuration 6.90706709893993 ;
     time:unitType time:unitSecond .
 
 ex:time_event3_eat_bread_while_watching_television2_scene4 a time:Duration ;
-    time:numericDuration 1.485 ;
+    time:numericDuration 3.1395759540636043 ;
     time:unitType time:unitSecond .
 
 ex:time_event4_eat_bread_while_watching_television2_scene4 a time:Duration ;
-    time:numericDuration 1.881 ;
+    time:numericDuration 3.9767962084805655 ;
     time:unitType time:unitSecond .
 
 ex:time_event5_eat_bread_while_watching_television2_scene4 a time:Duration ;
-    time:numericDuration 1.485 ;
+    time:numericDuration 3.1395759540636043 ;
     time:unitType time:unitSecond .
 
 ex:time_event6_eat_bread_while_watching_television2_scene4 a time:Duration ;
-    time:numericDuration 3.201 ;
+    time:numericDuration 6.767530389870436 ;
     time:unitType time:unitSecond .
 
 ex:time_event7_eat_bread_while_watching_television2_scene4 a time:Duration ;
@@ -10709,11 +10709,11 @@ ex:time_event7_eat_bread_while_watching_television2_scene4 a time:Duration ;
     time:unitType time:unitSecond .
 
 ex:time_event8_eat_bread_while_watching_television2_scene4 a time:Duration ;
-    time:numericDuration 5.445 ;
+    time:numericDuration 11.511778498233216 ;
     time:unitType time:unitSecond .
 
 ex:time_event9_eat_bread_while_watching_television2_scene4 a time:Duration ;
-    time:numericDuration 1.452 ;
+    time:numericDuration 3.069807599528857 ;
     time:unitType time:unitSecond .
 
 ex:toaster102_scene4 a vh2kg:Toaster ;

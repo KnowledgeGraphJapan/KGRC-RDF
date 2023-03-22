@@ -6805,15 +6805,15 @@ ex:tablelamp224_scene7 a vh2kg:Tablelamp ;
     ns1:identifier "224" .
 
 ex:time_event0_eat_breadslice_scene7 a time:Duration ;
-    time:numericDuration 16.583417892456055 ;
+    time:numericDuration 3.7936075135428404 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_eat_breadslice_scene7 a time:Duration ;
-    time:numericDuration 14.090539932250977 ;
+    time:numericDuration 3.223339030802536 ;
     time:unitType time:unitSecond .
 
 ex:time_event2_eat_breadslice_scene7 a time:Duration ;
-    time:numericDuration 44.660024881362915 ;
+    time:numericDuration 10.216386455654622 ;
     time:unitType time:unitSecond .
 
 ex:toaster162_scene7 a vh2kg:Toaster ;

@@ -8992,23 +8992,23 @@ ex:tablelamp380_scene3 a vh2kg:Tablelamp ;
     ns1:identifier "380" .
 
 ex:time_event0_clean_kitchentable_scene3 a time:Duration ;
-    time:numericDuration 6.178869247436523 ;
+    time:numericDuration 2.0474777066738015 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_clean_kitchentable_scene3 a time:Duration ;
-    time:numericDuration 24.691495180130005 ;
+    time:numericDuration 8.18196402954053 ;
     time:unitType time:unitSecond .
 
 ex:time_event2_clean_kitchentable_scene3 a time:Duration ;
-    time:numericDuration 9.458531856536865 ;
+    time:numericDuration 3.134251970481132 ;
     time:unitType time:unitSecond .
 
 ex:time_event3_clean_kitchentable_scene3 a time:Duration ;
-    time:numericDuration 25.58929991722107 ;
+    time:numericDuration 8.479467522578958 ;
     time:unitType time:unitSecond .
 
 ex:time_event4_clean_kitchentable_scene3 a time:Duration ;
-    time:numericDuration 54.994815826416016 ;
+    time:numericDuration 18.223505770725584 ;
     time:unitType time:unitSecond .
 
 ex:toaster168_scene3 a vh2kg:Toaster ;

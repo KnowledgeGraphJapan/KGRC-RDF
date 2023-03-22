@@ -7068,19 +7068,19 @@ ex:tablelamp341_scene4 a vh2kg:Tablelamp ;
     ns1:identifier "341" .
 
 ex:time_event0_drink_alcohol_scene4 a time:Duration ;
-    time:numericDuration 20.045359134674072 ;
+    time:numericDuration 4.666450718030553 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_drink_alcohol_scene4 a time:Duration ;
-    time:numericDuration 13.433674097061157 ;
+    time:numericDuration 3.127286356650189 ;
     time:unitType time:unitSecond .
 
 ex:time_event2_drink_alcohol_scene4 a time:Duration ;
-    time:numericDuration 26.51471996307373 ;
+    time:numericDuration 6.172482776626302 ;
     time:unitType time:unitSecond .
 
 ex:time_event3_drink_alcohol_scene4 a time:Duration ;
-    time:numericDuration 41.95593237876892 ;
+    time:numericDuration 9.767113148692953 ;
     time:unitType time:unitSecond .
 
 ex:toaster102_scene4 a vh2kg:Toaster ;

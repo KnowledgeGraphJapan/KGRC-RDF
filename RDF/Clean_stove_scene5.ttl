@@ -8317,23 +8317,23 @@ ex:tablelamp233_scene5 a vh2kg:Tablelamp ;
     ns1:identifier "233" .
 
 ex:time_event0_clean_stove_scene5 a time:Duration ;
-    time:numericDuration 20.057103872299194 ;
+    time:numericDuration 4.484577729123079 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_clean_stove_scene5 a time:Duration ;
-    time:numericDuration 22.59236168861389 ;
+    time:numericDuration 5.051437272406024 ;
     time:unitType time:unitSecond .
 
 ex:time_event2_clean_stove_scene5 a time:Duration ;
-    time:numericDuration 13.891980648040771 ;
+    time:numericDuration 3.106114792258434 ;
     time:unitType time:unitSecond .
 
 ex:time_event3_clean_stove_scene5 a time:Duration ;
-    time:numericDuration 23.719338178634644 ;
+    time:numericDuration 5.3034185006317225 ;
     time:unitType time:unitSecond .
 
 ex:time_event4_clean_stove_scene5 a time:Duration ;
-    time:numericDuration 82.83500123023987 ;
+    time:numericDuration 18.521118705580744 ;
     time:unitType time:unitSecond .
 
 ex:toilet300_scene5 a vh2kg:Toilet ;

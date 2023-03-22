@@ -8886,31 +8886,31 @@ ex:tablelamp340_scene4 a vh2kg:Tablelamp ;
     ns1:identifier "340" .
 
 ex:time_event0_put_groceries_in_fridge1_scene4 a time:Duration ;
-    time:numericDuration 30.9497013092041 ;
+    time:numericDuration 8.167931736753284 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_put_groceries_in_fridge1_scene4 a time:Duration ;
-    time:numericDuration 16.89336919784546 ;
+    time:numericDuration 4.458326916736266 ;
     time:unitType time:unitSecond .
 
 ex:time_event2_put_groceries_in_fridge1_scene4 a time:Duration ;
-    time:numericDuration 11.830871820449829 ;
+    time:numericDuration 3.1222838776468076 ;
     time:unitType time:unitSecond .
 
 ex:time_event3_put_groceries_in_fridge1_scene4 a time:Duration ;
-    time:numericDuration 30.239499807357788 ;
+    time:numericDuration 7.980502548714716 ;
     time:unitType time:unitSecond .
 
 ex:time_event4_put_groceries_in_fridge1_scene4 a time:Duration ;
-    time:numericDuration 26.418734312057495 ;
+    time:numericDuration 6.972164812722598 ;
     time:unitType time:unitSecond .
 
 ex:time_event5_put_groceries_in_fridge1_scene4 a time:Duration ;
-    time:numericDuration 11.640938997268677 ;
+    time:numericDuration 3.072158730434123 ;
     time:unitType time:unitSecond .
 
 ex:time_event6_put_groceries_in_fridge1_scene4 a time:Duration ;
-    time:numericDuration 28.772316455841064 ;
+    time:numericDuration 7.5932983769922044 ;
     time:unitType time:unitSecond .
 
 ex:toilet190_scene4 a vh2kg:Toilet ;

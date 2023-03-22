@@ -6336,11 +6336,11 @@ ex:tablelamp99_scene6 a vh2kg:Tablelamp ;
     ns1:identifier "99" .
 
 ex:time_event0_relax_on_sofa_scene6 a time:Duration ;
-    time:numericDuration 3.1350000000000002 ;
+    time:numericDuration 6.594322170329671 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_relax_on_sofa_scene6 a time:Duration ;
-    time:numericDuration 2.871 ;
+    time:numericDuration 6.03901082967033 ;
     time:unitType time:unitSecond .
 
 ex:toaster233_scene6 a vh2kg:Toaster ;

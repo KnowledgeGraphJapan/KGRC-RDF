@@ -11026,35 +11026,35 @@ ex:tablelamp234_scene5 a vh2kg:Tablelamp ;
     ns1:identifier "234" .
 
 ex:time_event0_drink_milk_while_watching_television2_scene5 a time:Duration ;
-    time:numericDuration 2.7390000000000003 ;
+    time:numericDuration 5.798001735969389 ;
     time:unitType time:unitSecond .
 
 ex:time_event10_drink_milk_while_watching_television2_scene5 a time:Duration ;
-    time:numericDuration 2.442 ;
+    time:numericDuration 5.169302752551021 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_drink_milk_while_watching_television2_scene5 a time:Duration ;
-    time:numericDuration 2.607 ;
+    time:numericDuration 5.5185799655612255 ;
     time:unitType time:unitSecond .
 
 ex:time_event2_drink_milk_while_watching_television2_scene5 a time:Duration ;
-    time:numericDuration 1.683 ;
+    time:numericDuration 3.562627572704082 ;
     time:unitType time:unitSecond .
 
 ex:time_event3_drink_milk_while_watching_television2_scene5 a time:Duration ;
-    time:numericDuration 1.485 ;
+    time:numericDuration 3.143494917091837 ;
     time:unitType time:unitSecond .
 
 ex:time_event4_drink_milk_while_watching_television2_scene5 a time:Duration ;
-    time:numericDuration 3.4650000000000003 ;
+    time:numericDuration 7.334821473214287 ;
     time:unitType time:unitSecond .
 
 ex:time_event5_drink_milk_while_watching_television2_scene5 a time:Duration ;
-    time:numericDuration 1.485 ;
+    time:numericDuration 3.143494917091837 ;
     time:unitType time:unitSecond .
 
 ex:time_event6_drink_milk_while_watching_television2_scene5 a time:Duration ;
-    time:numericDuration 3.333 ;
+    time:numericDuration 7.055399702806123 ;
     time:unitType time:unitSecond .
 
 ex:time_event7_drink_milk_while_watching_television2_scene5 a time:Duration ;
@@ -11062,11 +11062,11 @@ ex:time_event7_drink_milk_while_watching_television2_scene5 a time:Duration ;
     time:unitType time:unitSecond .
 
 ex:time_event8_drink_milk_while_watching_television2_scene5 a time:Duration ;
-    time:numericDuration 5.181 ;
+    time:numericDuration 10.967304488520409 ;
     time:unitType time:unitSecond .
 
 ex:time_event9_drink_milk_while_watching_television2_scene5 a time:Duration ;
-    time:numericDuration 1.452 ;
+    time:numericDuration 3.073639474489796 ;
     time:unitType time:unitSecond .
 
 ex:toaster156_scene5 a vh2kg:Toaster ;

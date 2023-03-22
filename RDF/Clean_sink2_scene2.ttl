@@ -7485,31 +7485,31 @@ ex:tablelamp267_scene2 a vh2kg:Tablelamp ;
     ns1:identifier "267" .
 
 ex:time_event0_clean_sink2_scene2 a time:Duration ;
-    time:numericDuration 25.299299955368042 ;
+    time:numericDuration 5.617349290776445 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_clean_sink2_scene2 a time:Duration ;
-    time:numericDuration 14.147630214691162 ;
+    time:numericDuration 3.141279825641985 ;
     time:unitType time:unitSecond .
 
 ex:time_event2_clean_sink2_scene2 a time:Duration ;
-    time:numericDuration 15.436654567718506 ;
+    time:numericDuration 3.4274893274086664 ;
     time:unitType time:unitSecond .
 
 ex:time_event3_clean_sink2_scene2 a time:Duration ;
-    time:numericDuration 17.69432759284973 ;
+    time:numericDuration 3.9287734731715647 ;
     time:unitType time:unitSecond .
 
 ex:time_event4_clean_sink2_scene2 a time:Duration ;
-    time:numericDuration 84.51616978645325 ;
+    time:numericDuration 18.765611983201936 ;
     time:unitType time:unitSecond .
 
 ex:time_event5_clean_sink2_scene2 a time:Duration ;
-    time:numericDuration 11.60603404045105 ;
+    time:numericDuration 2.576954587710708 ;
     time:unitType time:unitSecond .
 
 ex:time_event6_clean_sink2_scene2 a time:Duration ;
-    time:numericDuration 80.0586109161377 ;
+    time:numericDuration 17.775874512088695 ;
     time:unitType time:unitSecond .
 
 ex:toaster157_scene2 a vh2kg:Toaster ;

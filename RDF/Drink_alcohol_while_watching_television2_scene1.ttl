@@ -12806,35 +12806,35 @@ ex:tablelamp105_scene1 a vh2kg:Tablelamp ;
     ns1:identifier "105" .
 
 ex:time_event0_drink_alcohol_while_watching_television2_scene1 a time:Duration ;
-    time:numericDuration 3.6630000000000003 ;
+    time:numericDuration 0.0 ;
     time:unitType time:unitSecond .
 
 ex:time_event10_drink_alcohol_while_watching_television2_scene1 a time:Duration ;
-    time:numericDuration 2.673 ;
+    time:numericDuration 0.0 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_drink_alcohol_while_watching_television2_scene1 a time:Duration ;
-    time:numericDuration 3.168 ;
+    time:numericDuration 0.0 ;
     time:unitType time:unitSecond .
 
 ex:time_event2_drink_alcohol_while_watching_television2_scene1 a time:Duration ;
-    time:numericDuration 0.792 ;
+    time:numericDuration 0.0 ;
     time:unitType time:unitSecond .
 
 ex:time_event3_drink_alcohol_while_watching_television2_scene1 a time:Duration ;
-    time:numericDuration 1.485 ;
+    time:numericDuration 0.0 ;
     time:unitType time:unitSecond .
 
 ex:time_event4_drink_alcohol_while_watching_television2_scene1 a time:Duration ;
-    time:numericDuration 2.31 ;
+    time:numericDuration 0.0 ;
     time:unitType time:unitSecond .
 
 ex:time_event5_drink_alcohol_while_watching_television2_scene1 a time:Duration ;
-    time:numericDuration 1.485 ;
+    time:numericDuration 0.0 ;
     time:unitType time:unitSecond .
 
 ex:time_event6_drink_alcohol_while_watching_television2_scene1 a time:Duration ;
-    time:numericDuration 3.168 ;
+    time:numericDuration 0.0 ;
     time:unitType time:unitSecond .
 
 ex:time_event7_drink_alcohol_while_watching_television2_scene1 a time:Duration ;
@@ -12842,11 +12842,11 @@ ex:time_event7_drink_alcohol_while_watching_television2_scene1 a time:Duration ;
     time:unitType time:unitSecond .
 
 ex:time_event8_drink_alcohol_while_watching_television2_scene1 a time:Duration ;
-    time:numericDuration 5.181 ;
+    time:numericDuration 0.0 ;
     time:unitType time:unitSecond .
 
 ex:time_event9_drink_alcohol_while_watching_television2_scene1 a time:Duration ;
-    time:numericDuration 1.452 ;
+    time:numericDuration 0.0 ;
     time:unitType time:unitSecond .
 
 ex:toaster309_scene1 a vh2kg:Toaster ;

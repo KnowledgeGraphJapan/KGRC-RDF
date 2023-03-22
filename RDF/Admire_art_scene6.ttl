@@ -6707,7 +6707,7 @@ ex:tablelamp99_scene6 a vh2kg:Tablelamp ;
     ns1:identifier "99" .
 
 ex:time_event0_admire_art_scene6 a time:Duration ;
-    time:numericDuration 2.7390000000000003 ;
+    time:numericDuration 5.8666670000000005 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_admire_art_scene6 a time:Duration ;
