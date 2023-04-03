@@ -301,8 +301,10 @@
 ### SPARQLエンドポイント
 本データセットを格納したSPARQLエンドポイントを提供しています。  
 [http://kgrc4si.ml:7200/sparql](http://kgrc4si.ml:7200/sparql)  
-リポジトリは「KGRC4SIv02」を選択してください。（2023/02/21時点）  
+リポジトリは「KGRC4SIv03」を選択してください。（2023/04/03 時点）  
 トリプルストアとしてOntotext GraphDBを使用しています．基本的な使用方法は[こちらの動画](https://drive.google.com/file/d/19YKSsUalvVSGinYtCwi2R7zHIp3W0EBU/view)を御覧ください。
+
+本エンドポイントがダウンしている場合は、[大阪電気通信大学古崎研究室提供のミラーリポジトリ](http://kozaki-lab.osakac.ac.jp/agraph/kgrc4si)からご利用ください（最新データであることは保証されません）
 
 ### SPARQLクエリ例
 
@@ -390,7 +392,7 @@ CONSTRUCT {
 
 ## リファレンス
 - 江上周作，鵜飼孝典，Swe Nwe Nwe Htun，太田雅輝，大野美喜子，北村光司，松下京群，古崎晃司，川村隆浩，福田賢一郎: 家庭内の日常生活動画とイベント中心知識グラフの同時生成，2023年度人工知能学会全国大会（第37回）, to appear (2023) 
-- Egami, S., Ugai, T., Oono, M., Kitamura, K., Fukuda.: Synthesizing Event-centric Knowledge Graphs of Daily Activities using Virtual Space. IEEE Access, Early Access. doi: [https://doi.org/10.1109/ACCESS.2023.3253807](https://doi.org/10.1109/ACCESS.2023.3253807) (2023)
+- Egami, S., Ugai, T., Oono, M., Kitamura, K., Fukuda.: Synthesizing Event-centric Knowledge Graphs of Daily Activities using Virtual Space. IEEE Access, Vol. 11, pp.23857-23873. doi: [https://doi.org/10.1109/ACCESS.2023.3253807](https://doi.org/10.1109/ACCESS.2023.3253807) (2023)
 - 江上周作，鵜飼孝典，窪田文也，大野美喜子，北村光司，福田賢一郎: 家庭内の事故予防に向けた合成ナレッジグラフの構築と推論，第56回人工知能学会セマンティックウェブとオントロジー研究会, SIG-SWO-056-14 (2022) [[J-STAGE]](https://www.jstage.jst.go.jp/article/jsaisigtwo/2022/SWO-056/2022_14/_article/-char/ja)
 - Egami, S., Nishimura, S., Fukuda, K.: A Framework for Constructing and Augmenting Knowledge Graphs using Virtual Space: Towards Analysis of Daily Activities. Proceedings of the 33rd IEEE International Conference on Tools with Artificial Intelligence. pp.1226-1230 (2021) [[IEEE Xplore]](https://ieeexplore.ieee.org/document/9643400)
 - Egami, S., Nishimura, S., Fukuda, K.: VirtualHome2KG: Constructing and Augmenting Knowledge Graphs of Daily Activities Using Virtual Space. Proceedings of the ISWC 2021 Posters, Demos and Industry Tracks: From Novel Ideas to Industrial Practice, co-located with 20th International Semantic Web Conference. CEUR, Vol.2980 (2021) [[pdf]](http://ceur-ws.org/Vol-2980/paper381.pdf)
