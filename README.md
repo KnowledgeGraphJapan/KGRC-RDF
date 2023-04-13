@@ -23,12 +23,12 @@
 ## データセットの構成
 - [動画](./Movie/)
   - mp4形式
-  - 199種類の行動シナリオ(更新: 2022/12/28)
-  - 1種類につきキャラクター後方視点（ファイル名末尾0），室内カメラ切替視点（ファイル名末尾1），部屋の四隅に設置した固定カメラ視点（ファイル末尾2〜5）があります．また，1つの行動シナリオにつき，異なる部屋の間取り（scene）で最小1〜最大7パターンのデータを生成しています．合計1,206個の動画 (更新: 2022/12/28)
+  - 204種類の行動シナリオ(更新: 2023/02/21)
+  - 1種類につきキャラクター後方視点（ファイル名末尾0），室内カメラ切替視点（ファイル名末尾1），部屋の四隅に設置した固定カメラ視点（ファイル末尾2〜5）があります．また，1つの行動シナリオにつき，異なる部屋の間取り（scene）で最小1〜最大7パターンのデータを生成しています．合計1,224個の動画 (更新: 2023/02/21)
   - キャラクター動作がゆっくりな動画は高齢者の動きを再現しています
 - [ナレッジグラフ](./RDF/)
   - RDF形式
-  - 動画に対応する199個のナレッジグラフ(更新: 2022/12/28)
+  - 動画に対応する204個のナレッジグラフ(更新: 2023/02/21)
   - [スキーマ](./RDF/vh2kg_schema.ttl)と[場所補足情報](./RDF/add_places.ttl)を含む
   - スキーマは[後述](#ナレッジグラフの説明)
   - SPARQLエンドポイントやクエリ例は[こちら](https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/kgrc4si#%E3%83%8A%E3%83%AC%E3%83%83%E3%82%B8%E3%82%B0%E3%83%A9%E3%83%95%E3%81%AE%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95)
@@ -302,8 +302,10 @@
 ### SPARQLエンドポイント
 本データセットを格納したSPARQLエンドポイントを提供しています。  
 [http://kgrc4si.ml:7200/sparql](http://kgrc4si.ml:7200/sparql)  
-リポジトリは「KGRC4SIv01」を選択してください。（2022/12/28時点）  
+リポジトリは「KGRC4SIv03」を選択してください。（2023/04/03 時点）  
 トリプルストアとしてOntotext GraphDBを使用しています．基本的な使用方法は[こちらの動画](https://drive.google.com/file/d/19YKSsUalvVSGinYtCwi2R7zHIp3W0EBU/view)を御覧ください。
+
+本エンドポイントがダウンしている場合は、[大阪電気通信大学古崎研究室提供のミラーリポジトリ](http://kozaki-lab.osakac.ac.jp/agraph/kgrc4si)からご利用ください（最新データであることは保証されません）
 
 ### SPARQLクエリ例
 
@@ -390,6 +392,8 @@ CONSTRUCT {
 詳細はこちらの資料を御覧ください。
 
 ## リファレンス
+- 江上周作，鵜飼孝典，Swe Nwe Nwe Htun，太田雅輝，大野美喜子，北村光司，松下京群，古崎晃司，川村隆浩，福田賢一郎: 家庭内の日常生活動画とイベント中心知識グラフの同時生成，2023年度人工知能学会全国大会（第37回）, to appear (2023) 
+- Egami, S., Ugai, T., Oono, M., Kitamura, K., Fukuda.: Synthesizing Event-centric Knowledge Graphs of Daily Activities using Virtual Space. IEEE Access, Vol. 11, pp.23857-23873. doi: [https://doi.org/10.1109/ACCESS.2023.3253807](https://doi.org/10.1109/ACCESS.2023.3253807) (2023)
 - 江上周作，鵜飼孝典，窪田文也，大野美喜子，北村光司，福田賢一郎: 家庭内の事故予防に向けた合成ナレッジグラフの構築と推論，第56回人工知能学会セマンティックウェブとオントロジー研究会, SIG-SWO-056-14 (2022) [[J-STAGE]](https://www.jstage.jst.go.jp/article/jsaisigtwo/2022/SWO-056/2022_14/_article/-char/ja)
 - Egami, S., Nishimura, S., Fukuda, K.: A Framework for Constructing and Augmenting Knowledge Graphs using Virtual Space: Towards Analysis of Daily Activities. Proceedings of the 33rd IEEE International Conference on Tools with Artificial Intelligence. pp.1226-1230 (2021) [[IEEE Xplore]](https://ieeexplore.ieee.org/document/9643400)
 - Egami, S., Nishimura, S., Fukuda, K.: VirtualHome2KG: Constructing and Augmenting Knowledge Graphs of Daily Activities Using Virtual Space. Proceedings of the ISWC 2021 Posters, Demos and Industry Tracks: From Novel Ideas to Industrial Practice, co-located with 20th International Semantic Web Conference. CEUR, Vol.2980 (2021) [[pdf]](http://ceur-ws.org/Vol-2980/paper381.pdf)

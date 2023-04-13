@@ -7851,19 +7851,19 @@ ex:tablelamp341_scene4 a vh2kg:Tablelamp ;
     ns1:identifier "341" .
 
 ex:time_event0_pet_cat_scene4 a time:Duration ;
-    time:numericDuration 2.3760000000000003 ;
+    time:numericDuration 5.020689655172413 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_pet_cat_scene4 a time:Duration ;
-    time:numericDuration 1.485 ;
+    time:numericDuration 3.137931034482758 ;
     time:unitType time:unitSecond .
 
 ex:time_event2_pet_cat_scene4 a time:Duration ;
-    time:numericDuration 1.5510000000000002 ;
+    time:numericDuration 3.277394636015325 ;
     time:unitType time:unitSecond .
 
 ex:time_event3_pet_cat_scene4 a time:Duration ;
-    time:numericDuration 3.201 ;
+    time:numericDuration 6.7639846743295005 ;
     time:unitType time:unitSecond .
 
 ex:toaster102_scene4 a vh2kg:Toaster ;

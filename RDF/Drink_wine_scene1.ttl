@@ -8301,15 +8301,15 @@ ex:tablelamp105_scene1 a vh2kg:Tablelamp ;
     ns1:identifier "105" .
 
 ex:time_event0_drink_wine_scene1 a time:Duration ;
-    time:numericDuration 15.533352375030518 ;
+    time:numericDuration 3.6585180482976325 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_drink_wine_scene1 a time:Duration ;
-    time:numericDuration 12.8920156955719 ;
+    time:numericDuration 3.0364129366564687 ;
     time:unitType time:unitSecond .
 
 ex:time_event2_drink_wine_scene1 a time:Duration ;
-    time:numericDuration 46.58384609222412 ;
+    time:numericDuration 10.971736015045899 ;
     time:unitType time:unitSecond .
 
 ex:toaster309_scene1 a vh2kg:Toaster ;

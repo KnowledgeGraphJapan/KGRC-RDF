@@ -9471,39 +9471,39 @@ ex:stovefan105_scene4 a vh2kg:Stovefan ;
     ns1:identifier "105" .
 
 ex:time_event0_clean_sofa_scene4 a time:Duration ;
-    time:numericDuration 60.55748677253723 ;
+    time:numericDuration 10.018122908143214 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_clean_sofa_scene4 a time:Duration ;
-    time:numericDuration 160.6929271221161 ;
+    time:numericDuration 26.5836906413481 ;
     time:unitType time:unitSecond .
 
 ex:time_event2_clean_sofa_scene4 a time:Duration ;
-    time:numericDuration 17.426706552505493 ;
+    time:numericDuration 2.882928229549941 ;
     time:unitType time:unitSecond .
 
 ex:time_event3_clean_sofa_scene4 a time:Duration ;
-    time:numericDuration 147.2575786113739 ;
+    time:numericDuration 24.361059223371324 ;
     time:unitType time:unitSecond .
 
 ex:time_event4_clean_sofa_scene4 a time:Duration ;
-    time:numericDuration 27.47766900062561 ;
+    time:numericDuration 4.545675191434478 ;
     time:unitType time:unitSecond .
 
 ex:time_event5_clean_sofa_scene4 a time:Duration ;
-    time:numericDuration 21.527945041656494 ;
+    time:numericDuration 3.5614027411202445 ;
     time:unitType time:unitSecond .
 
 ex:time_event6_clean_sofa_scene4 a time:Duration ;
-    time:numericDuration 136.7722306251526 ;
+    time:numericDuration 22.62645115987662 ;
     time:unitType time:unitSecond .
 
 ex:time_event7_clean_sofa_scene4 a time:Duration ;
-    time:numericDuration 113.91836905479431 ;
+    time:numericDuration 18.84569990450302 ;
     time:unitType time:unitSecond .
 
 ex:time_event8_clean_sofa_scene4 a time:Duration ;
-    time:numericDuration 57.67722773551941 ;
+    time:numericDuration 9.54163700065307 ;
     time:unitType time:unitSecond .
 
 ex:toaster102_scene4 a vh2kg:Toaster ;

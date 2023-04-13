@@ -6317,11 +6317,11 @@ ex:stovefan237_scene6 a vh2kg:Stovefan ;
     ns1:identifier "237" .
 
 ex:time_event0_relax_on_bed_scene6 a time:Duration ;
-    time:numericDuration 2.178 ;
+    time:numericDuration 4.575460122699386 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_relax_on_bed_scene6 a time:Duration ;
-    time:numericDuration 3.201 ;
+    time:numericDuration 6.724539877300614 ;
     time:unitType time:unitSecond .
 
 ex:toaster233_scene6 a vh2kg:Toaster ;

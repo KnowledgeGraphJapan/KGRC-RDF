@@ -1,8 +1,8 @@
 @prefix : <http://example.org/virtualhome2kg/ontology/> .
 @prefix ac: <http://example.org/virtualhome2kg/ontology/action/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
-@prefix ns1: <http://purl.org/dc/terms/> .
-@prefix ns2: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -464,7 +464,7 @@ ac:write a :Action,
 :agent a owl:ObjectProperty ;
     rdfs:domain :Event ;
     rdfs:range :Character ;
-    ns2:closeMatch <http://purl.org/NET/c4dm/event.owl#agent> .
+    ns1:closeMatch <http://purl.org/NET/c4dm/event.owl#agent> .
 
 :attribute a owl:ObjectProperty ;
     rdfs:domain :Object ;
@@ -643,7 +643,7 @@ If an agent pours milk into a glass, the value of the value of the targetObject 
     rdfs:domain :Event ;
     rdfs:range [ a owl:Class ;
             owl:unionOf ( <http://www.w3.org/2006/time#TemporalDuration> <http://www.w3.org/2006/time#TemporalEntity> ) ] ;
-    ns2:closeMatch <http://purl.org/NET/c4dm/event.owl#time> .
+    ns1:closeMatch <http://purl.org/NET/c4dm/event.owl#time> .
 
 :to a owl:ObjectProperty ;
     rdfs:domain :Event ;
@@ -657,7 +657,7 @@ If an agent pours milk into a glass, the value of the value of the targetObject 
 
 :weight a owl:ObjectProperty .
 
-ns1:description a owl:AnnotationProperty .
+ns2:description a owl:AnnotationProperty .
 
 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> a owl:AnnotationProperty .
 
@@ -1004,6 +1004,9 @@ ho:clean_kitchen_television a owl:Class ;
     rdfs:comment "added by virtualhome2kg"@en ;
     rdfs:subClassOf ho:HouseCleaning .
 
+ho:clean_kitchentable a owl:Class ;
+    rdfs:subClassOf ho:HouseCleaning .
+
 ho:clean_large_jacuzzi_tub a owl:Class ;
     rdfs:comment "The class with sequence of actions for cleaning up a large jacuzzi tab." ;
     rdfs:subClassOf ho:HouseCleaning .
@@ -1038,9 +1041,6 @@ ho:clean_sofa a owl:Class ;
 
 ho:clean_stove a owl:Class ;
     rdfs:comment "added by virtualhome2kg"@en ;
-    rdfs:subClassOf ho:HouseCleaning .
-
-ho:clean_table a owl:Class ;
     rdfs:subClassOf ho:HouseCleaning .
 
 ho:clean_television a owl:Class ;
@@ -1267,25 +1267,25 @@ ho:drink_alcohol a owl:Class ;
     rdfs:subClassOf ho:EatingDrinking .
 
 ho:drink_alcohol_while_watching_television a owl:Class ;
-    rdfs:subClassOf ho:EatingDrinking .
+    rdfs:subClassOf ho:Leisure .
 
 ho:drink_juice a owl:Class ;
     rdfs:subClassOf ho:EatingDrinking .
 
 ho:drink_juice_while_watching_television a owl:Class ;
-    rdfs:subClassOf ho:EatingDrinking .
+    rdfs:subClassOf ho:Leisure .
 
 ho:drink_milk a owl:Class ;
     rdfs:subClassOf ho:EatingDrinking .
 
 ho:drink_milk_while_watching_television a owl:Class ;
-    rdfs:subClassOf ho:EatingDrinking .
+    rdfs:subClassOf ho:Leisure .
 
 ho:drink_wine a owl:Class ;
     rdfs:subClassOf ho:EatingDrinking .
 
 ho:drink_wine_while_watching_television a owl:Class ;
-    rdfs:subClassOf ho:EatingDrinking .
+    rdfs:subClassOf ho:Leisure .
 
 ho:dry_hair a owl:Class ;
     rdfs:comment "The class with sequence of actions for drying your hair." ;
@@ -1304,6 +1304,9 @@ ho:eat_bread a owl:Class ;
     rdfs:subClassOf ho:EatingDrinking .
 
 ho:eat_bread_while_watching_television a owl:Class ;
+    rdfs:subClassOf ho:Leisure .
+
+ho:eat_breadslice a owl:Class ;
     rdfs:subClassOf ho:EatingDrinking .
 
 ho:eat_breakfast a owl:Class ;
@@ -1322,8 +1325,11 @@ ho:eat_cheese a owl:Class ;
     rdfs:comment "The class with sequence of actions for eating cheese." ;
     rdfs:subClassOf ho:EatingDrinking .
 
-ho:eat_cupcake_while_watching_television a owl:Class ;
+ho:eat_cupcake a owl:Class ;
     rdfs:subClassOf ho:EatingDrinking .
+
+ho:eat_cupcake_while_watching_television a owl:Class ;
+    rdfs:subClassOf ho:Leisure .
 
 ho:eat_dessert a owl:Class ;
     rdfs:comment "The class with sequence of actions for eating dessert in any room." ;
@@ -3345,7 +3351,7 @@ rdf:rest a owl:DatatypeProperty .
 
 rdf:value a owl:DatatypeProperty .
 
-ns2:closeMatch a owl:AnnotationProperty .
+ns1:closeMatch a owl:AnnotationProperty .
 
 <http://www.w3.org/2006/time#hasDuration> a owl:ObjectProperty ;
     rdfs:range <http://www.w3.org/2006/time#Duration> .
@@ -3361,7 +3367,7 @@ ns2:closeMatch a owl:AnnotationProperty .
 
 x3do:SFDouble a rdfs:Datatype,
         owl:Class ;
-    ns1:description "SFDouble is a double-precision floating-point type. Array values are optionally separated by commas in XML syntax. See GeoVRML 1.0 Recommended Practice, Section 2.3, Limitations of Single Precision for rationale." ;
+    ns2:description "SFDouble is a double-precision floating-point type. Array values are optionally separated by commas in XML syntax. See GeoVRML 1.0 Recommended Practice, Section 2.3, Limitations of Single Precision for rationale." ;
     rdfs:subClassOf x3do:X3DField .
 
 x3do:bboxCenter a owl:DatatypeProperty ;
@@ -3470,7 +3476,7 @@ ho:object a owl:ObjectProperty ;
 
 x3do:SFVec3f a rdfs:Datatype,
         owl:Class ;
-    ns1:description "SFVec3d is a 3-tuple triplet of SFDouble values. See GeoVRML 1.0 Recommended Practice, Section 2.3, Limitations of Single Precision. Hint: SFVec3d can be used to specify a georeferenced 3D coordinate. Warning: comma characters within singleton values do not pass strict XML validation." ;
+    ns2:description "SFVec3d is a 3-tuple triplet of SFDouble values. See GeoVRML 1.0 Recommended Practice, Section 2.3, Limitations of Single Precision. Hint: SFVec3d can be used to specify a georeferenced 3D coordinate. Warning: comma characters within singleton values do not pass strict XML validation." ;
     rdfs:subClassOf x3do:X3DField .
 
 x3do:X3DField a owl:Class ;
@@ -3533,7 +3539,7 @@ sleep, or even put the kids to sleep
 ho:Activity a owl:Class .
 
 :Event a owl:Class ;
-    ns2:closeMatch <http://purl.org/NET/c4dm/event.owl#Event>,
+    ns1:closeMatch <http://purl.org/NET/c4dm/event.owl#Event>,
         <http://semanticweb.cs.vu.nl/2009/11/sem/Event> .
 
 x3do:Shape a owl:Class ;
@@ -3562,10 +3568,6 @@ ho:FoodPreparation a owl:Class ;
 or drinking (prepeare coffee).""" ;
     rdfs:subClassOf ho:Activity .
 
-ho:Leisure a owl:Class ;
-    rdfs:comment "Class that contains procedures about leisure" ;
-    rdfs:subClassOf ho:Activity .
-
 ho:SocialInteraction a owl:Class ;
     rdfs:comment """Class that contains sequences that are related between , human-robot or 
 human-human interaction.""" ;
@@ -3577,6 +3579,10 @@ ho:HouseCleaning a owl:Class ;
 
 ho:Work a owl:Class ;
     rdfs:comment "Class with related activites such as send an email, getting ready for work." ;
+    rdfs:subClassOf ho:Activity .
+
+ho:Leisure a owl:Class ;
+    rdfs:comment "Class that contains procedures about leisure" ;
     rdfs:subClassOf ho:Activity .
 
 ho:HygieneStyling a owl:Class ;

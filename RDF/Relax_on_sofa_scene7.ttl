@@ -6963,11 +6963,11 @@ ex:sundae322_scene7 a vh2kg:Sundae ;
     ns1:identifier "322" .
 
 ex:time_event0_relax_on_sofa_scene7 a time:Duration ;
-    time:numericDuration 2.7720000000000002 ;
+    time:numericDuration 5.819277108433735 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_relax_on_sofa_scene7 a time:Duration ;
-    time:numericDuration 2.706 ;
+    time:numericDuration 5.6807228915662655 ;
     time:unitType time:unitSecond .
 
 ex:toaster162_scene7 a vh2kg:Toaster ;

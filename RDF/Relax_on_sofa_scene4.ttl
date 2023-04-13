@@ -7050,11 +7050,11 @@ ex:stovefan105_scene4 a vh2kg:Stovefan ;
     ns1:identifier "105" .
 
 ex:time_event0_relax_on_sofa_scene4 a time:Duration ;
-    time:numericDuration 2.4090000000000003 ;
+    time:numericDuration 5.065618295597486 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_relax_on_sofa_scene4 a time:Duration ;
-    time:numericDuration 2.838 ;
+    time:numericDuration 5.967714704402517 ;
     time:unitType time:unitSecond .
 
 ex:toaster102_scene4 a vh2kg:Toaster ;

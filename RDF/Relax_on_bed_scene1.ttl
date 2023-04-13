@@ -8621,11 +8621,11 @@ ex:tablelamp104_scene1 a vh2kg:Tablelamp ;
     ns1:identifier "104" .
 
 ex:time_event0_relax_on_bed_scene1 a time:Duration ;
-    time:numericDuration 1.518 ;
+    time:numericDuration 3.191836734693877 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_relax_on_bed_scene1 a time:Duration ;
-    time:numericDuration 3.333 ;
+    time:numericDuration 7.0081632653061225 ;
     time:unitType time:unitSecond .
 
 ex:toaster309_scene1 a vh2kg:Toaster ;

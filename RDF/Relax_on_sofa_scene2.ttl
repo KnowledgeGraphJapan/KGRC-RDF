@@ -6223,11 +6223,11 @@ ex:tablelamp268_scene2 a vh2kg:Tablelamp ;
     ns1:identifier "268" .
 
 ex:time_event0_relax_on_sofa_scene2 a time:Duration ;
-    time:numericDuration 2.277 ;
+    time:numericDuration 4.778640888349515 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_relax_on_sofa_scene2 a time:Duration ;
-    time:numericDuration 4.521 ;
+    time:numericDuration 9.488026111650484 ;
     time:unitType time:unitSecond .
 
 ex:toaster157_scene2 a vh2kg:Toaster ;

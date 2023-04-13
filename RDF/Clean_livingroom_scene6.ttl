@@ -14214,95 +14214,95 @@ ex:tablelamp99_scene6 a vh2kg:Tablelamp ;
     ns1:identifier "99" .
 
 ex:time_event0_clean_livingroom_scene6 a time:Duration ;
-    time:numericDuration 19.43862819671631 ;
+    time:numericDuration 4.90686696195575 ;
     time:unitType time:unitSecond .
 
 ex:time_event10_clean_livingroom_scene6 a time:Duration ;
-    time:numericDuration 27.32771587371826 ;
+    time:numericDuration 6.898298831041674 ;
     time:unitType time:unitSecond .
 
 ex:time_event11_clean_livingroom_scene6 a time:Duration ;
-    time:numericDuration 12.805223226547241 ;
+    time:numericDuration 3.232405402014288 ;
     time:unitType time:unitSecond .
 
 ex:time_event12_clean_livingroom_scene6 a time:Duration ;
-    time:numericDuration 5.958519697189331 ;
+    time:numericDuration 1.504101171565178 ;
     time:unitType time:unitSecond .
 
 ex:time_event13_clean_livingroom_scene6 a time:Duration ;
-    time:numericDuration 73.44768738746643 ;
+    time:numericDuration 18.54030166256761 ;
     time:unitType time:unitSecond .
 
 ex:time_event14_clean_livingroom_scene6 a time:Duration ;
-    time:numericDuration 27.220653533935547 ;
+    time:numericDuration 6.871273227556021 ;
     time:unitType time:unitSecond .
 
 ex:time_event15_clean_livingroom_scene6 a time:Duration ;
-    time:numericDuration 33.60063672065735 ;
+    time:numericDuration 8.481763865061332 ;
     time:unitType time:unitSecond .
 
 ex:time_event16_clean_livingroom_scene6 a time:Duration ;
-    time:numericDuration 10.43245005607605 ;
+    time:numericDuration 2.633449438631704 ;
     time:unitType time:unitSecond .
 
 ex:time_event17_clean_livingroom_scene6 a time:Duration ;
-    time:numericDuration 11.865737915039062 ;
+    time:numericDuration 2.995252379196509 ;
     time:unitType time:unitSecond .
 
 ex:time_event18_clean_livingroom_scene6 a time:Duration ;
-    time:numericDuration 86.52246713638306 ;
+    time:numericDuration 21.84075085762165 ;
     time:unitType time:unitSecond .
 
 ex:time_event19_clean_livingroom_scene6 a time:Duration ;
-    time:numericDuration 74.58721542358398 ;
+    time:numericDuration 18.827951203268846 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_clean_livingroom_scene6 a time:Duration ;
-    time:numericDuration 57.27359080314636 ;
+    time:numericDuration 14.457496056846516 ;
     time:unitType time:unitSecond .
 
 ex:time_event20_clean_livingroom_scene6 a time:Duration ;
-    time:numericDuration 29.99475646018982 ;
+    time:numericDuration 7.571536325350201 ;
     time:unitType time:unitSecond .
 
 ex:time_event21_clean_livingroom_scene6 a time:Duration ;
-    time:numericDuration 20.661502599716187 ;
+    time:numericDuration 5.215555514768087 ;
     time:unitType time:unitSecond .
 
 ex:time_event22_clean_livingroom_scene6 a time:Duration ;
-    time:numericDuration 82.68988943099976 ;
+    time:numericDuration 20.873298384568518 ;
     time:unitType time:unitSecond .
 
 ex:time_event2_clean_livingroom_scene6 a time:Duration ;
-    time:numericDuration 13.353254795074463 ;
+    time:numericDuration 3.370744279146023 ;
     time:unitType time:unitSecond .
 
 ex:time_event3_clean_livingroom_scene6 a time:Duration ;
-    time:numericDuration 51.848875284194946 ;
+    time:numericDuration 13.088142361278232 ;
     time:unitType time:unitSecond .
 
 ex:time_event4_clean_livingroom_scene6 a time:Duration ;
-    time:numericDuration 20.679661989212036 ;
+    time:numericDuration 5.2201394652127755 ;
     time:unitType time:unitSecond .
 
 ex:time_event5_clean_livingroom_scene6 a time:Duration ;
-    time:numericDuration 10.839351892471313 ;
+    time:numericDuration 2.7361631259125954 ;
     time:unitType time:unitSecond .
 
 ex:time_event6_clean_livingroom_scene6 a time:Duration ;
-    time:numericDuration 12.604826927185059 ;
+    time:numericDuration 3.18181963172806 ;
     time:unitType time:unitSecond .
 
 ex:time_event7_clean_livingroom_scene6 a time:Duration ;
-    time:numericDuration 11.331956148147583 ;
+    time:numericDuration 2.860510560465874 ;
     time:unitType time:unitSecond .
 
 ex:time_event8_clean_livingroom_scene6 a time:Duration ;
-    time:numericDuration 68.40251564979553 ;
+    time:numericDuration 17.26675569695507 ;
     time:unitType time:unitSecond .
 
 ex:time_event9_clean_livingroom_scene6 a time:Duration ;
-    time:numericDuration 25.85056495666504 ;
+    time:numericDuration 6.5254235972874985 ;
     time:unitType time:unitSecond .
 
 ex:toaster233_scene6 a vh2kg:Toaster ;

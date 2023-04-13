@@ -7389,7 +7389,7 @@ ex:stovefan105_scene4 a vh2kg:Stovefan ;
     ns1:identifier "105" .
 
 ex:time_event0_admire_art_scene4 a time:Duration ;
-    time:numericDuration 1.947 ;
+    time:numericDuration 4.2 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_admire_art_scene4 a time:Duration ;

@@ -1,0 +1,17 @@
+Clean desk1
+Walk to the living room and look around the desk. Find and grab a towel to eliminate any gathered dust on the desk. Take items off the desk to create some clear space. After that, wipe down all surfaces including the top of the desk. Then rearrange or put back the items when we're done to make the desk look neat.
+
+[WALK] <desk> (1)
+[WALK] <towel> (1)
+[GRAB] <towel> (1)
+[WALK] <desk> (1)
+[WALK] <mouse> (1)
+[GRAB] <mouse> (1)
+[TURNTO] <desk> (1)
+[WIPE] <towel> (1) <desk> (1)
+[PUTOBJBACK] <mouse> (1)
+[WALK] <keyboard> (1)
+[GRAB] <keyboard> (1)
+[TURNTO] <desk> (1)
+[WIPE] <towel> (1) <desk> (1)
+[PUTOBJBACK] <keyboard> (1)

@@ -7509,7 +7509,7 @@ ex:tablelamp235_scene5 a vh2kg:Tablelamp ;
     ns1:identifier "235" .
 
 ex:time_event0_admire_art_scene5 a time:Duration ;
-    time:numericDuration 3.201 ;
+    time:numericDuration 6.797080291970802 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_admire_art_scene5 a time:Duration ;
@@ -7517,7 +7517,7 @@ ex:time_event1_admire_art_scene5 a time:Duration ;
     time:unitType time:unitSecond .
 
 ex:time_event2_admire_art_scene5 a time:Duration ;
-    time:numericDuration 1.32 ;
+    time:numericDuration 2.802919708029197 ;
     time:unitType time:unitSecond .
 
 ex:toaster157_scene5 a vh2kg:Toaster ;

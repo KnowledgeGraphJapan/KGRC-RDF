@@ -7398,23 +7398,23 @@ ex:tablelamp99_scene6 a vh2kg:Tablelamp ;
     ns1:identifier "99" .
 
 ex:time_event0_clean_stove_scene6 a time:Duration ;
-    time:numericDuration 27.27771806716919 ;
+    time:numericDuration 7.135289027067631 ;
     time:unitType time:unitSecond .
 
 ex:time_event1_clean_stove_scene6 a time:Duration ;
-    time:numericDuration 20.749740839004517 ;
+    time:numericDuration 5.427704684038141 ;
     time:unitType time:unitSecond .
 
 ex:time_event2_clean_stove_scene6 a time:Duration ;
-    time:numericDuration 12.606479406356812 ;
+    time:numericDuration 3.297595273792149 ;
     time:unitType time:unitSecond .
 
 ex:time_event3_clean_stove_scene6 a time:Duration ;
-    time:numericDuration 17.83949303627014 ;
+    time:numericDuration 4.666443820436391 ;
     time:unitType time:unitSecond .
 
 ex:time_event4_clean_stove_scene6 a time:Duration ;
-    time:numericDuration 72.91463875770569 ;
+    time:numericDuration 19.072967194665694 ;
     time:unitType time:unitSecond .
 
 ex:toilet46_scene6 a vh2kg:Toilet ;
