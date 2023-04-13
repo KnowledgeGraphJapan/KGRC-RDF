@@ -32,7 +32,7 @@
   - [スキーマ](./RDF/vh2kg_schema.ttl)と[場所補足情報](./RDF/add_places.ttl)を含む
   - スキーマは[後述](#ナレッジグラフの説明)
   - SPARQLエンドポイントやクエリ例は[こちら](https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/kgrc4si#%E3%83%8A%E3%83%AC%E3%83%83%E3%82%B8%E3%82%B0%E3%83%A9%E3%83%95%E3%81%AE%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95)
-  - [埋め込みベクトルデータ](http://kgrc4si.ml/vector2.txt.gz) ([jRDF2Vec](https://github.com/dwslab/jRDF2Vec)によって生成。パラメータはデフォルトのまま
+  - [埋め込みベクトルデータ](http://kgrc4si.ml/vectors2.txt.gz) ([jRDF2Vec](https://github.com/dwslab/jRDF2Vec)によって生成。パラメータはデフォルトのまま
 - [台本データ](./Program/)
   - txt形式
   - 動画とナレッジグラフを生成するために[VirtualHome2KG](https://github.com/aistairc/VirtualHome2KG/blob/main/README_ja.md)に与えたデータ
