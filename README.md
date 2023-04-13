@@ -310,7 +310,7 @@
 ### SPARQLクエリ例
 
 - [アクティビティの一覧を取得する](#アクティビティの一覧を取得する)
-- [「インターネットをブラウズする」というアクティビティ中のイベントとアクションを取得する](#インターネットをブラウズするというアクティビティ中のイベントとアクションを取得する)
+- [「台所を掃除する」というアクティビティ中のイベントとアクションを取得する](#インターネットをブラウズするというアクティビティ中のイベントとアクションを取得する)
 - [よく掴まれているオブジェクト](#よく掴まれているオブジェクト)
 - [インタラクションしているオブジェクトのタイプ一覧](#インタラクションしているオブジェクトのタイプ一覧)
 - [オブジェクトの高さ情報を追加する](#オブジェクトの高さ情報を追加する)
@@ -326,16 +326,16 @@ select DISTINCT * where {
 ```
 [実行結果](http://kgrc4si.ml:7200/sparql?name=&infer=true&sameAs=false&query=PREFIX%20ex%3A%20%3Chttp%3A%2F%2Fexample.org%2Fvirtualhome2kg%2Finstance%2F%3E%0APREFIX%20%3A%20%3Chttp%3A%2F%2Fexample.org%2Fvirtualhome2kg%2Fontology%2F%3E%0Aselect%20DISTINCT%20*%20where%20%7B%0A%20%20%20%20%3Factivity%20%3AvirtualHome%20ex%3Ascene1%20.%0A%7D)
 
-#### 「インターネットをブラウズする」というアクティビティ中のイベントとアクションを取得する
+#### 「台所を掃除する」というアクティビティ中のイベントとアクションを取得する
 ```sparql
 PREFIX ex: <http://example.org/virtualhome2kg/instance/>
 PREFIX : <http://example.org/virtualhome2kg/ontology/>
 select DISTINCT * where {
-    ex:browse_internet_scene1 :hasEvent ?event .
+    ex:clean_kitchen_scene1 :hasEvent ?event .
     ?event :action ?action .
 }
 ```
-[実行結果](http://kgrc4si.ml:7200/sparql?name=&infer=true&sameAs=false&query=PREFIX%20ex%3A%20%3Chttp%3A%2F%2Fexample.org%2Fvirtualhome2kg%2Finstance%2F%3E%0APREFIX%20%3A%20%3Chttp%3A%2F%2Fexample.org%2Fvirtualhome2kg%2Fontology%2F%3E%0Aselect%20DISTINCT%20*%20where%20%7B%0A%20%20%20%20ex%3Abrowse_internet_scene1%20%3AhasEvent%20%3Fevent%20.%0A%20%20%20%20%3Fevent%20%3Aaction%20%3Faction%20.%0A%7D)
+[実行結果](http://kgrc4si.ml:7200/sparql?name=&infer=true&sameAs=false&query=PREFIX%20ex%3A%20%3Chttp%3A%2F%2Fexample.org%2Fvirtualhome2kg%2Finstance%2F%3E%0APREFIX%20%3A%20%3Chttp%3A%2F%2Fexample.org%2Fvirtualhome2kg%2Fontology%2F%3E%0Aselect%20DISTINCT%20*%20where%20%7B%0A%20%20%20%20ex%3Aclean_kitchen_scene1%20%3AhasEvent%20%3Fevent%20.%0A%20%20%20%20%3Fevent%20%3Aaction%20%3Faction%20.%0A%7D)
 
 #### インタラクションしているオブジェクトのタイプ一覧
 ```sparql
