@@ -27,8 +27,8 @@
   - For each scenario, there is a character rear view (file name ending in 0), an indoor camera switching view (file name ending in 1), and a fixed camera view placed in each corner of the room (file name ending in 2-5). Also, for each action scenario, data was generated for a minimum of 1 to a maximum of 7 patterns with different room layouts (scenes). A total of 1,224 videos (updated: 2023/02/21)
   - Videos with slowly moving characters simulate the movements of elderly people.
 
-## Knowledge Graphs
-- [RDF format](./RDF)
+- [Knowledge Graphs](./RDF)
+  - RDF format
   - 204 knowledge graphs corresponding to the videos (updated: 2023/02/21)
   - Includes schema and location supplement information
   - The schema is described below
