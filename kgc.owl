@@ -11,7 +11,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl">
         <owl:versionIRI rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#1.0.0"/>
-        <dc:description>This vocabulary set can represent 5W1H (What, When, Where, Why, How) in event (scene) descriptions. This file is also provided in Knowledge Graph Reasoning Challenge.</dc:description>
+        <dc:description>This vocabulary set can represent 5W1H (Who, What, When, Where, Why, How) in event (scene) descriptions. This file is also provided in Knowledge Graph Reasoning Challenge.</dc:description>
         <dc:title>KGRC Ontology</dc:title>
         <rdfs:seeAlso rdf:resource="https://github.com/KnowledgeGraphJapan/KGRC-RDF"/>
     </owl:Ontology>
