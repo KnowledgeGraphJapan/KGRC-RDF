@@ -1,195 +1,538 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:kgc="http://kgc.knowledge-graph.jp/ontology/kgc.owl#"
-    xmlns:owl="http://www.w3.org/2002/07/owl#"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-    xmlns:cc="http://creativecommons.org/ns#"
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-  <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#AbstractTime"/>
-  <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#ORobj">
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Object"/>
-    </rdfs:subClassOf>
-  </owl:Class>
-  <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Person">
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Animal"/>
-    </rdfs:subClassOf>
-  </owl:Class>
-  <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Place">
-    <rdfs:subClassOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Object"/>
-  </owl:Class>
-  <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Talk">
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Scene"/>
-    </rdfs:subClassOf>
-  </owl:Class>
-  <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Thought">
-    <rdfs:subClassOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Scene"/>
-  </owl:Class>
-  <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Statement">
-    <rdfs:subClassOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Scene"/>
-  </owl:Class>
-  <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Property"/>
-  <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Animal">
-    <rdfs:subClassOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Object"/>
-  </owl:Class>
-  <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#OFobj">
-    <rdfs:subClassOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Object"/>
-  </owl:Class>
-  <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#NotAction">
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Action"/>
-    </rdfs:subClassOf>
-  </owl:Class>
-  <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#CanNotAction">
-    <rdfs:subClassOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#NotAction"/>
-  </owl:Class>
-  <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Situation">
-    <rdfs:subClassOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Scene"/>
-  </owl:Class>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#near">
-    <rdfs:subPropertyOf>
-      <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty"/>
-    </rdfs:subPropertyOf>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#how">
-    <rdfs:subPropertyOf>
-      <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#SceneObjectProperty"/>
-    </rdfs:subPropertyOf>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#TargetObjProperty"/>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#RelationBetweenScene"/>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#infoSource">
-    <rdfs:subPropertyOf>
-      <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#SceneProperty"/>
-    </rdfs:subPropertyOf>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#why">
-    <rdfs:subPropertyOf>
-      <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#SceneObjectProperty"/>
-    </rdfs:subPropertyOf>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#adjunct">
-    <rdfs:subPropertyOf>
-      <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty"/>
-    </rdfs:subPropertyOf>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#ofWhole">
-    <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#TargetObjProperty"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#hasProperty">
-    <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#TargetObjProperty"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#infoReceiver">
-    <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#SceneProperty"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#next_to">
-    <rdfs:subPropertyOf>
-      <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty"/>
-    </rdfs:subPropertyOf>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#hasPart">
-    <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#TargetObjProperty"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#because">
-    <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#RelationBetweenScene"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#around">
-    <rdfs:subPropertyOf>
-      <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty"/>
-    </rdfs:subPropertyOf>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#where">
-    <rdfs:subPropertyOf>
-      <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty"/>
-    </rdfs:subPropertyOf>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#when">
-    <rdfs:subPropertyOf>
-      <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#SceneObjectProperty"/>
-    </rdfs:subPropertyOf>
-    <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#RelationBetweenScene"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#orTarget">
-    <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#TargetObjProperty"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#subject">
-    <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#SceneProperty"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#then">
-    <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#RelationBetweenScene"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Not">
-    <rdfs:subPropertyOf>
-      <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#ActionOption"/>
-    </rdfs:subPropertyOf>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#right">
-    <rdfs:subPropertyOf>
-      <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty"/>
-    </rdfs:subPropertyOf>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty">
-    <rdfs:subPropertyOf>
-      <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#SceneObjectProperty"/>
-    </rdfs:subPropertyOf>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#otherwise">
-    <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#RelationBetweenScene"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#therefore">
-    <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#RelationBetweenScene"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#left">
-    <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#what">
-    <rdfs:subPropertyOf>
-      <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#SceneObjectProperty"/>
-    </rdfs:subPropertyOf>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#at_the_same_time">
-    <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#RelationBetweenScene"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#opposite">
-    <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#ofPart">
-    <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#TargetObjProperty"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#middle">
-    <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#on">
-    <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#if">
-    <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#RelationBetweenScene"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#canNot">
-    <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#ActionOption"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#to">
-    <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#hasPredicate">
-    <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#TargetObjProperty"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#when_during">
-    <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#RelationBetweenScene"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#SceneObjectProperty">
-    <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#SceneProperty"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#from">
-    <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty"/>
-  </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#whom">
-    <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#SceneObjectProperty"/>
-  </owl:ObjectProperty>
-  <owl:DatatypeProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#time">
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#DateTime"/>
-  </owl:DatatypeProperty>
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://kgc.knowledge-graph.jp/ontology/kgc.owl#"
+     xml:base="http://kgc.knowledge-graph.jp/ontology/kgc.owl"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:kgc="http://kgc.knowledge-graph.jp/ontology/kgc.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl">
+        <owl:versionIRI rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#1.0.0"/>
+        <dc:description>This vocabulary set can represent 5W1H (What, When, Where, Why, How) in event (scene) descriptions. This file is also provided in Knowledge Graph Reasoning Challenge.</dc:description>
+        <dc:title>KGRC Ontology</dc:title>
+        <rdfs:seeAlso rdf:resource="https://github.com/KnowledgeGraphJapan/KGRC-RDF"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#ActionOption -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#ActionOption"/>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#SceneObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#Not -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Not">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#ActionOption"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#RelationBetweenScene -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#RelationBetweenScene"/>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#SceneObjectProperty -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#SceneObjectProperty">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#SceneProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#SceneProperty -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#SceneProperty"/>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#TargetObjProperty -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#TargetObjProperty"/>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#adjunct -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#adjunct">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#around -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#around">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#at_the_same_time -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#at_the_same_time">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#RelationBetweenScene"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#because -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#because">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#RelationBetweenScene"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#canNot -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#canNot">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#ActionOption"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#from -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#from">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#hasPart -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#hasPart">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#TargetObjProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#hasPredicate -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#hasPredicate">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#TargetObjProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#hasProperty -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#hasProperty">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#TargetObjProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#how -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#how">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#SceneObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#if -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#if">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#RelationBetweenScene"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#infoReceiver -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#infoReceiver">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#SceneProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#infoSource -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#infoSource">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#SceneProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#left -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#left">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#middle -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#middle">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#near -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#near">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#next_to -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#next_to">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#ofPart -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#ofPart">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#TargetObjProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#ofWhole -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#ofWhole">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#TargetObjProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#on -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#on">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#opposite -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#opposite">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#orTarget -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#orTarget">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#TargetObjProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#otherwise -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#otherwise">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#RelationBetweenScene"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#right -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#right">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#subject -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#subject">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#SceneProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#then -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#then">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#RelationBetweenScene"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#therefore -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#therefore">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#RelationBetweenScene"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#time -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#time">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#DateTime"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#to -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#to">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#what -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#what">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#SceneObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#when -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#when">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#RelationBetweenScene"/>
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#SceneObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#when_during -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#when_during">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#RelationBetweenScene"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#where -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#where">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#LocationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#whom -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#whom">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#SceneObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#why -->
+
+    <owl:ObjectProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#why">
+        <rdfs:subPropertyOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#SceneObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#time -->
+
+    <owl:DatatypeProperty rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#time"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#AbstractTime -->
+
+    <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#AbstractTime"/>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#Action -->
+
+    <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Action"/>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#Animal -->
+
+    <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Animal">
+        <rdfs:subClassOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#CanNotAction -->
+
+    <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#CanNotAction">
+        <rdfs:subClassOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#NotAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#NotAction -->
+
+    <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#NotAction">
+        <rdfs:subClassOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Action"/>
+    </owl:Class>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#OFobj -->
+
+    <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#OFobj">
+        <rdfs:subClassOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#ORobj -->
+
+    <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#ORobj">
+        <rdfs:subClassOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#Object -->
+
+    <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Object"/>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#Person -->
+
+    <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Person">
+        <rdfs:subClassOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#Place -->
+
+    <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Place">
+        <rdfs:subClassOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#Property -->
+
+    <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Property"/>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#Scene -->
+
+    <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Scene"/>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#Situation -->
+
+    <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Situation">
+        <rdfs:subClassOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Scene"/>
+    </owl:Class>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#Statement -->
+
+    <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Statement">
+        <rdfs:subClassOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Scene"/>
+    </owl:Class>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#Talk -->
+
+    <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Talk">
+        <rdfs:subClassOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Scene"/>
+    </owl:Class>
+    
+
+
+    <!-- http://kgc.knowledge-graph.jp/ontology/kgc.owl#Thought -->
+
+    <owl:Class rdf:about="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Thought">
+        <rdfs:subClassOf rdf:resource="http://kgc.knowledge-graph.jp/ontology/kgc.owl#Scene"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#DateTime -->
+
+    <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#DateTime"/>
 </rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
