@@ -1,16 +1,17 @@
-@prefix : <http://kgrc4si.ml/virtualhome2kg/ontology/> .
-@prefix ac: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
+@prefix : <http://example.org/virtualhome2kg/ontology/> .
+@prefix ac: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
-@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
-@prefix ns2: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix time: <http://www.w3.org/2006/time#> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 : a owl:Ontology ;
-    rdfs:comment """This ontology offers vocabularies for representing activities of daily living (ADL) that can be run in the VirtualHome (http://virtual-home.org/), run-time home situations, objects, and relationships among them.
+    rdfs:comment """This ontology offers vocabularies for representing activities of daily living (ADL) that can be run in the VirtualHome (http://virtual-home.org/), run-time home situations, objects, and relationships among them.\r
 This ontology is an extended version of the HomeOntology (https://github.com/valexande/HomeOntology).""" .
 
 :BROKEN a :StateType,
@@ -464,7 +465,7 @@ ac:write a :Action,
 :agent a owl:ObjectProperty ;
     rdfs:domain :Event ;
     rdfs:range :Character ;
-    ns1:closeMatch <http://purl.org/NET/c4dm/event.owl#agent> .
+    skos:closeMatch <http://purl.org/NET/c4dm/event.owl#agent> .
 
 :attribute a owl:ObjectProperty ;
     rdfs:domain :Object ;
@@ -563,7 +564,7 @@ ac:write a :Action,
         owl:NamedIndividual .
 
 :mainObject a owl:ObjectProperty ;
-    rdfs:comment """A main object of an event.
+    rdfs:comment """A main object of an event.\r
 If an agent pours milk into a glass, the value of the mainObject is the milk.""" ;
     rdfs:domain :Event ;
     rdfs:range :Object ;
@@ -633,7 +634,7 @@ If an agent pours milk into a glass, the value of the mainObject is the milk."""
     rdfs:range :StateType .
 
 :targetObject a owl:ObjectProperty ;
-    rdfs:comment """A target object of an event.
+    rdfs:comment """A target object of an event.\r
 If an agent pours milk into a glass, the value of the value of the targetObject is the glass.""" ;
     rdfs:domain :Event ;
     rdfs:range :Object ;
@@ -642,8 +643,8 @@ If an agent pours milk into a glass, the value of the value of the targetObject 
 :time a owl:ObjectProperty ;
     rdfs:domain :Event ;
     rdfs:range [ a owl:Class ;
-            owl:unionOf ( <http://www.w3.org/2006/time#TemporalDuration> <http://www.w3.org/2006/time#TemporalEntity> ) ] ;
-    ns1:closeMatch <http://purl.org/NET/c4dm/event.owl#time> .
+            owl:unionOf ( time:TemporalDuration time:TemporalEntity ) ] ;
+    skos:closeMatch <http://purl.org/NET/c4dm/event.owl#time> .
 
 :to a owl:ObjectProperty ;
     rdfs:domain :Event ;
@@ -657,7 +658,7 @@ If an agent pours milk into a glass, the value of the value of the targetObject 
 
 :weight a owl:ObjectProperty .
 
-ns2:description a owl:AnnotationProperty .
+dcterms:description a owl:AnnotationProperty .
 
 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> a owl:AnnotationProperty .
 
@@ -666,12 +667,12 @@ ho:Dance a owl:Class ;
     rdfs:subClassOf ho:Leisure .
 
 ho:Drink a owl:Class ;
-    rdfs:comment """Class that contains sequences where the goal is for the user to drink 
+    rdfs:comment """Class that contains sequences where the goal is for the user to drink \r
 under different circumstances.""" ;
     rdfs:subClassOf ho:EatingDrinking .
 
 ho:Eat a owl:Class ;
-    rdfs:comment """Class with subclasses, for eating seqeunces under different 
+    rdfs:comment """Class with subclasses, for eating seqeunces under different \r
 circumstances.""" ;
     rdfs:subClassOf ho:EatingDrinking .
 
@@ -720,7 +721,7 @@ ho:added_meat_to_freezer a owl:Class ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:admire_art a owl:Class ;
-    rdfs:comment """The class with sequence of actions for admiring art that exist inside 
+    rdfs:comment """The class with sequence of actions for admiring art that exist inside \r
 your home.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -732,12 +733,12 @@ ho:annoy_your_dog a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:answer_door a owl:Class ;
-    rdfs:comment """The class with sequence of actions for answering the door (main entrance 
+    rdfs:comment """The class with sequence of actions for answering the door (main entrance \r
 of the house).""" ;
     rdfs:subClassOf ho:SocialInteraction .
 
 ho:answer_emails a owl:Class ;
-    rdfs:comment """The class with sequence of actions for answering your mails (writing the 
+    rdfs:comment """The class with sequence of actions for answering your mails (writing the \r
 text, not sending the mail).""" ;
     rdfs:subClassOf ho:Work .
 
@@ -746,7 +747,7 @@ ho:answer_phone a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:apply_lotion a owl:Class ;
-    rdfs:comment """The class with sequence of actions for applying lotion in any part of 
+    rdfs:comment """The class with sequence of actions for applying lotion in any part of \r
 the body.""" ;
     rdfs:subClassOf ho:HygieneStyling .
 
@@ -755,7 +756,7 @@ ho:arrange_bookshelf a owl:Class ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:arrange_folders a owl:Class ;
-    rdfs:comment """The class with sequence of actions for arranging folders, in any place 
+    rdfs:comment """The class with sequence of actions for arranging folders, in any place \r
 or room.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
@@ -780,7 +781,7 @@ ho:bathe a owl:Class ;
     rdfs:subClassOf ho:HygieneStyling .
 
 ho:be_able_to_talk_to_me_about_tv_show_im_watching a owl:Class ;
-    rdfs:comment """The class with sequence of actions for beeing able to talk to the user 
+    rdfs:comment """The class with sequence of actions for beeing able to talk to the user \r
 about TV show I'm watching.""" ;
     rdfs:subClassOf ho:SocialInteraction .
 
@@ -805,7 +806,7 @@ ho:brew_coffee a owl:Class ;
     rdfs:subClassOf ho:FoodPreparation .
 
 ho:bring_dirty_plate_to_sink a owl:Class ;
-    rdfs:comment """The class with sequence of actions for bringing your dirty plate in the 
+    rdfs:comment """The class with sequence of actions for bringing your dirty plate in the \r
 sink.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
@@ -814,12 +815,12 @@ ho:bring_food a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:bring_leftovers_in_kitchen a owl:Class ;
-    rdfs:comment """The class with sequence of actions for bringing leftovers in kitchen, 
+    rdfs:comment """The class with sequence of actions for bringing leftovers in kitchen, \r
 from any room.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:bring_me_red_cookbook a owl:Class ;
-    rdfs:comment """The class with sequence of actions for bringing the user the red 
+    rdfs:comment """The class with sequence of actions for bringing the user the red \r
 cookbook.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -845,17 +846,17 @@ ho:brush_teeth a owl:Class ;
     rdfs:subClassOf ho:HygieneStyling .
 
 ho:build_lego_house a owl:Class ;
-    rdfs:comment """The class with sequence of actions for building a lego house, in any 
+    rdfs:comment """The class with sequence of actions for building a lego house, in any \r
 room.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:call_client a owl:Class ;
-    rdfs:comment """The class with sequence of actions for calling client, either form cell 
+    rdfs:comment """The class with sequence of actions for calling client, either form cell \r
 phone or home phone.""" ;
     rdfs:subClassOf ho:SocialInteraction .
 
 ho:call_family_member_with_skype_application a owl:Class ;
-    rdfs:comment """The class with sequence of actions for calling family member with skype 
+    rdfs:comment """The class with sequence of actions for calling family member with skype \r
 application.""" ;
     rdfs:subClassOf ho:SocialInteraction .
 
@@ -884,12 +885,12 @@ ho:celebrate a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:celebrate_birthday_with_nice_meal a owl:Class ;
-    rdfs:comment """The class with sequence of actions for celebrating birthday with a nice 
+    rdfs:comment """The class with sequence of actions for celebrating birthday with a nice \r
 meal, in any room.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:change_bedding a owl:Class ;
-    rdfs:comment """The class with sequence of actions for changing the bedding, in any bed 
+    rdfs:comment """The class with sequence of actions for changing the bedding, in any bed \r
 in the house.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
@@ -926,7 +927,7 @@ ho:change_toilet_paper_roll a owl:Class ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:change_toothbrush a owl:Class ;
-    rdfs:comment """The class with sequence of actions for changing the toothbrush, in any 
+    rdfs:comment """The class with sequence of actions for changing the toothbrush, in any \r
 room.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
@@ -943,12 +944,12 @@ ho:check_appearance_in_mirror a owl:Class ;
     rdfs:subClassOf ho:HygieneStyling .
 
 ho:check_email a owl:Class ;
-    rdfs:comment """The class with sequence of actions for checking your mail after you have 
+    rdfs:comment """The class with sequence of actions for checking your mail after you have \r
 opened it.""" ;
     rdfs:subClassOf ho:Work .
 
 ho:check_homework a owl:Class ;
-    rdfs:comment """The class with sequence of actions for checking homework (either you own 
+    rdfs:comment """The class with sequence of actions for checking homework (either you own \r
 or anothers person).""" ;
     rdfs:subClassOf ho:Work .
 
@@ -961,12 +962,12 @@ ho:chop_vegetables a owl:Class ;
     rdfs:subClassOf ho:FoodPreparation .
 
 ho:clean a owl:Class ;
-    rdfs:comment """Class with general sequences for cleaning, such as clean lamp, bathroom, 
+    rdfs:comment """Class with general sequences for cleaning, such as clean lamp, bathroom, \r
 welcome mat.""" ;
     rdfs:subClassOf ho:HouseCleaning .
 
 ho:clean_bathroom a owl:Class ;
-    rdfs:comment """The class with sequence of actions for cleaning the bathroom, the whole 
+    rdfs:comment """The class with sequence of actions for cleaning the bathroom, the whole \r
 room.""" ;
     rdfs:subClassOf ho:HouseCleaning .
 
@@ -978,7 +979,7 @@ ho:clean_dishes a owl:Class ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:clean_eggs_from_our_chickens a owl:Class ;
-    rdfs:comment """The class with sequence of actions for cleaning eggs that were produced 
+    rdfs:comment """The class with sequence of actions for cleaning eggs that were produced \r
 by our chickens.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -987,7 +988,7 @@ ho:clean_floor a owl:Class ;
     rdfs:subClassOf ho:HouseCleaning .
 
 ho:clean_fridge a owl:Class ;
-    rdfs:comment """The class with sequence of actions clean the fridge form the inside and 
+    rdfs:comment """The class with sequence of actions clean the fridge form the inside and \r
 the outside.""" ;
     rdfs:subClassOf ho:HouseCleaning .
 
@@ -996,7 +997,7 @@ ho:clean_glasses a owl:Class ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:clean_kitchen a owl:Class ;
-    rdfs:comment """The class with sequence of actions the procedure of cleaning all the 
+    rdfs:comment """The class with sequence of actions the procedure of cleaning all the \r
 kitchen.""" ;
     rdfs:subClassOf ho:HouseCleaning .
 
@@ -1019,7 +1020,7 @@ ho:clean_livingroom a owl:Class ;
     rdfs:subClassOf ho:HouseCleaning .
 
 ho:clean_mirror a owl:Class ;
-    rdfs:comment """The class with sequence of actions on how to clean a mirror, no matter 
+    rdfs:comment """The class with sequence of actions on how to clean a mirror, no matter \r
 in which room is in.""" ;
     rdfs:subClassOf ho:HouseCleaning .
 
@@ -1032,8 +1033,11 @@ ho:clean_screen a owl:Class ;
     rdfs:subClassOf ho:HouseCleaning .
 
 ho:clean_sink a owl:Class ;
-    rdfs:comment """Class with sequences for cleaning only the sink, not the surounding, or 
+    rdfs:comment """Class with sequences for cleaning only the sink, not the surounding, or \r
 the whole room.""" ;
+    rdfs:subClassOf ho:HouseCleaning .
+
+ho:clean_slippers a owl:Class ;
     rdfs:subClassOf ho:HouseCleaning .
 
 ho:clean_sofa a owl:Class ;
@@ -1047,12 +1051,12 @@ ho:clean_television a owl:Class ;
     rdfs:subClassOf ho:HouseCleaning .
 
 ho:clean_toilet a owl:Class ;
-    rdfs:comment """Class with sequences on how to clean the toilet specifically, not the 
+    rdfs:comment """Class with sequences on how to clean the toilet specifically, not the \r
 whole bathroom.""" ;
     rdfs:subClassOf ho:HouseCleaning .
 
 ho:clear_table a owl:Class ;
-    rdfs:comment """The class with sequence of actions for clearing the table after eating 
+    rdfs:comment """The class with sequence of actions for clearing the table after eating \r
 or claering it because it is dirty.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
@@ -1065,7 +1069,7 @@ ho:close_door a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:close_dresser_drawer a owl:Class ;
-    rdfs:comment """The class with sequence of actions for closing dresser drawer, in any 
+    rdfs:comment """The class with sequence of actions for closing dresser drawer, in any \r
 room.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -1078,7 +1082,7 @@ ho:collect_napkin_rings a owl:Class ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:color a owl:Class ;
-    rdfs:comment """The class with sequence of actions for coloring (painting, or painting 
+    rdfs:comment """The class with sequence of actions for coloring (painting, or painting \r
 house, etc.).""" ;
     rdfs:subClassOf ho:Other .
 
@@ -1087,12 +1091,12 @@ ho:comb_hair a owl:Class ;
     rdfs:subClassOf ho:HygieneStyling .
 
 ho:come_home a owl:Class ;
-    rdfs:comment """The class with sequence of actions for comming home, from wokr, or 
+    rdfs:comment """The class with sequence of actions for comming home, from wokr, or \r
 grocery store, etc.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:come_in_and_leave_home a owl:Class ;
-    rdfs:comment """The class with sequence of actions for comming in the house to do 
+    rdfs:comment """The class with sequence of actions for comming in the house to do \r
 something, and then get out again.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -1101,12 +1105,12 @@ ho:complete_homework a owl:Class ;
     rdfs:subClassOf ho:Work .
 
 ho:complete_school_work a owl:Class ;
-    rdfs:comment """The class with sequence of actions for completing your school work, this 
+    rdfs:comment """The class with sequence of actions for completing your school work, this \r
 is not only homework, could also be getting ready for school.""" ;
     rdfs:subClassOf ho:Work .
 
 ho:complete_surveys_on_amazon_turk a owl:Class ;
-    rdfs:comment """The class with sequence of actions for completing youe amazon turk 
+    rdfs:comment """The class with sequence of actions for completing youe amazon turk \r
 surveys.""" ;
     rdfs:subClassOf ho:Work .
 
@@ -1118,12 +1122,27 @@ ho:computer_work a owl:Class ;
     rdfs:comment "The class with sequence of actions to do computer work." ;
     rdfs:subClassOf ho:Work .
 
+ho:cook_carrot a owl:Class ;
+    rdfs:subClassOf ho:FoodPreparation .
+
 ho:cook_food a owl:Class ;
     rdfs:comment "added by virtualhome2kg"@en ;
     rdfs:subClassOf ho:FoodPreparation .
 
+ho:cook_fried_bread a owl:Class ;
+    rdfs:subClassOf ho:FoodPreparation .
+
+ho:cook_potato_using_microwave a owl:Class ;
+    rdfs:subClassOf ho:FoodPreparation .
+
+ho:cook_potato_using_stove a owl:Class ;
+    rdfs:subClassOf ho:FoodPreparation .
+
+ho:cook_salmon a owl:Class ;
+    rdfs:subClassOf ho:FoodPreparation .
+
 ho:cook_some_food a owl:Class ;
-    rdfs:comment """Class with sequences on how to cook some food prepare the place, the 
+    rdfs:comment """Class with sequences on how to cook some food prepare the place, the \r
 order of the ingredience.""" ;
     rdfs:subClassOf ho:FoodPreparation .
 
@@ -1152,7 +1171,7 @@ ho:cutting a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:dance_for_table_as_we_eat a owl:Class ;
-    rdfs:comment """The class with sequence of actions for dancing for amusement at the 
+    rdfs:comment """The class with sequence of actions for dancing for amusement at the \r
 table as the persons eat.""" ;
     rdfs:subClassOf ho:EatingDrinking .
 
@@ -1165,17 +1184,17 @@ ho:de-wrinkle_sheet a owl:Class ;
     rdfs:subClassOf ho:HouseCleaning .
 
 ho:de_wrinkle_sheet a owl:Class ;
-    rdfs:comment """The class with sequence of actions for de-wrinkling the sheet, in any 
+    rdfs:comment """The class with sequence of actions for de-wrinkling the sheet, in any \r
 room.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:decorate a owl:Class ;
-    rdfs:comment """The class with sequence of actions for decoratng any item inside the 
+    rdfs:comment """The class with sequence of actions for decoratng any item inside the \r
 house that can be decorated.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:decorate_it a owl:Class ;
-    rdfs:comment """The class with sequence of actions for decorating something, after 
+    rdfs:comment """The class with sequence of actions for decorating something, after \r
 getting the token &quot;decorate it&quot;.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
@@ -1196,13 +1215,13 @@ ho:dining a owl:Class ;
     rdfs:subClassOf ho:EatingDrinking .
 
 ho:do_an_art_project a owl:Class ;
-    rdfs:comment """<p style="margin-top: 0">
-      The class with sequence of actions for doing an art project, in any room.
+    rdfs:comment """<p style="margin-top: 0">\r
+      The class with sequence of actions for doing an art project, in any room.\r
     </p>""" ;
     rdfs:subClassOf ho:Other .
 
 ho:do_dishes a owl:Class ;
-    rdfs:comment """The class with sequence of actions for doing the dishes, either clean 
+    rdfs:comment """The class with sequence of actions for doing the dishes, either clean \r
 them or put them in the cabinet""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
@@ -1211,13 +1230,16 @@ ho:do_facial a owl:Class ;
     rdfs:subClassOf ho:HygieneStyling .
 
 ho:do_free-style_dance_routine a owl:Class ;
-    rdfs:comment """The class with sequence of actions for doing free style dance routine, 
+    rdfs:comment """The class with sequence of actions for doing free style dance routine, \r
 in any room.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:do_homework a owl:Class ;
-    rdfs:comment """The class with sequence of actions for writing down your homework (or 
+    rdfs:comment """The class with sequence of actions for writing down your homework (or \r
 perform other task that will help you finish your homework).""" ;
+    rdfs:subClassOf ho:Work .
+
+ho:do_homework_on_paper a owl:Class ;
     rdfs:subClassOf ho:Work .
 
 ho:do_laundry a owl:Class ;
@@ -1228,6 +1250,9 @@ ho:do_nails a owl:Class ;
     rdfs:comment "The class with sequence of actions for doing your nails, hands and feet." ;
     rdfs:subClassOf ho:HygieneStyling .
 
+ho:do_research_on_computer a owl:Class ;
+    rdfs:subClassOf ho:Work .
+
 ho:do_taxes a owl:Class ;
     rdfs:comment "The class with sequence of actions for doing taxes." ;
     rdfs:subClassOf ho:Work .
@@ -1237,7 +1262,7 @@ ho:do_work a owl:Class ;
     rdfs:subClassOf ho:Work .
 
 ho:do_work_on_computer a owl:Class ;
-    rdfs:comment """The class with sequence of actions for doing some on the compute, either 
+    rdfs:comment """The class with sequence of actions for doing some on the compute, either \r
 on iths hardware or on the computer itself.""" ;
     rdfs:subClassOf ho:Work .
 
@@ -1250,13 +1275,13 @@ ho:draft_home a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:draw_picture a owl:Class ;
-    rdfs:comment """The class with sequence of actions for drawing any picture, either on 
+    rdfs:comment """The class with sequence of actions for drawing any picture, either on \r
 paper or computer.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:dress_up_and_pretend a owl:Class ;
-    rdfs:comment """<p style="margin-top: 0">
-      The class with sequence of actions for dressing up and pretending.
+    rdfs:comment """<p style="margin-top: 0">\r
+      The class with sequence of actions for dressing up and pretending.\r
     </p>""" ;
     rdfs:subClassOf ho:HygieneStyling .
 
@@ -1280,6 +1305,9 @@ ho:drink_milk a owl:Class ;
 
 ho:drink_milk_while_watching_television a owl:Class ;
     rdfs:subClassOf ho:Leisure .
+
+ho:drink_water a owl:Class ;
+    rdfs:subClassOf ho:EatingDrinking .
 
 ho:drink_wine a owl:Class ;
     rdfs:subClassOf ho:EatingDrinking .
@@ -1364,18 +1392,18 @@ ho:eat_snacks_and_drink_tea a owl:Class ;
     rdfs:subClassOf ho:EatingDrinking .
 
 ho:eat_while_watching_tv a owl:Class ;
-    rdfs:comment """The class with sequence of actions for eating something while watching 
+    rdfs:comment """The class with sequence of actions for eating something while watching \r
 TV.""" ;
     rdfs:subClassOf ho:EatingDrinking,
         ho:Leisure .
 
 ho:empty_dishwasher_and_fill_dishwasher a owl:Class ;
-    rdfs:comment """The class with sequence of actions for emptying dishwasher and fill 
+    rdfs:comment """The class with sequence of actions for emptying dishwasher and fill \r
 dishwasher, in any room.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:enjoy_view_out_window a owl:Class ;
-    rdfs:comment """The class with sequence of actions for enjoying the view out of the 
+    rdfs:comment """The class with sequence of actions for enjoying the view out of the \r
 window, in any room.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -1384,7 +1412,7 @@ ho:enter_home a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:entertain a owl:Class ;
-    rdfs:comment """A class with sequences for entertaining your self with activities that 
+    rdfs:comment """A class with sequences for entertaining your self with activities that \r
 have to do with other persons.""" ;
     rdfs:subClassOf ho:SocialInteraction .
 
@@ -1395,6 +1423,48 @@ ho:exercise a owl:Class ;
 ho:face_washing a owl:Class ;
     rdfs:comment "The class with sequence of actions for washing your face." ;
     rdfs:subClassOf ho:HygieneStyling .
+
+ho:fall_backward_while_walking_and_turning a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fall_in_bathroom a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fall_sideways_while_walking_forward a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fall_while_climbing_at_somewhere_height a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fall_while_during_getting_up_or_rising a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fall_while_initiation_of_walking a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fall_while_preparing_meal a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fall_while_sitting_down a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fall_while_sitting_down_or_lowering a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fall_while_standing_and_reaching a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fall_while_standing_and_turning a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fall_while_standing_at_somewhere_height a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fall_while_standing_quietly a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fall_while_walking_forward a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
 
 ho:family_meetings a owl:Class ;
     rdfs:comment "The class with sequence of actions for family meetings." ;
@@ -1436,17 +1506,17 @@ ho:find_some_food a owl:Class ;
     rdfs:subClassOf ho:FoodPreparation .
 
 ho:fix_bowl_of_cereal a owl:Class ;
-    rdfs:comment """The class with sequence of actions for fixing bowls of cereals (re 
+    rdfs:comment """The class with sequence of actions for fixing bowls of cereals (re \r
 arrange it if it has spilled, or make it look beautiful).""" ;
     rdfs:subClassOf ho:FoodPreparation .
 
 ho:fix_broken_toys a owl:Class ;
-    rdfs:comment """The class with sequence of actions for fixing broken toys, any toys in 
+    rdfs:comment """The class with sequence of actions for fixing broken toys, any toys in \r
 any room.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:fix_sandwhich a owl:Class ;
-    rdfs:comment """The class with sequence of actions for fixing sandwhich (make it look 
+    rdfs:comment """The class with sequence of actions for fixing sandwhich (make it look \r
 beautifull, or if it has spilled what it has inside re arragne it).""" ;
     rdfs:subClassOf ho:FoodPreparation .
 
@@ -1455,7 +1525,7 @@ ho:fix_sandwich a owl:Class ;
     rdfs:subClassOf ho:FoodPreparation .
 
 ho:fix_snack a owl:Class ;
-    rdfs:comment """The class with sequence of actions for fixing a snack (make it look 
+    rdfs:comment """The class with sequence of actions for fixing a snack (make it look \r
 beautiful, or re arrange it if ti has beedn torn apart).""" ;
     rdfs:subClassOf ho:FoodPreparation .
 
@@ -1471,8 +1541,17 @@ ho:flush_toilet a owl:Class ;
     rdfs:comment "The class with sequence of actions to flush down the toilet." ;
     rdfs:subClassOf ho:HouseCleaning .
 
+ho:fold_clothespants a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:fold_clothespile a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:fold_clothesshirt a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
 ho:fold_laundry a owl:Class ;
-    rdfs:comment """Class with sequences about how to fold the different laundry objects 
+    rdfs:comment """Class with sequences about how to fold the different laundry objects \r
 (i.e. clothes, or objects that could be considered laundry).""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
@@ -1481,7 +1560,7 @@ ho:gaze_out_window a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:get_dressed a owl:Class ;
-    rdfs:comment """Class with sequences about how to get dressed for getting out, or for 
+    rdfs:comment """Class with sequences about how to get dressed for getting out, or for \r
 getting to work.""" ;
     rdfs:subClassOf ho:HygieneStyling .
 
@@ -1490,12 +1569,12 @@ ho:get_drink a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:get_glass_of_milk a owl:Class ;
-    rdfs:comment """The class with sequence of actions for getting a glass of milk, from any 
+    rdfs:comment """The class with sequence of actions for getting a glass of milk, from any \r
 room the milk is in.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:get_glass_of_water a owl:Class ;
-    rdfs:comment """The class with sequence of actions for getting glass of water, from any 
+    rdfs:comment """The class with sequence of actions for getting glass of water, from any \r
 room that can get water.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -1508,9 +1587,12 @@ ho:get_mail_ready a owl:Class ;
     rdfs:subClassOf ho:Work .
 
 ho:get_out_dish a owl:Class ;
-    rdfs:comment """The class with sequence of actions for getting a dish out, for serving 
+    rdfs:comment """The class with sequence of actions for getting a dish out, for serving \r
 in any room.""" ;
     rdfs:subClassOf ho:Other .
+
+ho:get_out_of_bed a owl:Class ;
+    rdfs:subClassOf ho:BedTimeSleep .
 
 ho:get_ready_for_bed a owl:Class ;
     rdfs:comment "\\The class with sequence of actions for getting ready for going to bed." ;
@@ -1541,7 +1623,7 @@ ho:get_something_to_drink a owl:Class ;
     rdfs:subClassOf ho:EatingDrinking .
 
 ho:get_toilet_paper a owl:Class ;
-    rdfs:comment """The class with sequence of actions for getting toilet paper from any 
+    rdfs:comment """The class with sequence of actions for getting toilet paper from any \r
 room and put it in the toilet.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -1554,7 +1636,7 @@ ho:getting_dressed a owl:Class ;
     rdfs:subClassOf ho:HygieneStyling .
 
 ho:getting_in_way_of_guest_trying_to_leave a owl:Class ;
-    rdfs:comment """The class with sequence of actions for getting in way of guest trying to 
+    rdfs:comment """The class with sequence of actions for getting in way of guest trying to \r
 leave.""" ;
     rdfs:subClassOf ho:SocialInteraction .
 
@@ -1569,7 +1651,7 @@ ho:give_me_bath a owl:Class ;
     rdfs:subClassOf ho:HygieneStyling .
 
 ho:give_milk_to_cat a owl:Class ;
-    rdfs:comment """The class with sequence of actions for giving milk to the cat, inside 
+    rdfs:comment """The class with sequence of actions for giving milk to the cat, inside \r
 the house, but in any room.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -1590,7 +1672,7 @@ ho:go_to_bed a owl:Class ;
     rdfs:subClassOf ho:BedTimeSleep .
 
 ho:go_to_sleep a owl:Class ;
-    rdfs:comment """A class with sequences on how to go to sleep, or get ready to go to 
+    rdfs:comment """A class with sequences on how to go to sleep, or get ready to go to \r
 sleep.""" ;
     rdfs:subClassOf ho:BedTimeSleep .
 
@@ -1599,7 +1681,7 @@ ho:go_to_toilet a owl:Class ;
     rdfs:subClassOf ho:HygieneStyling .
 
 ho:grab_some_juice a owl:Class ;
-    rdfs:comment """The class with sequence of actions for grabing some juice, from the 
+    rdfs:comment """The class with sequence of actions for grabing some juice, from the \r
 fridge or elsewhere.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -1608,7 +1690,7 @@ ho:grab_things a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:grading_papers a owl:Class ;
-    rdfs:comment """The class with sequence of actions for grading some papers (usually for 
+    rdfs:comment """The class with sequence of actions for grading some papers (usually for \r
 school).""" ;
     rdfs:subClassOf ho:Work .
 
@@ -1633,7 +1715,7 @@ ho:hand_washing a owl:Class ;
     rdfs:subClassOf ho:HygieneStyling .
 
 ho:hang_car_keys a owl:Class ;
-    rdfs:comment """The class with sequence of actions for hanging car keys, in any place 
+    rdfs:comment """The class with sequence of actions for hanging car keys, in any place \r
 that can be hanged.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -1650,12 +1732,12 @@ ho:hang_pictures a owl:Class ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:hang_up_car_keys a owl:Class ;
-    rdfs:comment """The class with sequence of actions for hanging up your car keys, in 
+    rdfs:comment """The class with sequence of actions for hanging up your car keys, in \r
 every room.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:hang_up_jacket a owl:Class ;
-    rdfs:comment """A class with sequences on how to hang up your jacket
+    rdfs:comment """A class with sequences on how to hang up your jacket\r
 .""" ;
     rdfs:subClassOf ho:Other .
 
@@ -1664,7 +1746,7 @@ ho:hang_up_poster a owl:Class ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:hang_with_friend a owl:Class ;
-    rdfs:comment """The class with sequence of actions for hanging with your friend inside 
+    rdfs:comment """The class with sequence of actions for hanging with your friend inside \r
 the house.""" ;
     rdfs:subClassOf ho:SocialInteraction .
 
@@ -1673,7 +1755,7 @@ ho:hang_with_friends a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:have_conversation_with_boyfriend a owl:Class ;
-    rdfs:comment """The class with sequence of actions for having conversation with your 
+    rdfs:comment """The class with sequence of actions for having conversation with your \r
 boyfriend.""" ;
     rdfs:subClassOf ho:SocialInteraction .
 
@@ -1681,8 +1763,14 @@ ho:have_dinner a owl:Class ;
     rdfs:comment "The class with sequence of actions for having dinner." ;
     rdfs:subClassOf ho:EatingDrinking .
 
+ho:have_evening_beverage a owl:Class ;
+    rdfs:subClassOf ho:EatingDrinking .
+
 ho:have_ice_coffee a owl:Class ;
     rdfs:comment "The class with sequence of actions for drinking ice coffee in any room." ;
+    rdfs:subClassOf ho:EatingDrinking .
+
+ho:have_morning_beverage a owl:Class ;
     rdfs:subClassOf ho:EatingDrinking .
 
 ho:have_party a owl:Class ;
@@ -1694,7 +1782,7 @@ ho:have_quality_family_time a owl:Class ;
     rdfs:subClassOf ho:SocialInteraction .
 
 ho:have_snack a owl:Class ;
-    rdfs:comment """The class with sequence of actions for having a snack at any time of the 
+    rdfs:comment """The class with sequence of actions for having a snack at any time of the \r
 day.""" ;
     rdfs:subClassOf ho:EatingDrinking .
 
@@ -1707,12 +1795,12 @@ ho:help_kids_with_homework a owl:Class ;
     rdfs:subClassOf ho:SocialInteraction .
 
 ho:help_organize_files a owl:Class ;
-    rdfs:comment """The class with sequence of actions for helping organize the files, in 
+    rdfs:comment """The class with sequence of actions for helping organize the files, in \r
 any order.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:help_with_quiz_shows a owl:Class ;
-    rdfs:comment """The class with sequence of actions for helping with quiz shows, any 
+    rdfs:comment """The class with sequence of actions for helping with quiz shows, any \r
 person.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -1721,7 +1809,7 @@ ho:hide a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:hold_coats_and_umbrellas a owl:Class ;
-    rdfs:comment """The class with sequence of actions for holding your coat (or coats) and 
+    rdfs:comment """The class with sequence of actions for holding your coat (or coats) and \r
 an umbrella.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
@@ -1738,37 +1826,37 @@ ho:in_living_room_i_eat_dinner a owl:Class ;
     rdfs:subClassOf ho:Leisure .
 
 ho:iron_shirt a owl:Class ;
-    rdfs:comment """The class with sequence of actions for ironing a shirt in any place or 
+    rdfs:comment """The class with sequence of actions for ironing a shirt in any place or \r
 room.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:juggling a owl:Class ;
-    rdfs:comment """The class with sequence of actions for juggling (whatever object can 
+    rdfs:comment """The class with sequence of actions for juggling (whatever object can \r
 fly).""" ;
     rdfs:subClassOf ho:Leisure .
 
 ho:keep_an_eye_on_stove_as_something_is_cooking a owl:Class ;
-    rdfs:comment """The class with sequence of actions for keeping an eye on stove as 
+    rdfs:comment """The class with sequence of actions for keeping an eye on stove as \r
 somehting is cooking.""" ;
     rdfs:subClassOf ho:FoodPreparation .
 
 ho:keep_cats_inside_while_door_is_open a owl:Class ;
-    rdfs:comment """The class with sequence of actions for trying to keep cats inside while 
+    rdfs:comment """The class with sequence of actions for trying to keep cats inside while \r
 door is open.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:keep_cats_out_of_room a owl:Class ;
-    rdfs:comment """The class with sequence of actions for keepin the cats out of room
+    rdfs:comment """The class with sequence of actions for keepin the cats out of room\r
 , any room.""" ;
     rdfs:subClassOf ho:SocialInteraction .
 
 ho:lay_down_on_floor_and_say_im_rug a owl:Class ;
-    rdfs:comment """The class with sequence of actions for laying down on floor in any room 
+    rdfs:comment """The class with sequence of actions for laying down on floor in any room \r
 and say, I am rug.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:lay_tablecloth a owl:Class ;
-    rdfs:comment """The class with sequence of actions for laying the tablecoth on the 
+    rdfs:comment """The class with sequence of actions for laying the tablecoth on the \r
 table, in any room.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
@@ -1780,12 +1868,15 @@ ho:leaving_room a owl:Class ;
     rdfs:comment "added by virtualhome2kg"@en ;
     rdfs:subClassOf ho:Other .
 
+ho:legopp a owl:Class ;
+    rdfs:subClassOf ho:PhysicalActivity .
+
 ho:let_baby_learn_how_to_walk a owl:Class ;
     rdfs:comment "The class with sequence of actions for letting the baby learn how to walk." ;
     rdfs:subClassOf ho:Other .
 
 ho:let_bay_learn_how_to_walk a owl:Class ;
-    rdfs:comment """The class with sequence of actions for letting your child or baby to 
+    rdfs:comment """The class with sequence of actions for letting your child or baby to \r
 learn how to walk.""" ;
     rdfs:subClassOf ho:SocialInteraction .
 
@@ -1802,7 +1893,7 @@ ho:listen_to_music a owl:Class ;
     rdfs:subClassOf ho:Leisure .
 
 ho:load_dishwasher a owl:Class ;
-    rdfs:comment """The class with sequence of actions for laoding up the dishwasher
+    rdfs:comment """The class with sequence of actions for laoding up the dishwasher\r
 .""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
@@ -1819,17 +1910,17 @@ ho:look_at_painting a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:look_in_refrigerator a owl:Class ;
-    rdfs:comment """The class with sequence of actions for looking in refrigerator for any 
+    rdfs:comment """The class with sequence of actions for looking in refrigerator for any \r
 reason.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:look_out_window a owl:Class ;
-    rdfs:comment """The class with sequence of actions for looking out the window, in any 
+    rdfs:comment """The class with sequence of actions for looking out the window, in any \r
 room.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:mail_signed_letter_to_customer a owl:Class ;
-    rdfs:comment """The class with sequence of actions read-send a mail that contains a 
+    rdfs:comment """The class with sequence of actions read-send a mail that contains a \r
 signed letter for the customer.""" ;
     rdfs:subClassOf ho:Work .
 
@@ -1838,12 +1929,12 @@ ho:make__cookies a owl:Class ;
     rdfs:subClassOf ho:FoodPreparation .
 
 ho:make_banana_bread a owl:Class ;
-    rdfs:comment """The class with sequence of actions for making a bread that contains 
+    rdfs:comment """The class with sequence of actions for making a bread that contains \r
 banana.""" ;
     rdfs:subClassOf ho:FoodPreparation .
 
 ho:make_bed a owl:Class ;
-    rdfs:comment """Class with sequences about how to make you own bed, under different 
+    rdfs:comment """Class with sequences about how to make you own bed, under different \r
 circumstances.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
@@ -1859,6 +1950,9 @@ ho:make_coffee a owl:Class ;
     rdfs:comment "Class with sequences on how to make coffee with different methods, and different steps." ;
     rdfs:subClassOf ho:FoodPreparation .
 
+ho:make_cold_cereal a owl:Class ;
+    rdfs:subClassOf ho:FoodPreparation .
+
 ho:make_drink a owl:Class ;
     rdfs:comment "The class with sequence of actions for making a drink." ;
     rdfs:subClassOf ho:FoodPreparation .
@@ -1867,8 +1961,11 @@ ho:make_eggs a owl:Class ;
     rdfs:comment "The class with sequence of actions for making eggs." ;
     rdfs:subClassOf ho:FoodPreparation .
 
+ho:make_hot_cereal a owl:Class ;
+    rdfs:subClassOf ho:FoodPreparation .
+
 ho:make_ice_in_ice_trays_for_freezer a owl:Class ;
-    rdfs:comment """The class with sequence of actions for making ice in ice trays fo 
+    rdfs:comment """The class with sequence of actions for making ice in ice trays fo \r
 freezer.""" ;
     rdfs:subClassOf ho:FoodPreparation .
 
@@ -1901,7 +1998,7 @@ ho:make_place_cards a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:make_popcorn a owl:Class ;
-    rdfs:comment """The class with sequence of actions for making popcorn, in what ever mean 
+    rdfs:comment """The class with sequence of actions for making popcorn, in what ever mean \r
 can cook popcorn.""" ;
     rdfs:subClassOf ho:FoodPreparation .
 
@@ -1914,7 +2011,7 @@ ho:make_sandwitch a owl:Class ;
     rdfs:subClassOf ho:FoodPreparation .
 
 ho:make_several_copies_on_printer a owl:Class ;
-    rdfs:comment """The class with sequence of actions to make several copies on the 
+    rdfs:comment """The class with sequence of actions to make several copies on the \r
 printer, the file does not matter in this case.""" ;
     rdfs:subClassOf ho:Work .
 
@@ -1923,12 +2020,12 @@ ho:make_tea a owl:Class ;
     rdfs:subClassOf ho:FoodPreparation .
 
 ho:make_toast a owl:Class ;
-    rdfs:comment """The class with sequence of actions for making your own toast, or for 
+    rdfs:comment """The class with sequence of actions for making your own toast, or for \r
 someone else.""" ;
     rdfs:subClassOf ho:FoodPreparation .
 
 ho:make_tomato_sauce a owl:Class ;
-    rdfs:comment """The class with sequence of actions for making tomatoes sauce, in any 
+    rdfs:comment """The class with sequence of actions for making tomatoes sauce, in any \r
 room.""" ;
     rdfs:subClassOf ho:FoodPreparation .
 
@@ -1937,7 +2034,7 @@ ho:make_tutu a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:make_up_bed_for_guest_on_couch a owl:Class ;
-    rdfs:comment """The class with sequence of actions for making up bed for guest on couch, 
+    rdfs:comment """The class with sequence of actions for making up bed for guest on couch, \r
 wherever the couch is in the house.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
@@ -1946,7 +2043,7 @@ ho:manage_documents a owl:Class ;
     rdfs:subClassOf ho:Work .
 
 ho:manage_emails a owl:Class ;
-    rdfs:comment """The class with sequence of actions for managing your emails (sorting, or 
+    rdfs:comment """The class with sequence of actions for managing your emails (sorting, or \r
 merging the different files with emails).""" ;
     rdfs:subClassOf ho:Work .
 
@@ -1955,7 +2052,7 @@ ho:massage a owl:Class ;
     rdfs:subClassOf ho:SocialInteraction .
 
 ho:meeting a owl:Class ;
-    rdfs:comment """The class with sequence of actions for meeting , no matter the purpose 
+    rdfs:comment """The class with sequence of actions for meeting , no matter the purpose \r
 of meeting.""" ;
     rdfs:subClassOf ho:SocialInteraction .
 
@@ -1968,7 +2065,7 @@ ho:mop_floor a owl:Class ;
     rdfs:subClassOf ho:HouseCleaning .
 
 ho:movie a owl:Class ;
-    rdfs:comment """The class with sequence of actions for watching a movie, either at TV or 
+    rdfs:comment """The class with sequence of actions for watching a movie, either at TV or \r
 your Laptop.""" ;
     rdfs:subClassOf ho:Leisure .
 
@@ -1981,12 +2078,12 @@ ho:open_bathroom_window a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:open_curtains a owl:Class ;
-    rdfs:comment """The class with sequence of actions for opening up the curtains, from any 
+    rdfs:comment """The class with sequence of actions for opening up the curtains, from any \r
 room inside the house.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:open_door a owl:Class ;
-    rdfs:comment """The class with sequence of actions for opening the door, either from the 
+    rdfs:comment """The class with sequence of actions for opening the door, either from the \r
 main entrance or door of a room.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -1995,7 +2092,7 @@ ho:open_door_and_great_guests a owl:Class ;
     rdfs:subClassOf ho:SocialInteraction .
 
 ho:open_front_door a owl:Class ;
-    rdfs:comment """The class with sequence of actions for opening front door (main entrance 
+    rdfs:comment """The class with sequence of actions for opening front door (main entrance \r
 door).""" ;
     rdfs:subClassOf ho:Other .
 
@@ -2004,7 +2101,7 @@ ho:open_window a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:order_office_suplies a owl:Class ;
-    rdfs:comment """The class with sequence of actions for ordering office suplies, such as 
+    rdfs:comment """The class with sequence of actions for ordering office suplies, such as \r
 papers, writing material, and more.""" ;
     rdfs:subClassOf ho:Work .
 
@@ -2013,12 +2110,12 @@ ho:organise_paperwork a owl:Class ;
     rdfs:subClassOf ho:Work .
 
 ho:organize a owl:Class ;
-    rdfs:comment """The class with sequence of actions for organizing your work, your 
+    rdfs:comment """The class with sequence of actions for organizing your work, your \r
 clothes, etc.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:organize_cabinet a owl:Class ;
-    rdfs:comment """The class with sequence of actions for organizing the objects insde the 
+    rdfs:comment """The class with sequence of actions for organizing the objects insde the \r
 cabinet.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
@@ -2027,7 +2124,7 @@ ho:organize_closet a owl:Class ;
     rdfs:subClassOf ho:HouseCleaning .
 
 ho:organize_desk a owl:Class ;
-    rdfs:comment """The class with sequence of actions for organizing the desk place, 
+    rdfs:comment """The class with sequence of actions for organizing the desk place, \r
 sorting items, pick up items.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
@@ -2036,7 +2133,7 @@ ho:organize_files a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:organize_panrty a owl:Class ;
-    rdfs:comment """The class with sequence of actions for organizing party, by using your 
+    rdfs:comment """The class with sequence of actions for organizing party, by using your \r
 phone or computer.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
@@ -2085,17 +2182,17 @@ ho:physical_therapy a owl:Class ;
     rdfs:subClassOf ho:PhysicalActivity .
 
 ho:pick_toys a owl:Class ;
-    rdfs:comment """The class with sequence of actions for picking up toys that were thrown 
+    rdfs:comment """The class with sequence of actions for picking up toys that were thrown \r
 away.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:pick_up a owl:Class ;
-    rdfs:comment """The class with sequence of actions for picking up any object, in any 
+    rdfs:comment """The class with sequence of actions for picking up any object, in any \r
 room.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:pick_up_all_trash a owl:Class ;
-    rdfs:comment """The class with sequence of actions for picking up all trash from the 
+    rdfs:comment """The class with sequence of actions for picking up all trash from the \r
 floor, or any other place.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -2108,8 +2205,20 @@ ho:pick_up_dIshes a owl:Class ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:pick_up_dirty_dishes a owl:Class ;
-    rdfs:comment """The class with sequence of actions for picking up dirty dishes, in any 
+    rdfs:comment """The class with sequence of actions for picking up dirty dishes, in any \r
 room.""" ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:pick_up_dirty_fork a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:pick_up_dirty_knife a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:pick_up_dirty_waterglass a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:pick_up_dirty_wineglass a owl:Class ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:pick_up_dishes a owl:Class ;
@@ -2117,12 +2226,12 @@ ho:pick_up_dishes a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:pick_up_obvious_trash a owl:Class ;
-    rdfs:comment """The class with sequence of actions for picking up objects that are 
+    rdfs:comment """The class with sequence of actions for picking up objects that are \r
 obiously trash.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:pick_up_phone a owl:Class ;
-    rdfs:comment """A class with sequences on how to answer the phone, from different rooms, 
+    rdfs:comment """A class with sequences on how to answer the phone, from different rooms, \r
 and in different scenaria sucks as holding something in hands, etc.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -2131,7 +2240,7 @@ ho:pick_up_spare_change_on_dresser a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:pick_up_toys a owl:Class ;
-    rdfs:comment """A class with sequences on to pick up the toys left behind by other 
+    rdfs:comment """A class with sequences on to pick up the toys left behind by other \r
 individuals.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -2143,8 +2252,26 @@ ho:place_centerpiece a owl:Class ;
     rdfs:comment "The class with sequence of actions for placing centerpiece." ;
     rdfs:subClassOf ho:HouseArrangement .
 
+ho:place_fork a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:place_knife a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:place_plate a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
 ho:place_table a owl:Class ;
     rdfs:comment "The class with sequence of actions for placing the table in any room." ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:place_waterglass a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:place_wine a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:place_wineglass a owl:Class ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:play_fetch_with_dog a owl:Class ;
@@ -2156,7 +2283,7 @@ ho:play_games a owl:Class ;
     rdfs:subClassOf ho:Leisure .
 
 ho:play_guitar a owl:Class ;
-    rdfs:comment """The class with sequence of actions for playing with the guitar (electric 
+    rdfs:comment """The class with sequence of actions for playing with the guitar (electric \r
 or normal).""" ;
     rdfs:subClassOf ho:Leisure .
 
@@ -2173,8 +2300,8 @@ ho:play_piano a owl:Class ;
     rdfs:subClassOf ho:Leisure .
 
 ho:play_with_barbies a owl:Class ;
-    rdfs:comment """<p style="margin-top: 0">
-      The class with sequence of actions for palying with barbie dolls.
+    rdfs:comment """<p style="margin-top: 0">\r
+      The class with sequence of actions for palying with barbie dolls.\r
     </p>""" ;
     rdfs:subClassOf ho:Leisure .
 
@@ -2183,12 +2310,12 @@ ho:play_with_toys a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:playing_video_game a owl:Class ;
-    rdfs:comment """The class with sequence of actions either at a console or at the 
+    rdfs:comment """The class with sequence of actions either at a console or at the \r
 computer.""" ;
     rdfs:subClassOf ho:Leisure .
 
 ho:playtime_lunch_with_dolls a owl:Class ;
-    rdfs:comment """The class with sequence of actions for playing with dolls while eating 
+    rdfs:comment """The class with sequence of actions for playing with dolls while eating \r
 your lunch.""" ;
     rdfs:subClassOf ho:Leisure .
 
@@ -2201,7 +2328,7 @@ ho:polish_table a owl:Class ;
     rdfs:subClassOf ho:HouseCleaning .
 
 ho:polish_teas_pot a owl:Class ;
-    rdfs:comment """The class with sequence of actions for polishing tea pots
+    rdfs:comment """The class with sequence of actions for polishing tea pots\r
 .""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
@@ -2234,7 +2361,7 @@ ho:praying a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:prepare_breakfast a owl:Class ;
-    rdfs:comment """The class with sequence of actions for preparing the breakfast (not 
+    rdfs:comment """The class with sequence of actions for preparing the breakfast (not \r
 eating the breakfast).""" ;
     rdfs:subClassOf ho:FoodPreparation .
 
@@ -2242,6 +2369,9 @@ ho:prepare_dinner a owl:Class ;
     rdfs:comment "Class with sequences for the procedure of getting the able ready to eat dinner.",
         "The class with sequence of actions for making the dinner (the procedure of cooking)." ;
     rdfs:subClassOf ho:FoodPreparation .
+
+ho:prepare_for_brushing_teeth a owl:Class ;
+    rdfs:subClassOf ho:HygieneStyling .
 
 ho:prepare_for_work a owl:Class ;
     rdfs:comment "The class with sequence of actions for preparing for work." ;
@@ -2252,7 +2382,7 @@ ho:prepare_go_out a owl:Class ;
     rdfs:subClassOf ho:GettingReady .
 
 ho:prepare_letter_for_mailing a owl:Class ;
-    rdfs:comment """The class with sequence of actions to prepare a letter that will be send 
+    rdfs:comment """The class with sequence of actions to prepare a letter that will be send \r
 for mailing later.""" ;
     rdfs:subClassOf ho:Work .
 
@@ -2280,12 +2410,12 @@ ho:print_documents a owl:Class ;
     rdfs:subClassOf ho:Work .
 
 ho:print_out_document a owl:Class ;
-    rdfs:comment """The class with sequence of actions to print out a document, no matter 
+    rdfs:comment """The class with sequence of actions to print out a document, no matter \r
 what document.""" ;
     rdfs:subClassOf ho:Work .
 
 ho:print_out_papers a owl:Class ;
-    rdfs:comment """The class with sequence of actions for printing out papers, no matter 
+    rdfs:comment """The class with sequence of actions for printing out papers, no matter \r
 what type of paper.""" ;
     rdfs:subClassOf ho:Work .
 
@@ -2306,12 +2436,12 @@ ho:push_in_desk_chair a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:push_in_dining_room_chair a owl:Class ;
-    rdfs:comment """The class with sequence of actions for pushing in the dining room chair, 
+    rdfs:comment """The class with sequence of actions for pushing in the dining room chair, \r
 under the table or in other place.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:put_alarm_clock_in_bedroom a owl:Class ;
-    rdfs:comment """The class with sequence of actions for setting the alarm clock at 
+    rdfs:comment """The class with sequence of actions for setting the alarm clock at \r
 specific time, which exists in the bedroom.""" ;
     rdfs:subClassOf ho:BedTimeSleep .
 
@@ -2332,8 +2462,11 @@ ho:put_away_dishes a owl:Class ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:put_away_groceries a owl:Class ;
-    rdfs:comment """The class with sequence of actions for putting away the groceries, not 
+    rdfs:comment """The class with sequence of actions for putting away the groceries, not \r
 in specific room.""" ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:put_away_groceries_from_fridge a owl:Class ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:put_away_jackets a owl:Class ;
@@ -2341,7 +2474,7 @@ ho:put_away_jackets a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:put_away_keys a owl:Class ;
-    rdfs:comment """The class with sequence of actions for putting away keys, in their 
+    rdfs:comment """The class with sequence of actions for putting away keys, in their \r
 storing place.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -2358,7 +2491,7 @@ ho:put_clothes_away a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:put_dishes_away a owl:Class ;
-    rdfs:comment """The class with sequence of actions for putting dishes away from any 
+    rdfs:comment """The class with sequence of actions for putting dishes away from any \r
 place.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
@@ -2367,12 +2500,12 @@ ho:put_down_bags a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:put_down_decoration a owl:Class ;
-    rdfs:comment """The class with sequence of actions for putting down decoration, on the 
+    rdfs:comment """The class with sequence of actions for putting down decoration, on the \r
 floor or table.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:put_dvds_on_shelves a owl:Class ;
-    rdfs:comment """The class with sequence of actions for putting the dvds on shelves
+    rdfs:comment """The class with sequence of actions for putting the dvds on shelves\r
 .""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
@@ -2381,17 +2514,17 @@ ho:put_food_in_fridge a owl:Class ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:put_groceries_in_fridge a owl:Class ;
-    rdfs:comment """Class with sequences that show how to put groceries and other object in 
+    rdfs:comment """Class with sequences that show how to put groceries and other object in \r
 the fridge.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:put_in_chair a owl:Class ;
-    rdfs:comment """The class with sequence of actions for putting in the chair or chairs in 
+    rdfs:comment """The class with sequence of actions for putting in the chair or chairs in \r
 any room.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:put_mail_away a owl:Class ;
-    rdfs:comment """The class with sequence of actions for putiing mails away, in a specific 
+    rdfs:comment """The class with sequence of actions for putiing mails away, in a specific \r
 place.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
@@ -2400,7 +2533,7 @@ ho:put_mail_in_mail_organizer a owl:Class ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:put_new_books_in_shelves a owl:Class ;
-    rdfs:comment """The class with sequence of actions for putting new books in shelves, 
+    rdfs:comment """The class with sequence of actions for putting new books in shelves, \r
 from another place.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
@@ -2421,12 +2554,12 @@ ho:put_on_glasses a owl:Class ;
     rdfs:subClassOf ho:HygieneStyling .
 
 ho:put_on_purse_put_keys_and_lucky_charms_in_pockets_leave_home a owl:Class ;
-    rdfs:comment """The class with sequence of actions for putting on purse, putting keys 
+    rdfs:comment """The class with sequence of actions for putting on purse, putting keys \r
 and lucjy charm in pockets, and leave home.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:put_on_your_shoes a owl:Class ;
-    rdfs:comment """The class with sequence of actions for putiing on your shoes, in any 
+    rdfs:comment """The class with sequence of actions for putiing on your shoes, in any \r
 room.""" ;
     rdfs:subClassOf ho:HygieneStyling .
 
@@ -2443,7 +2576,7 @@ ho:put_shoes_in_shoe_rack a owl:Class ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:put_slippers_in_closet a owl:Class ;
-    rdfs:comment """The class with sequence of actions for putting slippers in closet, in 
+    rdfs:comment """The class with sequence of actions for putting slippers in closet, in \r
 any room the closet is.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
@@ -2452,18 +2585,18 @@ ho:put_them_to_sleep a owl:Class ;
     rdfs:subClassOf ho:BedTimeSleep .
 
 ho:put_toys_away a owl:Class ;
-    rdfs:comment """The class with sequence of actions for putting the toys away, that 
+    rdfs:comment """The class with sequence of actions for putting the toys away, that \r
 belong to childeren or your own.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:put_umbrella_away a owl:Class ;
-    rdfs:comment """The class with sequence of actions for putting the umbrella away, in any 
+    rdfs:comment """The class with sequence of actions for putting the umbrella away, in any \r
 place.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:put_up_coat a owl:Class ;
-    rdfs:comment """<p style="margin-top: 0">
-      The class with sequence of actions for putting up coat.
+    rdfs:comment """<p style="margin-top: 0">\r
+      The class with sequence of actions for putting up coat.\r
     </p>""" ;
     rdfs:subClassOf ho:HygieneStyling .
 
@@ -2480,7 +2613,7 @@ ho:put_up_jacket a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:put_up_towel a owl:Class ;
-    rdfs:comment """The class with sequence of actions for putting up towel, in any room on 
+    rdfs:comment """The class with sequence of actions for putting up towel, in any room on \r
 you.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -2489,31 +2622,34 @@ ho:put_washed_clothes_in_almirah a owl:Class ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:rain_welcome a owl:Class ;
-    rdfs:comment """he class with sequence of actions for raining welcome (comming inside 
+    rdfs:comment """he class with sequence of actions for raining welcome (comming inside \r
 the house, after rain).""" ;
     rdfs:subClassOf ho:Other .
 
 ho:raise_blinds a owl:Class ;
-    rdfs:comment """The class with sequence of actions for raising blinds, from any window in any room.
+    rdfs:comment """The class with sequence of actions for raising blinds, from any window in any room.\r
     </p>""" ;
     rdfs:subClassOf ho:Other .
 
 ho:re_arrange_office a owl:Class ;
-    rdfs:comment """The class with sequence of actions for re arranging office, cleaning or 
+    rdfs:comment """The class with sequence of actions for re arranging office, cleaning or \r
 sorting items, etc.""" ;
     rdfs:subClassOf ho:HouseArrangement .
+
+ho:read_bedtime_story a owl:Class ;
+    rdfs:subClassOf ho:BedTimeSleep .
 
 ho:read_book a owl:Class ;
     rdfs:comment "Class which contains sequence of action, about how to read of a book." ;
     rdfs:subClassOf ho:Leisure .
 
 ho:read_magazine a owl:Class ;
-    rdfs:comment """The class with sequence of actions for reading a magazine (not a 
+    rdfs:comment """The class with sequence of actions for reading a magazine (not a \r
 newspaper).""" ;
     rdfs:subClassOf ho:Leisure .
 
 ho:read_news a owl:Class ;
-    rdfs:comment """The class with sequence of actions for reading news (either from a 
+    rdfs:comment """The class with sequence of actions for reading news (either from a \r
 newspaper, either from the internet).""" ;
     rdfs:subClassOf ho:Leisure .
 
@@ -2522,7 +2658,7 @@ ho:read_newspaper a owl:Class ;
     rdfs:subClassOf ho:Leisure .
 
 ho:read_on_sofa a owl:Class ;
-    rdfs:comment """The class with sequence of actions reading womehting (newspaper, or 
+    rdfs:comment """The class with sequence of actions reading womehting (newspaper, or \r
 book or magazine), while on the sofa.""" ;
     rdfs:subClassOf ho:Leisure .
 
@@ -2531,12 +2667,15 @@ ho:read_paper a owl:Class ;
     rdfs:subClassOf ho:Work .
 
 ho:read_text_message a owl:Class ;
-    rdfs:comment """The class with sequence of actions for reading text message, form the 
+    rdfs:comment """The class with sequence of actions for reading text message, form the \r
 phone, or computer.""" ;
     rdfs:subClassOf ho:Other .
 
+ho:read_textbook a owl:Class ;
+    rdfs:subClassOf ho:Work .
+
 ho:read_them_bedtime_story a owl:Class ;
-    rdfs:comment """The class with sequence of actions for reading to someone lese a bedtime 
+    rdfs:comment """The class with sequence of actions for reading to someone lese a bedtime \r
 story.""" ;
     rdfs:subClassOf ho:BedTimeSleep .
 
@@ -2545,7 +2684,7 @@ ho:read_to_child a owl:Class ;
     rdfs:subClassOf ho:SocialInteraction .
 
 ho:read_yourself_to_sleep a owl:Class ;
-    rdfs:comment """The class with sequence of actions for reading and falling to sleep 
+    rdfs:comment """The class with sequence of actions for reading and falling to sleep \r
 while reading.""" ;
     rdfs:subClassOf ho:Leisure .
 
@@ -2576,7 +2715,7 @@ ho:relax_on_sofa_while_watching_television a owl:Class ;
     rdfs:subClassOf ho:Leisure .
 
 ho:replace_toothpaste a owl:Class ;
-    rdfs:comment """The class with sequence of actions for replacing the toohtpaste in any 
+    rdfs:comment """The class with sequence of actions for replacing the toohtpaste in any \r
 room.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
@@ -2597,13 +2736,19 @@ ho:return_from_store a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:return_phone_calls a owl:Class ;
-    rdfs:comment """The class with sequence of actions for returning phone calls, either 
+    rdfs:comment """The class with sequence of actions for returning phone calls, either \r
 from your cell phone or home phone.""" ;
     rdfs:subClassOf ho:Other .
+
+ho:rinse_toothbrush a owl:Class ;
+    rdfs:subClassOf ho:HygieneStyling .
 
 ho:rotate_stock_in_refrigerator a owl:Class ;
     rdfs:comment "The class with sequence of actions for rotating stock in Refrigerator." ;
     rdfs:subClassOf ho:HouseArrangement .
+
+ho:run_with_disorientation a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
 
 ho:say_goodbye a owl:Class ;
     rdfs:comment "The class with sequence of actions for greeding by saying goodbye." ;
@@ -2682,7 +2827,7 @@ ho:settle_in a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:sew_button a owl:Class ;
-    rdfs:comment """The class with sequence of actions for sewing the button, from any 
+    rdfs:comment """The class with sequence of actions for sewing the button, from any \r
 remote control.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -2695,9 +2840,12 @@ ho:shoe_removal a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:shop a owl:Class ;
-    rdfs:comment """The class with sequence of actions for shopping either by calling, or 
+    rdfs:comment """The class with sequence of actions for shopping either by calling, or \r
 from the internet (shopping from household environment).""" ;
     rdfs:subClassOf ho:Other .
+
+ho:shoulder_stretch a owl:Class ;
+    rdfs:subClassOf ho:PhysicalActivity .
 
 ho:shred_receipts a owl:Class ;
     rdfs:comment "The class with sequence of actions for shred of receipts." ;
@@ -2724,7 +2872,7 @@ ho:sing_song a owl:Class ;
     rdfs:subClassOf ho:Leisure .
 
 ho:sit_in_chair a owl:Class ;
-    rdfs:comment """The class with sequence of actions for sitting in the chair, in any type 
+    rdfs:comment """The class with sequence of actions for sitting in the chair, in any type \r
 of chair in any room.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -2741,8 +2889,11 @@ ho:slice_apple a owl:Class ;
     rdfs:subClassOf ho:FoodPreparation .
 
 ho:social_media__checks a owl:Class ;
-    rdfs:comment """The class with sequence of actions for chencking your social media 
+    rdfs:comment """The class with sequence of actions for chencking your social media \r
 applications.""" ;
+    rdfs:subClassOf ho:Leisure .
+
+ho:social_media_checks a owl:Class ;
     rdfs:subClassOf ho:Leisure .
 
 ho:sort_and_fold_laundry a owl:Class ;
@@ -2758,12 +2909,12 @@ ho:sort_laundry a owl:Class ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:sort_mail a owl:Class ;
-    rdfs:comment """The class with sequence of actions for sorting mail, in any desired 
+    rdfs:comment """The class with sequence of actions for sorting mail, in any desired \r
 order.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:speaking_on_headset_in_skype_or_some_form_of_voip_for_business_call a owl:Class ;
-    rdfs:comment """The class with sequence of actions for speaking on headset in skype or 
+    rdfs:comment """The class with sequence of actions for speaking on headset in skype or \r
 some form of voip for business call.""",
         "The class with sequence of actions for speaking on headset in skype or some form of voip for business call." ;
     rdfs:subClassOf ho:SocialInteraction,
@@ -2774,16 +2925,25 @@ ho:spend_family_time_playing_games a owl:Class ;
     rdfs:subClassOf ho:SocialInteraction .
 
 ho:spread_table_with_appropriate_supplies a owl:Class ;
-    rdfs:comment """The class with sequence of actions for spreading the table with 
+    rdfs:comment """The class with sequence of actions for spreading the table with \r
 approproate supplies.""" ;
     rdfs:subClassOf ho:Other .
+
+ho:squat_jumps a owl:Class ;
+    rdfs:subClassOf ho:PhysicalActivity .
+
+ho:squats a owl:Class ;
+    rdfs:subClassOf ho:PhysicalActivity .
 
 ho:squeeze_lemon a owl:Class ;
     rdfs:comment "The class with sequence of actions for squezing a lemon." ;
     rdfs:subClassOf ho:FoodPreparation .
 
+ho:stand_on_coffee_table a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
 ho:start_computer a owl:Class ;
-    rdfs:comment """The class with sequence of actions for starting your computer, either 
+    rdfs:comment """The class with sequence of actions for starting your computer, either \r
 laptop or personal computer.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -2795,18 +2955,21 @@ ho:story_reading_time a owl:Class ;
     rdfs:comment "The class with sequence of actions for story reading time, in any room." ;
     rdfs:subClassOf ho:SocialInteraction .
 
+ho:straddle_splits a owl:Class ;
+    rdfs:subClassOf ho:PhysicalActivity .
+
 ho:straighten_bookshelf a owl:Class ;
-    rdfs:comment """The class with sequence of actions for straightening the bookself, in 
+    rdfs:comment """The class with sequence of actions for straightening the bookself, in \r
 any room.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:straighten_magazines a owl:Class ;
-    rdfs:comment """The class with sequence of actions for straighten magaziens that are 
+    rdfs:comment """The class with sequence of actions for straighten magaziens that are \r
 placed in a folder or on a surface.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:straighten_paintings_on_wall a owl:Class ;
-    rdfs:comment """The class with sequence of actions for straightening paintings on wall 
+    rdfs:comment """The class with sequence of actions for straightening paintings on wall \r
 (only painting not pictures).""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
@@ -2815,7 +2978,7 @@ ho:straighten_pictures_on_wall a owl:Class ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:string_green_beans a owl:Class ;
-    rdfs:comment """The class with sequence of actions for stringing green beans, in any 
+    rdfs:comment """The class with sequence of actions for stringing green beans, in any \r
 room.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -2840,12 +3003,12 @@ ho:surf_net a owl:Class ;
     rdfs:subClassOf ho:Leisure .
 
 ho:surf_web_for_money_legitimate_making_opportunities a owl:Class ;
-    rdfs:comment """The class with sequence of actions for searching in the internet for 
+    rdfs:comment """The class with sequence of actions for searching in the internet for \r
 legitimate maikng opportunities.""" ;
     rdfs:subClassOf ho:Work .
 
 ho:sweep_and_wipe_table_off_with_rag a owl:Class ;
-    rdfs:comment """The class with sequence of actions for sweeping and wiping a table off 
+    rdfs:comment """The class with sequence of actions for sweeping and wiping a table off \r
 with a rag.""" ;
     rdfs:subClassOf ho:HouseCleaning .
 
@@ -2858,7 +3021,7 @@ ho:sweep_floor a owl:Class ;
     rdfs:subClassOf ho:HouseCleaning .
 
 ho:sweep_hallway_please a owl:Class ;
-    rdfs:comment """he class with sequence of actions to sweep the hallway after you got 
+    rdfs:comment """he class with sequence of actions to sweep the hallway after you got \r
 the verbal token "please".""" ;
     rdfs:subClassOf ho:HouseCleaning .
 
@@ -2867,7 +3030,7 @@ ho:switch_on_lamp a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:tabletop_game a owl:Class ;
-    rdfs:comment """The class with sequence of actions for playin tabletop games (board 
+    rdfs:comment """The class with sequence of actions for playin tabletop games (board \r
 games).""" ;
     rdfs:subClassOf ho:Leisure .
 
@@ -2879,7 +3042,7 @@ ho:take_bath a owl:Class ;
     rdfs:subClassOf ho:HygieneStyling .
 
 ho:take_coat a owl:Class ;
-    rdfs:comment """The class with sequence of actions for taking the coat, and place it 
+    rdfs:comment """The class with sequence of actions for taking the coat, and place it \r
 somewhere.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -2911,7 +3074,7 @@ ho:take_off_outerwear a owl:Class ;
     rdfs:subClassOf ho:GettingReady .
 
 ho:take_off_shoes a owl:Class ;
-    rdfs:comment """Class with seqeunces on how to take off your shoes after work, or before 
+    rdfs:comment """Class with seqeunces on how to take off your shoes after work, or before \r
 getting to bed, or watch tv.""" ;
     rdfs:subClassOf ho:HygieneStyling .
 
@@ -2924,7 +3087,7 @@ ho:take_shoes_off a owl:Class ;
     rdfs:subClassOf ho:HygieneStyling .
 
 ho:take_shower a owl:Class ;
-    rdfs:comment """Class with seqeunces of action on how to take a shower (not a bath)
+    rdfs:comment """Class with seqeunces of action on how to take a shower (not a bath)\r
 .""" ;
     rdfs:subClassOf ho:HygieneStyling .
 
@@ -2933,7 +3096,7 @@ ho:tale_off_shoes a owl:Class ;
     rdfs:subClassOf ho:HygieneStyling .
 
 ho:talk_on_phone a owl:Class ;
-    rdfs:comment """The class with sequence of actions for talking on phone, either cell 
+    rdfs:comment """The class with sequence of actions for talking on phone, either cell \r
 phone or phone at home.""" ;
     rdfs:subClassOf ho:SocialInteraction .
 
@@ -2942,7 +3105,7 @@ ho:talk_to_kids a owl:Class ;
     rdfs:subClassOf ho:SocialInteraction .
 
 ho:talk_with_friends a owl:Class ;
-    rdfs:comment """The class with sequence of actions for talking to your friend, no matter 
+    rdfs:comment """The class with sequence of actions for talking to your friend, no matter \r
 the genre.""" ;
     rdfs:subClassOf ho:SocialInteraction .
 
@@ -2951,7 +3114,7 @@ ho:talk_with_guest a owl:Class ;
     rdfs:subClassOf ho:SocialInteraction .
 
 ho:talk_with_your_child_about_their_day a owl:Class ;
-    rdfs:comment """The class with sequence of actions for talking with your child about 
+    rdfs:comment """The class with sequence of actions for talking with your child about \r
 their day.""" ;
     rdfs:subClassOf ho:SocialInteraction .
 
@@ -2960,7 +3123,7 @@ ho:tax_filing a owl:Class ;
     rdfs:subClassOf ho:Work .
 
 ho:teach_them_to_make_their_bed a owl:Class ;
-    rdfs:comment """The class with sequence of actions for teaching them (other persons), to 
+    rdfs:comment """The class with sequence of actions for teaching them (other persons), to \r
 make their beds.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -2973,7 +3136,7 @@ ho:text_friend a owl:Class ;
     rdfs:subClassOf ho:SocialInteraction .
 
 ho:text_friends_while_sitting_on_couch a owl:Class ;
-    rdfs:comment """The class with sequence of actions for texting a frined while you are 
+    rdfs:comment """The class with sequence of actions for texting a frined while you are \r
 sitting on the couch.""" ;
     rdfs:subClassOf ho:SocialInteraction .
 
@@ -2982,12 +3145,12 @@ ho:thanksgiving a owl:Class ;
     rdfs:subClassOf ho:SocialInteraction .
 
 ho:throw_away_newspaper a owl:Class ;
-    rdfs:comment """The class with sequence of actions for throwing away newspaper, in the 
+    rdfs:comment """The class with sequence of actions for throwing away newspaper, in the \r
 garbage can, or elsewhere.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:throw_away_paper a owl:Class ;
-    rdfs:comment """The class with sequence of actions for throwing away paper, in the 
+    rdfs:comment """The class with sequence of actions for throwing away paper, in the \r
 garbage that could be in any room.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -2999,12 +3162,15 @@ ho:throw_shoes a owl:Class ;
     rdfs:comment "The class with sequence of actions for throwing away shoes, in any room." ;
     rdfs:subClassOf ho:Other .
 
+ho:throw_trash a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
 ho:tidy a owl:Class ;
     rdfs:comment "The class with sequence of actions for tiding anything." ;
     rdfs:subClassOf ho:Other .
 
 ho:toast_bread a owl:Class ;
-    rdfs:comment """The class with sequence of actions for toasting the bread (to prepare a 
+    rdfs:comment """The class with sequence of actions for toasting the bread (to prepare a \r
 toast or something else).""" ;
     rdfs:subClassOf ho:FoodPreparation .
 
@@ -3021,7 +3187,7 @@ ho:trick_or_treat a owl:Class ;
     rdfs:subClassOf ho:SocialInteraction .
 
 ho:try_yourself_off a owl:Class ;
-    rdfs:comment """The class with sequence of actions for trying yourself off, with any 
+    rdfs:comment """The class with sequence of actions for trying yourself off, with any \r
 activity in any room.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -3038,7 +3204,7 @@ ho:turking a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:turn_light_off a owl:Class ;
-    rdfs:comment """The class with sequence of actions for  turning off the light form any 
+    rdfs:comment """The class with sequence of actions for  turning off the light form any \r
 room.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -3055,24 +3221,24 @@ ho:turn_off_tv a owl:Class ;
     rdfs:subClassOf ho:Leisure .
 
 ho:turn_on_computer a owl:Class ;
-    rdfs:comment """The class with sequence of actions for turning on a computer (laptop, or 
+    rdfs:comment """The class with sequence of actions for turning on a computer (laptop, or \r
 personal computer).""" ;
     rdfs:subClassOf ho:Other .
 
 ho:turn_on_light a owl:Class ;
-    rdfs:comment """A class with sequences on how to turn on the lights from different 
-rooms, and different scenaria such as holding other objects or having to 
+    rdfs:comment """A class with sequences on how to turn on the lights from different \r
+rooms, and different scenaria such as holding other objects or having to \r
 stand up from bed.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:turn_on_lights a owl:Class ;
-    rdfs:comment """The class with sequence of actions for turning on the lights more than 
+    rdfs:comment """The class with sequence of actions for turning on the lights more than \r
 one.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:turn_on_radio a owl:Class ;
-    rdfs:comment """The class with sequence of actions for turning on the radio (just 
-turning on).
+    rdfs:comment """The class with sequence of actions for turning on the radio (just \r
+turning on).\r
     </p>""" ;
     rdfs:subClassOf ho:Leisure .
 
@@ -3093,17 +3259,17 @@ ho:unload_dishwasher a owl:Class ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:unload_various_items_from_pockets_and_place_them_in_bowl_on_table a owl:Class ;
-    rdfs:comment """The class with sequence of actions for unloading various itmes form 
+    rdfs:comment """The class with sequence of actions for unloading various itmes form \r
 pockets and place them in bowl on table.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:update_address_book a owl:Class ;
-    rdfs:comment """The class with sequence of actions that are neede to update your address 
+    rdfs:comment """The class with sequence of actions that are neede to update your address \r
 book.""" ;
     rdfs:subClassOf ho:Work .
 
 ho:use_bathroom a owl:Class ;
-    rdfs:comment """The class with sequence of actions for using the bathroom, the whole 
+    rdfs:comment """The class with sequence of actions for using the bathroom, the whole \r
 room.""" ;
     rdfs:subClassOf ho:HygieneStyling .
 
@@ -3112,9 +3278,12 @@ ho:use_computer a owl:Class ;
     rdfs:subClassOf ho:Work .
 
 ho:use_laptop a owl:Class ;
-    rdfs:comment """The class with sequence of actions for using your laptop, variety of 
+    rdfs:comment """The class with sequence of actions for using your laptop, variety of \r
 functions.""" ;
     rdfs:subClassOf ho:Other .
+
+ho:use_phone a owl:Class ;
+    rdfs:subClassOf ho:Leisure .
 
 ho:use_restroom a owl:Class ;
     rdfs:comment "The class with sequence of actions for using the restroom." ;
@@ -3159,13 +3328,16 @@ ho:walk_to_room a owl:Class ;
     rdfs:comment "The class with sequence of actions for walking to room, any room." ;
     rdfs:subClassOf ho:Other .
 
+ho:walk_with_memory_loss a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
 ho:wash_and_clean_all_crystal_in_china_cabinet a owl:Class ;
-    rdfs:comment """The class with sequence of actions for washing and cleaning all crystal 
+    rdfs:comment """The class with sequence of actions for washing and cleaning all crystal \r
 in china cabinet.""" ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:wash_back a owl:Class ;
-    rdfs:comment """The class with sequence of actions for washing back, your own or others 
+    rdfs:comment """The class with sequence of actions for washing back, your own or others \r
 back.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -3230,12 +3402,12 @@ ho:wash_teeth a owl:Class ;
     rdfs:subClassOf ho:HygieneStyling .
 
 ho:watch__horror__movie a owl:Class ;
-    rdfs:comment """The class with sequence of actions for watching a horror movie 
+    rdfs:comment """The class with sequence of actions for watching a horror movie \r
 specifically.""" ;
     rdfs:subClassOf ho:Leisure .
 
 ho:watch_fly a owl:Class ;
-    rdfs:comment """The class with sequence of actions for watching a fly that has entered a 
+    rdfs:comment """The class with sequence of actions for watching a fly that has entered a \r
 room.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -3259,7 +3431,7 @@ ho:water_plants a owl:Class ;
     rdfs:subClassOf ho:HouseArrangement .
 
 ho:wave_at_people_walking_by_through_window a owl:Class ;
-    rdfs:comment """The class with sequence of actions for waving at people walking by 
+    rdfs:comment """The class with sequence of actions for waving at people walking by \r
 through window.""" ;
     rdfs:subClassOf ho:SocialInteraction .
 
@@ -3276,7 +3448,7 @@ ho:wipe_down_counter a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:wipe_down_sink a owl:Class ;
-    rdfs:comment """The class with sequence of actions in order to wipe down sink, only this 
+    rdfs:comment """The class with sequence of actions in order to wipe down sink, only this \r
 part of cleaning not all the cleaning procedure.""" ;
     rdfs:subClassOf ho:HouseCleaning .
 
@@ -3293,7 +3465,7 @@ ho:wipe_room_down_with_lysol a owl:Class ;
     rdfs:subClassOf ho:HouseCleaning .
 
 ho:workout a owl:Class ;
-    rdfs:comment """A class with soft physical activity, or exercise, such as weight 
+    rdfs:comment """A class with soft physical activity, or exercise, such as weight \r
 lifting, workout.""" ;
     rdfs:subClassOf ho:PhysicalActivity .
 
@@ -3306,12 +3478,15 @@ ho:write_book a owl:Class ;
     rdfs:subClassOf ho:Other .
 
 ho:write_in_your_diary a owl:Class ;
-    rdfs:comment """The class with sequence of actions for writing in your diary, in any 
+    rdfs:comment """The class with sequence of actions for writing in your diary, in any \r
 room.""" ;
     rdfs:subClassOf ho:Other .
 
 ho:write_letter a owl:Class ;
     rdfs:comment "Class with sequences on how to write a letter." ;
+    rdfs:subClassOf ho:Work .
+
+ho:write_notes a owl:Class ;
     rdfs:subClassOf ho:Work .
 
 ho:write_report a owl:Class ;
@@ -3323,17 +3498,17 @@ ho:write_research_paper a owl:Class ;
     rdfs:subClassOf ho:Work .
 
 ho:write_research_papers a owl:Class ;
-    rdfs:comment """The class with sequence of actions for writing reaseach papers (only 
+    rdfs:comment """The class with sequence of actions for writing reaseach papers (only \r
 research paper).""" ;
     rdfs:subClassOf ho:Work .
 
 ho:write_school_paper a owl:Class ;
-    rdfs:comment """The class with sequence of actions writing school papers, it should not 
+    rdfs:comment """The class with sequence of actions writing school papers, it should not \r
 be confused with research paper.""" ;
     rdfs:subClassOf ho:Work .
 
 ho:write_story a owl:Class ;
-    rdfs:comment """The class with sequence of actions for writing a story, on the computer 
+    rdfs:comment """The class with sequence of actions for writing a story, on the computer \r
 or on paper.""" ;
     rdfs:subClassOf ho:Other .
 
@@ -3351,23 +3526,23 @@ rdf:rest a owl:DatatypeProperty .
 
 rdf:value a owl:DatatypeProperty .
 
-ns1:closeMatch a owl:AnnotationProperty .
+skos:closeMatch a owl:AnnotationProperty .
 
-<http://www.w3.org/2006/time#hasDuration> a owl:ObjectProperty ;
-    rdfs:range <http://www.w3.org/2006/time#Duration> .
+time:hasDuration a owl:ObjectProperty ;
+    rdfs:range time:Duration .
 
-<http://www.w3.org/2006/time#numericDuration> a owl:DatatypeProperty ;
+time:numericDuration a owl:DatatypeProperty ;
     rdfs:range xsd:decimal .
 
-<http://www.w3.org/2006/time#unitSecond> a owl:NamedIndividual,
-        <http://www.w3.org/2006/time#TemporalUnit> .
+time:unitSecond a owl:NamedIndividual,
+        time:TemporalUnit .
 
-<http://www.w3.org/2006/time#unitType> a owl:ObjectProperty ;
-    rdfs:range <http://www.w3.org/2006/time#TemporalUnit> .
+time:unitType a owl:ObjectProperty ;
+    rdfs:range time:TemporalUnit .
 
 x3do:SFDouble a rdfs:Datatype,
         owl:Class ;
-    ns2:description "SFDouble is a double-precision floating-point type. Array values are optionally separated by commas in XML syntax. See GeoVRML 1.0 Recommended Practice, Section 2.3, Limitations of Single Precision for rationale." ;
+    dcterms:description "SFDouble is a double-precision floating-point type. Array values are optionally separated by commas in XML syntax. See GeoVRML 1.0 Recommended Practice, Section 2.3, Limitations of Single Precision for rationale." ;
     rdfs:subClassOf x3do:X3DField .
 
 x3do:bboxCenter a owl:DatatypeProperty ;
@@ -3447,10 +3622,10 @@ ac:wakeUp a :Action,
 :thin a :Attribute,
         owl:NamedIndividual .
 
-<http://www.w3.org/2006/time#Duration> a owl:Class ;
-    rdfs:subClassOf <http://www.w3.org/2006/time#TemporalDuration> .
+time:Duration a owl:Class ;
+    rdfs:subClassOf time:TemporalDuration .
 
-<http://www.w3.org/2006/time#TemporalEntity> a owl:Class .
+time:TemporalEntity a owl:Class .
 
 :relatedActivity a owl:ObjectProperty ;
     rdfs:domain ho:Activity ;
@@ -3470,13 +3645,13 @@ ho:object a owl:ObjectProperty ;
     rdfs:domain :Event ;
     rdfs:range :Object .
 
-<http://www.w3.org/2006/time#TemporalDuration> a owl:Class .
+time:TemporalDuration a owl:Class .
 
-<http://www.w3.org/2006/time#TemporalUnit> a owl:Class .
+time:TemporalUnit a owl:Class .
 
 x3do:SFVec3f a rdfs:Datatype,
         owl:Class ;
-    ns2:description "SFVec3d is a 3-tuple triplet of SFDouble values. See GeoVRML 1.0 Recommended Practice, Section 2.3, Limitations of Single Precision. Hint: SFVec3d can be used to specify a georeferenced 3D coordinate. Warning: comma characters within singleton values do not pass strict XML validation." ;
+    dcterms:description "SFVec3d is a 3-tuple triplet of SFDouble values. See GeoVRML 1.0 Recommended Practice, Section 2.3, Limitations of Single Precision. Hint: SFVec3d can be used to specify a georeferenced 3D coordinate. Warning: comma characters within singleton values do not pass strict XML validation." ;
     rdfs:subClassOf x3do:X3DField .
 
 x3do:X3DField a owl:Class ;
@@ -3497,13 +3672,9 @@ x3do:X3DField a owl:Class ;
     rdfs:range :Situation .
 
 ho:GettingReady a owl:Class ;
-    rdfs:comment """Class with sequences for getting ready to go to work, or getting ready 
-o perform a task outside the home, or even a procedure that needs prior 
+    rdfs:comment """Class with sequences for getting ready to go to work, or getting ready \r
+o perform a task outside the home, or even a procedure that needs prior \r
 preparation.""" ;
-    rdfs:subClassOf ho:Activity .
-
-ho:PhysicalActivity a owl:Class ;
-    rdfs:comment "Class with sequences for exercise and different physical activities." ;
     rdfs:subClassOf ho:Activity .
 
 :relatedShape a owl:ObjectProperty ;
@@ -3517,9 +3688,13 @@ ho:PhysicalActivity a owl:Class ;
 
 :State a owl:Class .
 
+ho:PhysicalActivity a owl:Class ;
+    rdfs:comment "Class with sequences for exercise and different physical activities." ;
+    rdfs:subClassOf ho:Activity .
+
 ho:BedTimeSleep a owl:Class ;
-    rdfs:comment """Class with sequences for getting ready for the bed, or get ready for 
-sleep, or even put the kids to sleep
+    rdfs:comment """Class with sequences for getting ready for the bed, or get ready for \r
+sleep, or even put the kids to sleep\r
 .""" ;
     rdfs:subClassOf ho:Activity ;
     owl:equivalentClass [ a owl:Class ;
@@ -3539,7 +3714,7 @@ sleep, or even put the kids to sleep
 ho:Activity a owl:Class .
 
 :Event a owl:Class ;
-    ns1:closeMatch <http://purl.org/NET/c4dm/event.owl#Event>,
+    skos:closeMatch <http://purl.org/NET/c4dm/event.owl#Event>,
         <http://semanticweb.cs.vu.nl/2009/11/sem/Event> .
 
 x3do:Shape a owl:Class ;
@@ -3563,41 +3738,41 @@ ho:EatingDrinking a owl:Class ;
 
 :StateType a owl:Class .
 
-ho:FoodPreparation a owl:Class ;
-    rdfs:comment """Class for preparing food, or other kitchen based acitivities for eating 
-or drinking (prepeare coffee).""" ;
+ho:SocialInteraction a owl:Class ;
+    rdfs:comment """Class that contains sequences that are related between , human-robot or \r
+human-human interaction.""" ;
     rdfs:subClassOf ho:Activity .
 
-ho:SocialInteraction a owl:Class ;
-    rdfs:comment """Class that contains sequences that are related between , human-robot or 
-human-human interaction.""" ;
+ho:FoodPreparation a owl:Class ;
+    rdfs:comment """Class for preparing food, or other kitchen based acitivities for eating \r
+or drinking (prepeare coffee).""" ;
     rdfs:subClassOf ho:Activity .
 
 ho:HouseCleaning a owl:Class ;
     rdfs:comment "The class that contains sequence of actions, with Cleaning tasks." ;
     rdfs:subClassOf ho:Activity .
 
-ho:Work a owl:Class ;
-    rdfs:comment "Class with related activites such as send an email, getting ready for work." ;
-    rdfs:subClassOf ho:Activity .
-
 ho:Leisure a owl:Class ;
     rdfs:comment "Class that contains procedures about leisure" ;
     rdfs:subClassOf ho:Activity .
 
+ho:Work a owl:Class ;
+    rdfs:comment "Class with related activites such as send an email, getting ready for work." ;
+    rdfs:subClassOf ho:Activity .
+
 ho:HygieneStyling a owl:Class ;
-    rdfs:comment """Class for sequence that are related to Hygiene otr Styling (NOTICE: some 
+    rdfs:comment """Class for sequence that are related to Hygiene otr Styling (NOTICE: some \r
 of this sequences could be conisdered also as cleaning).""" ;
     rdfs:subClassOf ho:Activity .
+
+:Action a owl:Class .
 
 ho:HouseArrangement a owl:Class ;
     rdfs:comment "Superclass that contains sequence for arrangement tasks inside the house. Some of these classes could have been classified as a House Cleaning subclass. We prefer this hierarchy, because the task are more to the category of organizing object inside a domestic environment, rather than cleaning." ;
     rdfs:subClassOf ho:Activity .
 
-:Action a owl:Class .
-
 ho:Other a owl:Class ;
-    rdfs:comment """This class contains instances that are tasks performed inside a domestic 
+    rdfs:comment """This class contains instances that are tasks performed inside a domestic \r
 envronmnet but could not be classified in a specific class.""" ;
     rdfs:subClassOf ho:Activity .
 
