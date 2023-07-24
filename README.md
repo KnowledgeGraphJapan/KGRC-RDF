@@ -4,7 +4,7 @@ This repogitory is for  for public use of the Open Knowledge Graph for **the Kno
 ## for the first International Knowledge Graph Reasoning Challenge 2023
 This version is for [the first International Knowledge Graph Reasoning Challenge 2023](https://ikgrc.org/2023/).  
 - the detailed information about is avaliable here;  
-  https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/ikgrc2023
+  https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/master/2023ikgrc
 
 ## for the First Knowledge Graph Reasoning Challenge 2021 *for Students*
 **2021/01/19ver. [ver.2]** should be used for this year's contest
