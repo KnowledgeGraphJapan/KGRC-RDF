@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -19176,8 +19176,7 @@ ex:state20_chicken250_clean_kitchen1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state20_chicken250_clean_kitchen1_scene6 ;
     vh2kg:isStateOf ex:chicken250_scene6 ;
     vh2kg:nextState ex:state21_chicken250_clean_kitchen1_scene6 ;
-    vh2kg:partOf ex:home_situation20_clean_kitchen1_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+    vh2kg:partOf ex:home_situation20_clean_kitchen1_scene6 .
 
 ex:state20_coffeepot243_clean_kitchen1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state20_coffeepot243_clean_kitchen1_scene6 ;
@@ -19412,8 +19411,7 @@ ex:state21_chicken250_clean_kitchen1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state21_chicken250_clean_kitchen1_scene6 ;
     vh2kg:isStateOf ex:chicken250_scene6 ;
     vh2kg:nextState ex:state22_chicken250_clean_kitchen1_scene6 ;
-    vh2kg:partOf ex:home_situation21_clean_kitchen1_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+    vh2kg:partOf ex:home_situation21_clean_kitchen1_scene6 .
 
 ex:state21_fridge240_clean_kitchen1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state21_fridge240_clean_kitchen1_scene6 ;
@@ -19570,8 +19568,7 @@ ex:state22_chicken250_clean_kitchen1_scene6 a vh2kg:State ;
     vh2kg:nextState ex:state25_chicken250_clean_kitchen1_scene6 ;
     vh2kg:partOf ex:home_situation22_clean_kitchen1_scene6,
         ex:home_situation23_clean_kitchen1_scene6,
-        ex:home_situation24_clean_kitchen1_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation24_clean_kitchen1_scene6 .
 
 ex:state22_coffeepot243_clean_kitchen1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state22_coffeepot243_clean_kitchen1_scene6 ;
@@ -19881,8 +19878,7 @@ ex:state25_chicken250_clean_kitchen1_scene6 a vh2kg:State ;
     vh2kg:nextState ex:state28_chicken250_clean_kitchen1_scene6 ;
     vh2kg:partOf ex:home_situation25_clean_kitchen1_scene6,
         ex:home_situation26_clean_kitchen1_scene6,
-        ex:home_situation27_clean_kitchen1_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation27_clean_kitchen1_scene6 .
 
 ex:state25_clock208_clean_kitchen1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state25_clock208_clean_kitchen1_scene6 ;
@@ -20297,8 +20293,7 @@ ex:state28_chicken250_clean_kitchen1_scene6 a vh2kg:State ;
         ex:home_situation34_clean_kitchen1_scene6,
         ex:home_situation35_clean_kitchen1_scene6,
         ex:home_situation36_clean_kitchen1_scene6,
-        ex:home_situation37_clean_kitchen1_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation37_clean_kitchen1_scene6 .
 
 ex:state28_chips253_clean_kitchen1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state28_chips253_clean_kitchen1_scene6 ;
@@ -21139,8 +21134,7 @@ ex:state32_washingsponge212_clean_kitchen1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state32_washingsponge212_clean_kitchen1_scene6 ;
     vh2kg:isStateOf ex:washingsponge212_scene6 ;
     vh2kg:nextState ex:state33_washingsponge212_clean_kitchen1_scene6 ;
-    vh2kg:partOf ex:home_situation32_clean_kitchen1_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+    vh2kg:partOf ex:home_situation32_clean_kitchen1_scene6 .
 
 ex:state33_breadslice238_clean_kitchen1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state33_breadslice238_clean_kitchen1_scene6 ;
@@ -21467,8 +21461,7 @@ ex:state33_washingsponge212_clean_kitchen1_scene6 a vh2kg:State ;
         ex:home_situation34_clean_kitchen1_scene6,
         ex:home_situation35_clean_kitchen1_scene6,
         ex:home_situation36_clean_kitchen1_scene6,
-        ex:home_situation37_clean_kitchen1_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation37_clean_kitchen1_scene6 .
 
 ex:state34_towel210_clean_kitchen1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state34_towel210_clean_kitchen1_scene6 ;

@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10523,8 +10523,7 @@ ex:state4_box442_fall_while_standing_at_somewhere_height1_scene1 a vh2kg:State ;
     vh2kg:isStateOf ex:box442_scene1 ;
     vh2kg:nextState ex:state6_box442_fall_while_standing_at_somewhere_height1_scene1 ;
     vh2kg:partOf ex:home_situation4_fall_while_standing_at_somewhere_height1_scene1,
-        ex:home_situation5_fall_while_standing_at_somewhere_height1_scene1 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation5_fall_while_standing_at_somewhere_height1_scene1 .
 
 ex:state4_character1_fall_while_standing_at_somewhere_height1_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state4_character1_fall_while_standing_at_somewhere_height1_scene1 ;
@@ -10550,8 +10549,7 @@ ex:state5_character1_fall_while_standing_at_somewhere_height1_scene1 a vh2kg:Sta
 ex:state6_box442_fall_while_standing_at_somewhere_height1_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state6_box442_fall_while_standing_at_somewhere_height1_scene1 ;
     vh2kg:isStateOf ex:box442_scene1 ;
-    vh2kg:partOf ex:home_situation6_fall_while_standing_at_somewhere_height1_scene1 ;
-    vh2kg:state vh2kg:GRABED .
+    vh2kg:partOf ex:home_situation6_fall_while_standing_at_somewhere_height1_scene1 .
 
 ex:state6_character1_fall_while_standing_at_somewhere_height1_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state6_character1_fall_while_standing_at_somewhere_height1_scene1 ;

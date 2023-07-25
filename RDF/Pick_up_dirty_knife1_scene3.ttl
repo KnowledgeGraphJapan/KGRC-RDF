@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -9892,12 +9892,11 @@ ex:state2_cutleryknife101_pick_up_dirty_knife1_scene3 a vh2kg:State ;
 ex:state2_cutleryknife65_pick_up_dirty_knife1_scene3 a vh2kg:State ;
     vh2kg:bbox ex:shape_state2_cutleryknife65_pick_up_dirty_knife1_scene3 ;
     vh2kg:isStateOf ex:cutleryknife65_scene3 ;
+    vh2kg:nextState ex:state6_cutleryknife65_pick_up_dirty_knife1_scene3 ;
     vh2kg:partOf ex:home_situation2_pick_up_dirty_knife1_scene3,
         ex:home_situation3_pick_up_dirty_knife1_scene3,
         ex:home_situation4_pick_up_dirty_knife1_scene3,
-        ex:home_situation5_pick_up_dirty_knife1_scene3,
-        ex:home_situation6_pick_up_dirty_knife1_scene3,
-        ex:home_situation7_pick_up_dirty_knife1_scene3 ;
+        ex:home_situation5_pick_up_dirty_knife1_scene3 ;
     vh2kg:state vh2kg:GRABED .
 
 ex:state2_cutleryknife86_pick_up_dirty_knife1_scene3 a vh2kg:State ;
@@ -10250,10 +10249,10 @@ ex:state4_character1_pick_up_dirty_knife1_scene3 a vh2kg:State ;
 ex:state4_cutleryknife70_pick_up_dirty_knife1_scene3 a vh2kg:State ;
     vh2kg:bbox ex:shape_state4_cutleryknife70_pick_up_dirty_knife1_scene3 ;
     vh2kg:isStateOf ex:cutleryknife70_scene3 ;
+    vh2kg:nextState ex:state7_cutleryknife70_pick_up_dirty_knife1_scene3 ;
     vh2kg:partOf ex:home_situation4_pick_up_dirty_knife1_scene3,
         ex:home_situation5_pick_up_dirty_knife1_scene3,
-        ex:home_situation6_pick_up_dirty_knife1_scene3,
-        ex:home_situation7_pick_up_dirty_knife1_scene3 ;
+        ex:home_situation6_pick_up_dirty_knife1_scene3 ;
     vh2kg:state vh2kg:GRABED .
 
 ex:state4_plate75_pick_up_dirty_knife1_scene3 a vh2kg:State ;
@@ -10705,6 +10704,12 @@ ex:state6_character1_pick_up_dirty_knife1_scene3 a vh2kg:State ;
     vh2kg:nextState ex:state7_character1_pick_up_dirty_knife1_scene3 ;
     vh2kg:partOf ex:home_situation6_pick_up_dirty_knife1_scene3 .
 
+ex:state6_cutleryknife65_pick_up_dirty_knife1_scene3 a vh2kg:State ;
+    vh2kg:bbox ex:shape_state6_cutleryknife65_pick_up_dirty_knife1_scene3 ;
+    vh2kg:isStateOf ex:cutleryknife65_scene3 ;
+    vh2kg:partOf ex:home_situation6_pick_up_dirty_knife1_scene3,
+        ex:home_situation7_pick_up_dirty_knife1_scene3 .
+
 ex:state6_stovefan164_pick_up_dirty_knife1_scene3 a vh2kg:State ;
     vh2kg:bbox ex:shape_state6_stovefan164_pick_up_dirty_knife1_scene3 ;
     vh2kg:isStateOf ex:stovefan164_scene3 ;
@@ -10715,6 +10720,11 @@ ex:state6_stovefan164_pick_up_dirty_knife1_scene3 a vh2kg:State ;
 ex:state7_character1_pick_up_dirty_knife1_scene3 a vh2kg:State ;
     vh2kg:bbox ex:shape_state7_character1_pick_up_dirty_knife1_scene3 ;
     vh2kg:isStateOf ex:character1_scene3 ;
+    vh2kg:partOf ex:home_situation7_pick_up_dirty_knife1_scene3 .
+
+ex:state7_cutleryknife70_pick_up_dirty_knife1_scene3 a vh2kg:State ;
+    vh2kg:bbox ex:shape_state7_cutleryknife70_pick_up_dirty_knife1_scene3 ;
+    vh2kg:isStateOf ex:cutleryknife70_scene3 ;
     vh2kg:partOf ex:home_situation7_pick_up_dirty_knife1_scene3 .
 
 ex:state7_stovefan164_pick_up_dirty_knife1_scene3 a vh2kg:State ;
@@ -12001,6 +12011,16 @@ ex:shape_state5_stovefan164_pick_up_dirty_knife1_scene3 a x3do:Shape ;
             rdf:first 6.212864e-01 ;
             rdf:rest ( 4.504026e-01 9.244467e-01 ) ] .
 
+ex:shape_state7_cutleryknife70_pick_up_dirty_knife1_scene3 a x3do:Shape ;
+    vh2kg:close ex:shape_state7_character1_pick_up_dirty_knife1_scene3 ;
+    vh2kg:inside ex:shape_state0_kitchen11_pick_up_dirty_knife1_scene3 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first -7.02601e+00 ;
+            rdf:rest ( 8.325654e-01 1.354967e+00 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 3.099389e-02 ;
+            rdf:rest ( 5.690819e-03 2.578282e-01 ) ] .
+
 ex:shape_state7_stovefan164_pick_up_dirty_knife1_scene3 a x3do:Shape ;
     vh2kg:close ex:shape_state7_character1_pick_up_dirty_knife1_scene3 ;
     vh2kg:inside ex:shape_state0_kitchen11_pick_up_dirty_knife1_scene3 ;
@@ -12611,6 +12631,17 @@ ex:shape_state3_waterglass88_pick_up_dirty_knife1_scene3 a x3do:Shape ;
             rdf:first 8.951233e-02 ;
             rdf:rest ( 1.234502e-01 8.951233e-02 ) ] .
 
+ex:shape_state6_cutleryknife65_pick_up_dirty_knife1_scene3 a x3do:Shape ;
+    vh2kg:close ex:shape_state6_character1_pick_up_dirty_knife1_scene3,
+        ex:shape_state7_character1_pick_up_dirty_knife1_scene3 ;
+    vh2kg:inside ex:shape_state0_kitchen11_pick_up_dirty_knife1_scene3 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first -7.039812e+00 ;
+            rdf:rest ( 8.325654e-01 1.35281e+00 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 8.979078e-02 ;
+            rdf:rest ( 5.69082e-03 2.525635e-01 ) ] .
+
 ex:waterglass71_scene3 a vh2kg:Waterglass ;
     rdfs:label "waterglass" ;
     dcterms:identifier "71" .
@@ -12877,6 +12908,18 @@ ex:shape_state3_rug125_pick_up_dirty_knife1_scene3 a x3do:Shape ;
     x3do:bboxSize [ a x3do:SFVec3f ;
             rdf:first 2.72655e+00 ;
             rdf:rest ( 1.738372e-02 2.092707e+00 ) ] .
+
+ex:shape_state4_cutleryknife70_pick_up_dirty_knife1_scene3 a x3do:Shape ;
+    vh2kg:close ex:shape_state4_character1_pick_up_dirty_knife1_scene3,
+        ex:shape_state5_character1_pick_up_dirty_knife1_scene3,
+        ex:shape_state6_character1_pick_up_dirty_knife1_scene3 ;
+    vh2kg:inside ex:shape_state0_kitchen11_pick_up_dirty_knife1_scene3 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first -3.150224e+00 ;
+            rdf:rest ( 7.351936e-01 6.618593e+00 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 2.78805e-02 ;
+            rdf:rest ( 7.138979e-02 2.551531e-01 ) ] .
 
 ex:shape_state5_chicken190_pick_up_dirty_knife1_scene3 a x3do:Shape ;
     vh2kg:close ex:shape_state5_character1_pick_up_dirty_knife1_scene3,
@@ -13211,10 +13254,6 @@ vh2kg:Wallshelf a owl:Class ;
 vh2kg:Window a owl:Class ;
     rdfs:subClassOf vh2kg:Windows .
 
-ex:cutleryknife65_scene3 a vh2kg:Cutleryknife ;
-    rdfs:label "cutleryknife" ;
-    dcterms:identifier "65" .
-
 ex:kitchentable138_scene3 a vh2kg:Kitchentable ;
     rdfs:label "kitchentable" ;
     dcterms:identifier "138" .
@@ -13267,18 +13306,18 @@ ex:shape_state0_floor26_pick_up_dirty_knife1_scene3 a x3do:Shape ;
             rdf:first 2.5e+00 ;
             rdf:rest ( 9.049975e-06 2.5e+00 ) ] .
 
-ex:shape_state4_cutleryknife70_pick_up_dirty_knife1_scene3 a x3do:Shape ;
-    vh2kg:close ex:shape_state4_character1_pick_up_dirty_knife1_scene3,
-        ex:shape_state5_character1_pick_up_dirty_knife1_scene3,
-        ex:shape_state6_character1_pick_up_dirty_knife1_scene3,
-        ex:shape_state7_character1_pick_up_dirty_knife1_scene3 ;
+ex:shape_state2_cutleryknife65_pick_up_dirty_knife1_scene3 a x3do:Shape ;
+    vh2kg:close ex:shape_state2_character1_pick_up_dirty_knife1_scene3,
+        ex:shape_state3_character1_pick_up_dirty_knife1_scene3,
+        ex:shape_state4_character1_pick_up_dirty_knife1_scene3,
+        ex:shape_state5_character1_pick_up_dirty_knife1_scene3 ;
     vh2kg:inside ex:shape_state0_kitchen11_pick_up_dirty_knife1_scene3 ;
     x3do:bboxCenter [ a x3do:SFVec3f ;
-            rdf:first -3.150224e+00 ;
-            rdf:rest ( 7.351936e-01 6.618593e+00 ) ] ;
+            rdf:first -3.359195e+00 ;
+            rdf:rest ( 7.319629e-01 3.067617e+00 ) ] ;
     x3do:bboxSize [ a x3do:SFVec3f ;
-            rdf:first 2.78805e-02 ;
-            rdf:rest ( 7.138979e-02 2.551531e-01 ) ] .
+            rdf:first 4.759293e-02 ;
+            rdf:rest ( 1.280958e-01 2.374999e-01 ) ] .
 
 ex:shape_state5_dishbowl117_pick_up_dirty_knife1_scene3 a x3do:Shape ;
     vh2kg:close ex:shape_state5_character1_pick_up_dirty_knife1_scene3,
@@ -13387,9 +13426,9 @@ vh2kg:Lightswitch a owl:Class ;
 vh2kg:Pillow a owl:Class ;
     rdfs:subClassOf vh2kg:Decor .
 
-ex:cutleryknife70_scene3 a vh2kg:Cutleryknife ;
+ex:cutleryknife65_scene3 a vh2kg:Cutleryknife ;
     rdfs:label "cutleryknife" ;
-    dcterms:identifier "70" .
+    dcterms:identifier "65" .
 
 ex:shape_state0_bookshelf162_pick_up_dirty_knife1_scene3 a x3do:Shape ;
     vh2kg:inside ex:shape_state0_kitchen11_pick_up_dirty_knife1_scene3 ;
@@ -13438,20 +13477,9 @@ vh2kg:Decor a owl:Class ;
 vh2kg:Rug a owl:Class ;
     rdfs:subClassOf vh2kg:Decor .
 
-ex:shape_state2_cutleryknife65_pick_up_dirty_knife1_scene3 a x3do:Shape ;
-    vh2kg:close ex:shape_state2_character1_pick_up_dirty_knife1_scene3,
-        ex:shape_state3_character1_pick_up_dirty_knife1_scene3,
-        ex:shape_state4_character1_pick_up_dirty_knife1_scene3,
-        ex:shape_state5_character1_pick_up_dirty_knife1_scene3,
-        ex:shape_state6_character1_pick_up_dirty_knife1_scene3,
-        ex:shape_state7_character1_pick_up_dirty_knife1_scene3 ;
-    vh2kg:inside ex:shape_state0_kitchen11_pick_up_dirty_knife1_scene3 ;
-    x3do:bboxCenter [ a x3do:SFVec3f ;
-            rdf:first -3.359195e+00 ;
-            rdf:rest ( 7.319629e-01 3.067617e+00 ) ] ;
-    x3do:bboxSize [ a x3do:SFVec3f ;
-            rdf:first 4.759293e-02 ;
-            rdf:rest ( 1.280958e-01 2.374999e-01 ) ] .
+ex:cutleryknife70_scene3 a vh2kg:Cutleryknife ;
+    rdfs:label "cutleryknife" ;
+    dcterms:identifier "70" .
 
 ex:shape_state5_dishbowl119_pick_up_dirty_knife1_scene3 a x3do:Shape ;
     vh2kg:close ex:shape_state5_character1_pick_up_dirty_knife1_scene3,
@@ -13953,8 +13981,7 @@ vh2kg:Floor a owl:Class ;
     rdfs:subClassOf vh2kg:Object .
 
 ex:shape_state6_character1_pick_up_dirty_knife1_scene3 a x3do:Shape ;
-    vh2kg:close ex:shape_state2_cutleryknife65_pick_up_dirty_knife1_scene3,
-        ex:shape_state4_cutleryknife70_pick_up_dirty_knife1_scene3,
+    vh2kg:close ex:shape_state4_cutleryknife70_pick_up_dirty_knife1_scene3,
         ex:shape_state5_chicken190_pick_up_dirty_knife1_scene3,
         ex:shape_state5_cookingpot63_pick_up_dirty_knife1_scene3,
         ex:shape_state5_cutleryknife59_pick_up_dirty_knife1_scene3,
@@ -13991,7 +14018,8 @@ ex:shape_state6_character1_pick_up_dirty_knife1_scene3 a x3do:Shape ;
         ex:shape_state5_salmon187_pick_up_dirty_knife1_scene3,
         ex:shape_state5_sink158_pick_up_dirty_knife1_scene3,
         ex:shape_state5_stove166_pick_up_dirty_knife1_scene3,
-        ex:shape_state5_washingsponge123_pick_up_dirty_knife1_scene3 ;
+        ex:shape_state5_washingsponge123_pick_up_dirty_knife1_scene3,
+        ex:shape_state6_cutleryknife65_pick_up_dirty_knife1_scene3 ;
     vh2kg:inside ex:shape_state0_kitchen11_pick_up_dirty_knife1_scene3 ;
     x3do:bboxCenter [ a x3do:SFVec3f ;
             rdf:first -6.46278e+00 ;
@@ -14050,9 +14078,7 @@ ex:shape_state5_character1_pick_up_dirty_knife1_scene3 a x3do:Shape ;
             rdf:rest ( 1.888288e+00 1.440749e+00 ) ] .
 
 ex:shape_state7_character1_pick_up_dirty_knife1_scene3 a x3do:Shape ;
-    vh2kg:close ex:shape_state2_cutleryknife65_pick_up_dirty_knife1_scene3,
-        ex:shape_state4_cutleryknife70_pick_up_dirty_knife1_scene3,
-        ex:shape_state5_chicken190_pick_up_dirty_knife1_scene3,
+    vh2kg:close ex:shape_state5_chicken190_pick_up_dirty_knife1_scene3,
         ex:shape_state5_cookingpot63_pick_up_dirty_knife1_scene3,
         ex:shape_state5_cutleryknife59_pick_up_dirty_knife1_scene3,
         ex:shape_state5_cutleryknife60_pick_up_dirty_knife1_scene3,
@@ -14089,6 +14115,8 @@ ex:shape_state7_character1_pick_up_dirty_knife1_scene3 a x3do:Shape ;
         ex:shape_state5_sink158_pick_up_dirty_knife1_scene3,
         ex:shape_state5_stove166_pick_up_dirty_knife1_scene3,
         ex:shape_state5_washingsponge123_pick_up_dirty_knife1_scene3,
+        ex:shape_state6_cutleryknife65_pick_up_dirty_knife1_scene3,
+        ex:shape_state7_cutleryknife70_pick_up_dirty_knife1_scene3,
         ex:shape_state7_stovefan164_pick_up_dirty_knife1_scene3 ;
     vh2kg:inside ex:shape_state0_kitchen11_pick_up_dirty_knife1_scene3 ;
     x3do:bboxCenter [ a x3do:SFVec3f ;

@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -9522,8 +9522,7 @@ ex:state10_breadslice238_cook_fried_bread4_scene6 a vh2kg:State ;
     vh2kg:isStateOf ex:breadslice238_scene6 ;
     vh2kg:partOf ex:home_situation10_cook_fried_bread4_scene6,
         ex:home_situation11_cook_fried_bread4_scene6,
-        ex:home_situation12_cook_fried_bread4_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation12_cook_fried_bread4_scene6 .
 
 ex:state10_breadslice239_cook_fried_bread4_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state10_breadslice239_cook_fried_bread4_scene6 ;
@@ -11319,8 +11318,7 @@ ex:state6_breadslice238_cook_fried_bread4_scene6 a vh2kg:State ;
     vh2kg:isStateOf ex:breadslice238_scene6 ;
     vh2kg:nextState ex:state8_breadslice238_cook_fried_bread4_scene6 ;
     vh2kg:partOf ex:home_situation6_cook_fried_bread4_scene6,
-        ex:home_situation7_cook_fried_bread4_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation7_cook_fried_bread4_scene6 .
 
 ex:state6_carrot254_cook_fried_bread4_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state6_carrot254_cook_fried_bread4_scene6 ;
@@ -11448,8 +11446,7 @@ ex:state8_breadslice238_cook_fried_bread4_scene6 a vh2kg:State ;
     vh2kg:isStateOf ex:breadslice238_scene6 ;
     vh2kg:nextState ex:state10_breadslice238_cook_fried_bread4_scene6 ;
     vh2kg:partOf ex:home_situation8_cook_fried_bread4_scene6,
-        ex:home_situation9_cook_fried_bread4_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation9_cook_fried_bread4_scene6 .
 
 ex:state8_breadslice239_cook_fried_bread4_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state8_breadslice239_cook_fried_bread4_scene6 ;

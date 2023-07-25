@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -11239,6 +11239,11 @@ ex:state14_faucet200_brush_teeth1_scene4 a vh2kg:State ;
     vh2kg:state vh2kg:CLEAN,
         vh2kg:OFF .
 
+ex:state15_toothbrush202_brush_teeth1_scene4 a vh2kg:State ;
+    vh2kg:bbox ex:shape_state15_toothbrush202_brush_teeth1_scene4 ;
+    vh2kg:isStateOf ex:toothbrush202_scene4 ;
+    vh2kg:partOf ex:home_situation15_brush_teeth1_scene4 .
+
 ex:state1_bed221_brush_teeth1_scene4 a vh2kg:State ;
     vh2kg:bbox ex:shape_state1_bed221_brush_teeth1_scene4 ;
     vh2kg:isStateOf ex:bed221_scene4 ;
@@ -12623,12 +12628,12 @@ ex:state3_waterglass203_brush_teeth1_scene4 a vh2kg:State ;
 ex:state4_toothbrush202_brush_teeth1_scene4 a vh2kg:State ;
     vh2kg:bbox ex:shape_state4_toothbrush202_brush_teeth1_scene4 ;
     vh2kg:isStateOf ex:toothbrush202_scene4 ;
+    vh2kg:nextState ex:state15_toothbrush202_brush_teeth1_scene4 ;
     vh2kg:partOf ex:home_situation10_brush_teeth1_scene4,
         ex:home_situation11_brush_teeth1_scene4,
         ex:home_situation12_brush_teeth1_scene4,
         ex:home_situation13_brush_teeth1_scene4,
         ex:home_situation14_brush_teeth1_scene4,
-        ex:home_situation15_brush_teeth1_scene4,
         ex:home_situation4_brush_teeth1_scene4,
         ex:home_situation5_brush_teeth1_scene4,
         ex:home_situation6_brush_teeth1_scene4,
@@ -12655,8 +12660,7 @@ ex:state8_toothpaste209_brush_teeth1_scene4 a vh2kg:State ;
         ex:home_situation14_brush_teeth1_scene4,
         ex:home_situation15_brush_teeth1_scene4,
         ex:home_situation8_brush_teeth1_scene4,
-        ex:home_situation9_brush_teeth1_scene4 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation9_brush_teeth1_scene4 .
 
 ex:stove109_scene4 a vh2kg:Stove ;
     rdfs:label "stove" ;
@@ -13753,6 +13757,16 @@ ex:shape_state14_faucet200_brush_teeth1_scene4 a x3do:Shape ;
     x3do:bboxSize [ a x3do:SFVec3f ;
             rdf:first 9.99999e-02 ;
             rdf:rest ( 9.999996e-02 1.000004e-01 ) ] .
+
+ex:shape_state15_toothbrush202_brush_teeth1_scene4 a x3do:Shape ;
+    vh2kg:close ex:shape_state10_character1_brush_teeth1_scene4 ;
+    vh2kg:inside ex:shape_state0_bathroom177_brush_teeth1_scene4 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first 2.828019e+00 ;
+            rdf:rest ( 1.08476e+00 8.564445e+00 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 2.495516e-02 ;
+            rdf:rest ( 2.249428e-02 2.412058e-01 ) ] .
 
 ex:shape_state1_cabinet222_brush_teeth1_scene4 a x3do:Shape ;
     vh2kg:inside ex:shape_state0_bedroom216_brush_teeth1_scene4 ;
@@ -15049,10 +15063,6 @@ ex:shape_state0_coffeetable275_brush_teeth1_scene4 a x3do:Shape ;
             rdf:first 1.280266e+00 ;
             rdf:rest ( 2.440028e-01 1.280265e+00 ) ] .
 
-ex:toothbrush202_scene4 a vh2kg:Toothbrush ;
-    rdfs:label "toothbrush" ;
-    dcterms:identifier "202" .
-
 vh2kg:Dishbowl a owl:Class ;
     rdfs:subClassOf vh2kg:Food .
 
@@ -15070,6 +15080,10 @@ ex:shape_state0_wallshelf102_brush_teeth1_scene4 a x3do:Shape ;
     x3do:bboxSize [ a x3do:SFVec3f ;
             rdf:first 1e+00 ;
             rdf:rest ( 1.819556e-01 2.722732e-01 ) ] .
+
+ex:toothbrush202_scene4 a vh2kg:Toothbrush ;
+    rdfs:label "toothbrush" ;
+    dcterms:identifier "202" .
 
 vh2kg:Electronics a owl:Class ;
     rdfs:label "Electronics" ;
@@ -15164,6 +15178,7 @@ ex:shape_state3_bathroomcounter198_brush_teeth1_scene4 a x3do:Shape ;
 ex:shape_state10_character1_brush_teeth1_scene4 a x3do:Shape ;
     vh2kg:close ex:shape_state11_faucet200_brush_teeth1_scene4,
         ex:shape_state14_faucet200_brush_teeth1_scene4,
+        ex:shape_state15_toothbrush202_brush_teeth1_scene4,
         ex:shape_state2_rug212_brush_teeth1_scene4,
         ex:shape_state3_barsoap204_brush_teeth1_scene4,
         ex:shape_state3_bathroomcabinet195_brush_teeth1_scene4,

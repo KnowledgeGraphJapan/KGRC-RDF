@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -19971,8 +19971,7 @@ ex:state17_dishwashingliquid269_clean_slippers_scene1 a vh2kg:State ;
         ex:home_situation22_clean_slippers_scene1,
         ex:home_situation23_clean_slippers_scene1,
         ex:home_situation24_clean_slippers_scene1,
-        ex:home_situation25_clean_slippers_scene1 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation25_clean_slippers_scene1 .
 
 ex:state18_candle71_clean_slippers_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state18_candle71_clean_slippers_scene1 ;
@@ -20874,8 +20873,7 @@ ex:state22_slippers203_clean_slippers_scene1 a vh2kg:State ;
     vh2kg:nextState ex:state25_slippers203_clean_slippers_scene1 ;
     vh2kg:partOf ex:home_situation22_clean_slippers_scene1,
         ex:home_situation23_clean_slippers_scene1,
-        ex:home_situation24_clean_slippers_scene1 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation24_clean_slippers_scene1 .
 
 ex:state23_faucet52_clean_slippers_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state23_faucet52_clean_slippers_scene1 ;
@@ -20904,9 +20902,9 @@ ex:state25_faucet52_clean_slippers_scene1 a vh2kg:State ;
 ex:state25_slippers203_clean_slippers_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state25_slippers203_clean_slippers_scene1 ;
     vh2kg:isStateOf ex:slippers203_scene1 ;
+    vh2kg:nextState ex:state27_slippers203_clean_slippers_scene1 ;
     vh2kg:partOf ex:home_situation25_clean_slippers_scene1,
-        ex:home_situation26_clean_slippers_scene1,
-        ex:home_situation27_clean_slippers_scene1 ;
+        ex:home_situation26_clean_slippers_scene1 ;
     vh2kg:state vh2kg:GRABED .
 
 ex:state26_barsoap68_clean_slippers_scene1 a vh2kg:State ;
@@ -20947,8 +20945,7 @@ ex:state26_dishwashingliquid269_clean_slippers_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state26_dishwashingliquid269_clean_slippers_scene1 ;
     vh2kg:isStateOf ex:dishwashingliquid269_scene1 ;
     vh2kg:partOf ex:home_situation26_clean_slippers_scene1,
-        ex:home_situation27_clean_slippers_scene1 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation27_clean_slippers_scene1 .
 
 ex:state26_facecream62_clean_slippers_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state26_facecream62_clean_slippers_scene1 ;
@@ -21056,6 +21053,11 @@ ex:state26_waterglass66_clean_slippers_scene1 a vh2kg:State ;
     vh2kg:isStateOf ex:waterglass66_scene1 ;
     vh2kg:partOf ex:home_situation26_clean_slippers_scene1,
         ex:home_situation27_clean_slippers_scene1 .
+
+ex:state27_slippers203_clean_slippers_scene1 a vh2kg:State ;
+    vh2kg:bbox ex:shape_state27_slippers203_clean_slippers_scene1 ;
+    vh2kg:isStateOf ex:slippers203_scene1 ;
+    vh2kg:partOf ex:home_situation27_clean_slippers_scene1 .
 
 ex:state2_slippers203_clean_slippers_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state2_slippers203_clean_slippers_scene1 ;
@@ -25619,6 +25621,16 @@ ex:shape_state26_towelrack41_clean_slippers_scene1 a x3do:Shape ;
             rdf:first 4.961497e-01 ;
             rdf:rest ( 2.47556e-02 8.646028e-02 ) ] .
 
+ex:shape_state27_slippers203_clean_slippers_scene1 a x3do:Shape ;
+    vh2kg:close ex:shape_state26_character1_clean_slippers_scene1 ;
+    vh2kg:inside ex:shape_state0_bathroom11_clean_slippers_scene1 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first -6.948308e+00 ;
+            rdf:rest ( 2.931612e-02 -4.743042e-01 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 4.131136e-01 ;
+            rdf:rest ( 6.46329e-02 3.887525e-01 ) ] .
+
 ex:shape_state2_slippers203_clean_slippers_scene1 a x3do:Shape ;
     vh2kg:close ex:shape_state1_character1_clean_slippers_scene1 ;
     vh2kg:inside ex:shape_state0_bedroom75_clean_slippers_scene1 ;
@@ -28972,21 +28984,6 @@ ex:shape_state1_rug180_clean_slippers_scene1 a x3do:Shape ;
             rdf:first 2.954861e+00 ;
             rdf:rest ( 2.454547e-02 3.849833e+00 ) ] .
 
-ex:shape_state26_character1_clean_slippers_scene1 a x3do:Shape ;
-    vh2kg:close ex:shape_state25_slippers203_clean_slippers_scene1,
-        ex:shape_state26_folder206_clean_slippers_scene1,
-        ex:shape_state26_folder207_clean_slippers_scene1,
-        ex:shape_state26_lightswitch73_clean_slippers_scene1,
-        ex:shape_state26_rug31_clean_slippers_scene1,
-        ex:shape_state26_towelrack41_clean_slippers_scene1 ;
-    vh2kg:inside ex:shape_state0_bathroom11_clean_slippers_scene1 ;
-    x3do:bboxCenter [ a x3do:SFVec3f ;
-            rdf:first -5.874016e+00 ;
-            rdf:rest ( 8.495851e-01 -4.679747e-01 ) ] ;
-    x3do:bboxSize [ a x3do:SFVec3f ;
-            rdf:first 5.870295e-01 ;
-            rdf:rest ( 1.879959e+00 1.396409e+00 ) ] .
-
 ex:towel55_scene1 a vh2kg:Towel ;
     rdfs:label "towel" ;
     vh2kg:attribute vh2kg:cover_object ;
@@ -29061,6 +29058,22 @@ ex:shape_state0_tvstand232_clean_slippers_scene1 a x3do:Shape ;
     x3do:bboxSize [ a x3do:SFVec3f ;
             rdf:first 2.16e+00 ;
             rdf:rest ( 4.92e-01 7.600005e-01 ) ] .
+
+ex:shape_state26_character1_clean_slippers_scene1 a x3do:Shape ;
+    vh2kg:close ex:shape_state25_slippers203_clean_slippers_scene1,
+        ex:shape_state26_folder206_clean_slippers_scene1,
+        ex:shape_state26_folder207_clean_slippers_scene1,
+        ex:shape_state26_lightswitch73_clean_slippers_scene1,
+        ex:shape_state26_rug31_clean_slippers_scene1,
+        ex:shape_state26_towelrack41_clean_slippers_scene1,
+        ex:shape_state27_slippers203_clean_slippers_scene1 ;
+    vh2kg:inside ex:shape_state0_bathroom11_clean_slippers_scene1 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first -5.874016e+00 ;
+            rdf:rest ( 8.495851e-01 -4.679747e-01 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 5.870295e-01 ;
+            rdf:rest ( 1.879959e+00 1.396409e+00 ) ] .
 
 ex:shape_state4_closetdrawer150_clean_slippers_scene1 a x3do:Shape ;
     vh2kg:inside ex:shape_state0_bedroom75_clean_slippers_scene1,
@@ -29493,11 +29506,6 @@ ex:shape_state5_character1_clean_slippers_scene1 a x3do:Shape ;
             rdf:first 5.528088e-01 ;
             rdf:rest ( 1.880514e+00 1.375116e+00 ) ] .
 
-ex:slippers203_scene1 a vh2kg:Slippers ;
-    rdfs:label "slippers" ;
-    vh2kg:attribute vh2kg:clothes ;
-    dcterms:identifier "203" .
-
 ex:shape_state0_bookshelf251_clean_slippers_scene1 a x3do:Shape ;
     vh2kg:facing ex:shape_state0_tv266_clean_slippers_scene1 ;
     vh2kg:inside ex:shape_state0_kitchen209_clean_slippers_scene1 ;
@@ -29517,6 +29525,11 @@ ex:shape_state0_kitchencounter240_clean_slippers_scene1 a x3do:Shape ;
     x3do:bboxSize [ a x3do:SFVec3f ;
             rdf:first 3.014e+00 ;
             rdf:rest ( 1.05e+00 7.700005e-01 ) ] .
+
+ex:slippers203_scene1 a vh2kg:Slippers ;
+    rdfs:label "slippers" ;
+    vh2kg:attribute vh2kg:clothes ;
+    dcterms:identifier "203" .
 
 ex:shape_state0_closet115_clean_slippers_scene1 a x3do:Shape ;
     vh2kg:facing ex:shape_state0_computer177_clean_slippers_scene1 ;

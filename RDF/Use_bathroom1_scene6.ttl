@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -13998,8 +13998,7 @@ ex:state12_barsoap66_use_bathroom1_scene6 a vh2kg:State ;
         ex:home_situation23_use_bathroom1_scene6,
         ex:home_situation24_use_bathroom1_scene6,
         ex:home_situation25_use_bathroom1_scene6,
-        ex:home_situation26_use_bathroom1_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation26_use_bathroom1_scene6 .
 
 ex:state12_character1_use_bathroom1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state12_character1_use_bathroom1_scene6 ;
@@ -14094,6 +14093,7 @@ ex:state14_wallphone209_use_bathroom1_scene6 a vh2kg:State ;
 ex:state15_toothbrush57_use_bathroom1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state15_toothbrush57_use_bathroom1_scene6 ;
     vh2kg:isStateOf ex:toothbrush57_scene6 ;
+    vh2kg:nextState ex:state26_toothbrush57_use_bathroom1_scene6 ;
     vh2kg:partOf ex:home_situation15_use_bathroom1_scene6,
         ex:home_situation16_use_bathroom1_scene6,
         ex:home_situation17_use_bathroom1_scene6,
@@ -14104,8 +14104,7 @@ ex:state15_toothbrush57_use_bathroom1_scene6 a vh2kg:State ;
         ex:home_situation22_use_bathroom1_scene6,
         ex:home_situation23_use_bathroom1_scene6,
         ex:home_situation24_use_bathroom1_scene6,
-        ex:home_situation25_use_bathroom1_scene6,
-        ex:home_situation26_use_bathroom1_scene6 ;
+        ex:home_situation25_use_bathroom1_scene6 ;
     vh2kg:state vh2kg:GRABED .
 
 ex:state16_character1_use_bathroom1_scene6 a vh2kg:State ;
@@ -14268,8 +14267,7 @@ ex:state19_toothpaste55_use_bathroom1_scene6 a vh2kg:State ;
         ex:home_situation23_use_bathroom1_scene6,
         ex:home_situation24_use_bathroom1_scene6,
         ex:home_situation25_use_bathroom1_scene6,
-        ex:home_situation26_use_bathroom1_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation26_use_bathroom1_scene6 .
 
 ex:state19_towel50_use_bathroom1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state19_towel50_use_bathroom1_scene6 ;
@@ -14472,6 +14470,11 @@ ex:state25_faucet38_use_bathroom1_scene6 a vh2kg:State ;
         ex:home_situation26_use_bathroom1_scene6 ;
     vh2kg:state vh2kg:CLEAN,
         vh2kg:OFF .
+
+ex:state26_toothbrush57_use_bathroom1_scene6 a vh2kg:State ;
+    vh2kg:bbox ex:shape_state26_toothbrush57_use_bathroom1_scene6 ;
+    vh2kg:isStateOf ex:toothbrush57_scene6 ;
+    vh2kg:partOf ex:home_situation26_use_bathroom1_scene6 .
 
 ex:state2_bookshelf294_use_bathroom1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state2_bookshelf294_use_bathroom1_scene6 ;
@@ -16892,6 +16895,16 @@ ex:shape_state25_faucet38_use_bathroom1_scene6 a x3do:Shape ;
             rdf:first 1.000001e-01 ;
             rdf:rest ( 9.999996e-02 1.000001e-01 ) ] .
 
+ex:shape_state26_toothbrush57_use_bathroom1_scene6 a x3do:Shape ;
+    vh2kg:close ex:shape_state21_character1_use_bathroom1_scene6 ;
+    vh2kg:inside ex:shape_state0_bathroom11_use_bathroom1_scene6 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first -1.02386e+00 ;
+            rdf:rest ( 1.08616e+00 -1.903429e+00 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 2.379411e-01 ;
+            rdf:rest ( 2.249429e-02 7.245914e-02 ) ] .
+
 ex:shape_state5_barsoap66_use_bathroom1_scene6 a x3do:Shape ;
     vh2kg:close ex:shape_state5_character1_use_bathroom1_scene6 ;
     vh2kg:inside ex:shape_state0_bathroom11_use_bathroom1_scene6 ;
@@ -17884,10 +17897,6 @@ ex:shape_state0_desk296_use_bathroom1_scene6 a x3do:Shape ;
             rdf:first 2.2308e+00 ;
             rdf:rest ( 9.5e-01 8.544004e-01 ) ] .
 
-ex:toothbrush57_scene6 a vh2kg:Toothbrush ;
-    rdfs:label "toothbrush" ;
-    dcterms:identifier "57" .
-
 ex:shape_state5_bathroomcabinet45_use_bathroom1_scene6 a x3do:Shape ;
     vh2kg:close ex:shape_state12_character1_use_bathroom1_scene6,
         ex:shape_state13_character1_use_bathroom1_scene6,
@@ -18070,6 +18079,10 @@ ex:shape_state5_waterglass56_use_bathroom1_scene6 a x3do:Shape ;
     x3do:bboxSize [ a x3do:SFVec3f ;
             rdf:first 8.951235e-02 ;
             rdf:rest ( 1.234502e-01 8.951235e-02 ) ] .
+
+ex:toothbrush57_scene6 a vh2kg:Toothbrush ;
+    rdfs:label "toothbrush" ;
+    dcterms:identifier "57" .
 
 ex:faucet38_scene6 a vh2kg:Faucet ;
     rdfs:label "faucet" ;
@@ -18373,34 +18386,6 @@ ex:shape_state14_character1_use_bathroom1_scene6 a x3do:Shape ;
             rdf:first 1.425233e+00 ;
             rdf:rest ( 1.873335e+00 9.374952e-01 ) ] .
 
-ex:shape_state21_character1_use_bathroom1_scene6 a x3do:Shape ;
-    vh2kg:close ex:shape_state12_barsoap66_use_bathroom1_scene6,
-        ex:shape_state13_faucet38_use_bathroom1_scene6,
-        ex:shape_state15_toothbrush57_use_bathroom1_scene6,
-        ex:shape_state17_clock208_use_bathroom1_scene6,
-        ex:shape_state19_toothpaste55_use_bathroom1_scene6,
-        ex:shape_state21_towel50_use_bathroom1_scene6,
-        ex:shape_state22_faucet38_use_bathroom1_scene6,
-        ex:shape_state25_faucet38_use_bathroom1_scene6,
-        ex:shape_state5_bathroomcabinet45_use_bathroom1_scene6,
-        ex:shape_state5_bathroomcounter36_use_bathroom1_scene6,
-        ex:shape_state5_garbagecan234_use_bathroom1_scene6,
-        ex:shape_state5_oventray236_use_bathroom1_scene6,
-        ex:shape_state5_rug30_use_bathroom1_scene6,
-        ex:shape_state5_sink37_use_bathroom1_scene6,
-        ex:shape_state5_stove235_use_bathroom1_scene6,
-        ex:shape_state5_stovefan241_use_bathroom1_scene6,
-        ex:shape_state5_towel49_use_bathroom1_scene6,
-        ex:shape_state5_towel51_use_bathroom1_scene6,
-        ex:shape_state5_waterglass56_use_bathroom1_scene6 ;
-    vh2kg:inside ex:shape_state0_bathroom11_use_bathroom1_scene6 ;
-    x3do:bboxCenter [ a x3do:SFVec3f ;
-            rdf:first -1.486158e+00 ;
-            rdf:rest ( 8.483222e-01 -2.67515e+00 ) ] ;
-    x3do:bboxSize [ a x3do:SFVec3f ;
-            rdf:first 1.387211e+00 ;
-            rdf:rest ( 1.882031e+00 5.640421e-01 ) ] .
-
 ex:shape_state5_character1_use_bathroom1_scene6 a x3do:Shape ;
     vh2kg:close ex:shape_state5_barsoap66_use_bathroom1_scene6,
         ex:shape_state5_bathroomcabinet45_use_bathroom1_scene6,
@@ -18455,6 +18440,35 @@ ex:shape_state16_clock208_use_bathroom1_scene6 a x3do:Shape ;
     x3do:bboxSize [ a x3do:SFVec3f ;
             rdf:first 3.997568e-01 ;
             rdf:rest ( 3.997564e-01 6.969213e-02 ) ] .
+
+ex:shape_state21_character1_use_bathroom1_scene6 a x3do:Shape ;
+    vh2kg:close ex:shape_state12_barsoap66_use_bathroom1_scene6,
+        ex:shape_state13_faucet38_use_bathroom1_scene6,
+        ex:shape_state15_toothbrush57_use_bathroom1_scene6,
+        ex:shape_state17_clock208_use_bathroom1_scene6,
+        ex:shape_state19_toothpaste55_use_bathroom1_scene6,
+        ex:shape_state21_towel50_use_bathroom1_scene6,
+        ex:shape_state22_faucet38_use_bathroom1_scene6,
+        ex:shape_state25_faucet38_use_bathroom1_scene6,
+        ex:shape_state26_toothbrush57_use_bathroom1_scene6,
+        ex:shape_state5_bathroomcabinet45_use_bathroom1_scene6,
+        ex:shape_state5_bathroomcounter36_use_bathroom1_scene6,
+        ex:shape_state5_garbagecan234_use_bathroom1_scene6,
+        ex:shape_state5_oventray236_use_bathroom1_scene6,
+        ex:shape_state5_rug30_use_bathroom1_scene6,
+        ex:shape_state5_sink37_use_bathroom1_scene6,
+        ex:shape_state5_stove235_use_bathroom1_scene6,
+        ex:shape_state5_stovefan241_use_bathroom1_scene6,
+        ex:shape_state5_towel49_use_bathroom1_scene6,
+        ex:shape_state5_towel51_use_bathroom1_scene6,
+        ex:shape_state5_waterglass56_use_bathroom1_scene6 ;
+    vh2kg:inside ex:shape_state0_bathroom11_use_bathroom1_scene6 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first -1.486158e+00 ;
+            rdf:rest ( 8.483222e-01 -2.67515e+00 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 1.387211e+00 ;
+            rdf:rest ( 1.882031e+00 5.640421e-01 ) ] .
 
 vh2kg:Clothespile a owl:Class ;
     rdfs:subClassOf vh2kg:Props .

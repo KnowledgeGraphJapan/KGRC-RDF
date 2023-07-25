@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -15840,8 +15840,7 @@ ex:state10_clothespants276_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:isStateOf ex:clothespants276_scene5 ;
     vh2kg:nextState ex:state12_clothespants276_organize_closet1_scene5 ;
     vh2kg:partOf ex:home_situation10_organize_closet1_scene5,
-        ex:home_situation11_organize_closet1_scene5 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation11_organize_closet1_scene5 .
 
 ex:state10_clothespants280_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state10_clothespants280_organize_closet1_scene5 ;
@@ -15938,8 +15937,7 @@ ex:state10_clothesshirt278_organize_closet1_scene5 a vh2kg:State ;
         ex:home_situation14_organize_closet1_scene5,
         ex:home_situation15_organize_closet1_scene5,
         ex:home_situation16_organize_closet1_scene5,
-        ex:home_situation17_organize_closet1_scene5 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation17_organize_closet1_scene5 .
 
 ex:state10_clothesshirt282_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state10_clothesshirt282_organize_closet1_scene5 ;
@@ -16325,8 +16323,7 @@ ex:state11_clothespile285_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:partOf ex:home_situation11_organize_closet1_scene5,
         ex:home_situation12_organize_closet1_scene5,
         ex:home_situation13_organize_closet1_scene5,
-        ex:home_situation14_organize_closet1_scene5 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation14_organize_closet1_scene5 .
 
 ex:state12_character1_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state12_character1_organize_closet1_scene5 ;
@@ -16359,8 +16356,7 @@ ex:state14_clothespants276_organize_closet1_scene5 a vh2kg:State ;
         ex:home_situation16_organize_closet1_scene5,
         ex:home_situation17_organize_closet1_scene5,
         ex:home_situation18_organize_closet1_scene5,
-        ex:home_situation19_organize_closet1_scene5 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation19_organize_closet1_scene5 .
 
 ex:state15_clothespile285_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state15_clothespile285_organize_closet1_scene5 ;
@@ -16377,8 +16373,7 @@ ex:state17_clothespile285_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:partOf ex:home_situation17_organize_closet1_scene5,
         ex:home_situation18_organize_closet1_scene5,
         ex:home_situation19_organize_closet1_scene5,
-        ex:home_situation20_organize_closet1_scene5 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation20_organize_closet1_scene5 .
 
 ex:state18_clothesshirt278_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state18_clothesshirt278_organize_closet1_scene5 ;
@@ -16959,10 +16954,8 @@ ex:state21_closetdrawer288_organize_closet1_scene5 a vh2kg:State ;
 ex:state21_clothespants276_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state21_clothespants276_organize_closet1_scene5 ;
     vh2kg:isStateOf ex:clothespants276_scene5 ;
-    vh2kg:nextState ex:state24_clothespants276_organize_closet1_scene5 ;
-    vh2kg:partOf ex:home_situation21_organize_closet1_scene5,
-        ex:home_situation22_organize_closet1_scene5,
-        ex:home_situation23_organize_closet1_scene5 ;
+    vh2kg:nextState ex:state22_clothespants276_organize_closet1_scene5 ;
+    vh2kg:partOf ex:home_situation21_organize_closet1_scene5 ;
     vh2kg:state vh2kg:GRABED .
 
 ex:state21_clothespants280_organize_closet1_scene5 a vh2kg:State ;
@@ -16979,8 +16972,7 @@ ex:state21_clothespile285_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:nextState ex:state24_clothespile285_organize_closet1_scene5 ;
     vh2kg:partOf ex:home_situation21_organize_closet1_scene5,
         ex:home_situation22_organize_closet1_scene5,
-        ex:home_situation23_organize_closet1_scene5 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation23_organize_closet1_scene5 .
 
 ex:state21_clothespile286_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state21_clothespile286_organize_closet1_scene5 ;
@@ -17223,6 +17215,13 @@ ex:state22_character1_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:partOf ex:home_situation22_organize_closet1_scene5,
         ex:home_situation23_organize_closet1_scene5 .
 
+ex:state22_clothespants276_organize_closet1_scene5 a vh2kg:State ;
+    vh2kg:bbox ex:shape_state22_clothespants276_organize_closet1_scene5 ;
+    vh2kg:isStateOf ex:clothespants276_scene5 ;
+    vh2kg:nextState ex:state24_clothespants276_organize_closet1_scene5 ;
+    vh2kg:partOf ex:home_situation22_organize_closet1_scene5,
+        ex:home_situation23_organize_closet1_scene5 .
+
 ex:state22_slippers261_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state22_slippers261_organize_closet1_scene5 ;
     vh2kg:isStateOf ex:slippers261_scene5 ;
@@ -17235,8 +17234,7 @@ ex:state23_clothesshirt278_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state23_clothesshirt278_organize_closet1_scene5 ;
     vh2kg:isStateOf ex:clothesshirt278_scene5 ;
     vh2kg:nextState ex:state24_clothesshirt278_organize_closet1_scene5 ;
-    vh2kg:partOf ex:home_situation23_organize_closet1_scene5 ;
-    vh2kg:state vh2kg:GRABED .
+    vh2kg:partOf ex:home_situation23_organize_closet1_scene5 .
 
 ex:state23_clothesshirt282_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state23_clothesshirt282_organize_closet1_scene5 ;
@@ -17308,8 +17306,7 @@ ex:state24_clothespants276_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:isStateOf ex:clothespants276_scene5 ;
     vh2kg:nextState ex:state26_clothespants276_organize_closet1_scene5 ;
     vh2kg:partOf ex:home_situation24_organize_closet1_scene5,
-        ex:home_situation25_organize_closet1_scene5 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation25_organize_closet1_scene5 .
 
 ex:state24_clothespants280_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state24_clothespants280_organize_closet1_scene5 ;
@@ -17322,8 +17319,7 @@ ex:state24_clothespile285_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state24_clothespile285_organize_closet1_scene5 ;
     vh2kg:isStateOf ex:clothespile285_scene5 ;
     vh2kg:nextState ex:state25_clothespile285_organize_closet1_scene5 ;
-    vh2kg:partOf ex:home_situation24_organize_closet1_scene5 ;
-    vh2kg:state vh2kg:GRABED .
+    vh2kg:partOf ex:home_situation24_organize_closet1_scene5 .
 
 ex:state24_clothespile286_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state24_clothespile286_organize_closet1_scene5 ;
@@ -17362,8 +17358,7 @@ ex:state24_clothesshirt278_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:isStateOf ex:clothesshirt278_scene5 ;
     vh2kg:nextState ex:state26_clothesshirt278_organize_closet1_scene5 ;
     vh2kg:partOf ex:home_situation24_organize_closet1_scene5,
-        ex:home_situation25_organize_closet1_scene5 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation25_organize_closet1_scene5 .
 
 ex:state24_clothesshirt282_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state24_clothesshirt282_organize_closet1_scene5 ;
@@ -17646,8 +17641,7 @@ ex:state26_clothespants276_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state26_clothespants276_organize_closet1_scene5 ;
     vh2kg:isStateOf ex:clothespants276_scene5 ;
     vh2kg:partOf ex:home_situation26_organize_closet1_scene5,
-        ex:home_situation27_organize_closet1_scene5 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation27_organize_closet1_scene5 .
 
 ex:state26_clothespants280_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state26_clothespants280_organize_closet1_scene5 ;
@@ -17687,8 +17681,7 @@ ex:state26_clothesshirt278_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state26_clothesshirt278_organize_closet1_scene5 ;
     vh2kg:isStateOf ex:clothesshirt278_scene5 ;
     vh2kg:partOf ex:home_situation26_organize_closet1_scene5,
-        ex:home_situation27_organize_closet1_scene5 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation27_organize_closet1_scene5 .
 
 ex:state26_clothesshirt282_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state26_clothesshirt282_organize_closet1_scene5 ;
@@ -17856,8 +17849,7 @@ ex:state27_character1_organize_closet1_scene5 a vh2kg:State ;
 ex:state27_clothespile285_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state27_clothespile285_organize_closet1_scene5 ;
     vh2kg:isStateOf ex:clothespile285_scene5 ;
-    vh2kg:partOf ex:home_situation27_organize_closet1_scene5 ;
-    vh2kg:state vh2kg:GRABED .
+    vh2kg:partOf ex:home_situation27_organize_closet1_scene5 .
 
 ex:state27_hanger283_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state27_hanger283_organize_closet1_scene5 ;
@@ -18612,8 +18604,7 @@ ex:state6_clothespants276_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:isStateOf ex:clothespants276_scene5 ;
     vh2kg:nextState ex:state8_clothespants276_organize_closet1_scene5 ;
     vh2kg:partOf ex:home_situation6_organize_closet1_scene5,
-        ex:home_situation7_organize_closet1_scene5 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation7_organize_closet1_scene5 .
 
 ex:state6_nightstand292_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state6_nightstand292_organize_closet1_scene5 ;
@@ -18712,8 +18703,7 @@ ex:state7_clothesshirt278_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state7_clothesshirt278_organize_closet1_scene5 ;
     vh2kg:isStateOf ex:clothesshirt278_scene5 ;
     vh2kg:nextState ex:state8_clothesshirt278_organize_closet1_scene5 ;
-    vh2kg:partOf ex:home_situation7_organize_closet1_scene5 ;
-    vh2kg:state vh2kg:GRABED .
+    vh2kg:partOf ex:home_situation7_organize_closet1_scene5 .
 
 ex:state8_bed293_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state8_bed293_organize_closet1_scene5 ;
@@ -18759,8 +18749,7 @@ ex:state8_clothespants276_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:isStateOf ex:clothespants276_scene5 ;
     vh2kg:nextState ex:state10_clothespants276_organize_closet1_scene5 ;
     vh2kg:partOf ex:home_situation8_organize_closet1_scene5,
-        ex:home_situation9_organize_closet1_scene5 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation9_organize_closet1_scene5 .
 
 ex:state8_clothespants280_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state8_clothespants280_organize_closet1_scene5 ;
@@ -18813,8 +18802,7 @@ ex:state8_clothesshirt278_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:isStateOf ex:clothesshirt278_scene5 ;
     vh2kg:nextState ex:state10_clothesshirt278_organize_closet1_scene5 ;
     vh2kg:partOf ex:home_situation8_organize_closet1_scene5,
-        ex:home_situation9_organize_closet1_scene5 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation9_organize_closet1_scene5 .
 
 ex:state8_clothesshirt282_organize_closet1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state8_clothesshirt282_organize_closet1_scene5 ;
@@ -20745,6 +20733,17 @@ ex:shape_state20_clothespants276_organize_closet1_scene5 a x3do:Shape ;
             rdf:first 5.570377e-02 ;
             rdf:rest ( 3.959409e-01 5.518645e-01 ) ] .
 
+ex:shape_state21_clothespants276_organize_closet1_scene5 a x3do:Shape ;
+    vh2kg:close ex:shape_state21_character1_organize_closet1_scene5 ;
+    vh2kg:inside ex:shape_state0_bedroom231_organize_closet1_scene5,
+        ex:shape_state6_closet274_organize_closet1_scene5 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first 4.165867e+00 ;
+            rdf:rest ( 7.238917e-01 -7.054605e+00 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 1.732819e-01 ;
+            rdf:rest ( 3.560331e-01 5.546536e-01 ) ] .
+
 ex:shape_state21_wallpictureframe249_organize_closet1_scene5 a x3do:Shape ;
     vh2kg:inside ex:shape_state0_bedroom231_organize_closet1_scene5 ;
     x3do:bboxCenter [ a x3do:SFVec3f ;
@@ -20753,6 +20752,17 @@ ex:shape_state21_wallpictureframe249_organize_closet1_scene5 a x3do:Shape ;
     x3do:bboxSize [ a x3do:SFVec3f ;
             rdf:first 6.663879e-01 ;
             rdf:rest ( 2.8595e-01 1.24842e-02 ) ] .
+
+ex:shape_state22_clothespants276_organize_closet1_scene5 a x3do:Shape ;
+    vh2kg:close ex:shape_state22_character1_organize_closet1_scene5 ;
+    vh2kg:inside ex:shape_state0_bedroom231_organize_closet1_scene5,
+        ex:shape_state6_closet274_organize_closet1_scene5 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first 4.57074e+00 ;
+            rdf:rest ( 1.371614e+00 -7.300811e+00 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 2.717133e-01 ;
+            rdf:rest ( 6.125162e-01 1.95837e-01 ) ] .
 
 ex:shape_state23_hanger279_organize_closet1_scene5 a x3do:Shape ;
     vh2kg:close ex:shape_state22_character1_organize_closet1_scene5 ;
@@ -21824,18 +21834,6 @@ ex:shape_state21_closetdrawer284_organize_closet1_scene5 a x3do:Shape ;
     x3do:bboxSize [ a x3do:SFVec3f ;
             rdf:first 5.653765e-01 ;
             rdf:rest ( 2.004483e-01 9.477499e-01 ) ] .
-
-ex:shape_state21_clothespants276_organize_closet1_scene5 a x3do:Shape ;
-    vh2kg:close ex:shape_state21_character1_organize_closet1_scene5,
-        ex:shape_state22_character1_organize_closet1_scene5 ;
-    vh2kg:inside ex:shape_state0_bedroom231_organize_closet1_scene5,
-        ex:shape_state6_closet274_organize_closet1_scene5 ;
-    x3do:bboxCenter [ a x3do:SFVec3f ;
-            rdf:first 4.165867e+00 ;
-            rdf:rest ( 7.238917e-01 -7.054605e+00 ) ] ;
-    x3do:bboxSize [ a x3do:SFVec3f ;
-            rdf:first 1.732819e-01 ;
-            rdf:rest ( 3.560331e-01 5.546536e-01 ) ] .
 
 ex:shape_state21_clothespile287_organize_closet1_scene5 a x3do:Shape ;
     vh2kg:close ex:shape_state21_character1_organize_closet1_scene5,
@@ -23884,11 +23882,6 @@ ex:shape_state1_bookshelf141_organize_closet1_scene5 a x3do:Shape ;
 vh2kg:Closetdrawer a owl:Class ;
     rdfs:subClassOf vh2kg:Furniture .
 
-ex:clothespants276_scene5 a vh2kg:Clothespants ;
-    rdfs:label "clothespants" ;
-    vh2kg:attribute vh2kg:clothes ;
-    dcterms:identifier "276" .
-
 ex:shape_state0_bookshelf141_organize_closet1_scene5 a x3do:Shape ;
     vh2kg:close ex:shape_state0_character1_organize_closet1_scene5 ;
     vh2kg:inside ex:shape_state0_kitchen112_organize_closet1_scene5 ;
@@ -23990,6 +23983,11 @@ vh2kg:Floor a owl:Class ;
 
 vh2kg:Wall a owl:Class ;
     rdfs:subClassOf vh2kg:Walls .
+
+ex:clothespants276_scene5 a vh2kg:Clothespants ;
+    rdfs:label "clothespants" ;
+    vh2kg:attribute vh2kg:clothes ;
+    dcterms:identifier "276" .
 
 ex:clothespile285_scene5 a vh2kg:Clothespile ;
     rdfs:label "clothespile" ;
@@ -24321,7 +24319,6 @@ ex:shape_state22_character1_organize_closet1_scene5 a x3do:Shape ;
         ex:shape_state21_box182_organize_closet1_scene5,
         ex:shape_state21_closetdrawer284_organize_closet1_scene5,
         ex:shape_state21_closetdrawer288_organize_closet1_scene5,
-        ex:shape_state21_clothespants276_organize_closet1_scene5,
         ex:shape_state21_clothespants280_organize_closet1_scene5,
         ex:shape_state21_clothespile286_organize_closet1_scene5,
         ex:shape_state21_clothespile287_organize_closet1_scene5,
@@ -24343,6 +24340,7 @@ ex:shape_state22_character1_organize_closet1_scene5 a x3do:Shape ;
         ex:shape_state21_sofa291_organize_closet1_scene5,
         ex:shape_state21_wallshelf133_organize_closet1_scene5,
         ex:shape_state21_wallshelf140_organize_closet1_scene5,
+        ex:shape_state22_clothespants276_organize_closet1_scene5,
         ex:shape_state22_slippers261_organize_closet1_scene5,
         ex:shape_state23_clothesshirt278_organize_closet1_scene5,
         ex:shape_state23_clothesshirt282_organize_closet1_scene5,

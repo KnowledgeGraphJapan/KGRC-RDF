@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -15568,6 +15568,17 @@ ex:stall30_scene2 a vh2kg:Stall ;
     rdfs:label "stall" ;
     dcterms:identifier "30" .
 
+ex:state11_toothbrush32_clean_sink3_scene2 a vh2kg:State ;
+    vh2kg:bbox ex:shape_state11_toothbrush32_clean_sink3_scene2 ;
+    vh2kg:isStateOf ex:toothbrush32_scene2 ;
+    vh2kg:nextState ex:state17_toothbrush32_clean_sink3_scene2 ;
+    vh2kg:partOf ex:home_situation11_clean_sink3_scene2,
+        ex:home_situation12_clean_sink3_scene2,
+        ex:home_situation13_clean_sink3_scene2,
+        ex:home_situation14_clean_sink3_scene2,
+        ex:home_situation15_clean_sink3_scene2,
+        ex:home_situation16_clean_sink3_scene2 .
+
 ex:state13_waterglass33_clean_sink3_scene2 a vh2kg:State ;
     vh2kg:bbox ex:shape_state13_waterglass33_clean_sink3_scene2 ;
     vh2kg:isStateOf ex:waterglass33_scene2 ;
@@ -15594,8 +15605,7 @@ ex:state17_toothbrush32_clean_sink3_scene2 a vh2kg:State ;
         ex:home_situation27_clean_sink3_scene2,
         ex:home_situation28_clean_sink3_scene2,
         ex:home_situation29_clean_sink3_scene2,
-        ex:home_situation30_clean_sink3_scene2 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation30_clean_sink3_scene2 .
 
 ex:state17_waterglass33_clean_sink3_scene2 a vh2kg:State ;
     vh2kg:bbox ex:shape_state17_waterglass33_clean_sink3_scene2 ;
@@ -15613,8 +15623,7 @@ ex:state17_waterglass33_clean_sink3_scene2 a vh2kg:State ;
         ex:home_situation27_clean_sink3_scene2,
         ex:home_situation28_clean_sink3_scene2,
         ex:home_situation29_clean_sink3_scene2,
-        ex:home_situation30_clean_sink3_scene2 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation30_clean_sink3_scene2 .
 
 ex:state19_toothpaste39_clean_sink3_scene2 a vh2kg:State ;
     vh2kg:bbox ex:shape_state19_toothpaste39_clean_sink3_scene2 ;
@@ -15722,8 +15731,7 @@ ex:state22_toothpaste39_clean_sink3_scene2 a vh2kg:State ;
         ex:home_situation27_clean_sink3_scene2,
         ex:home_situation28_clean_sink3_scene2,
         ex:home_situation29_clean_sink3_scene2,
-        ex:home_situation30_clean_sink3_scene2 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation30_clean_sink3_scene2 .
 
 ex:state24_facecream36_clean_sink3_scene2 a vh2kg:State ;
     vh2kg:bbox ex:shape_state24_facecream36_clean_sink3_scene2 ;
@@ -15775,8 +15783,7 @@ ex:state27_facecream36_clean_sink3_scene2 a vh2kg:State ;
     vh2kg:partOf ex:home_situation27_clean_sink3_scene2,
         ex:home_situation28_clean_sink3_scene2,
         ex:home_situation29_clean_sink3_scene2,
-        ex:home_situation30_clean_sink3_scene2 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation30_clean_sink3_scene2 .
 
 ex:state27_washingmachine50_clean_sink3_scene2 a vh2kg:State ;
     vh2kg:bbox ex:shape_state27_washingmachine50_clean_sink3_scene2 ;
@@ -16215,14 +16222,8 @@ ex:state4_waterglass33_clean_sink3_scene2 a vh2kg:State ;
 ex:state8_toothbrush32_clean_sink3_scene2 a vh2kg:State ;
     vh2kg:bbox ex:shape_state8_toothbrush32_clean_sink3_scene2 ;
     vh2kg:isStateOf ex:toothbrush32_scene2 ;
-    vh2kg:nextState ex:state17_toothbrush32_clean_sink3_scene2 ;
+    vh2kg:nextState ex:state11_toothbrush32_clean_sink3_scene2 ;
     vh2kg:partOf ex:home_situation10_clean_sink3_scene2,
-        ex:home_situation11_clean_sink3_scene2,
-        ex:home_situation12_clean_sink3_scene2,
-        ex:home_situation13_clean_sink3_scene2,
-        ex:home_situation14_clean_sink3_scene2,
-        ex:home_situation15_clean_sink3_scene2,
-        ex:home_situation16_clean_sink3_scene2,
         ex:home_situation8_clean_sink3_scene2,
         ex:home_situation9_clean_sink3_scene2 ;
     vh2kg:state vh2kg:GRABED .
@@ -17431,6 +17432,16 @@ ex:shape_state0_wall76_clean_sink3_scene2 a x3do:Shape ;
             rdf:first 2.500004e+00 ;
             rdf:rest ( 2.500009e+00 2.500004e+00 ) ] .
 
+ex:shape_state11_toothbrush32_clean_sink3_scene2 a x3do:Shape ;
+    vh2kg:close ex:shape_state4_character1_clean_sink3_scene2 ;
+    vh2kg:inside ex:shape_state0_bathroom11_clean_sink3_scene2 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first -2.71001e+00 ;
+            rdf:rest ( 1.041681e+00 1.093936e+01 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 1.168082e-01 ;
+            rdf:rest ( 2.249428e-02 2.251558e-01 ) ] .
+
 ex:shape_state13_waterglass33_clean_sink3_scene2 a x3do:Shape ;
     vh2kg:close ex:shape_state4_character1_clean_sink3_scene2 ;
     vh2kg:inside ex:shape_state0_bathroom11_clean_sink3_scene2 ;
@@ -18416,16 +18427,16 @@ ex:facecream36_scene2 a vh2kg:Facecream ;
     vh2kg:attribute vh2kg:cream ;
     dcterms:identifier "36" .
 
-ex:toothbrush32_scene2 a vh2kg:Toothbrush ;
-    rdfs:label "toothbrush" ;
-    dcterms:identifier "32" .
-
 vh2kg:Electronics a owl:Class ;
     rdfs:label "Electronics" ;
     rdfs:subClassOf vh2kg:Object .
 
 vh2kg:Pillow a owl:Class ;
     rdfs:subClassOf vh2kg:Decor .
+
+ex:toothbrush32_scene2 a vh2kg:Toothbrush ;
+    rdfs:label "toothbrush" ;
+    dcterms:identifier "32" .
 
 ex:towel41_scene2 a vh2kg:Towel ;
     rdfs:label "towel" ;
@@ -18599,10 +18610,15 @@ ex:shape_state0_kitchencounter140_clean_sink3_scene2 a x3do:Shape ;
             rdf:first 3.014e+00 ;
             rdf:rest ( 1.05e+00 7.699995e-01 ) ] .
 
+vh2kg:Furniture a owl:Class ;
+    rdfs:label "Furniture" ;
+    rdfs:subClassOf vh2kg:Object .
+
 ex:shape_state4_character1_clean_sink3_scene2 a x3do:Shape ;
     vh2kg:close ex:shape_state0_bathroomcabinet26_clean_sink3_scene2,
         ex:shape_state0_bathroomcounter27_clean_sink3_scene2,
         ex:shape_state0_rug42_clean_sink3_scene2,
+        ex:shape_state11_toothbrush32_clean_sink3_scene2,
         ex:shape_state13_waterglass33_clean_sink3_scene2,
         ex:shape_state17_toothbrush32_clean_sink3_scene2,
         ex:shape_state17_waterglass33_clean_sink3_scene2,
@@ -18628,10 +18644,6 @@ ex:shape_state4_character1_clean_sink3_scene2 a x3do:Shape ;
     x3do:bboxSize [ a x3do:SFVec3f ;
             rdf:first 1.425581e+00 ;
             rdf:rest ( 1.877454e+00 9.135895e-01 ) ] .
-
-vh2kg:Furniture a owl:Class ;
-    rdfs:label "Furniture" ;
-    rdfs:subClassOf vh2kg:Object .
 
 vh2kg:Wall a owl:Class ;
     rdfs:subClassOf vh2kg:Walls .

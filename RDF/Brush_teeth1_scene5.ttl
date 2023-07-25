@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -11272,6 +11272,11 @@ ex:state16_hanger348_brush_teeth1_scene5 a vh2kg:State ;
     vh2kg:partOf ex:home_situation16_brush_teeth1_scene5 ;
     vh2kg:state vh2kg:CLEAN .
 
+ex:state16_toothbrush371_brush_teeth1_scene5 a vh2kg:State ;
+    vh2kg:bbox ex:shape_state16_toothbrush371_brush_teeth1_scene5 ;
+    vh2kg:isStateOf ex:toothbrush371_scene5 ;
+    vh2kg:partOf ex:home_situation16_brush_teeth1_scene5 .
+
 ex:state1_bed293_brush_teeth1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state1_bed293_brush_teeth1_scene5 ;
     vh2kg:isStateOf ex:bed293_scene5 ;
@@ -13317,13 +13322,13 @@ ex:state5_character1_brush_teeth1_scene5 a vh2kg:State ;
 ex:state5_toothbrush371_brush_teeth1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state5_toothbrush371_brush_teeth1_scene5 ;
     vh2kg:isStateOf ex:toothbrush371_scene5 ;
+    vh2kg:nextState ex:state16_toothbrush371_brush_teeth1_scene5 ;
     vh2kg:partOf ex:home_situation10_brush_teeth1_scene5,
         ex:home_situation11_brush_teeth1_scene5,
         ex:home_situation12_brush_teeth1_scene5,
         ex:home_situation13_brush_teeth1_scene5,
         ex:home_situation14_brush_teeth1_scene5,
         ex:home_situation15_brush_teeth1_scene5,
-        ex:home_situation16_brush_teeth1_scene5,
         ex:home_situation5_brush_teeth1_scene5,
         ex:home_situation6_brush_teeth1_scene5,
         ex:home_situation7_brush_teeth1_scene5,
@@ -13518,8 +13523,7 @@ ex:state9_toothpaste377_brush_teeth1_scene5 a vh2kg:State ;
         ex:home_situation14_brush_teeth1_scene5,
         ex:home_situation15_brush_teeth1_scene5,
         ex:home_situation16_brush_teeth1_scene5,
-        ex:home_situation9_brush_teeth1_scene5 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation9_brush_teeth1_scene5 .
 
 ex:state9_wallpictureframe380_brush_teeth1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state9_wallpictureframe380_brush_teeth1_scene5 ;
@@ -14994,6 +14998,16 @@ ex:shape_state16_closetdrawer358_brush_teeth1_scene5 a x3do:Shape ;
     x3do:bboxSize [ a x3do:SFVec3f ;
             rdf:first 5.653746e-01 ;
             rdf:rest ( 2.004465e-01 4.592882e-01 ) ] .
+
+ex:shape_state16_toothbrush371_brush_teeth1_scene5 a x3do:Shape ;
+    vh2kg:close ex:shape_state16_character1_brush_teeth1_scene5 ;
+    vh2kg:inside ex:shape_state0_bathroom295_brush_teeth1_scene5 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first 2.013976e+00 ;
+            rdf:rest ( 1.056745e+00 6.110263e+00 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 1.477307e-01 ;
+            rdf:rest ( 1.713425e-02 1.285472e-01 ) ] .
 
 ex:shape_state1_cereal230_brush_teeth1_scene5 a x3do:Shape ;
     vh2kg:close ex:shape_state1_character1_brush_teeth1_scene5 ;
@@ -16780,6 +16794,22 @@ ex:shape_state0_closetdrawer54_brush_teeth1_scene5 a x3do:Shape ;
             rdf:first 9.477488e-01 ;
             rdf:rest ( 2.004483e-01 5.653747e-01 ) ] .
 
+ex:shape_state5_toothbrush371_brush_teeth1_scene5 a x3do:Shape ;
+    vh2kg:close ex:shape_state10_character1_brush_teeth1_scene5,
+        ex:shape_state11_character1_brush_teeth1_scene5,
+        ex:shape_state5_character1_brush_teeth1_scene5,
+        ex:shape_state6_character1_brush_teeth1_scene5,
+        ex:shape_state7_character1_brush_teeth1_scene5,
+        ex:shape_state8_character1_brush_teeth1_scene5,
+        ex:shape_state9_character1_brush_teeth1_scene5 ;
+    vh2kg:inside ex:shape_state0_bathroom295_brush_teeth1_scene5 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first 2.128795e+00 ;
+            rdf:rest ( 7.436112e-01 5.288855e+00 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 1.019336e-01 ;
+            rdf:rest ( 6.677612e-02 1.652029e-01 ) ] .
+
 ex:shape_state6_clothespile359_brush_teeth1_scene5 a x3do:Shape ;
     vh2kg:close ex:shape_state10_character1_brush_teeth1_scene5,
         ex:shape_state11_character1_brush_teeth1_scene5,
@@ -16848,27 +16878,6 @@ ex:shape_state4_faucet319_brush_teeth1_scene5 a x3do:Shape ;
     x3do:bboxSize [ a x3do:SFVec3f ;
             rdf:first 9.99999e-02 ;
             rdf:rest ( 9.999996e-02 1.000004e-01 ) ] .
-
-ex:shape_state5_toothbrush371_brush_teeth1_scene5 a x3do:Shape ;
-    vh2kg:close ex:shape_state10_character1_brush_teeth1_scene5,
-        ex:shape_state11_character1_brush_teeth1_scene5,
-        ex:shape_state16_character1_brush_teeth1_scene5,
-        ex:shape_state5_character1_brush_teeth1_scene5,
-        ex:shape_state6_character1_brush_teeth1_scene5,
-        ex:shape_state7_character1_brush_teeth1_scene5,
-        ex:shape_state8_character1_brush_teeth1_scene5,
-        ex:shape_state9_character1_brush_teeth1_scene5 ;
-    vh2kg:inside ex:shape_state0_bathroom295_brush_teeth1_scene5 ;
-    x3do:bboxCenter [ a x3do:SFVec3f ;
-            rdf:first 2.128795e+00 ;
-            rdf:rest ( 7.436112e-01 5.288855e+00 ) ] ;
-    x3do:bboxSize [ a x3do:SFVec3f ;
-            rdf:first 1.019336e-01 ;
-            rdf:rest ( 6.677612e-02 1.652029e-01 ) ] .
-
-ex:toothbrush371_scene5 a vh2kg:Toothbrush ;
-    rdfs:label "toothbrush" ;
-    dcterms:identifier "371" .
 
 vh2kg:Pillow a owl:Class ;
     rdfs:subClassOf vh2kg:Decor .
@@ -17079,6 +17088,10 @@ ex:shape_state4_waterglass370_brush_teeth1_scene5 a x3do:Shape ;
     x3do:bboxSize [ a x3do:SFVec3f ;
             rdf:first 6.818295e-02 ;
             rdf:rest ( 9.403393e-02 6.818295e-02 ) ] .
+
+ex:toothbrush371_scene5 a vh2kg:Toothbrush ;
+    rdfs:label "toothbrush" ;
+    dcterms:identifier "371" .
 
 vh2kg:Appliances a owl:Class ;
     rdfs:label "Appliances" ;
@@ -17379,6 +17392,7 @@ ex:shape_state16_character1_brush_teeth1_scene5 a x3do:Shape ;
     vh2kg:close ex:shape_state10_toiletpaper364_brush_teeth1_scene5,
         ex:shape_state10_wallpictureframe380_brush_teeth1_scene5,
         ex:shape_state15_faucet319_brush_teeth1_scene5,
+        ex:shape_state16_toothbrush371_brush_teeth1_scene5,
         ex:shape_state3_rug381_brush_teeth1_scene5,
         ex:shape_state4_barsoap372_brush_teeth1_scene5,
         ex:shape_state4_bathroomcabinet316_brush_teeth1_scene5,
@@ -17394,7 +17408,6 @@ ex:shape_state16_character1_brush_teeth1_scene5 a x3do:Shape ;
         ex:shape_state4_towel363_brush_teeth1_scene5,
         ex:shape_state4_washingmachine386_brush_teeth1_scene5,
         ex:shape_state4_waterglass370_brush_teeth1_scene5,
-        ex:shape_state5_toothbrush371_brush_teeth1_scene5,
         ex:shape_state6_clothespile350_brush_teeth1_scene5,
         ex:shape_state6_clothespile359_brush_teeth1_scene5,
         ex:shape_state9_toothpaste377_brush_teeth1_scene5 ;

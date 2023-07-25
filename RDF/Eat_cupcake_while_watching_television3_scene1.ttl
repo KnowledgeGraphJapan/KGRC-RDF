@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -13964,10 +13964,15 @@ ex:state13_wallpictureframe423_eat_cupcake_while_watching_television3_scene1 a v
 ex:state14_remotecontrol460_eat_cupcake_while_watching_television3_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state14_remotecontrol460_eat_cupcake_while_watching_television3_scene1 ;
     vh2kg:isStateOf ex:remotecontrol460_scene1 ;
-    vh2kg:partOf ex:home_situation14_eat_cupcake_while_watching_television3_scene1,
-        ex:home_situation15_eat_cupcake_while_watching_television3_scene1,
-        ex:home_situation16_eat_cupcake_while_watching_television3_scene1 ;
+    vh2kg:nextState ex:state15_remotecontrol460_eat_cupcake_while_watching_television3_scene1 ;
+    vh2kg:partOf ex:home_situation14_eat_cupcake_while_watching_television3_scene1 ;
     vh2kg:state vh2kg:GRABED .
+
+ex:state15_remotecontrol460_eat_cupcake_while_watching_television3_scene1 a vh2kg:State ;
+    vh2kg:bbox ex:shape_state15_remotecontrol460_eat_cupcake_while_watching_television3_scene1 ;
+    vh2kg:isStateOf ex:remotecontrol460_scene1 ;
+    vh2kg:partOf ex:home_situation15_eat_cupcake_while_watching_television3_scene1,
+        ex:home_situation16_eat_cupcake_while_watching_television3_scene1 .
 
 ex:state16_tv433_eat_cupcake_while_watching_television3_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state16_tv433_eat_cupcake_while_watching_television3_scene1 ;
@@ -18334,6 +18339,19 @@ ex:shape_state13_remotecontrol460_eat_cupcake_while_watching_television3_scene1 
 ex:shape_state14_remotecontrol460_eat_cupcake_while_watching_television3_scene1 a x3do:Shape ;
     vh2kg:close ex:shape_state13_character1_eat_cupcake_while_watching_television3_scene1 ;
     vh2kg:facing ex:shape_state0_computer440_eat_cupcake_while_watching_television3_scene1,
+        ex:shape_state13_tv433_eat_cupcake_while_watching_television3_scene1 ;
+    vh2kg:inside ex:shape_state0_livingroom342_eat_cupcake_while_watching_television3_scene1 ;
+    vh2kg:on ex:shape_state13_tvstand376_eat_cupcake_while_watching_television3_scene1 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first 5.976821e+00 ;
+            rdf:rest ( 5.141386e-01 -8.369259e+00 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 3.998517e-02 ;
+            rdf:rest ( 3.5e-02 2.143111e-01 ) ] .
+
+ex:shape_state15_remotecontrol460_eat_cupcake_while_watching_television3_scene1 a x3do:Shape ;
+    vh2kg:close ex:shape_state13_character1_eat_cupcake_while_watching_television3_scene1 ;
+    vh2kg:facing ex:shape_state0_computer440_eat_cupcake_while_watching_television3_scene1,
         ex:shape_state13_tv433_eat_cupcake_while_watching_television3_scene1,
         ex:shape_state16_tv433_eat_cupcake_while_watching_television3_scene1 ;
     vh2kg:inside ex:shape_state0_livingroom342_eat_cupcake_while_watching_television3_scene1 ;
@@ -20534,20 +20552,6 @@ ex:shape_state0_rug180_eat_cupcake_while_watching_television3_scene1 a x3do:Shap
             rdf:first 2.954861e+00 ;
             rdf:rest ( 2.454547e-02 3.849833e+00 ) ] .
 
-ex:shape_state13_tvstand376_eat_cupcake_while_watching_television3_scene1 a x3do:Shape ;
-    vh2kg:close ex:shape_state13_character1_eat_cupcake_while_watching_television3_scene1 ;
-    vh2kg:facing ex:shape_state0_computer440_eat_cupcake_while_watching_television3_scene1,
-        ex:shape_state13_tv433_eat_cupcake_while_watching_television3_scene1,
-        ex:shape_state16_tv433_eat_cupcake_while_watching_television3_scene1 ;
-    vh2kg:inside ex:shape_state0_livingroom342_eat_cupcake_while_watching_television3_scene1 ;
-    vh2kg:on ex:shape_state0_floor347_eat_cupcake_while_watching_television3_scene1 ;
-    x3do:bboxCenter [ a x3do:SFVec3f ;
-            rdf:first 6.135e+00 ;
-            rdf:rest ( 2.46e-01 -8.6052e+00 ) ] ;
-    x3do:bboxSize [ a x3do:SFVec3f ;
-            rdf:first 2.16e+00 ;
-            rdf:rest ( 4.92e-01 7.600005e-01 ) ] .
-
 ex:shape_state5_rug255_eat_cupcake_while_watching_television3_scene1 a x3do:Shape ;
     vh2kg:close ex:shape_state5_character1_eat_cupcake_while_watching_television3_scene1,
         ex:shape_state6_character1_eat_cupcake_while_watching_television3_scene1,
@@ -20765,6 +20769,20 @@ ex:shape_state0_tvstand376_eat_cupcake_while_watching_television3_scene1 a x3do:
     vh2kg:facing ex:shape_state0_computer440_eat_cupcake_while_watching_television3_scene1,
         ex:shape_state0_tv433_eat_cupcake_while_watching_television3_scene1,
         ex:shape_state2_tv433_eat_cupcake_while_watching_television3_scene1 ;
+    vh2kg:inside ex:shape_state0_livingroom342_eat_cupcake_while_watching_television3_scene1 ;
+    vh2kg:on ex:shape_state0_floor347_eat_cupcake_while_watching_television3_scene1 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first 6.135e+00 ;
+            rdf:rest ( 2.46e-01 -8.6052e+00 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 2.16e+00 ;
+            rdf:rest ( 4.92e-01 7.600005e-01 ) ] .
+
+ex:shape_state13_tvstand376_eat_cupcake_while_watching_television3_scene1 a x3do:Shape ;
+    vh2kg:close ex:shape_state13_character1_eat_cupcake_while_watching_television3_scene1 ;
+    vh2kg:facing ex:shape_state0_computer440_eat_cupcake_while_watching_television3_scene1,
+        ex:shape_state13_tv433_eat_cupcake_while_watching_television3_scene1,
+        ex:shape_state16_tv433_eat_cupcake_while_watching_television3_scene1 ;
     vh2kg:inside ex:shape_state0_livingroom342_eat_cupcake_while_watching_television3_scene1 ;
     vh2kg:on ex:shape_state0_floor347_eat_cupcake_while_watching_television3_scene1 ;
     x3do:bboxCenter [ a x3do:SFVec3f ;
@@ -21002,23 +21020,6 @@ vh2kg:Electronics a owl:Class ;
     rdfs:label "Electronics" ;
     rdfs:subClassOf vh2kg:Object .
 
-ex:shape_state13_tv433_eat_cupcake_while_watching_television3_scene1 a x3do:Shape ;
-    vh2kg:close ex:shape_state13_character1_eat_cupcake_while_watching_television3_scene1 ;
-    vh2kg:facing ex:shape_state0_computer440_eat_cupcake_while_watching_television3_scene1 ;
-    vh2kg:inside ex:shape_state0_livingroom342_eat_cupcake_while_watching_television3_scene1 ;
-    vh2kg:on ex:shape_state13_tvstand376_eat_cupcake_while_watching_television3_scene1 ;
-    x3do:bboxCenter [ a x3do:SFVec3f ;
-            rdf:first 6.103002e+00 ;
-            rdf:rest ( 9.046552e-01 -8.6152e+00 ) ] ;
-    x3do:bboxSize [ a x3do:SFVec3f ;
-            rdf:first 1.106102e+00 ;
-            rdf:rest ( 8.233126e-01 2.354236e-01 ) ] .
-
-ex:remotecontrol460_scene1 a vh2kg:Remotecontrol ;
-    rdfs:label "remotecontrol" ;
-    vh2kg:attribute vh2kg:has_switch ;
-    dcterms:identifier "460" .
-
 ex:shape_state0_tv433_eat_cupcake_while_watching_television3_scene1 a x3do:Shape ;
     vh2kg:close ex:shape_state0_character1_eat_cupcake_while_watching_television3_scene1,
         ex:shape_state1_character1_eat_cupcake_while_watching_television3_scene1 ;
@@ -21032,8 +21033,25 @@ ex:shape_state0_tv433_eat_cupcake_while_watching_television3_scene1 a x3do:Shape
             rdf:first 1.106102e+00 ;
             rdf:rest ( 8.233126e-01 2.354236e-01 ) ] .
 
+ex:shape_state13_tv433_eat_cupcake_while_watching_television3_scene1 a x3do:Shape ;
+    vh2kg:close ex:shape_state13_character1_eat_cupcake_while_watching_television3_scene1 ;
+    vh2kg:facing ex:shape_state0_computer440_eat_cupcake_while_watching_television3_scene1 ;
+    vh2kg:inside ex:shape_state0_livingroom342_eat_cupcake_while_watching_television3_scene1 ;
+    vh2kg:on ex:shape_state13_tvstand376_eat_cupcake_while_watching_television3_scene1 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first 6.103002e+00 ;
+            rdf:rest ( 9.046552e-01 -8.6152e+00 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 1.106102e+00 ;
+            rdf:rest ( 8.233126e-01 2.354236e-01 ) ] .
+
 vh2kg:Wallpictureframe a owl:Class ;
     rdfs:subClassOf vh2kg:Decor .
+
+ex:remotecontrol460_scene1 a vh2kg:Remotecontrol ;
+    rdfs:label "remotecontrol" ;
+    vh2kg:attribute vh2kg:has_switch ;
+    dcterms:identifier "460" .
 
 ex:shape_state0_coffeetable378_eat_cupcake_while_watching_television3_scene1 a x3do:Shape ;
     vh2kg:facing ex:shape_state0_computer440_eat_cupcake_while_watching_television3_scene1,
@@ -21381,6 +21399,7 @@ ex:shape_state13_character1_eat_cupcake_while_watching_television3_scene1 a x3do
         ex:shape_state13_tv433_eat_cupcake_while_watching_television3_scene1,
         ex:shape_state13_tvstand376_eat_cupcake_while_watching_television3_scene1,
         ex:shape_state14_remotecontrol460_eat_cupcake_while_watching_television3_scene1,
+        ex:shape_state15_remotecontrol460_eat_cupcake_while_watching_television3_scene1,
         ex:shape_state16_tv433_eat_cupcake_while_watching_television3_scene1,
         ex:shape_state8_apple444_eat_cupcake_while_watching_television3_scene1,
         ex:shape_state8_apple445_eat_cupcake_while_watching_television3_scene1,

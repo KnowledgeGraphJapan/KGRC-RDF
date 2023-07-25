@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -12225,8 +12225,7 @@ ex:state10_wineglass353_drink_wine1_scene6 a vh2kg:State ;
     vh2kg:isStateOf ex:wineglass353_scene6 ;
     vh2kg:nextState ex:state12_wineglass353_drink_wine1_scene6 ;
     vh2kg:partOf ex:home_situation10_drink_wine1_scene6,
-        ex:home_situation11_drink_wine1_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation11_drink_wine1_scene6 .
 
 ex:state12_wine352_drink_wine1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state12_wine352_drink_wine1_scene6 ;
@@ -12249,8 +12248,7 @@ ex:state12_wineglass353_drink_wine1_scene6 a vh2kg:State ;
     vh2kg:nextState ex:state15_wineglass353_drink_wine1_scene6 ;
     vh2kg:partOf ex:home_situation12_drink_wine1_scene6,
         ex:home_situation13_drink_wine1_scene6,
-        ex:home_situation14_drink_wine1_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation14_drink_wine1_scene6 .
 
 ex:state15_wineglass353_drink_wine1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state15_wineglass353_drink_wine1_scene6 ;
@@ -12264,8 +12262,7 @@ ex:state17_wineglass353_drink_wine1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state17_wineglass353_drink_wine1_scene6 ;
     vh2kg:isStateOf ex:wineglass353_scene6 ;
     vh2kg:nextState ex:state18_wineglass353_drink_wine1_scene6 ;
-    vh2kg:partOf ex:home_situation17_drink_wine1_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+    vh2kg:partOf ex:home_situation17_drink_wine1_scene6 .
 
 ex:state18_wineglass353_drink_wine1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state18_wineglass353_drink_wine1_scene6 ;
@@ -12589,8 +12586,7 @@ ex:state20_wineglass353_drink_wine1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state20_wineglass353_drink_wine1_scene6 ;
     vh2kg:isStateOf ex:wineglass353_scene6 ;
     vh2kg:partOf ex:home_situation20_drink_wine1_scene6,
-        ex:home_situation21_drink_wine1_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation21_drink_wine1_scene6 .
 
 ex:state2_bench186_drink_wine1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state2_bench186_drink_wine1_scene6 ;
@@ -13322,8 +13318,7 @@ ex:state6_wine352_drink_wine1_scene6 a vh2kg:State ;
         ex:home_situation6_drink_wine1_scene6,
         ex:home_situation7_drink_wine1_scene6,
         ex:home_situation8_drink_wine1_scene6,
-        ex:home_situation9_drink_wine1_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation9_drink_wine1_scene6 .
 
 ex:state7_character1_drink_wine1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state7_character1_drink_wine1_scene6 ;

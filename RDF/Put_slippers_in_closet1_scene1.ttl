@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -14391,6 +14391,13 @@ ex:state10_faucet52_put_slippers_in_closet1_scene1 a vh2kg:State ;
     vh2kg:state vh2kg:CLEAN,
         vh2kg:OFF .
 
+ex:state12_towel55_put_slippers_in_closet1_scene1 a vh2kg:State ;
+    vh2kg:bbox ex:shape_state12_towel55_put_slippers_in_closet1_scene1 ;
+    vh2kg:isStateOf ex:towel55_scene1 ;
+    vh2kg:nextState ex:state13_towel55_put_slippers_in_closet1_scene1 ;
+    vh2kg:partOf ex:home_situation12_put_slippers_in_closet1_scene1 ;
+    vh2kg:state vh2kg:GRABED .
+
 ex:state13_barsoap68_put_slippers_in_closet1_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state13_barsoap68_put_slippers_in_closet1_scene1 ;
     vh2kg:isStateOf ex:barsoap68_scene1 ;
@@ -15095,8 +15102,7 @@ ex:state15_wineglass201_put_slippers_in_closet1_scene1 a vh2kg:State ;
 ex:state16_slippers204_put_slippers_in_closet1_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state16_slippers204_put_slippers_in_closet1_scene1 ;
     vh2kg:isStateOf ex:slippers204_scene1 ;
-    vh2kg:partOf ex:home_situation16_put_slippers_in_closet1_scene1 ;
-    vh2kg:state vh2kg:GRABED .
+    vh2kg:partOf ex:home_situation16_put_slippers_in_closet1_scene1 .
 
 ex:state1_bed112_put_slippers_in_closet1_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state1_bed112_put_slippers_in_closet1_scene1 ;
@@ -15911,13 +15917,9 @@ ex:state7_folder206_put_slippers_in_closet1_scene1 a vh2kg:State ;
 ex:state7_towel55_put_slippers_in_closet1_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state7_towel55_put_slippers_in_closet1_scene1 ;
     vh2kg:isStateOf ex:towel55_scene1 ;
-    vh2kg:nextState ex:state13_towel55_put_slippers_in_closet1_scene1 ;
-    vh2kg:partOf ex:home_situation10_put_slippers_in_closet1_scene1,
-        ex:home_situation11_put_slippers_in_closet1_scene1,
-        ex:home_situation12_put_slippers_in_closet1_scene1,
-        ex:home_situation7_put_slippers_in_closet1_scene1,
-        ex:home_situation8_put_slippers_in_closet1_scene1,
-        ex:home_situation9_put_slippers_in_closet1_scene1 ;
+    vh2kg:nextState ex:state9_towel55_put_slippers_in_closet1_scene1 ;
+    vh2kg:partOf ex:home_situation7_put_slippers_in_closet1_scene1,
+        ex:home_situation8_put_slippers_in_closet1_scene1 ;
     vh2kg:state vh2kg:GRABED .
 
 ex:state7_towel57_put_slippers_in_closet1_scene1 a vh2kg:State ;
@@ -16175,6 +16177,14 @@ ex:state8_waterglass66_put_slippers_in_closet1_scene1 a vh2kg:State ;
         ex:home_situation11_put_slippers_in_closet1_scene1,
         ex:home_situation12_put_slippers_in_closet1_scene1,
         ex:home_situation8_put_slippers_in_closet1_scene1,
+        ex:home_situation9_put_slippers_in_closet1_scene1 .
+
+ex:state9_towel55_put_slippers_in_closet1_scene1 a vh2kg:State ;
+    vh2kg:bbox ex:shape_state9_towel55_put_slippers_in_closet1_scene1 ;
+    vh2kg:isStateOf ex:towel55_scene1 ;
+    vh2kg:nextState ex:state12_towel55_put_slippers_in_closet1_scene1 ;
+    vh2kg:partOf ex:home_situation10_put_slippers_in_closet1_scene1,
+        ex:home_situation11_put_slippers_in_closet1_scene1,
         ex:home_situation9_put_slippers_in_closet1_scene1 .
 
 ex:stove314_scene1 a vh2kg:Stove ;
@@ -17818,6 +17828,16 @@ ex:shape_state10_faucet52_put_slippers_in_closet1_scene1 a x3do:Shape ;
             rdf:first 1.000004e-01 ;
             rdf:rest ( 9.999996e-02 1e-01 ) ] .
 
+ex:shape_state12_towel55_put_slippers_in_closet1_scene1 a x3do:Shape ;
+    vh2kg:close ex:shape_state8_character1_put_slippers_in_closet1_scene1 ;
+    vh2kg:inside ex:shape_state0_bathroom11_put_slippers_in_closet1_scene1 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first -8.114241e+00 ;
+            rdf:rest ( 7.404699e-01 4.521421e-01 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 3.071376e-01 ;
+            rdf:rest ( 3.45426e-01 3.322638e-01 ) ] .
+
 ex:shape_state13_candle184_put_slippers_in_closet1_scene1 a x3do:Shape ;
     vh2kg:close ex:shape_state13_character1_put_slippers_in_closet1_scene1 ;
     vh2kg:inside ex:shape_state0_bedroom75_put_slippers_in_closet1_scene1 ;
@@ -18588,6 +18608,16 @@ ex:shape_state8_waterglass66_put_slippers_in_closet1_scene1 a x3do:Shape ;
     x3do:bboxSize [ a x3do:SFVec3f ;
             rdf:first 8.951233e-02 ;
             rdf:rest ( 1.234502e-01 8.951233e-02 ) ] .
+
+ex:shape_state9_towel55_put_slippers_in_closet1_scene1 a x3do:Shape ;
+    vh2kg:close ex:shape_state8_character1_put_slippers_in_closet1_scene1 ;
+    vh2kg:inside ex:shape_state0_bathroom11_put_slippers_in_closet1_scene1 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first -8.492805e+00 ;
+            rdf:rest ( 9.630733e-01 9.035583e-01 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 2.443566e-01 ;
+            rdf:rest ( 8.814655e-02 4.031124e-01 ) ] .
 
 ex:wallpictureframe182_scene1 a vh2kg:Wallpictureframe ;
     rdfs:label "wallpictureframe" ;
@@ -20154,11 +20184,6 @@ ex:shape_state13_coffeetable114_put_slippers_in_closet1_scene1 a x3do:Shape ;
             rdf:first 1.280265e+00 ;
             rdf:rest ( 2.440028e-01 1.280266e+00 ) ] .
 
-ex:towel55_scene1 a vh2kg:Towel ;
-    rdfs:label "towel" ;
-    vh2kg:attribute vh2kg:cover_object ;
-    dcterms:identifier "55" .
-
 vh2kg:Appliances a owl:Class ;
     rdfs:label "Appliances" ;
     rdfs:subClassOf vh2kg:Object .
@@ -20209,6 +20234,11 @@ ex:slippers204_scene1 a vh2kg:Slippers ;
 vh2kg:Electronics a owl:Class ;
     rdfs:label "Electronics" ;
     rdfs:subClassOf vh2kg:Object .
+
+ex:towel55_scene1 a vh2kg:Towel ;
+    rdfs:label "towel" ;
+    vh2kg:attribute vh2kg:cover_object ;
+    dcterms:identifier "55" .
 
 ex:shape_state0_character1_put_slippers_in_closet1_scene1 a x3do:Shape ;
     vh2kg:close ex:shape_state0_closet115_put_slippers_in_closet1_scene1,
@@ -20379,32 +20409,6 @@ ex:shape_state6_character1_put_slippers_in_closet1_scene1 a x3do:Shape ;
             rdf:first 1.371013e+00 ;
             rdf:rest ( 1.892597e+00 5.79111e-01 ) ] .
 
-ex:shape_state8_character1_put_slippers_in_closet1_scene1 a x3do:Shape ;
-    vh2kg:close ex:shape_state10_faucet52_put_slippers_in_closet1_scene1,
-        ex:shape_state3_slippers204_put_slippers_in_closet1_scene1,
-        ex:shape_state4_barsoap68_put_slippers_in_closet1_scene1,
-        ex:shape_state4_bathroomcabinet49_put_slippers_in_closet1_scene1,
-        ex:shape_state4_bathroomcounter50_put_slippers_in_closet1_scene1,
-        ex:shape_state4_towel56_put_slippers_in_closet1_scene1,
-        ex:shape_state7_faucet52_put_slippers_in_closet1_scene1,
-        ex:shape_state7_towel55_put_slippers_in_closet1_scene1,
-        ex:shape_state7_towel57_put_slippers_in_closet1_scene1,
-        ex:shape_state8_deodorant59_put_slippers_in_closet1_scene1,
-        ex:shape_state8_facecream62_put_slippers_in_closet1_scene1,
-        ex:shape_state8_painkillers65_put_slippers_in_closet1_scene1,
-        ex:shape_state8_perfume58_put_slippers_in_closet1_scene1,
-        ex:shape_state8_sink51_put_slippers_in_closet1_scene1,
-        ex:shape_state8_toothbrush67_put_slippers_in_closet1_scene1,
-        ex:shape_state8_toothpaste64_put_slippers_in_closet1_scene1,
-        ex:shape_state8_waterglass66_put_slippers_in_closet1_scene1 ;
-    vh2kg:inside ex:shape_state0_bathroom11_put_slippers_in_closet1_scene1 ;
-    x3do:bboxCenter [ a x3do:SFVec3f ;
-            rdf:first -7.947044e+00 ;
-            rdf:rest ( 8.509514e-01 4.550795e-01 ) ] ;
-    x3do:bboxSize [ a x3do:SFVec3f ;
-            rdf:first 1.071492e+00 ;
-            rdf:rest ( 1.880435e+00 1.413515e+00 ) ] .
-
 ex:shape_state0_bookshelf251_put_slippers_in_closet1_scene1 a x3do:Shape ;
     vh2kg:facing ex:shape_state0_tv266_put_slippers_in_closet1_scene1 ;
     vh2kg:inside ex:shape_state0_kitchen209_put_slippers_in_closet1_scene1 ;
@@ -20452,6 +20456,34 @@ ex:shape_state7_character1_put_slippers_in_closet1_scene1 a x3do:Shape ;
     x3do:bboxSize [ a x3do:SFVec3f ;
             rdf:first 1.421936e+00 ;
             rdf:rest ( 1.880145e+00 7.685971e-01 ) ] .
+
+ex:shape_state8_character1_put_slippers_in_closet1_scene1 a x3do:Shape ;
+    vh2kg:close ex:shape_state10_faucet52_put_slippers_in_closet1_scene1,
+        ex:shape_state12_towel55_put_slippers_in_closet1_scene1,
+        ex:shape_state3_slippers204_put_slippers_in_closet1_scene1,
+        ex:shape_state4_barsoap68_put_slippers_in_closet1_scene1,
+        ex:shape_state4_bathroomcabinet49_put_slippers_in_closet1_scene1,
+        ex:shape_state4_bathroomcounter50_put_slippers_in_closet1_scene1,
+        ex:shape_state4_towel56_put_slippers_in_closet1_scene1,
+        ex:shape_state7_faucet52_put_slippers_in_closet1_scene1,
+        ex:shape_state7_towel55_put_slippers_in_closet1_scene1,
+        ex:shape_state7_towel57_put_slippers_in_closet1_scene1,
+        ex:shape_state8_deodorant59_put_slippers_in_closet1_scene1,
+        ex:shape_state8_facecream62_put_slippers_in_closet1_scene1,
+        ex:shape_state8_painkillers65_put_slippers_in_closet1_scene1,
+        ex:shape_state8_perfume58_put_slippers_in_closet1_scene1,
+        ex:shape_state8_sink51_put_slippers_in_closet1_scene1,
+        ex:shape_state8_toothbrush67_put_slippers_in_closet1_scene1,
+        ex:shape_state8_toothpaste64_put_slippers_in_closet1_scene1,
+        ex:shape_state8_waterglass66_put_slippers_in_closet1_scene1,
+        ex:shape_state9_towel55_put_slippers_in_closet1_scene1 ;
+    vh2kg:inside ex:shape_state0_bathroom11_put_slippers_in_closet1_scene1 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first -7.947044e+00 ;
+            rdf:rest ( 8.509514e-01 4.550795e-01 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 1.071492e+00 ;
+            rdf:rest ( 1.880435e+00 1.413515e+00 ) ] .
 
 vh2kg:Closetdrawer a owl:Class ;
     rdfs:subClassOf vh2kg:Furniture .

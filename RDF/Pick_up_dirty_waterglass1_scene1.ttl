@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -12703,21 +12703,20 @@ ex:state5_washingsponge268_pick_up_dirty_waterglass1_scene1 a vh2kg:State ;
 ex:state5_waterglass272_pick_up_dirty_waterglass1_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state5_waterglass272_pick_up_dirty_waterglass1_scene1 ;
     vh2kg:isStateOf ex:waterglass272_scene1 ;
+    vh2kg:nextState ex:state8_waterglass272_pick_up_dirty_waterglass1_scene1 ;
     vh2kg:partOf ex:home_situation5_pick_up_dirty_waterglass1_scene1,
         ex:home_situation6_pick_up_dirty_waterglass1_scene1,
-        ex:home_situation7_pick_up_dirty_waterglass1_scene1,
-        ex:home_situation8_pick_up_dirty_waterglass1_scene1,
-        ex:home_situation9_pick_up_dirty_waterglass1_scene1 ;
+        ex:home_situation7_pick_up_dirty_waterglass1_scene1 ;
     vh2kg:state vh2kg:GRABED .
 
 ex:state5_waterglass276_pick_up_dirty_waterglass1_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state5_waterglass276_pick_up_dirty_waterglass1_scene1 ;
     vh2kg:isStateOf ex:waterglass276_scene1 ;
+    vh2kg:nextState ex:state9_waterglass276_pick_up_dirty_waterglass1_scene1 ;
     vh2kg:partOf ex:home_situation5_pick_up_dirty_waterglass1_scene1,
         ex:home_situation6_pick_up_dirty_waterglass1_scene1,
         ex:home_situation7_pick_up_dirty_waterglass1_scene1,
-        ex:home_situation8_pick_up_dirty_waterglass1_scene1,
-        ex:home_situation9_pick_up_dirty_waterglass1_scene1 ;
+        ex:home_situation8_pick_up_dirty_waterglass1_scene1 ;
     vh2kg:state vh2kg:GRABED .
 
 ex:state5_waterglass284_pick_up_dirty_waterglass1_scene1 a vh2kg:State ;
@@ -12768,9 +12767,20 @@ ex:state8_chicken340_pick_up_dirty_waterglass1_scene1 a vh2kg:State ;
     vh2kg:nextState ex:state9_chicken340_pick_up_dirty_waterglass1_scene1 ;
     vh2kg:partOf ex:home_situation8_pick_up_dirty_waterglass1_scene1 .
 
+ex:state8_waterglass272_pick_up_dirty_waterglass1_scene1 a vh2kg:State ;
+    vh2kg:bbox ex:shape_state8_waterglass272_pick_up_dirty_waterglass1_scene1 ;
+    vh2kg:isStateOf ex:waterglass272_scene1 ;
+    vh2kg:partOf ex:home_situation8_pick_up_dirty_waterglass1_scene1,
+        ex:home_situation9_pick_up_dirty_waterglass1_scene1 .
+
 ex:state9_chicken340_pick_up_dirty_waterglass1_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state9_chicken340_pick_up_dirty_waterglass1_scene1 ;
     vh2kg:isStateOf ex:chicken340_scene1 ;
+    vh2kg:partOf ex:home_situation9_pick_up_dirty_waterglass1_scene1 .
+
+ex:state9_waterglass276_pick_up_dirty_waterglass1_scene1 a vh2kg:State ;
+    vh2kg:bbox ex:shape_state9_waterglass276_pick_up_dirty_waterglass1_scene1 ;
+    vh2kg:isStateOf ex:waterglass276_scene1 ;
     vh2kg:partOf ex:home_situation9_pick_up_dirty_waterglass1_scene1 .
 
 ex:stove314_scene1 a vh2kg:Stove ;
@@ -14610,6 +14620,16 @@ ex:shape_state8_chicken340_pick_up_dirty_waterglass1_scene1 a x3do:Shape ;
             rdf:first 2.396728e-01 ;
             rdf:rest ( 1.00878e-01 2.877372e-01 ) ] .
 
+ex:shape_state8_waterglass272_pick_up_dirty_waterglass1_scene1 a x3do:Shape ;
+    vh2kg:close ex:shape_state6_character1_pick_up_dirty_waterglass1_scene1 ;
+    vh2kg:inside ex:shape_state0_kitchen209_pick_up_dirty_waterglass1_scene1 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first -1.456099e+00 ;
+            rdf:rest ( 9.05725e-01 -2.120567e+00 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 1.255868e-01 ;
+            rdf:rest ( 1.234501e-01 1.255868e-01 ) ] .
+
 ex:shape_state9_chicken340_pick_up_dirty_waterglass1_scene1 a x3do:Shape ;
     vh2kg:close ex:shape_state6_character1_pick_up_dirty_waterglass1_scene1 ;
     vh2kg:inside ex:shape_state0_kitchen209_pick_up_dirty_waterglass1_scene1 ;
@@ -14620,6 +14640,16 @@ ex:shape_state9_chicken340_pick_up_dirty_waterglass1_scene1 a x3do:Shape ;
     x3do:bboxSize [ a x3do:SFVec3f ;
             rdf:first 2.396728e-01 ;
             rdf:rest ( 1.00878e-01 2.877372e-01 ) ] .
+
+ex:shape_state9_waterglass276_pick_up_dirty_waterglass1_scene1 a x3do:Shape ;
+    vh2kg:close ex:shape_state6_character1_pick_up_dirty_waterglass1_scene1 ;
+    vh2kg:inside ex:shape_state0_kitchen209_pick_up_dirty_waterglass1_scene1 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first -1.456098e+00 ;
+            rdf:rest ( 9.05725e-01 -2.120567e+00 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 1.173582e-01 ;
+            rdf:rest ( 1.234502e-01 1.173582e-01 ) ] .
 
 ex:stall45_scene1 a vh2kg:Stall ;
     rdfs:label "stall" ;
@@ -16364,14 +16394,6 @@ ex:shape_state5_kitchencounterdrawer246_pick_up_dirty_waterglass1_scene1 a x3do:
             rdf:first 9.820001e-01 ;
             rdf:rest ( 2.72e-01 7.120002e-01 ) ] .
 
-ex:waterglass272_scene1 a vh2kg:Waterglass ;
-    rdfs:label "waterglass" ;
-    dcterms:identifier "272" .
-
-ex:waterglass276_scene1 a vh2kg:Waterglass ;
-    rdfs:label "waterglass" ;
-    dcterms:identifier "276" .
-
 vh2kg:Plate a owl:Class ;
     rdfs:subClassOf vh2kg:Props .
 
@@ -16397,6 +16419,14 @@ ex:shape_state0_tv433_pick_up_dirty_waterglass1_scene1 a x3do:Shape ;
     x3do:bboxSize [ a x3do:SFVec3f ;
             rdf:first 1.106102e+00 ;
             rdf:rest ( 8.233126e-01 2.354236e-01 ) ] .
+
+ex:waterglass272_scene1 a vh2kg:Waterglass ;
+    rdfs:label "waterglass" ;
+    dcterms:identifier "272" .
+
+ex:waterglass276_scene1 a vh2kg:Waterglass ;
+    rdfs:label "waterglass" ;
+    dcterms:identifier "276" .
 
 vh2kg:Appliances a owl:Class ;
     rdfs:label "Appliances" ;
@@ -16821,6 +16851,19 @@ ex:shape_state5_character1_pick_up_dirty_waterglass1_scene1 a x3do:Shape ;
             rdf:first 1.43328e+00 ;
             rdf:rest ( 1.884235e+00 9.410317e-01 ) ] .
 
+ex:shape_state1_kitchentable233_pick_up_dirty_waterglass1_scene1 a x3do:Shape ;
+    vh2kg:close ex:shape_state1_character1_pick_up_dirty_waterglass1_scene1,
+        ex:shape_state3_character1_pick_up_dirty_waterglass1_scene1,
+        ex:shape_state4_character1_pick_up_dirty_waterglass1_scene1 ;
+    vh2kg:facing ex:shape_state1_tv266_pick_up_dirty_waterglass1_scene1 ;
+    vh2kg:inside ex:shape_state0_kitchen209_pick_up_dirty_waterglass1_scene1 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first -1.119e+00 ;
+            rdf:rest ( 4.74e-01 -5.5e+00 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 2e+00 ;
+            rdf:rest ( 9.5e-01 1.092e+00 ) ] .
+
 ex:shape_state6_character1_pick_up_dirty_waterglass1_scene1 a x3do:Shape ;
     vh2kg:close ex:shape_state0_rug255_pick_up_dirty_waterglass1_scene1,
         ex:shape_state5_bellpepper325_pick_up_dirty_waterglass1_scene1,
@@ -16864,7 +16907,9 @@ ex:shape_state6_character1_pick_up_dirty_waterglass1_scene1 a x3do:Shape ;
         ex:shape_state5_waterglass276_pick_up_dirty_waterglass1_scene1,
         ex:shape_state6_chicken340_pick_up_dirty_waterglass1_scene1,
         ex:shape_state8_chicken340_pick_up_dirty_waterglass1_scene1,
-        ex:shape_state9_chicken340_pick_up_dirty_waterglass1_scene1 ;
+        ex:shape_state8_waterglass272_pick_up_dirty_waterglass1_scene1,
+        ex:shape_state9_chicken340_pick_up_dirty_waterglass1_scene1,
+        ex:shape_state9_waterglass276_pick_up_dirty_waterglass1_scene1 ;
     vh2kg:inside ex:shape_state0_kitchen209_pick_up_dirty_waterglass1_scene1 ;
     x3do:bboxCenter [ a x3do:SFVec3f ;
             rdf:first -1.80067e+00 ;
@@ -16872,19 +16917,6 @@ ex:shape_state6_character1_pick_up_dirty_waterglass1_scene1 a x3do:Shape ;
     x3do:bboxSize [ a x3do:SFVec3f ;
             rdf:first 1.364444e+00 ;
             rdf:rest ( 1.873485e+00 1.178155e+00 ) ] .
-
-ex:shape_state1_kitchentable233_pick_up_dirty_waterglass1_scene1 a x3do:Shape ;
-    vh2kg:close ex:shape_state1_character1_pick_up_dirty_waterglass1_scene1,
-        ex:shape_state3_character1_pick_up_dirty_waterglass1_scene1,
-        ex:shape_state4_character1_pick_up_dirty_waterglass1_scene1 ;
-    vh2kg:facing ex:shape_state1_tv266_pick_up_dirty_waterglass1_scene1 ;
-    vh2kg:inside ex:shape_state0_kitchen209_pick_up_dirty_waterglass1_scene1 ;
-    x3do:bboxCenter [ a x3do:SFVec3f ;
-            rdf:first -1.119e+00 ;
-            rdf:rest ( 4.74e-01 -5.5e+00 ) ] ;
-    x3do:bboxSize [ a x3do:SFVec3f ;
-            rdf:first 2e+00 ;
-            rdf:rest ( 9.5e-01 1.092e+00 ) ] .
 
 ex:shape_state0_tv266_pick_up_dirty_waterglass1_scene1 a x3do:Shape ;
     vh2kg:close ex:shape_state0_character1_pick_up_dirty_waterglass1_scene1 ;

@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -12110,8 +12110,7 @@ ex:state10_wine352_have_evening_beverage3_scene6 a vh2kg:State ;
         ex:home_situation15_have_evening_beverage3_scene6,
         ex:home_situation16_have_evening_beverage3_scene6,
         ex:home_situation17_have_evening_beverage3_scene6,
-        ex:home_situation18_have_evening_beverage3_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation18_have_evening_beverage3_scene6 .
 
 ex:state11_character1_have_evening_beverage3_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state11_character1_have_evening_beverage3_scene6 ;
@@ -12243,8 +12242,7 @@ ex:state17_wineglass353_have_evening_beverage3_scene6 a vh2kg:State ;
     vh2kg:isStateOf ex:wineglass353_scene6 ;
     vh2kg:nextState ex:state19_wineglass353_have_evening_beverage3_scene6 ;
     vh2kg:partOf ex:home_situation17_have_evening_beverage3_scene6,
-        ex:home_situation18_have_evening_beverage3_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation18_have_evening_beverage3_scene6 .
 
 ex:state18_condimentshaker224_have_evening_beverage3_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state18_condimentshaker224_have_evening_beverage3_scene6 ;
@@ -12256,8 +12254,7 @@ ex:state18_cupcake251_have_evening_beverage3_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state18_cupcake251_have_evening_beverage3_scene6 ;
     vh2kg:isStateOf ex:cupcake251_scene6 ;
     vh2kg:nextState ex:state19_cupcake251_have_evening_beverage3_scene6 ;
-    vh2kg:partOf ex:home_situation18_have_evening_beverage3_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+    vh2kg:partOf ex:home_situation18_have_evening_beverage3_scene6 .
 
 ex:state19_bench186_have_evening_beverage3_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state19_bench186_have_evening_beverage3_scene6 ;
@@ -12308,8 +12305,7 @@ ex:state19_cupcake251_have_evening_beverage3_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state19_cupcake251_have_evening_beverage3_scene6 ;
     vh2kg:isStateOf ex:cupcake251_scene6 ;
     vh2kg:partOf ex:home_situation19_have_evening_beverage3_scene6,
-        ex:home_situation20_have_evening_beverage3_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation20_have_evening_beverage3_scene6 .
 
 ex:state19_cutleryfork218_have_evening_beverage3_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state19_cutleryfork218_have_evening_beverage3_scene6 ;
@@ -12433,15 +12429,13 @@ ex:state19_wine352_have_evening_beverage3_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state19_wine352_have_evening_beverage3_scene6 ;
     vh2kg:isStateOf ex:wine352_scene6 ;
     vh2kg:partOf ex:home_situation19_have_evening_beverage3_scene6,
-        ex:home_situation20_have_evening_beverage3_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation20_have_evening_beverage3_scene6 .
 
 ex:state19_wineglass353_have_evening_beverage3_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state19_wineglass353_have_evening_beverage3_scene6 ;
     vh2kg:isStateOf ex:wineglass353_scene6 ;
     vh2kg:partOf ex:home_situation19_have_evening_beverage3_scene6,
-        ex:home_situation20_have_evening_beverage3_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation20_have_evening_beverage3_scene6 .
 
 ex:state1_bookshelf294_have_evening_beverage3_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state1_bookshelf294_have_evening_beverage3_scene6 ;
@@ -13708,8 +13702,7 @@ ex:state8_wineglass353_have_evening_beverage3_scene6 a vh2kg:State ;
         ex:home_situation12_have_evening_beverage3_scene6,
         ex:home_situation13_have_evening_beverage3_scene6,
         ex:home_situation8_have_evening_beverage3_scene6,
-        ex:home_situation9_have_evening_beverage3_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation9_have_evening_beverage3_scene6 .
 
 ex:stove235_scene6 a vh2kg:Stove ;
     rdfs:label "stove" ;

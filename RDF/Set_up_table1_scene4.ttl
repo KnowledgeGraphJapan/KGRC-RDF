@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -13549,8 +13549,7 @@ ex:state13_cutleryknife136_set_up_table1_scene4 a vh2kg:State ;
         ex:home_situation18_set_up_table1_scene4,
         ex:home_situation19_set_up_table1_scene4,
         ex:home_situation20_set_up_table1_scene4,
-        ex:home_situation21_set_up_table1_scene4 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation21_set_up_table1_scene4 .
 
 ex:state14_character1_set_up_table1_scene4 a vh2kg:State ;
     vh2kg:bbox ex:shape_state14_character1_set_up_table1_scene4 ;
@@ -13568,8 +13567,7 @@ ex:state14_cutleryfork137_set_up_table1_scene4 a vh2kg:State ;
         ex:home_situation18_set_up_table1_scene4,
         ex:home_situation19_set_up_table1_scene4,
         ex:home_situation20_set_up_table1_scene4,
-        ex:home_situation21_set_up_table1_scene4 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation21_set_up_table1_scene4 .
 
 ex:state14_cutleryfork141_set_up_table1_scene4 a vh2kg:State ;
     vh2kg:bbox ex:shape_state14_cutleryfork141_set_up_table1_scene4 ;
@@ -14693,14 +14691,12 @@ ex:state20_wineglass378_set_up_table1_scene4 a vh2kg:State ;
     vh2kg:bbox ex:shape_state20_wineglass378_set_up_table1_scene4 ;
     vh2kg:isStateOf ex:wineglass378_scene4 ;
     vh2kg:partOf ex:home_situation20_set_up_table1_scene4,
-        ex:home_situation21_set_up_table1_scene4 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation21_set_up_table1_scene4 .
 
 ex:state21_wine379_set_up_table1_scene4 a vh2kg:State ;
     vh2kg:bbox ex:shape_state21_wine379_set_up_table1_scene4 ;
     vh2kg:isStateOf ex:wine379_scene4 ;
-    vh2kg:partOf ex:home_situation21_set_up_table1_scene4 ;
-    vh2kg:state vh2kg:GRABED .
+    vh2kg:partOf ex:home_situation21_set_up_table1_scene4 .
 
 ex:state2_plate129_set_up_table1_scene4 a vh2kg:State ;
     vh2kg:bbox ex:shape_state2_plate129_set_up_table1_scene4 ;
@@ -14887,8 +14883,7 @@ ex:state6_plate129_set_up_table1_scene4 a vh2kg:State ;
         ex:home_situation6_set_up_table1_scene4,
         ex:home_situation7_set_up_table1_scene4,
         ex:home_situation8_set_up_table1_scene4,
-        ex:home_situation9_set_up_table1_scene4 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation9_set_up_table1_scene4 .
 
 ex:state7_character1_set_up_table1_scene4 a vh2kg:State ;
     vh2kg:bbox ex:shape_state7_character1_set_up_table1_scene4 ;
@@ -14933,8 +14928,7 @@ ex:state7_waterglass144_set_up_table1_scene4 a vh2kg:State ;
         ex:home_situation21_set_up_table1_scene4,
         ex:home_situation7_set_up_table1_scene4,
         ex:home_situation8_set_up_table1_scene4,
-        ex:home_situation9_set_up_table1_scene4 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation9_set_up_table1_scene4 .
 
 ex:state8_character1_set_up_table1_scene4 a vh2kg:State ;
     vh2kg:bbox ex:shape_state8_character1_set_up_table1_scene4 ;

@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8673,14 +8673,13 @@ ex:state1_wineglass349_pick_up_dirty_wineglass1_scene2 a vh2kg:State ;
 ex:state2_wineglass348_pick_up_dirty_wineglass1_scene2 a vh2kg:State ;
     vh2kg:bbox ex:shape_state2_wineglass348_pick_up_dirty_wineglass1_scene2 ;
     vh2kg:isStateOf ex:wineglass348_scene2 ;
+    vh2kg:nextState ex:state8_wineglass348_pick_up_dirty_wineglass1_scene2 ;
     vh2kg:partOf ex:home_situation2_pick_up_dirty_wineglass1_scene2,
         ex:home_situation3_pick_up_dirty_wineglass1_scene2,
         ex:home_situation4_pick_up_dirty_wineglass1_scene2,
         ex:home_situation5_pick_up_dirty_wineglass1_scene2,
         ex:home_situation6_pick_up_dirty_wineglass1_scene2,
-        ex:home_situation7_pick_up_dirty_wineglass1_scene2,
-        ex:home_situation8_pick_up_dirty_wineglass1_scene2,
-        ex:home_situation9_pick_up_dirty_wineglass1_scene2 ;
+        ex:home_situation7_pick_up_dirty_wineglass1_scene2 ;
     vh2kg:state vh2kg:GRABED .
 
 ex:state3_book91_pick_up_dirty_wineglass1_scene2 a vh2kg:State ;
@@ -8717,12 +8716,12 @@ ex:state3_pillow122_pick_up_dirty_wineglass1_scene2 a vh2kg:State ;
 ex:state4_wineglass349_pick_up_dirty_wineglass1_scene2 a vh2kg:State ;
     vh2kg:bbox ex:shape_state4_wineglass349_pick_up_dirty_wineglass1_scene2 ;
     vh2kg:isStateOf ex:wineglass349_scene2 ;
+    vh2kg:nextState ex:state9_wineglass349_pick_up_dirty_wineglass1_scene2 ;
     vh2kg:partOf ex:home_situation4_pick_up_dirty_wineglass1_scene2,
         ex:home_situation5_pick_up_dirty_wineglass1_scene2,
         ex:home_situation6_pick_up_dirty_wineglass1_scene2,
         ex:home_situation7_pick_up_dirty_wineglass1_scene2,
-        ex:home_situation8_pick_up_dirty_wineglass1_scene2,
-        ex:home_situation9_pick_up_dirty_wineglass1_scene2 ;
+        ex:home_situation8_pick_up_dirty_wineglass1_scene2 ;
     vh2kg:state vh2kg:GRABED .
 
 ex:state5_apple173_pick_up_dirty_wineglass1_scene2 a vh2kg:State ;
@@ -9330,6 +9329,17 @@ ex:state5_waterglass83_pick_up_dirty_wineglass1_scene2 a vh2kg:State ;
         ex:home_situation7_pick_up_dirty_wineglass1_scene2,
         ex:home_situation8_pick_up_dirty_wineglass1_scene2,
         ex:home_situation9_pick_up_dirty_wineglass1_scene2 .
+
+ex:state8_wineglass348_pick_up_dirty_wineglass1_scene2 a vh2kg:State ;
+    vh2kg:bbox ex:shape_state8_wineglass348_pick_up_dirty_wineglass1_scene2 ;
+    vh2kg:isStateOf ex:wineglass348_scene2 ;
+    vh2kg:partOf ex:home_situation8_pick_up_dirty_wineglass1_scene2,
+        ex:home_situation9_pick_up_dirty_wineglass1_scene2 .
+
+ex:state9_wineglass349_pick_up_dirty_wineglass1_scene2 a vh2kg:State ;
+    vh2kg:bbox ex:shape_state9_wineglass349_pick_up_dirty_wineglass1_scene2 ;
+    vh2kg:isStateOf ex:wineglass349_scene2 ;
+    vh2kg:partOf ex:home_situation9_pick_up_dirty_wineglass1_scene2 .
 
 ex:stove156_scene2 a vh2kg:Stove ;
     rdfs:label "stove" ;
@@ -10754,6 +10764,26 @@ ex:shape_state5_washingsponge115_pick_up_dirty_wineglass1_scene2 a x3do:Shape ;
             rdf:first 2.223714e-01 ;
             rdf:rest ( 4.886439e-02 1.855261e-01 ) ] .
 
+ex:shape_state8_wineglass348_pick_up_dirty_wineglass1_scene2 a x3do:Shape ;
+    vh2kg:close ex:shape_state5_character1_pick_up_dirty_wineglass1_scene2 ;
+    vh2kg:inside ex:shape_state0_kitchen51_pick_up_dirty_wineglass1_scene2 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first -4.327097e+00 ;
+            rdf:rest ( 9.354999e-01 -8.822169e-01 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 1.378384e-01 ;
+            rdf:rest ( 1.950001e-01 1.378381e-01 ) ] .
+
+ex:shape_state9_wineglass349_pick_up_dirty_wineglass1_scene2 a x3do:Shape ;
+    vh2kg:close ex:shape_state5_character1_pick_up_dirty_wineglass1_scene2 ;
+    vh2kg:inside ex:shape_state0_kitchen51_pick_up_dirty_wineglass1_scene2 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first -4.327097e+00 ;
+            rdf:rest ( 9.355e-01 -8.822169e-01 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 1.293173e-01 ;
+            rdf:rest ( 1.950001e-01 1.293175e-01 ) ] .
+
 ex:towel114_scene2 a vh2kg:Towel ;
     rdfs:label "towel" ;
     vh2kg:attribute vh2kg:cover_object ;
@@ -11823,14 +11853,6 @@ ex:sink149_scene2 a vh2kg:Sink ;
     vh2kg:attribute vh2kg:containers ;
     dcterms:identifier "149" .
 
-ex:wineglass348_scene2 a vh2kg:Wineglass ;
-    rdfs:label "wineglass" ;
-    dcterms:identifier "348" .
-
-ex:wineglass349_scene2 a vh2kg:Wineglass ;
-    rdfs:label "wineglass" ;
-    dcterms:identifier "349" .
-
 vh2kg:Curtains a owl:Class ;
     rdfs:subClassOf vh2kg:Furniture .
 
@@ -11855,6 +11877,14 @@ ex:shape_state0_tv313_pick_up_dirty_wineglass1_scene2 a x3do:Shape ;
     x3do:bboxSize [ a x3do:SFVec3f ;
             rdf:first 3.652799e-01 ;
             rdf:rest ( 1.277439e+00 1.716212e+00 ) ] .
+
+ex:wineglass348_scene2 a vh2kg:Wineglass ;
+    rdfs:label "wineglass" ;
+    dcterms:identifier "348" .
+
+ex:wineglass349_scene2 a vh2kg:Wineglass ;
+    rdfs:label "wineglass" ;
+    dcterms:identifier "349" .
 
 vh2kg:Kitchencabinet a owl:Class ;
     rdfs:subClassOf vh2kg:Furniture .
@@ -12133,7 +12163,9 @@ ex:shape_state5_character1_pick_up_dirty_wineglass1_scene2 a x3do:Shape ;
         ex:shape_state5_salmon193_pick_up_dirty_wineglass1_scene2,
         ex:shape_state5_sink149_pick_up_dirty_wineglass1_scene2,
         ex:shape_state5_towel114_pick_up_dirty_wineglass1_scene2,
-        ex:shape_state5_washingsponge115_pick_up_dirty_wineglass1_scene2 ;
+        ex:shape_state5_washingsponge115_pick_up_dirty_wineglass1_scene2,
+        ex:shape_state8_wineglass348_pick_up_dirty_wineglass1_scene2,
+        ex:shape_state9_wineglass349_pick_up_dirty_wineglass1_scene2 ;
     vh2kg:inside ex:shape_state0_kitchen51_pick_up_dirty_wineglass1_scene2 ;
     x3do:bboxCenter [ a x3do:SFVec3f ;
             rdf:first -4.39734e+00 ;

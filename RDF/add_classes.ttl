@@ -1,0 +1,310 @@
+@prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ho:admire_art a owl:Class ;
+    rdfs:subClassOf ho:Other .
+
+ho:brush_teeth a owl:Class ;
+    rdfs:subClassOf ho:HygieneStyling .
+
+ho:clean_desk a owl:Class ;
+    rdfs:subClassOf ho:HouseCleaning .
+
+ho:clean_fridge a owl:Class ;
+    rdfs:subClassOf ho:HouseCleaning .
+
+ho:clean_kitchen a owl:Class ;
+    rdfs:subClassOf ho:HouseCleaning .
+
+ho:clean_kitchentable a owl:Class ;
+    rdfs:subClassOf ho:HouseCleaning .
+
+ho:clean_livingroom a owl:Class ;
+    rdfs:subClassOf ho:HouseCleaning .
+
+ho:clean_sink a owl:Class ;
+    rdfs:subClassOf ho:HouseCleaning .
+
+ho:clean_slippers a owl:Class ;
+    rdfs:subClassOf ho:HouseCleaning .
+
+ho:clean_sofa a owl:Class ;
+    rdfs:subClassOf ho:HouseCleaning .
+
+ho:clean_stove a owl:Class ;
+    rdfs:subClassOf ho:HouseCleaning .
+
+ho:clean_television a owl:Class ;
+    rdfs:subClassOf ho:HouseCleaning .
+
+ho:clear_table a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:cook_carrot a owl:Class ;
+    rdfs:subClassOf ho:FoodPreparation .
+
+ho:cook_fried_bread a owl:Class ;
+    rdfs:subClassOf ho:FoodPreparation .
+
+ho:cook_potato_using_microwave a owl:Class ;
+    rdfs:subClassOf ho:FoodPreparation .
+
+ho:cook_potato_using_stove a owl:Class ;
+    rdfs:subClassOf ho:FoodPreparation .
+
+ho:cook_salmon a owl:Class ;
+    rdfs:subClassOf ho:FoodPreparation .
+
+ho:do_homework_on_paper a owl:Class ;
+    rdfs:subClassOf ho:Work .
+
+ho:do_research_on_computer a owl:Class ;
+    rdfs:subClassOf ho:Work .
+
+ho:do_work_on_computer a owl:Class ;
+    rdfs:subClassOf ho:Work .
+
+ho:drink_alcohol a owl:Class ;
+    rdfs:subClassOf ho:EatingDrinking .
+
+ho:drink_alcohol_while_watching_television a owl:Class ;
+    rdfs:subClassOf ho:Leisure .
+
+ho:drink_juice a owl:Class ;
+    rdfs:subClassOf ho:EatingDrinking .
+
+ho:drink_juice_while_watching_television a owl:Class ;
+    rdfs:subClassOf ho:Leisure .
+
+ho:drink_milk a owl:Class ;
+    rdfs:subClassOf ho:EatingDrinking .
+
+ho:drink_milk_while_watching_television a owl:Class ;
+    rdfs:subClassOf ho:Leisure .
+
+ho:drink_water a owl:Class ;
+    rdfs:subClassOf ho:EatingDrinking .
+
+ho:drink_wine a owl:Class ;
+    rdfs:subClassOf ho:EatingDrinking .
+
+ho:drink_wine_while_watching_television a owl:Class ;
+    rdfs:subClassOf ho:Leisure .
+
+ho:eat_bread_while_watching_television a owl:Class ;
+    rdfs:subClassOf ho:Leisure .
+
+ho:eat_breadslice a owl:Class ;
+    rdfs:subClassOf ho:EatingDrinking .
+
+ho:eat_cupcake a owl:Class ;
+    rdfs:subClassOf ho:EatingDrinking .
+
+ho:eat_cupcake_while_watching_television a owl:Class ;
+    rdfs:subClassOf ho:Leisure .
+
+ho:fall_backward_while_walking_and_turning a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fall_in_bathroom a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fall_sideways_while_walking_forward a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fall_while_climbing_at_somewhere_height a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fall_while_during_getting_up_or_rising a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fall_while_initiation_of_walking a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fall_while_preparing_meal a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fall_while_sitting_down a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fall_while_sitting_down_or_lowering a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fall_while_standing_and_reaching a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fall_while_standing_and_turning a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fall_while_standing_at_somewhere_height a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fall_while_standing_quietly a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fall_while_walking_forward a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:fold_clothespants a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:fold_clothespile a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:fold_clothesshirt a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:get_out_of_bed a owl:Class ;
+    rdfs:subClassOf ho:BedTimeSleep .
+
+ho:go_to_sleep a owl:Class ;
+    rdfs:subClassOf ho:BedTimeSleep .
+
+ho:hand_washing a owl:Class ;
+    rdfs:subClassOf ho:HygieneStyling .
+
+ho:have_evening_beverage a owl:Class ;
+    rdfs:subClassOf ho:EatingDrinking .
+
+ho:have_morning_beverage a owl:Class ;
+    rdfs:subClassOf ho:EatingDrinking .
+
+ho:legopp a owl:Class ;
+    rdfs:subClassOf ho:PhysicalActivity .
+
+ho:make_bed a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:make_cold_cereal a owl:Class ;
+    rdfs:subClassOf ho:FoodPreparation .
+
+ho:make_hot_cereal a owl:Class ;
+    rdfs:subClassOf ho:FoodPreparation .
+
+ho:organize_closet a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:pet_cat a owl:Class ;
+    rdfs:subClassOf ho:SocialInteraction .
+
+ho:pick_up_dirty_dishes a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:pick_up_dirty_fork a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:pick_up_dirty_knife a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:pick_up_dirty_waterglass a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:pick_up_dirty_wineglass a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:place_fork a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:place_knife a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:place_plate a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:place_waterglass a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:place_wine a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:place_wineglass a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:prepare_for_brushing_teeth a owl:Class ;
+    rdfs:subClassOf ho:HygieneStyling .
+
+ho:put_away_groceries_from_fridge a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:put_groceries_in_fridge a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:put_slippers_in_closet a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:read_bedtime_story a owl:Class ;
+    rdfs:subClassOf ho:BedTimeSleep .
+
+ho:read_book a owl:Class ;
+    rdfs:subClassOf ho:Leisure .
+
+ho:read_textbook a owl:Class ;
+    rdfs:subClassOf ho:Work .
+
+ho:relax_on_bed a owl:Class ;
+    rdfs:subClassOf ho:Leisure .
+
+ho:relax_on_sofa a owl:Class ;
+    rdfs:subClassOf ho:Leisure .
+
+ho:relax_on_sofa_while_watching_television a owl:Class ;
+    rdfs:subClassOf ho:Leisure .
+
+ho:rinse_toothbrush a owl:Class ;
+    rdfs:subClassOf ho:HygieneStyling .
+
+ho:run_with_disorientation a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:set_up_table a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:shoulder_stretch a owl:Class ;
+    rdfs:subClassOf ho:PhysicalActivity .
+
+ho:social_media_checks a owl:Class ;
+    rdfs:subClassOf ho:Leisure .
+
+ho:squat_jumps a owl:Class ;
+    rdfs:subClassOf ho:PhysicalActivity .
+
+ho:squats a owl:Class ;
+    rdfs:subClassOf ho:PhysicalActivity .
+
+ho:stand_on_coffee_table a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:straddle_splits a owl:Class ;
+    rdfs:subClassOf ho:PhysicalActivity .
+
+ho:throw_trash a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:turn_off_light a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:turn_on_light a owl:Class ;
+    rdfs:subClassOf ho:HouseArrangement .
+
+ho:use_bathroom a owl:Class ;
+    rdfs:subClassOf ho:HygieneStyling .
+
+ho:use_phone a owl:Class ;
+    rdfs:subClassOf ho:Leisure .
+
+ho:use_toilet a owl:Class ;
+    rdfs:subClassOf ho:HygieneStyling .
+
+ho:walk_with_memory_loss a owl:Class ;
+    rdfs:subClassOf ho:Abnormal .
+
+ho:watch_television a owl:Class ;
+    rdfs:subClassOf ho:Leisure .
+
+ho:workout a owl:Class ;
+    rdfs:subClassOf ho:PhysicalActivity .
+
+ho:write_notes a owl:Class ;
+    rdfs:subClassOf ho:Work .
+

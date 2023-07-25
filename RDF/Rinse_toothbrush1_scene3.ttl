@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10529,13 +10529,13 @@ ex:state1_window318_rinse_toothbrush1_scene3 a vh2kg:State ;
 ex:state2_toothbrush352_rinse_toothbrush1_scene3 a vh2kg:State ;
     vh2kg:bbox ex:shape_state2_toothbrush352_rinse_toothbrush1_scene3 ;
     vh2kg:isStateOf ex:toothbrush352_scene3 ;
+    vh2kg:nextState ex:state8_toothbrush352_rinse_toothbrush1_scene3 ;
     vh2kg:partOf ex:home_situation2_rinse_toothbrush1_scene3,
         ex:home_situation3_rinse_toothbrush1_scene3,
         ex:home_situation4_rinse_toothbrush1_scene3,
         ex:home_situation5_rinse_toothbrush1_scene3,
         ex:home_situation6_rinse_toothbrush1_scene3,
-        ex:home_situation7_rinse_toothbrush1_scene3,
-        ex:home_situation8_rinse_toothbrush1_scene3 ;
+        ex:home_situation7_rinse_toothbrush1_scene3 ;
     vh2kg:state vh2kg:GRABED .
 
 ex:state3_character1_rinse_toothbrush1_scene3 a vh2kg:State ;
@@ -10580,6 +10580,11 @@ ex:state7_faucet159_rinse_toothbrush1_scene3 a vh2kg:State ;
 ex:state8_character1_rinse_toothbrush1_scene3 a vh2kg:State ;
     vh2kg:bbox ex:shape_state8_character1_rinse_toothbrush1_scene3 ;
     vh2kg:isStateOf ex:character1_scene3 ;
+    vh2kg:partOf ex:home_situation8_rinse_toothbrush1_scene3 .
+
+ex:state8_toothbrush352_rinse_toothbrush1_scene3 a vh2kg:State ;
+    vh2kg:bbox ex:shape_state8_toothbrush352_rinse_toothbrush1_scene3 ;
+    vh2kg:isStateOf ex:toothbrush352_scene3 ;
     vh2kg:partOf ex:home_situation8_rinse_toothbrush1_scene3 .
 
 ex:state8_towelrack329_rinse_toothbrush1_scene3 a vh2kg:State ;
@@ -11631,6 +11636,16 @@ ex:shape_state3_towelrack329_rinse_toothbrush1_scene3 a x3do:Shape ;
             rdf:first 4.961498e-01 ;
             rdf:rest ( 2.47556e-02 8.646033e-02 ) ] .
 
+ex:shape_state8_toothbrush352_rinse_toothbrush1_scene3 a x3do:Shape ;
+    vh2kg:close ex:shape_state8_character1_rinse_toothbrush1_scene3 ;
+    vh2kg:inside ex:shape_state0_bathroom297_rinse_toothbrush1_scene3 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first 4.86178e+00 ;
+            rdf:rest ( 1.08616e+00 -3.550555e+00 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 2.506378e-02 ;
+            rdf:rest ( 2.249428e-02 2.412094e-01 ) ] .
+
 ex:sink338_scene3 a vh2kg:Sink ;
     rdfs:label "sink" ;
     vh2kg:attribute vh2kg:containers ;
@@ -11913,6 +11928,17 @@ ex:shape_state1_wallshelf332_rinse_toothbrush1_scene3 a x3do:Shape ;
     x3do:bboxSize [ a x3do:SFVec3f ;
             rdf:first 1e+00 ;
             rdf:rest ( 1.819556e-01 2.722736e-01 ) ] .
+
+ex:shape_state2_toothbrush352_rinse_toothbrush1_scene3 a x3do:Shape ;
+    vh2kg:close ex:shape_state1_character1_rinse_toothbrush1_scene3,
+        ex:shape_state3_character1_rinse_toothbrush1_scene3 ;
+    vh2kg:inside ex:shape_state0_bathroom297_rinse_toothbrush1_scene3 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first 4.058819e+00 ;
+            rdf:rest ( 7.329765e-01 -3.634532e+00 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 2.047186e-01 ;
+            rdf:rest ( 4.973073e-02 1.644833e-01 ) ] .
 
 ex:towelrack329_scene3 a vh2kg:Towelrack ;
     rdfs:label "towelrack" ;
@@ -12208,18 +12234,6 @@ ex:shape_state1_waterglass351_rinse_toothbrush1_scene3 a x3do:Shape ;
             rdf:first 8.951236e-02 ;
             rdf:rest ( 1.234502e-01 8.951236e-02 ) ] .
 
-ex:shape_state2_toothbrush352_rinse_toothbrush1_scene3 a x3do:Shape ;
-    vh2kg:close ex:shape_state1_character1_rinse_toothbrush1_scene3,
-        ex:shape_state3_character1_rinse_toothbrush1_scene3,
-        ex:shape_state8_character1_rinse_toothbrush1_scene3 ;
-    vh2kg:inside ex:shape_state0_bathroom297_rinse_toothbrush1_scene3 ;
-    x3do:bboxCenter [ a x3do:SFVec3f ;
-            rdf:first 4.058819e+00 ;
-            rdf:rest ( 7.329765e-01 -3.634532e+00 ) ] ;
-    x3do:bboxSize [ a x3do:SFVec3f ;
-            rdf:first 2.047186e-01 ;
-            rdf:rest ( 4.973073e-02 1.644833e-01 ) ] .
-
 vh2kg:Bench a owl:Class ;
     rdfs:subClassOf vh2kg:Furniture .
 
@@ -12346,10 +12360,6 @@ ex:shape_state0_desk406_rinse_toothbrush1_scene3 a x3do:Shape ;
             rdf:first 1.068e+00 ;
             rdf:rest ( 9.5e-01 2.028e+00 ) ] .
 
-ex:toothbrush352_scene3 a vh2kg:Toothbrush ;
-    rdfs:label "toothbrush" ;
-    dcterms:identifier "352" .
-
 vh2kg:Cutleryfork a owl:Class ;
     rdfs:subClassOf vh2kg:Props .
 
@@ -12391,6 +12401,10 @@ ex:shape_state0_character1_rinse_toothbrush1_scene3 a x3do:Shape ;
     x3do:bboxSize [ a x3do:SFVec3f ;
             rdf:first 1.356304e+00 ;
             rdf:rest ( 1.869719e+00 1.273206e+00 ) ] .
+
+ex:toothbrush352_scene3 a vh2kg:Toothbrush ;
+    rdfs:label "toothbrush" ;
+    dcterms:identifier "352" .
 
 vh2kg:Waterglass a owl:Class ;
     rdfs:subClassOf vh2kg:Props .
@@ -12496,7 +12510,7 @@ ex:shape_state8_character1_rinse_toothbrush1_scene3 a x3do:Shape ;
         ex:shape_state1_towel341_rinse_toothbrush1_scene3,
         ex:shape_state1_towel342_rinse_toothbrush1_scene3,
         ex:shape_state1_waterglass351_rinse_toothbrush1_scene3,
-        ex:shape_state2_toothbrush352_rinse_toothbrush1_scene3 ;
+        ex:shape_state8_toothbrush352_rinse_toothbrush1_scene3 ;
     vh2kg:inside ex:shape_state0_bathroom297_rinse_toothbrush1_scene3 ;
     x3do:bboxCenter [ a x3do:SFVec3f ;
             rdf:first 4.122557e+00 ;

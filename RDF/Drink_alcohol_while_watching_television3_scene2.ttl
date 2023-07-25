@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10828,10 +10828,15 @@ ex:state14_character1_drink_alcohol_while_watching_television3_scene2 a vh2kg:St
 ex:state14_remotecontrol336_drink_alcohol_while_watching_television3_scene2 a vh2kg:State ;
     vh2kg:bbox ex:shape_state14_remotecontrol336_drink_alcohol_while_watching_television3_scene2 ;
     vh2kg:isStateOf ex:remotecontrol336_scene2 ;
-    vh2kg:partOf ex:home_situation14_drink_alcohol_while_watching_television3_scene2,
-        ex:home_situation15_drink_alcohol_while_watching_television3_scene2,
-        ex:home_situation16_drink_alcohol_while_watching_television3_scene2 ;
+    vh2kg:nextState ex:state15_remotecontrol336_drink_alcohol_while_watching_television3_scene2 ;
+    vh2kg:partOf ex:home_situation14_drink_alcohol_while_watching_television3_scene2 ;
     vh2kg:state vh2kg:GRABED .
+
+ex:state15_remotecontrol336_drink_alcohol_while_watching_television3_scene2 a vh2kg:State ;
+    vh2kg:bbox ex:shape_state15_remotecontrol336_drink_alcohol_while_watching_television3_scene2 ;
+    vh2kg:isStateOf ex:remotecontrol336_scene2 ;
+    vh2kg:partOf ex:home_situation15_drink_alcohol_while_watching_television3_scene2,
+        ex:home_situation16_drink_alcohol_while_watching_television3_scene2 .
 
 ex:state16_tv313_drink_alcohol_while_watching_television3_scene2 a vh2kg:State ;
     vh2kg:bbox ex:shape_state16_tv313_drink_alcohol_while_watching_television3_scene2 ;
@@ -13408,6 +13413,18 @@ ex:shape_state13_remotecontrol336_drink_alcohol_while_watching_television3_scene
 
 ex:shape_state14_remotecontrol336_drink_alcohol_while_watching_television3_scene2 a x3do:Shape ;
     vh2kg:close ex:shape_state14_character1_drink_alcohol_while_watching_television3_scene2 ;
+    vh2kg:facing ex:shape_state13_tv313_drink_alcohol_while_watching_television3_scene2 ;
+    vh2kg:inside ex:shape_state0_livingroom274_drink_alcohol_while_watching_television3_scene2 ;
+    vh2kg:on ex:shape_state13_tvstand305_drink_alcohol_while_watching_television3_scene2 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first -1.0791e+01 ;
+            rdf:rest ( 5.116385e-01 6.83465e+00 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 2.299747e-01 ;
+            rdf:rest ( 2.999997e-02 9.613895e-02 ) ] .
+
+ex:shape_state15_remotecontrol336_drink_alcohol_while_watching_television3_scene2 a x3do:Shape ;
+    vh2kg:close ex:shape_state14_character1_drink_alcohol_while_watching_television3_scene2 ;
     vh2kg:facing ex:shape_state13_tv313_drink_alcohol_while_watching_television3_scene2,
         ex:shape_state16_tv313_drink_alcohol_while_watching_television3_scene2 ;
     vh2kg:inside ex:shape_state0_livingroom274_drink_alcohol_while_watching_television3_scene2 ;
@@ -15057,20 +15074,6 @@ ex:shape_state0_kitchencounterdrawer145_drink_alcohol_while_watching_television3
             rdf:first 9.820001e-01 ;
             rdf:rest ( 2.72e-01 7.119998e-01 ) ] .
 
-ex:shape_state13_tvstand305_drink_alcohol_while_watching_television3_scene2 a x3do:Shape ;
-    vh2kg:close ex:shape_state13_character1_drink_alcohol_while_watching_television3_scene2,
-        ex:shape_state14_character1_drink_alcohol_while_watching_television3_scene2 ;
-    vh2kg:facing ex:shape_state13_tv313_drink_alcohol_while_watching_television3_scene2,
-        ex:shape_state16_tv313_drink_alcohol_while_watching_television3_scene2 ;
-    vh2kg:inside ex:shape_state0_livingroom274_drink_alcohol_while_watching_television3_scene2 ;
-    vh2kg:on ex:shape_state0_floor292_drink_alcohol_while_watching_television3_scene2 ;
-    x3do:bboxCenter [ a x3do:SFVec3f ;
-            rdf:first -1.0486e+01 ;
-            rdf:rest ( 2.46e-01 7.125e+00 ) ] ;
-    x3do:bboxSize [ a x3do:SFVec3f ;
-            rdf:first 7.600006e-01 ;
-            rdf:rest ( 4.92e-01 2.16e+00 ) ] .
-
 ex:shape_state1_character1_drink_alcohol_while_watching_television3_scene2 a x3do:Shape ;
     vh2kg:close ex:shape_state1_powersocket314_drink_alcohol_while_watching_television3_scene2,
         ex:shape_state1_rug316_drink_alcohol_while_watching_television3_scene2,
@@ -15154,6 +15157,20 @@ ex:shape_state13_character1_drink_alcohol_while_watching_television3_scene2 a x3
             rdf:first 1.344347e+00 ;
             rdf:rest ( 1.880238e+00 1.215396e+00 ) ] .
 
+ex:shape_state13_tvstand305_drink_alcohol_while_watching_television3_scene2 a x3do:Shape ;
+    vh2kg:close ex:shape_state13_character1_drink_alcohol_while_watching_television3_scene2,
+        ex:shape_state14_character1_drink_alcohol_while_watching_television3_scene2 ;
+    vh2kg:facing ex:shape_state13_tv313_drink_alcohol_while_watching_television3_scene2,
+        ex:shape_state16_tv313_drink_alcohol_while_watching_television3_scene2 ;
+    vh2kg:inside ex:shape_state0_livingroom274_drink_alcohol_while_watching_television3_scene2 ;
+    vh2kg:on ex:shape_state0_floor292_drink_alcohol_while_watching_television3_scene2 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first -1.0486e+01 ;
+            rdf:rest ( 2.46e-01 7.125e+00 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 7.600006e-01 ;
+            rdf:rest ( 4.92e-01 2.16e+00 ) ] .
+
 ex:shape_state5_rug117_drink_alcohol_while_watching_television3_scene2 a x3do:Shape ;
     vh2kg:close ex:shape_state5_character1_drink_alcohol_while_watching_television3_scene2,
         ex:shape_state6_character1_drink_alcohol_while_watching_television3_scene2 ;
@@ -15197,25 +15214,6 @@ vh2kg:Kitchencounterdrawer a owl:Class ;
 vh2kg:Wallpictureframe a owl:Class ;
     rdfs:subClassOf vh2kg:Decor .
 
-ex:shape_state14_character1_drink_alcohol_while_watching_television3_scene2 a x3do:Shape ;
-    vh2kg:close ex:shape_state13_alcohol348_drink_alcohol_while_watching_television3_scene2,
-        ex:shape_state13_powersocket314_drink_alcohol_while_watching_television3_scene2,
-        ex:shape_state13_rug316_drink_alcohol_while_watching_television3_scene2,
-        ex:shape_state13_towel331_drink_alcohol_while_watching_television3_scene2,
-        ex:shape_state13_tv313_drink_alcohol_while_watching_television3_scene2,
-        ex:shape_state13_tvstand305_drink_alcohol_while_watching_television3_scene2,
-        ex:shape_state14_remotecontrol336_drink_alcohol_while_watching_television3_scene2,
-        ex:shape_state16_tv313_drink_alcohol_while_watching_television3_scene2 ;
-    vh2kg:facing ex:shape_state13_tv313_drink_alcohol_while_watching_television3_scene2,
-        ex:shape_state16_tv313_drink_alcohol_while_watching_television3_scene2 ;
-    vh2kg:inside ex:shape_state0_livingroom274_drink_alcohol_while_watching_television3_scene2 ;
-    x3do:bboxCenter [ a x3do:SFVec3f ;
-            rdf:first -1.124857e+01 ;
-            rdf:rest ( 8.563443e-01 6.282759e+00 ) ] ;
-    x3do:bboxSize [ a x3do:SFVec3f ;
-            rdf:first 1.278072e+00 ;
-            rdf:rest ( 1.881623e+00 1.296289e+00 ) ] .
-
 vh2kg:Plate a owl:Class ;
     rdfs:subClassOf vh2kg:Props .
 
@@ -15249,6 +15247,26 @@ ex:shape_state0_stove156_drink_alcohol_while_watching_television3_scene2 a x3do:
     x3do:bboxSize [ a x3do:SFVec3f ;
             rdf:first 1.002e+00 ;
             rdf:rest ( 1.08e+00 8.319998e-01 ) ] .
+
+ex:shape_state14_character1_drink_alcohol_while_watching_television3_scene2 a x3do:Shape ;
+    vh2kg:close ex:shape_state13_alcohol348_drink_alcohol_while_watching_television3_scene2,
+        ex:shape_state13_powersocket314_drink_alcohol_while_watching_television3_scene2,
+        ex:shape_state13_rug316_drink_alcohol_while_watching_television3_scene2,
+        ex:shape_state13_towel331_drink_alcohol_while_watching_television3_scene2,
+        ex:shape_state13_tv313_drink_alcohol_while_watching_television3_scene2,
+        ex:shape_state13_tvstand305_drink_alcohol_while_watching_television3_scene2,
+        ex:shape_state14_remotecontrol336_drink_alcohol_while_watching_television3_scene2,
+        ex:shape_state15_remotecontrol336_drink_alcohol_while_watching_television3_scene2,
+        ex:shape_state16_tv313_drink_alcohol_while_watching_television3_scene2 ;
+    vh2kg:facing ex:shape_state13_tv313_drink_alcohol_while_watching_television3_scene2,
+        ex:shape_state16_tv313_drink_alcohol_while_watching_television3_scene2 ;
+    vh2kg:inside ex:shape_state0_livingroom274_drink_alcohol_while_watching_television3_scene2 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first -1.124857e+01 ;
+            rdf:rest ( 8.563443e-01 6.282759e+00 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 1.278072e+00 ;
+            rdf:rest ( 1.881623e+00 1.296289e+00 ) ] .
 
 ex:shape_state1_tv313_drink_alcohol_while_watching_television3_scene2 a x3do:Shape ;
     vh2kg:close ex:shape_state1_character1_drink_alcohol_while_watching_television3_scene2 ;
@@ -15312,11 +15330,6 @@ vh2kg:Electronics a owl:Class ;
 
 vh2kg:Pillow a owl:Class ;
     rdfs:subClassOf vh2kg:Decor .
-
-ex:remotecontrol336_scene2 a vh2kg:Remotecontrol ;
-    rdfs:label "remotecontrol" ;
-    vh2kg:attribute vh2kg:has_switch ;
-    dcterms:identifier "336" .
 
 ex:shape_state0_bathroomcounter27_drink_alcohol_while_watching_television3_scene2 a x3do:Shape ;
     vh2kg:inside ex:shape_state0_bathroom11_drink_alcohol_while_watching_television3_scene2 ;
@@ -15422,6 +15435,11 @@ vh2kg:Appliances a owl:Class ;
 ex:alcohol348_scene2 a vh2kg:Alcohol ;
     rdfs:label "alcohol" ;
     dcterms:identifier "348" .
+
+ex:remotecontrol336_scene2 a vh2kg:Remotecontrol ;
+    rdfs:label "remotecontrol" ;
+    vh2kg:attribute vh2kg:has_switch ;
+    dcterms:identifier "336" .
 
 ex:shape_state0_closet306_drink_alcohol_while_watching_television3_scene2 a x3do:Shape ;
     vh2kg:inside ex:shape_state0_livingroom274_drink_alcohol_while_watching_television3_scene2 ;

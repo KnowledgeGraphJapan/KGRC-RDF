@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -9165,13 +9165,13 @@ ex:state1_wallpictureframe213_rinse_toothbrush1_scene4 a vh2kg:State ;
 ex:state2_toothbrush202_rinse_toothbrush1_scene4 a vh2kg:State ;
     vh2kg:bbox ex:shape_state2_toothbrush202_rinse_toothbrush1_scene4 ;
     vh2kg:isStateOf ex:toothbrush202_scene4 ;
+    vh2kg:nextState ex:state8_toothbrush202_rinse_toothbrush1_scene4 ;
     vh2kg:partOf ex:home_situation2_rinse_toothbrush1_scene4,
         ex:home_situation3_rinse_toothbrush1_scene4,
         ex:home_situation4_rinse_toothbrush1_scene4,
         ex:home_situation5_rinse_toothbrush1_scene4,
         ex:home_situation6_rinse_toothbrush1_scene4,
-        ex:home_situation7_rinse_toothbrush1_scene4,
-        ex:home_situation8_rinse_toothbrush1_scene4 ;
+        ex:home_situation7_rinse_toothbrush1_scene4 ;
     vh2kg:state vh2kg:GRABED .
 
 ex:state4_character1_rinse_toothbrush1_scene4 a vh2kg:State ;
@@ -9211,6 +9211,11 @@ ex:state7_faucet95_rinse_toothbrush1_scene4 a vh2kg:State ;
         ex:home_situation8_rinse_toothbrush1_scene4 ;
     vh2kg:state vh2kg:CLEAN,
         vh2kg:OFF .
+
+ex:state8_toothbrush202_rinse_toothbrush1_scene4 a vh2kg:State ;
+    vh2kg:bbox ex:shape_state8_toothbrush202_rinse_toothbrush1_scene4 ;
+    vh2kg:isStateOf ex:toothbrush202_scene4 ;
+    vh2kg:partOf ex:home_situation8_rinse_toothbrush1_scene4 .
 
 ex:stove109_scene4 a vh2kg:Stove ;
     rdfs:label "stove" ;
@@ -10174,6 +10179,16 @@ ex:shape_state0_wallpictureframe213_rinse_toothbrush1_scene4 a x3do:Shape ;
             rdf:first 2.368032e-02 ;
             rdf:rest ( 7.134649e-01 7.167229e-01 ) ] .
 
+ex:shape_state8_toothbrush202_rinse_toothbrush1_scene4 a x3do:Shape ;
+    vh2kg:close ex:shape_state4_character1_rinse_toothbrush1_scene4 ;
+    vh2kg:inside ex:shape_state0_bathroom177_rinse_toothbrush1_scene4 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first 2.827942e+00 ;
+            rdf:rest ( 1.08476e+00 8.564447e+00 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 4.136801e-02 ;
+            rdf:rest ( 2.249428e-02 2.411891e-01 ) ] .
+
 ex:wallpictureframe213_scene4 a vh2kg:Wallpictureframe ;
     rdfs:label "wallpictureframe" ;
     vh2kg:attribute vh2kg:has_paper ;
@@ -10729,10 +10744,6 @@ ex:shape_state0_bookshelf279_rinse_toothbrush1_scene4 a x3do:Shape ;
             rdf:first 3.2e-01 ;
             rdf:rest ( 2.216e+00 2.114e+00 ) ] .
 
-ex:toothbrush202_scene4 a vh2kg:Toothbrush ;
-    rdfs:label "toothbrush" ;
-    dcterms:identifier "202" .
-
 vh2kg:Book a owl:Class ;
     rdfs:subClassOf vh2kg:Props .
 
@@ -10744,6 +10755,10 @@ vh2kg:Curtains a owl:Class ;
 
 vh2kg:Hanger a owl:Class ;
     rdfs:subClassOf vh2kg:Furniture .
+
+ex:toothbrush202_scene4 a vh2kg:Toothbrush ;
+    rdfs:label "toothbrush" ;
+    dcterms:identifier "202" .
 
 vh2kg:Kitchencabinet a owl:Class ;
     rdfs:subClassOf vh2kg:Furniture .
@@ -10884,7 +10899,8 @@ ex:shape_state4_character1_rinse_toothbrush1_scene4 a x3do:Shape ;
         ex:shape_state0_toothpaste209_rinse_toothbrush1_scene4,
         ex:shape_state0_towel211_rinse_toothbrush1_scene4,
         ex:shape_state0_waterglass203_rinse_toothbrush1_scene4,
-        ex:shape_state2_toothbrush202_rinse_toothbrush1_scene4 ;
+        ex:shape_state2_toothbrush202_rinse_toothbrush1_scene4,
+        ex:shape_state8_toothbrush202_rinse_toothbrush1_scene4 ;
     vh2kg:inside ex:shape_state0_bathroom177_rinse_toothbrush1_scene4 ;
     x3do:bboxCenter [ a x3do:SFVec3f ;
             rdf:first 2.554718e+00 ;

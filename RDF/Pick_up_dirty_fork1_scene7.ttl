@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -7846,9 +7846,9 @@ ex:state2_character1_pick_up_dirty_fork1_scene7 a vh2kg:State ;
 ex:state2_cutleryfork123_pick_up_dirty_fork1_scene7 a vh2kg:State ;
     vh2kg:bbox ex:shape_state2_cutleryfork123_pick_up_dirty_fork1_scene7 ;
     vh2kg:isStateOf ex:cutleryfork123_scene7 ;
+    vh2kg:nextState ex:state4_cutleryfork123_pick_up_dirty_fork1_scene7 ;
     vh2kg:partOf ex:home_situation2_pick_up_dirty_fork1_scene7,
-        ex:home_situation3_pick_up_dirty_fork1_scene7,
-        ex:home_situation4_pick_up_dirty_fork1_scene7 ;
+        ex:home_situation3_pick_up_dirty_fork1_scene7 ;
     vh2kg:state vh2kg:GRABED .
 
 ex:state2_garbagecan112_pick_up_dirty_fork1_scene7 a vh2kg:State ;
@@ -7872,6 +7872,11 @@ ex:state3_character1_pick_up_dirty_fork1_scene7 a vh2kg:State ;
     vh2kg:isStateOf ex:character1_scene7 ;
     vh2kg:partOf ex:home_situation3_pick_up_dirty_fork1_scene7,
         ex:home_situation4_pick_up_dirty_fork1_scene7 .
+
+ex:state4_cutleryfork123_pick_up_dirty_fork1_scene7 a vh2kg:State ;
+    vh2kg:bbox ex:shape_state4_cutleryfork123_pick_up_dirty_fork1_scene7 ;
+    vh2kg:isStateOf ex:cutleryfork123_scene7 ;
+    vh2kg:partOf ex:home_situation4_pick_up_dirty_fork1_scene7 .
 
 ex:stove160_scene7 a vh2kg:Stove ;
     rdfs:label "stove" ;
@@ -8985,6 +8990,16 @@ ex:shape_state1_cutleryfork123_pick_up_dirty_fork1_scene7 a x3do:Shape ;
             rdf:first 7.798397e-02 ;
             rdf:rest ( 1.939816e-02 2.612533e-01 ) ] .
 
+ex:shape_state4_cutleryfork123_pick_up_dirty_fork1_scene7 a x3do:Shape ;
+    vh2kg:close ex:shape_state3_character1_pick_up_dirty_fork1_scene7 ;
+    vh2kg:inside ex:shape_state0_kitchen56_pick_up_dirty_fork1_scene7 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first -4.26537e+00 ;
+            rdf:rest ( 8.47699e-01 -7.95487e-01 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 2.275595e-01 ;
+            rdf:rest ( 1.939816e-02 1.731351e-01 ) ] .
+
 ex:towel121_scene7 a vh2kg:Towel ;
     rdfs:label "towel" ;
     vh2kg:attribute vh2kg:cover_object ;
@@ -9830,10 +9845,6 @@ ex:shape_state1_plate100_pick_up_dirty_fork1_scene7 a x3do:Shape ;
             rdf:first 3.936616e-01 ;
             rdf:rest ( 1.922303e-02 3.936616e-01 ) ] .
 
-ex:cutleryfork123_scene7 a vh2kg:Cutleryfork ;
-    rdfs:label "cutleryfork" ;
-    dcterms:identifier "123" .
-
 ex:shape_state0_boardgame366_pick_up_dirty_fork1_scene7 a x3do:Shape ;
     vh2kg:inside ex:shape_state0_bedroom294_pick_up_dirty_fork1_scene7 ;
     x3do:bboxCenter [ a x3do:SFVec3f ;
@@ -9901,6 +9912,10 @@ vh2kg:Hanger a owl:Class ;
 
 vh2kg:Towel a owl:Class ;
     rdfs:subClassOf vh2kg:Props .
+
+ex:cutleryfork123_scene7 a vh2kg:Cutleryfork ;
+    rdfs:label "cutleryfork" ;
+    dcterms:identifier "123" .
 
 ex:shape_state0_closet243_pick_up_dirty_fork1_scene7 a x3do:Shape ;
     vh2kg:inside ex:shape_state0_livingroom205_pick_up_dirty_fork1_scene7 ;
@@ -10204,56 +10219,6 @@ ex:shape_state1_character1_pick_up_dirty_fork1_scene7 a x3do:Shape ;
             rdf:first 1.389205e+00 ;
             rdf:rest ( 1.876651e+00 1.109882e+00 ) ] .
 
-ex:shape_state3_character1_pick_up_dirty_fork1_scene7 a x3do:Shape ;
-    vh2kg:close ex:shape_state1_chair157_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_chicken179_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_cutleryknife124_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_cutleryknife87_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_cutleryknife88_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_cutlets180_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_dishbowl94_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_dishbowl95_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_dishbowl96_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_dishbowl97_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_dishbowl98_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_dishwashingliquid103_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_faucet153_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_kitchencabinet136_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_kitchencabinet137_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_kitchencabinet138_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_kitchencabinet139_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_kitchencabinet140_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_kitchencabinet141_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_kitchencabinet142_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_kitchencounter144_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_kitchencounter154_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_kitchencounterdrawer145_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_kitchencounterdrawer146_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_kitchencounterdrawer147_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_kitchencounterdrawer148_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_kitchencounterdrawer149_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_kitchencounterdrawer150_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_kitchencounterdrawer151_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_knifeblock89_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_paper113_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_plate100_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_plate101_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_plate102_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_plate99_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_salmon178_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_sink152_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_towel121_pick_up_dirty_fork1_scene7,
-        ex:shape_state1_washingsponge114_pick_up_dirty_fork1_scene7,
-        ex:shape_state2_cutleryfork123_pick_up_dirty_fork1_scene7,
-        ex:shape_state2_garbagecan112_pick_up_dirty_fork1_scene7 ;
-    vh2kg:inside ex:shape_state0_kitchen56_pick_up_dirty_fork1_scene7 ;
-    x3do:bboxCenter [ a x3do:SFVec3f ;
-            rdf:first -4.3955e+00 ;
-            rdf:rest ( 8.516439e-01 -2.03993e-01 ) ] ;
-    x3do:bboxSize [ a x3do:SFVec3f ;
-            rdf:first 1.3942e+00 ;
-            rdf:rest ( 1.876604e+00 5.858845e-01 ) ] .
-
 ex:shape_state2_character1_pick_up_dirty_fork1_scene7 a x3do:Shape ;
     vh2kg:close ex:shape_state1_chair156_pick_up_dirty_fork1_scene7,
         ex:shape_state1_chair157_pick_up_dirty_fork1_scene7,
@@ -10304,6 +10269,57 @@ ex:shape_state2_character1_pick_up_dirty_fork1_scene7 a x3do:Shape ;
     x3do:bboxSize [ a x3do:SFVec3f ;
             rdf:first 1.358524e+00 ;
             rdf:rest ( 1.873818e+00 1.174905e+00 ) ] .
+
+ex:shape_state3_character1_pick_up_dirty_fork1_scene7 a x3do:Shape ;
+    vh2kg:close ex:shape_state1_chair157_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_chicken179_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_cutleryknife124_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_cutleryknife87_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_cutleryknife88_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_cutlets180_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_dishbowl94_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_dishbowl95_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_dishbowl96_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_dishbowl97_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_dishbowl98_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_dishwashingliquid103_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_faucet153_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_kitchencabinet136_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_kitchencabinet137_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_kitchencabinet138_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_kitchencabinet139_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_kitchencabinet140_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_kitchencabinet141_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_kitchencabinet142_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_kitchencounter144_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_kitchencounter154_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_kitchencounterdrawer145_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_kitchencounterdrawer146_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_kitchencounterdrawer147_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_kitchencounterdrawer148_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_kitchencounterdrawer149_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_kitchencounterdrawer150_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_kitchencounterdrawer151_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_knifeblock89_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_paper113_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_plate100_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_plate101_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_plate102_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_plate99_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_salmon178_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_sink152_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_towel121_pick_up_dirty_fork1_scene7,
+        ex:shape_state1_washingsponge114_pick_up_dirty_fork1_scene7,
+        ex:shape_state2_cutleryfork123_pick_up_dirty_fork1_scene7,
+        ex:shape_state2_garbagecan112_pick_up_dirty_fork1_scene7,
+        ex:shape_state4_cutleryfork123_pick_up_dirty_fork1_scene7 ;
+    vh2kg:inside ex:shape_state0_kitchen56_pick_up_dirty_fork1_scene7 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first -4.3955e+00 ;
+            rdf:rest ( 8.516439e-01 -2.03993e-01 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 1.3942e+00 ;
+            rdf:rest ( 1.876604e+00 5.858845e-01 ) ] .
 
 ex:shape_state0_bathroom11_pick_up_dirty_fork1_scene7 a x3do:Shape ;
     x3do:bboxCenter [ a x3do:SFVec3f ;

@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10811,8 +10811,7 @@ ex:state10_juice376_put_away_groceries_from_fridge2_scene7 a vh2kg:State ;
     vh2kg:isStateOf ex:juice376_scene7 ;
     vh2kg:partOf ex:home_situation10_put_away_groceries_from_fridge2_scene7,
         ex:home_situation11_put_away_groceries_from_fridge2_scene7,
-        ex:home_situation12_put_away_groceries_from_fridge2_scene7 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation12_put_away_groceries_from_fridge2_scene7 .
 
 ex:state10_kitchentable133_put_away_groceries_from_fridge2_scene7 a vh2kg:State ;
     vh2kg:bbox ex:shape_state10_kitchentable133_put_away_groceries_from_fridge2_scene7 ;
@@ -10887,8 +10886,7 @@ ex:state12_milk201_put_away_groceries_from_fridge2_scene7 a vh2kg:State ;
 ex:state12_milk377_put_away_groceries_from_fridge2_scene7 a vh2kg:State ;
     vh2kg:bbox ex:shape_state12_milk377_put_away_groceries_from_fridge2_scene7 ;
     vh2kg:isStateOf ex:milk377_scene7 ;
-    vh2kg:partOf ex:home_situation12_put_away_groceries_from_fridge2_scene7 ;
-    vh2kg:state vh2kg:GRABED .
+    vh2kg:partOf ex:home_situation12_put_away_groceries_from_fridge2_scene7 .
 
 ex:state1_apple183_put_away_groceries_from_fridge2_scene7 a vh2kg:State ;
     vh2kg:bbox ex:shape_state1_apple183_put_away_groceries_from_fridge2_scene7 ;
@@ -11547,8 +11545,7 @@ ex:state6_juice376_put_away_groceries_from_fridge2_scene7 a vh2kg:State ;
     vh2kg:bbox ex:shape_state6_juice376_put_away_groceries_from_fridge2_scene7 ;
     vh2kg:isStateOf ex:juice376_scene7 ;
     vh2kg:nextState ex:state7_juice376_put_away_groceries_from_fridge2_scene7 ;
-    vh2kg:partOf ex:home_situation6_put_away_groceries_from_fridge2_scene7 ;
-    vh2kg:state vh2kg:GRABED .
+    vh2kg:partOf ex:home_situation6_put_away_groceries_from_fridge2_scene7 .
 
 ex:state6_milk201_put_away_groceries_from_fridge2_scene7 a vh2kg:State ;
     vh2kg:bbox ex:shape_state6_milk201_put_away_groceries_from_fridge2_scene7 ;
@@ -11830,8 +11827,7 @@ ex:state7_juice376_put_away_groceries_from_fridge2_scene7 a vh2kg:State ;
     vh2kg:nextState ex:state10_juice376_put_away_groceries_from_fridge2_scene7 ;
     vh2kg:partOf ex:home_situation7_put_away_groceries_from_fridge2_scene7,
         ex:home_situation8_put_away_groceries_from_fridge2_scene7,
-        ex:home_situation9_put_away_groceries_from_fridge2_scene7 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation9_put_away_groceries_from_fridge2_scene7 .
 
 ex:state7_kitchentable133_put_away_groceries_from_fridge2_scene7 a vh2kg:State ;
     vh2kg:bbox ex:shape_state7_kitchentable133_put_away_groceries_from_fridge2_scene7 ;

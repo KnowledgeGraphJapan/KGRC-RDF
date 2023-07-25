@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -13197,6 +13197,15 @@ ex:stall47_scene1 a vh2kg:Stall ;
     rdfs:label "stall" ;
     dcterms:identifier "47" .
 
+ex:state11_waterglass272_drink_water1_scene1 a vh2kg:State ;
+    vh2kg:bbox ex:shape_state11_waterglass272_drink_water1_scene1 ;
+    vh2kg:isStateOf ex:waterglass272_scene1 ;
+    vh2kg:nextState ex:state14_waterglass272_drink_water1_scene1 ;
+    vh2kg:partOf ex:home_situation11_drink_water1_scene1,
+        ex:home_situation12_drink_water1_scene1,
+        ex:home_situation13_drink_water1_scene1 ;
+    vh2kg:state vh2kg:GRABED .
+
 ex:state13_bench235_drink_water1_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state13_bench235_drink_water1_scene1 ;
     vh2kg:isStateOf ex:bench235_scene1 ;
@@ -13238,8 +13247,7 @@ ex:state13_toilet46_drink_water1_scene1 a vh2kg:State ;
 ex:state14_waterglass272_drink_water1_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state14_waterglass272_drink_water1_scene1 ;
     vh2kg:isStateOf ex:waterglass272_scene1 ;
-    vh2kg:partOf ex:home_situation14_drink_water1_scene1 ;
-    vh2kg:state vh2kg:GRABED .
+    vh2kg:partOf ex:home_situation14_drink_water1_scene1 .
 
 ex:state1_bench234_drink_water1_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state1_bench234_drink_water1_scene1 ;
@@ -14977,17 +14985,10 @@ ex:state4_washingsponge268_drink_water1_scene1 a vh2kg:State ;
 ex:state4_waterglass272_drink_water1_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state4_waterglass272_drink_water1_scene1 ;
     vh2kg:isStateOf ex:waterglass272_scene1 ;
-    vh2kg:nextState ex:state14_waterglass272_drink_water1_scene1 ;
-    vh2kg:partOf ex:home_situation10_drink_water1_scene1,
-        ex:home_situation11_drink_water1_scene1,
-        ex:home_situation12_drink_water1_scene1,
-        ex:home_situation13_drink_water1_scene1,
-        ex:home_situation4_drink_water1_scene1,
+    vh2kg:nextState ex:state7_waterglass272_drink_water1_scene1 ;
+    vh2kg:partOf ex:home_situation4_drink_water1_scene1,
         ex:home_situation5_drink_water1_scene1,
-        ex:home_situation6_drink_water1_scene1,
-        ex:home_situation7_drink_water1_scene1,
-        ex:home_situation8_drink_water1_scene1,
-        ex:home_situation9_drink_water1_scene1 ;
+        ex:home_situation6_drink_water1_scene1 ;
     vh2kg:state vh2kg:GRABED .
 
 ex:state4_waterglass276_drink_water1_scene1 a vh2kg:State ;
@@ -15127,6 +15128,15 @@ ex:state6_fridge308_drink_water1_scene1 a vh2kg:State ;
         vh2kg:CLOSED,
         vh2kg:OFF,
         vh2kg:PLUGGED_IN .
+
+ex:state7_waterglass272_drink_water1_scene1 a vh2kg:State ;
+    vh2kg:bbox ex:shape_state7_waterglass272_drink_water1_scene1 ;
+    vh2kg:isStateOf ex:waterglass272_scene1 ;
+    vh2kg:nextState ex:state11_waterglass272_drink_water1_scene1 ;
+    vh2kg:partOf ex:home_situation10_drink_water1_scene1,
+        ex:home_situation7_drink_water1_scene1,
+        ex:home_situation8_drink_water1_scene1,
+        ex:home_situation9_drink_water1_scene1 .
 
 ex:state9_faucet250_drink_water1_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state9_faucet250_drink_water1_scene1 ;
@@ -17168,6 +17178,16 @@ ex:shape_state6_fridge308_drink_water1_scene1 a x3do:Shape ;
             rdf:first 8.404542e-01 ;
             rdf:rest ( 2.007618e+00 6.727747e-01 ) ] .
 
+ex:shape_state7_waterglass272_drink_water1_scene1 a x3do:Shape ;
+    vh2kg:close ex:shape_state6_character1_drink_water1_scene1 ;
+    vh2kg:inside ex:shape_state0_kitchen209_drink_water1_scene1 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first -1.456098e+00 ;
+            rdf:rest ( 9.05725e-01 -2.120567e+00 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 1.179337e-01 ;
+            rdf:rest ( 1.234501e-01 1.179337e-01 ) ] .
+
 ex:toaster311_scene1 a vh2kg:Toaster ;
     rdfs:label "toaster" ;
     vh2kg:attribute vh2kg:containers,
@@ -17501,6 +17521,17 @@ ex:shape_state0_wallshelf44_drink_water1_scene1 a x3do:Shape ;
     x3do:bboxSize [ a x3do:SFVec3f ;
             rdf:first 1e+00 ;
             rdf:rest ( 1.819556e-01 2.722732e-01 ) ] .
+
+ex:shape_state11_waterglass272_drink_water1_scene1 a x3do:Shape ;
+    vh2kg:close ex:shape_state13_character1_drink_water1_scene1,
+        ex:shape_state6_character1_drink_water1_scene1 ;
+    vh2kg:inside ex:shape_state0_kitchen209_drink_water1_scene1 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first -1.355881e+00 ;
+            rdf:rest ( 7.356039e-01 -2.842802e+00 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 1.626544e-01 ;
+            rdf:rest ( 1.404928e-01 1.573728e-01 ) ] .
 
 ex:shape_state1_wallpictureframe256_drink_water1_scene1 a x3do:Shape ;
     vh2kg:close ex:shape_state1_character1_drink_water1_scene1 ;
@@ -17972,6 +18003,18 @@ ex:shape_state4_toilet46_drink_water1_scene1 a x3do:Shape ;
             rdf:first 7.693826e-01 ;
             rdf:rest ( 5.4243e-01 7.984219e-01 ) ] .
 
+ex:shape_state4_waterglass272_drink_water1_scene1 a x3do:Shape ;
+    vh2kg:close ex:shape_state4_character1_drink_water1_scene1,
+        ex:shape_state5_character1_drink_water1_scene1,
+        ex:shape_state6_character1_drink_water1_scene1 ;
+    vh2kg:inside ex:shape_state0_kitchen209_drink_water1_scene1 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first -1.195091e+00 ;
+            rdf:rest ( 7.214757e-01 -2.845291e+00 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 1.37331e-01 ;
+            rdf:rest ( 1.099258e-01 1.467347e-01 ) ] .
+
 ex:sink249_scene1 a vh2kg:Sink ;
     rdfs:label "sink" ;
     vh2kg:attribute vh2kg:containers ;
@@ -18408,19 +18451,6 @@ ex:shape_state4_washingsponge268_drink_water1_scene1 a x3do:Shape ;
             rdf:first 2.18452e-01 ;
             rdf:rest ( 4.886439e-02 2.142916e-01 ) ] .
 
-ex:shape_state4_waterglass272_drink_water1_scene1 a x3do:Shape ;
-    vh2kg:close ex:shape_state13_character1_drink_water1_scene1,
-        ex:shape_state4_character1_drink_water1_scene1,
-        ex:shape_state5_character1_drink_water1_scene1,
-        ex:shape_state6_character1_drink_water1_scene1 ;
-    vh2kg:inside ex:shape_state0_kitchen209_drink_water1_scene1 ;
-    x3do:bboxCenter [ a x3do:SFVec3f ;
-            rdf:first -1.195091e+00 ;
-            rdf:rest ( 7.214757e-01 -2.845291e+00 ) ] ;
-    x3do:bboxSize [ a x3do:SFVec3f ;
-            rdf:first 1.37331e-01 ;
-            rdf:rest ( 1.099258e-01 1.467347e-01 ) ] .
-
 vh2kg:Ceilinglamp a owl:Class ;
     rdfs:subClassOf vh2kg:Lamps .
 
@@ -18800,10 +18830,6 @@ vh2kg:Electronics a owl:Class ;
     rdfs:label "Electronics" ;
     rdfs:subClassOf vh2kg:Object .
 
-ex:waterglass272_scene1 a vh2kg:Waterglass ;
-    rdfs:label "waterglass" ;
-    dcterms:identifier "272" .
-
 vh2kg:Wallpictureframe a owl:Class ;
     rdfs:subClassOf vh2kg:Decor .
 
@@ -18859,6 +18885,10 @@ ex:shape_state1_rug255_drink_water1_scene1 a x3do:Shape ;
     x3do:bboxSize [ a x3do:SFVec3f ;
             rdf:first 1.1353e+00 ;
             rdf:rest ( 2.268435e-02 3.586043e+00 ) ] .
+
+ex:waterglass272_scene1 a vh2kg:Waterglass ;
+    rdfs:label "waterglass" ;
+    dcterms:identifier "272" .
 
 ex:shape_state1_closet115_drink_water1_scene1 a x3do:Shape ;
     vh2kg:facing ex:shape_state0_computer177_drink_water1_scene1 ;
@@ -19127,7 +19157,8 @@ vh2kg:Props a owl:Class ;
     rdfs:subClassOf vh2kg:Object .
 
 ex:shape_state13_character1_drink_water1_scene1 a x3do:Shape ;
-    vh2kg:close ex:shape_state13_bench235_drink_water1_scene1,
+    vh2kg:close ex:shape_state11_waterglass272_drink_water1_scene1,
+        ex:shape_state13_bench235_drink_water1_scene1,
         ex:shape_state14_waterglass272_drink_water1_scene1,
         ex:shape_state1_rug255_drink_water1_scene1,
         ex:shape_state4_bellpepper325_drink_water1_scene1,
@@ -19163,7 +19194,6 @@ ex:shape_state13_character1_drink_water1_scene1 a x3do:Shape ;
         ex:shape_state4_sink249_drink_water1_scene1,
         ex:shape_state4_toaster311_drink_water1_scene1,
         ex:shape_state4_washingsponge268_drink_water1_scene1,
-        ex:shape_state4_waterglass272_drink_water1_scene1,
         ex:shape_state9_faucet250_drink_water1_scene1 ;
     vh2kg:inside ex:shape_state0_kitchen209_drink_water1_scene1 ;
     x3do:bboxCenter [ a x3do:SFVec3f ;
@@ -19278,8 +19308,18 @@ ex:shape_state4_character1_drink_water1_scene1 a x3do:Shape ;
             rdf:first 1.379719e+00 ;
             rdf:rest ( 1.876269e+00 5.494885e-01 ) ] .
 
+ex:shape_state0_closet130_drink_water1_scene1 a x3do:Shape ;
+    vh2kg:inside ex:shape_state0_bedroom75_drink_water1_scene1 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first -1.053401e+01 ;
+            rdf:rest ( 1.182522e+00 -8.869999e+00 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 1.499729e+00 ;
+            rdf:rest ( 2.365245e+00 6.238708e-01 ) ] .
+
 ex:shape_state6_character1_drink_water1_scene1 a x3do:Shape ;
-    vh2kg:close ex:shape_state1_rug255_drink_water1_scene1,
+    vh2kg:close ex:shape_state11_waterglass272_drink_water1_scene1,
+        ex:shape_state1_rug255_drink_water1_scene1,
         ex:shape_state4_bellpepper325_drink_water1_scene1,
         ex:shape_state4_bellpepper326_drink_water1_scene1,
         ex:shape_state4_bellpepper327_drink_water1_scene1,
@@ -19318,6 +19358,7 @@ ex:shape_state6_character1_drink_water1_scene1 a x3do:Shape ;
         ex:shape_state4_waterglass272_drink_water1_scene1,
         ex:shape_state5_faucet250_drink_water1_scene1,
         ex:shape_state6_fridge308_drink_water1_scene1,
+        ex:shape_state7_waterglass272_drink_water1_scene1,
         ex:shape_state9_faucet250_drink_water1_scene1 ;
     vh2kg:inside ex:shape_state0_kitchen209_drink_water1_scene1 ;
     x3do:bboxCenter [ a x3do:SFVec3f ;
@@ -19326,15 +19367,6 @@ ex:shape_state6_character1_drink_water1_scene1 a x3do:Shape ;
     x3do:bboxSize [ a x3do:SFVec3f ;
             rdf:first 1.422914e+00 ;
             rdf:rest ( 1.874173e+00 7.525413e-01 ) ] .
-
-ex:shape_state0_closet130_drink_water1_scene1 a x3do:Shape ;
-    vh2kg:inside ex:shape_state0_bedroom75_drink_water1_scene1 ;
-    x3do:bboxCenter [ a x3do:SFVec3f ;
-            rdf:first -1.053401e+01 ;
-            rdf:rest ( 1.182522e+00 -8.869999e+00 ) ] ;
-    x3do:bboxSize [ a x3do:SFVec3f ;
-            rdf:first 1.499729e+00 ;
-            rdf:rest ( 2.365245e+00 6.238708e-01 ) ] .
 
 ex:shape_state2_clock267_drink_water1_scene1 a x3do:Shape ;
     vh2kg:facing ex:shape_state0_tv266_drink_water1_scene1 ;

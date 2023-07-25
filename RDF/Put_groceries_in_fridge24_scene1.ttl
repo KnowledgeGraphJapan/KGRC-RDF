@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -15964,8 +15964,7 @@ ex:state10_wine465_put_groceries_in_fridge24_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state10_wine465_put_groceries_in_fridge24_scene1 ;
     vh2kg:isStateOf ex:wine465_scene1 ;
     vh2kg:nextState ex:state11_wine465_put_groceries_in_fridge24_scene1 ;
-    vh2kg:partOf ex:home_situation10_put_groceries_in_fridge24_scene1 ;
-    vh2kg:state vh2kg:GRABED .
+    vh2kg:partOf ex:home_situation10_put_groceries_in_fridge24_scene1 .
 
 ex:state11_character1_put_groceries_in_fridge24_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state11_character1_put_groceries_in_fridge24_scene1 ;
@@ -16489,8 +16488,7 @@ ex:state14_towel55_put_groceries_in_fridge24_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state14_towel55_put_groceries_in_fridge24_scene1 ;
     vh2kg:isStateOf ex:towel55_scene1 ;
     vh2kg:nextState ex:state15_towel55_put_groceries_in_fridge24_scene1 ;
-    vh2kg:partOf ex:home_situation14_put_groceries_in_fridge24_scene1 ;
-    vh2kg:state vh2kg:GRABED .
+    vh2kg:partOf ex:home_situation14_put_groceries_in_fridge24_scene1 .
 
 ex:state15_bellpepper325_put_groceries_in_fridge24_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state15_bellpepper325_put_groceries_in_fridge24_scene1 ;
@@ -16932,8 +16930,7 @@ ex:state15_towel55_put_groceries_in_fridge24_scene1 a vh2kg:State ;
         ex:home_situation16_put_groceries_in_fridge24_scene1,
         ex:home_situation17_put_groceries_in_fridge24_scene1,
         ex:home_situation18_put_groceries_in_fridge24_scene1,
-        ex:home_situation19_put_groceries_in_fridge24_scene1 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation19_put_groceries_in_fridge24_scene1 .
 
 ex:state15_wallphone265_put_groceries_in_fridge24_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state15_wallphone265_put_groceries_in_fridge24_scene1 ;
@@ -17118,8 +17115,7 @@ ex:state18_wine465_put_groceries_in_fridge24_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state18_wine465_put_groceries_in_fridge24_scene1 ;
     vh2kg:isStateOf ex:wine465_scene1 ;
     vh2kg:partOf ex:home_situation18_put_groceries_in_fridge24_scene1,
-        ex:home_situation19_put_groceries_in_fridge24_scene1 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation19_put_groceries_in_fridge24_scene1 .
 
 ex:state19_fridge308_put_groceries_in_fridge24_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state19_fridge308_put_groceries_in_fridge24_scene1 ;
@@ -17633,8 +17629,7 @@ ex:state3_wine465_put_groceries_in_fridge24_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state3_wine465_put_groceries_in_fridge24_scene1 ;
     vh2kg:isStateOf ex:wine465_scene1 ;
     vh2kg:nextState ex:state4_wine465_put_groceries_in_fridge24_scene1 ;
-    vh2kg:partOf ex:home_situation3_put_groceries_in_fridge24_scene1 ;
-    vh2kg:state vh2kg:GRABED .
+    vh2kg:partOf ex:home_situation3_put_groceries_in_fridge24_scene1 .
 
 ex:state4_bed112_put_groceries_in_fridge24_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state4_bed112_put_groceries_in_fridge24_scene1 ;
@@ -18034,8 +18029,7 @@ ex:state4_wine465_put_groceries_in_fridge24_scene1 a vh2kg:State ;
         ex:home_situation5_put_groceries_in_fridge24_scene1,
         ex:home_situation6_put_groceries_in_fridge24_scene1,
         ex:home_situation7_put_groceries_in_fridge24_scene1,
-        ex:home_situation8_put_groceries_in_fridge24_scene1 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation8_put_groceries_in_fridge24_scene1 .
 
 ex:state4_wineglass200_put_groceries_in_fridge24_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state4_wineglass200_put_groceries_in_fridge24_scene1 ;
@@ -19146,8 +19140,7 @@ ex:state9_wine465_put_groceries_in_fridge24_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state9_wine465_put_groceries_in_fridge24_scene1 ;
     vh2kg:isStateOf ex:wine465_scene1 ;
     vh2kg:nextState ex:state10_wine465_put_groceries_in_fridge24_scene1 ;
-    vh2kg:partOf ex:home_situation9_put_groceries_in_fridge24_scene1 ;
-    vh2kg:state vh2kg:GRABED .
+    vh2kg:partOf ex:home_situation9_put_groceries_in_fridge24_scene1 .
 
 ex:state9_wineglass200_put_groceries_in_fridge24_scene1 a vh2kg:State ;
     vh2kg:bbox ex:shape_state9_wineglass200_put_groceries_in_fridge24_scene1 ;

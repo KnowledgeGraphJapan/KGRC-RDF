@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10790,8 +10790,7 @@ ex:state11_dishbowl211_make_cold_cereal1_scene6 a vh2kg:State ;
     vh2kg:isStateOf ex:dishbowl211_scene6 ;
     vh2kg:nextState ex:state13_dishbowl211_make_cold_cereal1_scene6 ;
     vh2kg:partOf ex:home_situation11_make_cold_cereal1_scene6,
-        ex:home_situation12_make_cold_cereal1_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation12_make_cold_cereal1_scene6 .
 
 ex:state11_dishwashingliquid213_make_cold_cereal1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state11_dishwashingliquid213_make_cold_cereal1_scene6 ;
@@ -11165,8 +11164,7 @@ ex:state13_dishbowl211_make_cold_cereal1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state13_dishbowl211_make_cold_cereal1_scene6 ;
     vh2kg:isStateOf ex:dishbowl211_scene6 ;
     vh2kg:partOf ex:home_situation13_make_cold_cereal1_scene6,
-        ex:home_situation14_make_cold_cereal1_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation14_make_cold_cereal1_scene6 .
 
 ex:state13_dishwashingliquid213_make_cold_cereal1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state13_dishwashingliquid213_make_cold_cereal1_scene6 ;
@@ -12474,8 +12472,7 @@ ex:state6_dishbowl211_make_cold_cereal1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state6_dishbowl211_make_cold_cereal1_scene6 ;
     vh2kg:isStateOf ex:dishbowl211_scene6 ;
     vh2kg:nextState ex:state7_dishbowl211_make_cold_cereal1_scene6 ;
-    vh2kg:partOf ex:home_situation6_make_cold_cereal1_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+    vh2kg:partOf ex:home_situation6_make_cold_cereal1_scene6 .
 
 ex:state7_bench186_make_cold_cereal1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state7_bench186_make_cold_cereal1_scene6 ;
@@ -12597,8 +12594,7 @@ ex:state7_dishbowl211_make_cold_cereal1_scene6 a vh2kg:State ;
     vh2kg:isStateOf ex:dishbowl211_scene6 ;
     vh2kg:nextState ex:state9_dishbowl211_make_cold_cereal1_scene6 ;
     vh2kg:partOf ex:home_situation7_make_cold_cereal1_scene6,
-        ex:home_situation8_make_cold_cereal1_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation8_make_cold_cereal1_scene6 .
 
 ex:state7_dishwashingliquid213_make_cold_cereal1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state7_dishwashingliquid213_make_cold_cereal1_scene6 ;
@@ -12925,8 +12921,7 @@ ex:state9_dishbowl211_make_cold_cereal1_scene6 a vh2kg:State ;
     vh2kg:isStateOf ex:dishbowl211_scene6 ;
     vh2kg:nextState ex:state11_dishbowl211_make_cold_cereal1_scene6 ;
     vh2kg:partOf ex:home_situation10_make_cold_cereal1_scene6,
-        ex:home_situation9_make_cold_cereal1_scene6 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation9_make_cold_cereal1_scene6 .
 
 ex:state9_dishwashingliquid213_make_cold_cereal1_scene6 a vh2kg:State ;
     vh2kg:bbox ex:shape_state9_dishwashingliquid213_make_cold_cereal1_scene6 ;

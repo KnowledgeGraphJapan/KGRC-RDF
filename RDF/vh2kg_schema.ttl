@@ -1,5 +1,5 @@
-@prefix : <http://example.org/virtualhome2kg/ontology/> .
-@prefix ac: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix : <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix ac: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -2121,7 +2121,8 @@ cabinet.""" ;
 
 ho:organize_closet a owl:Class ;
     rdfs:comment "The class with sequence of actions for organizing the closet." ;
-    rdfs:subClassOf ho:HouseCleaning .
+    rdfs:subClassOf ho:HouseArrangement,
+        ho:HouseCleaning .
 
 ho:organize_desk a owl:Class ;
     rdfs:comment """The class with sequence of actions for organizing the desk place, \r
@@ -3229,7 +3230,8 @@ ho:turn_on_light a owl:Class ;
     rdfs:comment """A class with sequences on how to turn on the lights from different \r
 rooms, and different scenaria such as holding other objects or having to \r
 stand up from bed.""" ;
-    rdfs:subClassOf ho:Other .
+    rdfs:subClassOf ho:HouseArrangement,
+        ho:Other .
 
 ho:turn_on_lights a owl:Class ;
     rdfs:comment """The class with sequence of actions for turning on the lights more than \r

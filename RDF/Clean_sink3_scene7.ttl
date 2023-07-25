@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -16707,8 +16707,7 @@ ex:state11_toothbrush32_clean_sink3_scene7 a vh2kg:State ;
         ex:home_situation27_clean_sink3_scene7,
         ex:home_situation28_clean_sink3_scene7,
         ex:home_situation29_clean_sink3_scene7,
-        ex:home_situation30_clean_sink3_scene7 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation30_clean_sink3_scene7 .
 
 ex:state13_waterglass33_clean_sink3_scene7 a vh2kg:State ;
     vh2kg:bbox ex:shape_state13_waterglass33_clean_sink3_scene7 ;
@@ -16736,8 +16735,7 @@ ex:state17_waterglass33_clean_sink3_scene7 a vh2kg:State ;
         ex:home_situation27_clean_sink3_scene7,
         ex:home_situation28_clean_sink3_scene7,
         ex:home_situation29_clean_sink3_scene7,
-        ex:home_situation30_clean_sink3_scene7 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation30_clean_sink3_scene7 .
 
 ex:state19_toothpaste39_clean_sink3_scene7 a vh2kg:State ;
     vh2kg:bbox ex:shape_state19_toothpaste39_clean_sink3_scene7 ;
@@ -17370,8 +17368,7 @@ ex:state22_toothpaste39_clean_sink3_scene7 a vh2kg:State ;
         ex:home_situation27_clean_sink3_scene7,
         ex:home_situation28_clean_sink3_scene7,
         ex:home_situation29_clean_sink3_scene7,
-        ex:home_situation30_clean_sink3_scene7 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation30_clean_sink3_scene7 .
 
 ex:state24_facecream36_clean_sink3_scene7 a vh2kg:State ;
     vh2kg:bbox ex:shape_state24_facecream36_clean_sink3_scene7 ;
@@ -17388,8 +17385,7 @@ ex:state27_facecream36_clean_sink3_scene7 a vh2kg:State ;
     vh2kg:partOf ex:home_situation27_clean_sink3_scene7,
         ex:home_situation28_clean_sink3_scene7,
         ex:home_situation29_clean_sink3_scene7,
-        ex:home_situation30_clean_sink3_scene7 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation30_clean_sink3_scene7 .
 
 ex:state3_towel41_clean_sink3_scene7 a vh2kg:State ;
     vh2kg:bbox ex:shape_state3_towel41_clean_sink3_scene7 ;

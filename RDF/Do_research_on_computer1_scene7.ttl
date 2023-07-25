@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -14361,8 +14361,7 @@ ex:state15_paper376_do_research_on_computer1_scene7 a vh2kg:State ;
         ex:home_situation18_do_research_on_computer1_scene7,
         ex:home_situation19_do_research_on_computer1_scene7,
         ex:home_situation20_do_research_on_computer1_scene7,
-        ex:home_situation21_do_research_on_computer1_scene7 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation21_do_research_on_computer1_scene7 .
 
 ex:state15_photoframe275_do_research_on_computer1_scene7 a vh2kg:State ;
     vh2kg:bbox ex:shape_state15_photoframe275_do_research_on_computer1_scene7 ;
@@ -14889,8 +14888,7 @@ ex:state22_book272_do_research_on_computer1_scene7 a vh2kg:State ;
     vh2kg:bbox ex:shape_state22_book272_do_research_on_computer1_scene7 ;
     vh2kg:isStateOf ex:book272_scene7 ;
     vh2kg:partOf ex:home_situation22_do_research_on_computer1_scene7,
-        ex:home_situation23_do_research_on_computer1_scene7 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation23_do_research_on_computer1_scene7 .
 
 ex:state22_book277_do_research_on_computer1_scene7 a vh2kg:State ;
     vh2kg:bbox ex:shape_state22_book277_do_research_on_computer1_scene7 ;
@@ -15028,8 +15026,7 @@ ex:state22_paper376_do_research_on_computer1_scene7 a vh2kg:State ;
     vh2kg:bbox ex:shape_state22_paper376_do_research_on_computer1_scene7 ;
     vh2kg:isStateOf ex:paper376_scene7 ;
     vh2kg:partOf ex:home_situation22_do_research_on_computer1_scene7,
-        ex:home_situation23_do_research_on_computer1_scene7 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation23_do_research_on_computer1_scene7 .
 
 ex:state22_peach262_do_research_on_computer1_scene7 a vh2kg:State ;
     vh2kg:bbox ex:shape_state22_peach262_do_research_on_computer1_scene7 ;
@@ -16144,8 +16141,7 @@ ex:state9_book272_do_research_on_computer1_scene7 a vh2kg:State ;
         ex:home_situation19_do_research_on_computer1_scene7,
         ex:home_situation20_do_research_on_computer1_scene7,
         ex:home_situation21_do_research_on_computer1_scene7,
-        ex:home_situation9_do_research_on_computer1_scene7 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation9_do_research_on_computer1_scene7 .
 
 ex:state9_character1_do_research_on_computer1_scene7 a vh2kg:State ;
     vh2kg:bbox ex:shape_state9_character1_do_research_on_computer1_scene7 ;

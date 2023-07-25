@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -7157,9 +7157,9 @@ ex:state1_washingsponge115_pick_up_dirty_fork1_scene2 a vh2kg:State ;
 ex:state2_cutleryfork84_pick_up_dirty_fork1_scene2 a vh2kg:State ;
     vh2kg:bbox ex:shape_state2_cutleryfork84_pick_up_dirty_fork1_scene2 ;
     vh2kg:isStateOf ex:cutleryfork84_scene2 ;
+    vh2kg:nextState ex:state4_cutleryfork84_pick_up_dirty_fork1_scene2 ;
     vh2kg:partOf ex:home_situation2_pick_up_dirty_fork1_scene2,
-        ex:home_situation3_pick_up_dirty_fork1_scene2,
-        ex:home_situation4_pick_up_dirty_fork1_scene2 ;
+        ex:home_situation3_pick_up_dirty_fork1_scene2 ;
     vh2kg:state vh2kg:GRABED .
 
 ex:state3_character1_pick_up_dirty_fork1_scene2 a vh2kg:State ;
@@ -7334,6 +7334,11 @@ ex:state3_stovefan154_pick_up_dirty_fork1_scene2 a vh2kg:State ;
     vh2kg:partOf ex:home_situation3_pick_up_dirty_fork1_scene2,
         ex:home_situation4_pick_up_dirty_fork1_scene2 ;
     vh2kg:state vh2kg:CLEAN .
+
+ex:state4_cutleryfork84_pick_up_dirty_fork1_scene2 a vh2kg:State ;
+    vh2kg:bbox ex:shape_state4_cutleryfork84_pick_up_dirty_fork1_scene2 ;
+    vh2kg:isStateOf ex:cutleryfork84_scene2 ;
+    vh2kg:partOf ex:home_situation4_pick_up_dirty_fork1_scene2 .
 
 ex:tablelamp272_scene2 a vh2kg:Tablelamp ;
     rdfs:label "tablelamp" ;
@@ -8598,6 +8603,16 @@ ex:shape_state3_stovefan154_pick_up_dirty_fork1_scene2 a x3do:Shape ;
             rdf:first 9.244467e-01 ;
             rdf:rest ( 4.504026e-01 6.212865e-01 ) ] .
 
+ex:shape_state4_cutleryfork84_pick_up_dirty_fork1_scene2 a x3do:Shape ;
+    vh2kg:close ex:shape_state3_character1_pick_up_dirty_fork1_scene2 ;
+    vh2kg:inside ex:shape_state0_kitchen51_pick_up_dirty_fork1_scene2 ;
+    x3do:bboxCenter [ a x3do:SFVec3f ;
+            rdf:first -4.331545e+00 ;
+            rdf:rest ( 8.47699e-01 -8.757124e-01 ) ] ;
+    x3do:bboxSize [ a x3do:SFVec3f ;
+            rdf:first 1.641361e-01 ;
+            rdf:rest ( 1.939815e-02 2.331959e-01 ) ] .
+
 ex:stove156_scene2 a vh2kg:Stove ;
     rdfs:label "stove" ;
     vh2kg:attribute vh2kg:containers,
@@ -9449,10 +9464,6 @@ vh2kg:Decor a owl:Class ;
     rdfs:label "Decor" ;
     rdfs:subClassOf vh2kg:Object .
 
-ex:cutleryfork84_scene2 a vh2kg:Cutleryfork ;
-    rdfs:label "cutleryfork" ;
-    dcterms:identifier "84" .
-
 ex:shape_state0_bookshelf230_pick_up_dirty_fork1_scene2 a x3do:Shape ;
     vh2kg:inside ex:shape_state0_bedroom197_pick_up_dirty_fork1_scene2 ;
     vh2kg:on ex:shape_state0_floor204_pick_up_dirty_fork1_scene2 ;
@@ -9543,6 +9554,10 @@ ex:shape_state3_kitchencounterdrawer145_pick_up_dirty_fork1_scene2 a x3do:Shape 
 
 vh2kg:Book a owl:Class ;
     rdfs:subClassOf vh2kg:Props .
+
+ex:cutleryfork84_scene2 a vh2kg:Cutleryfork ;
+    rdfs:label "cutleryfork" ;
+    dcterms:identifier "84" .
 
 ex:shape_state0_closet306_pick_up_dirty_fork1_scene2 a x3do:Shape ;
     vh2kg:inside ex:shape_state0_livingroom274_pick_up_dirty_fork1_scene2 ;
@@ -9829,7 +9844,8 @@ ex:shape_state3_character1_pick_up_dirty_fork1_scene2 a x3do:Shape ;
         ex:shape_state3_oventray157_pick_up_dirty_fork1_scene2,
         ex:shape_state3_salmon193_pick_up_dirty_fork1_scene2,
         ex:shape_state3_stove156_pick_up_dirty_fork1_scene2,
-        ex:shape_state3_stovefan154_pick_up_dirty_fork1_scene2 ;
+        ex:shape_state3_stovefan154_pick_up_dirty_fork1_scene2,
+        ex:shape_state4_cutleryfork84_pick_up_dirty_fork1_scene2 ;
     vh2kg:inside ex:shape_state0_kitchen51_pick_up_dirty_fork1_scene2 ;
     x3do:bboxCenter [ a x3do:SFVec3f ;
             rdf:first -4.579216e+00 ;

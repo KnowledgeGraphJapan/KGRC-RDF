@@ -1,12 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/virtualhome2kg/instance/> .
+@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix vh2kg: <http://example.org/virtualhome2kg/ontology/> .
-@prefix vh2kg-an: <http://example.org/virtualhome2kg/ontology/action/> .
+@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix vh2kg-an: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
 @prefix x3do: <https://www.web3d.org/specifications/X3dOntology4.0#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -12808,8 +12808,7 @@ ex:state16_waterglass198_drink_alcohol1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state16_waterglass198_drink_alcohol1_scene5 ;
     vh2kg:isStateOf ex:waterglass198_scene5 ;
     vh2kg:nextState ex:state17_waterglass198_drink_alcohol1_scene5 ;
-    vh2kg:partOf ex:home_situation16_drink_alcohol1_scene5 ;
-    vh2kg:state vh2kg:GRABED .
+    vh2kg:partOf ex:home_situation16_drink_alcohol1_scene5 .
 
 ex:state17_waterglass198_drink_alcohol1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state17_waterglass198_drink_alcohol1_scene5 ;
@@ -12887,8 +12886,7 @@ ex:state19_waterglass198_drink_alcohol1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state19_waterglass198_drink_alcohol1_scene5 ;
     vh2kg:isStateOf ex:waterglass198_scene5 ;
     vh2kg:partOf ex:home_situation19_drink_alcohol1_scene5,
-        ex:home_situation20_drink_alcohol1_scene5 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation20_drink_alcohol1_scene5 .
 
 ex:state1_alcohol387_drink_alcohol1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state1_alcohol387_drink_alcohol1_scene5 ;
@@ -14444,8 +14442,7 @@ ex:state5_alcohol387_drink_alcohol1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state5_alcohol387_drink_alcohol1_scene5 ;
     vh2kg:isStateOf ex:alcohol387_scene5 ;
     vh2kg:nextState ex:state6_alcohol387_drink_alcohol1_scene5 ;
-    vh2kg:partOf ex:home_situation5_drink_alcohol1_scene5 ;
-    vh2kg:state vh2kg:GRABED .
+    vh2kg:partOf ex:home_situation5_drink_alcohol1_scene5 .
 
 ex:state5_character1_drink_alcohol1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state5_character1_drink_alcohol1_scene5 ;
@@ -14471,8 +14468,7 @@ ex:state6_alcohol387_drink_alcohol1_scene5 a vh2kg:State ;
     vh2kg:isStateOf ex:alcohol387_scene5 ;
     vh2kg:nextState ex:state8_alcohol387_drink_alcohol1_scene5 ;
     vh2kg:partOf ex:home_situation6_drink_alcohol1_scene5,
-        ex:home_situation7_drink_alcohol1_scene5 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation7_drink_alcohol1_scene5 .
 
 ex:state6_bananas219_drink_alcohol1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state6_bananas219_drink_alcohol1_scene5 ;
@@ -14877,8 +14873,7 @@ ex:state8_alcohol387_drink_alcohol1_scene5 a vh2kg:State ;
     vh2kg:nextState ex:state11_alcohol387_drink_alcohol1_scene5 ;
     vh2kg:partOf ex:home_situation10_drink_alcohol1_scene5,
         ex:home_situation8_drink_alcohol1_scene5,
-        ex:home_situation9_drink_alcohol1_scene5 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation9_drink_alcohol1_scene5 .
 
 ex:state8_bananas219_drink_alcohol1_scene5 a vh2kg:State ;
     vh2kg:bbox ex:shape_state8_bananas219_drink_alcohol1_scene5 ;
@@ -15706,8 +15701,7 @@ ex:state9_waterglass198_drink_alcohol1_scene5 a vh2kg:State ;
         ex:home_situation11_drink_alcohol1_scene5,
         ex:home_situation12_drink_alcohol1_scene5,
         ex:home_situation13_drink_alcohol1_scene5,
-        ex:home_situation9_drink_alcohol1_scene5 ;
-    vh2kg:state vh2kg:GRABED .
+        ex:home_situation9_drink_alcohol1_scene5 .
 
 ex:stove155_scene5 a vh2kg:Stove ;
     rdfs:label "stove" ;
