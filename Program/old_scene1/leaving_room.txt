@@ -1,8 +1,0 @@
-leaving room
-Cut off the light, close the door and leave bathroom
-
-<char0> [WALK] <bathroom> (11)
-<char0> [WALK] <lightswitch> (72)
-<char0> [SWITCHOFF] <lightswitch> (72)
-<char0> [CLOSE] <door> (52)
-<char0> [WALK] <bedroom> (74)

@@ -1,0 +1,8 @@
+Use toilet1
+The person leaves the bedroom, walk to the bathroom, and this case look at the toilet in the bathroom. Open the toilet lid. Sit on the toilet. Use the toilet. Flush the toilet and stand up. Close the toilet lid.
+
+
+[WALK] <bathroom> (1)
+[WALK] <toilet> (1)
+[SIT] <toilet> (1)
+[STAND]

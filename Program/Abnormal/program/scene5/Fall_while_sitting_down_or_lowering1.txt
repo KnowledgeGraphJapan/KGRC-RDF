@@ -1,0 +1,15 @@
+Fall while sitting down or lowering1
+A person walks from the bathroom to the bedroom after completing personal hygiene by passing livingroom and kitchen. The person walks over to the bed and sits on it. The person remembers to turn off the room lights and then gets out of bed to walk the switch, then turn it off.  Walk back to the bed and locate it to start sleeping. Unfortunately, he/she falls caused by loss of support with an object often occur during sitting down or lowering on the bed due to weakness, instability, or dizziness.
+
+
+[WALK] <livingroom> (1)
+[WALK] <kitchen> (1)
+[WALK] <bedroom> (1)
+[WALK] <bed> (1)
+[SIT] <bed> (1)
+[STAND]
+[WALK] <lightswitch> (1)
+[SWITCHOFF] <lightswitch> (1)
+[WALK] <bed> (1)
+[SIT] <bed> (1)
+[FALLSIT] <bed> (1)

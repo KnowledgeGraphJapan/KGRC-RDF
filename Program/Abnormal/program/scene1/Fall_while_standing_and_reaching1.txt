@@ -1,0 +1,12 @@
+Fall while standing and reaching1
+After getting up from bed, the person walks out of the bedroom and makes the way to the kitchen to prepare breakfast. Upon reaching the kitchen, the person notices that the groceries he/she needs for breakfast are stored in the upper cabinets. Then, walks to each grocery and carefully reach for each stored in the upper places. The person then falls while he/she is grabbing an object located at the upper place by making strain or overextending his reach.
+
+
+[WALK] <bed> (1)
+[SIT] <bed> (1)
+[STAND]
+[WALK] <kitchen> (1)
+[WALK] <kitchencabinet> (1)
+[OPEN] <kitchencabinet> (1)
+[TURNTO] <sink> (1)
+[FALL]

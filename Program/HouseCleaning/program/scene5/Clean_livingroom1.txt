@@ -1,0 +1,27 @@
+Clean livingroom1
+The person walked into the living room and surveyed the desk, noticing the gathered dust on its surfaces. Understanding the need to eliminate the dust, he/she decided to find a towel for the task. Leaving the living room, the person walks to reach the bathroom, where he/she retrieving a towel. With the towel in hand, the person returned to the living room. They began by taking off as many items from the desk as possible, creating clear space to work with. Once the desk was decluttered, they proceeded to wipe down all the surfaces, including the top of the desk, using the towel. The person made sure to thoroughly clean and remove the accumulated dust from the desk. Afterward, the person carefully rearranges or puts back the items on the desk, ensuring a neat and organized appearance. With the desk looking tidy, the person shifted the attention to the sofa, where he/she noticed dust on the pillows. The person grabbed each of the pillows and used the towel to wipe down their surfaces, effectively cleaning off the dust. To further eliminate any remaining dust particles, the person gives the pillows a gentle shake before placing them back on the sofa. Finally, the person walks over to the TV and wiped off the screen using the same towel. The person takes care to clean all the surfaces of the screen, making sure to remove any dust or smudges that had accumulated. Upon completing the cleaning tasks, the person steps back and observes/looked at the clean and refreshed living room. The desk, sofa pillows, and TV screen were now free from dust, contributing to a neat and pleasant environment.
+
+
+[WALK] <desk> (1)
+[WALK] <bathroom> (1)
+[WALK] <towel> (1)
+[GRAB] <towel> (1)
+[WALK] <livingroom> (1)
+[WALK] <desk> (1)
+[WALK] <mouse> (1)
+[GRAB] <mouse> (1)
+[TURNTO] <desk> (1)
+[WIPE] <towel> (1) <desk> (1)
+[PUTOBJBACK] <mouse> (1)
+[WALK] <keyboard> (1)
+[GRAB] <keyboard> (1)
+[TURNTO] <desk> (1)
+[WIPE] <towel> (1) <desk> (1)
+[PUTOBJBACK] <keyboard> (1)
+[WALK] <pillow> (1)
+[GRAB] <pillow> (1)
+[SCRUB] <towel> (1) <pillow> (1)
+[SHAKE] <pillow> (1)
+[PUTOBJBACK] <pillow> (1)
+[WALK] <tv> (1)
+[WIPE] <towel> (1) <tv> (1)

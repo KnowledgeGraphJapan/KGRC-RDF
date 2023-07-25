@@ -1,0 +1,8 @@
+Admire art2
+A person stops working in the bedroom and walks towards the kitchen to look at paintings, and art to stop thinking about daily problems and negative thoughts. Admiring art makes us experience tranquillity, leading up to feelings of peace and relaxation.
+
+
+[WALK] <kitchen> (11)
+[WALK] <wallpictureframe> (167)
+[TURNTO] <wallpictureframe> (167)
+[LOOKAT] <wallpictureframe> (167)

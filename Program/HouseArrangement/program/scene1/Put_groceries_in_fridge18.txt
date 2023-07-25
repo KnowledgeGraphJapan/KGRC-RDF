@@ -1,0 +1,11 @@
+Put groceries in fridge18
+The person walks into the kitchen, looking for groceries. His/her eyes scan the shelves and cabinets until he/she finds the desired item—the chocolate syrup. With a small smile of satisfaction, the person reaches out and grabs the chocolate syrup. Carrying the chocolate syrup, the person walks over to the fridge and opens its door, revealing the array of items inside. The person carefully positions the chocolate syrup in the fridge by finding a suitable spot to store it properly. Once the chocolate syrup is securely stored, the person closes the fridge door, ensuring it is tightly shut. The person was satisfied with his/her task and can now proceed with other kitchen activities or move on to the next item on their to-do list.
+
+
+[WALK] <chocolatesyrup> (1)
+[GRAB] <chocolatesyrup> (1)
+[WALK] <fridge> (1)
+[OPEN] <fridge> (1)
+[TURNTO] <fridge> (1)
+[PUTIN] <chocolatesyrup> (1) <fridge> (1)
+[CLOSE] <fridge> (1)

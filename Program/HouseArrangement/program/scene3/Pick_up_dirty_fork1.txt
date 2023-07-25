@@ -1,0 +1,11 @@
+Pick up dirty fork1
+After having a meal in the kitchen, the person gathers the dirty forks used by the family members and walks towards the sink. Person places the set of forks in the sink, preparing them for washing. Placing the dirty forks in the sink helps contain the mess and keeps the kitchen area organized. This makes it easier to clean and wash the forks later on. It's a good practice to promptly attend to dirty utensils like forks to maintain cleanliness and order in the kitchen. By following these steps, the person ensures that the forks are ready for proper cleaning and can be reused for future meals.
+
+
+[WALK] <fork> (66)
+[GRAB] <fork> (66)
+[WALK] <fork> (69)
+[GRAB] <fork> (69)
+[WALK] <sink> (158)
+[PUTBACK] <fork> (66) <sink> (158)
+[PUTBACK] <fork> (69) <sink> (158)

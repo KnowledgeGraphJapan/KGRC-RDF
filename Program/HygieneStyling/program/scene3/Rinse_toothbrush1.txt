@@ -1,0 +1,12 @@
+Rinse toothbrush1
+Hold the toothbrush under running water for a few seconds to remove any bacteria from the brush in the bathroom. Rinsing also removes any leftover toothpaste. Place the toothbrush somewhere where it will readily dry out. Otherwise, bacteria can grow. 
+
+
+[WALK] <toothbrush> (1)
+[GRAB] <toothbrush> (1)
+[WALK] <faucet> (1)
+[SWITCHON] <faucet> (1)
+[SOAK] <toothbrush> (1)
+[RINSE] <toothbrush> (1)
+[SWITCHOFF] <faucet> (1)
+[PUTOBJBACK] <toothbrush> (1)

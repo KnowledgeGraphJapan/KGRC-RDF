@@ -1,0 +1,8 @@
+Clean kitchentable1
+A person walks into the kitchen and directs the attention towards the kitchen table. Realizing that it needed cleaning, the person decide to find the appropriate cleaning materials. Then, look around and locate the cleaning supplies, grabbing them to prepare for the task of cleaning the table. With the cleaning materials in hand, the person walk over to the table. The person starts by removing any items or objects from the table to create a clear space for cleaning. Using the cleaning material, whether it be a spray cleaner, wipes, sponge, or a cloth, the person begins wiping down the table surface. Once the table was wiped down and free from dirt and grime, the person takes a step back to admire the work. While looking around, the person feels satisfied with the clean and refreshed appearance of the kitchen table, knowing that he/she has created a pleasant and inviting space for dining and other activities in the kitchen.
+
+[WALK] <kitchentable> (1)
+[WALK] <sponge> (1)
+[GRAB] <sponge> (1)
+[WALK] <kitchentable> (1)
+[WIPE] <sponge> (1) <kitchentable> (1)

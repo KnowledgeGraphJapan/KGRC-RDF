@@ -1,0 +1,18 @@
+Fall backward while walking and turning1
+The person leaves the living room, walks through the kitchen, and enters the bedroom. In the bedroom, walk towards the bed where a cat is resting. The person reaches out and grabs the cat gently. The person then re-enter the living room, bringing the cat along, and settle down on sofa for some leisure time while petting the cat. To watch some TV programs, the person gets up from the sofa and walks towards somewhere a remote controller is placed. Then search for the remote control, hoping to change the TV programs while watching television. Once person finds the remote control, walk over to the TV and turn it on. After that, the person returns to the coffee table and turn attention to it to have the remote control within reach. However, the person is falling while walking and turning. While bringing with cat, this person initiates a turn by crossing his left leg in front of his right. He loses balance during the next step, after the toe of his right foot collides with his left heel, resulting in a backward fall.
+
+
+[WALK] <kitchen> (1)
+[WALK] <bedroom> (1)
+[WALK] <cat> (1)
+[GRAB] <cat> (1)
+[WALK] <kitchen> (1)
+[WALK] <livingroom> (1)
+[WALK] <sofa> (1)
+[SIT] <sofa> (1)
+[STAND]
+[WALK] <remotecontrol> (1)
+[WALK] <tv> (1)
+[SWITCHON] <tv> (1)
+[WALK] <coffeetable> (1)
+[FALLBACK]

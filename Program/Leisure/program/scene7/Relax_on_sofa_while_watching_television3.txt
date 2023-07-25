@@ -1,0 +1,13 @@
+Relax on sofa while watching television3
+A person finished his dinner in the kitchen. Then, walks towards the living room to find TV to be a good way to wind down from the stress in the evening. Turn on the TV power button. Grab a remote to find a program where we can turn the brain off and enjoy the laughs and grab it. The person goes to the sofa and sit on it, ease into the sofa and relax. The person enjoys the TV programs for a few minutes and turn off the TV power button after watching TV programs.
+
+
+[WALK] <livingroom> (1)
+[WALK] <tv> (1)
+[SWITCHON] <tv> (1)
+[WALK] <remotecontrol> (1)
+[GRAB] <remotecontrol> (1)
+[WALK] <sofa> (1)
+[SIT] <sofa> (1)
+[STAND]
+[SWITCHOFF] <tv> (1)

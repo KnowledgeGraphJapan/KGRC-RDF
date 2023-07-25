@@ -1,0 +1,13 @@
+Hand washing1
+A person leaves from the toilet, and walks to the faucet in the bathroom. Turn on the faucet and hold my hands underneath the stream of water to wet them. Apply enough hand soap to cover your hands. Soap up your hands. Then rinse under the running water of the faucet to remove all the soap from the hands. If the water does not automatically shut off, turn off the faucet. 
+
+[WALK] <toilet> (1)
+[WALK] <barsoap> (1)
+[GRAB] <barsoap> (1)
+[WALK] <faucet> (1)
+[SWITCHON] <faucet> (1)
+[SOAK] <barsoap> (1)
+[RINSE] <barsoap> (1)
+[SOAK] <barsoap> (1)
+[PUTOBJBACK] <barsoap> (1)
+[SWITCHOFF] <faucet> (1)

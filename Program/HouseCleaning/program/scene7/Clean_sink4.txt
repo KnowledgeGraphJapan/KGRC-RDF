@@ -1,0 +1,16 @@
+Clean sink4
+A person walks into the kitchen and look at towards the sink. Realizing that it needed cleaning, the person decide to find the appropriate cleaning materials. Then, look around and locate the cleaning supplies, grabbing them to prepare for the task of cleaning the sink. With the cleaning materials in hand, the person walks over to the sink and start by removing any dishes, utensils, or other items that might be in the sink or around it. Using the cleaning material, whether it be a spray cleaner, scrub brush, or sponge, the person began wiping down the sink. The cleaning material effectively removed any dirt, stains, or residue that had accumulated. With deliberate and thorough motions, scrub the sink, paying attention to any tough spots or build-up that required extra effort to clean. Person also cleaned the faucet, ensuring that any water spots or grime were removed. Once the sink was wiped down and thoroughly cleaned, the person rinsed it with water by opening faucet to remove any remaining cleaning solution or residue. The person closes the faucet and then dried the sink using a clean towel or cloth or sponge, leaving it looking shiny and polished. Person satisfies with his/her work, then stepped back and admired the clean and refreshed appearance of the sink. He/she proceeds to put back any items they had removed, ensuring everything was organized and in its proper place. Knowing that person has created a clean and hygienic sink, the person felt accomplished, as a clean sink contributes to a tidy and inviting kitchen space.
+
+
+[WALK] <sink> (1)
+[WALK] <sponge> (1)
+[GRAB] <sponge> (1)
+[WALK] <sink> (1)
+[TURNTO] <sink> (1)
+[WIPE] <sponge> (1) <sink> (1)
+[WALK] <faucet> (1)
+[SWITCHON] <faucet> (1)
+[SWITCHOFF] <faucet> (1)
+[WALK] <sink> (1)
+[TURNTO] <sink> (1)
+[WIPE] <sponge> (1) <sink> (1)

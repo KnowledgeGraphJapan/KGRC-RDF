@@ -1,9 +1,0 @@
-Take a nap
-Go to the bedroom. Switch off the table lamp.
-
-[WALK] <bedroom> (74)
-[WALK] <tablelamp> (104)
-[SWITCHOFF] <tablelamp> (104)
-[WALK] <bedroom> (74)
-[WALK] <bed> (111)
-[SIT] <bed> (111)

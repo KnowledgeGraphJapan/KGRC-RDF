@@ -1,7 +1,0 @@
-Eat Bread
-Go to the kitchen and grab bread, and walk to the living room and sit on the sofa, and eat bread
-
-<char0> [WALK] <kitchen> (207)
-<char0> [WALK] <breadslice> (310)
-<char0> [GRAB] <breadslice> (310)
-<char0> [EAT] <breadslice> (310)

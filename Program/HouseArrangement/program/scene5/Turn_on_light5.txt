@@ -1,0 +1,8 @@
+Turn on light5
+After finishing the personal hygiene in the bathroom, a person walks through the livingroom to reach the kitchen. Once he/she enters the kitchen, he/she looks for a light switch or a set of switches on the wall near the entrance to the dining room. Typically, light switches are placed near the entry points of a room for easy access. To turn on the ceiling lights in the kitchen, the person flips the switches in an upward direction. By flipping the switches upward, the person activates the ceiling lights, illuminating the kitchen. If there are additional lights in the dining room, such as wall sconces or controls, the person locates them and turns them on as well. Once all the lights in the kitchen and dining room are turned on, the person is ready to have their meals or beverages in the well-lit environment provided by the ceiling lights and any additional lighting fixtures. 
+
+
+[WALK] <livingroom> (1)
+[WALK] <kitchen> (1)
+[WALK] <lightswitch> (1)
+[SWITCHON] <lightswitch> (1)

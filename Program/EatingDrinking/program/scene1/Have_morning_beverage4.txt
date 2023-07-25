@@ -1,0 +1,19 @@
+Have morning beverage4
+A person walks from bathroom to kitchen by passing the bedroom. The nutrients found in vegetable juice are proven to promote energy levels. Walk to the juice bottle. Grab the bottle and drink it to amp up the energy with juice. Then, find the water glass and grab it. Carry it to the faucet. Turn the cold water on and put the glass under the water to fill it. Turn off the faucet. Drink water after filling the glass with water since the benefits of drinking water in the morning are plenty. Place the glass back on the counter. Then, the person walks to the living room to do workout to start a day with fresh body.
+
+
+[WALK] <bedroom> (1)
+[WALK] <kitchen> (1)
+[WALK] <juice> (1)
+[GRAB] <juice> (1)
+[DRINK] <juice> (1)
+[PUTOBJBACK] <juice> (1)
+[WALK] <waterglass> (1)
+[GRAB] <waterglass> (1)
+[WALK] <faucet> (1)
+[SWITCHON] <faucet> (1)
+[SOAK] <waterglass> (1)
+[SWITCHOFF] <faucet> (1)
+[DRINK] <waterglass> (1)
+[PUTOBJBACK] <waterglass> (1)
+[WALK] <livingroom> (1)

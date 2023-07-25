@@ -1,0 +1,14 @@
+Use phone4
+A person grabs the cell phone and sits down on a sofa in living room and looks at his/her phone. This person looks at the phone and appears to play a game or have a conversation with a person off-screen. After that, the person walks towards to the kitchen in order to pick up a milk bottle and drink it.
+
+
+[WALK] <cellphone> (1)
+[GRAB] <cellphone> (1)
+[WALK] <sofa> (1)
+[SIT] <sofa> (1)
+[TEXT] <cellphone> (1)
+[STAND]
+[WALK] <kitchen> (1)
+[WALK] <milk> (1)
+[GRAB] <milk> (1)
+[DRINK] <milk> (1)

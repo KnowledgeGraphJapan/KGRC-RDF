@@ -1,0 +1,23 @@
+Put groceries in fridge24
+A person in the kitchen walks to choose a bottle of wine that he/she would like to store in the fridge. The person grabs the wine bottle and checks/reads it to ensure it is appropriately sealed with a cork or screw cap to maintain its freshness. Then, places it on the kitchen table. He/she enters a bathroom to find a towel to clean the bottle. To reach the bathroom, the person passes through the bedroom from the kitchen. Once in the bathroom, find a towel and grab it. After getting the towel, the person re-enters the kitchen and walks towards the kitchen table where the wine bottle is placed. The person holds the wine bottle and starts scrubbing it with the towel. Once cleaning is done, put the towel on the kitchen table. Next, the person walks towards the fridge while bringing the bottle. Then, open the refrigerator and store the wine bottle horizontally or at a slight angle inside the fridge. This helps keep the cork moist, preventing it from drying out and allowing air to enter the bottle. Finally, close the fridge door.
+
+
+[WALK] <wine> (1)
+[GRAB] <wine> (1)
+[PUTOBJBACK] <wine> (1)
+[WALK] <bedroom> (1)
+[WALK] <bathroom> (1)
+[WALK] <towel> (1)
+[GRAB] <towel> (1)
+[WALK] <bedroom> (1)
+[WALK] <kitchen> (1)
+[WALK] <wine> (1)
+[GRAB] <wine> (1)
+[SCRUB] <wine> (1) <towel> (1)
+[WALK] <kitchentable> (1)
+[PUTBACK] <towel> (1) <kitchentable> (1)
+[WALK] <fridge> (1)
+[OPEN] <fridge> (1)
+[TURNTO] <fridge> (1)
+[PUTIN] <wine> (1) <fridge> (1)
+[CLOSE] <fridge> (1)

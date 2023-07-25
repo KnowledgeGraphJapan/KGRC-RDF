@@ -1,0 +1,23 @@
+Have evening beverage4
+After taking a leisure in a living room, a person walks towards a kitchen. Walk to the alcohol bottle and grab it. Then, walk to the glass and grab it. The glass is put on the table and pour alcohol to the glass. Small snacks can be a healthy and light option to serve with alcohol and so walk to the cake and grab it. Have the alcohol to get rid of the tiredness of the day and the cake together. After that, the person goes the bathroom for doing personal hygiene before going to bed. To reach the destination, the person need to pass through the bedroom.
+
+
+[WALK] <kitchen> (1)
+[WALK] <alcohol> (1)
+[GRAB] <alcohol> (1)
+[WALK] <waterglass> (1)
+[GRAB] <waterglass> (1)
+[WALK] <kitchentable> (1)
+[PUTBACK] <waterglass> (1) <kitchentable> (1)
+[POUR] <alcohol> (1) <waterglass> (1)
+[PUTOBJBACK] <alcohol> (1)
+[WALK] <cupcake> (1)
+[GRAB] <cupcake> (1)
+[WALK] <waterglass> (1)
+[GRAB] <waterglass> (1)
+[DRINK] <waterglass> (1)
+[EAT] <cupcake> (1)
+[PUTOBJBACK] <waterglass> (1)
+[PUTOBJBACK] <cupcake> (1)
+[WALK] <livingroom> (1)
+[WALK] <bathroom> (1)

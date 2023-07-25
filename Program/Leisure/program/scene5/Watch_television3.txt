@@ -1,0 +1,14 @@
+Watch television3
+A person finished his dinner in the kitchen. The person walks towards the living room from the kitchen. Then, find the TV and turn on the TV power button. Grab a remote controller to find a TV program where we can turn the brain off and enjoy the laughs. The person watches the program for a while and then turns off the TV power button after watching TV programs. Before going to bed, personal hygiene for brushing his teeth is necessary, thus the person moves to the bathroom from the living room.
+
+
+[WALK] <livingroom> (1)
+[WALK] <tv> (1)
+[SWITCHON] <tv> (1)
+[WALK] <remotecontrol> (1)
+[GRAB] <remotecontrol> (1)
+[WALK] <tv> (1)
+[SWITCHOFF] <tv> (1)
+[WALK] <tvstand> (1)
+[PUTBACK] <remotecontrol> (1) <tvstand> (1)
+[WALK] <bathroom> (1)

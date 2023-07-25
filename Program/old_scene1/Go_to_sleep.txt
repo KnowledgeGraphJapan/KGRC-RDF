@@ -1,8 +1,0 @@
-Go to sleep
-Walk into bedroom, turn off the light, walk to the bed, sit on the bed.
-
-[WALK] <bedroom> (74)
-[WALK] <light> (175)
-[SWITCHOFF] <light> (175)
-[WALK] <bed> (111)
-[SIT] <bed> (111)

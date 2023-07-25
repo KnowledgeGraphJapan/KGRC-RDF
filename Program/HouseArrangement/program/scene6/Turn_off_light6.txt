@@ -1,0 +1,7 @@
+Turn off light6
+After taking a rest in the living room, a person looks for a light switch or a set of switches on the wall near the entrance to the living room. Flip the switches in the downward direction to turn off the ceiling lights. The person locates any additional lights in the living room, such as wall sconces or controls. Then, turn them off. After that, the person walks over to the bed room.  Upon reaching the bedroom, the person can proceed to their bed or carry out any other activities they need to do in the bedroom.
+
+
+[WALK] <lightswitch> (1)
+[SWITCHOFF] <lightswitch> (1)
+[WALK] <bedroom> (1)

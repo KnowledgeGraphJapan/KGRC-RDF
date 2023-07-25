@@ -1,0 +1,7 @@
+Stand on coffee table1
+A person moves from the kitchen to the living room. The person walks around the living room area with the unstable emotion, then go towards to the coffee table. Then the person steps up to a height (coffee table) and stands there for more than a certain amount of time. Standing on a height for an extended period of time can indeed be considered a dangerous position that increases the risk of falling.
+
+
+[WALK] <livingroom> (1)
+[WALK] <coffeetable> (1)
+[CLIMB] <coffeetable> (1)

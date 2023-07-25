@@ -1,8 +1,0 @@
-Prepare breakfast
-I walk to the kitchen and bring the bread-slice.
-
-[WALK] <kitchen> (207)
-[WALK] <breadslice> (310)
-[GRAB] <breadslice> (310)
-[WALK] <plate> (274)
-[PUTBACK] <breadslice> (310) <plate> (274)

@@ -1,0 +1,7 @@
+Relax on bed1
+A person goes to the bedroom room from living room and sit on the bed, ease into the bed and relax.
+
+
+[WALK] <bedroom> (1)
+[WALK] <bed> (1)
+[SIT] <bed> (1)

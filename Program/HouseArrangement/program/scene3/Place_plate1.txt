@@ -1,0 +1,11 @@
+Place plate1
+The person in the kitchen walks towards the plates and picks them up. The person then places the plates on the kitchen table. While the plate doesn't have to be ornate or elaborate, the person tries to use matching plates for all the settings. This ensures a cohesive and visually appealing presentation of the meal. By using matching plates, the table setting appears more coordinated and creates a sense of harmony in the overall dining experience.
+
+
+[WALK] <plate> (67)
+[GRAB] <plate> (67)
+[WALK] <plate> (68)
+[GRAB] <plate> (68)
+[WALK] <kitchentable> (138)
+[PUTBACK] <plate> (67) <kitchentable> (138)
+[PUTBACK] <plate> (68) <kitchentable> (138)

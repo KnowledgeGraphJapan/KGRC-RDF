@@ -1,0 +1,31 @@
+Organize closet1
+A person moves from the kitchen to bedroom after having meals. The person will start house arrangement task, so walk towards the closet and grab pants, shirts and clothes pile. Walk towards the bed and place clothes on it. Fold each pair of pants, and clothes pile. Make sure the shirt is neatly flat. After that, grab the half folded clothes pants and shirts and walk towards the closet. Hang a pair of pants and shirts on the pegs, making them easy to see which clothes we have available. Then, grab the clothes pile and walk towards the closet. Storing them on a closet allows us to see each pair of clothes pile that we have. 
+
+
+[WALK] <bedroom> (1)
+[WALK] <closet> (1)
+[GRAB] <clothespants> (1)
+[GRAB] <clothesshirt> (1)
+[WALK] <bed> (1)
+[PUTBACK] <clothespants> (1) <bed> (1)
+[PUTBACK] <clothesshirt> (1) <bed> (1)
+[WALK] <clothespile> (1)
+[GRAB] <clothespile> (1)
+[WALK] <bed> (1)
+[PUTBACK] <clothespile> (1) <bed> (1)
+[GRAB] <clothespants> (1)
+[FOLD]
+[PUTBACK] <clothespants> (1) <bed> (1)
+[GRAB] <clothespile> (1)
+[FOLD]
+[PUTBACK] <clothespile> (1) <bed> (1)
+[GRAB] <clothesshirt> (1)
+[FOLD]
+[GRAB] <clothespants> (1)
+[WALK] <closet> (1)
+[PUTIN] <clothespants> (1) <closet> (1)
+[PUTIN] <clothesshirt> (1) <closet> (1)
+[WALK] <bed> (1)
+[GRAB] <clothespile> (1)
+[WALK] <closet> (1)
+[PUTIN] <clothespile> (1) <closet> (1)

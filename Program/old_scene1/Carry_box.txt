@@ -1,8 +1,0 @@
-Carry box
-Walk to the box. Grab the box. Carry the box to the livingroom.
-
-[WALK] <box> (194)
-[GRAB] <box> (194)
-[WALK] <floor> (337)
-[TURNTO] <wallpictureframe> (419)
-[PUTBACK] <box> (194) <floor> (337)

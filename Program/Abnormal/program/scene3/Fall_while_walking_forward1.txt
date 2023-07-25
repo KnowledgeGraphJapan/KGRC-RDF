@@ -1,0 +1,11 @@
+Fall while walking forward1
+A person leaves the living room and enters the kitchen. Then walks toward the fridge and opens it. Look at the fridge inside to see whether some groceries are needed to fill soon. Close the fridge and walks to the living room. Then, the person walks forward to go home outside in a hurry. At that time, a person falls due to incorrect weight shifting while walking forward.
+
+
+[WALK] <kitchen> (1)
+[WALK] <fridge> (1)
+[OPEN] <fridge> (1)
+[CLOSE] <fridge> (1)
+[WALK] <livingroom> (1)
+[WALK] <floor> (1)
+[FALL]

@@ -1,0 +1,9 @@
+Fall while climbing at somewhere height1
+A person needs to fix the living room light bulb. But the person doesn't have a ladder or step stool to reach a higher object, such as a light bulb located in the ceiling. In a situation where space is limited, the person sees the coffee table as a makeshift solution. Before climbing the coffee table, a person walks towards the box where pieces of equipment are stored to fix household furniture. Garb and bring the box and walks back to the coffee table and climbs on it. However, the person didn't notice that coffee tables are typically not designed to support the weight and balance of a person standing or climbing on them. A swivel chair or desk (table) is extremely dangerous when used as a step. The person falls while climbing at somewhere height by carrying the kinds of stuff.
+
+
+[WALK] <box> (1)
+[GRAB] <box> (1)
+[WALK] <coffeetable> (1)
+[CLIMB] <coffeetable> (1)
+[FallTable2]

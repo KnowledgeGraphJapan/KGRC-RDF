@@ -1,0 +1,8 @@
+Put slippers in closet2
+A person in a bedroom walks towards the slippers and picks them up. Slippers may spend more time on feet than any other footwear. That’s why there is a lot of dust on the slippers. Thus, the person shakes the slippers and places them in the closet.
+
+
+[WALK] <slippers> (204)
+[GRAB] <slippers> (204)
+[WALK] <closet> (115)
+[PUTIN] <slippers> (204) <closet> (115)

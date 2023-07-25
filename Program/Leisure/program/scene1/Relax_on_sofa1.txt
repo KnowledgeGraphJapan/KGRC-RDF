@@ -1,0 +1,7 @@
+Relax on sofa1
+A person end the cleaning works in the kitchen. Then, goes to the living room and sit on the sofa, ease into the sofa and relax.
+
+
+[WALK] <livingroom> (1)
+[WALK] <sofa> (1)
+[SIT] <sofa> (1)

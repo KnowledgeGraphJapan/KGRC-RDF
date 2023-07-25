@@ -1,0 +1,17 @@
+Make hot cereal1
+A person walks towards a kitchen from the living room after doing physical activities to prepare food for meals. After that, the person walks towards a cooking pot and the stove. Walk to the cereal and bottled milk and grab them. Then, walk towards the pot and pour cereal and milk into it. Switch on the stove and have to keep an eye on it. Switch off the stove after bringing the milk to a boil.
+
+
+[WALK] <kitchen> (1)
+[WALK] <stove> (1)
+[WALK] <cereal> (1)
+[GRAB] <cereal> (1)
+[WALK] <milk> (1)
+[GRAB] <milk> (1)
+[WALK] <fryingpan> (1)
+[POUR] <cereal> (1) <fryingpan> (1)
+[POUR] <milk> (1) <fryingpan> (1)
+[PUTOBJBACK] <milk> (1)
+[WALK] <stove> (1)
+[SWITCHON] <stove> (1)
+[SWITCHOFF] <stove> (1)

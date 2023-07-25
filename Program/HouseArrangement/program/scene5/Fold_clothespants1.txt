@@ -1,0 +1,9 @@
+Fold clothespants1
+The person in the bedroom walks towards the clothes, picks up a pair of pants, and walks towards the bed. Person places the pants on the bed and proceed to fold them neatly. The folding process involves carefully aligning the legs of the pants, ensuring that any creases or wrinkles are smoothed out. The person folds one leg over the other, creating a neat stack. Finally, the person adjusts the pants to ensure they are evenly folded and properly aligned. This ensures that the pants are organized and ready to be put away or worn later.
+
+
+[WALK] <clothespants> (1)
+[GRAB] <clothespants> (1)
+[WALK] <bed> (1)
+[FOLD]
+[PUTBACK] <clothespants> (1) <bed> (1)

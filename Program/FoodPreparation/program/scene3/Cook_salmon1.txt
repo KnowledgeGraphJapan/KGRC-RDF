@@ -1,0 +1,15 @@
+Cook salmon1
+A person walks towards a kitchen from the living room after doing physical activities to prepare food for meals. The person walks towards the salmon and grabs it. Walk to the faucet and switch it on. Rinse the salmon under cold water and then switch off the faucet. Put the salmon in a pot and put it on the stove. Switch on the stove and have to keep an eye on it. Switch off the stove after cooking.
+
+
+[WALK] <kitchen> (11)
+[WALK] <salmon> (187)
+[GRAB] <salmon> (187)
+[WALK] <sink> (158)
+[SWITCHON] <faucet> (159)
+[SOAK] <salmon> (187)
+[SWITCHOFF] <faucet> (159)
+[WALK] <fryingpan> (62)
+[PUTBACK] <salmon> (187) <fryingpan> (62)
+[SWITCHON] <stove> (166)
+[SWITCHOFF] <stove> (166)

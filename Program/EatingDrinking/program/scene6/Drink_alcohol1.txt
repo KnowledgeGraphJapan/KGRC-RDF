@@ -1,0 +1,25 @@
+Drink alcohol1
+During leisure time, person leaves the living room and head to the kitchen by passing bedroom with the specific purpose of getting some alcohol. After reaching the kitchen, the person grabs a alcohol bottle and place it on the kitchen table. Then find a glass and take hold of it. Alongside the alcohol bottle, there may be other items on the kitchen table. The person proceeds to pour the alcohol from the bottle into the glass, and then grab the glass and start drinking the alcohol slowly, relishing its taste. Person enjoys it so much that he/she drinks directly from the glass, placing it back on the table momentarily, only to pick it up again and continue drinking. In addition to that, the person also drinks directly from the alcohol bottle itself, savoring every sip. 
+
+
+[WALK] <bedroom> (1)
+[WALK] <kitchen> (1)
+[WALK] <alcohol> (1)
+[GRAB] <alcohol> (1)
+[WALK] <kitchentable> (1)
+[PUTBACK] <alcohol> (1) <kitchentable> (1)
+[WALK] <waterglass> (1)
+[GRAB] <waterglass> (1)
+[WALK] <kitchentable> (1)
+[PUTBACK] <waterglass> (1) <kitchentable> (1)
+[WALK] <alcohol> (1)
+[GRAB] <alcohol> (1)
+[WALK] <waterglass> (1)
+[POUR] <alcohol> (1) <waterglass> (1)
+[GRAB] <waterglass> (1)
+[DRINK] <waterglass> (1)
+[PUTOBJBACK] <waterglass> (1)
+[GRAB] <waterglass> (1)
+[DRINK] <waterglass> (1)
+[PUTOBJBACK] <waterglass> (1)
+[DRINK] <alcohol> (1)

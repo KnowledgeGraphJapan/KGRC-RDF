@@ -1,0 +1,9 @@
+Turn on light7
+Upon exiting the bathroom, a person proceeds to the bedroom by passing livingroom and kitchen. Once in the bedroom, the person begins locating the light switches, which are typically positioned near the entrance or on the walls for easy access. To turn on the bedroom ceiling light, the person looks for the switch specifically designated for that purpose. The person activates the bedroom ceiling light by flipping or pressing this switch, illuminating the entire room. After turning on the ceiling light, the person directs attention to the table where the light source is situated. Depending on the room's layout, this table could be a bedside table or a desk. The person walks towards the table to illuminate the area around it. The person looks for a switch or button on the table lamp itself. Once found, the person toggles or presses the switch to turn on the light on the table. This action provides localized illumination for activities like reading or working at the table. The person successfully turns on both the bedroom ceiling light and the table lamp, creating a well-lit environment in the bedroom for various purposes.
+
+
+[WALK] <livingroom> (1)
+[WALK] <kitchen> (1)
+[WALK] <bedroom> (1)
+[WALK] <lightswitch> (1)
+[SWITCHON] <lightswitch> (1)

@@ -1,0 +1,11 @@
+Throw trash2
+Leaving food waste in the kitchen for an extended period allows bacteria to multiply rapidly. It is crucial to promptly dispose of food waste to prevent bacterial growth and maintain a fresh kitchen environment. That's why a person in the kitchen realizes food waste needs to be thrown away. Thus, The person walks to the area where groceries are stored, such as potatoes and salad and grab them. Then, the person walks towards the trash bin. After locating the trash bin, the person walks to it while carrying the food. The person then throws the food into the trash bin or promptly disposes of food waste that can help prevent bacterial growth, keep the kitchen fresh, and minimize the chances of attracting pests like maggots and fruit flies.
+
+
+[WALK] <potato> (465)
+[GRAB] <potato> (465)
+[WALK] <salad> (318)
+[GRAB] <salad> (318)
+[WALK] <garbagecan> (106)
+[PUTBACK] <potato> (465) <garbagecan> (106)
+[PUTBACK] <salad> (318) <garbagecan> (106)

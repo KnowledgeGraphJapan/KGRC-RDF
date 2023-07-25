@@ -1,0 +1,13 @@
+Clean television3
+A person walked into the kitchen and pays attention towards the TV. Understanding the need to clean the television, the person decide to find a suitable cleaning tool. Then, look around and locate a microfiber cloth, recognizing it as a safe and effective option for cleaning the TV screen. Leaving the kitchen, he/she walks through the livingroom and enters the bathroom to retrieve a towel. With the microfiber cloth in hand, the person walked over to the TV. The person makes sure to turn off the TV and allow it to cool down before proceeding with the cleaning process. This helps to prevent any potential damage to the screen. Gently, the person used the microfiber cloth to wipe down the screen. After wiping down the entire screen, the person took a step back and observed the clean and clear TV display. Next carefully fold the microfiber cloth and put it away for future use.
+
+
+[WALK] <tv> (1)
+[WALK] <livingroom> (1)
+[WALK] <bathroom> (1)
+[WALK] <towel> (1)
+[GRAB] <towel> (1)
+[WALK] <livingroom> (1)
+[WALK] <kitchen> (1)
+[WALK] <tv> (1)
+[WIPE] <towel> (1) <tv> (1)

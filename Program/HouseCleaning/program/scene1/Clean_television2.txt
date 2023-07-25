@@ -1,9 +1,0 @@
-Clean television2
-Walk to the living room and look at the TV. Find and grab a towel to eliminate any gathered dust from the TV. Walk to the TV and wipe off the screen with that towel to clean the dust off the surfaces.
-
-[WALK] <livingroom> (1)
-[WALK] <tv> (1)
-[WALK] <towel> (1)
-[GRAB] <towel> (1)
-[WALK] <tv> (1)
-[WIPE] <towel> (1) <tv> (1)

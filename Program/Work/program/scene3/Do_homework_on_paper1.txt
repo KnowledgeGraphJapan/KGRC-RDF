@@ -1,0 +1,16 @@
+Do homework on paper1
+A person finished his/her breakfast in kitchen. Then, walks to bed room to find a textbook and picks it up. Walk to the desk and read the textbook's cover to give a clue on the topics of studying. Read the table of contents, index, glossary, and chapter. Then, walks to find a paper or a notebook. Picks it up and walks to the desk. Sit on the chair. In a paper or notebook for the class, write down the main ideas of what he/she read for each section, using own words.
+
+
+[WALK] <bedroom> (358)
+[WALK] <book> (392)
+[GRAB] <book> (392)
+[WALK] <desk> (406)
+[READ] <book> (392)
+[WALK] <paper> (424)
+[GRAB] <paper> (424)
+[WALK] <desk> (406)
+[PUTBACK] <book> (392) <desk> (406)
+[WALK] <chair> (405)
+[SIT] <chair> (405)
+[WRITE] <paper> (424)

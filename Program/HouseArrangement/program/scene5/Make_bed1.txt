@@ -1,0 +1,11 @@
+Make bed1
+A person is in a bedroom and he/she checks the bed and pats the bed. This person picks up a pillow and throws it on the bed. Then, the person is fixing the pillow by shaking. The pillow is put back on the bed. After the person cleans up his bed, the person leaves the bedroom to the kitchen so that he wants to find performing house arrangement work in the kitchen.
+
+
+[WALK] <bed> (293)
+[WALK] <pillow> (257)
+[GRAB] <pillow> (257)
+[THROW] <pillow> (257)
+[SHAKE] <pillow> (257)
+[PUTOBJBACK] <pillow> (257)
+[WALK] <kitchen> (112)

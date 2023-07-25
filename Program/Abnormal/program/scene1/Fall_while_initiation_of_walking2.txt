@@ -1,0 +1,10 @@
+Fall while initiation of walking2
+A person walks to the sofa in the living room and sits on the sofa. After taking rest, person gets out of sofa and walks to enter the kitchen. Then, a fall occurs at the initiation of walking. It can be concerning and may indicate a balance or stability issue such as foot or leg problems (conditions like arthritis, foot deformities, or previous injuries may contribute to difficulties in weight-bearing or propulsion, leading to falls), and medications or side effects (some medications can cause dizziness, light-headedness, or affect balance, making it more likely for a person to fall when starting to walk).
+
+
+[WALK] <sofa> (1)
+[SIT] <sofa> (1)
+[STAND]
+[WALK] <tv> (1)
+[WALK] <kitchen> (1)
+[FALL]

@@ -1,0 +1,17 @@
+Cook potato using microwave1
+A person walks towards a kitchen from living room after doing physical exercise to prepare food for meals. The person walk towards potatoes and grab them. Then, walk to the faucet and switch it on. Scrub the potatoes under cold water and then switch off the faucet. Put the potatoes in the microwave. Switch on the microwave and have to keep an eye on it. Switch off the microwave after baking the potatoes.
+
+
+[WALK] <kitchen> (1)
+[WALK] <potato> (1)
+[GRAB] <potato> (1)
+[WALK] <sink> (1)
+[SWITCHON] <faucet> (1)
+[SOAK] <potato> (1)
+[SWITCHOFF] <faucet> (1)
+[WALK] <microwave> (1)
+[OPEN] <microwave> (1)
+[PUTIN] <potato> (1) <microwave> (1)
+[CLOSE] <microwave> (1)
+[SWITCHON] <microwave> (1)
+[SWITCHOFF] <microwave> (1)

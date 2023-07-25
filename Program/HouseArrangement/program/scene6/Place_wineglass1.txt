@@ -1,0 +1,8 @@
+Place wineglass1
+The person in the kitchen walks towards the wine glass and picks it up. To create a more casual setting, the person places the wine glass a few inches above and to the left of the fork, which is positioned on the kitchen table. This placement allows for a relaxed and informal atmosphere during the meal. By positioning the wine glass near the fork, it becomes easily accessible for the person or the guests to enjoy a sip of wine alongside their meal. This setup enhances the casual dining experience and promotes a comfortable and enjoyable atmosphere.
+
+
+[WALK] <wineglass> (1)
+[GRAB] <wineglass> (1)
+[WALK] <kitchentable> (1)
+[PUTBACK] <wineglass> (1) <kitchentable> (1)

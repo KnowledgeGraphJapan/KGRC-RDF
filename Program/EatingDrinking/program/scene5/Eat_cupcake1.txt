@@ -1,0 +1,12 @@
+Eat cupcake1
+After completing the personal hygiene routine in the bathroom, a person walks through the livingroom to reach the kitchen. Once in the kitchen, the person walks over to the cupcake and grabs it. Then, walks and enters the living room and sits on the sofa. The person starts eating the cupcake. Enjoying a slice of the cupcake as a snack or a quick bite for breakfast can provide a simple and convenient way to start the day or satisfy hunger between meals, although it's worth noting that cupcakes are typically considered more of a dessert or treat rather than a traditional breakfast item.
+
+
+[WALK] <livingroom> (1)
+[WALK] <kitchen> (1)
+[WALK] <cupcake> (1)
+[GRAB] <cupcake> (1)
+[WALK] <livingroom> (1)
+[WALK] <sofa> (1)
+[SIT] <sofa> (1)
+[EAT] <cupcake> (1)

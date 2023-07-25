@@ -1,0 +1,8 @@
+Turn off light5
+After having a meal in the kitchen, a person looks for a light switch or a set of switches on the wall near the entrance to the dining room. Flip the switches in the downward direction to turn off the ceiling lights. The person locates additional lights in the dining room, such as wall sconces or controls. Then, turn them off. After that, the person walks over to the living room by passing through bedroom. 
+
+
+[WALK] <lightswitch> (1)
+[SWITCHOFF] <lightswitch> (1)
+[WALK] <bedroom> (1)
+[WALK] <livingroom> (1)

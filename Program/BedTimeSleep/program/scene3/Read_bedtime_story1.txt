@@ -1,0 +1,12 @@
+Read bedtime story1
+After using the bathroom by acting use toilet, hand washing, brushing teeth, a person walks towards a bedroom. Turn on the light at the entrance of the bedroom. Then a person finds and grabs favourite story book. Walk towards the bed and sit on it, and read bedtime story.
+
+
+[WALK] <bedroom> (358)
+[WALK] <lightswitch> (415)
+[SWITCHON] <lightswitch> (415)
+[WALK] <book> (392)
+[GRAB] <book> (392)
+[WALK] <bed> (407)
+[SIT] <bed> (407)
+[READ] <book> (392)

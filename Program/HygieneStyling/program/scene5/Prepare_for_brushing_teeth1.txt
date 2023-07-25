@@ -1,0 +1,16 @@
+Prepare for brushing teeth1
+The person leaves the kitchen, goes to the bathroom at the sink, grab toothbrush and toothpaster. To reach the destination, the person needs to pass the livingroom. Spread tooth paste on toothbrush, put back toothpaste. Turn on the faucet. Then, wet the toothbrush under the running water of the faucet. Turn off the faucet.
+
+
+[WALK] <livingroom> (1)
+[WALK] <bathroom> (1)
+[WALK] <toothbrush> (1)
+[GRAB] <toothbrush> (1)
+[WALK] <toothpaste> (1)
+[GRAB] <toothpaste> (1)
+[SQUEEZE] <toothpaste> (1)
+[PUTOBJBACK] <toothpaste> (1)
+[WALK] <faucet> (1)
+[SWITCHON] <faucet> (1)
+[SOAK] <toothbrush> (1)
+[SWITCHOFF] <faucet> (1)

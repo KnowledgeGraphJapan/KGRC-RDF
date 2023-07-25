@@ -1,0 +1,13 @@
+Fall while during getting up or rising2
+After finishing household tasks, a person walks from the kitchen to the living room by passing bedroom. The person walks to the sofa to rest, grabs a pillow, then sits on the bed. After spending some time on the sofa, the person gets out of the sofa to turn on the TV. Then, a fall occurs during the process of getting up or rising caused by a loss of support with an object such as a sofa. The person may have weak muscles, particularly in the legs and core, which can make it challenging to maintain stability while transitioning from a sitting or lying position to standing. Without sufficient strength in these muscles, the person may struggle to support the body weight and maintain balance, increasing the fall risk.
+
+
+[WALK] <bedroom> (1)
+[WALK] <livingroom> (1)
+[WALK] <sofa> (1)
+[WALK] <pillow> (1)
+[GRAB] <pillow> (1)
+[WALK] <sofa> (1)
+[SIT] <sofa> (1)
+[STAND]
+[FALL]

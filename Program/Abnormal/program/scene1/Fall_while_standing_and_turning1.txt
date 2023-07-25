@@ -1,0 +1,14 @@
+Fall while standing and turning1
+After completing the household work, a person moves from the kitchen area to the living room. The person wants to take leisure in the living room by watching television. Upon reaching the living room, the person turns on the television. This can typically be done using the remote control or by pressing the power button on the TV itself. Then, the person walks to somewhere, where the TV remote controller is located. Pick up the remote control from there. After getting the remote control, the person looks around the sofa or items on the sofa to choose a safe and comfortable seating position to sit. Turn to the coffee table to put TV remote controller and turn to sofa to choose a good seating position again. Unfortunately, the person falls due to incorrect weight shifting while standing and turning. While initiating a turn, a person rotates his/her walker and body while her feet remain stationary (similar typical of Parkinson-like freezing).
+
+
+[WALK] <livingroom> (1)
+[WALK] <tv> (1)
+[SWITCHON] <tv> (1)
+[WALK] <coffeetable> (1)
+[WALK] <remotecontrol> (1)
+[GRAB] <remotecontrol> (1)
+[WALK] <coffeetable> (1)
+[PUTBACK] <remotecontrol> (1) <coffeetable> (1)
+[TURNTO] <sofa> (1)
+[FALL]

@@ -1,0 +1,12 @@
+Clean fridge1
+A person walks into the kitchen and approaches the refrigerator. Realizing that it is time to clean the fridge, decide to find the appropriate cleaning materials. The person looks around and locates the cleaning supplies, grabbing them to prepare for the task of cleaning the fridge. With the cleaning materials in hand, the person walks over to the fridge. Then, the person starts by opening the fridge and carefully removing any items that were in the way or needed to be temporarily taken out for cleaning. Next, using the cleaning material, the person begins wiping down the interior of the fridge. The person pays special attention to shelves, drawers, and any surfaces where spills or stains might have occurred. After cleaning the inside of the fridge, the person moves on to the exterior by closing the fridge. Then, wipe down the doors, handles, and any visible surfaces with the cleaning material, ensuring that the entire fridge was cleaned and left looking fresh and spotless. Once the cleaning was complete, the person took a step back and admired the clean and gleaming fridge. The person proceeds to put back the items they had temporarily removed, making sure everything was organized and neatly arranged. 
+
+
+[WALK] <fridge> (1)
+[WALK] <sponge> (1)
+[GRAB] <sponge> (1)
+[WALK] <fridge> (1)
+[OPEN] <fridge> (1)
+[WIPE] <sponge> (1) <fridge> (1)
+[CLOSE] <fridge> (1)
+[WIPE] <sponge> (1) <fridge> (1)
