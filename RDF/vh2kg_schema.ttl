@@ -1,5 +1,5 @@
-@prefix : <http://kgrc4si.ml/virtualhome2kg/ontology/> .
-@prefix ac: <http://kgrc4si.ml/virtualhome2kg/ontology/action/> .
+@prefix : <http://kgrc4si.home.kg/virtualhome2kg/ontology/> .
+@prefix ac: <http://kgrc4si.home.kg/virtualhome2kg/ontology/action/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix ho: <http://www.owl-ontologies.com/VirtualHome.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .

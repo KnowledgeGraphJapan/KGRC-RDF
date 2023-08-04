@@ -1,5 +1,5 @@
-@prefix ex: <http://kgrc4si.ml/virtualhome2kg/instance/> .
-@prefix vh2kg: <http://kgrc4si.ml/virtualhome2kg/ontology/> .
+@prefix ex: <http://kgrc4si.home.kg/virtualhome2kg/instance/> .
+@prefix vh2kg: <http://kgrc4si.home.kg/virtualhome2kg/ontology/> .
 
 ex:event0_admire_art1_scene1 vh2kg:from ex:bedroom75_scene1 ;
     vh2kg:to ex:kitchen209_scene1 .
