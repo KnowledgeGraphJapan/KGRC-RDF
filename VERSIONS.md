@@ -9,6 +9,10 @@ X.Y.Z
 
 VERSION tag を打った時はこのファイルの以下の VERSION 履歴も記入する
 
+## Endpoint の REPOSITORY 名
+
+KGRC4SIvXYZ とする. 例えば 3.0.0 に対応するレポジトリ名は KGRC4SIv300 
+
 # VERSION履歴
 
  * 3.0.0 : Zenodo で公開 (2023/9/1)
