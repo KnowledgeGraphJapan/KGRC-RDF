@@ -1,0 +1,11 @@
+Place fork1
+The person in the kitchen walks towards the forks and picks them up. Then place both the dinner fork and salad fork on the side of the plate, which is positioned on the kitchen table. The person is considering the possibility of needing a fork for a casual meal and, therefore, decides to set one fork beside the plate. By doing so, they give themselves the option to choose between the dinner fork or the salad fork based on the needs or preferences for the meal.
+
+
+[WALK] <fork> (274)
+[GRAB] <fork> (274)
+[WALK] <fork> (278)
+[GRAB] <fork> (278)
+[WALK] <kitchentable> (233)
+[PUTBACK] <fork> (274) <kitchentable> (233)
+[PUTBACK] <fork> (278) <kitchentable> (233)

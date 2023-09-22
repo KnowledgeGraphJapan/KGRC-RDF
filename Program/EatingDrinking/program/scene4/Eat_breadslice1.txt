@@ -1,0 +1,8 @@
+Eat breadslice1
+After completing the personal hygiene routine in the bathroom, a person walks to the kitchen. Once in the kitchen, the person walks over to the bread slice, grab it, and eat it. This represents a simple and straightforward action of grabbing a slice of bread and enjoying it as a snack or a quick bite for breakfast. It's a common practice for individuals to have a slice of bread as part of their morning meal.
+
+
+[WALK] <kitchen> (1)
+[WALK] <breadslice> (1)
+[GRAB] <breadslice> (1)
+[EAT] <breadslice> (1)

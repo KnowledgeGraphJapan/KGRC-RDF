@@ -1,0 +1,16 @@
+Put away groceries from fridge3
+A person will take some food out before he/she cleans the inside of a fridge. That’s why the person in the kitchen walks towards the fridge and opens it. Find the groceries of carrot and potatoes. When the person pulls each grocery out from the refrigerator, check/read the quality of the food and the expiration on the package. Then, close the fridge after taking each grocery and walks towards a counter or kitchen table. Put the groceries away from the fridge and leave everything else out on a counter or kitchen table. 
+
+
+[WALK] <fridge> (1)
+[OPEN] <fridge> (1)
+[FIND] <carrot> (1)
+[GRAB] <carrot> (1)
+[WALK] <kitchentable> (1)
+[PUTBACK] <carrot> (1) <kitchentable> (1)
+[WALK] <fridge> (1)
+[FIND] <potato> (1)
+[GRAB] <potato> (1)
+[CLOSE] <fridge> (1)
+[WALK] <kitchentable> (1)
+[PUTBACK] <potato> (1) <kitchentable> (1)

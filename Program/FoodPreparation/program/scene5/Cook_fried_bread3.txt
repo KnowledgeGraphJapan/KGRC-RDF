@@ -1,0 +1,16 @@
+Cook fried bread3
+A person walks towards a kitchen from living room after doing workout to prepare food for meals. Walk to bottled milk and grab it. Pour the milk into a pot and put it on the stove. Switch on the stove. Walk towards bread and grab it. Put the bread in the pot. Cover the bread with milk again and have to keep an eye on it. Switch off the stove after flying.
+
+
+[WALK] <kitchen> (112)
+[WALK] <milk> (387)
+[GRAB] <milk> (387)
+[WALK] <fryingpan> (197)
+[POUR] <milk> (387) <fryingpan> (197)
+[SWITCHON] <stove> (155)
+[WALK] <bread> (160)
+[GRAB] <bread> (160)
+[WALK] <fryingpan> (197)
+[PUTBACK] <bread> (160) <fryingpan> (197)
+[POUR] <milk> (387) <fryingpan> (197)
+[SWITCHOFF] <stove> (155)

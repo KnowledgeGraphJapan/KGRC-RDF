@@ -1,0 +1,8 @@
+Place waterglass1
+The person in the kitchen walks towards the water glasses and picks them up. The person then places the water glasses on the side of the plates, which are positioned on the kitchen table. The water glasses are placed slightly further back than the wine glasses and to the left of the wine glasses. This arrangement creates a deliberate placement for each glass, with the water glasses easily accessible to the left side of each plate. By organizing the table setting in this manner, it promotes an organized and visually pleasing dining experience for the family members and their guests.
+
+
+[WALK] <waterglass> (1)
+[GRAB] <waterglass> (1)
+[WALK] <kitchentable> (1)
+[PUTBACK] <waterglass> (1) <kitchentable> (1)

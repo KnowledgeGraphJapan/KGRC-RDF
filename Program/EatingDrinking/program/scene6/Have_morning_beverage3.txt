@@ -1,0 +1,20 @@
+Have morning beverage3
+A person walks from bathroom to kitchen by passing the bedroom. Drinking milk provides the human body with necessary nutrients and it should be part of any breakfast. Walk to the milk bottle. Grab the bottle and drink it to prevent hunger and improve focus. Then, find the water glass and grab it. Carry it to the faucet. Turn the cold water on and put the glass under the water to fill it. Turn off the faucet. Drink water after filling the glass with water since the benefits of drinking water in the morning are plenty. Place the glass back on the counter. Then, the person walks to the living room by passing bedroom to do workout to start a day with fresh body.
+
+
+[WALK] <bedroom> (1)
+[WALK] <kitchen> (1)
+[WALK] <milk> (1)
+[GRAB] <milk> (1)
+[DRINK] <milk> (1)
+[PUTOBJBACK] <milk> (1)
+[WALK] <waterglass> (1)
+[GRAB] <waterglass> (1)
+[WALK] <faucet> (1)
+[SWITCHON] <faucet> (1)
+[SOAK] <waterglass> (1)
+[SWITCHOFF] <faucet> (1)
+[DRINK] <waterglass> (1)
+[PUTOBJBACK] <waterglass> (1)
+[WALK] <bedroom> (1)
+[WALK] <livingroom> (1)

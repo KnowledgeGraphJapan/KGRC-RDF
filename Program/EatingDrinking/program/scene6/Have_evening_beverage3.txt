@@ -1,0 +1,24 @@
+Have evening beverage3
+After taking a leisure in a living room, a person walks towards a kitchen by passing bedroom. A compound in red wine is good for a lot of wine's anti-inflammatory benefits and stress-lowering effects. Thus, the person walks to the wine bottle and grab it. Then, walk to the glass and grab it. The glass is put on the table and pour wine to the glass. Cake is one of the sweetest snacks to serve with wine! Walk to the cake and grab it. Drink the wine to get rid of the tiredness of the day and eat cake. After that, the person goes the bathroom by passing the bedroom to clean himself before going to the bed.
+
+
+[WALK] <bedroom> (1)
+[WALK] <kitchen> (1)
+[WALK] <wine> (1)
+[GRAB] <wine> (1)
+[WALK] <wineglass> (1)
+[GRAB] <wineglass> (1)
+[WALK] <kitchentable> (1)
+[PUTBACK] <wineglass> (1) <kitchentable> (1)
+[POUR] <wine> (1) <wineglass> (1)
+[PUTOBJBACK] <wine> (1)
+[WALK] <cupcake> (1)
+[GRAB] <cupcake> (1)
+[WALK] <wineglass> (1)
+[GRAB] <wineglass> (1)
+[DRINK] <wineglass> (1)
+[EAT] <cupcake> (1)
+[PUTOBJBACK] <wineglass> (1)
+[PUTOBJBACK] <cupcake> (1)
+[WALK] <bedroom> (1)
+[WALK] <bathroom> (1)

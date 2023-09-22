@@ -1,0 +1,7 @@
+Fall while initiation of walking1
+A person is standing in the kitchen and then falls at the initiation of walking. It can be concerning and may indicate a balance or stability issue such as muscle weakness (weakness in the leg muscles, particularly those involved in maintaining balance and initiating movement, can increase the risk of falling when starting to walk), poor balance (if an individual has poor balance, they may struggle to distribute their weight properly and coordinate their movements, leading to a fall when initiating walking), and neurological conditions (Parkinson's disease, multiple sclerosis, or peripheral neuropathy, can affect balance and coordination. These conditions may disrupt the signals between the brain, muscles, and sensory systems, making it challenging to initiate walking without stumbling or falling).
+
+
+[WALK] <kitchentable> (1)
+[TURNTO] <kitchencounter> (1)
+[FALL]

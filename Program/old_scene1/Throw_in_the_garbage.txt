@@ -1,8 +1,0 @@
-Throw in the garbage
-Find unused paper and put it in the garbage can
-
-<char0> [WALK] <kitchen> (207)
-<char0> [WALK] <paper> (303)
-<char0> [GRAB] <paper> (303)
-<char0> [WALK] <garbagecan> (105)
-<char0> [PUTBACK] <paper> (303) <garbagecan> (105)

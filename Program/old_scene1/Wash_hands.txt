@@ -1,9 +1,0 @@
-Wash hands
-I go to the bathroom and wash my hands.
-
-[WALK] <bathroom> (11)
-[WALK] <sink> (248)
-[SWITCHON] <faucet> (51)
-[SWITCHOFF] <faucet> (51)
-[WALK] <towel> (56)
-[GRAB] <towel> (56)

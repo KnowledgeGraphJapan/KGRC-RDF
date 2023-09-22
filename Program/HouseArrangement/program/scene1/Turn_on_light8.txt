@@ -1,0 +1,7 @@
+Turn on light8
+As the person exits the bedroom and enters the bathroom, the first task is locating the light switches. These switches are commonly positioned near the entrance or on the walls for easy access. To turn on the bathroom ceiling light, the person searches for the switch specifically designated for that purpose. By flipping or pressing this switch, the person activates the bathroom ceiling light, illuminating the entire bathroom. After turning on the ceiling light, the person directs their attention to the table or surface where another light source might be located. This could be a vanity table, countertop, or any flat surface in the bathroom. The person intends to turn on the light in that specific area. The person looks for a switch or button on the table or surface to control the light. Once found, the person toggles or presses the switch to turn on the light. This action provides localized illumination for tasks such as grooming or applying makeup. Once the bathroom ceiling light and any additional lights are turned on, the person is ready to continue another work, such as personal hygiene. 
+
+
+[WALK] <bathroom> (1)
+[WALK] <lightswitch> (1)
+[SWITCHON] <lightswitch> (1)

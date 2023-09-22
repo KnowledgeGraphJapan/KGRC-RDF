@@ -1,9 +1,0 @@
-Clean kitchentable
-Walk to the kitchen and check the table. Find the grab the cleaning material to clean that table. Walk to the table and wipe it down using the cleaning material.
-
-
-[WALK] <kitchentable> (1)
-[WALK] <sponge> (1)
-[GRAB] <sponge> (1)
-[WALK] <kitchentable> (1)
-[WIPE] <sponge> (1) <kitchentable> (1)

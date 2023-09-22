@@ -1,0 +1,9 @@
+Fall while standing quietly1
+A fall suddenly occurs while a person stands quietly after walking over a bookshelf, grabbing some books, and turning towards a chair. In that case, the person in the living room walks over to a bookshelf and grabs some books, which are packed in both hands. Then turn towards a chair to check a suitable seating place. It's possible that the act of turning towards the chair or the movement involved in grabbing the books shifted their center of gravity, leading to instability. Thus, a fall suddenly occurs while the person is standing quietly.
+
+
+[WALK] <bookshelf> (253)
+[GRAB] <book> (273)
+[GRAB] <book> (274)
+[TURNTO] <chair> (252)
+[FALL]

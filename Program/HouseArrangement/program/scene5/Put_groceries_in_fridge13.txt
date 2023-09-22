@@ -1,0 +1,23 @@
+Put groceries in fridge13
+A person in the kitchen walks to find the groceries, such as an alcohol bottles and grabs them. The person places the alcohol bottle on the kitchen table and enters a bathroom to find a towel to clean the alcohol bottle. The person passes through the livingroom from the kitchen to the bathroom. After that, walk towards the towel and grab it. The person re-enters the kitchen and walks towards the kitchen table. Then, hold the alcohol bottle and scrub it with a towel. The person puts the towel on the kitchen table and walks to the fridge by bringing the alcohol bottle. The person then opens the refrigerator and put the grocery inside the fridge. Close the fridge.
+
+
+[WALK] <alcohol> (1)
+[GRAB] <alcohol> (1)
+[PUTOBJBACK] <alcohol> (1)
+[WALK] <livingroom> (1)
+[WALK] <bathroom> (1)
+[WALK] <towel> (1)
+[GRAB] <towel> (1)
+[WALK] <livingroom> (1)
+[WALK] <kitchen> (1)
+[WALK] <alcohol> (1)
+[GRAB] <alcohol> (1)
+[SCRUB] <alcohol> (1) <towel> (1)
+[WALK] <kitchentable> (1)
+[PUTBACK] <towel> (1) <kitchentable> (1)
+[WALK] <fridge> (1)
+[OPEN] <fridge> (1)
+[TURNTO] <fridge> (1)
+[PUTIN] <alcohol> (1) <fridge> (1)
+[CLOSE] <fridge> (1)

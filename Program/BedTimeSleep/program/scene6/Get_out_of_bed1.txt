@@ -1,0 +1,13 @@
+Get out of bed1
+Although I may take a snooze, I need to actually stand up in the early morning. Stand up and leave out of bed. Look around the bed and arrange the pillows to make the bed looks nice and neat. Look around the room then walk towards to turn the light on. Turn on the light. The person leaves the bedroom, walk to the bathroom, and this case look at the toilet in the bathroom. 
+
+
+[WALK] <bed> (1)
+[SIT] <bed> (1)
+[STAND]
+[WALK] <pillow> (1)
+[GRAB] <pillow> (1)
+[PUTOBJBACK] <pillow> (1)
+[WALK] <lightswitch> (1)
+[SWITCHON] <lightswitch> (1)
+[WALK] <bathroom> (1)

@@ -1,0 +1,11 @@
+Read book1
+A person walks from kitchen to living room to find a book and picks it up. Then, walks to the sofa and sit on it. Read a book to activate the imagination. Because the brain is busy reading, it doesn't latch onto anxious thoughts as readily. As a result, the heart rate goes down, and the muscles relax. The body burns through the remaining stress hormones in the body system.
+
+
+[WALK] <bedroom> (1)
+[WALK] <livingroom> (1)
+[WALK] <book> (1)
+[GRAB] <book> (1)
+[WALK] <sofa> (1)
+[SIT] <sofa> (1)
+[READ] <book> (1)

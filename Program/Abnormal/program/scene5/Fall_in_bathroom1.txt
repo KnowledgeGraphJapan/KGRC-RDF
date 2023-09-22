@@ -1,0 +1,13 @@
+Fall in bathroom1
+As the person wakes up in the early morning, he/she finds himself/herself in their bedroom. Leaving the bedroom, the person walks towards the bathroom by passing kitchen and livingroom for their morning personal hygiene routine. Upon reaching the bathroom, enter and close the door behind a person. Then, walk to the toilet and proceed to use the toilet for his/her bathroom needs. After finishing, the person flushes the toilet, allowing the water to carry away the waste. As the person spends using the toilet, he/she stands up and prepares to leave the bathroom. Instead of using arm support, the person relies on his/her balance and strength to stabilize himself/herself. Then, a fall occurs during the transition from sitting to standing out of the toilet seat. The person who collapses in the bathroom has a higher chance of getting injuries. Landing on the hard tile floor or hitting the porcelain toilet with a body limb could easily result in a cracked bone or even more harmful.
+
+
+[WALK] <kitchen> (1)
+[WALK] <livingroom> (1)
+[WALK] <bathroom> (1)
+[WALK] <door> (1)
+[CLOSE] <door> (1)
+[WALK] <toilet> (1)
+[SIT] <toilet> (1)
+[STAND]
+[FALL]

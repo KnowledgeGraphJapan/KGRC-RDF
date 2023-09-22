@@ -1,0 +1,14 @@
+Clean desk4
+A person walks into the bedroom and looks around the desk, assessing the cluttered space. Realizing that dust had accumulated on the desk, the person goes to the bathroom to find a towel and eliminate the gathered dust. Leaving the bedroom, he/she walks and enters the bathroom to retrieve a towel by passing kitchen. With the towel in hand, the person returned to the bedroom by passing kitchen again. Once back in the bedroom, the person takes items off the desk, creating some clear space to work with. Carefully wipe down all surfaces, including the top of the desk, using a towel to remove the accumulated dust. After the surfaces are thoroughly wiped, the person begins rearranging or putting the items back on the desk, making sure to arrange them neat and organized. The person takes his/her time to ensure everything is in its proper place, creating a visually appealing and tidy desk space. Having completed the task, the person stepped back and admired/looked at their work, satisfied with the clean and organized desk he/she had achieved.
+
+
+[WALK] <desk> (1)
+[WALK] <kitchen> (1)
+[WALK] <bathroom> (1)
+[WALK] <towel> (1)
+[GRAB] <towel> (1)
+[WALK] <kitchen> (1)
+[WALK] <bedroom> (1)
+[WALK] <desk> (1)
+[TURNTO] <desk> (1)
+[WIPE] <towel> (1) <desk> (1)

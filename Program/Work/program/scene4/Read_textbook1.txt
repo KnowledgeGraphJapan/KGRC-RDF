@@ -1,0 +1,14 @@
+Read textbook1
+A person walks to find a textbook in the bed room. Picks it up and walk to the desk. Read the textbook's cover to give a clue on the topics of studying. Read the table of contents, index, glossary, and chapter. Put the textbook on the desk. Then, the person walks to bathroom to use the toilet. In that case, a person needs to pass kitchen. 
+
+
+[WALK] <book> (1)
+[GRAB] <book> (1)
+[WALK] <desk> (1)
+[READ] <book> (1)
+[WALK] <desk> (1)
+[PUTBACK] <book> (1) <desk> (1)
+[WALK] <kitchen> (1)
+[WALK] <bathroom> (1)
+[WALK] <toilet> (1)
+[SIT] <toilet> (1)

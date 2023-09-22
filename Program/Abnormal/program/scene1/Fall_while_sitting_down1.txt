@@ -1,0 +1,8 @@
+Fall while sitting down1
+A person walks to the bedroom from the kitchen after doing some household work. The person looks at the chair and walks over to it to rest well. The person has a loss of support with an object while sitting down. It seems that a person is transitioning from standing to sitting down on a chair which suddenly rolls backward, causing the person to lose support and start falling to the ground. In that case, the person cannot reach out for a desk, table, or any other stable objects within his reach.
+
+
+[WALK] <bedroom> (75)
+[WALK] <chair> (113)
+[SIT] <chair> (113)
+[FALLSIT] <chair> (113)

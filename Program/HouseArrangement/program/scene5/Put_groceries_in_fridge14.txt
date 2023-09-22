@@ -1,0 +1,16 @@
+Put groceries in fridge14
+A person in the kitchen walks over to where the groceries are stored and find the carrots. The person reaches out and grabs the carrots, holding them in hand. Next, the person makes a way to the faucet and switches it on, allowing the water to flow. Holding the carrots under the cold water stream, the person scrubs them gently to remove dirt or impurities. The cool water helps in cleaning the carrots thoroughly. After ensuring that the carrots are clean, the person switches off the faucet, stopping the flow of water. With the cleaned carrots in hand, the person walks towards the fridge. The person opens the refrigerator door, making space for the carrots inside. Carefully, the person places the carrots into the refrigerator, ensuring they are stored properly. Once the carrots are safely inside, the person closes the refrigerator door, sealing it shut. The task is completed, and the person continues with other kitchen activities or moves on to the next task.
+
+
+[WALK] <carrot> (1)
+[GRAB] <carrot> (1)
+[WALK] <sink> (1)
+[SWITCHON] <faucet> (1)
+[SOAK] <carrot> (1)
+[RINSE] <carrot> (1)
+[SWITCHOFF] <faucet> (1)
+[WALK] <fridge> (1)
+[OPEN] <fridge> (1)
+[TURNTO] <fridge> (1)
+[PUTIN] <carrot> (1) <fridge> (1)
+[CLOSE] <fridge> (1)

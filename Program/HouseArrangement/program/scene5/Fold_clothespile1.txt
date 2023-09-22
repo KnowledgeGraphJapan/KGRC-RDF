@@ -1,0 +1,10 @@
+Fold clothespile1
+The person in the bedroom walks to the clothes piles and begins by picking up the item from the clothes pile. It could be a shirt, a pair of pants, or any other garment. The person shakes to straighten the item, ensuring there are fewer significant wrinkles or creases. Smooth out any fabric if needed. Then, fold the item in half vertically, bringing one side of the garment over to meet the other side. The sleeves or pant legs should align. Fold the garment horizontally, bringing the bottom edge towards the top edge. The person repeats this process for each clothing item in a pile, folding them one at a time and placing them neatly on the bed. After folding all the clothes, take a moment or look at the folded piles to ensure they are evenly folded and properly aligned. Then, the person efficiently folds the clothes and has them ready to be put away or returned to the closet later.
+
+
+[WALK] <clothespile> (1)
+[GRAB] <clothespile> (1)
+[WALK] <bed> (1)
+[SHAKE] <clothespile> (1)
+[FOLD]
+[PUTBACK] <clothespile> (1) <bed> (1)

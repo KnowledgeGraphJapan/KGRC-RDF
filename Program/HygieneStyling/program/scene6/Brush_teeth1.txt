@@ -1,0 +1,18 @@
+Brush teeth1
+A person leaves from the bedroom and goes to the bathroom at the sink, grab the toothbrush and toothpaste. Squeeze a pea-sized amount of toothpaste on toothbrush, put back toothpaste. Gently brush with a short motion on surfaces of the teeth. After brushing the teeth, hold the toothbrush under running water for a few seconds to remove any bacteria from the brush. Rinsing also removes any leftover toothpaste. Place the toothbrush somewhere where it will readily dry out. Otherwise, bacteria can grow. If you choose to rinse mouth after brushing, take a sip of water from a disposable cup, or cup your hands under the faucet. Drink or swish it around your mouth and spit it out.
+
+
+[WALK] <bathroom> (1)
+[WALK] <toothbrush> (1)
+[GRAB] <toothbrush> (1)
+[WALK] <toothpaste> (1)
+[GRAB] <toothpaste> (1)
+[SQUEEZE] <toothpaste> (1)
+[PUTOBJBACK] <toothpaste> (1)
+[BRUSH] <toothbrush> (1)
+[WALK] <faucet> (1)
+[SWITCHON] <faucet> (1)
+[SOAK] <toothbrush> (1)
+[RINSE] <toothbrush> (1)
+[SWITCHOFF] <faucet> (1)
+[PUTOBJBACK] <toothbrush> (1)

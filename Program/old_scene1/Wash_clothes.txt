@@ -1,8 +1,0 @@
-Wash clothes
-Take out clothes piles from the low shelf and take them to the washing machine.
-
-[WALK] <bookshelf> (250)
-[GRAB] <clothespile> (287)
-[WALK] <bathroom> (11)
-[WALK] <washing_machine> (73)
-[PUTBACK] <clothespile> (287) <washing_machine> (73)

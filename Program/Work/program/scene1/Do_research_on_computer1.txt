@@ -1,0 +1,27 @@
+Do research on computer1
+A person finished his/her breakfast in kitchen. Walks to the living room to find a textbook and picks it up. Walk to the desk and read the textbook's cover to give a clue on the topics of studying. Read the table of contents, index, glossary, and chapter. Then, walks to find a paper or a notebook. Picks it up and walks to the desk. In a paper or notebook for the class, write down the main ideas of what he/she read for each section, using own words. Walk up to a desk. Pull out the chair and sit down. Then turn on the computer. Write assignment on the computer by typing keyboard and using a mouse. Keep working until a certain time. Stand up from the chair and, leave the desk after completing the assignment. Then, the person walks in the living room and sit on the sofa to start taking a rest after work.
+
+
+[WALK] <livingroom> (342)
+[WALK] <book> (441)
+[GRAB] <book> (441)
+[WALK] <desk> (380)
+[READ] <book> (441)
+[WALK] <paper> (459)
+[GRAB] <paper> (459)
+[WALK] <desk> (380)
+[PUTBACK] <book> (441) <desk> (380)
+[WALK] <chair> (379)
+[SIT] <chair> (379)
+[WRITE] <paper> (459)
+[STAND]
+[WALK] <desk> (380)
+[PUTBACK] <paper> (459) <desk> (380)
+[WALK] <computer> (440)
+[SWITCHON] <computer> (440)
+[SIT] <chair> (379)
+[TYPE] <keyboard> (438)
+[STAND]
+[SWITCHOFF] <computer> (440)
+[WALK] <sofa> (375)
+[SIT] <sofa> (375)

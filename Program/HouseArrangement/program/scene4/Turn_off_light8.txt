@@ -1,0 +1,10 @@
+Turn off light8
+A person exits the bedroom and enters the bathroom by passing through kitchen. Then, he/she locates the light switches in the bathroom, usually near the entrance or on the walls. The person looks for the switch that controls the bathroom ceiling light. It is typically a larger switch or button on the wall. Flip or press the switch to turn off the bathroom ceiling light. Next, the person locates the table or surface where the light is situated. It might be a vanity table, countertop, or flat surface. The person then finds the switch or button to toggle or press to turn off the light. Once the bathroom ceiling light and other lights are turned off, the person exits from the bathroom to the bedroom by passing through kitchen.
+
+
+[WALK] <kitchen> (1)
+[WALK] <bathroom> (1)
+[WALK] <lightswitch> (1)
+[SWITCHOFF] <lightswitch> (1)
+[WALK] <kitchen> (1)
+[WALK] <bedroom> (1)

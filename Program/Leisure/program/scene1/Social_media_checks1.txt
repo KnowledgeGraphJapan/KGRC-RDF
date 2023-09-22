@@ -1,0 +1,14 @@
+Social media checks1
+A person walks into a home office and walk up to a desk. Pull out the chair and sit down. Then turn on the computer. Type the keyboard and touch the mouse. In order to surf the internet and look around at funny pictures, log on to things like Facebook and Twitter. Stand up from the chair and, leave the desk after enjoying and taking a rest. Then, the person walks towards to the kitchen in order to pick up bread and have it.
+
+
+[WALK] <computer> (1)
+[SWITCHON] <computer> (1)
+[SIT] <chair> (1)
+[TYPE] <keyboard> (1)
+[STAND]
+[SWITCHOFF] <computer> (1)
+[WALK] <kitchen> (1)
+[WALK] <breadslice> (1)
+[GRAB] <breadslice> (1)
+[EAT] <breadslice> (1)

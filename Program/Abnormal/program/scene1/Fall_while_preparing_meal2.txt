@@ -1,0 +1,12 @@
+Fall while preparing meal2
+A person in the kitchen is morning meals. The person finds and grabs the necessary food, such as milk, cereal, dish bowl, cupcake, etc., in the kitchen. The person wants to have meals in the living room and so brings these items into the living room and put them on the table. Unfortunately, the person falls while serving food. In that case, both hands carry the cooking ingredients or food. Because of this, a person's balance is affected, and he cannot grab himself if he loses his balance. The person may suffer limited mobility or balance issues, it can increase the risk of falls, especially when multitasking or carrying items. Conditions such as muscle weakness, joint problems, or neurological disorders can affect balance and stability.
+
+
+[WALK] <milk> (1)
+[GRAB] <milk> (1)
+[WALK] <cupcake> (1)
+[GRAB] <cupcake> (1)
+[WALK] <livingroom> (1)
+[WALK] <coffeetable> (1)
+[TURNTO] <curtains> (1)
+[FALL]

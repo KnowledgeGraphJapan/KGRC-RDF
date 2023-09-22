@@ -1,0 +1,13 @@
+Pick up dirty wineglass1
+After finishing the meal in the kitchen, the person gathers or picks up the dirty wine glass from the dining table or wherever they were seated. The person then proceeds to walk to the sink with the glass in hand. Upon reaching the sink, the person pours the remaining wine into the sink and puts the wine glass down, ready for washing.
+
+
+[WALK] <wineglass> (170)
+[GRAB] <wineglass> (170)
+[WALK] <wineglass> (171)
+[GRAB] <wineglass> (171)
+[WALK] <sink> (152)
+[POUR] <wineglass> (170) <sink> (152)
+[POUR] <wineglass> (171) <sink> (152)
+[PUTBACK] <wineglass> (170) <sink> (152)
+[PUTBACK] <wineglass> (171) <sink> (152)

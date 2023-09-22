@@ -1,0 +1,10 @@
+Clean stove1
+A person walks into the kitchen and direct attention towards the stove. Realizing that it needed cleaning, the person decides to find the appropriate cleaning materials. Then, look around and locate the cleaning supplies, grabbing them to prepare for the task of cleaning the stove. With the cleaning materials in hand, the person walked over to the stove. Using the cleaning material suitable for the stove, whether it be a stove cleaner, degreaser, or a multi-purpose cleaner, the person begins wiping down the stovetop. Once the stovetop was wiped down and thoroughly cleaned, the person takes a clean cloth or paper towel or sponge and wiped away any excess cleaning solution. They made sure to dry the surface to prevent any moisture from lingering. Satisfied with the work, the person stepped back and admired the clean and refreshed appearance of the stove. The person proceed to put back any items the person had removed, ensuring everything was organized and ready for future use. The person feel accomplished, as a clean stove not only looks appealing but also promotes safe and efficient cooking in the kitchen.
+
+
+[WALK] <stove> (1)
+[WALK] <sponge> (1)
+[GRAB] <sponge> (1)
+[WALK] <stove> (1)
+[TURNTO] <stove> (1)
+[WIPE] <sponge> (1) <stove> (1)

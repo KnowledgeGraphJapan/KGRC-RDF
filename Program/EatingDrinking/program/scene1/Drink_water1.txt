@@ -1,0 +1,18 @@
+Drink water1
+A refreshing way to start the day and to welcome a good morning with a glass of water, a person leaves from the bedroom and enter the kitchen. The person finds the water glass and grabs it. Then, carry the glass to the faucet and turn on the cold water. Put the glass under the running water to fill it. Once the glass is filled, the person turns off the faucet. The person takes a moment to enjoy the morning and drink the water from the glass. After drinking, place the glass on the counter. By following these steps, the person can welcome a good morning by hydrating himself/herself with a glass of water and starting a day on a refreshing note.
+
+
+[WALK] <kitchen> (1)
+[WALK] <waterglass> (1)
+[GRAB] <waterglass> (1)
+[WALK] <faucet> (1)
+[SWITCHON] <faucet> (1)
+[WALK] <sink> (1)
+[PUTBACK] <waterglass> (1) <sink> (1)
+[WALK] <faucet> (1)
+[SWITCHOFF] <faucet> (1)
+[WALK] <waterglass> (1)
+[GRAB] <waterglass> (1)
+[DRINK] <waterglass> (1)
+[WALK] <kitchencounter> (1)
+[PUTBACK] <waterglass> (1) <kitchencounter> (1)

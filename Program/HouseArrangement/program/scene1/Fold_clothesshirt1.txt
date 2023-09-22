@@ -1,0 +1,10 @@
+Fold clothesshirt1
+A person walks towards the shirts and grabs them from wherever they are stored. Walk towards the bed and place the shirts on the bed. Start with one shirt. Lay it flat on the bed, with the front side facing down. The person also shakes the shirt to smooth out any wrinkles or creases on the shirt, ensuring it's in a neat and even position. The person folds one side of the shirt inwards, approximately halfway across the chest, aligning the sleeve with the center of the shirt. Then folds the sleeve of the shirt across the back, creating a straight line from the collar to the hem of the shirt. Repeat the entire process for the second shirt in the pair. Once both shirts are folded, the person stacks them on top of each other or places them side by side, depending on the preference.
+
+
+[WALK] <closet> (1)
+[GRAB] <clothesshirt> (1)
+[WALK] <bed> (1)
+[SHAKE] <clothesshirt> (1)
+[FOLD]
+[PUTBACK] <clothesshirt> (1) <bed> (1)

@@ -1,0 +1,13 @@
+Pick up dirty waterglass1
+After finishing the meal in the kitchen, the person gathers or picks up the dirty water glass from the dining table or wherever they were seated. Person then proceeds to walk to the sink with the glass in hand. Upon reaching the sink, the person pours the remaining water into the sink and puts the water glass down, ready for washing.
+
+
+[WALK] <waterglass> (144)
+[GRAB] <waterglass> (144)
+[WALK] <waterglass> (145)
+[GRAB] <waterglass> (145)
+[WALK] <sink> (94)
+[POUR] <waterglass> (144) <sink> (94)
+[POUR] <waterglass> (145) <sink> (94)
+[PUTBACK] <waterglass> (144) <sink> (94)
+[PUTBACK] <waterglass> (145) <sink> (94)

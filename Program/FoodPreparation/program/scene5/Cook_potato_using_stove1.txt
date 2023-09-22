@@ -1,0 +1,19 @@
+Cook potato using stove1
+A person walks towards a kitchen from living room after doing workout to prepare food for meals. Walk towards potatoes and grab it. Walk to the faucet and switch it on. Scrub the potatoes under cold water and then switch off the faucet. Put the potatoes in a pot and put it on the stove. Walk to get milk. Cover the potatoes with milk. Switch on the stove and have to keep an eye on it. Switch off the stove after bringing the milk to a boil.
+
+
+[WALK] <kitchen> (112)
+[WALK] <potato> (387)
+[GRAB] <potato> (387)
+[WALK] <sink> (152)
+[SWITCHON] <faucet> (153)
+[SOAK] <potato> (387)
+[SWITCHOFF] <faucet> (153)
+[WALK] <fryingpan> (197)
+[PUTBACK] <potato> (387) <fryingpan> (197)
+[WALK] <milk> (388)
+[GRAB] <milk> (388)
+[WALK] <fryingpan> (197)
+[POUR] <milk> (388) <fryingpan> (197)
+[SWITCHON] <stove> (155)
+[SWITCHOFF] <stove> (155)

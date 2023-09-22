@@ -1,0 +1,24 @@
+Put slippers in closet1
+A person in a bedroom walks towards the slippers, look them up to check the condition. Then decide proceedings to clean them. The person needs to prepare a clean cloth or sponge and a small amount of water. That’s why person leaves the bedroom and enters the bathroom by passing kitchen and livingroom. Pick up a towel and walks to the faucet. Turn on the faucet and put towel under the running water to get wet. Then person goes back into the bedroom by bringing the towel and pick up the slippers. Gently scrub the surface of the slippers using the damp cloth or sponge. Pay attention to any stained or soiled areas and focus on cleaning those spots. After cleaning, the person places the slippers in the closet for storage. This helps keep the slippers organized and ready for use when needed.
+
+
+[WALK] <slippers> (1)
+[GRAB] <slippers> (1)
+[WALK] <kitchen> (1)
+[WALK] <livingroom> (1)
+[WALK] <bathroom> (1)
+[WALK] <sink> (1)
+[SWITCHON] <faucet> (1)
+[WALK] <towel> (1)
+[GRAB] <towel> (1)
+[WALK] <sink> (1)
+[PUTBACK] <towel> (1) <sink> (1)
+[SWITCHOFF] <faucet> (1)
+[WALK] <towel> (1)
+[GRAB] <towel> (1)
+[WALK] <livingroom> (1)
+[WALK] <kitchen> (1)
+[WALK] <bedroom> (1)
+[SCRUB] <towel> (1) <slippers> (1)
+[WALK] <closet> (1)
+[PUTIN] <slippers> (1) <closet> (1)

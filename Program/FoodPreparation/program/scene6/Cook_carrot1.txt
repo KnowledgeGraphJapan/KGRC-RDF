@@ -1,0 +1,16 @@
+Cook carrot1
+A person walks towards a kitchen from the living room by passing bedroom after doing physical activities to prepare food for meals. Walk towards carrot and grab it. Walk to the faucet and switch it on. Scrub the carrot under cold water and then switch off the faucet. Put the carrot in a pot and put it on the stove. Switch on the stove and have to keep an eye on it. Switch off the stove after cooking.
+
+
+[WALK] <bedroom> (1)
+[WALK] <kitchen> (1)
+[WALK] <carrot> (1)
+[GRAB] <carrot> (1)
+[WALK] <sink> (1)
+[SWITCHON] <faucet> (1)
+[SOAK] <carrot> (1)
+[SWITCHOFF] <faucet> (1)
+[WALK] <fryingpan> (1)
+[PUTBACK] <carrot> (1) <fryingpan> (1)
+[SWITCHON] <stove> (1)
+[SWITCHOFF] <stove> (1)

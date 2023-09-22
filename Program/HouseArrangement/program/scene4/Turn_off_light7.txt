@@ -1,0 +1,8 @@
+Turn off light7
+A person exits the bathroom and goes to the bedroom by passing through kitchen. Then, the person locates the light switches in the bedroom, usually near the entrance or on the walls. The person looks for the switch that controls the bedroom ceiling light, typically a larger switch or button on the wall. Flip or press the switch to turn off the bedroom ceiling light. Next, the person locates the table where the light is situated. It might be a bedside table or a desk. Then, the person walks to find the switch or button on the table lamp itself, usually located near the base or on the cord, and toggle or press the switch to turn off the light on the table. 
+
+
+[WALK] <kitchen> (1)
+[WALK] <bedroom> (1)
+[WALK] <lightswitch> (1)
+[SWITCHOFF] <lightswitch> (1)

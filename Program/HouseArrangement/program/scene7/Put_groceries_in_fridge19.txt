@@ -1,0 +1,11 @@
+Put groceries in fridge19
+A person walks into the kitchen, scanning the shelves and cabinets for groceries. After a brief search, the person's eyes land on the desired item—crackers. With a contented smile, a person extends his/her hand and grasps the box of crackers. Carrying the crackers, the person approaches the fridge and opens its door, revealing the contents inside. Carefully considering the available space, he/she finds a suitable spot to store the crackers, ensuring it is kept in a proper place within the fridge. Once the crackers are securely stored, the person closes the fridge door, making sure it is tightly shut. Feeling a sense of accomplishment, the person is satisfied with the task and can now proceed with other kitchen activities or move on to the next item on their to-do list.
+
+
+[WALK] <crackers> (1)
+[GRAB] <crackers> (1)
+[WALK] <fridge> (1)
+[OPEN] <fridge> (1)
+[TURNTO] <fridge> (1)
+[PUTIN] <crackers> (1) <fridge> (1)
+[CLOSE] <fridge> (1)

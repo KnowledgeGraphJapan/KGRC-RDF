@@ -1,0 +1,8 @@
+Pick up dirty dishes1
+After having a meal in the kitchen, the person gathers the dirty plates used by the family members and walks towards the sink. Carefully stack the plates, ensuring they are stable and won't topple over. The person then places the set of plates in the sink, preparing them for washing. By placing the dirty plates in the sink, it helps contain the mess and keeps the kitchen area organized. This makes it easier to clean and wash the dishes later on. It's a good practice to promptly attend to dirty dishes to maintain cleanliness and order in the kitchen.
+
+
+[WALK] <plate> (201)
+[GRAB] <plate> (201)
+[WALK] <sink> (152)
+[PUTBACK] <plate> (201) <sink> (152)

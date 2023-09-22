@@ -1,0 +1,11 @@
+Place knife1
+The person in the kitchen walks towards the knives and picks them up. The person then places both the dinner knives and steak knife on the side of the plate, which is positioned on the kitchen table. The person is considering the possibility of needing a knife for a casual meal and, therefore, decides to set one knife beside the plate. By doing so, the persons give themselves the option to choose between the dinner knife or the steak knife based on their needs or preferences for the meal. This way, persons can easily access the appropriate knife for cutting different types of food that they might be serving.
+
+
+[WALK] <cutleryknife> (273)
+[GRAB] <cutleryknife> (273)
+[WALK] <cutleryknife> (277)
+[GRAB] <cutleryknife> (277)
+[WALK] <kitchentable> (233)
+[PUTBACK] <cutleryknife> (273) <kitchentable> (233)
+[PUTBACK] <cutleryknife> (277) <kitchentable> (233)

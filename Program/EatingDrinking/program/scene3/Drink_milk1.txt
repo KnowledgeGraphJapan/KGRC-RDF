@@ -1,0 +1,24 @@
+Drink milk1
+To welcome a good morning with a glass of milk, a person leaves the bedroom after getting up from bed and heads to the kitchen to get some milk. After reaching the kitchen, the person grabs a milk bottle and places it on the kitchen table. Then find a glass and take hold of it. Alongside the milk bottle, other items may be on the kitchen table. The person proceeds to pour the milk from the bottle into the glass, then grabs it and starts drinking it slowly, relishing its taste. The person enjoys it so much that he/she drinks directly from the glass, placing it back on the table momentarily, only to pick it up again and continue drinking. In addition, the person drinks directly from the milk bottle itself, savoring every sip. Evidently, this person truly loves milk and takes pleasure in consuming it from the glass and directly from the bottle.
+
+
+[WALK] <kitchen> (11)
+[WALK] <milk> (183)
+[GRAB] <milk> (183)
+[WALK] <kitchentable> (138)
+[PUTBACK] <milk> (183) <kitchentable> (138)
+[WALK] <waterglass> (64)
+[GRAB] <waterglass> (64)
+[WALK] <kitchentable> (138)
+[PUTBACK] <waterglass> (64) <kitchentable> (138)
+[WALK] <milk> (183)
+[GRAB] <milk> (183)
+[WALK] <waterglass> (64)
+[POUR] <milk> (183) <waterglass> (64)
+[GRAB] <waterglass> (64)
+[DRINK] <waterglass> (64)
+[PUTOBJBACK] <waterglass> (64)
+[GRAB] <waterglass> (64)
+[DRINK] <waterglass> (64)
+[PUTOBJBACK] <waterglass> (64)
+[DRINK] <milk> (183)

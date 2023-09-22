@@ -1,0 +1,18 @@
+Clean sofa1
+A person entered the living room and immediately noticed the pillows on the sofa. Realizing that they had gathered dust, the person decided to find a towel and eliminate the dust from the pillows. Leaving the living room, he/she walked through the kitchen and bedroom, making a way to the bathroom to retrieve a towel. With the towel in hand, the person returned to the living room, passing through the kitchen and bedroom once again. He/she walked over to the sofa and proceeded to grab each of the pillows, one by one. Carefully, the person uses the towel to wipe down the surface of each pillow, effectively removing the accumulated dust. After wiping the pillows, the person gave the pillows a gentle shake to further eliminate any remaining dust particles. Finally, the person placed the freshly cleaned pillows back onto the sofa, arranging them neatly and making sure they looked presentable. Satisfied with the result, the person took a step back and admired/looked at the clean and refreshed appearance of the sofa, now free from the dust that had accumulated on the pillows.
+
+
+[WALK] <sofa> (1)
+[WALK] <kitchen> (1)
+[WALK] <bedroom> (1)
+[WALK] <bathroom> (1)
+[WALK] <towel> (1)
+[GRAB] <towel> (1)
+[WALK] <bedroom> (1)
+[WALK] <kitchen> (1)
+[WALK] <livingroom> (1)
+[WALK] <pillow> (1)
+[GRAB] <pillow> (1)
+[SCRUB] <towel> (1) <pillow> (1) 
+[SHAKE] <pillow> (1)
+[PUTOBJBACK] <pillow> (1)

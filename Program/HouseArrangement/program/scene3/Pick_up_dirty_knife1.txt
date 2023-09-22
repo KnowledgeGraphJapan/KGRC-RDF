@@ -1,0 +1,11 @@
+Pick up dirty knife1
+After having a meal in the kitchen, the person gathers the dirty knives used by the family members and walks towards the sink. They place the set of knives in the sink, preparing them for washing. Placing the dirty knives in the sink helps contain the mess and keeps the kitchen area organized. This makes it easier to clean and wash the knives later on. It's a good practice to promptly attend to dirty utensils like knives and forks to maintain cleanliness and order in the kitchen. By following these steps, the person ensures that the knives are ready for proper cleaning and can be reused for future meals.
+
+
+[WALK] <cutleryknife> (65)
+[GRAB] <cutleryknife> (65)
+[WALK] <cutleryknife> (70)
+[GRAB] <cutleryknife> (70)
+[WALK] <sink> (158)
+[PUTBACK] <cutleryknife> (65) <sink> (158)
+[PUTBACK] <cutleryknife> (70) <sink> (158)

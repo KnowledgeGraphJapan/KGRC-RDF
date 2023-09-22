@@ -1,0 +1,24 @@
+Drink juice1
+To welcome a good morning with a glass of juice, a person leaves from the bedroom after getting up from bed, and he/she goes to the kitchen specifically to get some juice, and after reaching the kitchen, the person grabs a juice bottle and place the juice bottle on the kitchen table. The person then finds a glass and grabs it. It appears that alongside the juice bottle. The person pours the juice into the glass, grabs it, and begins drinking it slowly, savoring the taste. It seems he/she enjoys it so much that he/she drinks the juice from the glass, puts it back on the table, then picks it up again and continues drinking. Additionally, person also drink directly from the juice bottle itself. The person relishes the juice and makes sure to enjoy it from the glass and the bottle.
+
+
+[WALK] <kitchen> (1)
+[WALK] <juice> (1)
+[GRAB] <juice> (1)
+[WALK] <kitchentable> (1)
+[PUTBACK] <juice> (1) <kitchentable> (1)
+[WALK] <waterglass> (1)
+[GRAB] <waterglass> (1)
+[WALK] <kitchentable> (1)
+[PUTBACK] <waterglass> (1) <kitchentable> (1)
+[WALK] <juice> (1)
+[GRAB] <juice> (1)
+[WALK] <waterglass> (1)
+[POUR] <juice> (1) <waterglass> (1)
+[GRAB] <waterglass> (1)
+[DRINK] <waterglass> (1)
+[PUTOBJBACK] <waterglass> (1)
+[GRAB] <waterglass> (1)
+[DRINK] <waterglass> (1)
+[PUTOBJBACK] <waterglass> (1)
+[DRINK] <juice> (1)

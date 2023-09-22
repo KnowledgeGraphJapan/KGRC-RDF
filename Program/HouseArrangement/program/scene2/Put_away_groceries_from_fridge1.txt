@@ -1,0 +1,16 @@
+Put away groceries from fridge1
+A person will take some drinks out before he/she cleans the inside of a fridge. That’s why the person in the kitchen walks towards the fridge and opens it. Find the groceries of alcohol and wine bottle. When the person pulls each grocery out from the refrigerator, check/read the quality of the drinks and the expiration on the bottle. Then, close the fridge after taking each grocery and walks towards a counter or kitchen table. Put the groceries away from the fridge and leave everything else out on a counter or kitchen table.
+
+
+[WALK] <fridge> (155)
+[OPEN] <fridge> (155)
+[FIND] <alcohol> (348)
+[GRAB] <alcohol> (348)
+[WALK] <kitchentable> (129)
+[PUTBACK] <alcohol> (348) <kitchentable> (129)
+[WALK] <fridge> (155)
+[FIND] <wine> (349)
+[GRAB] <wine> (349)
+[CLOSE] <fridge> (155)
+[WALK] <kitchentable> (129)
+[PUTBACK] <wine> (349) <kitchentable> (129)

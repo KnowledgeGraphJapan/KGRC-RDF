@@ -1,0 +1,11 @@
+Go to sleep1
+After using the bathroom by acting use toilet, hand washing, brushing teeth, a person walks towards a bedroom by passing livingroom and kitchen. Then, turns off the lights and walks to bed. Then the person sits on the bed. 
+
+
+[WALK] <livingroom> (1)
+[WALK] <kitchen> (1)
+[WALK] <bedroom> (1)
+[WALK] <lightswitch> (1)
+[SWITCHOFF] <lightswitch> (1)
+[WALK] <bed> (1)
+[SIT] <bed> (1)

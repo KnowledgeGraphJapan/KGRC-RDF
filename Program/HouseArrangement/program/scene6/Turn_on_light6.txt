@@ -1,0 +1,7 @@
+Turn on light6
+A person walks to the living room to leisurely in the living room. Once he/she enters the living room, he/she looks for a light switch or a set of switches on the wall near the entrance to the living room. Typically, light switches are placed near the entry points of a room for easy access. To turn on the ceiling lights in the living room, the person flips the switches in an upward direction. By flipping the switches upward, the person activates the ceiling lights, illuminating the living room. If there are additional lights in the living room, such as wall sconces or controls, the person locates them and turns them on as well. Once all the lights in the living room are turned on, the person can comfortably rest on the sofa and enjoy the well-lit environment provided by the ceiling lights and any additional lighting fixtures.
+
+
+[WALK] <livingroom> (1)
+[WALK] <lightswitch> (1)
+[SWITCHON] <lightswitch> (1)

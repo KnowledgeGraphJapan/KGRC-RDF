@@ -1,0 +1,11 @@
+Fall while during getting up or rising1
+A person walks from the kitchen to the bedroom after finishing household tasks. The person walks to the bed to take a rest and grabs a pillow, then sits on the bed. After taking a rest, the person gets out of bed. Then, a fall occurs during the process of getting up or rising caused by a loss of support with an object such as a bed. The person may have weak muscles, poor balance, or mobility issues that can make it challenging to maintain stability while transitioning from a sitting or lying position to a standing one. 
+
+
+[WALK] <bedroom> (1)
+[WALK] <pillow> (1)
+[GRAB] <pillow> (1)
+[WALK] <bed> (1)
+[SIT] <bed> (1)
+[STAND]
+[FALL]

@@ -1,0 +1,14 @@
+Pet cat1
+A person goes to the bedroom and finds the cat to warm our hearts and put our minds in a good place. Cuddle with a cat in order to have lower blood pressure levels and are at lower risk for depression. Brings the cat to the living room by passing the kitchen and finds the sofa, eases into the sofa, and relaxes.
+
+
+[WALK] <cat> (1)
+[GRAB] <cat> (1)
+[WALK] <bed> (1)
+[SIT] <bed> (1)
+[TOUCH] <cat> (1)
+[STAND]
+[WALK] <kitchen> (1)
+[WALK] <livingroom> (1)
+[WALK] <sofa> (1)
+[SIT] <sofa> (1)

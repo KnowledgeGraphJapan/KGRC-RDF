@@ -1,0 +1,17 @@
+Write notes1
+A person walks to find a paper or a notebook in the living room. Picks it up and walk to the desk. Pull out the chair and sit down. In a paper or notebook for the class, write down the main ideas of what you read for each section, using own words. Put the paper or notebook on the desk and walks towards the bathroom to use the toilet. In that case, a person needs to pass bedroom. 
+
+
+[WALK] <paper> (352)
+[GRAB] <paper> (352)
+[WALK] <desk> (296)
+[WALK] <chair> (297)
+[SIT] <chair> (297)
+[WRITE] <paper> (352)
+[STAND]
+[WALK] <desk> (296)
+[PUTBACK] <paper> (352) <desk> (296)
+[WALK] <bedroom> (70)
+[WALK] <bathroom> (11)
+[WALK] <toilet> (46)
+[SIT] <toilet> (46)

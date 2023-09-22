@@ -1,0 +1,11 @@
+Put groceries in fridge15
+A person walks into the kitchen and searches for the groceries, specifically the cereal. Once the person finds it, he/she grabs the cereal box. Next, the person walks over to the fridge and opens its door. With the fridge open, the person places the cereal inside, ensuring it is stored properly. Having completed the task, the person closes the fridge door, ensuring it is tightly shut. The person can continue with other kitchen activities or move on to the next task.
+
+
+[WALK] <cereal> (1)
+[GRAB] <cereal> (1)
+[WALK] <fridge> (1)
+[OPEN] <fridge> (1)
+[TURNTO] <fridge> (1)
+[PUTIN] <cereal> (1) <fridge> (1)
+[CLOSE] <fridge> (1)

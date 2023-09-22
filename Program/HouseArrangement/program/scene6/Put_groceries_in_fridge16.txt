@@ -1,0 +1,16 @@
+Put groceries in fridge16
+A person enters the kitchen and finds the groceries, specifically the chicken. He/she grabs the chicken and proceeds toward the kitchen sink. Once at the sink, the person switches on the faucet, allowing the cold water to flow. Holding the chicken under the running water, the person scrubs it gently to remove any impurities. After ensuring that the chicken is clean, switch off the faucet. With the cleaned chicken, the person brings it to the fridge. Open the refrigerator door and make space inside for the chicken. Place the chicken inside the refrigerator, ensuring it is stored properly. Once the chicken is safely inside, the person closes the fridge door, sealing it shut. Having completed the task, he/she can continue with other kitchen activities or move on to the next job.
+
+
+[WALK] <chicken> (1)
+[GRAB] <chicken> (1)
+[WALK] <sink> (1)
+[SWITCHON] <faucet> (1)
+[SOAK] <chicken> (1)
+[RINSE] <chicken> (1)
+[SWITCHOFF] <faucet> (1)
+[WALK] <fridge> (1)
+[OPEN] <fridge> (1)
+[TURNTO] <fridge> (1)
+[PUTIN] <chicken> (1) <fridge> (1)
+[CLOSE] <fridge> (1)

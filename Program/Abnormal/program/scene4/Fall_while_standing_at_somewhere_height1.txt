@@ -1,0 +1,10 @@
+Fall while standing at somewhere height1
+A person needs to fix the living room light bulb. But the person doesn't have a ladder or step stool to reach a higher object, such as a light bulb located in the ceiling. In a situation where space is limited, the person sees the coffee table as a makeshift solution. Before climbing the coffee table, a person walks towards the box where pieces of equipment are stored to fix household furniture. Garb and bring the box and walks back to the coffee table and put box on the coffee table to easily access the tools. Then, fall occurs if a person steps up to a height (coffee table) and stands to work at height.
+
+
+[WALK] <box> (1)
+[GRAB] <box> (1)
+[WALK] <coffeetable> (1)
+[PUTBACK] <box> (1) <coffeetable> (1)
+[CLIMB] <coffeetable> (1)
+[FALL]

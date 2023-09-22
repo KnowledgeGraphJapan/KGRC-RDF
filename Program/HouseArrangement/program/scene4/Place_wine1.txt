@@ -1,0 +1,8 @@
+Place wine1
+The person in the kitchen walks towards the wine bottle and picks it up. To create a more casual setting, the person places the wine bottle a few inches near the wine glass, which is positioned on the kitchen table. By doing so, the person brings a relaxed and informal atmosphere to the table. The proximity of the wine bottle to the wine glass allows for convenient access, making it easy for the person or their guests to pour themselves a glass of wine whenever desired. This setup encourages a comfortable and enjoyable dining experience.
+
+
+[WALK] <wine> (1)
+[GRAB] <wine> (1)
+[WALK] <kitchentable> (1)
+[PUTBACK] <wine> (1) <kitchentable> (1)

@@ -1,0 +1,11 @@
+Fall while preparing meal1
+A person in the kitchen is preparing meals. The person finds and grabs the necessary ingredients and groceries, such as fish, salmon, potatoes, cooking pot, etc., near the kitchen counter, sink, and table. The person then falls while cooking and serving food. In that case, both hands carry the cooking ingredients or food. Because of this, a person's balance is affected, and he cannot grab himself if he loses his balance. In addition, cooking involves multitasking, which can divert attention from maintaining balance and stability. If the person is distracted by timers, conversations, or other activities while carrying items, it can increase the fall risk. 
+
+
+[WALK] <fryingpan> (90)
+[GRAB] <fryingpan> (90)
+[WALK] <chicken> (179)
+[GRAB] <chicken> (179)
+[WALK] <sink> (152)
+[TURNTO] <bench> (134)
+[FALL]

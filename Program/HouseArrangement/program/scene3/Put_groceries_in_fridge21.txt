@@ -1,0 +1,16 @@
+Put groceries in fridge21
+A person walks to the kitchen and selects a large plate to ensure enough space to accommodate the cupcakes without them touching or getting squished together. Next, the person walks over to the fridge and opens it. They place the plate inside, making sure it is positioned securely and won't tip over. This way, the cupcakes will remain stable while inside the fridge. After that, the person searches among the groceries and finds the cupcake they are looking for. They grab it and walk back to the refrigerator. With a gentle touch, the person places the cupcake on the plate, carefully leaving some space between each cupcake. This helps prevent them from touching or getting misshapen while stored in the fridge. The person can repeat this process for each cupcake, ensuring they are arranged neatly and without any contact. Finally, the person closes the refrigerator door once all the cupcakes are securely stored on the plate. By doing so, the person ensures the cupcakes remain chilled and well-preserved until people are ready to be enjoyed.
+
+
+[WALK] <plate> (1)
+[GRAB] <plate> (1)
+[WALK] <fridge> (1)
+[OPEN] <fridge> (1)
+[TURNTO] <fridge> (1)
+[PUTIN] <plate> (1) <fridge> (1)
+[WALK] <cupcake> (1)
+[GRAB] <cupcake> (1)
+[WALK] <fridge> (1)
+[TURNTO] <fridge> (1)
+[PUTIN] <cupcake> (1) <fridge> (1)
+[CLOSE] <fridge> (1)

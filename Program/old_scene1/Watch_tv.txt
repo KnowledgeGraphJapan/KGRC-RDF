@@ -1,9 +1,0 @@
-Watch tv
-Walk to the livingroom and then walk to the tv. Switch on the tv.
-
-[WALK] <livingroom> (336)
-[WALK] <tv> (427)
-[SWITCHON] <tv> (427)
-[WALK] <sofa> (369)
-[TURNTO] <tv> (427)
-[SIT] <sofa> (369)

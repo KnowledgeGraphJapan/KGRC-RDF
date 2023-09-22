@@ -1,0 +1,25 @@
+Set up table1
+A person is in a kitchen and walks towards the plate and pick it up. Put the plate on the kitchen table. The plate doesn't have to be ornate or elaborate. Just try to use matching plates for all the settings. Then, walks towards the fork and knife and pick them up. To have a meal, place the fork such as a dinner fork, and salad fork on the side of the plate. Place the knife on the other side of the plate. After that, walk towards the wine glass and wine bottle and pick them up. To have a more casual setting, place the wine glass a few inches above and to the left of the fork. Place the wine bottle a few inches near the wine glass. Then, walk towards the water glass and pick it up. Water glass can be placed further back than the wine glass, and to the left of the wine glass. 
+
+
+[WALK] <plate> (67)
+[GRAB] <plate> (67)
+[WALK] <waterglass> (64)
+[GRAB] <waterglass> (64)
+[WALK] <kitchentable> (134)
+[PUTBACK] <plate> (67) <kitchentable> (134)
+[PUTBACK] <waterglass> (64) <kitchentable> (134)
+[WALK] <cutleryknife> (65)
+[GRAB] <cutleryknife> (65)
+[WALK] <fork> (66)
+[GRAB] <fork> (66)
+[WALK] <kitchentable> (134)
+[PUTBACK] <cutleryknife> (65) <kitchentable> (134)
+[PUTBACK] <fork> (66) <kitchentable> (134)
+[WALK] <wineglass> (424)
+[GRAB] <wineglass> (424)
+[WALK] <wine> (425)
+[GRAB] <wine> (425)
+[WALK] <kitchentable> (134)
+[PUTBACK] <wineglass> (424) <kitchentable> (134)
+[PUTBACK] <wine> (425) <kitchentable> (134)

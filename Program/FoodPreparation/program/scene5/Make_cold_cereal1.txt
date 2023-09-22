@@ -1,0 +1,17 @@
+Make cold cereal1
+A person walks towards a kitchen from the living room after doing a workout to prepare food for meals. Then, the person walks to get an empty bowl and puts it on the kitchen table. Walk to the cereal, grab and come to the empty bowl. Then, pour cereal into the bowl. The person then go to grab a milk bottle. Walks to the bowl and add milk to the bowl.
+
+
+[WALK] <kitchen> (112)
+[WALK] <bowl> (167)
+[GRAB] <bowl> (167)
+[WALK] <kitchentable> (139)
+[PUTBACK] <bowl> (167) <kitchentable> (139)
+[WALK] <cereal> (225)
+[GRAB] <cereal> (225)
+[WALK] <bowl> (167)
+[POUR] <cereal> (225) <bowl> (167)
+[WALK] <milk> (387)
+[GRAB] <milk> (387)
+[WALK] <bowl> (167)
+[POUR] <milk> (387) <bowl> (167)

@@ -1,0 +1,23 @@
+Put groceries in fridge22
+A person in the kitchen walks to find the groceries, specifically a juice bottle. The person grabs the juice bottle and places it on the kitchen table. He/she enters a bathroom to find a towel to clean the bottle. To reach the bathroom, the person passes through the livingroom from the kitchen. Once in the bathroom, find a towel and grab it. After getting the towel, the person re-enters the kitchen and walks towards the kitchen table where the juice bottle is placed. The person holds the juice bottle and starts scrubbing it with the towel. Once cleaning is done, put the towel on the kitchen table. Next, the person walks towards the fridge while bringing the juice bottle. Then, open the refrigerator and put the juice bottle inside the fridge. Finally, close the fridge door.
+
+
+[WALK] <juice> (1)
+[GRAB] <juice> (1)
+[PUTOBJBACK] <juice> (1)
+[WALK] <livingroom> (1)
+[WALK] <bathroom> (1)
+[WALK] <towel> (1)
+[GRAB] <towel> (1)
+[WALK] <livingroom> (1)
+[WALK] <kitchen> (1)
+[WALK] <juice> (1)
+[GRAB] <juice> (1)
+[SCRUB] <juice> (1) <towel> (1)
+[WALK] <kitchentable> (1)
+[PUTBACK] <towel> (1) <kitchentable> (1)
+[WALK] <fridge> (1)
+[OPEN] <fridge> (1)
+[TURNTO] <fridge> (1)
+[PUTIN] <juice> (1) <fridge> (1)
+[CLOSE] <fridge> (1)

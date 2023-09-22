@@ -1,0 +1,25 @@
+Drink wine1
+During leisure time, person leaves the living room and head to the kitchen by passing the bedroom with the specific purpose of getting some wine. After reaching the kitchen, the person grabs a wine bottle and place it on the kitchen table. Then find a glass and take hold of it. Alongside the wine bottle, there may be other items on the kitchen table. The person proceeds to pour the wine from the bottle into the glass, and then grab the glass and start drinking the wine slowly, relishing its taste. Person enjoys it so much that he/she drinks directly from the glass, placing it back on the table momentarily, only to pick it up again and continue drinking. In addition to that, the person also drinks directly from the wine bottle itself, savoring every sip. 
+
+
+[WALK] <bedroom> (1)
+[WALK] <kitchen> (1)
+[WALK] <wine> (1)
+[GRAB] <wine> (1)
+[WALK] <kitchentable> (1)
+[PUTBACK] <wine> (1) <kitchentable> (1)
+[WALK] <wineglass> (1)
+[GRAB] <wineglass> (1)
+[WALK] <kitchentable> (1)
+[PUTBACK] <wineglass> (1) <kitchentable> (1)
+[WALK] <wine> (1)
+[GRAB] <wine> (1)
+[WALK] <wineglass> (1)
+[POUR] <wine> (1) <wineglass> (1)
+[GRAB] <wineglass> (1)
+[DRINK] <wineglass> (1)
+[PUTOBJBACK] <wineglass> (1)
+[GRAB] <wineglass> (1)
+[DRINK] <wineglass> (1)
+[PUTOBJBACK] <wineglass> (1)
+[DRINK] <wine> (1)
