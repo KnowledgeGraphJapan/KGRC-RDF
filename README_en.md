@@ -16,8 +16,8 @@
 5. [Creating Similar Knowledge Graphs](#Creating_Similar_Knowledge_Graphs)
 
 ## Provided_Dataset
-- Video data that simulates daily life actions in a virtual space
-- Data that turns the content of the videos into knowledge graphs ("who" did what "action" with what "object" and the resulting "state" or "position" of the object)
+- The provided dataset consists of video data that depicts various dailyu life actions in VirtualHome.
+- Data that turns the content of the videos into knowledge graphs ("who" did what "action" with what "object" and the resulting "state" or "position" of the object).
 - This data is open to the public as open data.
 
 ## Dataset_Composition
