@@ -286,9 +286,9 @@ Here are some explanations of typical classes and properties. We provide the des
  </table>
  </details>
  
-### Explanation of a concrete Knowledge Graph
-<img src="./asset/Slide3.png" alt="Example of a KG (listen to music)">
+
 ## How to use the Knowledge Graph
+
 The Knowledge Graph is provided in RDF format and can be stored in a triplestore. The SPARQL query language allows for various searches and a direct endpoint is available.
 
 References:
