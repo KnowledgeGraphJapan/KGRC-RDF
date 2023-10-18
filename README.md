@@ -346,11 +346,11 @@ PREFIX : <http://kgrc4si.home.kg/virtualhome2kg/ontology/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX ac: <http://kgrc4si.home.kg/virtualhome2kg/ontology/action/>
 select ?name (count(?object) AS ?count) where { 
-	?objectClass rdfs:subClassOf :Object .
+	?objectClass rdfs:subClassOf/rdfs:subClassOf :Object .
     ?object a ?objectClass ;
             rdfs:label ?label ; 
             dcterms:identifier ?id .
-    ?event ho:object ?object .
+    ?event (:mainObject|:targetObject) ?object .
     ?event :action ac:grab .
     BIND(concat(?label, ?id) AS ?name)
 } group by ?object ?name order by desc(count(?object))
