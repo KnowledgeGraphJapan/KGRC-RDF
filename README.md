@@ -322,7 +322,7 @@ select DISTINCT * where {
 PREFIX ex: <http://kgrc4si.home.kg/virtualhome2kg/instance/>
 PREFIX : <http://kgrc4si.home.kg/virtualhome2kg/ontology/>
 select DISTINCT * where {
-    ex:clean_kitchen_scene1 :hasEvent ?event .
+    ex:clean_kitchen1_scene1 :hasEvent ?event .
     ?event :action ?action .
 }
 ```
