@@ -16,9 +16,13 @@
 5. [Creating Similar Knowledge Graphs](#Creating_Similar_Knowledge_Graphs)
 
 ## Provided_Dataset
-- The provided dataset consists of video data that depicts various dailyu life actions in VirtualHome.
+- The provided dataset consists of video data that depicts various daily life actions in VirtualHome.
 - The data is transformed into knowledge graphs that provide information about "who" performed the "action", "what" was involved, and the resulting "state" or "position" of the object.
 - This data is available to the public as open data.
+- This data set consists of complete data and partially missing data.
+  - [Complete data](./CompleteData) is the original data built from [Script Data](./Program).
+  - [PartiallyMissingData](./PartiallyMissingData) is some parcentage(20%, 50%, 100%) of data(place, action and object) anonymized from the original data.
+    - The directory name 101010 indicates that the location is 100%, the action is 100%, and the object is 100% anonymized.
 
 ## Dataset_Composition
 - [Videos](./Movie)
@@ -29,7 +33,9 @@
   - In total, there are 1,224 videos.
   - Videos with slowly moving characters simulate the movements of elderly people.
 
-- [Knowledge Graphs](./RDF)
+- [Scene Graphs](./COmpleteData/SceneGraph)
+  - The scene graphs are in Action Genome format.
+- [Knowledge Graphs](./CompleteData/RDF)
   - The knowledge graphs are in RDF format.
   - The knowledge graphs consist of 709 knowledge graphs corresponding to videos, along with their their schema and location supplement information
   - The schema is described below
