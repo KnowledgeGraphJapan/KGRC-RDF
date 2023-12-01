@@ -23,6 +23,8 @@
   - [Complete data](./CompleteData) is the original data built from [Script Data](./Program).
   - [PartiallyMissingData](./PartiallyMissingData) is some parcentage(20%, 50%, 100%) of data(place, action and object) anonymized from the original data.
     - The directory name 101010 indicates that the location is 100%, the action is 100%, and the object is 100% anonymized.
+    - The directory name 550 indicates that the location is 50%, the action is 50%, and the object is 0% anonymized.
+    - The directory name 200 indicates that the location is 20%, the action is 0%, and the object is 0% anonymized.
 
 ## Dataset_Composition
 - [Videos](./Movie)
