@@ -386,6 +386,42 @@ CONSTRUCT {
 ```
 [Results](https://kgrc4si.home.kg:7200/sparql?name=&infer=false&sameAs=false&query=PREFIX%20x3do%3A%20%3Chttps%3A%2F%2Fwww.web3d.org%2Fspecifications%2FX3dOntology4.0%23%3E%0APREFIX%20rdf%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX%20%3A%20%3Chttp%3A%2F%2Fkgrc4si.home.kg%2Fvirtualhome2kg%2Fontology%2F%3E%0APREFIX%20ex%3A%20%3Chttp%3A%2F%2Fkgrc4si.home.kg%2Fvirtualhome2kg%2Finstance%2F%3E%0ACONSTRUCT%20%7B%0A%20%20%20%20%3Fobject%20%3Aheight%20%3Fheight_node%20.%0A%20%20%20%20%3Fheight_node%20rdf%3Avalue%20%3Fsize_y1%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%3Aunit%20%3Ameter%20.%0A%7D%20WHERE%20%7B%0A%09%3Fstate1%20%3AisStateOf%20%3Fobject%20%3B%20%3Abbox%20%3Fshape1%20.%0A%09%3Fshape1%20x3do%3AbboxSize%20%3Fsize1%20.%0A%09%3Fsize1%20rdf%3Arest%20%3Fsize_y%20.%0A%20%20%20%20%3Fsize_y%20rdf%3Afirst%20%3Fsize_y1%20.%0A%20%20%20%20BIND(REPLACE(STR(%3Fobject)%2C%20STR(ex%3A)%20%2C%22%22)%20AS%20%3Fobject_name)%0A%20%20%20%20BIND(URI(CONCAT(STR(ex%3A)%2C%22height_%22%2C%20%3Fobject_name))%20AS%20%3Fheight_node)%0A%7D)
 
+### How to use the partially missing data
+```python
+from rdflib import Graph
+
+g = Graph()
+file_path = 'https://raw.githubusercontent.com/KnowledgeGraphJapan/KGRC-RDF/kgrc4si/PartiallyMissingData/RDF/101010/Admire_art1_scene1-101010.ttl'
+# file_path can be URL or the name of a local file
+g.parse(file_path, format='turtle') 
+
+# SPARQL Query
+sparql_query = """
+prefix ex:       <http://kgrc4si.home.kg/virtualhome2kg/instance/>
+prefix vh2kg:    <http://kgrc4si.home.kg/virtualhome2kg/ontology/>
+select *
+WHERE {
+  ?event a vh2kg:Event
+}
+"""
+
+# Execute SPARQL with the defined query and retrieve the results
+query_result = g.query(sparql_query)
+
+# Display the result
+for row in query_result:
+    print(row)
+```
+
+
+Result
+```result
+(rdflib.term.URIRef('http://kgrc4si.home.kg/virtualhome2kg/instance/event3_admire_art1_scene1'),)
+(rdflib.term.URIRef('http://kgrc4si.home.kg/virtualhome2kg/instance/event1_admire_art1_scene1'),)
+(rdflib.term.URIRef('http://kgrc4si.home.kg/virtualhome2kg/instance/event2_admire_art1_scene1'),)
+```
+
+
 ### How to create a similar knowledge graph
 This dataset was created using our proposed system "[VirtualHome2KG](https://github.com/aistairc/VirtualHome2KG/blob/main/README.md)."
 For more information, please refer to the document.
