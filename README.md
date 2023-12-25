@@ -396,6 +396,7 @@ select * where {
     ?object :affords ?action .
 } limit 100 
 ```
+[Results](https://kgrc4si.home.kg:7200/sparql?name=&infer=true&sameAs=true&query=PREFIX%20%3A%20%3Chttp%3A%2F%2Fkgrc4si.home.kg%2Fvirtualhome2kg%2Fontology%2F%3E%0Aselect%20*%20where%20%7B%20%0A%09%3Fobject%20a%20%3AObject%20.%0A%20%20%20%20%3Fobject%20%3Aaffords%20%3Faction%20.%0A%7D%20limit%20100%20%0A)
 
 ### How to use the partially missing data
 

@@ -388,14 +388,16 @@ CONSTRUCT {
 [実行結果](https://kgrc4si.home.kg:7200/sparql?name=&infer=false&sameAs=false&query=PREFIX%20x3do%3A%20%3Chttps%3A%2F%2Fwww.web3d.org%2Fspecifications%2FX3dOntology4.0%23%3E%0APREFIX%20rdf%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX%20%3A%20%3Chttp%3A%2F%2Fkgrc4si.home.kg%2Fvirtualhome2kg%2Fontology%2F%3E%0APREFIX%20ex%3A%20%3Chttp%3A%2F%2Fkgrc4si.home.kg%2Fvirtualhome2kg%2Finstance%2F%3E%0ACONSTRUCT%20%7B%0A%20%20%20%20%3Fobject%20%3Aheight%20%3Fheight_node%20.%0A%20%20%20%20%3Fheight_node%20rdf%3Avalue%20%3Fsize_y1%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%3Aunit%20%3Ameter%20.%0A%7D%20WHERE%20%7B%0A%09%3Fstate1%20%3AisStateOf%20%3Fobject%20%3B%20%3Abbox%20%3Fshape1%20.%0A%09%3Fshape1%20x3do%3AbboxSize%20%3Fsize1%20.%0A%09%3Fsize1%20rdf%3Arest%20%3Fsize_y%20.%0A%20%20%20%20%3Fsize_y%20rdf%3Afirst%20%3Fsize_y1%20.%0A%20%20%20%20BIND(REPLACE(STR(%3Fobject)%2C%20STR(ex%3A)%20%2C%22%22)%20AS%20%3Fobject_name)%0A%20%20%20%20BIND(URI(CONCAT(STR(ex%3A)%2C%22height_%22%2C%20%3Fobject_name))%20AS%20%3Fheight_node)%0A%7D)
 
 #### オブジェクトのアフォーダンス情報を取得する
+このアフォーダンス情報はVirtualHomeのデフォルト設定とは異なるので、VirtualHomeのアフォーダンス情報を使用したい場合は[こちら](https://github.com/xavierpuigf/virtualhome/tree/master/virtualhome/simulation#object-properties)を参照してください。
 ```
-# Please turn on inference engine
+# 推論エンジンをONにしてください
 PREFIX : <http://kgrc4si.home.kg/virtualhome2kg/ontology/>
 select * where { 
 	?object a :Object .
     ?object :affords ?action .
 } limit 100 
 ```
+[実行結果]([Results](https://kgrc4si.home.kg:7200/sparql?name=&infer=true&sameAs=true&query=PREFIX%20%3A%20%3Chttp%3A%2F%2Fkgrc4si.home.kg%2Fvirtualhome2kg%2Fontology%2F%3E%0Aselect%20*%20where%20%7B%20%0A%09%3Fobject%20a%20%3AObject%20.%0A%20%20%20%20%3Fobject%20%3Aaffords%20%3Faction%20.%0A%7D%20limit%20100%20%0A))
 
 ## 同様のナレッジグラフの作成方法
 本データセットは我々の提案システム「[VirtualHome2KG](https://github.com/aistairc/VirtualHome2KG/blob/main/README_ja.md)」を使用して作成されています。  
