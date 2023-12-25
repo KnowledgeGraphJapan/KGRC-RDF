@@ -388,7 +388,7 @@ CONSTRUCT {
 
 #### Get affordance information
 Note that this affordance information is different from VirtualHome's default settings; please see [here](https://github.com/xavierpuigf/virtualhome/tree/master/virtualhome/simulation#object-properties) if you want to use VirtualHome's affordance information.
-```
+```sparql
 # Please turn on inference engine
 PREFIX : <http://kgrc4si.home.kg/virtualhome2kg/ontology/>
 select * where { 

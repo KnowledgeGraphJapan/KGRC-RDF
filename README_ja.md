@@ -389,7 +389,7 @@ CONSTRUCT {
 
 #### オブジェクトのアフォーダンス情報を取得する
 このアフォーダンス情報はVirtualHomeのデフォルト設定とは異なるので、VirtualHomeのアフォーダンス情報を使用したい場合は[こちら](https://github.com/xavierpuigf/virtualhome/tree/master/virtualhome/simulation#object-properties)を参照してください。
-```
+```sparql
 # 推論エンジンをONにしてください
 PREFIX : <http://kgrc4si.home.kg/virtualhome2kg/ontology/>
 select * where { 
