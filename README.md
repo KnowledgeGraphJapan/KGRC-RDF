@@ -35,7 +35,7 @@
   - In total, there are 1,224 videos.
   - Videos with slowly moving characters simulate the movements of elderly people.
 
-- [Scene Graphs](./COmpleteData/SceneGraph)
+- [Scene Graphs](./CompleteData/SceneGraph)
   - The scene graphs are in Action Genome format.
 - [Knowledge Graphs](./CompleteData/RDF)
   - The knowledge graphs are in RDF format.
