@@ -1,0 +1,31 @@
+{
+    "name": "Test Test",
+    "senario": "scene7_Day6",
+    "answers": [
+        {
+            "name": "box276_scene7",
+            "change": {
+                "first": {
+                    "pos": [
+                        -2.268,
+                        1.22431,
+                        5.4
+                    ],
+                    "state": [
+                        "CLOSED"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        1.63554,
+                        0.544531,
+                        0.95953
+                    ],
+                    "state": [
+                        "GRABED"
+                    ]
+                }
+            }
+        }
+    ]
+}

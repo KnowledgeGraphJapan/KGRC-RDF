@@ -1,0 +1,3341 @@
+{
+    "name": "Test Test",
+    "senario": "scene2_Day7",
+    "answers": [
+        {
+            "obj1": "Apple",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Apple",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Bananas",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Bananas",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Bench",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Bench",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Bench",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Book",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Book",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Book",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Bookshelf",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Box",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Breadslice",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Cellphone",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Cellphone",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Cereal",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Chair",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Chair",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Apple",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Bananas",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Bench",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Book",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Breadslice",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Cellphone",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Chair",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Clock",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Coffeetable",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Cupcake",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Cutleryfork",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Cutleryknife",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Dishbowl",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Garbagecan",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Kitchentable",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Lightswitch",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Lime",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Mug",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Peach",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Pie",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Pillow",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Plate",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Plum",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Powersocket",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Remotecontrol",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Rug",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Sofa",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Tv",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Tvstand",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Wallphone",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Wallpictureframe",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Waterglass",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Whippedcream",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Wineglass",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Clock",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Clock",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Closet",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Clothespile",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Coffeetable",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Coffeetable",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Condimentbottle",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Condimentshaker",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Crackers",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Creamybuns",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Cupcake",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Cupcake",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Cupcake",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Cutleryfork",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Cutleryfork",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Cutleryfork",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Cutleryknife",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Cutleryknife",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Cutleryknife",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Dishbowl",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Dishbowl",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Dishbowl",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Garbagecan",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Hanger",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Kitchentable",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Kitchentable",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Lightswitch",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Lightswitch",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Lightswitch",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Lime",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Lime",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Milk",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Milk",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Mug",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Orchid",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Peach",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Peach",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Pie",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Pie",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Pillow",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Plate",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Plate",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Plate",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Plum",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Plum",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Powersocket",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Powersocket",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Remotecontrol",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Remotecontrol",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Rug",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Rug",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Sofa",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Towel",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Tv",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Tv",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Tv",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Tvstand",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Tvstand",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Wallphone",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Wallphone",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Wallpictureframe",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Waterglass",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Waterglass",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Whippedcream",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Whippedcream",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Wineglass",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Wineglass",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Bed",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Bed",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Apple",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Bananas",
+            "obj2": "Bookshelf",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Bananas",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Bananas",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Barsoap",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Bathroomcabinet",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Bathroomcounter",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Bathtub",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Bed",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Bellpepper",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Bench",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Book",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Book",
+            "obj2": "Bookshelf",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Book",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Book",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Bookshelf",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Bookshelf",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Bookshelf",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Box",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Box",
+            "obj2": "Bookshelf",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Box",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Box",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Breadslice",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Breadslice",
+            "obj2": "Toaster",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Breadslice",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Cabinet",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Candle",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Candle",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Candybar",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Ceiling",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Ceiling",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Ceiling",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Ceiling",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Ceilinglamp",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Ceilinglamp",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Ceilinglamp",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Ceilinglamp",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Cellphone",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Cellphone",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Cereal",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Chair",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Chair",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Chicken",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Chips",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Chocolatesyrup",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Clock",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Closet",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Closet",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Closetdrawer",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Closetdrawer",
+            "obj2": "Closet",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Closetdrawer",
+            "obj2": "Clothespile",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Closetdrawer",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Clothespants",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Clothespants",
+            "obj2": "Closet",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Clothespants",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Clothespile",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Clothespile",
+            "obj2": "Closet",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Clothespile",
+            "obj2": "Bookshelf",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Clothespile",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Clothespile",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Clothesshirt",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Clothesshirt",
+            "obj2": "Closet",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Clothesshirt",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Coffeemaker",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Coffeepot",
+            "obj2": "Coffeemaker",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Coffeepot",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Coffeetable",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Coffeetable",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Coffeetable",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Computer",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Computer",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Condimentbottle",
+            "obj2": "Bookshelf",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Condimentbottle",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Condimentshaker",
+            "obj2": "Bookshelf",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Condimentshaker",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Cpuscreen",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Cpuscreen",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Crackers",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Creamybuns",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Cupcake",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Cupcake",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Cupcake",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Curtains",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Curtains",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Curtains",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Cutleryfork",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Cutleryknife",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Deodorant",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Desk",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Desk",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Dishbowl",
+            "obj2": "Bookshelf",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Dishbowl",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Dishbowl",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Dishwashingliquid",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Door",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Door",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Doorjamb",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Doorjamb",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Doorjamb",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Facecream",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Faucet",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Faucet",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Floor",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Floor",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Floor",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Floor",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Folder",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Folder",
+            "obj2": "Bookshelf",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Folder",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Fridge",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Fryingpan",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Garbagecan",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Hairproduct",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Hanger",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Hanger",
+            "obj2": "Closet",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Hanger",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Keyboard",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Keyboard",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Kitchencabinet",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Kitchencounter",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Kitchencounterdrawer",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Kitchentable",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Lightswitch",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Lightswitch",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Lightswitch",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Lightswitch",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Lime",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Microwave",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Milk",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Mouse",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Mouse",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Mousemat",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Mousemat",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Mug",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Mug",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Nightstand",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Orchid",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Orchid",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Orchid",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Oventray",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Oventray",
+            "obj2": "Stove",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Painkillers",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Paper",
+            "obj2": "Bookshelf",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Paper",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Paper",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Paper",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Peach",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Perfume",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Photoframe",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Photoframe",
+            "obj2": "Bookshelf",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Photoframe",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Photoframe",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Pie",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Pie",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Pillow",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Pillow",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Pillow",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Plate",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Plate",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Plate",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Plate",
+            "obj2": "Microwave",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Plate",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Plate",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Plum",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Powersocket",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Powersocket",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Radio",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Radio",
+            "obj2": "Bookshelf",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Remotecontrol",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Remotecontrol",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Rug",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Rug",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Rug",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Rug",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Rug",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Salad",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Salmon",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Sink",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Sink",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Slippers",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Sofa",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Sofa",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Stall",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Stove",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Stovefan",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Tablelamp",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Toaster",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Toilet",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Toothbrush",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Toothpaste",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Towel",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Towel",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Towel",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Towel",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Towel",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Towelrack",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Tv",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Tv",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Tvstand",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Tvstand",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Tvstand",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Wall",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Wall",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Wall",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Wall",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Walllamp",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Walllamp",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Wallphone",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Apple",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Apple",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Bananas",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Bananas",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Bench",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Bench",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Bench",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Book",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Book",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Book",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Bookshelf",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Box",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Breadslice",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Cellphone",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Cellphone",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Cereal",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Chair",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Chair",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Apple",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Bananas",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Bench",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Book",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Breadslice",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Cellphone",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Chair",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Clock",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Coffeetable",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Cupcake",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Cutleryfork",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Cutleryknife",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Dishbowl",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Garbagecan",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Kitchentable",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Lightswitch",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Lime",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Mug",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Peach",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Pie",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Pillow",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Plate",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Plum",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Powersocket",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Remotecontrol",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Rug",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Sofa",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Tv",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Tvstand",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Wallphone",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Wallpictureframe",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Waterglass",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Whippedcream",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Wineglass",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Clock",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Clock",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Closet",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Clothespile",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Coffeetable",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Coffeetable",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Condimentbottle",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Condimentshaker",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Crackers",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Creamybuns",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Cupcake",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Cupcake",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Cupcake",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Cutleryfork",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Cutleryfork",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Cutleryfork",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Cutleryknife",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Cutleryknife",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Cutleryknife",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Dishbowl",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Dishbowl",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Dishbowl",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Garbagecan",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Hanger",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Kitchentable",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Kitchentable",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Lightswitch",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Lightswitch",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Lightswitch",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Lime",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Lime",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Milk",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Milk",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Mug",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Orchid",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Peach",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Peach",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Pie",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Pie",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Pillow",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Plate",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Plate",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Plate",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Plum",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Plum",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Powersocket",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Powersocket",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Remotecontrol",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Remotecontrol",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Rug",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Rug",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Sofa",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Towel",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Tv",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Tv",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Tv",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Tvstand",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Tvstand",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Wallphone",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Wallphone",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Wallpictureframe",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Waterglass",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Waterglass",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Whippedcream",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Whippedcream",
+            "obj2": "Clock",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Wineglass",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Wineglass",
+            "obj2": "Computer",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Bed",
+            "obj2": "Character",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Bed",
+            "relation": "CLOSE"
+        },
+        {
+            "obj1": "Apple",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Bananas",
+            "obj2": "Bookshelf",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Bananas",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Bananas",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Barsoap",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Bathroomcabinet",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Bathroomcounter",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Bathtub",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Bed",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Bellpepper",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Bench",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Book",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Book",
+            "obj2": "Bookshelf",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Book",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Book",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Bookshelf",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Bookshelf",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Bookshelf",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Box",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Box",
+            "obj2": "Bookshelf",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Box",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Box",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Breadslice",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Breadslice",
+            "obj2": "Toaster",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Breadslice",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Cabinet",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Candle",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Candle",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Candybar",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Ceiling",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Ceiling",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Ceiling",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Ceiling",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Ceilinglamp",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Ceilinglamp",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Ceilinglamp",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Ceilinglamp",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Cellphone",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Cellphone",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Cereal",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Chair",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Chair",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Character",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Chicken",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Chips",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Chocolatesyrup",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Clock",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Closet",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Closet",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Closetdrawer",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Closetdrawer",
+            "obj2": "Closet",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Closetdrawer",
+            "obj2": "Clothespile",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Closetdrawer",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Clothespants",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Clothespants",
+            "obj2": "Closet",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Clothespants",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Clothespile",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Clothespile",
+            "obj2": "Closet",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Clothespile",
+            "obj2": "Bookshelf",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Clothespile",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Clothespile",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Clothesshirt",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Clothesshirt",
+            "obj2": "Closet",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Clothesshirt",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Coffeemaker",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Coffeepot",
+            "obj2": "Coffeemaker",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Coffeepot",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Coffeetable",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Coffeetable",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Coffeetable",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Computer",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Computer",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Condimentbottle",
+            "obj2": "Bookshelf",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Condimentbottle",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Condimentshaker",
+            "obj2": "Bookshelf",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Condimentshaker",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Cpuscreen",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Cpuscreen",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Crackers",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Creamybuns",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Cupcake",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Cupcake",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Cupcake",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Curtains",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Curtains",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Curtains",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Cutleryfork",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Cutleryknife",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Deodorant",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Desk",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Desk",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Dishbowl",
+            "obj2": "Bookshelf",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Dishbowl",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Dishbowl",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Dishwashingliquid",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Door",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Door",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Doorjamb",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Doorjamb",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Doorjamb",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Facecream",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Faucet",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Faucet",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Floor",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Floor",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Floor",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Floor",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Folder",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Folder",
+            "obj2": "Bookshelf",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Folder",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Fridge",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Fryingpan",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Garbagecan",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Hairproduct",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Hanger",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Hanger",
+            "obj2": "Closet",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Hanger",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Keyboard",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Keyboard",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Kitchencabinet",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Kitchencounter",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Kitchencounterdrawer",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Kitchentable",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Lightswitch",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Lightswitch",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Lightswitch",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Lightswitch",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Lime",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Microwave",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Milk",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Mouse",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Mouse",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Mousemat",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Mousemat",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Mug",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Mug",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Nightstand",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Orchid",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Orchid",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Orchid",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Oventray",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Oventray",
+            "obj2": "Stove",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Painkillers",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Paper",
+            "obj2": "Bookshelf",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Paper",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Paper",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Paper",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Peach",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Perfume",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Photoframe",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Photoframe",
+            "obj2": "Bookshelf",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Photoframe",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Photoframe",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Pie",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Pie",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Pillow",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Pillow",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Pillow",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Plate",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Plate",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Plate",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Plate",
+            "obj2": "Microwave",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Plate",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Plate",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Plum",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Powersocket",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Powersocket",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Radio",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Radio",
+            "obj2": "Bookshelf",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Remotecontrol",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Remotecontrol",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Rug",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Rug",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Rug",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Rug",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Rug",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Salad",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Salmon",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Sink",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Sink",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Slippers",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Sofa",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Sofa",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Stall",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Stove",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Stovefan",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Tablelamp",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Toaster",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Toilet",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Toothbrush",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Toothpaste",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Towel",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Towel",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Towel",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Towel",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Towel",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Towelrack",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Tv",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Tv",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Tvstand",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Tvstand",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Tvstand",
+            "obj2": "Tv",
+            "relation": "FACING"
+        },
+        {
+            "obj1": "Wall",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Wall",
+            "obj2": "Kitchen",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Wall",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Wall",
+            "obj2": "Bedroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Walllamp",
+            "obj2": "Bathroom",
+            "relation": "INSIDE"
+        },
+        {
+            "obj1": "Walllamp",
+            "obj2": "Livingroom",
+            "relation": "INSIDE"
+        }
+    ]
+}

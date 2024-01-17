@@ -1,0 +1,31 @@
+{
+    "name": "Test Test",
+    "senario": "scene7_Day4",
+    "answers": [
+        {
+            "name": "cellphone279_scene7",
+            "change": {
+                "first": {
+                    "pos": [
+                        3.264,
+                        0.5244,
+                        1.139
+                    ],
+                    "state": [
+                        "OFF"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        1.44223,
+                        0.728348,
+                        1.35367
+                    ],
+                    "state": [
+                        "GRABED"
+                    ]
+                }
+            }
+        }
+    ]
+}

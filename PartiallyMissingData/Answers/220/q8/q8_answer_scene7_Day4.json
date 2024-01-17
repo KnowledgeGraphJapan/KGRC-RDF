@@ -1,0 +1,31 @@
+{
+    "name": "Test Test",
+    "senario": "scene7_Day4",
+    "answers": [
+        {
+            "name": "milk201_scene7",
+            "change": {
+                "first": {
+                    "pos": [
+                        -6.03268,
+                        1.10238,
+                        2.08764
+                    ],
+                    "state": [
+                        "CLOSED"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        -5.67385,
+                        0.734982,
+                        1.01869
+                    ],
+                    "state": [
+                        "GRABED"
+                    ]
+                }
+            }
+        }
+    ]
+}

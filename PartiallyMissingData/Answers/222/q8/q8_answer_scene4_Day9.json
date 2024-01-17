@@ -1,0 +1,1850 @@
+{
+    "name": "Test Test",
+    "senario": "scene4_Day9",
+    "answers": [
+        {
+            "name": "bathroomcabinet195_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        2.47799,
+                        1.85697,
+                        8.63108
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "CLOSED"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        2.47799,
+                        1.85697,
+                        8.63108
+                    ],
+                    "state": [
+                        "CLOSED",
+                        "DIRTY"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "bathroomcounter198_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        2.478,
+                        0.77,
+                        8.378
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "CLOSED"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        2.478,
+                        0.77,
+                        8.378
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "OPEN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "bookshelf217_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        6.904,
+                        1.04867,
+                        -1.475
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "CLOSED"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        6.904,
+                        1.04867,
+                        -1.475
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "bookshelf279_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        10.238,
+                        1.108,
+                        -7.0672
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "OPEN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        10.238,
+                        1.108,
+                        -7.0672
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "CLOSED"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "ceiling22_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        -1.25,
+                        2.5,
+                        2.49999
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        -1.25,
+                        2.5,
+                        2.49999
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "ceiling266_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        6.25,
+                        2.5,
+                        -2.45601
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        6.25,
+                        2.5,
+                        -2.45601
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "ceiling267_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        8.75,
+                        2.5,
+                        -2.45601
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        8.75,
+                        2.5,
+                        -2.45601
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "ceiling269_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        6.25,
+                        2.5,
+                        -4.95601
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        6.25,
+                        2.5,
+                        -4.95601
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "ceiling26_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        3.75,
+                        2.5,
+                        2.49999
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        3.75,
+                        2.5,
+                        2.49999
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "ceiling27_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        1.25,
+                        2.5,
+                        -2.50001
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        1.25,
+                        2.5,
+                        -2.50001
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "ceiling28_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        -1.25,
+                        2.5,
+                        -2.50001
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        -1.25,
+                        2.5,
+                        -2.50001
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "ceiling355_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        11.25,
+                        2.5,
+                        -7.4342
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        11.25,
+                        2.5,
+                        -7.4342
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "ceiling357_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        11.25,
+                        2.5,
+                        -2.4342
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        11.25,
+                        2.5,
+                        -2.4342
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "ceiling359_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        13.75,
+                        2.5,
+                        -4.9342
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        13.75,
+                        2.5,
+                        -4.9342
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "ceiling360_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        13.75,
+                        2.5,
+                        -7.4342
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        13.75,
+                        2.5,
+                        -7.4342
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "ceiling361_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        16.25,
+                        2.5,
+                        -7.4342
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        16.25,
+                        2.5,
+                        -7.4342
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "ceiling363_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        16.25,
+                        2.5,
+                        -2.4342
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        16.25,
+                        2.5,
+                        -2.4342
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "closet284_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        17.11,
+                        1.18252,
+                        -2.43221
+                    ],
+                    "state": [
+                        "CLOSED",
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        17.11,
+                        1.18252,
+                        -2.43221
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "OPEN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "coffeemaker111_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        -1.9368,
+                        1.25573,
+                        -2.31976
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "CLOSED",
+                        "ON",
+                        "PLUGGED_IN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        -1.92659,
+                        1.25573,
+                        -2.30582
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "CLOSED",
+                        "ON",
+                        "PLUGGED_IN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "computer299_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        13.872,
+                        0.36799,
+                        -1.9922
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "OFF",
+                        "PLUGGED_IN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        13.872,
+                        0.36799,
+                        -1.9922
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "ON"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "curtains173_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        0.473998,
+                        1.46255,
+                        -3.63201
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "CLOSED"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        0.473998,
+                        1.46255,
+                        -3.63201
+                    ],
+                    "state": [
+                        "CLOSED",
+                        "DIRTY"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "curtains311_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        17.4026,
+                        2.01889,
+                        -4.93432
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "CLOSED"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        17.4026,
+                        2.01889,
+                        -4.93432
+                    ],
+                    "state": [
+                        "CLOSED",
+                        "DIRTY"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "curtains312_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        17.374,
+                        1.45855,
+                        -4.14719
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "CLOSED"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        17.374,
+                        1.45855,
+                        -4.14719
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "OPEN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "curtains313_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        17.377,
+                        1.45855,
+                        -5.7102
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "CLOSED"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        17.377,
+                        1.45855,
+                        -5.7102
+                    ],
+                    "state": [
+                        "CLOSED",
+                        "DIRTY"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "desk219_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        9.376,
+                        0.475,
+                        -2.298
+                    ],
+                    "state": [
+                        "CLOSED",
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        9.376,
+                        0.475,
+                        -2.298
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "CLOSED"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "desk277_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        13.172,
+                        0.475,
+                        -1.8072
+                    ],
+                    "state": [
+                        "CLOSED",
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        13.172,
+                        0.475,
+                        -1.8072
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "OPEN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "doorjamb374_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        16.23,
+                        1.02913,
+                        -1.18265
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "OPEN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        16.23,
+                        1.02913,
+                        -1.18264
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "OPEN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "floor13_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        1.25,
+                        0.0,
+                        0.0
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        1.25,
+                        0.0,
+                        0.0
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "floor15_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        3.75,
+                        0.0,
+                        2.5
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        3.75,
+                        0.0,
+                        2.5
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "floor16_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        1.25,
+                        0.0,
+                        -2.5
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        1.25,
+                        0.0,
+                        -2.5
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "floor17_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        3.75,
+                        0.0,
+                        -2.5
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        3.75,
+                        0.0,
+                        -2.5
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "floor186_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        1.228,
+                        0.0,
+                        7.5
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        1.228,
+                        0.0,
+                        7.5
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "floor188_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        3.728,
+                        0.0,
+                        5.0
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        3.728,
+                        0.0,
+                        5.0
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "floor189_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        3.728,
+                        0.0,
+                        7.5
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        3.728,
+                        0.0,
+                        7.5
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "floor19_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        -1.25,
+                        0.0,
+                        -2.5
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        -1.25,
+                        0.0,
+                        -2.5
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "floor364_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        11.25,
+                        0.0,
+                        -7.4342
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        11.25,
+                        0.0,
+                        -7.4342
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "floor365_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        11.25,
+                        0.0,
+                        -4.9342
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        11.25,
+                        0.0,
+                        -4.9342
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "floor367_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        13.75,
+                        0.0,
+                        -2.4342
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        13.75,
+                        0.0,
+                        -2.4342
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "floor369_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        13.75,
+                        0.0,
+                        -7.4342
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        13.75,
+                        0.0,
+                        -7.4342
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "fridge107_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        2.67043,
+                        1.06258,
+                        3.31381
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "CLOSED",
+                        "PLUGGED_IN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        2.67043,
+                        1.06258,
+                        3.31381
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "OPEN",
+                        "PLUGGED_IN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "garbagecan201_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        4.47863,
+                        0.207239,
+                        7.78846
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "OPEN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        4.47863,
+                        0.207239,
+                        7.78847
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "CLOSED"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "kitchencounter85_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        -2.053,
+                        0.52,
+                        2.193
+                    ],
+                    "state": [
+                        "CLOSED",
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        -2.053,
+                        0.52,
+                        2.193
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "CLOSED"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "kitchencounter96_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        -2.055,
+                        0.526,
+                        -1.839
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "CLOSED"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        -2.055,
+                        0.526,
+                        -1.839
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "OPEN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "lightswitch174_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        1.866,
+                        1.338,
+                        3.69751
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "OFF",
+                        "PLUGGED_IN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        1.866,
+                        1.338,
+                        3.69751
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "ON",
+                        "PLUGGED_IN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "mouse303_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        13.905,
+                        0.980125,
+                        -1.9792
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "PLUGGED_OUT"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        13.905,
+                        0.980125,
+                        -1.9792
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "PLUGGED_IN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "nightstand220_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        5.485,
+                        0.242,
+                        -3.545
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "OPEN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        5.485,
+                        0.242,
+                        -3.545
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "CLOSED"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "nightstand281_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        13.976,
+                        0.242,
+                        -7.9462
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "OPEN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        13.976,
+                        0.242,
+                        -7.9462
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "CLOSED"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "pillow259_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        5.5369,
+                        0.541389,
+                        -4.62453
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        5.5369,
+                        0.541389,
+                        -4.62453
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "pillow260_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        5.55148,
+                        0.545114,
+                        -5.47151
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        5.55148,
+                        0.545114,
+                        -5.47151
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "pillow314_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        13.9176,
+                        0.749328,
+                        -5.64621
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        13.9176,
+                        0.749328,
+                        -5.64621
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "pillow315_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        13.9172,
+                        0.684511,
+                        -6.10729
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        13.9172,
+                        0.684511,
+                        -6.10728
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "rug212_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        2.478,
+                        0.0122244,
+                        7.379
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        2.478,
+                        0.0122244,
+                        7.379
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "rug258_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        7.17,
+                        0.0069701,
+                        -2.877
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        7.17,
+                        0.0069701,
+                        -2.877
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "sink199_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        2.484,
+                        0.915,
+                        8.373
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        2.484,
+                        0.915,
+                        8.373
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "stall194_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        2.61701,
+                        1.25,
+                        4.57351
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "OFF"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        2.61701,
+                        1.25,
+                        4.57351
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "stove109_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        -2.027,
+                        0.51,
+                        0.179
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "CLOSED",
+                        "OFF",
+                        "PLUGGED_IN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        -2.027,
+                        0.51,
+                        0.179
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "OFF",
+                        "OPEN",
+                        "PLUGGED_IN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "toaster103_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        -1.84823,
+                        1.16441,
+                        1.27408
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "ON",
+                        "PLUGGED_IN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        -1.84823,
+                        1.16881,
+                        1.27408
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "ON",
+                        "PLUGGED_IN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "wall179_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        1.228,
+                        1.25,
+                        7.5
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        1.228,
+                        1.25,
+                        7.5
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "wall180_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        3.728,
+                        1.25,
+                        7.5
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        3.728,
+                        1.25,
+                        7.5
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "wall271_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        6.25,
+                        1.25,
+                        -4.956
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        6.25,
+                        1.25,
+                        -4.956
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "wall30_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        -1.25,
+                        1.25,
+                        2.5
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        -1.25,
+                        1.25,
+                        2.5
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "wall33_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        -2.43686,
+                        1.40976,
+                        2.193
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        -2.43686,
+                        1.40976,
+                        2.193
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "wall350_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        17.47,
+                        1.24999,
+                        -4.93419
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        17.47,
+                        1.24999,
+                        -4.93419
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "wall351_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        11.25,
+                        1.25,
+                        -2.4342
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        11.25,
+                        1.25,
+                        -2.4342
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "wall353_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        16.25,
+                        1.25,
+                        -7.4342
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        16.25,
+                        1.25,
+                        -7.4342
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "wall354_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        16.25,
+                        1.25001,
+                        -2.43419
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        16.25,
+                        1.25001,
+                        -2.43418
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "wall36_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        1.25001,
+                        1.24999,
+                        -3.72
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        1.25001,
+                        1.24999,
+                        -3.72
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "wall37_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        1.24999,
+                        1.25,
+                        3.72
+                    ],
+                    "state": [
+                        "CLEAN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        1.24999,
+                        1.25,
+                        3.72
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "walllamp340_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        12.163,
+                        1.49093,
+                        -1.2832
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "ON"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        12.163,
+                        1.49093,
+                        -1.28319
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "ON"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "walllamp341_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        14.197,
+                        1.49093,
+                        -1.2832
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "ON"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        14.197,
+                        1.49093,
+                        -1.28319
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "ON"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "window376_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        17.5001,
+                        1.5,
+                        -4.9342
+                    ],
+                    "state": [
+                        "CLOSED",
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        17.5001,
+                        1.5,
+                        -4.9342
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "CLOSED"
+                    ]
+                }
+            }
+        }
+    ]
+}

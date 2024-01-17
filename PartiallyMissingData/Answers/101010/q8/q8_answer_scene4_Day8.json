@@ -1,0 +1,31 @@
+{
+    "name": "Test Test",
+    "senario": "scene4_Day8",
+    "answers": [
+        {
+            "name": "toothpaste209_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        2.95359,
+                        0.993778,
+                        8.44367
+                    ],
+                    "state": [
+                        "CLOSED"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        2.49862,
+                        0.738707,
+                        7.86237
+                    ],
+                    "state": [
+                        "GRABED"
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Test Test",
+    "senario": "scene4_Day6",
+    "answers": [
+        {
+            "name": "book226_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        6.63242,
+                        0.605103,
+                        -1.46389
+                    ],
+                    "state": [
+                        "CLOSED"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        6.31059,
+                        0.739341,
+                        -2.01568
+                    ],
+                    "state": [
+                        "GRABED"
+                    ]
+                }
+            }
+        }
+    ]
+}

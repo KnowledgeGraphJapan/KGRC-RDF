@@ -1,0 +1,33 @@
+{
+    "name": "Test Test",
+    "senario": "scene7_Day1",
+    "answers": [
+        {
+            "name": "computer286_scene7",
+            "change": {
+                "first": {
+                    "pos": [
+                        0.287999,
+                        1.21259,
+                        5.4405
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "OFF"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        0.287999,
+                        1.21259,
+                        5.4405
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "ON"
+                    ]
+                }
+            }
+        }
+    ]
+}

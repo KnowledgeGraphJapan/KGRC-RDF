@@ -1,0 +1,35 @@
+{
+    "name": "Test Test",
+    "senario": "scene4_Day3",
+    "answers": [
+        {
+            "name": "fridge107_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        2.67043,
+                        1.06258,
+                        3.31381
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "CLOSED",
+                        "PLUGGED_IN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        2.67043,
+                        1.06258,
+                        3.31381
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "OPEN",
+                        "PLUGGED_IN"
+                    ]
+                }
+            }
+        }
+    ]
+}

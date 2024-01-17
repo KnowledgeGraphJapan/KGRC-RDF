@@ -1,0 +1,31 @@
+{
+    "name": "Test Test",
+    "senario": "scene4_Day2",
+    "answers": [
+        {
+            "name": "pillow259_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        5.5369,
+                        0.541389,
+                        -4.62453
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        6.01585,
+                        0.739644,
+                        -3.72746
+                    ],
+                    "state": [
+                        "DIRTY"
+                    ]
+                }
+            }
+        }
+    ]
+}

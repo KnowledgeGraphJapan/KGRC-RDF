@@ -1,0 +1,60 @@
+{
+    "name": "Test Test",
+    "senario": "scene7_Day1",
+    "answers": [
+        {
+            "name": "remotecontrol376_scene7",
+            "change": {
+                "first": {
+                    "pos": [
+                        0.887902,
+                        0.4525,
+                        0.975106
+                    ],
+                    "state": [
+                        "OFF"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        0.887902,
+                        0.4525,
+                        0.975106
+                    ],
+                    "state": [
+                        "GRABED"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "tv292_scene7",
+            "change": {
+                "first": {
+                    "pos": [
+                        4.379,
+                        1.12772,
+                        0.809003
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "OFF",
+                        "PLUGGED_IN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        4.379,
+                        1.12772,
+                        0.809003
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "ON",
+                        "PLUGGED_IN"
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "name": "Test Test",
+    "senario": "scene7_Day4",
+    "answers": [
+        {
+            "name": "book273_scene7",
+            "change": {
+                "first": {
+                    "pos": [
+                        -2.23115,
+                        0.592397,
+                        4.34984
+                    ],
+                    "state": [
+                        "CLOSED"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        -1.79032,
+                        0.736889,
+                        4.70043
+                    ],
+                    "state": [
+                        "GRABED"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "book274_scene7",
+            "change": {
+                "first": {
+                    "pos": [
+                        -2.21982,
+                        1.14386,
+                        3.83849
+                    ],
+                    "state": [
+                        "CLOSED"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        -1.85017,
+                        0.712522,
+                        4.38052
+                    ],
+                    "state": [
+                        "GRABED"
+                    ]
+                }
+            }
+        }
+    ]
+}
