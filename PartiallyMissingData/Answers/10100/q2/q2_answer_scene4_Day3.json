@@ -1,0 +1,42 @@
+{
+    "name": "AoyamaTeam2",
+    "senario": "scene4_Day3",
+    "answers": [
+        {
+            "name": "walk",
+            "number": 30
+        },
+        {
+            "name": "grab",
+            "number": 14
+        },
+        {
+            "name": "put",
+            "number": 10
+        },
+        {
+            "name": "open",
+            "number": 3
+        },
+        {
+            "name": "close",
+            "number": 3
+        },
+        {
+            "name": "find",
+            "number": 2
+        },
+        {
+            "name": "putIn",
+            "number": 2
+        },
+        {
+            "name": "turnTo",
+            "number": 1
+        },
+        {
+            "name": "wipe",
+            "number": 1
+        }
+    ]
+}

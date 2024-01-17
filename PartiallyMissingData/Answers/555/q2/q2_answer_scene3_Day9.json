@@ -1,0 +1,54 @@
+{
+    "name": "AoyamaTeam2",
+    "senario": "scene3_Day9",
+    "answers": [
+        {
+            "name": "walk",
+            "number": 26
+        },
+        {
+            "name": "grab",
+            "number": 10
+        },
+        {
+            "name": "put",
+            "number": 8
+        },
+        {
+            "name": "pour",
+            "number": 3
+        },
+        {
+            "name": "legopp",
+            "number": 3
+        },
+        {
+            "name": "sit",
+            "number": 2
+        },
+        {
+            "name": "switchOn",
+            "number": 2
+        },
+        {
+            "name": "stand",
+            "number": 1
+        },
+        {
+            "name": "read",
+            "number": 1
+        },
+        {
+            "name": "drink",
+            "number": 1
+        },
+        {
+            "name": "eat",
+            "number": 1
+        },
+        {
+            "name": "switchOff",
+            "number": 1
+        }
+    ]
+}

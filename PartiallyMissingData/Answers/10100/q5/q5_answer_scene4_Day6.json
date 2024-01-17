@@ -1,0 +1,48 @@
+{
+    "name": "AoyamaTeam2",
+    "senario": "scene4_Day6",
+    "answers": [
+        [
+            {
+                "time": "00h-00m-04s",
+                "place": "kitchen",
+                "obj": "potato"
+            },
+            {
+                "time": "00h-00m-14s",
+                "place": "kitchen",
+                "obj": "salad"
+            },
+            {
+                "time": "00h-01m-16s",
+                "place": "kitchen",
+                "obj": "washingsponge"
+            },
+            {
+                "time": "00h-02m-18s",
+                "place": "kitchen",
+                "obj": "wineglass"
+            },
+            {
+                "time": "00h-02m-37s",
+                "place": "kitchen",
+                "obj": "cutleryfork"
+            },
+            {
+                "time": "00h-02m-46s",
+                "place": "kitchen",
+                "obj": "cutleryfork"
+            },
+            {
+                "time": "00h-03m-50s",
+                "place": "kitchen",
+                "obj": "washingsponge"
+            },
+            {
+                "time": "00h-04m-50s",
+                "place": "kitchen",
+                "obj": "wine"
+            }
+        ]
+    ]
+}

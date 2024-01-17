@@ -1,0 +1,58 @@
+{
+    "name": "AoyamaTeam2",
+    "senario": "scene4_Day4",
+    "answers": [
+        {
+            "name": "walk",
+            "number": 44
+        },
+        {
+            "name": "grab",
+            "number": 15
+        },
+        {
+            "name": "put",
+            "number": 9
+        },
+        {
+            "name": "wipe",
+            "number": 5
+        },
+        {
+            "name": "open",
+            "number": 4
+        },
+        {
+            "name": "close",
+            "number": 4
+        },
+        {
+            "name": "find",
+            "number": 4
+        },
+        {
+            "name": "turnTo",
+            "number": 2
+        },
+        {
+            "name": "read",
+            "number": 2
+        },
+        {
+            "name": "sit",
+            "number": 2
+        },
+        {
+            "name": "switchOn",
+            "number": 1
+        },
+        {
+            "name": "switchOff",
+            "number": 1
+        },
+        {
+            "name": "putIn",
+            "number": 1
+        }
+    ]
+}

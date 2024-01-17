@@ -1,0 +1,74 @@
+{
+    "name": "AoyamaTeam2",
+    "senario": "scene1_Day3",
+    "answers": [
+        {
+            "name": "walk",
+            "number": 33
+        },
+        {
+            "name": "grab",
+            "number": 6
+        },
+        {
+            "name": "squat",
+            "number": 6
+        },
+        {
+            "name": "straddle",
+            "number": 6
+        },
+        {
+            "name": "run",
+            "number": 6
+        },
+        {
+            "name": "put",
+            "number": 4
+        },
+        {
+            "name": "turnTo",
+            "number": 4
+        },
+        {
+            "name": "wipe",
+            "number": 4
+        },
+        {
+            "name": "switchOn",
+            "number": 3
+        },
+        {
+            "name": "jump",
+            "number": 3
+        },
+        {
+            "name": "legopp",
+            "number": 3
+        },
+        {
+            "name": "stretch",
+            "number": 3
+        },
+        {
+            "name": "switchOff",
+            "number": 2
+        },
+        {
+            "name": "sit",
+            "number": 1
+        },
+        {
+            "name": "stand",
+            "number": 1
+        },
+        {
+            "name": "shake",
+            "number": 1
+        },
+        {
+            "name": "fold",
+            "number": 1
+        }
+    ]
+}

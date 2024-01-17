@@ -1,0 +1,86 @@
+{
+    "name": "AoyamaTeam2",
+    "senario": "scene4_Day2",
+    "answers": [
+        {
+            "name": "walk",
+            "number": 41
+        },
+        {
+            "name": "grab",
+            "number": 15
+        },
+        {
+            "name": "put",
+            "number": 8
+        },
+        {
+            "name": "open",
+            "number": 4
+        },
+        {
+            "name": "close",
+            "number": 4
+        },
+        {
+            "name": "sit",
+            "number": 4
+        },
+        {
+            "name": "find",
+            "number": 4
+        },
+        {
+            "name": "switchOff",
+            "number": 3
+        },
+        {
+            "name": "climb",
+            "number": 2
+        },
+        {
+            "name": "turnTo",
+            "number": 2
+        },
+        {
+            "name": "putIn",
+            "number": 2
+        },
+        {
+            "name": "write",
+            "number": 2
+        },
+        {
+            "name": "rinse",
+            "number": 2
+        },
+        {
+            "name": "switchOn",
+            "number": 2
+        },
+        {
+            "name": "soak",
+            "number": 2
+        },
+        {
+            "name": "fall",
+            "number": 1
+        },
+        {
+            "name": "read",
+            "number": 1
+        },
+        {
+            "name": "stand",
+            "number": 1
+        },
+        {
+            "name": "fallsit",
+            "number": 1
+        },
+        {
+            "name": "falltable2",
+            "number": 1
+        }
+    ]
+}

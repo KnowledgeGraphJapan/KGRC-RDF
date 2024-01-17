@@ -1,0 +1,70 @@
+{
+    "name": "AoyamaTeam2",
+    "senario": "scene5_Day1",
+    "answers": [
+        {
+            "name": "walk",
+            "number": 31
+        },
+        {
+            "name": "grab",
+            "number": 9
+        },
+        {
+            "name": "put",
+            "number": 5
+        },
+        {
+            "name": "switchOn",
+            "number": 3
+        },
+        {
+            "name": "squat",
+            "number": 3
+        },
+        {
+            "name": "sit",
+            "number": 2
+        },
+        {
+            "name": "stand",
+            "number": 2
+        },
+        {
+            "name": "soak",
+            "number": 2
+        },
+        {
+            "name": "switchOff",
+            "number": 2
+        },
+        {
+            "name": "turnTo",
+            "number": 2
+        },
+        {
+            "name": "open",
+            "number": 2
+        },
+        {
+            "name": "putIn",
+            "number": 2
+        },
+        {
+            "name": "close",
+            "number": 2
+        },
+        {
+            "name": "rinse",
+            "number": 1
+        },
+        {
+            "name": "wipe",
+            "number": 1
+        },
+        {
+            "name": "drink",
+            "number": 1
+        }
+    ]
+}

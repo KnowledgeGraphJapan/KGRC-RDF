@@ -1,0 +1,50 @@
+{
+    "name": "AoyamaTeam2",
+    "senario": "scene4_Day8",
+    "answers": [
+        {
+            "name": "walk",
+            "number": 19
+        },
+        {
+            "name": "grab",
+            "number": 8
+        },
+        {
+            "name": "put",
+            "number": 5
+        },
+        {
+            "name": "wipe",
+            "number": 3
+        },
+        {
+            "name": "open",
+            "number": 2
+        },
+        {
+            "name": "find",
+            "number": 2
+        },
+        {
+            "name": "close",
+            "number": 2
+        },
+        {
+            "name": "turnTo",
+            "number": 2
+        },
+        {
+            "name": "lookAt",
+            "number": 1
+        },
+        {
+            "name": "throw",
+            "number": 1
+        },
+        {
+            "name": "shake",
+            "number": 1
+        }
+    ]
+}

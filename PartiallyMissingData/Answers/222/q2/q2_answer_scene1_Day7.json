@@ -1,0 +1,106 @@
+{
+    "name": "AoyamaTeam2",
+    "senario": "scene1_Day7",
+    "answers": [
+        {
+            "name": "walk",
+            "number": 80
+        },
+        {
+            "name": "grab",
+            "number": 22
+        },
+        {
+            "name": "put",
+            "number": 14
+        },
+        {
+            "name": "squat",
+            "number": 12
+        },
+        {
+            "name": "switchOn",
+            "number": 8
+        },
+        {
+            "name": "sit",
+            "number": 7
+        },
+        {
+            "name": "switchOff",
+            "number": 7
+        },
+        {
+            "name": "straddle",
+            "number": 6
+        },
+        {
+            "name": "jump",
+            "number": 6
+        },
+        {
+            "name": "legopp",
+            "number": 6
+        },
+        {
+            "name": "stretch",
+            "number": 6
+        },
+        {
+            "name": "stand",
+            "number": 5
+        },
+        {
+            "name": "turnTo",
+            "number": 5
+        },
+        {
+            "name": "soak",
+            "number": 5
+        },
+        {
+            "name": "wipe",
+            "number": 5
+        },
+        {
+            "name": "drink",
+            "number": 4
+        },
+        {
+            "name": "find",
+            "number": 2
+        },
+        {
+            "name": "rinse",
+            "number": 2
+        },
+        {
+            "name": "open",
+            "number": 2
+        },
+        {
+            "name": "close",
+            "number": 2
+        },
+        {
+            "name": "eat",
+            "number": 2
+        },
+        {
+            "name": "text",
+            "number": 2
+        },
+        {
+            "name": "touch",
+            "number": 1
+        },
+        {
+            "name": "putIn",
+            "number": 1
+        },
+        {
+            "name": "pour",
+            "number": 1
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "name": "AoyamaTeam2",
+    "senario": "scene4_Day10",
+    "answers": [
+        {
+            "name": "walk",
+            "number": 23
+        },
+        {
+            "name": "switchOn",
+            "number": 3
+        },
+        {
+            "name": "grab",
+            "number": 3
+        },
+        {
+            "name": "put",
+            "number": 2
+        },
+        {
+            "name": "squeeze",
+            "number": 1
+        },
+        {
+            "name": "brush",
+            "number": 1
+        },
+        {
+            "name": "rinse",
+            "number": 1
+        },
+        {
+            "name": "soak",
+            "number": 1
+        },
+        {
+            "name": "switchOff",
+            "number": 1
+        },
+        {
+            "name": "turnTo",
+            "number": 1
+        },
+        {
+            "name": "wipe",
+            "number": 1
+        }
+    ]
+}

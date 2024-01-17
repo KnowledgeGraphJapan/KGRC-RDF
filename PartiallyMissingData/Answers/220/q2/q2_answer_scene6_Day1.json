@@ -1,0 +1,58 @@
+{
+    "name": "AoyamaTeam2",
+    "senario": "scene6_Day1",
+    "answers": [
+        {
+            "name": "walk",
+            "number": 28
+        },
+        {
+            "name": "grab",
+            "number": 15
+        },
+        {
+            "name": "put",
+            "number": 12
+        },
+        {
+            "name": "switchOn",
+            "number": 4
+        },
+        {
+            "name": "switchOff",
+            "number": 4
+        },
+        {
+            "name": "fold",
+            "number": 3
+        },
+        {
+            "name": "putIn",
+            "number": 3
+        },
+        {
+            "name": "soak",
+            "number": 2
+        },
+        {
+            "name": "sit",
+            "number": 1
+        },
+        {
+            "name": "stand",
+            "number": 1
+        },
+        {
+            "name": "squeeze",
+            "number": 1
+        },
+        {
+            "name": "brush",
+            "number": 1
+        },
+        {
+            "name": "rinse",
+            "number": 1
+        }
+    ]
+}

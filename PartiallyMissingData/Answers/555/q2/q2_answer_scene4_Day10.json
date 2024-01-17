@@ -1,0 +1,82 @@
+{
+    "name": "AoyamaTeam2",
+    "senario": "scene4_Day10",
+    "answers": [
+        {
+            "name": "walk",
+            "number": 37
+        },
+        {
+            "name": "grab",
+            "number": 16
+        },
+        {
+            "name": "put",
+            "number": 12
+        },
+        {
+            "name": "soak",
+            "number": 5
+        },
+        {
+            "name": "rinse",
+            "number": 4
+        },
+        {
+            "name": "switchOff",
+            "number": 4
+        },
+        {
+            "name": "switchOn",
+            "number": 4
+        },
+        {
+            "name": "turnTo",
+            "number": 2
+        },
+        {
+            "name": "throw",
+            "number": 2
+        },
+        {
+            "name": "shake",
+            "number": 2
+        },
+        {
+            "name": "squeeze",
+            "number": 1
+        },
+        {
+            "name": "brush",
+            "number": 1
+        },
+        {
+            "name": "sit",
+            "number": 1
+        },
+        {
+            "name": "stand",
+            "number": 1
+        },
+        {
+            "name": "open",
+            "number": 1
+        },
+        {
+            "name": "putIn",
+            "number": 1
+        },
+        {
+            "name": "close",
+            "number": 1
+        },
+        {
+            "name": "fall",
+            "number": 1
+        },
+        {
+            "name": "wipe",
+            "number": 1
+        }
+    ]
+}
