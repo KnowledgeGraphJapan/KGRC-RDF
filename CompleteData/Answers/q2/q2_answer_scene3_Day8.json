@@ -1,0 +1,102 @@
+{
+    "name": "Test Test",
+    "senario": "scene3_Day8",
+    "answers": [
+        {
+            "name": "walk",
+            "number": 78
+        },
+        {
+            "name": "grab",
+            "number": 30
+        },
+        {
+            "name": "put",
+            "number": 22
+        },
+        {
+            "name": "switchOn",
+            "number": 8
+        },
+        {
+            "name": "switchOff",
+            "number": 6
+        },
+        {
+            "name": "drink",
+            "number": 6
+        },
+        {
+            "name": "sit",
+            "number": 5
+        },
+        {
+            "name": "pour",
+            "number": 4
+        },
+        {
+            "name": "scrub",
+            "number": 4
+        },
+        {
+            "name": "stand",
+            "number": 3
+        },
+        {
+            "name": "soak",
+            "number": 3
+        },
+        {
+            "name": "stretch",
+            "number": 3
+        },
+        {
+            "name": "turnTo",
+            "number": 2
+        },
+        {
+            "name": "wipe",
+            "number": 2
+        },
+        {
+            "name": "write",
+            "number": 1
+        },
+        {
+            "name": "open",
+            "number": 1
+        },
+        {
+            "name": "close",
+            "number": 1
+        },
+        {
+            "name": "putIn",
+            "number": 1
+        },
+        {
+            "name": "squeeze",
+            "number": 1
+        },
+        {
+            "name": "brush",
+            "number": 1
+        },
+        {
+            "name": "rinse",
+            "number": 1
+        },
+        {
+            "name": "shake",
+            "number": 1
+        },
+        {
+            "name": "fallback",
+            "number": 1
+        },
+        {
+            "name": "eat",
+            "number": 1
+        }
+    ]
+}

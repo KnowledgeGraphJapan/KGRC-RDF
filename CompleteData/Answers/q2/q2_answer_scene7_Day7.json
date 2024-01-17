@@ -1,0 +1,74 @@
+{
+    "name": "Test Test",
+    "senario": "scene7_Day7",
+    "answers": [
+        {
+            "name": "walk",
+            "number": 33
+        },
+        {
+            "name": "grab",
+            "number": 11
+        },
+        {
+            "name": "switchOn",
+            "number": 8
+        },
+        {
+            "name": "put",
+            "number": 8
+        },
+        {
+            "name": "switchOff",
+            "number": 7
+        },
+        {
+            "name": "turnTo",
+            "number": 4
+        },
+        {
+            "name": "soak",
+            "number": 4
+        },
+        {
+            "name": "scrub",
+            "number": 4
+        },
+        {
+            "name": "open",
+            "number": 2
+        },
+        {
+            "name": "putIn",
+            "number": 2
+        },
+        {
+            "name": "close",
+            "number": 2
+        },
+        {
+            "name": "wipe",
+            "number": 2
+        },
+        {
+            "name": "rinse",
+            "number": 1
+        },
+        {
+            "name": "shake",
+            "number": 1
+        },
+        {
+            "name": "type",
+            "number": 1
+        },
+        {
+            "name": "sit",
+            "number": 1
+        },
+        {
+            "name": "stand",
+            "number": 1
+        }
+    ]
+}

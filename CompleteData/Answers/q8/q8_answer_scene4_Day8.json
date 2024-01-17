@@ -1,0 +1,33 @@
+{
+    "name": "Test Test",
+    "senario": "scene4_Day8",
+    "answers": [
+        {
+            "name": "faucet200_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        2.508,
+                        1.01,
+                        8.633
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "OFF"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        2.508,
+                        1.01,
+                        8.633
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "ON"
+                    ]
+                }
+            }
+        }
+    ]
+}

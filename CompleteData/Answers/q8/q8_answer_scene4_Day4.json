@@ -1,0 +1,35 @@
+{
+    "name": "Test Test",
+    "senario": "scene4_Day4",
+    "answers": [
+        {
+            "name": "lightswitch223_scene4",
+            "change": {
+                "first": {
+                    "pos": [
+                        9.94745,
+                        1.248,
+                        -5.532
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "ON",
+                        "PLUGGED_IN"
+                    ]
+                },
+                "later": {
+                    "pos": [
+                        9.94745,
+                        1.248,
+                        -5.532
+                    ],
+                    "state": [
+                        "CLEAN",
+                        "OFF",
+                        "PLUGGED_IN"
+                    ]
+                }
+            }
+        }
+    ]
+}

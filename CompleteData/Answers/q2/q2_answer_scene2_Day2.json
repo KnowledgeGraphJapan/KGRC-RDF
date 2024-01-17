@@ -1,0 +1,54 @@
+{
+    "name": "Test Test",
+    "senario": "scene2_Day2",
+    "answers": [
+        {
+            "name": "walk",
+            "number": 26
+        },
+        {
+            "name": "grab",
+            "number": 7
+        },
+        {
+            "name": "switchOn",
+            "number": 5
+        },
+        {
+            "name": "put",
+            "number": 4
+        },
+        {
+            "name": "switchOff",
+            "number": 4
+        },
+        {
+            "name": "pour",
+            "number": 2
+        },
+        {
+            "name": "sit",
+            "number": 2
+        },
+        {
+            "name": "stand",
+            "number": 2
+        },
+        {
+            "name": "eat",
+            "number": 1
+        },
+        {
+            "name": "find",
+            "number": 1
+        },
+        {
+            "name": "soak",
+            "number": 1
+        },
+        {
+            "name": "type",
+            "number": 1
+        }
+    ]
+}

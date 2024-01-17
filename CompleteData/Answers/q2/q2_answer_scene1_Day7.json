@@ -1,0 +1,94 @@
+{
+    "name": "Test Test",
+    "senario": "scene1_Day7",
+    "answers": [
+        {
+            "name": "walk",
+            "number": 89
+        },
+        {
+            "name": "grab",
+            "number": 33
+        },
+        {
+            "name": "put",
+            "number": 22
+        },
+        {
+            "name": "drink",
+            "number": 9
+        },
+        {
+            "name": "switchOn",
+            "number": 7
+        },
+        {
+            "name": "switchOff",
+            "number": 7
+        },
+        {
+            "name": "wipe",
+            "number": 4
+        },
+        {
+            "name": "sit",
+            "number": 3
+        },
+        {
+            "name": "stand",
+            "number": 3
+        },
+        {
+            "name": "find",
+            "number": 3
+        },
+        {
+            "name": "open",
+            "number": 3
+        },
+        {
+            "name": "close",
+            "number": 3
+        },
+        {
+            "name": "soak",
+            "number": 3
+        },
+        {
+            "name": "stretch",
+            "number": 3
+        },
+        {
+            "name": "turnTo",
+            "number": 2
+        },
+        {
+            "name": "pour",
+            "number": 2
+        },
+        {
+            "name": "squeeze",
+            "number": 2
+        },
+        {
+            "name": "lookAt",
+            "number": 1
+        },
+        {
+            "name": "brush",
+            "number": 1
+        },
+        {
+            "name": "rinse",
+            "number": 1
+        },
+        {
+            "name": "putIn",
+            "number": 1
+        },
+        {
+            "name": "text",
+            "number": 1
+        }
+    ]
+}
