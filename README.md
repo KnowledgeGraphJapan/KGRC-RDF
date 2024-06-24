@@ -29,17 +29,17 @@
 ## Dataset_Composition
 - [Videos](./Movie)
   - The videos are in mp4 format
-  - The videos consist of 709 action scenarios
+  - The videos consist of 706 action scenarios
   - For each scenario, there are three types of videos: a character rear view (file name ending in 0), an indoor camera switching view (file name ending in 1), and a fixed camera view placed in each corner of the room (file name ending in 2-5).
   - For each action scenario, we generated data for a minimum of 1 to a maximum of 7 patterns with different room layouts (scenes).
-  - In total, there are 1,224 videos.
+  - In total, there are 3,530 videos.
   - Videos with slowly moving characters simulate the movements of elderly people.
 
 - [Scene Graphs](./CompleteData/SceneGraph)
   - The scene graphs are in Action Genome format.
 - [Knowledge Graphs](./CompleteData/RDF)
   - The knowledge graphs are in RDF format.
-  - The knowledge graphs consist of 709 knowledge graphs corresponding to videos, along with their their schema and location supplement information
+  - The knowledge graphs consist of 706 knowledge graphs corresponding to videos, along with their their schema and location supplement information
   - The schema is described below
   - [SPARQL endpoints](https://kgrc4si.home.kg:7200/sparql) and [query examples](https://github.com/KnowledgeGraphJapan/KGRC-RDF/tree/kgrc4si#%E3%83%8A%E3%83%AC%E3%83%83%E3%82%B8%E3%82%B0%E3%83%A9%E3%83%95%E3%81%AE%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95) are available
 - [Script Data](./Program)
