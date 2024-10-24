@@ -441,6 +441,10 @@ Result
 This dataset was created using our proposed system "[VirtualHome2KG](https://github.com/aistairc/VirtualHome2KG/blob/main/README.md)."
 For more information, please refer to the document.
 
+### How to visualize the knowledge graphs
+A visualization tool is available.
+[https://github.com/aistairc/virtualhome2kg_visualization](https://github.com/aistairc/virtualhome2kg_visualization)
+
 ## References
 - Egami, S., Ugai, T., Oono, M., Kitamura, K., Fukuda.: Synthesizing Event-centric Knowledge Graphs of Daily Activities using Virtual Space. IEEE Access, Vol. 11, pp.23857-23873. doi: [https://doi.org/10.1109/ACCESS.2023.3253807](https://doi.org/10.1109/ACCESS.2023.3253807) (2023)
 - Egami, S., Nishimura, S., Fukuda, K.: A Framework for Constructing and Augmenting Knowledge Graphs using Virtual Space: Towards Analysis of Daily Activities. Proceedings of the 33rd IEEE International Conference on Tools with Artificial Intelligence. pp.1226-1230 (2021) [[IEEE Xplore]](https://ieeexplore.ieee.org/document/9643400)
