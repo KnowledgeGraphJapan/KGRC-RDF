@@ -30,7 +30,12 @@
 - [Videos](./Movie)
   - The videos are in mp4 format
   - The videos consist of 706 action scenarios
-  - For each scenario, there are three types of videos: a character rear view (file name ending in 0), an indoor camera switching view (file name ending in 1), and a fixed camera view placed in each corner of the room (file name ending in 2-5).
+  - For each scenario, there are five types of videos. The suffix of the file name is...
+    - 0: PERSON_FROM_BACK mode (the camera is located at the back of the avatar's head)
+    - 1: default mode (camera switching view)
+    - 2: [SPECIFIED](https://github.com/aistairc/virtualhome_aist/tree/main/simulation/unity_simulator#specified) mode (single video with switching of two or more specified cameras)
+    - 3: [DIAGONAL1](https://github.com/aistairc/virtualhome_aist/tree/main/simulation/unity_simulator#diagonal1-and-diagonal2) mode (70-degree angle for every rooms agent passed through)
+    - 4: [DIAGONAL2](https://github.com/aistairc/virtualhome_aist/tree/main/simulation/unity_simulator#diagonal1-and-diagonal2) mode (70-degree angle for every rooms agent passed through)
   - For each action scenario, we generated data for a minimum of 1 to a maximum of 7 patterns with different room layouts (scenes).
   - In total, there are 3,530 videos.
   - Videos with slowly moving characters simulate the movements of elderly people.
